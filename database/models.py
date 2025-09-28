@@ -1,3 +1,4 @@
+import uuid
 from sqlalchemy import Boolean, Column, Integer, String, Text, TIMESTAMP, JSON, func
 from database.database import Base
 class User(Base):
@@ -56,20 +57,35 @@ class Attachment(Base):
     index = Column(Integer, nullable=False)
     uploaded_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
 
-class PasswordResetToken(Base):
-    __tablename__ = "password_reset_tokens"
+class OTP:
+    __tablename__ = "otps"
 
-    token_id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, nullable=False)
-    token = Column(String(255), unique=True, nullable=False)
-    expires_at = Column(TIMESTAMP, nullable=False, default=func.now() + func.interval('30 minutes'))
+    otp_id = Column(Integer, primary_key=True)
+    username = Column(String, nullable=False)
+    otp_code = Column(String(6), nullable=False)
+    jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
+    expires_at = Column(TIMESTAMP, nullable=False)
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    purpose = Column(String(50), nullable=False)
+    trials = Column(Integer, default=5, nullable=False)
+    is_token_used = Column(Boolean, default=False, nullable=False)
+
+# class PasswordResetToken(Base):
+#     __tablename__ = "password_reset_tokens"
+
+#     token_id = Column(Integer, primary_key=True)
+#     user_id = Column(Integer, nullable=False)
+#     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
+#     expires_at = Column(TIMESTAMP, nullable=False, default=func.now() + func.interval('5 minutes'))
+#     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+#     is_used = Column(Boolean, default=False, nullable=False)
 
 class RefreshToken(Base):
     __tablename__ = "refresh_tokens"
 
-    token_id = Column(Integer, primary_key=True, index=True)
+    token_id = Column(Integer, primary_key=True)
     user_id = Column(Integer, nullable=False)
-    token = Column(String(255), unique=True, nullable=False)
+    jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
     expires_at = Column(TIMESTAMP, nullable=False, default=func.now() + func.interval('30 days'))
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    is_revoked = Column(Boolean, default=False, nullable=False)

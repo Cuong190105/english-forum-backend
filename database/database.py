@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.ext.declarative import declarative_base
 from fastapi import Depends
 from typing import Annotated
-from config import DB_HOST, DB_PORT, DB_USERNAME, DB_PASSWORD, DB_DATABASE
+from configs.config_db import *
 
 DB_URL = 'mysql+pymysql://'\
     + DB_USERNAME + ':' + DB_PASSWORD\

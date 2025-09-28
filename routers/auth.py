@@ -1,97 +1,22 @@
-from fastapi import APIRouter, Form, HTTPException, status, Depends
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-import jwt
+from random import random
+import uuid
+from fastapi import APIRouter, HTTPException, status, Depends
+from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
 from database.database import Db_dependency
 from database import models
 import bcrypt
 from datetime import datetime, timedelta
 from typing import Annotated
-from config import SECRET_ACCESS_KEY, SECRET_REFRESH_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES, REFRESH_TOKEN_EXPIRE_DAYS
+from utilities import auth_helper, mailer
+from configs.config_auth import *
 
 class RegisterRequest(BaseModel):
     username: str
     password: str
     email: str
 
-class Token(BaseModel):
-    access_token: str
-    token_type: str
-
-class TokenData(BaseModel):
-    user_id: int | None = None
-    exp: datetime | None = None
-
 router = APIRouter()
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
-
-def createToken(data: dict, expires_delta: timedelta = ACCESS_TOKEN_EXPIRE_MINUTES, secret_key: str = SECRET_ACCESS_KEY):
-    """Generate a JWT token."""
-
-    # Copy data to avoid modifying the original dictionary
-    # to_encode: dict using TokenData model
-    to_encode = data.copy()
-    expire = datetime.now(datetime.timezone.utc) + expires_delta
-    to_encode.update({"exp": expire})
-
-    # Generate the JWT token
-    encoded_jwt = jwt.encode(to_encode, secret_key, algorithm=ALGORITHM)
-    return encoded_jwt
-
-def validateToken(token: str, secret_key: str):
-    """
-    Check if the token is valid and not expired.\n
-    Return token payload on success.\n
-    Raise HTTPException if invalid or expired.
-    """
-    try:
-        payload = jwt.decode(token, secret_key, algorithms=[ALGORITHM])
-        exp = payload.get("exp")
-        if exp is None or datetime.fromtimestamp(exp) < datetime.now(datetime.timezone.utc):
-            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token expired")
-        return payload
-    except jwt.exceptions.InvalidTokenError:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-
-async def validateRefreshToken(token: str, db: Db_dependency):
-    pass
-
-async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency):
-    """
-    Get the current user from the JWT token.
-    """
-    
-    # Decode the JWT token and extract the user ID
-    payload = validateToken(token, SECRET_ACCESS_KEY)
-    user_id = payload.get("sub")
-    if user_id is None:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-    
-    # Fetch the user from the database
-    user = db.query(models.User).filter(models.User.user_id == user_id).first()
-    if user is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    return user
-
-async def getUserIdByUsername(username: str, db: Db_dependency):
-    """
-    Get user ID by username.\n
-    Returns user ID if found, else -1.
-    """
-    user = db.query(models.User).filter(models.User.username == username).first()
-    if user:
-        return user.user_id
-    return -1
-
-async def getUserIdByEmail(email: str, db: Db_dependency):
-    """
-    Get user ID by email address.\n
-    Returns user ID if found, else -1.
-    """
-    user = db.query(models.User).filter(models.User.email == email).first()
-    if user:
-        return user.user_id
-    return -1
 
 @router.post("/login", status_code=status.HTTP_200_OK)
 async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db_dependency):
@@ -106,26 +31,24 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
     """
 
     # Check if user exists by username or email
-    user_id = await getUserIdByUsername(request.username, db)
-    if user_id == -1:
-        user_id = await getUserIdByEmail(request.username, db)
-    if user_id == -1:
+    user = await auth_helper.getUserByUsername(request.username)
+    if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
     # Verify password
-    credentials = db.query(models.Credentials).filter(models.Credentials.user_id == user_id).first()
+    credentials = db.query(models.Credentials).filter(models.Credentials.user_id == user.user_id).first()
     isCorrectPassword = bcrypt.checkpw(request.password.encode('utf-8'), credentials.password_hash.encode('utf-8'))
     if isCorrectPassword == False:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Incorrect password")
     
     # Create and return access token
-    access_token = createToken(
-        data={"sub": user_id},
+    access_token = auth_helper.createToken(
+        data={"sub": user.user_id},
         expires_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES),
         secret_key=SECRET_ACCESS_KEY
     )
-    refresh_token = createToken(
-        data={"sub": user_id},
+    refresh_token = auth_helper.createToken(
+        data={"sub": user.user_id},
         expires_delta=timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS),
         secret_key=SECRET_REFRESH_KEY
     )
@@ -147,13 +70,9 @@ async def register(request: RegisterRequest, db: Db_dependency):
     """
 
     # Check if username or email already exists
-    user_id = await getUserIdByUsername(request.username, db)
-    if user_id != -1:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username already exists")
-    
-    user_id = await getUserIdByEmail(request.email, db)
-    if user_id != -1:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email already exists")
+    user = await auth_helper.getUserByUsername(request.username)
+    if user is not None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username or email already exists")
     
     # Hash the password
     salt = bcrypt.gensalt()
@@ -176,7 +95,7 @@ async def register(request: RegisterRequest, db: Db_dependency):
     new_credentials = models.Credentials(
         user_id=new_user.user_id,
         password_hash=pwhash,
-        hash_algorithm='bcrypt'
+        hash_algorithm=HASH_ALGORITHM
     )
     db.add(new_credentials)
     db.commit()
@@ -187,46 +106,131 @@ async def register(request: RegisterRequest, db: Db_dependency):
     return access_token
 
 @router.post("/refresh", status_code=status.HTTP_200_OK)
-async def refreshToken(current_user: Annotated[models.User, Depends(getUserFromToken)]):
-    access_token = createToken(
-        data={"sub": current_user.user_id},
-        expires_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES),
+async def refreshAccessToken(token: Annotated[str, Depends(auth_helper.oauth2_scheme)]):
+    user_id = await auth_helper.validateRefreshToken(token)
+    access_token = auth_helper.createToken(
+        data={"sub":user_id},
+        expires_delta=ACCESS_TOKEN_EXPIRE_MINUTES,
         secret_key=SECRET_ACCESS_KEY
     )
-    return Token(access_token=access_token, token_type="bearer")
+    return {
+        "message": "Token refreshed",
+        "access_token": access_token
+    }
 
 @router.post("/logout", status_code=status.HTTP_200_OK)
-async def logout(access_token: Annotated[str, Depends(oauth2_scheme)], refresh_token: Annotated[str, Depends(oauth2_scheme)]):
+async def logout(access_token: Annotated[str, Depends(auth_helper.oauth2_scheme)], refresh_token: Annotated[str, Depends(auth_helper.oauth2_scheme)], db: Db_dependency):
     """Handle user logout by invalidating tokens."""
-    access_payload = validateToken(access_token, SECRET_ACCESS_KEY)
-    refresh_payload = validateToken(refresh_token, SECRET_REFRESH_KEY)
 
-@router.post("/recover")
-async def recoverPassword(username: str):
-    if getUserIdByUsername(username) != -1 or getUserIdByEmail(username) != -1:
-        return {"message": "Recovery email sent"}
-    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    # Validate request
+    access_payload = auth_helper.validateToken(access_token, SECRET_ACCESS_KEY)
+    refresh_payload = auth_helper.validateToken(refresh_token, SECRET_REFRESH_KEY)
+    if access_payload.get("sub") != refresh_payload.get("sub"):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Tokens do not match")
+    
+    # Revoke refresh token in database
+    token_record = db.query(models.RefreshToken).filter(models.RefreshToken.token == refresh_token).first()
+    if token_record.is_revoked:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token invaild")
+    
+    token_record.is_revoked = True
+    db.commit()
+
+    return {"message": "Logout successful"}
+    
+@router.post("/recover", status_code=status.HTTP_200_OK)
+async def recoverPassword(username: str, db: Db_dependency):
+    """
+    Handle password recovery requests.\n
+    If the username or email exists, send a recovery email.
+    """
+    
+    # Check if user exists by username or email and then get user ID
+    user = await auth_helper.getUserByUsername(username)
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    
+    # Invalidate any existing token for password reset
+    existing_otp = db.query(models.OTP).filter(
+        models.OTP.username == username,
+        models.OTP.purpose == OTP_PASSWORD_RESET,
+    ).first()
+    if existing_otp and existing_otp.created_at + timedelta(minutes=OTP_RESEND_INTERVAL_MINUTES) < datetime.now(datetime.timezone.utc) :
+        existing_otp.is_token_used = True
+        db.commit()
+    
+    # Generate a recovery OTP
+    otp = str(random.randint(0, 999999)).left(6, '0')
+    recovery_otp = models.OTP(
+        username=username,
+        expires_at=datetime.now(datetime.timezone.utc) + timedelta(minutes=OTP_EXPIRE_MINUTES),
+        otp_code=otp,
+        uuid=str(uuid.uuid4()),
+        purpose=OTP_PASSWORD_RESET,
+        trials=OTP_MAX_TRIALS,
+        is_token_used=False
+    )
+    db.add(recovery_otp)
+    db.commit()
+
+    # Send recovery email
+    await mailer.sendOtpMail(otp, user.username, user.email, mailer.PASSWORD_RESET)
+
+    return {"message": "Recovery email sent"}
 
 @router.post("/recover/verify")
-async def verifyRecoveryToken(token: str):
-    if token == "valid_token":
-        return {"message": "Token is valid"}
-    raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid token")
+async def verifyRecoveryCode(code: str, username: str, db: Db_dependency):
+    # Look for the valid record of password reset OTP in database
+    record = db.query(models.OTP).filter(
+        models.OTP.username == username,
+        models.OTP.purpose == OTP_PASSWORD_RESET,
+    ).first()
+
+    if record is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No password reset request found")
+    
+    if record.expires_at < datetime.now(datetime.timezone.utc) or record.trials <= 0 or record.is_token_used:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="OTP expired")
+    
+    if record.otp_code != code:
+        record.trials -= 1
+        db.commit()
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid OTP. {record.trials} attempts left")
+    
+    # Invalidate the OTP after successful verification
+    record.trials = 0
+    db.commit()
+    reset_token = auth_helper.createToken(
+        data={"sub": record.username, "jti": record.jti},
+        expires_delta=timedelta(minutes=PASSWORD_RESET_TOKEN_EXPIRE_MINUTES),
+        secret_key=SECRET_RESET_KEY
+    )
+
+    return {
+        "message": "OTP verified",
+        "reset_token": reset_token
+    }
 
 @router.post("/reset")
 async def resetPassword(token: str, new_password: str, db: Db_dependency):
-    if token != "valid_token":
+    # Validate the reset token
+    payload = auth_helper.validateToken(token, SECRET_RESET_KEY)
+    record = db.query(models.OTP).filter(
+        models.OTP.jti == payload.get("jti"),
+        models.OTP.username == payload.get("sub"),
+        models.OTP.purpose == OTP_PASSWORD_RESET,
+    ).first()
+
+    if record is None or record.is_token_used:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid token")
-    
-    user_id = 1  # This should be extracted from the token in a real implementation
-    credentials = db.query(models.Credentials).filter(models.Credentials.user_id == user_id).first()
-    if not credentials:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User credentials not found")
+
+    credentials = db.query(models.Credentials).join(models.User).filter(models.User.username == record.username).first()
     
     salt = bcrypt.gensalt()
     pwhash = bcrypt.hashpw(new_password.encode('utf-8'), salt)
     
     credentials.password_hash = pwhash
+    credentials.hash_algorithm = HASH_ALGORITHM
     db.commit()
     
     return {"message": "Password reset successful"}
