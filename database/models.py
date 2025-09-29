@@ -70,15 +70,15 @@ class OTP:
     trials = Column(Integer, default=5, nullable=False)
     is_token_used = Column(Boolean, default=False, nullable=False)
 
-# class PasswordResetToken(Base):
-#     __tablename__ = "password_reset_tokens"
+class EmailChangeRequest(Base):
+    __tablename__ = "email_change_tokens"
 
-#     token_id = Column(Integer, primary_key=True)
-#     user_id = Column(Integer, nullable=False)
-#     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
-#     expires_at = Column(TIMESTAMP, nullable=False, default=func.now() + func.interval('5 minutes'))
-#     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
-#     is_used = Column(Boolean, default=False, nullable=False)
+    id = Column(Integer, primary_key=True)
+    jti = Column(String(36), nullable=False, unique=True, default=lambda: str(uuid.uuid4()))
+    user_id = Column(Integer, nullable=False)
+    new_email = Column(String(255), nullable=False)
+    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    is_revoked = Column(Boolean, nullable=False, default=False)
 
 class RefreshToken(Base):
     __tablename__ = "refresh_tokens"

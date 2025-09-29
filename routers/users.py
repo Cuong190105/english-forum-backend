@@ -1,23 +1,123 @@
+from datetime import timedelta
 from fastapi import APIRouter,  HTTPException, status, Depends
-from pydantic import BaseModel
+from pydantic import EmailStr
 from database.database import Db_dependency
-from database import models
+from database.models import User, EmailChangeRequest
 from typing import Annotated
 from sqlalchemy import func
-from .auth import getUserFromToken
-import jwt
+from utilities import account, mailer
+from configs.config_auth import Encryption, OTP_Purpose
 router = APIRouter()
 
-class User(BaseModel):
-    user_id: int
-    username: str
-    email: str
-    bio: str | None
-    avatar_url: str | None
-    email_verified_at: str
-    created_at: str
-    updated_at: str
-    
 @router.get("/users", status_code=status.HTTP_200_OK)
-async def getCurrentUser(this_user: Annotated[User, Depends(getUserFromToken)]):
+async def getCurrentUser(this_user: Annotated[User, Depends(account.getUserFromToken)]):
+    """
+    Get current user info
+    """
     return this_user
+
+@router.get("/user/{username}", status_code=status.HTTP_200_OK)
+async def getUser(username: str):
+    """
+    Get user info by username
+    """
+    return await account.getUserByUsername(username)
+
+@router.put("/user/bio", status_code=status.HTTP_200_OK)
+async def updateBio(bio: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+    """
+    Update user bio.
+    """
+    user.bio = bio
+    user.updated_at = func.now()
+    db.commit()
+    return {
+        "message": "Bio updated successfully"
+    }
+
+@router.put("/user/username", status_code=status.HTTP_200_OK)
+async def updateUsername(username: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+    """
+    Update user username.
+    """
+
+    # Check if username is unique
+    record = account.getUserByUsername(username)
+    if record is not None:
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Username already exists")
+    
+    # Update username
+    user.username = username
+    user.updated_at = func.now()
+    db.commit()
+    return {
+        "message": "Username updated successfully"
+    }
+
+@router.put("/user/email", status_code=status.HTTP_200_OK)
+async def updateEmailAddress(email: EmailStr, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+    """
+    Update user email address
+    """
+
+    # Check if email is unique
+    record = account.getUserByUsername(email)
+    if record is not None:
+        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Email already exists")
+    
+    # Send OTP to new email address for verification
+    otp = account.otpGenerator(user.username, OTP_Purpose.OTP_EMAIL_CHANGE)
+    await mailer.sendOtpMail(otp, user.username, email, mailer.PASSWORD_RESET)
+    jwt = account.createToken(
+        data={
+            "jti": otp.jti,
+            "user_id": user.user_id,
+        },
+        expires_delta=timedelta(days=365),
+        secret_key=Encryption.SECRET_RESET_KEY
+    )
+    cancel_link = "myapp.com/cancel/emailchange/" + jwt
+    await mailer.sendWarningChangingEmailMail(username=user.username, new_email=email, target_address=user.email, cancel_link=cancel_link)
+
+    # Add email change token to DB. New email will be updated only after user verify.
+    request = EmailChangeRequest(
+        user_id=user.user_id,
+        new_email=email,
+        jti=otp.jti
+    )
+
+    db.add(request)
+    db.commit()
+
+    return {
+        "message": "An OTP has been sent to the new address."
+    }
+
+@router.delete("/cancel/emailchange/{token}", status_code=status.HTTP_200_OK)
+async def cancelEmailUpdate(token: str, db: Db_dependency):
+    payload = account.validateToken(token, Encryption.SECRET_RESET_KEY)
+    request = db.query(EmailChangeRequest).filter(EmailChangeRequest.jti == payload.get("jti")).first()
+    if request is None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="URL expired")
+    
+    request.is_revoked = True
+    db.commit()
+    return {
+        "message": "Email change cancelled."
+    }
+
+@router.post("/user/email/confirm", status_code=status.HTTP_200_OK)
+async def confirmEmailUpdate(otp: str, user: Annotated[User, Depends(getCurrentUser)], db: Db_dependency):
+    # Validate OTP and get jti
+    record = account.validateOtp(otp)
+    
+    # Get email change request stored on DB before
+    request = db.query(EmailChangeRequest).filter(EmailChangeRequest.jti == record.jti, EmailChangeRequest.user_id == user.user_id).first()
+    user.email = request.new_email
+    user.email_verified_at = func.now()
+    user.updated_at = func.now()
+    db.commit()
+
+    return {
+        "message": "Email updated successfully"
+    }
