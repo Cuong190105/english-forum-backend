@@ -20,8 +20,8 @@ class User(Base):
 
     # _________Relationship_____________
     credential = relationship("Credentials", back_populates="user")
-    post = relationship("Post", back_populates="author")
-    comment = relationship("Comment", back_populates="author")
+    posts = relationship("Post", back_populates="author")
+    comments = relationship("Comment", back_populates="author")
 
 
 class Credentials(Base):
@@ -87,15 +87,15 @@ class Attachment(Base):
     # _________Relationship_____________
     post = relationship("Post", back_populates="attachments")
 
-class OTP:
+class OTP(Base):
     __tablename__ = "otps"
 
     # _________Fields_____________
     otp_id = Column(Integer, primary_key=True)
-    username = Column(String, nullable=False)
+    username = Column(String(255), nullable=False)
     otp_code = Column(String(6), nullable=False)
     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
-    expires_at = Column(TIMESTAMP, nullable=False)
+    expires_at = Column(TIMESTAMP, nullable=False, server_onupdate=None)
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
     purpose = Column(String(50), nullable=False)
     trials = Column(Integer, default=5, nullable=False)

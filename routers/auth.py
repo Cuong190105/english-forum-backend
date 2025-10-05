@@ -1,6 +1,6 @@
 from random import random
 import uuid
-from fastapi import APIRouter, HTTPException, status, Depends
+from fastapi import APIRouter, HTTPException, status, Depends, Form, Query
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel, EmailStr
 from database.database import Db_dependency
@@ -12,8 +12,8 @@ from utilities import account, mailer
 from configs.config_auth import *
 
 class RegisterRequest(BaseModel):
-    username: str
-    password: str
+    username: Annotated[str, Query(min_length=8, max_length=50)]
+    password: Annotated[str, Query(min_length=8, max_length=255)]
     email: EmailStr
 
 router = APIRouter()
@@ -65,7 +65,7 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
         user_id=user.user_id,
         jti=jti,
         created_at=now,
-        expired_at=now + timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS)
+        expires_at=now + timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS)
     )
     db.add(rftoken)
     db.commit()
@@ -76,7 +76,7 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
     }
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
-async def register(request: RegisterRequest, db: Db_dependency):
+async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependency):
     """
     Handle user registration requests.
     Request body must include:
@@ -141,14 +141,27 @@ async def verify_account(this_user: Annotated[models.User, Depends(account.getUs
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email verified before")
 
     # Validate OTP
-    account.validateOtp(otp, this_user.username, OTP_Purpose.OTP_REGISTER, db)
+    await account.validateOtp(otp, this_user.username, OTP_Purpose.OTP_REGISTER, db)
 
     # If OTP is valid, update email verified status
-    this_user.email_verified_at = datetime.now(datetime.timezone.utc)
+    this_user.email_verified_at = datetime.now(timezone.utc)
     db.commit()
 
     return {
         "message": "Email has been verified successfully."
+    }
+
+@router.post("/register/resend", status_code=status.HTTP_200_OK)
+async def resend_verification_email(this_user: Annotated[models.User, Depends(account.getUserFromToken)], db: Db_dependency):
+    # If this user's email address is verified, tell user to not verify again
+    if this_user.email_verified_at != None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email verified before")
+    
+    otp = account.generateOtp(this_user.username, OTP_Purpose.OTP_REGISTER, db)
+    await mailer.sendOtpMail(otp.otp_code, this_user.username, this_user.email, mailer.REGISTER)
+
+    return {
+        "message": "Verification email resent"
     }
 
 @router.post("/refresh", status_code=status.HTTP_200_OK)
