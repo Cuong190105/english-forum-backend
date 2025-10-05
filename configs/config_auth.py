@@ -25,3 +25,4 @@ class OTP_Purpose:
     OTP_PASSWORD_RESET = "password_reset"
     OTP_LOGIN = "login"
     OTP_EMAIL_CHANGE = "email_change"
+    OTP_REGISTER = "register"

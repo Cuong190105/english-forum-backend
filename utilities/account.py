@@ -2,6 +2,7 @@ import jwt
 from database.database import Db_dependency
 from fastapi import HTTPException, status, Depends
 from fastapi.security import OAuth2PasswordBearer
+from pydantic import BaseModel
 from datetime import datetime, timedelta, timezone
 from typing import Annotated
 from database import models
@@ -9,7 +10,7 @@ from random import randint
 from configs.config_auth import Encryption, Duration
 import uuid
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
 
 async def getUserByUsername(username: str, db: Db_dependency):
     """
@@ -41,26 +42,15 @@ def validateToken(token: str, secret_key: str):
     Raise HTTPException if invalid or expired.
     """
     try:
-        payload = jwt.decode(token, secret_key, algorithms=[Encryption.ALGORITHM])
+
+        payload = jwt.decode(jwt=token, key=secret_key, algorithms=[Encryption.ALGORITHM])
         exp = payload.get("exp")
-        if exp is None or datetime.fromtimestamp(exp) < datetime.now(datetime.timezone.utc):
+        if exp is None or datetime.fromtimestamp(exp, timezone.utc) < datetime.now(timezone.utc):
             raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token expired")
         return payload
-    except jwt.exceptions.InvalidTokenError:
+    except jwt.exceptions.InvalidTokenError as e:
+        print(e)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-
-async def validateRefreshToken(token: str, db: Db_dependency):
-    payload = validateToken(token)
-    user_id = db.query(models.RefreshToken).filter(
-        models.RefreshToken.jti == payload.get("jti"),
-        models.RefreshToken.expires_at > datetime.now(timezone.utc),
-        models.RefreshToken.is_revoked == False
-    ).first()
-
-    if user_id is None:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid token")
-    
-    return user_id
 
 async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency):
     """
@@ -77,9 +67,11 @@ async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db
     user = db.query(models.User).filter(models.User.user_id == user_id).first()
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    if user.email_verified_at is None:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="You have to verify your email before using the app")
     return user
 
-def otpGenerator(username: str, purpose: str, db: Db_dependency):
+def generateOtp(username: str, purpose: str, db: Db_dependency):
     """
     Generate an OTP for security purposes.\n
     username: username from user requesting OTP.\n

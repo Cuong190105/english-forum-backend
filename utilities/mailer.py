@@ -7,6 +7,7 @@ from configs.config_mail import *
 EMAIL_CHANGE = "thay đổi email"
 PASSWORD_RESET = "khôi phục mật khẩu"
 LOGIN = "đăng nhập"
+REGISTER = "đăng ký"
 
 async def __send(content: str, target: str):
     try:
@@ -26,6 +27,12 @@ async def __send(content: str, target: str):
 
 async def sendOtpMail(otp: str, username: str, target_address: str, request_type: str):
     warning = "vui lòng bỏ qua email này" if request_type == PASSWORD_RESET else "chúng tôi khuyên bạn nên thay đổi mật khẩu của mình ngay lập tức"
+    
+    if request_type == REGISTER:
+        message = "Chào mừng bạn đến với English Forum. Để tiếp tục, bạn cần nhập mã xác minh để chắc chắn rằng bạn có thể truy cập được vào địa chỉ email này"
+    else:
+        message = f"Chúng tôi vừa nhận được yêu cầu {request_type} cho tài khoản của bạn"
+    
     content = f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -37,7 +44,7 @@ async def sendOtpMail(otp: str, username: str, target_address: str, request_type
         <body>
             <div class="card" style="width: 400px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; font-family: Arial, sans-serif;">
                 <p class="greetings">Xin chào {username},</p>
-                <p class="message">Chúng tôi vừa nhận được yêu cầu {request_type} cho tài khoản của bạn. Dưới đây là mã xác minh:</p>
+                <p class="message">{message}. Dưới đây là mã xác minh:</p>
                 <div class="otp" style="border: 1px solid black; border-radius: 5px; width: 200px; left:100px; position: relative; align-items: center;">
                     <h2 style="text-align: center; margin: 10px 0; letter-spacing: 5px;">{otp}</h2>
                 </div>

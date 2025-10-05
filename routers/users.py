@@ -3,28 +3,29 @@ from fastapi import APIRouter,  HTTPException, status, Depends
 from pydantic import EmailStr
 from database.database import Db_dependency
 from database.models import User, EmailChangeRequest
+from database.outputmodel import SimpleUser
 from typing import Annotated
 from sqlalchemy import func
 from utilities import account, mailer
 from configs.config_auth import Encryption, OTP_Purpose
 router = APIRouter()
 
-@router.get("/users", status_code=status.HTTP_200_OK)
-async def getCurrentUser(this_user: Annotated[User, Depends(account.getUserFromToken)]):
+@router.get("/users", status_code=status.HTTP_200_OK, response_model=SimpleUser)
+async def get_current_user(this_user: Annotated[User, Depends(account.getUserFromToken)]):
     """
     Get current user info
     """
-    return this_user
+    return SimpleUser(this_user)
 
-@router.get("/user/{username}", status_code=status.HTTP_200_OK)
-async def getUser(username: str):
+@router.get("/user/{username}", status_code=status.HTTP_200_OK, response_model=SimpleUser)
+async def get_user(this_user: Annotated[User, Depends(account.getUserFromToken)], username: str):
     """
     Get user info by username
     """
-    return await account.getUserByUsername(username)
+    return await SimpleUser(account.getUserByUsername(username))
 
 @router.put("/user/bio", status_code=status.HTTP_200_OK)
-async def updateBio(bio: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def update_bio(bio: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
     """
     Update user bio.
     """
@@ -36,7 +37,7 @@ async def updateBio(bio: str, user: Annotated[User, Depends(account.getUserFromT
     }
 
 @router.put("/user/username", status_code=status.HTTP_200_OK)
-async def updateUsername(username: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def update_username(username: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
     """
     Update user username.
     """
@@ -55,7 +56,7 @@ async def updateUsername(username: str, user: Annotated[User, Depends(account.ge
     }
 
 @router.put("/user/email", status_code=status.HTTP_200_OK)
-async def updateEmailAddress(email: EmailStr, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def update_email_address(email: EmailStr, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
     """
     Update user email address
     """
@@ -94,7 +95,10 @@ async def updateEmailAddress(email: EmailStr, user: Annotated[User, Depends(acco
     }
 
 @router.delete("/cancel/emailchange/{token}", status_code=status.HTTP_200_OK)
-async def cancelEmailUpdate(token: str, db: Db_dependency):
+async def cancel_mail_update(token: str, db: Db_dependency):
+    """
+    Cancel email change request.
+    """
     payload = account.validateToken(token, Encryption.SECRET_RESET_KEY)
     request = db.query(EmailChangeRequest).filter(EmailChangeRequest.jti == payload.get("jti")).first()
     if request is None:
@@ -107,7 +111,11 @@ async def cancelEmailUpdate(token: str, db: Db_dependency):
     }
 
 @router.post("/user/email/confirm", status_code=status.HTTP_200_OK)
-async def confirmEmailUpdate(otp: str, user: Annotated[User, Depends(getCurrentUser)], db: Db_dependency):
+async def confirm_email_update(otp: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+    """
+    Confirm email change request and update new email address.
+    """
+    
     # Validate OTP and get jti
     record = account.validateOtp(otp)
     

@@ -19,7 +19,6 @@ class Credentials(Base):
     credential_id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, unique=True, nullable=False)
     password_hash = Column(String(255), nullable=False)
-    # salt = Column(String(255), nullable=False)
     hash_algorithm = Column(String(50), nullable=False)
 
 class Post(Base):
@@ -32,6 +31,7 @@ class Post(Base):
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
     updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
     vote = Column(Integer, default=0, nullable=False)
+    comment_count = Column(Integer, default=0, nullable=False)
     is_deleted = Column(Boolean, default=False, nullable=False)
 
 class Comment(Base):
@@ -86,6 +86,6 @@ class RefreshToken(Base):
     token_id = Column(Integer, primary_key=True)
     user_id = Column(Integer, nullable=False)
     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
-    expires_at = Column(TIMESTAMP, nullable=False, default=func.now() + func.interval('30 days'))
+    expires_at = Column(TIMESTAMP, nullable=False, server_default=func.now() + func.interval('30 days'))
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
     is_revoked = Column(Boolean, default=False, nullable=False)

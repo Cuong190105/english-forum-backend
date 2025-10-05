@@ -31,7 +31,7 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
     """
 
     # Check if user exists by username or email
-    user = await account.getUserByUsername(request.username)
+    user = await account.getUserByUsername(request.username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
@@ -42,16 +42,30 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Incorrect password")
     
     # Create and return access token
+    # Token-per-device login, each device is assigned a UUID for management. 
+    jti = str(uuid.uuid4())
     access_token = account.createToken(
-        data={"sub": user.user_id},
+        data={
+            "sub": str(user.user_id),
+            "jti": jti
+        },
         expires_delta=timedelta(minutes=Duration.ACCESS_TOKEN_EXPIRE_MINUTES),
         secret_key=Encryption.SECRET_ACCESS_KEY
     )
     refresh_token = account.createToken(
-        data={"sub": user.user_id},
+        data={
+            "sub": str(user.user_id),
+            "jti": jti
+        },
         expires_delta=timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS),
         secret_key=Encryption.SECRET_REFRESH_KEY
     )
+    rftoken = models.RefreshToken(
+        user_id=user.user_id,
+        jti=jti
+    )
+    db.add(rftoken)
+    db.commit()
     return {
         "access_token": access_token,
         "token_type": "bearer",
@@ -65,14 +79,15 @@ async def register(request: RegisterRequest, db: Db_dependency):
     Request body must include:
     - username: str
     - password: str
-    - email: str
-    On success, 
+    - email: str\n
+    On success, an email verification mail will be sent to user.\n
+    On failure, return status code with detail.
     """
 
     # Check if username or email already exists
-    user = await account.getUserByUsername(request.username)
+    user = await account.getUserByUsername(request.username, db)
     if user is None:
-        await account.getUserByUsername(request.email)
+        await account.getUserByUsername(request.email, db)
     if user is not None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username or email already exists")
     
@@ -101,17 +116,55 @@ async def register(request: RegisterRequest, db: Db_dependency):
     )
     db.add(new_credentials)
     db.commit()
+
+    # Send account verification OTP
+    otp = account.generateOtp(new_user.username, OTP_Purpose.OTP_REGISTER, db)
+    await mailer.sendOtpMail(otp.otp_code, new_user.username, new_user.email, mailer.REGISTER)
     
     # Automatically log in the user after registration
-    access_token = await login(OAuth2PasswordRequestForm(username=request.username, password=request.password, scope=""), db)
+    login_tokens = await login(OAuth2PasswordRequestForm(username=request.username, password=request.password, scope=""), db)
 
-    return access_token
+    return login_tokens
+
+@router.post("/register/verify", status_code=status.HTTP_200_OK)
+async def verify_account(this_user: Annotated[models.User, Depends(account.getUserFromToken)], otp: str, db: Db_dependency):
+    """
+    Verify email address of newly created account.
+    """
+
+    # If this user's email address is verified, tell user to not verify again
+    if this_user.email_verified_at != None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email verified before")
+
+    # Validate OTP
+    account.validateOtp(otp, this_user.username, OTP_Purpose.OTP_REGISTER, db)
+
+    # If OTP is valid, update email verified status
+    this_user.email_verified_at = datetime.now(datetime.timezone.utc)
+    db.commit()
+
+    return {
+        "message": "Email has been verified successfully."
+    }
 
 @router.post("/refresh", status_code=status.HTTP_200_OK)
-async def refreshAccessToken(token: Annotated[str, Depends(account.oauth2_scheme)]):
-    user_id = await account.validateRefreshToken(token)
+async def refresh_access_token(rf_token: str, db: Db_dependency):
+    payload = account.validateToken(rf_token, Encryption.SECRET_REFRESH_KEY)
+    record = db.query(models.RefreshToken).filter(
+        models.RefreshToken.jti == payload.get("jti"),
+        models.RefreshToken.user_id == payload.get("user_id"),
+        models.RefreshToken.expires_at > datetime.now(datetime.timezone.utc),
+        models.RefreshToken.is_revoked == False
+    ).first()
+
+    if record is None:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
+    
     access_token = account.createToken(
-        data={"sub":user_id},
+        data={
+            "sub": str(record.user_id),
+            "jti": record.jti,
+        },
         expires_delta=Duration.ACCESS_TOKEN_EXPIRE_MINUTES,
         secret_key=Encryption.SECRET_ACCESS_KEY
     )
@@ -121,38 +174,49 @@ async def refreshAccessToken(token: Annotated[str, Depends(account.oauth2_scheme
     }
 
 @router.post("/logout", status_code=status.HTTP_200_OK)
-async def logout(access_token: Annotated[str, Depends(account.oauth2_scheme)], refresh_token: Annotated[str, Depends(account.oauth2_scheme)], db: Db_dependency):
+async def logout(token: Annotated[str, Depends(account.oauth2_scheme)], db: Db_dependency):
     """Handle user logout by invalidating tokens."""
 
-    # Validate request
-    access_payload = account.validateToken(access_token, Encryption.SECRET_ACCESS_KEY)
-    refresh_payload = account.validateToken(refresh_token, Encryption.SECRET_REFRESH_KEY)
-    if access_payload.get("sub") != refresh_payload.get("sub"):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Tokens do not match")
+    payload = account.validateToken(token, Encryption.SECRET_ACCESS_KEY)
+
+    print(payload)
+    # Get device UUID as JTI in token to determine which device to be logged out.
+    jti = payload.get("jti")
+    user_id = payload.get("sub")
+    if jti is None or user_id is None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid token")
+    
+    # Get refresh token corresponding to the device sending request
+    record = db.query(models.RefreshToken).filter(
+        models.RefreshToken.jti == jti,
+        models.RefreshToken.user_id == int(user_id),
+    ).first()
+
+    if record is None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Token not found")
     
     # Revoke refresh token in database
-    token_record = db.query(models.RefreshToken).filter(models.RefreshToken.token == refresh_token).first()
-    if token_record.is_revoked:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token invaild")
+    if record.is_revoked:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token expired")
     
-    token_record.is_revoked = True
+    record.is_revoked = True
     db.commit()
 
     return {"message": "Logout successful"}
     
 @router.post("/recover", status_code=status.HTTP_200_OK)
-async def recoverPassword(username: str, db: Db_dependency):
+async def recover_password(username: str, db: Db_dependency):
     """
     Handle password recovery requests.\n
     If the username or email exists, send a recovery email.
     """
     
     # Check if user exists by username or email and then get user ID
-    user = await account.getUserByUsername(username)
+    user = await account.getUserByUsername(username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    otp = account.otpGenerator(user.username, OTP_Purpose.OTP_PASSWORD_RESET)
+    otp = account.generateOtp(user.username, OTP_Purpose.OTP_PASSWORD_RESET, db)
 
     # Send recovery email
     await mailer.sendOtpMail(otp, user.username, user.email, mailer.PASSWORD_RESET)
@@ -160,8 +224,8 @@ async def recoverPassword(username: str, db: Db_dependency):
     return {"message": "Recovery email sent"}
 
 @router.post("/recover/verify")
-async def verifyRecoveryCode(otp: str, username: str, db: Db_dependency):
-    record = account.validateOtp(otp, username, OTP_Purpose.OTP_PASSWORD_RESET)
+async def verify_recovery_code(otp: str, username: str, db: Db_dependency):
+    record = account.validateOtp(otp, username, OTP_Purpose.OTP_PASSWORD_RESET, db)
     reset_token = account.createToken(
         data={"sub": record.username, "jti": record.jti},
         expires_delta=timedelta(minutes=Duration.PASSWORD_RESET_TOKEN_EXPIRE_MINUTES),
@@ -174,7 +238,7 @@ async def verifyRecoveryCode(otp: str, username: str, db: Db_dependency):
     }
 
 @router.post("/reset")
-async def resetPassword(token: str, new_password: str, db: Db_dependency):
+async def reset_password(token: str, new_password: str, db: Db_dependency):
     # Validate the reset token
     payload = account.validateToken(token, Encryption.SECRET_RESET_KEY)
     record = db.query(models.OTP).filter(
