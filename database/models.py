@@ -57,7 +57,7 @@ class Attachment(Base):
     index = Column(Integer, nullable=False)
     uploaded_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
 
-class OTP:
+class OTP(Base):
     __tablename__ = "otps"
 
     otp_id = Column(Integer, primary_key=True)

@@ -1,11 +1,13 @@
 from fastapi import FastAPI
 from routers import auth, users
+from routers import ai
 from database import database
 # from pydantic import BaseModel
 app = FastAPI()
 database.create_db_and_tables()
 app.include_router(auth.router)
 app.include_router(users.router)
+app.include_router(ai.router)
 # class Attachment(BaseModel):
 #     mediaId: int
 #     mediaUrl: str
