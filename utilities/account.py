@@ -52,19 +52,6 @@ def validateToken(token: str, secret_key: str):
         print(e)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
 
-# async def getUserForVerification(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency):
-#     # Decode the JWT token and extract the user ID
-#     payload = validateToken(token, Encryption.SECRET_ACCESS_KEY)
-#     user_id = payload.get("sub")
-#     if user_id is None:
-#         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-    
-#     # Fetch the user from the database
-#     user = db.query(models.User).filter(models.User.user_id == user_id).first()
-#     return user
-    
-
-
 async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency, request: Request):
     """
     Get the current user from the JWT token.

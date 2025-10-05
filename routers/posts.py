@@ -77,6 +77,9 @@ async def edit_post(this_user: Annotated[User, Depends(account.getUserFromToken)
     post.updated_at = datetime.now(timezone.utc)
     
     # TODO: Update post attachment
+    for att in post.attachments:
+        att.is_deleted=True
+    
 
     db.commit()
 
@@ -93,8 +96,14 @@ async def delete_post(this_user: Annotated[User, Depends(account.getUserFromToke
     if post is None:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="This action is not allowed")
     
+    now = datetime.now(timezone.utc)
     post.is_deleted = True
-    post.updated_at = datetime.now(timezone.utc)
+    post.updated_at = now
+    for cmt in post.comments:
+        cmt.is_deleted = True
+        cmt.updated_at = now
+    for att in post.attachments:
+        att.is_deleted = True
     db.commit()
 
     return {

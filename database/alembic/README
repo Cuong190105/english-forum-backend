@@ -1,0 +1,7 @@
+Generic single-database configuration.
+
+How to use:
+1. Update schema in models.py
+2. Cd to database directory
+3. alembic revision --autogenerate -m "Message"
+4. alembic upgrade head

@@ -1,7 +1,7 @@
 import uuid
 from sqlalchemy import Boolean, Column, Integer, String, Text, TIMESTAMP, ForeignKey, func
 from sqlalchemy.orm import relationship
-from database.database import Base
+from .database import Base
 from configs.config_auth import Duration
 from datetime import datetime, timezone, timedelta
 
@@ -83,6 +83,7 @@ class Attachment(Base):
     media_metadata = Column(Text, nullable=True)
     index = Column(Integer, nullable=False)
     uploaded_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    is_deleted = Column(Boolean, default=False, nullable=False)
 
     # _________Relationship_____________
     post = relationship("Post", back_populates="attachments")
