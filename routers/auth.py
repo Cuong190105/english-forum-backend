@@ -6,7 +6,7 @@ from pydantic import BaseModel, EmailStr
 from database.database import Db_dependency
 from database import models
 import bcrypt
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Annotated
 from utilities import account, mailer
 from configs.config_auth import *
@@ -60,9 +60,12 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
         expires_delta=timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS),
         secret_key=Encryption.SECRET_REFRESH_KEY
     )
+    now = datetime.now(timezone.utc)
     rftoken = models.RefreshToken(
         user_id=user.user_id,
-        jti=jti
+        jti=jti,
+        created_at=now,
+        expired_at=now + timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS)
     )
     db.add(rftoken)
     db.commit()
@@ -96,14 +99,15 @@ async def register(request: RegisterRequest, db: Db_dependency):
     pwhash = bcrypt.hashpw(request.password.encode('utf-8'), salt)
     
     # Create new user and credentials
+    now = datetime.now(timezone.utc)
     new_user = models.User(
         username=request.username,
         email=request.email,
         bio=None,
         avatar_url=None,
         email_verified_at=None,
-        created_at=None,
-        updated_at=None
+        created_at=now,
+        updated_at=now
     )
     db.add(new_user)
     db.commit()

@@ -94,10 +94,12 @@ def generateOtp(username: str, purpose: str, db: Db_dependency):
             db.commit()
     
     # Generate a recovery OTP
+    now=datetime.now(timezone.utc)
     otp_code = str(randint(0, 999999)).left(6, '0')
     otp = models.OTP(
         username=username,
-        expires_at=datetime.now(timezone.utc) + timedelta(minutes=Duration.OTP_EXPIRE_MINUTES),
+        created_at=now,
+        expires_at=now + timedelta(minutes=Duration.OTP_EXPIRE_MINUTES),
         otp_code=otp_code,
         uuid=str(uuid.uuid4()),
         purpose=purpose,

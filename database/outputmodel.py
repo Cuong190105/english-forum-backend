@@ -32,3 +32,10 @@ class PostWithAttachments(BaseModel):
     created_at: datetime
     is_modified: bool
     attachments: list[SimpleAttachment]
+
+class SimpleComment(BaseModel):
+    author_id: int
+    content: int
+    vote: int
+    created_at: datetime
+    is_modified: bool
