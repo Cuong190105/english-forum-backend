@@ -69,7 +69,7 @@ async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
     path = request.scope.get("route").path
-    if user.email_verified_at is None and "/register" not in path:
+    if user.email_verified_at is None and path.startswith("/register/"):
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="You have to verify your email before using the app")
     return user
 
@@ -141,3 +141,5 @@ async def validateOtp(otp: str, username: str, purpose: str, db: Db_dependency):
     db.commit()
     
     return record
+
+User_auth = Annotated[models.User, Depends(getUserFromToken)]

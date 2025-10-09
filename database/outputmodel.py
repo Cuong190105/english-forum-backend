@@ -28,6 +28,7 @@ class PostWithAttachments(BaseModel):
     title: str
     content: str
     vote: int
+    user_vote: int
     comment_count: int
     created_at: datetime
     is_modified: bool

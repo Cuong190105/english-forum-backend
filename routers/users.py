@@ -11,21 +11,21 @@ from configs.config_auth import Encryption, OTP_Purpose
 router = APIRouter()
 
 @router.get("/users", status_code=status.HTTP_200_OK, response_model=SimpleUser)
-async def get_current_user(this_user: Annotated[User, Depends(account.getUserFromToken)]):
+async def get_current_user(this_user: account.User_auth):
     """
     Get current user info
     """
     return SimpleUser(this_user)
 
 @router.get("/user/{username}", status_code=status.HTTP_200_OK, response_model=SimpleUser)
-async def get_user(this_user: Annotated[User, Depends(account.getUserFromToken)], username: str):
+async def get_user(this_user: account.User_auth, username: str):
     """
     Get user info by username
     """
     return await SimpleUser(account.getUserByUsername(username))
 
 @router.put("/user/bio", status_code=status.HTTP_200_OK)
-async def update_bio(bio: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def update_bio(bio: str, user: account.User_auth, db: Db_dependency):
     """
     Update user bio.
     """
@@ -37,7 +37,7 @@ async def update_bio(bio: str, user: Annotated[User, Depends(account.getUserFrom
     }
 
 @router.put("/user/username", status_code=status.HTTP_200_OK)
-async def update_username(username: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def update_username(username: str, user: account.User_auth, db: Db_dependency):
     """
     Update user username.
     """
@@ -56,7 +56,7 @@ async def update_username(username: str, user: Annotated[User, Depends(account.g
     }
 
 @router.put("/user/email", status_code=status.HTTP_200_OK)
-async def update_email_address(email: EmailStr, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def update_email_address(email: EmailStr, user: account.User_auth, db: Db_dependency):
     """
     Update user email address
     """
@@ -111,7 +111,7 @@ async def cancel_mail_update(token: str, db: Db_dependency):
     }
 
 @router.post("/user/email/confirm", status_code=status.HTTP_200_OK)
-async def confirm_email_update(otp: str, user: Annotated[User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def confirm_email_update(otp: str, user: account.User_auth, db: Db_dependency):
     """
     Confirm email change request and update new email address.
     """
