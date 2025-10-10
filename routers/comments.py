@@ -43,19 +43,20 @@ async def upload_comment(this_user: User_auth, post_id: int, content: str, db: D
     """
 
     # Get the post
-    post = getPost(post_id, db)
+    post = await getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     
     if content is None or content == "":
         raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail="Comment should not be empty")
     
+    # Create comment object and store in db
     new_comment = Comment(
         author_id=this_user.user_id,
         content=content
     )
 
-    new_comment.post = post
+    post.comments.append(new_comment)
     db.commit()
     return {
         "message": "Comment Uploaded"

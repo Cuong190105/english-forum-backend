@@ -85,7 +85,7 @@ class Comment(Base):
     # _________Relationship_____________
     post = relationship("Post", back_populates="comments")
     author = relationship("User", back_populates="comments")
-    votes = relationship("CommentVote", back_populates="comment", cascade="all, delete-orphan", passive_deletes=True)
+    votes = relationship("CommentVote", back_populates="comment", cascade="all, delete-orphan", passive_deletes=True, lazy="dynamic")
 
 class Attachment(Base):
     __tablename__ = "attachments"

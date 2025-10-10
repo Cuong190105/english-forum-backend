@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from typing import Annotated
+from typing import Annotated, Optional
 from fastapi import APIRouter, File, Form,  HTTPException, Query, status, Depends, UploadFile
 from pydantic import BaseModel
 from database.database import Db_dependency
@@ -15,6 +15,15 @@ class PostTextContent(BaseModel):
     title: Annotated[str, Query(min_length=1, max_length=100)]
     content: Annotated[str, Query(min_length=1)]
     tag: Annotated[str, Query(min_length=1)]
+
+    @classmethod
+    def form(
+        cls,
+        title: Annotated[str, Form()],
+        content: Annotated[str, Form()],
+        tag: Annotated[str, Form()]
+    ):
+        return cls(title=title, content=content, tag=tag)
 
 @router.get("/", status_code=status.HTTP_200_OK)
 async def get_newsfeed(this_user: User_auth):
@@ -35,7 +44,11 @@ async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
     return post
 
 @router.post("/posts/upload", status_code=status.HTTP_201_CREATED)
-async def upload_post(this_user: User_auth, db: Db_dependency, text_content: Annotated[PostTextContent, Form()], attachments: Annotated[UploadFile, File()] | None = None):
+async def upload_post(
+    this_user: User_auth, db: Db_dependency,
+    text_content: Annotated[PostTextContent, Depends(PostTextContent.form)],
+    attachments: Optional[list[UploadFile]] = File(None)
+):
     """
     Upload a post
     """
@@ -52,25 +65,35 @@ async def upload_post(this_user: User_auth, db: Db_dependency, text_content: Ann
     )
 
     # Store the attachments
+    media_name = []
     if attachments is not None:
         for index in range(len(attachments)):
-            metadata = "str"
-            att = Attachment(
-                post_id=post.post_id,
-                media_type=attachments[index].content_type,
-                media_metadata=attachments[index].headers,
-                index=index
-            )
-            post.attachments.append(att)
+            # metadata = "str"
+            # att = Attachment(
+            #     post_id=post.post_id,
+            #     media_type=attachments[index].content_type,
+            #     media_metadata=attachments[index].headers,
+            #     index=index
+            # )
+            # post.attachments.append(att)
+            media_name.append(attachments[index].filename)
+    else:
+        print("none")
     db.add(post)
     db.commit()
 
     return {
-        "message": "Post created"
+        "message": "Post created",
+        "filename": media_name,
     }
 
 @router.put("/posts/{post_id}", status_code=status.HTTP_202_ACCEPTED)
-async def edit_post(this_user: User_auth, db: Db_dependency, post_id: int, title: str, content: str, attachments: list[UploadFile] | None = None):
+async def edit_post(
+    this_user: User_auth,
+    db: Db_dependency,
+    post_id: int,
+    text_content: Annotated[PostTextContent, Depends(PostTextContent.form)],
+    attachments: Optional[list[UploadFile]] = File(None)):
     """
     Edit a post
     """
@@ -79,19 +102,33 @@ async def edit_post(this_user: User_auth, db: Db_dependency, post_id: int, title
     post = await getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="This action is not allowed")
-    post.title = title
-    post.content = content
+    post.title = text_content.title
+    post.content = text_content.content
+    post.tag = text_content.tag
     post.updated_at = datetime.now(timezone.utc)
     
     # TODO: Update post attachment
     for att in post.attachments:
         att.is_deleted=True
     
-
+    # Store the attachments
+    media_name = []
+    if attachments is not None:
+        for index in range(len(attachments)):
+            # metadata = "str"
+            # att = Attachment(
+            #     post_id=post.post_id,
+            #     media_type=attachments[index].content_type,
+            #     media_metadata=attachments[index].headers,
+            #     index=index
+            # )
+            # post.attachments.append(att)
+            media_name.append(attachments[index].filename)
     db.commit()
 
     return {
-        "message": "Post updated successfully"
+        "message": "Post updated successfully",
+        "filename": media_name,
     }
 
 @router.delete("/posts/{post_id}", status_code=status.HTTP_200_OK)
