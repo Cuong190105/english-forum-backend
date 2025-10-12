@@ -4,10 +4,12 @@ from fastapi import APIRouter, File, Form,  HTTPException, Query, status, Depend
 from pydantic import BaseModel
 from database.database import Db_dependency
 from database.models import User, Post, Attachment, PostVote
-from database.outputmodel import PostWithAttachments, SimpleAttachment
+from database.outputmodel import OutputPost, SimpleAttachment
 from utilities.account import User_auth
 from utilities.post import getPost, getOutputPost
 from utilities.attachments import getMetadata
+from utilities.activity import logActivity
+from configs.config_activity import ActionType
 
 router = APIRouter()
 
@@ -33,7 +35,7 @@ async def get_newsfeed(this_user: User_auth):
     """
     pass
 
-@router.get("/posts/{post_id}", status_code=status.HTTP_200_OK, response_model=PostWithAttachments)
+@router.get("/posts/{post_id}", status_code=status.HTTP_200_OK, response_model=OutputPost)
 async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
     """
     Get the post by post_id
@@ -81,6 +83,9 @@ async def upload_post(
         print("none")
     db.add(post)
     db.commit()
+    db.refresh(post)
+
+    await logActivity(this_user.user_id, db, ActionType.POST, post.content, post.post_id)
 
     return {
         "message": "Post created",
@@ -161,6 +166,8 @@ async def vote_post(this_user: User_auth, post_id: int, vote_type: int, db: Db_d
     Vote type can be -1, 0, 1 for downvote, no vote or upvote
     """
 
+    VOTE_TYPE = ["novote", "upvote", "downvote"]
+
     # Check if value is valid
     if vote_type not in [-1, 0, 1]:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid value")
@@ -175,6 +182,12 @@ async def vote_post(this_user: User_auth, post_id: int, vote_type: int, db: Db_d
     if vote is None:
         vote = PostVote(user_id=this_user.user_id, post_id=post_id, value=0)
         db.add(vote)
+        db.commit()
+        db.refresh(vote)
+
+        # If this action is new, log the action
+        await logActivity(this_user.user_id, db, ActionType.VOTECOMMENT, VOTE_TYPE[vote_type], vote.vote_id, post.author_id)
+        
     post.vote_count += vote_type - vote.value
     vote.value = vote_type
     db.commit()

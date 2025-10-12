@@ -14,8 +14,8 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
 
 async def getUserByUsername(username: str, db: Db_dependency):
     """
-    Get user ID by username.\n
-    Returns user ID if found, else -1.
+    Get user by username.\n
+    Returns user if found, else None.
     """
     user = db.query(models.User).filter(models.User.username == username).first()
     if user is None:

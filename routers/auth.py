@@ -10,9 +10,10 @@ from datetime import datetime, timedelta, timezone
 from typing import Annotated
 from utilities import account, mailer
 from configs.config_auth import *
+from configs.config_validation import USERNAME_PATTERN
 
 class RegisterRequest(BaseModel):
-    username: Annotated[str, Query(min_length=8, max_length=50)]
+    username: Annotated[str, Query(pattern=USERNAME_PATTERN)]
     password: Annotated[str, Query(min_length=8, max_length=255)]
     email: EmailStr
 

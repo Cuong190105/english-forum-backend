@@ -76,6 +76,7 @@ class Comment(Base):
     comment_id = Column(Integer, primary_key=True)
     post_id = Column(ForeignKey("posts.post_id", ondelete="CASCADE"))
     author_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
+    reply_to_id = Column(ForeignKey("comments.comment_id", ondelete="CASCADE"), nullable=True)
     content = Column(Text, nullable=False)
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
     updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
@@ -85,6 +86,8 @@ class Comment(Base):
     # _________Relationship_____________
     post = relationship("Post", back_populates="comments")
     author = relationship("User", back_populates="comments")
+    reply_to = relationship("Comment", remote_side=[comment_id], back_populates="replies")
+    replies = relationship("Comment", back_populates="reply_to", cascade="all, delete-orphan", passive_deletes=True, lazy="dynamic")
     votes = relationship("CommentVote", back_populates="comment", cascade="all, delete-orphan", passive_deletes=True, lazy="dynamic")
 
 class Attachment(Base):
@@ -152,7 +155,7 @@ class Activity(Base):
     activity_id = Column(Integer, primary_key=True)
     actor_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     action = Column(Text, nullable=False)
-    target_id = Column(Integer, nullable=False)
+    action_id = Column(Integer, nullable=False)
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
 
     # _________Relationship_____________
@@ -166,7 +169,10 @@ class Notification(Base):
     noti_id = Column(Integer, primary_key=True)
     user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     activity_id = Column(ForeignKey("activities.activity_id", ondelete="CASCADE"))
-    content = Column(Text, nullable=False)
+    action_type = Column(Text, nullable=False)
+    is_read = Column(Boolean, nullable=False, default=False)
+    is_deleted = Column(Boolean, nullable=False, default=False)
+    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
     
     # _________Relationship_____________
     user = relationship("User", back_populates="notifications", single_parent=True)
@@ -186,7 +192,7 @@ class PostVote(Base):
     __tablename__ = "post_votes"
 
     # _________Fields_____________
-    rel_id = Column(Integer, primary_key=True)
+    vote_id = Column(Integer, primary_key=True)
     user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     post_id = Column(ForeignKey("posts.post_id", ondelete="CASCADE"))
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
@@ -200,7 +206,7 @@ class CommentVote(Base):
     __tablename__ = "comment_votes"
 
     # _________Fields_____________
-    rel_id = Column(Integer, primary_key=True)
+    vote_id = Column(Integer, primary_key=True)
     user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     comment_id = Column(ForeignKey("comments.comment_id", ondelete="CASCADE"))
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())

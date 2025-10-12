@@ -2,7 +2,7 @@ from datetime import timedelta
 from fastapi import APIRouter,  HTTPException, status, Depends
 from pydantic import EmailStr
 from database.database import Db_dependency
-from database.models import User, EmailChangeRequest
+from database.models import User, EmailChangeRequest, Following
 from database.outputmodel import SimpleUser
 from typing import Annotated
 from sqlalchemy import func
@@ -129,3 +129,11 @@ async def confirm_email_update(otp: str, user: account.User_auth, db: Db_depende
     return {
         "message": "Email updated successfully"
     }
+
+@router.post("/user/{user_id}/follow")
+async def follow(this_user: account.User_auth, user_id: int, db: Db_dependency):
+    user = db.query(User).filter(User.user_id == user_id).first()
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    
+    record = db.query(Following).filter(Following.follower_id == this_user.user_id, Following.following_user_id == user_id)

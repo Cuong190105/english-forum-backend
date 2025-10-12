@@ -1,10 +1,12 @@
 from datetime import datetime, timezone
 from fastapi import APIRouter,  HTTPException, status, Depends, UploadFile
+from configs.config_activity import ActionType
 from database.database import Db_dependency
 from database.models import User, Comment, CommentVote
 from database.outputmodel import SimpleComment
 from typing import Annotated
 from utilities.account import User_auth
+from utilities.activity import logActivity
 from utilities.post import getPost
 
 router = APIRouter()
@@ -37,7 +39,7 @@ async def get_post_comments(this_user: User_auth, post_id: int, db: Db_dependenc
     return comments
 
 @router.post("/posts/{post_id}/comments", status_code=status.HTTP_201_CREATED)
-async def upload_comment(this_user: User_auth, post_id: int, content: str, db: Db_dependency):
+async def upload_comment(this_user: User_auth, post_id: int, content: str, db: Db_dependency, reply_comment_id: int = None):
     """
     Upload a comment for a post
     """
@@ -56,8 +58,26 @@ async def upload_comment(this_user: User_auth, post_id: int, content: str, db: D
         content=content
     )
 
+    # Save comment and create notification
+    acttype = ActionType.COMMENT
+    target_noti_id = post.author_id
+    
+    if reply_comment_id is not None:
+        reply_to = db.query(Comment).filter(Comment.comment_id == reply_comment_id, Comment.is_deleted == False).first()
+        if reply_to is None:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Comment not found")
+
+        new_comment.reply_to_id = reply_comment_id
+        acttype = ActionType.REPLY
+        target_noti_id = reply_to.author_id
+
     post.comments.append(new_comment)
     db.commit()
+    db.refresh(new_comment)
+
+
+    await logActivity(this_user.user_id, acttype, content, new_comment.comment_id, db, target_noti_id)
+
     return {
         "message": "Comment Uploaded"
     }
@@ -95,11 +115,13 @@ async def delete_comment(this_user: User_auth, comment_id: int, db: Db_dependenc
     }
 
 @router.post("/comments/{comment_id}/vote", status_code=status.HTTP_200_OK)
-async def vote_post(this_user: User_auth, comment_id: int, vote_type: int, db: Db_dependency):
+async def vote_comment(this_user: User_auth, comment_id: int, vote_type: int, db: Db_dependency):
     """
     Change user's vote of a comment
     Vote type can be -1, 0, 1 for downvote, no vote or upvote
     """
+
+    VOTE_TYPE = ["novote", "upvote", "downvote"]
 
     # Check if value is valid
     if vote_type not in [-1, 0, 1]:
@@ -115,8 +137,15 @@ async def vote_post(this_user: User_auth, comment_id: int, vote_type: int, db: D
     if vote is None:
         vote = CommentVote(user_id=this_user.user_id, comment_id=comment_id, value=0)
         db.add(vote)
+        db.commit()
+        db.refresh(vote)
+
+        # If this action is new, log the action
+        await logActivity(this_user.user_id, db, ActionType.VOTECOMMENT, VOTE_TYPE[vote_type], vote.vote_id, comment.author_id)
+    
     comment.vote_count += vote_type - vote.value
     vote.value = vote_type
     db.commit()
+
 
     return {"message": "Voted"}

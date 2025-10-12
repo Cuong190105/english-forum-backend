@@ -1,6 +1,6 @@
 from database.database import Db_dependency
 from database.models import Post, Attachment, PostVote
-from database.outputmodel import PostWithAttachments, SimpleAttachment
+from database.outputmodel import OutputPost, SimpleAttachment
 
 async def getPost(post_id: int, db: Db_dependency):
     return db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
@@ -29,7 +29,7 @@ async def getOutputPost(user_id: int, post_id: int, db: Db_dependency):
             index=a.index
         ) for a in attachments
     ]
-    output = PostWithAttachments(
+    output = OutputPost(
         post_id=post.post_id,
         title=post.title,
         content=post.content,   

@@ -23,7 +23,7 @@ class SimpleAttachment(BaseModel):
     media_metadata: str
     index: int
 
-class PostWithAttachments(BaseModel):
+class OutputPost(BaseModel):
     post_id: int
     title: str
     content: str
@@ -40,3 +40,10 @@ class SimpleComment(BaseModel):
     vote: int
     created_at: datetime
     is_modified: bool
+
+class OutputNotification(BaseModel):
+    actor_id: int
+    action_type: str
+    action_id: int
+    is_read: bool
+    brief: str
