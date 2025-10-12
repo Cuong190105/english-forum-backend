@@ -1,13 +1,12 @@
-from datetime import timedelta
 from fastapi import APIRouter,  HTTPException, status, Depends
 from pydantic import EmailStr
 from database.database import Db_dependency
-from database.models import User, EmailChangeRequest, Following
+from database.models import Following
 from database.outputmodel import SimpleUser
 from routers.dependencies import User_auth
-from sqlalchemy import func
 from utilities import account, mailer, security, user
-from configs.config_auth import Encryption, OTP_Purpose
+from configs.config_auth import OTP_Purpose
+from configs.config_user import Relationship
 router = APIRouter()
 
 @router.get("/users", status_code=status.HTTP_200_OK, response_model=SimpleUser)
@@ -100,10 +99,17 @@ async def confirm_email_update(otp: str, this_user: User_auth, db: Db_dependency
         "message": "Email updated successfully"
     }
 
-@router.post("/user/{user_id}/follow")
-async def follow(this_user: User_auth, user_id: int, db: Db_dependency):
-    user = db.query(User).filter(User.user_id == user_id).first()
-    if user is None:
+@router.post("/user/{username}/{reltype}", status_code=status.HTTP_200_OK)
+async def change_relationship(this_user: User_auth, username: str, reltype: str, db: Db_dependency):
+    """
+    Change user's relationship with another user.
+    Relationship can be: follow, unfollow (block and unblock added later)
+    """
+    target = await account.getUserByUsername(username)
+    if target is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    
-    record = db.query(Following).filter(Following.follower_id == this_user.user_id, Following.following_user_id == user_id)
+    if not await user.changeRelationship(this_user, target, reltype):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Something went wrong")
+    return {
+        "message": "User followed"
+    }

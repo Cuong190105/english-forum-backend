@@ -6,7 +6,7 @@ from database.database import Db_dependency
 from database.models import User, Post, Attachment, PostVote
 from database.outputmodel import OutputPost, SimpleAttachment
 from routers.dependencies import User_auth
-from utilities.post import getPost, getOutputPost
+from utilities import post as postutils
 from utilities.attachments import getMetadata
 from utilities.activity import logActivity
 from configs.config_activity import ActionType
@@ -40,7 +40,7 @@ async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
     """
     Get the post by post_id
     """
-    post = await getOutputPost(this_user.user_id, post_id, db)
+    post = await postutils.getOutputPost(this_user.user_id, post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     return post
@@ -56,15 +56,7 @@ async def upload_post(
     """
 
     # Create a post object and get its post_id
-    now=datetime.now(timezone.utc)
-    post = Post(
-        author_id=this_user.user_id,
-        title=text_content.title,
-        content=text_content.content,
-        tag=text_content.tag,
-        created_at=now,
-        updated_at=now
-    )
+    new_post = await postutils.createPost(db, this_user, text_content.title, text_content.content, text_content.tag)
 
     # Store the attachments
     media_name = []
@@ -81,11 +73,7 @@ async def upload_post(
             media_name.append(attachments[index].filename)
     else:
         print("none")
-    db.add(post)
-    db.commit()
-    db.refresh(post)
-
-    await logActivity(this_user.user_id, db, ActionType.POST, post.content, post.post_id)
+    await logActivity(this_user.user_id, db, ActionType.POST, new_post.content, new_post.post_id)
 
     return {
         "message": "Post created",
@@ -98,20 +86,19 @@ async def edit_post(
     db: Db_dependency,
     post_id: int,
     text_content: Annotated[PostTextContent, Depends(PostTextContent.form)],
-    attachments: Optional[list[UploadFile]] = File(None)):
+    attachments: Optional[list[UploadFile]] = File(None)
+):
     """
     Edit a post
     """
 
     # Update post content
-    post = await getPost(post_id, db)
+    post = await postutils.getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="This action is not allowed")
-    post.title = text_content.title
-    post.content = text_content.content
-    post.tag = text_content.tag
-    post.updated_at = datetime.now(timezone.utc)
     
+    await postutils.updatePost(db, post, text_content.title, text_content.content, text_content.tag)
+
     # TODO: Update post attachment
     for att in post.attachments:
         att.is_deleted=True
@@ -141,19 +128,11 @@ async def delete_post(this_user: User_auth, post_id: int, db: Db_dependency):
     """
     Delete a post
     """
-    post = await getPost(post_id, db)
+    post = await postutils.getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="This action is not allowed")
     
-    now = datetime.now(timezone.utc)
-    post.is_deleted = True
-    post.updated_at = now
-    for cmt in post.comments:
-        cmt.is_deleted = True
-        cmt.updated_at = now
-    for att in post.attachments:
-        att.is_deleted = True
-    db.commit()
+    await postutils.deletePost(db, post)
 
     return {
         "message": "Post deleted"
@@ -173,7 +152,7 @@ async def vote_post(this_user: User_auth, post_id: int, vote_type: int, db: Db_d
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid value")
 
     # Check if post exists
-    post = await getPost(post_id, db)
+    post = await postutils.getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     

@@ -26,8 +26,3 @@ class OTP_Purpose:
     OTP_LOGIN = "login"
     OTP_EMAIL_CHANGE = "email_change"
     OTP_REGISTER = "register"
-
-class LoginStatus:
-    INCORRECT_USERNAME = 'Incorrect username'
-    INCORRECT_PASSWORD = 'Incorrect password'
-    SUCCESSFUL = ''

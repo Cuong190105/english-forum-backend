@@ -31,15 +31,16 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
         On failure, return status code with detail.
     """
     
-    loginStatus = await account.authenticate(db, request.username, request.password)
+    user = await account.getUserByUsername(request.username)
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Username not found")
 
-    if loginStatus.status != LoginStatus.SUCCESSFUL:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail= loginStatus.status)
+    if not await security.verifyPassword(db, user, request.password):
+        raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail="Incorrect password")
         
     # Create and return access and refresh token
     # Token-per-device login, each device is assigned a UUID for management. 
     
-    user = loginStatus.user
     refresh_token = await security.createRefreshToken(db, user)
     access_token = await security.createAccessToken(db, refresh_token)
 

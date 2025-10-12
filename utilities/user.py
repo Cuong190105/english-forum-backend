@@ -52,7 +52,7 @@ async def changeRelationship(db: Db_dependency, actor: User, target: User, relty
         db.add(new_relation)
     else:
         # Simple logic for follow and unfollow
-        if reltype == Relationship.NO_RELATION:
+        if reltype == Relationship.UNFOLLOW:
             record.unfollow = True
         elif reltype == Relationship.FOLLOW:
             record.unfollow = False

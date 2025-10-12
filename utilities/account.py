@@ -5,45 +5,6 @@ from sqlalchemy import or_
 from configs.config_auth import Encryption, Duration, LoginStatus, OTP_Purpose
 from utilities import security, mailer
 
-class LoginObject:
-    """
-    Contains info for login response.
-    Params:
-        user: models.User object containing user info
-        status: login status value from config_auth.LoginStatus enums.
-    """
-    user: models.User
-    status: str
-    
-    def __init__(self, user: models.User = None, status: str = None):
-        self.user = user
-        self.status = status
-
-async def authenticate(db: Db_dependency, username: str, password: str) -> LoginObject:
-    """
-    Authenticate user with username and password.
-
-    Parameters:
-        db: Database session object.
-        username: User's username
-        password: User's password
-
-    Returns:
-        LoginObject: Contains `models.User` object and additional status using `config_auth.LoginStatus` Enum
-    """
-
-    user = await getUserByUsername(username, db)
-    login = LoginObject(user=user)
-    if user is None:
-        login.status = LoginStatus.USER_NOT_FOUND
-    else:
-        pwhash = user.credential.password_hash
-        if await security.verifyPassword(password, pwhash):
-            login.status = LoginStatus.SUCCESSFUL
-        else:
-            login.status = LoginStatus.INCORRECT_PASSWORD
-    return login
-
 async def getUserByUsername(username: str, db: Db_dependency):
     """
     Get user by username.

@@ -264,17 +264,18 @@ def hashPassword(password: str):
 
     return pwhash
 
-async def verifyPassword(password: str, hashed_password):
+async def verifyPassword(user: models.User, password: str):
     """
-    Check if given password matches hashed password.
+    Check if given password matches hashed password in DB.
 
     Params:
+        user: User object.
         password: Plain password string.
-        hashed_password: Hashed password string.
 
     Returns:
         bool: `True` if 2 passwords match, otherwise `False`.
     """
+    hashed_password = user.credential.password_hash
     return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))
 
 async def cancelEmailChangeRequest(db: Db_dependency, token: str):
