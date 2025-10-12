@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from database.database import Db_dependency
 from database.models import User, Post, Attachment, PostVote
 from database.outputmodel import OutputPost, SimpleAttachment
-from utilities.account import User_auth
+from routers.dependencies import User_auth
 from utilities.post import getPost, getOutputPost
 from utilities.attachments import getMetadata
 from utilities.activity import logActivity

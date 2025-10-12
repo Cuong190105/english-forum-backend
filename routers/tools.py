@@ -3,7 +3,7 @@ from fastapi import APIRouter, status, HTTPException
 from database.models import Activity, User, Post, Notification
 from database.outputmodel import OutputNotification
 from database.database import Db_dependency
-from utilities.account import User_auth
+from routers.dependencies import User_auth
 router = APIRouter()
 
 @router.get("/search", status_code=status.HTTP_200_OK)

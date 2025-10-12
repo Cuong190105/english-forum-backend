@@ -19,7 +19,7 @@ class User(Base):
     updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
 
     # _________Relationship_____________
-    credential = relationship("Credentials", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
+    credential = relationship("Credentials", back_populates="user", uselist=False, cascade="all, delete-orphan", passive_deletes=True)
     posts = relationship("Post", back_populates="author", cascade="all, delete-orphan", passive_deletes=True)
     comments = relationship("Comment", back_populates="author", cascade="all, delete-orphan", passive_deletes=True)
     activities = relationship("Activity", back_populates="actor", cascade="all, delete-orphan", passive_deletes=True)

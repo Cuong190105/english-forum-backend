@@ -1,7 +1,7 @@
 from logging.config import fileConfig
 from dotenv import load_dotenv
 import os
-from configs.config_db import DB_DATABASE, DB_HOST, DB_PASSWORD, DB_PORT, DB_USERNAME
+from configs.config_db import *
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 from models import Base
@@ -19,10 +19,11 @@ config = context.config
 #     + '@' + os.getenv("DB_HOST") + ':' + os.getenv("DB_PORT")\
 #     + '/' + os.getenv("DB_DATABASE")
 
-DB_URL = 'mysql+pymysql://'\
+DB_URL = DB_CONNECTION + '+' + DB_DRIVER + '://'\
     + DB_USERNAME + ':' + DB_PASSWORD\
     + '@' + DB_HOST + ':' + DB_PORT\
     + '/' + DB_DATABASE
+
 
 config.set_main_option("sqlalchemy.url", DB_URL)
 

@@ -1,16 +1,14 @@
-from random import random
-import uuid
+from configs.config_auth import *
+from configs.config_validation import USERNAME_PATTERN
+from database.database import Db_dependency
+from database import models
+from datetime import timedelta
 from fastapi import APIRouter, HTTPException, status, Depends, Form, Query
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel, EmailStr
-from database.database import Db_dependency
-from database import models
-import bcrypt
-from datetime import datetime, timedelta, timezone
 from typing import Annotated
-from utilities import account, mailer
-from configs.config_auth import *
-from configs.config_validation import USERNAME_PATTERN
+from utilities import account, mailer, security
+from routers.dependencies import User_auth, oauth2_scheme
 
 class RegisterRequest(BaseModel):
     username: Annotated[str, Query(pattern=USERNAME_PATTERN)]
@@ -23,53 +21,28 @@ router = APIRouter()
 async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db_dependency):
     """
     Handle login requests.
-    Request form must include:
-    - username: str (can be username or email)
-    - password: str
 
-    On success, returns an access token.\n
-    On failure, raises HTTPException with appropriate status code and detail.
+    Params:
+        request: Register form with 2 fields: username and password. Email can be used as username
+        db: Database session object.
+    
+    Returns:
+        On success, return access token.\n
+        On failure, return status code with detail.
     """
+    
+    loginStatus = await account.authenticate(db, request.username, request.password)
 
-    # Check if user exists by username or email
-    user = await account.getUserByUsername(request.username, db)
-    if user is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    
-    # Verify password
-    credentials = db.query(models.Credentials).filter(models.Credentials.user_id == user.user_id).first()
-    isCorrectPassword = bcrypt.checkpw(request.password.encode('utf-8'), credentials.password_hash.encode('utf-8'))
-    if isCorrectPassword == False:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Incorrect password")
-    
-    # Create and return access token
+    if loginStatus.status != LoginStatus.SUCCESSFUL:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail= loginStatus.status)
+        
+    # Create and return access and refresh token
     # Token-per-device login, each device is assigned a UUID for management. 
-    jti = str(uuid.uuid4())
-    access_token = account.createToken(
-        data={
-            "sub": str(user.user_id),
-            "jti": jti
-        },
-        expires_delta=timedelta(minutes=Duration.ACCESS_TOKEN_EXPIRE_MINUTES),
-        secret_key=Encryption.SECRET_ACCESS_KEY
-    )
-    refresh_token = account.createToken(
-        data={
-            "sub": str(user.user_id),
-            "jti": jti
-        },
-        expires_delta=timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS),
-        secret_key=Encryption.SECRET_REFRESH_KEY
-    )
-    now = datetime.now(timezone.utc)
-    rftoken = models.RefreshToken(
-        user_id=user.user_id,
-        jti=jti,
-        created_at=now,
-        expires_at=now + timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS)
-    )
-    db.add(rftoken)
-    db.commit()
+    
+    user = loginStatus.user
+    refresh_token = await security.createRefreshToken(db, user)
+    access_token = await security.createAccessToken(db, refresh_token)
+
     return {
         "access_token": access_token,
         "token_type": "bearer",
@@ -80,12 +53,14 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
 async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependency):
     """
     Handle user registration requests.
-    Request body must include:
-    - username: str
-    - password: str
-    - email: str\n
-    On success, an email verification mail will be sent to user.\n
-    On failure, return status code with detail.
+
+    Params:
+        request: Register form with 3 fields: username, password and email.
+        db: Database session object.
+    
+    Returns:
+        On success, return access token for automatic login. A verification mail will be sent.\n
+        On failure, return status code with detail.
     """
 
     # Check if username or email already exists
@@ -95,35 +70,11 @@ async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependenc
     if user is not None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username or email already exists")
     
-    # Hash the password
-    salt = bcrypt.gensalt()
-    pwhash = bcrypt.hashpw(request.password.encode('utf-8'), salt)
-    
-    # Create new user and credentials
-    now = datetime.now(timezone.utc)
-    new_user = models.User(
-        username=request.username,
-        email=request.email,
-        bio=None,
-        avatar_url=None,
-        email_verified_at=None,
-        created_at=now,
-        updated_at=now
-    )
-    db.add(new_user)
-    db.commit()
-    db.refresh(new_user)
-    
-    new_credentials = models.Credentials(
-        user_id=new_user.user_id,
-        password_hash=pwhash,
-        hash_algorithm=Encryption.HASH_ALGORITHM
-    )
-    db.add(new_credentials)
-    db.commit()
+    # Create new user
+    new_user = await account.createNewAccount(db, request.username, request.password, request.email)
 
     # Send account verification OTP
-    otp = account.generateOtp(new_user.username, OTP_Purpose.OTP_REGISTER, db)
+    otp = security.generateOtp(new_user.username, OTP_Purpose.OTP_REGISTER, db)
     await mailer.sendOtpMail(otp.otp_code, new_user.username, new_user.email, mailer.REGISTER)
     
     # Automatically log in the user after registration
@@ -132,7 +83,7 @@ async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependenc
     return login_tokens
 
 @router.post("/register/verify", status_code=status.HTTP_200_OK)
-async def verify_account(this_user: Annotated[models.User, Depends(account.getUserFromToken)], otp: str, db: Db_dependency):
+async def verify_account(this_user: User_auth, otp: str, db: Db_dependency):
     """
     Verify email address of newly created account.
     """
@@ -141,24 +92,25 @@ async def verify_account(this_user: Annotated[models.User, Depends(account.getUs
     if this_user.email_verified_at != None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email verified before")
 
-    # Validate OTP
-    await account.validateOtp(otp, this_user.username, OTP_Purpose.OTP_REGISTER, db)
-
-    # If OTP is valid, update email verified status
-    this_user.email_verified_at = datetime.now(timezone.utc)
-    db.commit()
-
+    # Verify OTP
+    if not await account.verifyEmail(this_user, otp):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid OTP")
+    
     return {
         "message": "Email has been verified successfully."
     }
 
 @router.post("/register/resend", status_code=status.HTTP_200_OK)
-async def resend_verification_email(this_user: Annotated[models.User, Depends(account.getUserFromToken)], db: Db_dependency):
+async def resend_verification_email(this_user: User_auth, db: Db_dependency):
+    """
+    Send a new verification email.
+    """
+    
     # If this user's email address is verified, tell user to not verify again
     if this_user.email_verified_at != None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email verified before")
     
-    otp = account.generateOtp(this_user.username, OTP_Purpose.OTP_REGISTER, db)
+    otp = security.generateOtp(this_user.username, OTP_Purpose.OTP_REGISTER, db)
     await mailer.sendOtpMail(otp.otp_code, this_user.username, this_user.email, mailer.REGISTER)
 
     return {
@@ -167,58 +119,25 @@ async def resend_verification_email(this_user: Annotated[models.User, Depends(ac
 
 @router.post("/refresh", status_code=status.HTTP_200_OK)
 async def refresh_access_token(rf_token: str, db: Db_dependency):
-    payload = account.validateToken(rf_token, Encryption.SECRET_REFRESH_KEY)
-    record = db.query(models.RefreshToken).filter(
-        models.RefreshToken.jti == payload.get("jti"),
-        models.RefreshToken.user_id == payload.get("user_id"),
-        models.RefreshToken.expires_at > datetime.now(datetime.timezone.utc),
-        models.RefreshToken.is_revoked == False
-    ).first()
+    """
+    Get a new access token.
+    """
+    access_token = await security.createAccessToken(db, rf_token)
 
-    if record is None:
+    if access_token is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-    
-    access_token = account.createToken(
-        data={
-            "sub": str(record.user_id),
-            "jti": record.jti,
-        },
-        expires_delta=Duration.ACCESS_TOKEN_EXPIRE_MINUTES,
-        secret_key=Encryption.SECRET_ACCESS_KEY
-    )
+
     return {
         "message": "Token refreshed",
         "access_token": access_token
     }
 
 @router.post("/logout", status_code=status.HTTP_200_OK)
-async def logout(token: Annotated[str, Depends(account.oauth2_scheme)], db: Db_dependency):
+async def logout(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency):
     """Handle user logout by invalidating tokens."""
 
-    payload = account.validateToken(token, Encryption.SECRET_ACCESS_KEY)
-
-    print(payload)
-    # Get device UUID as JTI in token to determine which device to be logged out.
-    jti = payload.get("jti")
-    user_id = payload.get("sub")
-    if jti is None or user_id is None:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid token")
-    
-    # Get refresh token corresponding to the device sending request
-    record = db.query(models.RefreshToken).filter(
-        models.RefreshToken.jti == jti,
-        models.RefreshToken.user_id == int(user_id),
-    ).first()
-
-    if record is None:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Token not found")
-    
-    # Revoke refresh token in database
-    if record.is_revoked:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token expired")
-    
-    record.is_revoked = True
-    db.commit()
+    if not await security.invalidateRefreshToken(db, token):
+        raise(HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid token"))
 
     return {"message": "Logout successful"}
     
@@ -234,7 +153,7 @@ async def recover_password(username: str, db: Db_dependency):
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    otp = account.generateOtp(user.username, OTP_Purpose.OTP_PASSWORD_RESET, db)
+    otp = security.generateOtp(user.username, OTP_Purpose.OTP_PASSWORD_RESET, db)
 
     # Send recovery email
     await mailer.sendOtpMail(otp, user.username, user.email, mailer.PASSWORD_RESET)
@@ -243,8 +162,8 @@ async def recover_password(username: str, db: Db_dependency):
 
 @router.post("/recover/verify")
 async def verify_recovery_code(otp: str, username: str, db: Db_dependency):
-    record = account.validateOtp(otp, username, OTP_Purpose.OTP_PASSWORD_RESET, db)
-    reset_token = account.createToken(
+    record = security.validateOtp(otp, username, OTP_Purpose.OTP_PASSWORD_RESET, db)
+    reset_token = security.createToken(
         data={"sub": record.username, "jti": record.jti},
         expires_delta=timedelta(minutes=Duration.PASSWORD_RESET_TOKEN_EXPIRE_MINUTES),
         secret_key=Encryption.SECRET_RESET_KEY
@@ -257,24 +176,11 @@ async def verify_recovery_code(otp: str, username: str, db: Db_dependency):
 
 @router.post("/reset")
 async def reset_password(token: str, new_password: str, db: Db_dependency):
-    # Validate the reset token
-    payload = account.validateToken(token, Encryption.SECRET_RESET_KEY)
-    record = db.query(models.OTP).filter(
-        models.OTP.jti == payload.get("jti"),
-        models.OTP.username == payload.get("sub"),
-        models.OTP.purpose == OTP_Purpose.OTP_PASSWORD_RESET,
-    ).first()
+    """
+    Reset user password.
+    """
+    
+    if not await account.resetPassword(db, token, new_password):
+        return HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='Invalid token')
 
-    if record is None or record.is_token_used:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid token")
-
-    credentials = db.query(models.Credentials).join(models.User).filter(models.User.username == record.username).first()
-    
-    salt = bcrypt.gensalt()
-    pwhash = bcrypt.hashpw(new_password.encode('utf-8'), salt)
-    
-    credentials.password_hash = pwhash
-    credentials.hash_algorithm = Encryption.HASH_ALGORITHM
-    db.commit()
-    
     return {"message": "Password reset successful"}

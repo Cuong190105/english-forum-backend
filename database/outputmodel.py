@@ -9,13 +9,8 @@ from datetime import datetime
 
 class SimpleUser(BaseModel):
     username: str
-    bio: str
-    avatar_url: str
-
-    def __init__(self, user: User):
-        self.username = user.username
-        self.bio = user.bio
-        self.avatar_url = user.avatar_url
+    bio: str | None
+    avatar_url: str | None
 
 class SimpleAttachment(BaseModel):
     media_url: str
@@ -32,7 +27,7 @@ class OutputPost(BaseModel):
     comment_count: int
     created_at: datetime
     is_modified: bool
-    attachments: list[SimpleAttachment]
+    attachments: list[SimpleAttachment] | None
 
 class SimpleComment(BaseModel):
     author_id: int

@@ -1,145 +1,269 @@
-import jwt
 from database.database import Db_dependency
-from fastapi import HTTPException, status, Depends, Request
-from fastapi.security import OAuth2PasswordBearer
-from pydantic import BaseModel
 from datetime import datetime, timedelta, timezone
-from typing import Annotated
 from database import models
-from random import randint
-from configs.config_auth import Encryption, Duration
-import uuid
+from sqlalchemy import or_
+from configs.config_auth import Encryption, Duration, LoginStatus, OTP_Purpose
+from utilities import security, mailer
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
+class LoginObject:
+    """
+    Contains info for login response.
+    Params:
+        user: models.User object containing user info
+        status: login status value from config_auth.LoginStatus enums.
+    """
+    user: models.User
+    status: str
+    
+    def __init__(self, user: models.User = None, status: str = None):
+        self.user = user
+        self.status = status
+
+async def authenticate(db: Db_dependency, username: str, password: str) -> LoginObject:
+    """
+    Authenticate user with username and password.
+
+    Parameters:
+        db: Database session object.
+        username: User's username
+        password: User's password
+
+    Returns:
+        LoginObject: Contains `models.User` object and additional status using `config_auth.LoginStatus` Enum
+    """
+
+    user = await getUserByUsername(username, db)
+    login = LoginObject(user=user)
+    if user is None:
+        login.status = LoginStatus.USER_NOT_FOUND
+    else:
+        pwhash = user.credential.password_hash
+        if await security.verifyPassword(password, pwhash):
+            login.status = LoginStatus.SUCCESSFUL
+        else:
+            login.status = LoginStatus.INCORRECT_PASSWORD
+    return login
 
 async def getUserByUsername(username: str, db: Db_dependency):
     """
-    Get user by username.\n
-    Returns user if found, else None.
+    Get user by username.
+
+    Parameters:
+        username: The username of user. Can be username or email.
+        db: Database session object.
+
+    Returns:
+        Optional[models.User]: user if found, else None.
     """
-    user = db.query(models.User).filter(models.User.username == username).first()
-    if user is None:
-        user = db.query(models.User).filter(models.User.email == username).first()
+    user = db.query(models.User).filter(or_(models.User.username == username, models.User.email == username)).first()
     return user
 
-def createToken(data: dict, expires_delta: timedelta, secret_key: str):
-    """Generate a JWT token."""
 
-    # Copy data to avoid modifying the original dictionary
-    # to_encode: dict using TokenData model
-    to_encode = data.copy()
-    expire = datetime.now(timezone.utc) + expires_delta
-    to_encode.update({"exp": expire})
-
-    # Generate the JWT token
-    encoded_jwt = jwt.encode(to_encode, secret_key, algorithm=Encryption.ALGORITHM)
-    return encoded_jwt
-
-def validateToken(token: str, secret_key: str):
+async def verifyEmail(user: models.User, otp: str, db: Db_dependency):
     """
-    Check if the token is valid and not expired.\n
-    Return token payload on success.\n
-    Raise HTTPException if invalid or expired.
-    """
-    try:
+    Verify user email address.
 
-        payload = jwt.decode(jwt=token, key=secret_key, algorithms=[Encryption.ALGORITHM])
-        exp = payload.get("exp")
-        if exp is None or datetime.fromtimestamp(exp, timezone.utc) < datetime.now(timezone.utc):
-            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token expired")
-        return payload
-    except jwt.exceptions.InvalidTokenError as e:
-        print(e)
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-
-async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency, request: Request):
-    """
-    Get the current user from the JWT token.
-    """
+    Params:
+        user: User info
+        otp: OTP code
+        db: Database session object.
     
-    # Decode the JWT token and extract the user ID
-    payload = validateToken(token, Encryption.SECRET_ACCESS_KEY)
-    user_id = payload.get("sub")
-    if user_id is None:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-    
-    # Fetch the user from the database
-    user = db.query(models.User).filter(models.User.user_id == user_id).first()
-    if user is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    
-    path = request.scope.get("route").path
-    if user.email_verified_at is None and path.startswith("/register/"):
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="You have to verify your email before using the app")
-    return user
-
-def generateOtp(username: str, purpose: str, db: Db_dependency):
-    """
-    Generate an OTP for security purposes.\n
-    username: username from user requesting OTP.\n
-    purpose: select from OTP_Purpose Enums.\n
-    Return OTP object on success.
+    Returns:
+        bool: True if verification success, else False.
     """
 
-    # Invalidate any existing token for password reset
-    # User can only request a new OTP after 1 minute.
-    existing_otp = db.query(models.OTP).filter(
-        models.OTP.username == username,
-        models.OTP.purpose == purpose,
+    otp = await security.validateOtp(otp, user.username, OTP_Purpose.OTP_REGISTER, db)
+    
+    if otp is not None:
+        user.email_verified_at = datetime.now(timezone.utc)
+        db.commit()
+
+    return otp is not None
+
+
+async def createNewAccount(db: Db_dependency, username: str, password: str, email: str):
+    """
+    Add new account to database.
+
+    Params:
+        db: Database session object.
+        username: User's username.
+        password: User's password.
+        email: User's email.
+
+    Returns:
+        models.User: new user object.
+    """
+
+    pwhash = security.hashPassword(password)
+
+    # Create new user and credentials
+    now = datetime.now(timezone.utc)
+    new_user = models.User(
+        username=username,
+        email=email,
+        bio=None,
+        avatar_url=None,
+        email_verified_at=None,
+        created_at=now,
+        updated_at=now
+    )
+
+    new_credentials = models.Credentials(
+        user_id=new_user.user_id,
+        password_hash=pwhash,
+        hash_algorithm=Encryption.HASH_ALGORITHM
+    )
+
+    new_user.credential = new_credentials
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+
+    return new_user
+
+async def resetPassword(db: Db_dependency, token: str, new_password: str):
+    """
+    Reset user password on forget request.
+
+    Params:
+        db: Database session object.
+        token: JWT password reset token.
+        new_password: New password string
+
+    Returns:
+        bool: True if password reset, else False 
+    """
+    payload = security.validateToken(token, Encryption.SECRET_RESET_KEY)
+    record = db.query(models.OTP).filter(
+        models.OTP.jti == payload.get("jti"),
+        models.OTP.username == payload.get("sub"),
+        models.OTP.purpose == OTP_Purpose.OTP_PASSWORD_RESET,
     ).first()
 
-    if existing_otp is not None:
-        if existing_otp.created_at.replace(tzinfo=timezone.utc) + timedelta(minutes=Duration.OTP_RESEND_INTERVAL_MINUTES) > datetime.now(timezone.utc):
-            raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Too soon to request a new OTP")
-        else:
-            existing_otp.is_token_used = True
-            db.commit()
+    if record is None or record.is_token_used:
+        return False
     
-    # Generate a recovery OTP
-    now=datetime.now(timezone.utc)
-    otp_code = str(randint(0, 999999)).ljust(6, '0')
-    otp = models.OTP(
-        username=username,
-        created_at=now,
-        expires_at=now + timedelta(minutes=Duration.OTP_EXPIRE_MINUTES),
-        otp_code=otp_code,
-        jti=str(uuid.uuid4()),
-        purpose=purpose,
-        trials=Duration.OTP_MAX_TRIALS,
-        is_token_used=False
+    user = getUserByUsername(payload.get("sub"))
+    await updatePassword(db, user, new_password)
+
+    return True
+    
+
+async def updatePassword(db: Db_dependency, user: models.User, new_password: str):
+    """
+    Update user's password
+
+    Params:
+        db: Database session object
+        user: User info
+        new_password: New password string
+
+    Returns:
+        None
+    """
+
+    pwhash = security.hashPassword(new_password)
+    user.credential.password_hash = pwhash
+    user.credential.hash_algorithm = Encryption.HASH_ALGORITHM
+    db.commit()
+
+async def updateUsername(db: Db_dependency, user: models.User, new_username: str):
+    """
+    Update user's password
+
+    Params:
+        db: Database session object
+        user: User info
+        new_username: New username string
+
+    Returns:
+        None
+    """
+
+    user.username = new_username
+    db.commit()
+
+async def updateBio(db: Db_dependency, user: models.User, new_bio: str):
+    """
+    Update user's password
+
+    Params:
+        db: Database session object
+        user: User info
+        new_bio: New bio string
+
+    Returns:
+        None
+    """
+
+    user.bio = new_bio
+    db.commit()
+
+async def createEmailChangeRequest(db: Db_dependency, otp: models.OTP, user: models.User, new_email: str):
+    """
+    Store email change request into database.
+
+    Params:
+        db: Database session object.
+        otp: OTP info.
+        user: User info.
+        new_email: New email string.
+    
+    Returns:
+        None
+    """
+
+    # For security purpose, send a cancel request link to user's current email.
+    jwt = security.createToken(
+        data={
+            "jti": otp.jti,
+            "user_id": user.user_id,
+        },
+        expires_delta=timedelta(days=365),
+        secret_key=Encryption.SECRET_RESET_KEY
     )
-    db.add(otp)
+    cancel_link = "myapp.com/cancel/emailchange/" + jwt
+    await mailer.sendWarningChangingEmailMail(username=user.username, new_email=new_email, target_address=user.email, cancel_link=cancel_link)
+
+    # Add email change token to DB. New email will be updated only after user verify.
+    request = models.EmailChangeRequest(
+        user_id=user.user_id,
+        new_email=new_email,
+        jti=otp.jti
+    )
+
+    db.add(request)
     db.commit()
 
-    return otp
-
-async def validateOtp(otp: str, username: str, purpose: str, db: Db_dependency):
+async def updateEmail(db: Db_dependency, user: models.User, otp: str):
     """
-    Validate OTP for certain requests.\n
-    Return OTP object on success.
+    Confirm update request and change email address.
+
+    Params:
+        db: Database session object.
+        user: User info
+        otp: OTP code to verify action
+
+    Returns:
+        bool: True if email updated, else False
     """
 
-    # Look for the valid record of OTP in database
-    record = db.query(models.OTP).filter(
-        models.OTP.username == username,
-        models.OTP.purpose == purpose,
-    ).order_by(models.OTP.expires_at.desc()).first()
-
+    # Validate OTP and get jti
+    record = security.validateOtp(otp, user.username, OTP_Purpose.OTP_EMAIL_CHANGE, db)
     if record is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No password reset request found")
+        return False
     
-    if record.expires_at.replace(tzinfo=timezone.utc) < datetime.now(timezone.utc) or record.trials <= 0 or record.is_token_used:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="OTP expired")
-
-    if record.otp_code != otp:
-        record.trials -= 1
-        db.commit()
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid OTP. {record.trials} attempts left")
+    # Get email change request stored on DB before
+    request = db.query(models.EmailChangeRequest).filter(
+        models.EmailChangeRequest.jti == record.jti,
+        models.EmailChangeRequest.user_id == user.user_id).first()
     
-    # Invalidate the OTP after successful verification
-    record.trials = 0
+    if request.is_revoked:
+        return False
+    
+    user.email = request.new_email
+    user.email_verified_at = datetime.now(timezone.utc)
     db.commit()
-    
-    return record
 
-User_auth = Annotated[models.User, Depends(getUserFromToken)]
+    return True

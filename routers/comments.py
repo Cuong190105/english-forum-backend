@@ -5,7 +5,7 @@ from database.database import Db_dependency
 from database.models import User, Comment, CommentVote
 from database.outputmodel import SimpleComment
 from typing import Annotated
-from utilities.account import User_auth
+from routers.dependencies import User_auth
 from utilities.activity import logActivity
 from utilities.post import getPost
 
