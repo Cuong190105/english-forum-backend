@@ -5,7 +5,7 @@ from fastapi import Depends
 from typing import Annotated
 from configs.config_db import *
 
-DB_URL = 'mysql+pymysql://'\
+DB_URL = DB_CONNECTION + '+' + DB_DRIVER + '://'\
     + DB_USERNAME + ':' + DB_PASSWORD\
     + '@' + DB_HOST + ':' + DB_PORT\
     + '/' + DB_DATABASE

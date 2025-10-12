@@ -3,6 +3,8 @@ import os
 
 load_dotenv()
 
+DB_CONNECTION = os.getenv("DB_CONNECTION")
+DB_DRIVER = os.getenv("DB_DRIVER")
 DB_USERNAME = os.getenv("DB_USERNAME")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_HOST = os.getenv("DB_HOST")
