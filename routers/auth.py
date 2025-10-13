@@ -31,7 +31,7 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
         On failure, return status code with detail.
     """
     
-    user = await account.getUserByUsername(request.username)
+    user = await account.getUserByUsername(request.username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Username not found")
 
