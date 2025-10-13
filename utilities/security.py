@@ -264,7 +264,7 @@ def hashPassword(password: str):
 
     return pwhash
 
-async def verifyPassword(user: models.User, password: str):
+async def verifyPassword(db: Db_dependency, user: models.User, password: str):
     """
     Check if given password matches hashed password in DB.
 

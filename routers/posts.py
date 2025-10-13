@@ -28,11 +28,13 @@ class PostTextContent(BaseModel):
         return cls(title=title, content=content, tag=tag)
 
 @router.get("/", status_code=status.HTTP_200_OK)
-async def get_newsfeed(this_user: User_auth):
+async def get_newsfeed(this_user: User_auth, criteria: str, offset: int = 0, limit: int =15):
     """
     Get latest posts for user's feed.\n
     Return a list of post_id. To retrieve their content, make GET request for each post.
     """
+    
+
     pass
 
 @router.get("/posts/{post_id}", status_code=status.HTTP_200_OK, response_model=OutputPost)

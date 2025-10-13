@@ -56,12 +56,12 @@ class Post(Base):
     author_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"))
     title = Column(String(255), nullable=False)
     content = Column(Text, nullable=False)
+    tag = Column(Text, nullable=False)
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
     updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
     vote_count = Column(Integer, default=0, nullable=False)
     comment_count = Column(Integer, default=0, nullable=False)
     is_deleted = Column(Boolean, default=False, nullable=False)
-    tag = Column(Text, nullable=False)
 
     # _________Relationship_____________
     author = relationship("User", back_populates="posts", single_parent=True)
