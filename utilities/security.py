@@ -165,7 +165,7 @@ async def invalidateRefreshToken(db: Db_dependency, token: str):
 
     return True
 
-def generateOtp(username: str, purpose: str, db: Db_dependency):
+async def generateOtp(username: str, purpose: str, db: Db_dependency):
     """
     Generate an OTP for security purposes.
 

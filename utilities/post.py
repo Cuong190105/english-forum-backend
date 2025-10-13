@@ -33,6 +33,7 @@ async def getOutputPost(user_id: int, post_id: int, db: Db_dependency):
     output = OutputPost(
         post_id=post.post_id,
         title=post.title,
+        tag=post.tag,
         content=post.content,   
         vote=post.vote_count,
         user_vote=vote_value,

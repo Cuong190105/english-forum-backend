@@ -23,7 +23,7 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
     Handle login requests.
 
     Params:
-        request: Register form with 2 fields: username and password. Email can be used as username
+        request: Login form with 2 fields: username and password. Email can be used as username
         db: Database session object.
     
     Returns:
@@ -75,7 +75,7 @@ async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependenc
     new_user = await account.createNewAccount(db, request.username, request.password, request.email)
 
     # Send account verification OTP
-    otp = security.generateOtp(new_user.username, OTP_Purpose.OTP_REGISTER, db)
+    otp = await security.generateOtp(new_user.username, OTP_Purpose.OTP_REGISTER, db)
     await mailer.sendOtpMail(otp.otp_code, new_user.username, new_user.email, mailer.REGISTER)
     
     # Automatically log in the user after registration
