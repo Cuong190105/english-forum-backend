@@ -2,7 +2,7 @@ from database.database import Db_dependency
 from datetime import datetime, timedelta, timezone
 from database import models
 from sqlalchemy import or_
-from configs.config_auth import Encryption, Duration, LoginStatus, OTP_Purpose
+from configs.config_auth import Encryption, OTP_Purpose
 from utilities import security, mailer
 
 async def getUserByUsername(username: str, db: Db_dependency):
