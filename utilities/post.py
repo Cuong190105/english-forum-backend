@@ -1,15 +1,27 @@
 from datetime import datetime, timezone
+from sqlalchemy import func
 from database.database import Db_dependency
 from database.models import Post, Attachment, PostVote, User
 from database.outputmodel import OutputPost, SimpleAttachment
 from utilities import comment as cmtutils
+from configs.config_post import FeedCriteria
 
 async def getPost(post_id: int, db: Db_dependency):
     return db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
 
-async def getOutputPost(user: User, post_id: int, db: Db_dependency):
-    post = await getPost(post_id, db)
+async def queryFeed(db: Db_dependency, cursor: datetime, criteria: FeedCriteria, limit: int):
+    query = db.query(Post)
 
+    if criteria == 'trending':
+        query = query.order_by(((Post.vote_count + Post.comment_count * 2) / (func.now() - Post.created_at + 1)).desc())
+    
+    elif criteria != 'latest':
+        query = query.filter(Post.tag == criteria)
+    
+    posts = query.filter(Post.created_at < cursor).order_by(Post.created_at.desc()).limit(limit).all()
+    return posts
+
+async def getOutputPost(user: User, post: Post, db: Db_dependency):
     if post is None:
         return None
     

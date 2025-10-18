@@ -13,16 +13,25 @@ class TestPostComment:
     async def test_getPost(self, mock_db):
         assert await post.getPost(1, mock_db) is not None
         assert await post.getPost(2, mock_db) is not None
-        assert await post.getPost(3, mock_db) is None
+        assert await post.getPost(999, mock_db) is None
+
+    @pytest.mark.asyncio
+    async def test_feedQuery(self, mock_db):
+        posts = await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='latest', limit=15)
+        assert len(posts) == 10
+        assert len(await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='discussion', limit=15)) == 6
+        assert len(await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='question',limit=3)) == 3
+        assert len(await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc) - timedelta(days=1), criteria='latest', limit=15)) == 4
+        assert await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='trending', limit=15) != posts
 
     @pytest.mark.asyncio
     async def test_createPost(self, mock_db):
         user = await userutils.getUserByUsername("username1", mock_db)
-        new_post = await post.createPost(mock_db, user, "New Post", "New Content", "New Tag")
+        new_post = await post.createPost(mock_db, user, "New Post", "New Content", "question")
         assert new_post.post_id is not None
         assert new_post.title == "New Post"
 
-        fetched_post = mock_db.query(Post).filter(Post.post_id == 3).first()
+        fetched_post = mock_db.query(Post).filter(Post.post_id == 11).first()
         assert fetched_post is not None
         assert fetched_post.title == "New Post"
     
@@ -46,28 +55,28 @@ class TestPostComment:
     async def test_votePost(self, mock_db):
         user1 = mock_db.query(User).filter(User.username == "username1").first()
         user2 = mock_db.query(User).filter(User.username == "username2").first()
-        post2 = mock_db.query(Post).filter(Post.post_id == 2).first()
+        post11 = mock_db.query(Post).filter(Post.post_id == 11).first()
 
         # Upvote
-        await post.votePost(mock_db, user1, post2, 1)
-        assert post2.vote_count == 1
-        await post.votePost(mock_db, user2, post2, 1)
-        assert post2.vote_count == 2
+        await post.votePost(mock_db, user1, post11, 1)
+        assert post11.vote_count == 1
+        await post.votePost(mock_db, user2, post11, 1)
+        assert post11.vote_count == 2
 
         # Change to downvote
-        await post.votePost(mock_db, user1, post2, -1)
-        assert post2.vote_count == 0
-        await post.votePost(mock_db, user1, post2, -1)
-        assert post2.vote_count == 0
+        await post.votePost(mock_db, user1, post11, -1)
+        assert post11.vote_count == 0
+        await post.votePost(mock_db, user1, post11, -1)
+        assert post11.vote_count == 0
 
         # Remove vote
-        await post.votePost(mock_db, user1, post2, 0)
-        assert post2.vote_count == 1
+        await post.votePost(mock_db, user1, post11, 0)
+        assert post11.vote_count == 1
 
         # Invalid vote value
-        result = await post.votePost(mock_db, user1, post2, 2)
+        result = await post.votePost(mock_db, user1, post11, 2)
         assert result is False
-        assert post2.vote_count == 1
+        assert post11.vote_count == 1
 
 @pytest.mark.usefixtures("setup_database", "seed_data")
 class TestComment:

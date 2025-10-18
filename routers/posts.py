@@ -10,6 +10,7 @@ from utilities import post as postutils
 from utilities.attachments import getMetadata
 from utilities.activity import logActivity
 from configs.config_activity import ActionType
+from configs.config_post import FeedCriteria
 
 router = APIRouter()
 
@@ -28,24 +29,28 @@ class PostTextContent(BaseModel):
         return cls(title=title, content=content, tag=tag)
 
 @router.get("/", status_code=status.HTTP_200_OK)
-async def get_newsfeed(this_user: User_auth, criteria: str | None = None, offset: int = 0, limit: int = 15):
+async def get_newsfeed(this_user: User_auth, db: Db_dependency, criteria: FeedCriteria = 'latest', cursor: datetime = datetime.now(timezone.utc), limit: int = 15):
     """
     Get latest posts for user's feed.\n
-    Return a list of post_id. To retrieve their content, make GET request for each post.
+    Return a list of post.
     """
-    
 
-    pass
+    feed = await postutils.queryFeed(db, cursor, criteria, limit)
+    if feed is None:
+        raise HTTPException(status.HTTP_400_BAD_REQUEST, detail="Query parameter invalid")
+    
+    output = [await postutils.getOutputPost(this_user, p, db) for p in feed]
+    return output
 
 @router.get("/posts/{post_id}", status_code=status.HTTP_200_OK, response_model=OutputPost)
 async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
     """
     Get the post by post_id
     """
-    post = await postutils.getOutputPost(this_user, post_id, db)
+    post = await postutils.getPost(this_user, post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
-    return post
+    return await postutils.getOutputPost(this_user, post, db)
 
 @router.post("/posts/upload", status_code=status.HTTP_201_CREATED)
 async def upload_post(
