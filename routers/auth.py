@@ -1,5 +1,5 @@
 from configs.config_auth import *
-from configs.config_validation import USERNAME_PATTERN
+from configs.config_validation import Pattern
 from database.database import Db_dependency
 from database import models
 from datetime import timedelta
@@ -7,12 +7,12 @@ from fastapi import APIRouter, HTTPException, status, Depends, Form, Query
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel, EmailStr
 from typing import Annotated
-from utilities import account, mailer, security
+from utilities import account, mailer, security, user as userutils
 from routers.dependencies import User_auth, oauth2_scheme
 
 class RegisterRequest(BaseModel):
-    username: Annotated[str, Query(pattern=USERNAME_PATTERN)]
-    password: Annotated[str, Query(min_length=8, max_length=255)]
+    username: Annotated[str, Query(pattern=Pattern.USERNAME_PATTERN)]
+    password: Annotated[str, Query(pattern=Pattern.PASSWORD_PATTERN)]
     email: EmailStr
 
 router = APIRouter()
@@ -31,11 +31,10 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
         On failure, return status code with detail.
     """
     
-    user = await account.getUserByUsername(request.username, db)
+    user = await userutils.getUserByUsername(request.username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Username not found")
-
-    if not await security.verifyPassword(db, user, request.password):
+    if not security.verifyPassword(request.password, user.credential.password_hash):
         raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail="Incorrect password")
         
     # Create and return access and refresh token
@@ -65,18 +64,22 @@ async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependenc
     """
 
     # Check if username or email already exists
-    user = await account.getUserByUsername(request.username, db)
-    if user is None:
-        await account.getUserByUsername(request.email, db)
-    if user is not None:
+    check_username = await userutils.getUserByUsername(request.username, db)
+    check_email = await userutils.getUserByUsername(request.email, db)
+    if check_username is not None or check_email is not None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username or email already exists")
+
+    # Send account verification OTP
+    otp = await security.generateOtp(request.username, OTP_Purpose.OTP_REGISTER, db)
+    try:
+        await mailer.sendOtpMail(otp.otp_code, request.username, request.email, mailer.REGISTER)
+    except Exception as e:
+        # Log error
+        await security.invalidateOtp(db, otp)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to send verification email")
     
     # Create new user
     new_user = await account.createNewAccount(db, request.username, request.password, request.email)
-
-    # Send account verification OTP
-    otp = await security.generateOtp(new_user.username, OTP_Purpose.OTP_REGISTER, db)
-    await mailer.sendOtpMail(otp.otp_code, new_user.username, new_user.email, mailer.REGISTER)
     
     # Automatically log in the user after registration
     login_tokens = await login(OAuth2PasswordRequestForm(username=request.username, password=request.password, scope=""), db)
@@ -84,7 +87,7 @@ async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependenc
     return login_tokens
 
 @router.post("/register/verify", status_code=status.HTTP_200_OK)
-async def verify_account(this_user: User_auth, otp: str, db: Db_dependency):
+async def verify_account(this_user: User_auth, otp: Annotated[str, Form(pattern=Pattern.OTP_PATTERN)], db: Db_dependency):
     """
     Verify email address of newly created account.
     """
@@ -94,7 +97,7 @@ async def verify_account(this_user: User_auth, otp: str, db: Db_dependency):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email verified before")
 
     # Verify OTP
-    if not await account.verifyEmail(this_user, otp):
+    if not await account.verifyEmail(this_user, otp, db):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid OTP")
     
     return {
@@ -111,7 +114,10 @@ async def resend_verification_email(this_user: User_auth, db: Db_dependency):
     if this_user.email_verified_at != None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Email verified before")
     
-    otp = security.generateOtp(this_user.username, OTP_Purpose.OTP_REGISTER, db)
+    otp = await security.generateOtp(this_user.username, OTP_Purpose.OTP_REGISTER, db)
+    if otp is None:
+        raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Too soon to request a new OTP")
+
     await mailer.sendOtpMail(otp.otp_code, this_user.username, this_user.email, mailer.REGISTER)
 
     return {
@@ -119,11 +125,11 @@ async def resend_verification_email(this_user: User_auth, db: Db_dependency):
     }
 
 @router.post("/refresh", status_code=status.HTTP_200_OK)
-async def refresh_access_token(rf_token: str, db: Db_dependency):
+async def refresh_access_token(refresh_token: Annotated[str, Form()], db: Db_dependency):
     """
     Get a new access token.
     """
-    access_token = await security.createAccessToken(db, rf_token)
+    access_token = await security.createAccessToken(db, refresh_token)
 
     if access_token is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
@@ -143,27 +149,32 @@ async def logout(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependenc
     return {"message": "Logout successful"}
     
 @router.post("/recover", status_code=status.HTTP_200_OK)
-async def recover_password(username: str, db: Db_dependency):
+async def recover_password(username: Annotated[str, Form()], db: Db_dependency):
     """
     Handle password recovery requests.\n
     If the username or email exists, send a recovery email.
     """
     
     # Check if user exists by username or email and then get user ID
-    user = await account.getUserByUsername(username, db)
+    user = await userutils.getUserByUsername(username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    otp = security.generateOtp(user.username, OTP_Purpose.OTP_PASSWORD_RESET, db)
+    otp = await security.generateOtp(user.username, OTP_Purpose.OTP_PASSWORD_RESET, db)
+    if otp is None:
+        raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Too soon to request a new OTP")
 
     # Send recovery email
     await mailer.sendOtpMail(otp, user.username, user.email, mailer.PASSWORD_RESET)
 
     return {"message": "Recovery email sent"}
 
-@router.post("/recover/verify")
-async def verify_recovery_code(otp: str, username: str, db: Db_dependency):
-    record = security.validateOtp(otp, username, OTP_Purpose.OTP_PASSWORD_RESET, db)
+@router.post("/recover/verify", status_code=status.HTTP_200_OK)
+async def verify_recovery_code(otp: Annotated[str, Form(pattern=Pattern.OTP_PATTERN)], username: Annotated[str, Form()], db: Db_dependency):
+    record = await security.validateOtp(otp, username, OTP_Purpose.OTP_PASSWORD_RESET, db)
+    if record is None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid OTP")
+
     reset_token = security.createToken(
         data={"sub": record.username, "jti": record.jti},
         expires_delta=timedelta(minutes=Duration.PASSWORD_RESET_TOKEN_EXPIRE_MINUTES),
@@ -175,13 +186,13 @@ async def verify_recovery_code(otp: str, username: str, db: Db_dependency):
         "reset_token": reset_token
     }
 
-@router.post("/reset")
-async def reset_password(token: str, new_password: str, db: Db_dependency):
+@router.post("/reset", status_code=status.HTTP_200_OK)
+async def reset_password(reset_token: Annotated[str, Form()], new_password: Annotated[str, Form(pattern=Pattern.PASSWORD_PATTERN)], db: Db_dependency):
     """
     Reset user password.
     """
     
-    if not await account.resetPassword(db, token, new_password):
-        return HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='Invalid token')
+    if not await account.resetPassword(db, reset_token, new_password):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='Invalid token')
 
     return {"message": "Password reset successful"}

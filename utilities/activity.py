@@ -1,7 +1,7 @@
 from database.database import Db_dependency
 from database.models import Activity, Following, Notification, Comment
-from configs.config_validation import USERNAME_PATTERN
-from utilities.account import getUserByUsername
+from configs.config_validation import Pattern
+from utilities.user import getUserByUsername
 import re
 
 async def logActivity(actor_id: int, db: Db_dependency, action: str, content: str, action_id: int, target_noti_id: int = None):
@@ -39,7 +39,7 @@ async def logActivity(actor_id: int, db: Db_dependency, action: str, content: st
     db.commit()
 
 async def getMentionedUser(content: str, db: Db_dependency):
-    username = re.findall(r"@" + USERNAME_PATTERN, content)
+    username = re.findall(r"@" + Pattern.USERNAME_PATTERN, content)
     users = []
     for n in username:
         u = await getUserByUsername(n[1:], db)

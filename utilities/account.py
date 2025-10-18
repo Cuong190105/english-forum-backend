@@ -1,24 +1,10 @@
 from database.database import Db_dependency
 from datetime import datetime, timedelta, timezone
 from database import models
-from sqlalchemy import or_
+from sqlalchemy import or_, exc
 from configs.config_auth import Encryption, OTP_Purpose
-from utilities import security, mailer
-
-async def getUserByUsername(username: str, db: Db_dependency):
-    """
-    Get user by username.
-
-    Parameters:
-        username: The username of user. Can be username or email.
-        db: Database session object.
-
-    Returns:
-        Optional[models.User]: user if found, else None.
-    """
-    user = db.query(models.User).filter(or_(models.User.username == username, models.User.email == username)).first()
-    return user
-
+from utilities import security, mailer, user as userutils
+from configs.config_app import APP_URL
 
 async def verifyEmail(user: models.User, otp: str, db: Db_dependency):
     """
@@ -35,12 +21,13 @@ async def verifyEmail(user: models.User, otp: str, db: Db_dependency):
 
     otp = await security.validateOtp(otp, user.username, OTP_Purpose.OTP_REGISTER, db)
     
-    if otp is not None:
-        user.email_verified_at = datetime.now(timezone.utc)
-        db.commit()
-
-    return otp is not None
-
+    if otp is None:
+        return False
+    
+    user.email_verified_at = datetime.now(timezone.utc)
+    await security.invalidateOtp(db, otp)
+    db.commit()
+    return True
 
 async def createNewAccount(db: Db_dependency, username: str, password: str, email: str):
     """
@@ -66,21 +53,23 @@ async def createNewAccount(db: Db_dependency, username: str, password: str, emai
         bio=None,
         avatar_url=None,
         email_verified_at=None,
-        created_at=now,
-        updated_at=now
     )
 
     new_credentials = models.Credentials(
-        user_id=new_user.user_id,
         password_hash=pwhash,
         hash_algorithm=Encryption.HASH_ALGORITHM
     )
 
     new_user.credential = new_credentials
-    db.add(new_user)
-    db.commit()
-    db.refresh(new_user)
 
+    # Try to add new user to database. Although username uniqueness is checked before, this add another layer if admin or developer accidentally makes mistake.
+    try:
+        db.add(new_user)
+        db.commit()
+        db.refresh(new_user)
+    except exc.IntegrityError:
+        db.rollback()
+        return None
     return new_user
 
 async def resetPassword(db: Db_dependency, token: str, new_password: str):
@@ -96,6 +85,9 @@ async def resetPassword(db: Db_dependency, token: str, new_password: str):
         bool: True if password reset, else False 
     """
     payload = security.validateToken(token, Encryption.SECRET_RESET_KEY)
+    if payload == None:
+        return False
+
     record = db.query(models.OTP).filter(
         models.OTP.jti == payload.get("jti"),
         models.OTP.username == payload.get("sub"),
@@ -105,8 +97,10 @@ async def resetPassword(db: Db_dependency, token: str, new_password: str):
     if record is None or record.is_token_used:
         return False
     
-    user = getUserByUsername(payload.get("sub"))
+    user = await userutils.getUserByUsername(payload.get("sub"), db)
     await updatePassword(db, user, new_password)
+    record.is_token_used = True
+    db.commit()
 
     return True
     
@@ -131,7 +125,7 @@ async def updatePassword(db: Db_dependency, user: models.User, new_password: str
 
 async def updateUsername(db: Db_dependency, user: models.User, new_username: str):
     """
-    Update user's password
+    Update user's username
 
     Params:
         db: Database session object
@@ -142,8 +136,11 @@ async def updateUsername(db: Db_dependency, user: models.User, new_username: str
         None
     """
 
-    user.username = new_username
-    db.commit()
+    try:
+        user.username = new_username
+        db.commit()
+    except exc.IntegrityError:
+        db.rollback()
 
 async def updateBio(db: Db_dependency, user: models.User, new_bio: str):
     """
@@ -161,7 +158,7 @@ async def updateBio(db: Db_dependency, user: models.User, new_bio: str):
     user.bio = new_bio
     db.commit()
 
-async def createEmailChangeRequest(db: Db_dependency, otp: models.OTP, user: models.User, new_email: str):
+async def createEmailChangeRequest(db: Db_dependency, otp: models.OTP, user: models.User, new_email: str, debug: bool = False):
     """
     Store email change request into database.
 
@@ -170,22 +167,36 @@ async def createEmailChangeRequest(db: Db_dependency, otp: models.OTP, user: mod
         otp: OTP info.
         user: User info.
         new_email: New email string.
+        debug: If True, skip sending email.
     
     Returns:
         None
     """
 
+    # If request already exists, update otp only
+    existing_request = db.query(models.EmailChangeRequest).filter(
+        models.EmailChangeRequest.user_id == user.user_id,
+        models.EmailChangeRequest.new_email == new_email,
+        models.EmailChangeRequest.is_revoked == False
+    ).first()
+
+    if existing_request is not None:
+        existing_request.jti = otp.jti
+        existing_request.created_at = datetime.now(timezone.utc)
+        db.commit()
+        return None
+
     # For security purpose, send a cancel request link to user's current email.
-    jwt = security.createToken(
-        data={
-            "jti": otp.jti,
-            "user_id": user.user_id,
-        },
-        expires_delta=timedelta(days=365),
-        secret_key=Encryption.SECRET_RESET_KEY
-    )
-    cancel_link = "myapp.com/cancel/emailchange/" + jwt
-    await mailer.sendWarningChangingEmailMail(username=user.username, new_email=new_email, target_address=user.email, cancel_link=cancel_link)
+    if not debug:
+        jwt = security.createToken(
+            data={
+                "user_id": str(user.user_id),
+            },
+            expires_delta=timedelta(days=365),
+            secret_key=Encryption.SECRET_RESET_KEY
+        )
+        cancel_link = APP_URL + "/cancel/emailchange/" + jwt
+        await mailer.sendWarningChangingEmailMail(username=user.username, new_email=new_email, target_address=user.email, cancel_link=cancel_link)
 
     # Add email change token to DB. New email will be updated only after user verify.
     request = models.EmailChangeRequest(
@@ -211,7 +222,7 @@ async def updateEmail(db: Db_dependency, user: models.User, otp: str):
     """
 
     # Validate OTP and get jti
-    record = security.validateOtp(otp, user.username, OTP_Purpose.OTP_EMAIL_CHANGE, db)
+    record = await security.validateOtp(otp, user.username, OTP_Purpose.OTP_EMAIL_CHANGE, db)
     if record is None:
         return False
     
@@ -225,6 +236,7 @@ async def updateEmail(db: Db_dependency, user: models.User, otp: str):
     
     user.email = request.new_email
     user.email_verified_at = datetime.now(timezone.utc)
+    request.is_revoked = True
     db.commit()
 
     return True

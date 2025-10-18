@@ -39,7 +39,7 @@ def validateToken(token: str, secret_key: str):
         token: JWT string
         secret_key: A secret key corresponding to each JWT type.
     Returns:
-        dict: token payload on success.
+        Optional[dict]: token payload on success. None on failure.
     """
     try:
 
@@ -174,7 +174,7 @@ async def generateOtp(username: str, purpose: str, db: Db_dependency):
         purpose: select from `OTP_Purpose` Enums.
 
     Returns:
-        OTP: OTP object on success.
+        Optional[OTP]: OTP object on success. Return None if user requests OTP too frequently.
     """
 
     # Invalidate any existing token for password reset
@@ -182,12 +182,12 @@ async def generateOtp(username: str, purpose: str, db: Db_dependency):
     existing_otp = db.query(models.OTP).filter(
         models.OTP.username == username,
         models.OTP.purpose == purpose,
+        models.OTP.is_token_used == False,
     ).first()
 
     if existing_otp is not None:
-        # Temporarily use this method to limit request. Improve later
         if existing_otp.created_at.replace(tzinfo=timezone.utc) + timedelta(minutes=Duration.OTP_RESEND_INTERVAL_MINUTES) > datetime.now(timezone.utc):
-            raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Too soon to request a new OTP")
+            return None
         else:
             existing_otp.is_token_used = True
             db.commit()
@@ -242,40 +242,43 @@ async def validateOtp(otp: str, username: str, purpose: str, db: Db_dependency):
         return None
     
     # Invalidate the OTP after successful verification
-    record.is_token_used = True
+    # Notice: Field "is_token_used" only set to true after purpose fulfilled, not after validated
     record.trials = 0
     db.commit()
     
     return record
+
+async def invalidateOtp(db: Db_dependency, otp: models.OTP):
+    otp.is_token_used = True
+    db.commit()
 
 def hashPassword(password: str):
     """
     Hash plain password
 
     Params:
-        password: Plain password string.
+        password: Plain password string in UTF-8 encoding.
     
     Returns:
-        str: Hashed password string
+        str: Hashed password string in UTF-8 encoding.
     """
 
     salt = bcrypt.gensalt()
     pwhash = bcrypt.hashpw(password.encode('utf-8'), salt)
+    return pwhash.decode('utf-8')
 
-    return pwhash
-
-async def verifyPassword(db: Db_dependency, user: models.User, password: str):
+def verifyPassword(password: str, hashed_password: str):
     """
     Check if given password matches hashed password in DB.
 
     Params:
-        user: User object.
         password: Plain password string.
+        password: Hashed password string.
 
     Returns:
         bool: `True` if 2 passwords match, otherwise `False`.
     """
-    hashed_password = user.credential.password_hash
+
     return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))
 
 async def cancelEmailChangeRequest(db: Db_dependency, token: str):
@@ -289,9 +292,18 @@ async def cancelEmailChangeRequest(db: Db_dependency, token: str):
         bool: True if request cancelled, else False
     """
     payload = validateToken(token, Encryption.SECRET_RESET_KEY)
-    request = db.query(models.EmailChangeRequest).filter(models.EmailChangeRequest.jti == payload.get("jti")).first()
-    if request is None:
+    if payload is None:
         return False
     
-    request.is_revoked = True
+    request = db.query(models.EmailChangeRequest).filter(
+        models.EmailChangeRequest.user_id == int(payload.get("user_id")),
+        models.EmailChangeRequest.is_revoked == False
+    ).all()
+
+    if len(request) == 0:
+        return False
+    
+    for r in request:
+        r.is_revoked = True
     db.commit()
+    return True

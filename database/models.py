@@ -86,7 +86,7 @@ class Comment(Base):
     # _________Relationship_____________
     post = relationship("Post", back_populates="comments")
     author = relationship("User", back_populates="comments")
-    reply_to = relationship("Comment", remote_side=[comment_id], back_populates="replies")
+    reply_to = relationship("Comment", remote_side=[comment_id], back_populates="replies", single_parent=True, uselist=False)
     replies = relationship("Comment", back_populates="reply_to", cascade="all, delete-orphan", passive_deletes=True, lazy="dynamic")
     votes = relationship("CommentVote", back_populates="comment", cascade="all, delete-orphan", passive_deletes=True, lazy="dynamic")
 

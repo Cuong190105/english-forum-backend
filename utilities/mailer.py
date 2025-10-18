@@ -1,7 +1,8 @@
-import smtplib
+import aiosmtplib
 import logging
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.message import EmailMessage
 from configs.config_mail import *
 
 EMAIL_CHANGE = "thay đổi email"
@@ -9,28 +10,42 @@ PASSWORD_RESET = "khôi phục mật khẩu"
 LOGIN = "đăng nhập"
 REGISTER = "đăng ký"
 
-async def __send(content: str, target: str):
+async def send(subject: str, content: str, target: str):
     try:
-        msg = MIMEText(content, "html", "utf-8")
+        msg = EmailMessage()
+        # msg = MIMEText(content, "html", "utf-8")
         msg["From"] = MAIL_FROM_NAME
         msg["To"] = target
-        msg["Subject"] = "Password Reset"
-        with smtplib.SMTP(MAIL_HOST, MAIL_PORT) as server:
+        msg["Subject"] = subject
+
+        msg.set_content(content, subtype='html')
+
+        await aiosmtplib.send(
+            msg,
+            hostname=MAIL_HOST,
+            port=MAIL_PORT,
+            start_tls=True,
+            username=MAIL_USERNAME,
+            password=MAIL_PASSWORD,
+        )
+        # with smtplib.SMTP(MAIL_HOST, MAIL_PORT) as server:
             # server.set_debuglevel(True)
-            server.starttls()
-            server.login(MAIL_USERNAME, MAIL_PASSWORD)
-            server.sendmail(MAIL_FROM_ADDRESS, target, msg.as_string())
-            # server.quit()
-    except Exception as e:
+        #     server.starttls()
+        #     server.login(MAIL_USERNAME, MAIL_PASSWORD)
+        #     server.sendmail(MAIL_FROM_ADDRESS, target, msg.as_string())
+    except aiosmtplib.SMTPRecipientRefused as e:
         logging.error(f"Failed to send email to {target}: {e}")
+        raise Exception("Failed to send email to " + target)
 
 
 async def sendOtpMail(otp: str, username: str, target_address: str, request_type: str):
     warning = "vui lòng bỏ qua email này" if request_type == PASSWORD_RESET else "chúng tôi khuyên bạn nên thay đổi mật khẩu của mình ngay lập tức"
-    
+    subject = ""
     if request_type == REGISTER:
+        subject = "Chào mừng đến với English Forum!"
         message = "Chào mừng bạn đến với English Forum. Để tiếp tục, bạn cần nhập mã xác minh để chắc chắn rằng bạn có thể truy cập được vào địa chỉ email này"
     else:
+        subject = f"Yêu cầu {request_type}."
         message = f"Chúng tôi vừa nhận được yêu cầu {request_type} cho tài khoản của bạn"
     
     content = f"""
@@ -56,9 +71,11 @@ async def sendOtpMail(otp: str, username: str, target_address: str, request_type
         </html>
         """
     
-    await __send(content, target_address)
+    await send(subject, content, target_address)
 
 async def sendWarningChangingEmailMail(username, new_email, target_address, cancel_link):
+    subject = "Cảnh báo thay đổi email"
+
     content = f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -74,7 +91,7 @@ async def sendWarningChangingEmailMail(username, new_email, target_address, canc
                 <p class="message">Địa chỉ email mới sẽ là: {new_email}.</p>
                 <p class="warning">Nếu bạn không gửi yêu cầu này, hãy nhấn vào liên kết dưới đây để hủy thao tác. Đồng thời nhanh chóng đổi mật khẩu cho tài khoản này.</p>
                 <div class="link">
-                    <a href="">Hủy thao tác</a>
+                    <a href="{cancel_link}">Hủy thao tác</a>
                 </div>
                 <p class="signature">Trân trọng,<br/>Đội ngũ Hỗ trợ English Forum</p>
             </div>
@@ -82,4 +99,4 @@ async def sendWarningChangingEmailMail(username, new_email, target_address, canc
         </html>
         """
     
-    await __send(content, target_address)
+    await send(subject, content, target_address)

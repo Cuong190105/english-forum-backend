@@ -2,17 +2,18 @@ from datetime import datetime, timezone
 from database.database import Db_dependency
 from database.models import Post, Attachment, PostVote, User
 from database.outputmodel import OutputPost, SimpleAttachment
+from utilities import comment as cmtutils
 
 async def getPost(post_id: int, db: Db_dependency):
     return db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
 
-async def getOutputPost(user_id: int, post_id: int, db: Db_dependency):
+async def getOutputPost(user: User, post_id: int, db: Db_dependency):
     post = await getPost(post_id, db)
 
     if post is None:
         return None
     
-    user_vote = post.votes.filter(PostVote.user_id == user_id).first()
+    user_vote = post.votes.filter(PostVote.user_id == user.user_id).first()
     if user_vote is None:
         vote_value = 0
     else:
@@ -35,7 +36,7 @@ async def getOutputPost(user_id: int, post_id: int, db: Db_dependency):
         title=post.title,
         tag=post.tag,
         content=post.content,   
-        vote=post.vote_count,
+        vote_count=post.vote_count,
         user_vote=vote_value,
         comment_count=post.comment_count,
         created_at=post.created_at,
@@ -96,7 +97,7 @@ async def updatePost(db: Db_dependency, post: Post, title: str, content: str, ta
 
 async def deletePost(db: Db_dependency, post: Post):
     """
-    Delete a post.
+    Mark a post and its related content as deleted.
     Params:
         db: Database session object
         post: target post
@@ -104,15 +105,44 @@ async def deletePost(db: Db_dependency, post: Post):
         None
     """
 
-    # now = datetime.now(timezone.utc)
-    # post.is_deleted = True
-    # post.updated_at = now
-    # for cmt in post.comments:
-    #     cmt.is_deleted = True
-    #     cmt.updated_at = now
-    # for att in post.attachments:
-    #     att.is_deleted = True
-    # db.commit()
-
     post.is_deleted = True
+    for cmt in post.comments:
+        cmt.is_deleted = True
+    for att in post.attachments:
+        att.is_deleted = True
     db.commit()
+
+async def votePost(db: Db_dependency, user: User, post: Post, value: int):
+    """
+    Change user vote on a post.
+    Vote type can be -1, 0, 1 for downvote, no vote or upvote
+    
+    Params:
+        db: Database session object
+        user: The actor
+        post: Target post
+        value: Value of vote: -1, 0, 1
+
+    Returns:
+        bool: True if updated, else False if invalid value
+    """
+
+    VOTE_TYPE = ["novote", "upvote", "downvote"]
+
+    # Check if value is valid
+    if abs(value) > 1:
+        return False
+
+    vote = post.votes.filter(PostVote.user_id == user.user_id).first()
+    if vote is None:
+        vote = PostVote(user_id=user.user_id, value=0)
+
+        # If this action is new, log the action
+        # await logActivity(user_id, db, ActionType.VOTEPOST, VOTE_TYPE[value], vote.vote_id, post.author_id)
+    
+    post.vote_count += value - vote.value
+    vote.value = value
+    post.votes.append(vote)
+    db.commit()
+
+    return True

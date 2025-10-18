@@ -2,6 +2,21 @@ from configs.config_user import Relationship
 from database.database import Db_dependency
 from database.outputmodel import SimpleUser
 from database.models import User, Following
+from sqlalchemy import or_
+
+async def getUserByUsername(username: str, db: Db_dependency):
+    """
+    Get user by username.
+
+    Parameters:
+        username: The username of user. Can be username or email.
+        db: Database session object.
+
+    Returns:
+        Optional[models.User]: user if found, else None.
+    """
+    user = db.query(User).filter(or_(User.username == username, User.email == username)).first()
+    return user
 
 def getSimpleUser(user: User):
     """

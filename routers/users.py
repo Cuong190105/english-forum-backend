@@ -1,4 +1,5 @@
-from fastapi import APIRouter,  HTTPException, status, Depends
+from typing import Annotated
+from fastapi import APIRouter, Form,  HTTPException, status, Depends
 from pydantic import EmailStr
 from database.database import Db_dependency
 from database.models import Following
@@ -7,9 +8,10 @@ from routers.dependencies import User_auth
 from utilities import account, mailer, security, user
 from configs.config_auth import OTP_Purpose
 from configs.config_user import Relationship
+from configs.config_validation import Pattern
 router = APIRouter()
 
-@router.get("/users", status_code=status.HTTP_200_OK, response_model=SimpleUser)
+@router.get("/user", status_code=status.HTTP_200_OK, response_model=SimpleUser)
 async def get_current_user(this_user: User_auth):
     """
     Get current user info
@@ -21,50 +23,60 @@ async def get_user(this_user: User_auth, username: str, db: Db_dependency):
     """
     Get user info by username
     """
-    return user.getSimpleUser(await account.getUserByUsername(username, db))
+    requested_user = await user.getUserByUsername(username, db)
+    if requested_user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    return user.getSimpleUser(requested_user)
 
 @router.put("/user/bio", status_code=status.HTTP_200_OK)
-async def update_bio(bio: str, this_user: User_auth, db: Db_dependency):
+async def update_bio(bio: Annotated[str, Form(min_length=1)], this_user: User_auth, db: Db_dependency):
     """
     Update user bio.
     """
-    account.updateBio(db, this_user, bio)
+    await account.updateBio(db, this_user, bio)
     return {
         "message": "Bio updated successfully"
     }
 
 @router.put("/user/username", status_code=status.HTTP_200_OK)
-async def update_username(username: str, user: User_auth, db: Db_dependency):
+async def update_username(username: Annotated[str, Form(pattern=Pattern.USERNAME_PATTERN)], this_user: User_auth, db: Db_dependency):
     """
     Update user username.
     """
 
     # Check if username is unique
-    record = await account.getUserByUsername(username)
+    record = await user.getUserByUsername(username, db)
     if record is not None:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Username already exists")
     
     # Update username
-    account.updateUsername(db, user, username)
+    await account.updateUsername(db, this_user, username)
 
     return {
         "message": "Username updated successfully"
     }
 
 @router.put("/user/email", status_code=status.HTTP_200_OK)
-async def update_email_address(email: EmailStr, this_user: User_auth, db: Db_dependency):
+async def update_email_address(email: Annotated[EmailStr, Form()], this_user: User_auth, db: Db_dependency):
     """
     Update user email address
     """
 
     # Check if email is unique
-    record = account.getUserByUsername(email)
+    record = await user.getUserByUsername(email, db)
     if record is not None:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Email already exists")
 
     # Send OTP to new email address for verification
-    otp = security.generateOtp(user.username, OTP_Purpose.OTP_EMAIL_CHANGE, db)
-    await mailer.sendOtpMail(otp, user.username, email, mailer.PASSWORD_RESET)
+    otp = await security.generateOtp(this_user.username, OTP_Purpose.OTP_EMAIL_CHANGE, db)
+    if otp is None:
+        raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Too soon to request a new OTP")
+    
+    try:
+        await mailer.sendOtpMail(otp, this_user.username, email, mailer.EMAIL_CHANGE)
+    except:
+        await security.invalidateOtp(db, otp)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to send email to address: " + email)
     
     # Create email change request
     await account.createEmailChangeRequest(db, otp, this_user, email)
@@ -73,7 +85,24 @@ async def update_email_address(email: EmailStr, this_user: User_auth, db: Db_dep
         "message": "An OTP has been sent to the new address."
     }
 
-@router.delete("/cancel/emailchange/{token}", status_code=status.HTTP_200_OK)
+@router.put("/user/password", status_code=status.HTTP_200_OK)
+async def update_password(password: Annotated[str, Form(pattern=Pattern.PASSWORD_PATTERN)], new_password: Annotated[str, Form(pattern=Pattern.PASSWORD_PATTERN)], this_user: User_auth, db: Db_dependency):
+    """
+    Update user password.
+    """
+
+    # Check if old password is correct
+    if not security.verifyPassword(password, this_user.credential.password_hash):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Old password is incorrect")
+
+    # Update password
+    await account.updatePassword(db, this_user, new_password)
+
+    return {
+        "message": "Password updated."
+    }
+
+@router.get("/cancel/emailchange/{token}", status_code=status.HTTP_200_OK)
 async def cancel_mail_update(token: str, db: Db_dependency):
     """
     Cancel email change request.
@@ -87,7 +116,7 @@ async def cancel_mail_update(token: str, db: Db_dependency):
     }
 
 @router.post("/user/email/confirm", status_code=status.HTTP_200_OK)
-async def confirm_email_update(otp: str, this_user: User_auth, db: Db_dependency):
+async def confirm_email_update(otp: Annotated[str, Form(pattern=Pattern.OTP_PATTERN)], this_user: User_auth, db: Db_dependency):
     """
     Confirm email change request and update new email address.
     """
@@ -105,7 +134,7 @@ async def change_relationship(this_user: User_auth, username: str, reltype: str,
     Change user's relationship with another user.
     Relationship can be: follow, unfollow (block and unblock added later)
     """
-    target = await account.getUserByUsername(username)
+    target = await user.getUserByUsername(username)
     if target is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     if not await user.changeRelationship(this_user, target, reltype):

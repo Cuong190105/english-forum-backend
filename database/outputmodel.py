@@ -22,7 +22,7 @@ class OutputPost(BaseModel):
     post_id: int
     title: str
     content: str
-    vote: int
+    vote_count: int
     user_vote: int
     comment_count: int
     created_at: datetime
@@ -31,8 +31,9 @@ class OutputPost(BaseModel):
 
 class SimpleComment(BaseModel):
     author_id: int
-    content: int
-    vote: int
+    content: str
+    vote_count: int
+    user_vote: int
     created_at: datetime
     is_modified: bool
 
