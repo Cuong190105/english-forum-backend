@@ -24,9 +24,9 @@ async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db
     """
     # Decode the JWT token and extract the user ID
     payload = validateToken(token, Encryption.SECRET_ACCESS_KEY)
-    user_id = payload.get("sub")
-    if user_id is None:
+    if payload is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
+    user_id = payload.get("sub")
     
     # Fetch the user from the database
     user = db.query(User).filter(User.user_id == user_id).first()
