@@ -57,7 +57,7 @@ async def download(db: Db_dependency, this_user: User_auth, media_filename: str)
     Get media by its filename.
     """
 
-    file = getFile(db, media_filename)
+    file = await getFile(db, media_filename)
     if file is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Requested resource not found")
     

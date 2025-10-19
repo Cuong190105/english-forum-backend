@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 import os
+from pathlib import Path
 import sys
 import traceback
 import typing
@@ -182,10 +183,11 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
         return 3
     
 async def getFile(db: Db_dependency, media_filename: str):
+    storage_path = Path("storage").resolve().as_posix()
     if db.query(Attachment).filter(Attachment.media_filename == media_filename, Attachment.is_deleted == False).first() is not None:
-        return f"./storage/attachments/{media_filename}"
+        return f"{storage_path}/attachments{media_filename}"
     elif db.query(User).filter(User.avatar_filename == media_filename).first() is not None:
-        return f"./storage/avatars/{media_filename}"
+        return f"{storage_path}/avatar/{media_filename}"
     return None
 
 async def saveFile(file: UploadFile, purpose: FilePurpose):

@@ -159,15 +159,3 @@ async def vote_post(this_user: User_auth, post_id: int, vote_type: Annotated[int
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid value")
 
     return {"message": "Voted"}
-
-@router.get("posts/{post_id}/media/{media_filename}")
-async def get_post_media(db: Db_dependency, this_user: User_auth, post_id: int, media_filename: str):
-    """
-    Get media by its id.
-    """
-    if await postutils.getPost(post_id, db) is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
-
-    file = postutils.getFile(db, post_id, media_filename)
-    if file is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Requested resource not found")

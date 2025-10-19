@@ -129,10 +129,11 @@ async def confirm_email_update(otp: Annotated[str, Form(pattern=Pattern.OTP_PATT
     }
 
 @router.put("/user/avatar", status_code=status.HTTP_200_OK)
-async def update_avatar(this_user: User_auth, new_avatar: UploadFile):
+async def update_avatar(db: Db_dependency, this_user: User_auth, new_avatar: UploadFile):
     if not await attachments.validateFile(new_avatar):
         raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file. Avatar must have type jpg, png, or gif, and size less than 5MB.")
-    await attachments.saveFile(new_avatar, purpose='avatar')
+    this_user.avatar_filename = await attachments.saveFile(new_avatar, purpose='avatar')
+    db.commit()
     return {
         "message": "Avatar updated successfully"
     }
