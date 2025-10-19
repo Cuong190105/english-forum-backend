@@ -185,7 +185,7 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
 async def getFile(db: Db_dependency, media_filename: str):
     storage_path = Path("storage").resolve().as_posix()
     if db.query(Attachment).filter(Attachment.media_filename == media_filename, Attachment.is_deleted == False).first() is not None:
-        return f"{storage_path}/attachments{media_filename}"
+        return f"{storage_path}/attachment/{media_filename}"
     elif db.query(User).filter(User.avatar_filename == media_filename).first() is not None:
         return f"{storage_path}/avatar/{media_filename}"
     return None
