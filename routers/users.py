@@ -1,4 +1,6 @@
+from datetime import datetime
 from typing import Annotated
+from zoneinfo import ZoneInfo
 from fastapi import APIRouter, File, Form,  HTTPException, Query, UploadFile, status, Depends
 from pydantic import EmailStr
 from database.database import Db_dependency
@@ -154,17 +156,21 @@ async def change_relationship(this_user: User_auth, username: str, reltype: str,
     }
 
 @router.get("/user/{username}/posts", status_code=status.HTTP_200_OK)
-async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str):
+async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):
+    if cursor is None:
+        cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
     user = await userutils.getUserByUsername(username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    return [await post.getOutputPost(this_user, p) for p in user.posts]
+    return await post.getUserPosts(this_user, user, cursor)
 
 @router.get("/user/{username}/comments", status_code=status.HTTP_200_OK)
-async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str):
+async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):
+    if cursor is None:
+        cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
     user = await userutils.getUserByUsername(username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    return [await comment.getOutputComment(this_user, c) for c in user.comments]
+    return await comment.getUserComments(this_user, cursor)

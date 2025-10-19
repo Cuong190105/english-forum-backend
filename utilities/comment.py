@@ -1,3 +1,4 @@
+from datetime import datetime
 from database.database import Db_dependency
 from database.models import Post, Comment, CommentVote, User
 from database.outputmodel import OutputComment
@@ -183,3 +184,19 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
         await logActivity(user.user_id, db, 'vote_comment', VOTE_TYPE[value], vote.vote_id, 'comment', comment.comment_id,comment.author_id)
 
     return True
+
+async def getUserComments(this_user: User, user: User, cursor: datetime):
+    """
+    Get user's posts
+
+    Parans:
+        this_user: User requesting
+        user: Target user
+        cursor: Get all posts up to this timestamp
+    
+    Returns:
+        list[OutputPost]: All processed posts.
+    """
+    LIMIT = 10
+    comments = user.comments.filter(Comment.is_deleted == False, Comment.created_at < cursor).limit(LIMIT).all()
+    return [await getOutputComment(this_user, c) for c in comments]

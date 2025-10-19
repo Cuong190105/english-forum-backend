@@ -198,3 +198,19 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
         await logActivity(user.user_id, db, 'vote_post', VOTE_TYPE[value], vote.vote_id, 'post', post.post_id, post.author_id)
 
     return True
+
+async def getUserPosts(this_user: User, user: User, cursor: datetime):
+    """
+    Get user's posts
+
+    Parans:
+        this_user: User requesting
+        user: Target user
+        cursor: Get all posts up to this timestamp
+    
+    Returns:
+        list[OutputPost]: All processed posts.
+    """
+    LIMIT = 10
+    posts = user.posts.filter(Post.is_deleted == False, Post.created_at < cursor).limit(LIMIT).all()
+    return [await getOutputPost(this_user, p) for p in posts]
