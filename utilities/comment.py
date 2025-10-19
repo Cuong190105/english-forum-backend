@@ -1,6 +1,6 @@
 from database.database import Db_dependency
 from database.models import Post, Comment, CommentVote, User
-from database.outputmodel import SimpleComment
+from database.outputmodel import OutputComment
 
 async def getComments(db: Db_dependency, post: Post, user: User, offset: int, limit: int):
     """
@@ -48,7 +48,7 @@ def getOutputComments(comment: Comment, user: User):
     else:
         vote_value = user_vote.value
 
-    return SimpleComment(
+    return OutputComment(
         author_id=comment.author_id,
         post_id=comment.post_id,
         content=comment.content,

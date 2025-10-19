@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Form,  HTTPException, status
 from database.database import Db_dependency
-from database.outputmodel import SimpleComment
+from database.outputmodel import OutputComment
 from typing import Annotated
 from routers.dependencies import User_auth
 from utilities.activity import logActivity
@@ -9,7 +9,7 @@ from utilities import comment as cmtutils
 
 router = APIRouter()
 
-@router.get("/posts/{post_id}/comments", status_code=status.HTTP_200_OK, response_model=list[SimpleComment])
+@router.get("/posts/{post_id}/comments", status_code=status.HTTP_200_OK, response_model=list[OutputComment])
 async def get_post_comments(db: Db_dependency, this_user: User_auth, post_id: int, offset: int = 0, limit: int = 100):
     """
     Get all comments of a post.
