@@ -48,6 +48,8 @@ async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[
     comment = await cmtutils.createComment(db, this_user, post, content, reply_comment_id)
     if comment is None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Comment cannot be blank")
+     
+    await logActivity(this_user.user_id, db, "comment", comment.content, comment.comment_id, post.author_id)
 
     return {
         "message": "Comment Uploaded"

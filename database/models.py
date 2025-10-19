@@ -1,5 +1,5 @@
 import uuid
-from sqlalchemy import Boolean, Column, Integer, String, Text, TIMESTAMP, ForeignKey, func
+from sqlalchemy import Boolean, Column, Integer, String, Text, DateTime, ForeignKey, func
 from sqlalchemy.orm import relationship
 from database.database import Base
 from configs.config_auth import Duration
@@ -14,9 +14,9 @@ class User(Base):
     email = Column(String(255), unique=True, nullable=False)
     bio = Column(Text, nullable=True)
     avatar_filename = Column(String(255), nullable=True)
-    email_verified_at = Column(TIMESTAMP, nullable=True)
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
-    updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
+    email_verified_at = Column(DateTime(timezone=True), nullable=True)
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now(), onupdate=func.now())
 
     # _________Relationship_____________
     credential = relationship("Credentials", back_populates="user", uselist=False, cascade="all, delete-orphan", passive_deletes=True)
@@ -57,8 +57,8 @@ class Post(Base):
     title = Column(String(255), nullable=False)
     content = Column(Text, nullable=False)
     tag = Column(Text, nullable=False)
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
-    updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now(), onupdate=func.now())
     vote_count = Column(Integer, default=0, nullable=False)
     comment_count = Column(Integer, default=0, nullable=False)
     is_deleted = Column(Boolean, default=False, nullable=False)
@@ -78,8 +78,8 @@ class Comment(Base):
     author_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     reply_to_id = Column(ForeignKey("comments.comment_id", ondelete="CASCADE"), nullable=True)
     content = Column(Text, nullable=False)
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
-    updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now(), onupdate=func.now())
     vote_count = Column(Integer, default=0, nullable=False)
     is_deleted = Column(Boolean, default=False, nullable=False)
 
@@ -100,7 +100,7 @@ class Attachment(Base):
     media_type = Column(String(10), nullable=False)
     media_metadata = Column(Text, nullable=True)
     index = Column(Integer, nullable=False)
-    uploaded_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    uploaded_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     is_deleted = Column(Boolean, default=False, nullable=False)
 
     # _________Relationship_____________
@@ -114,8 +114,8 @@ class OTP(Base):
     username = Column(String(255), nullable=False)
     otp_code = Column(String(6), nullable=False)
     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
-    expires_at = Column(TIMESTAMP, nullable=False, server_onupdate=None)
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    expires_at = Column(DateTime(timezone=True), nullable=False, server_onupdate=None)
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     purpose = Column(String(50), nullable=False)
     trials = Column(Integer, default=5, nullable=False)
     is_token_used = Column(Boolean, default=False, nullable=False)
@@ -130,7 +130,7 @@ class EmailChangeRequest(Base):
     jti = Column(String(36), nullable=False, unique=True, default=lambda: str(uuid.uuid4()))
     user_id = Column(Integer, nullable=False)
     new_email = Column(String(255), nullable=False)
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     is_revoked = Column(Boolean, nullable=False, default=False)
 
     # _________Relationship_____________
@@ -142,8 +142,8 @@ class RefreshToken(Base):
     token_id = Column(Integer, primary_key=True)
     user_id = Column(Integer, nullable=False)
     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
-    expires_at = Column(TIMESTAMP, nullable=False, default=datetime.now(timezone.utc) + timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS))
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    expires_at = Column(DateTime(timezone=True), nullable=False, default=datetime.now(timezone.utc) + timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS))
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     is_revoked = Column(Boolean, default=False, nullable=False)
 
     # _________Relationship_____________
@@ -156,7 +156,7 @@ class Activity(Base):
     actor_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     action = Column(Text, nullable=False)
     action_id = Column(Integer, nullable=False)
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
 
     # _________Relationship_____________
     actor = relationship("User", back_populates="activities", single_parent=True)
@@ -172,7 +172,7 @@ class Notification(Base):
     action_type = Column(Text, nullable=False)
     is_read = Column(Boolean, nullable=False, default=False)
     is_deleted = Column(Boolean, nullable=False, default=False)
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     
     # _________Relationship_____________
     user = relationship("User", back_populates="notifications", single_parent=True)
@@ -185,7 +185,7 @@ class Following(Base):
     rel_id = Column(Integer, primary_key=True)
     follower_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     following_user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     unfollow = Column(Boolean, nullable=False, default=False)
 
 class PostVote(Base):
@@ -195,7 +195,7 @@ class PostVote(Base):
     vote_id = Column(Integer, primary_key=True)
     user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     post_id = Column(ForeignKey("posts.post_id", ondelete="CASCADE"))
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     value = Column(Integer, nullable=False, default=0)
     
     # _________Relationship_____________
@@ -209,7 +209,7 @@ class CommentVote(Base):
     vote_id = Column(Integer, primary_key=True)
     user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     comment_id = Column(ForeignKey("comments.comment_id", ondelete="CASCADE"))
-    created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     value = Column(Integer, nullable=False, default=False)
     
     # _________Relationship_____________

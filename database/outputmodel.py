@@ -38,8 +38,8 @@ class SimpleComment(BaseModel):
     is_modified: bool
 
 class OutputNotification(BaseModel):
-    actor_id: int
+    actor_username: str
+    actor_avatar: str | None
     action_type: str
     action_id: int
     is_read: bool
-    brief: str

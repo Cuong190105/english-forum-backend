@@ -18,6 +18,7 @@ def prepareForTest():
     user2 = models.User(
         username="username2",
         email="username2@example.com",
+        email_verified_at=datetime.now(timezone.utc),
     )
     creds2 = models.Credentials(
         password_hash="$2b$12$TKdVCOcS4n3lQ4KlOkV2ZefyNmPKkFq0.Jxn2e7.QmmF.mmO8ID3K",

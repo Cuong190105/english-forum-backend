@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 from typing import Annotated, Optional
+from zoneinfo import ZoneInfo
 from fastapi import APIRouter, File, Form,  HTTPException, status, Depends, UploadFile
 from pydantic import BaseModel, PositiveInt
 from database.database import Db_dependency
@@ -28,12 +29,13 @@ class PostTextContent(BaseModel):
         return cls(title=title, content=content, tag=tag)
 
 @router.get("/", status_code=status.HTTP_200_OK)
-async def get_newsfeed(this_user: User_auth, db: Db_dependency, criteria: FeedCriteria = 'latest', cursor: datetime = datetime.now(timezone.utc), limit: PositiveInt = 15):
+async def get_newsfeed(this_user: User_auth, db: Db_dependency, criteria: FeedCriteria = 'latest', cursor: datetime | None = None, limit: PositiveInt = 15):
     """
     Get latest posts for user's feed.\n
     Return a list of post.
     """
-
+    if cursor == None:
+        cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
     feed = await postutils.queryFeed(db, cursor, criteria, limit)
     if feed is None:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, detail="Query parameter invalid")
