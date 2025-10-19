@@ -1,11 +1,11 @@
 from typing import Annotated
-from fastapi import APIRouter, File, Form,  HTTPException, UploadFile, status, Depends
+from fastapi import APIRouter, File, Form,  HTTPException, Query, UploadFile, status, Depends
 from pydantic import EmailStr
 from database.database import Db_dependency
 from database.models import Following
 from database.outputmodel import SimpleUser
 from routers.dependencies import User_auth
-from utilities import account, mailer, security, user, attachments
+from utilities import account, mailer, security, user as userutils, attachments, post, comment
 from configs.config_auth import OTP_Purpose
 from configs.config_user import Relationship
 from configs.config_validation import Pattern
@@ -16,17 +16,17 @@ async def get_current_user(this_user: User_auth):
     """
     Get current user info
     """
-    return user.getSimpleUser(this_user)
+    return userutils.getSimpleUser(this_user)
 
 @router.get("/user/{username}", status_code=status.HTTP_200_OK, response_model=SimpleUser)
 async def get_user(this_user: User_auth, username: str, db: Db_dependency):
     """
     Get user info by username
     """
-    requested_user = await user.getUserByUsername(username, db)
+    requested_user = await userutils.getUserByUsername(username, db)
     if requested_user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    return user.getSimpleUser(requested_user)
+    return userutils.getSimpleUser(requested_user)
 
 @router.put("/user/bio", status_code=status.HTTP_200_OK)
 async def update_bio(bio: Annotated[str, Form(min_length=1)], this_user: User_auth, db: Db_dependency):
@@ -45,7 +45,7 @@ async def update_username(username: Annotated[str, Form(pattern=Pattern.USERNAME
     """
 
     # Check if username is unique
-    record = await user.getUserByUsername(username, db)
+    record = await userutils.getUserByUsername(username, db)
     if record is not None:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Username already exists")
     
@@ -63,7 +63,7 @@ async def update_email_address(email: Annotated[EmailStr, Form()], this_user: Us
     """
 
     # Check if email is unique
-    record = await user.getUserByUsername(email, db)
+    record = await userutils.getUserByUsername(email, db)
     if record is not None:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Email already exists")
 
@@ -144,11 +144,27 @@ async def change_relationship(this_user: User_auth, username: str, reltype: str,
     Change user's relationship with another user.
     Relationship can be: follow, unfollow (block and unblock added later)
     """
-    target = await user.getUserByUsername(username)
+    target = await userutils.getUserByUsername(username)
     if target is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    if not await user.changeRelationship(this_user, target, reltype):
+    if not await userutils.changeRelationship(this_user, target, reltype):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Something went wrong")
     return {
         "message": "User followed"
     }
+
+@router.get("/user/{username}/posts", status_code=status.HTTP_200_OK)
+async def get_user_posts(db: Db_dependency, this_user: User_auth, username: Annotated[str, Query(min_length=1)]):
+    user = await userutils.getUserByUsername(username, db)
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    
+    return [await post.getOutputPost(this_user, p) for p in user.posts]
+
+@router.get("/user/{username}/comments", status_code=status.HTTP_200_OK)
+async def get_user_posts(db: Db_dependency, this_user: User_auth, username: Annotated[str, Query(min_length=1)]):
+    user = await userutils.getUserByUsername(username, db)
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    
+    return [await comment.getOutputComment(this_user, c) for c in user.comments]

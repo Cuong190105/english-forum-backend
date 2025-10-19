@@ -7,10 +7,10 @@ from configs.config_validation import Pattern
 from utilities.user import getUserByUsername
 import re
 
-Action = Literal['comment', 'post', 'reply', 'votepost', 'votecomment']
+ActionType = Literal['post', 'comment', 'reply', 'vote_post', 'vote_comment', 'follow']
 ActionTarget = Literal['user', 'comment', 'post']
 
-async def logActivity(actor_id: int, db: Db_dependency, action: Action, content: str, action_id: int, target_type: ActionTarget, target_id: int, target_noti_id: int = None):
+async def logActivity(actor_id: int, db: Db_dependency, action: ActionType, content: str, action_id: int, target_type: ActionTarget, target_id: int, target_noti_id: int = None):
     """
     Log user activities for traceback and generate notifications.
 
@@ -30,10 +30,10 @@ async def logActivity(actor_id: int, db: Db_dependency, action: Action, content:
     
     act = Activity(
         actor_id = actor_id,
-        action = action,
         action_id = action_id,
         target_type = target_type,
         target_id = target_id,
+        action_type = action,
     )
     new_act = True
 
@@ -55,20 +55,7 @@ async def logActivity(actor_id: int, db: Db_dependency, action: Action, content:
     
     # Vote action
     elif actor_id != target_noti_id:
-        voteActivity =  db.query(Activity).filter(Activity.actor_id == actor_id, Activity.action == action, Activity.action_id == action_id).first()
-        if voteActivity is not None:
-            new_act = False
-            now = datetime.now(timezone.utc)
-            voteActivity.created_at = now
-            if len(voteActivity.notifications) == 0:
-                voteActivity.notifications.append(createNotification(target_noti_id, action))
-            else:
-                for noti in voteActivity.notifications:
-                    noti.created_at = now
-                    noti.is_read = False
-                    noti.is_deleted = False
-        else:
-            act.notifications.append(createNotification(target_noti_id, action))
+        act.notifications.append(createNotification(target_noti_id, action))
 
     if new_act:
         db.add(act)
@@ -104,11 +91,27 @@ async def getNotifications(user: User, db: Db_dependency, cursor: datetime):
         actor = activity.actor
 
         output.append(OutputNotification(
-            action_type=activity.action,
-            target_type=activity.target_type,
-            target_id=activity.target_id,
-            is_read=n.is_read,
             actor_username=actor.username,
             actor_avatar=actor.avatar_filename,
+            action_type=activity.action_type,
+            action_id=activity.action_id,
+            target_id=activity.target_id,
+            target_type=activity.target_type,
+            is_read=n.is_read,
         ))
     return output
+
+async def markAsRead(db: Db_dependency, user: User, notification_id: int):
+    noti = db.query(Notification).filter(
+        Notification.noti_id == notification_id,
+        Notification.user_id == user.user_id,
+        Notification.is_deleted == False,
+        Notification.is_read == False
+    ).first()
+
+    if noti is None:
+        return None
+    
+    noti.is_read = True
+    db.commit()
+    return noti

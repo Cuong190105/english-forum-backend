@@ -1,6 +1,7 @@
 from database.database import Db_dependency
 from database.models import Post, Comment, CommentVote, User
 from database.outputmodel import OutputComment
+from utilities.activity import logActivity
 
 async def getComments(db: Db_dependency, post: Post, user: User, offset: int, limit: int):
     """
@@ -24,22 +25,22 @@ async def getComments(db: Db_dependency, post: Post, user: User, offset: int, li
 
 
     # Simplify output data.
-    output = [getOutputComments(c, user) for c in comments]
+    output = [await getOutputComment(user, c) for c in comments]
 
     # Sort the comments according to the votes
     output.sort(key=lambda x: x.vote_count, reverse=True)
     return output
 
-def getOutputComments(comment: Comment, user: User):
+async def getOutputComment(user: User, comment: Comment):
     """
-    Convert a Comment to SimpleComment.
+    Add more user related data to regular comments.
 
     Params:
         comment: Comment object
         user: The actor
 
     Returns:
-        SimpleComment: Converted comment
+        OutputComment: Converted comment
     """
 
     user_vote = comment.votes.filter(CommentVote.user_id == user.user_id).first()
@@ -51,6 +52,7 @@ def getOutputComments(comment: Comment, user: User):
     return OutputComment(
         author_id=comment.author_id,
         post_id=comment.post_id,
+        comment_id=comment.comment_id,
         content=comment.content,
         reply_to_id=comment.reply_to_id,
         vote_count=comment.vote_count,
@@ -154,7 +156,7 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
         value: Value of vote: -1, 0, 1
 
     Returns:
-        bool: True if updated, else False if invalid value
+        bool: True if updated, else False if invalid value. 
     """
 
     VOTE_TYPE = ["novote", "upvote", "downvote"]
@@ -163,16 +165,21 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
     if abs(value) > 1:
         return False
 
+    is_new = False
     vote = comment.votes.filter(CommentVote.user_id == user.user_id).first()
     if vote is None:
         vote = CommentVote(user_id=user.user_id, value=0)
 
         # If this action is new, log the action
-        # await logActivity(user_id, db, ActionType.VOTECOMMENT, VOTE_TYPE[value], vote.vote_id, comment.author_id)
+        is_new = True
     
     comment.vote_count += value - vote.value
     vote.value = value
     comment.votes.append(vote)
     db.commit()
+    db.refresh(vote)
+
+    if is_new:
+        await logActivity(user.user_id, db, 'vote_comment', VOTE_TYPE[value], vote.vote_id, 'comment', comment.comment_id,comment.author_id)
 
     return True

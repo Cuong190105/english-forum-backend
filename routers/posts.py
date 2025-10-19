@@ -8,7 +8,6 @@ from database.outputmodel import OutputPost
 from routers.dependencies import User_auth
 from utilities import post as postutils, attachments as attutils
 from utilities.activity import logActivity
-from configs.config_activity import ActionType
 from configs.config_post import FeedCriteria
 from fastapi.responses import FileResponse
 
@@ -40,7 +39,7 @@ async def get_newsfeed(this_user: User_auth, db: Db_dependency, criteria: FeedCr
     if feed is None:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, detail="Query parameter invalid")
     
-    output = [await postutils.getOutputPost(this_user, p, db) for p in feed]
+    output = [await postutils.getOutputPost(this_user, p) for p in feed]
     return output
 
 @router.get("/posts/{post_id}", status_code=status.HTTP_200_OK, response_model=OutputPost)
@@ -51,7 +50,7 @@ async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
     post = await postutils.getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
-    return await postutils.getOutputPost(this_user, post, db)
+    return await postutils.getOutputPost(this_user, post)
 
 @router.post("/posts/upload", status_code=status.HTTP_201_CREATED)
 async def upload_post(
@@ -73,10 +72,6 @@ async def upload_post(
 
     # Create a post object and get its post_id
     new_post = await postutils.createPost(db, this_user, text_content.title, text_content.content, text_content.tag, ats)
-
-    # Store the attachments
-
-    await logActivity(this_user.user_id, db, ActionType.POST, new_post.content, new_post.post_id)
 
     return {
         "message": "Post created",

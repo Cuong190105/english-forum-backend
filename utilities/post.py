@@ -10,6 +10,7 @@ from database.outputmodel import OutputPost, SimpleAttachment
 from utilities import comment as cmtutils
 from configs.config_post import FeedCriteria, FileChange
 from configs.config_validation import FileRule
+from utilities.activity import logActivity
 
 async def getPost(post_id: int, db: Db_dependency):
     """
@@ -50,7 +51,7 @@ async def queryFeed(db: Db_dependency, cursor: datetime, criteria: FeedCriteria,
     posts = query.filter(Post.created_at < cursor).order_by(Post.created_at.desc()).limit(limit).all()
     return posts
 
-async def getOutputPost(user: User, post: Post, db: Db_dependency):
+async def getOutputPost(user: User, post: Post):
     if post is None:
         return None
     
@@ -60,14 +61,12 @@ async def getOutputPost(user: User, post: Post, db: Db_dependency):
     else:
         vote_value = user_vote.value
 
-    # attachments = db.query(Attachment).filter(Attachment.post_id == post_id).order_by(Attachment.index.asc()).all()
     attachments = post.attachments
 
     simple_attachments = [
         SimpleAttachment(
             media_type=a.media_type,
             media_filename=a.media_filename,
-            # media_metadata=str(a.media_metadata),
             media_metadata=a.media_metadata,
             index=a.index
         ) for a in attachments
@@ -117,6 +116,9 @@ async def createPost(db: Db_dependency, author: User, title: str, content: str, 
     db.add(post)
     db.commit()
     db.refresh(post)
+
+    await logActivity(author.user_id, db, 'post', content, post.post_id, 'post', post.post_id, author.user_id)
+
 
     return post
 
@@ -178,16 +180,21 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
     if abs(value) > 1:
         return False
 
+    is_new = False
     vote = post.votes.filter(PostVote.user_id == user.user_id).first()
     if vote is None:
         vote = PostVote(user_id=user.user_id, value=0)
 
         # If this action is new, log the action
-        # await logActivity(user_id, db, ActionType.VOTEPOST, VOTE_TYPE[value], vote.vote_id, post.author_id)
+        is_new = True
     
     post.vote_count += value - vote.value
     vote.value = value
     post.votes.append(vote)
     db.commit()
+    db.refresh(vote)
+    
+    if is_new:
+        await logActivity(user.user_id, db, 'vote_post', VOTE_TYPE[value], vote.vote_id, 'post', post.post_id, post.author_id)
 
     return True

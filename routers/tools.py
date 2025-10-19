@@ -8,7 +8,7 @@ from database.outputmodel import OutputNotification
 from database.database import Db_dependency
 from routers.dependencies import User_auth
 from utilities.attachments import getFile
-from utilities.activity import getNotifications
+from utilities.activity import getNotifications, markAsRead
 router = APIRouter()
 
 @router.get("/search", status_code=status.HTTP_200_OK)
@@ -29,6 +29,15 @@ async def get_notifications(this_user: User_auth, db: Db_dependency, cursor: dat
     if cursor == None:
         cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
     return await getNotifications(this_user, db, cursor)
+
+@router.put("/notifications/{notification_id}", status_code=status.HTTP_200_OK)
+async def mark_as_read(this_user: User_auth, db: Db_dependency, notification_id: int):
+    if not await markAsRead(db, this_user, notification_id):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Failed to mark")
+
+    return {
+        "message": "Done"
+    }
 
 @router.get("/posts/{post_id}/exercise", status_code=status.HTTP_200_OK)
 async def get_exercises(this_user: User_auth, post_id: int, db: Db_dependency):

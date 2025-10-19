@@ -44,6 +44,7 @@ class OutputNotification(BaseModel):
     actor_username: str
     actor_avatar: str | None
     action_type: str
-    target_type: int
+    action_id: int
+    target_type: str
     target_id: int
     is_read: bool

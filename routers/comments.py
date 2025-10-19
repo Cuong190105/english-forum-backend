@@ -46,11 +46,19 @@ async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[
     if comment is None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Comment cannot be blank")
      
-    await logActivity(this_user.user_id, db, "comment", comment.content, comment.comment_id, post.author_id)
+    await logActivity(this_user.user_id, db, 'comment', comment.content, comment.comment_id, 'post', post.post_id, post.author_id)
 
     return {
         "message": "Comment Uploaded"
     }
+
+@router.get("/comments/{comment_id}", status_code=status.HTTP_202_ACCEPTED, response_model=OutputComment)
+async def get_comment_by_id(this_user: User_auth, comment_id: int, db: Db_dependency):
+    cmt = await cmtutils.getCommentById(db, comment_id)
+    if cmt is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Comment not found")
+    
+    return await cmtutils.getOutputComment(this_user, cmt)
 
 @router.put("/comments/{comment_id}", status_code=status.HTTP_202_ACCEPTED)
 async def edit_comment(this_user: User_auth, comment_id: int, content: Annotated[str, Form(min_length=1)], db: Db_dependency):
