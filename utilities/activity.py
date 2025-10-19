@@ -8,8 +8,9 @@ from utilities.user import getUserByUsername
 import re
 
 Action = Literal['comment', 'post', 'reply', 'votepost', 'votecomment']
+ActionTarget = Literal['user', 'comment', 'post']
 
-async def logActivity(actor_id: int, db: Db_dependency, action: Action, content: str, action_id: int, target_noti_id: int = None):
+async def logActivity(actor_id: int, db: Db_dependency, action: Action, content: str, action_id: int, target_type: ActionTarget, target_id: int, target_noti_id: int = None):
     """
     Log user activities for traceback and generate notifications.
 
@@ -18,7 +19,9 @@ async def logActivity(actor_id: int, db: Db_dependency, action: Action, content:
         db: Database session object
         action: Type of action, using ActionType Enum in config_activity
         content: Content of action. Example: Post content, comment content, upvote, downvote,...
-        action_id: ID of object created after the action: comment_id, post_id,...
+        action_id: ID of object created after the action: comment_id, post_id, vote_id,...
+        target_type: Type of object this action targets to: User, comment or post
+        target_id: ID of targeted object
         target_noti_id: ID of user whose object this action targets. For example, comment targets post, reply targets comment, follow target user,...
     
     Returns:
@@ -28,7 +31,9 @@ async def logActivity(actor_id: int, db: Db_dependency, action: Action, content:
     act = Activity(
         actor_id = actor_id,
         action = action,
-        action_id = action_id
+        action_id = action_id,
+        target_type = target_type,
+        target_id = target_id,
     )
     new_act = True
 
@@ -96,11 +101,12 @@ async def getNotifications(user: User, db: Db_dependency, cursor: datetime):
     output = []
     for n in noti:
         activity: Activity = n.activity
-        actor = db.query(User).filter(User.user_id == activity.actor_id).first()
-        
+        actor = activity.actor
+
         output.append(OutputNotification(
             action_type=activity.action,
-            action_id=activity.action_id,
+            target_type=activity.target_type,
+            target_id=activity.target_id,
             is_read=n.is_read,
             actor_username=actor.username,
             actor_avatar=actor.avatar_filename,

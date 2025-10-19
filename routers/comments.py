@@ -1,8 +1,5 @@
-from datetime import datetime, timezone
-from fastapi import APIRouter, Form,  HTTPException, status, Depends, UploadFile
-from configs.config_activity import ActionType
+from fastapi import APIRouter, Form,  HTTPException, status
 from database.database import Db_dependency
-from database.models import User, Comment, CommentVote
 from database.outputmodel import SimpleComment
 from typing import Annotated
 from routers.dependencies import User_auth

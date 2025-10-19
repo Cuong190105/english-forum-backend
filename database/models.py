@@ -154,12 +154,14 @@ class Activity(Base):
     # _________Fields_____________
     activity_id = Column(Integer, primary_key=True)
     actor_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
-    action = Column(Text, nullable=False)
+    target_type = Column(Text, nullable=False)
+    target_id = Column(Integer, nullable=False)
+    action_type = Column(Text, nullable=False)
     action_id = Column(Integer, nullable=False)
     created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
 
     # _________Relationship_____________
-    actor = relationship("User", back_populates="activities", single_parent=True)
+    actor = relationship("User", back_populates="activities", single_parent=True, uselist=False)
     notifications = relationship("Notification", back_populates="activity", cascade="all, delete-orphan", passive_deletes=True)
 
 class Notification(Base):
@@ -169,14 +171,14 @@ class Notification(Base):
     noti_id = Column(Integer, primary_key=True)
     user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
     activity_id = Column(ForeignKey("activities.activity_id", ondelete="CASCADE"))
-    action_type = Column(Text, nullable=False)
+    action = Column(Text, nullable=False)
     is_read = Column(Boolean, nullable=False, default=False)
     is_deleted = Column(Boolean, nullable=False, default=False)
     created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     
     # _________Relationship_____________
     user = relationship("User", back_populates="notifications", single_parent=True)
-    activity = relationship("Activity", back_populates="notifications", single_parent=True)
+    activity = relationship("Activity", back_populates="notifications", single_parent=True, uselist=False)
     
 class Following(Base):
     __tablename__ = "following"

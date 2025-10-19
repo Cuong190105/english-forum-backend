@@ -50,7 +50,9 @@ def getOutputComments(comment: Comment, user: User):
 
     return SimpleComment(
         author_id=comment.author_id,
+        post_id=comment.post_id,
         content=comment.content,
+        reply_to_id=comment.reply_to_id,
         vote_count=comment.vote_count,
         user_vote=vote_value,
         created_at=comment.created_at,

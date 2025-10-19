@@ -29,7 +29,10 @@ class OutputPost(BaseModel):
     is_modified: bool
     attachments: list[SimpleAttachment] | None
 
-class SimpleComment(BaseModel):
+class OutputComment(BaseModel):
+    comment_id: int
+    post_id: int
+    reply_to_id: int | None
     author_id: int
     content: str
     vote_count: int
@@ -41,5 +44,6 @@ class OutputNotification(BaseModel):
     actor_username: str
     actor_avatar: str | None
     action_type: str
-    action_id: int
+    target_type: int
+    target_id: int
     is_read: bool
