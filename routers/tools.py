@@ -51,7 +51,7 @@ async def get_exercises(this_user: User_auth, post_id: int, db: Db_dependency):
 
     pass
 
-@router.get("download/{media_filename}")
+@router.get("/download/{media_filename}")
 async def download(db: Db_dependency, this_user: User_auth, media_filename: str):
     """
     Get media by its filename.
