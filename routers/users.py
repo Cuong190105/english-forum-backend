@@ -154,7 +154,7 @@ async def change_relationship(this_user: User_auth, username: str, reltype: str,
     }
 
 @router.get("/user/{username}/posts", status_code=status.HTTP_200_OK)
-async def get_user_posts(db: Db_dependency, this_user: User_auth, username: Annotated[str, Query(min_length=1)]):
+async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str):
     user = await userutils.getUserByUsername(username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
@@ -162,7 +162,7 @@ async def get_user_posts(db: Db_dependency, this_user: User_auth, username: Anno
     return [await post.getOutputPost(this_user, p) for p in user.posts]
 
 @router.get("/user/{username}/comments", status_code=status.HTTP_200_OK)
-async def get_user_posts(db: Db_dependency, this_user: User_auth, username: Annotated[str, Query(min_length=1)]):
+async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str):
     user = await userutils.getUserByUsername(username, db)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
