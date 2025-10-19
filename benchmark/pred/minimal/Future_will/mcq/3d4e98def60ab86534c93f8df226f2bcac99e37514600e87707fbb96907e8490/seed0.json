@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "I think I _____ visit my grandparents next weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "visit"
+        },
+        {
+          "id": "d",
+          "label": "visited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will' để diễn tả dự đoán hoặc quyết định tại thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Don't worry, I _____ help you with your homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am helping"
+        },
+        {
+          "id": "c",
+          "label": "help"
+        },
+        {
+          "id": "d",
+          "label": "helped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will' để diễn tả lời hứa hoặc đề nghị giúp đỡ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I'm sure she _____ pass the exam. She studied very hard.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is passing"
+        },
+        {
+          "id": "c",
+          "label": "passes"
+        },
+        {
+          "id": "d",
+          "label": "passed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will' để diễn tả dự đoán cá nhân về tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "What _____ you _____ do tomorrow?",
+      "options": [
+        {
+          "id": "a",
+          "label": "will / do"
+        },
+        {
+          "id": "b",
+          "label": "are / doing"
+        },
+        {
+          "id": "c",
+          "label": "do / do"
+        },
+        {
+          "id": "d",
+          "label": "did / do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc câu hỏi thì tương lai đơn với 'will' là 'Will + S + V-inf?'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He _____ not come to the party tonight. He's too busy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will not' (hoặc 'won't') để diễn tả sự từ chối hoặc không có ý định làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I promise I _____ tell anyone your secret.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "am not"
+        },
+        {
+          "id": "d",
+          "label": "didn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'won't' (viết tắt của 'will not') để diễn tả lời hứa không làm gì trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "_____ you please open the window?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Will"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Can"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'Will you please...?' để đưa ra một yêu cầu lịch sự."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "They _____ probably arrive late because of the traffic.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will' với các trạng từ như 'probably' để diễn tả khả năng xảy ra trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "I believe the world _____ be a better place in the future.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will' để diễn tả niềm tin hoặc quan điểm về tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Oh, I forgot my wallet! Don't worry, I _____ pay for your coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am paying"
+        },
+        {
+          "id": "c",
+          "label": "pay"
+        },
+        {
+          "id": "d",
+          "label": "paid"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will' để diễn tả một quyết định tự phát được đưa ra tại thời điểm nói."
+  }
+]

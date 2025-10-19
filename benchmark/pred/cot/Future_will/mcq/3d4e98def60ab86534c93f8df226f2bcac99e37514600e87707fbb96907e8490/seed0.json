@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_001",
+      "prompt": "Scientists predict that by 2050, artificial intelligence _____ a significant role in daily life.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "is playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dự đoán về tương lai dùng 'will' + động từ nguyên mẫu. 'By 2050' là dấu hiệu thời gian tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_002",
+      "prompt": "Oh, I forgot my wallet! Don't worry, I _____ you some money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will lend"
+        },
+        {
+          "id": "b",
+          "label": "am lending"
+        },
+        {
+          "id": "c",
+          "label": "lend"
+        },
+        {
+          "id": "d",
+          "label": "lent"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Quyết định tức thời tại thời điểm nói dùng 'will' + động từ nguyên mẫu. Các thì khác không phù hợp cho quyết định ngay lập tức."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_003",
+      "prompt": "I promise I _____ late for the meeting again.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't be"
+        },
+        {
+          "id": "b",
+          "label": "am not"
+        },
+        {
+          "id": "c",
+          "label": "wasn't"
+        },
+        {
+          "id": "d",
+          "label": "haven't been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lời hứa trong tương lai dùng 'will' (hoặc 'won't') + động từ nguyên mẫu. Các thì khác không diễn tả lời hứa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_004",
+      "prompt": "This box is too heavy for you. I _____ you carry it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will help"
+        },
+        {
+          "id": "b",
+          "label": "am helping"
+        },
+        {
+          "id": "c",
+          "label": "help"
+        },
+        {
+          "id": "d",
+          "label": "helped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đề nghị giúp đỡ ai đó dùng 'will' + động từ nguyên mẫu. Các thì khác không diễn tả đề nghị."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_005",
+      "prompt": "If you study hard, you _____ your exams easily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will pass"
+        },
+        {
+          "id": "b",
+          "label": "pass"
+        },
+        {
+          "id": "c",
+          "label": "are passing"
+        },
+        {
+          "id": "d",
+          "label": "passed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 1 diễn tả kết quả tương lai dùng 'will' + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_006",
+      "prompt": "I think the weather _____ better tomorrow, so we can go to the beach.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả dự đoán cá nhân về tương lai, thường dùng với 'I think', sử dụng 'will' + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_007",
+      "prompt": "_____ you please close the window? It's a bit cold in here.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Will"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'Will you please...?' để đưa ra một yêu cầu lịch sự trong tương lai. 'Do', 'Are', 'Did' không đúng ngữ pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_008",
+      "prompt": "If you don't finish your homework, your teacher _____ very upset.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hậu quả trong tương lai của một hành động, đặc biệt trong câu điều kiện loại 1, dùng 'will' + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_009",
+      "prompt": "The new shopping mall _____ next month, creating many job opportunities.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will open"
+        },
+        {
+          "id": "b",
+          "label": "opens"
+        },
+        {
+          "id": "c",
+          "label": "is opening"
+        },
+        {
+          "id": "d",
+          "label": "opened"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả một sự kiện chắc chắn xảy ra trong tương lai, thường dùng 'will' + động từ nguyên mẫu. 'Next month' là dấu hiệu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_will_010",
+      "prompt": "I'm sure our team _____ the championship this year; they've been training so hard.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will win"
+        },
+        {
+          "id": "b",
+          "label": "wins"
+        },
+        {
+          "id": "c",
+          "label": "is winning"
+        },
+        {
+          "id": "d",
+          "label": "won"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả sự chắc chắn hoặc niềm tin mạnh mẽ về một sự kiện trong tương lai, dùng 'will' + động từ nguyên mẫu."
+  }
+]

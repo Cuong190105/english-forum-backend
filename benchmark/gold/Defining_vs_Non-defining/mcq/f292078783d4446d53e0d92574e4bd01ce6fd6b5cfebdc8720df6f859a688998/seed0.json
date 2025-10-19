@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_001",
+      "prompt": "My best friend, _____ lives next door, is very good at playing the guitar.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "who"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "he"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là mệnh đề quan hệ không xác định, bổ sung thông tin cho 'My best friend'. Chúng ta dùng 'who' cho người và không dùng 'that' trong mệnh đề có dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_002",
+      "prompt": "The book _____ I'm reading is about the history of Vietnam.",
+      "options": [
+        {
+          "id": "a",
+          "label": ", which"
+        },
+        {
+          "id": "b",
+          "label": ", that"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": ", who"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là mệnh đề quan hệ xác định, cần thiết để hiểu người nói đang đọc 'quyển sách nào'. Vì vậy, không có dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_003",
+      "prompt": "Ho Chi Minh City, _____ is the largest city in Vietnam, is a major economic hub.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "where"
+        },
+        {
+          "id": "d",
+          "label": "what"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề này bổ sung thông tin cho 'Ho Chi Minh City', một danh từ riêng, nên là mệnh đề không xác định. Dùng 'which' để chỉ vật hoặc địa danh với vai trò chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_004",
+      "prompt": "The student _____ notebook was lost reported it to the teacher.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chúng ta cần một đại từ quan hệ chỉ sự sở hữu ('quyển vở của học sinh'). 'Whose' được dùng cho cả người và vật để chỉ sự sở hữu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_005",
+      "prompt": "He finally visited the village _____ his grandparents were born.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "where"
+        },
+        {
+          "id": "d",
+          "label": ", where"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề quan hệ này xác định 'ngôi làng nào', nên không dùng dấu phẩy. 'Where' được dùng để chỉ nơi chốn, thay cho 'in/at the village'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_006",
+      "prompt": "My brother passed his final exam, _____ made our parents very happy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "what"
+        },
+        {
+          "id": "d",
+          "label": "it"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong trường hợp này, 'which' được dùng trong mệnh đề quan hệ không xác định để thay thế cho cả một mệnh đề đứng trước nó (việc anh trai thi đỗ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_007",
+      "prompt": "Choose the grammatically CORRECT sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The phone, that is on the table, is mine."
+        },
+        {
+          "id": "b",
+          "label": "The phone which is on the table is mine."
+        },
+        {
+          "id": "c",
+          "label": "The phone, which is on the table is mine."
+        },
+        {
+          "id": "d",
+          "label": "The phone that is on the table, is mine."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề 'which is on the table' là mệnh đề xác định, vì nó giúp chỉ rõ 'cái điện thoại nào'. Do đó, không dùng dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_008",
+      "prompt": "Professor Smith, _____ is a leading expert in biochemistry, will be our guest speaker.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "who"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Vì 'Professor Smith' là tên riêng, mệnh đề theo sau là mệnh đề không xác định (dùng dấu phẩy). 'Who' được dùng để chỉ người và làm chủ ngữ trong mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_009",
+      "prompt": "The woman to _____ I spoke was very helpful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi đại từ quan hệ đứng ngay sau một giới từ (ở đây là 'to'), chúng ta phải dùng 'whom' cho người hoặc 'which' cho vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_010",
+      "prompt": "Knowledge of biochemistry is required, _____ is an integration of biology and chemistry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "it"
+        },
+        {
+          "id": "d",
+          "label": "what"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề này bổ sung thông tin cho danh từ 'biochemistry'. Đây là mệnh đề không xác định (có dấu phẩy), vì vậy không thể dùng 'that'. 'Which' là lựa chọn đúng."
+  }
+]

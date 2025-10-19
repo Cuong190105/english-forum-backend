@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My family _____ to Da Lat last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Quá khứ đơn dùng để diễn tả hành động đã xảy ra và kết thúc trong quá khứ, thường có dấu hiệu thời gian như 'last summer'. 'Went' là dạng quá khứ của 'go'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "They _____ finish their homework yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "wasn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định quá khứ đơn, chúng ta dùng 'did not' (didn't) theo sau là động từ nguyên mẫu. 'Yesterday evening' là dấu hiệu quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "_____ you visit your grandparents last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để đặt câu hỏi Yes/No trong quá khứ đơn, chúng ta dùng 'Did' ở đầu câu, theo sau là chủ ngữ và động từ nguyên mẫu. 'Last weekend' chỉ thời gian quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "Where _____ she go for her vacation two years ago?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu hỏi Wh- trong quá khứ đơn, cấu trúc là Wh-word + did + chủ ngữ + động từ nguyên mẫu. 'Two years ago' là dấu hiệu quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "I _____ very tired after the long flight last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ 'I' trong quá khứ đơn, động từ 'to be' là 'was'. 'Last night' là dấu hiệu thời gian quá khứ. Các lựa chọn khác sai thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "The students _____ in the library an hour ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Với chủ ngữ số nhiều 'The students' trong quá khứ đơn, động từ 'to be' là 'were'. 'An hour ago' chỉ thời gian đã qua."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "She _____ a new dress for the party last Saturday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buys"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Bought' là dạng quá khứ đơn của động từ bất quy tắc 'buy'. 'Last Saturday' là dấu hiệu thời gian quá khứ. Các lựa chọn khác sai thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "We _____ to music for hours yesterday afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "listen"
+        },
+        {
+          "id": "b",
+          "label": "listens"
+        },
+        {
+          "id": "c",
+          "label": "listened"
+        },
+        {
+          "id": "d",
+          "label": "listening"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Listened' là dạng quá khứ đơn của động từ quy tắc 'listen'. 'Yesterday afternoon' là dấu hiệu thời gian quá khứ. Các lựa chọn khác sai thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Our group _____ to open Waseda Cafe last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "decide"
+        },
+        {
+          "id": "b",
+          "label": "decides"
+        },
+        {
+          "id": "c",
+          "label": "decided"
+        },
+        {
+          "id": "d",
+          "label": "deciding"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Decided' là dạng quá khứ đơn của động từ 'decide'. 'Last year' là dấu hiệu thời gian quá khứ, chỉ hành động đã hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "He _____ his car keys somewhere in the house this morning, but he found them later.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lost"
+        },
+        {
+          "id": "b",
+          "label": "has lost"
+        },
+        {
+          "id": "c",
+          "label": "loses"
+        },
+        {
+          "id": "d",
+          "label": "is losing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'lost' đã xảy ra và kết thúc trong quá khứ ('this morning'), và có kết quả rõ ràng ('found them later'). Dùng quá khứ đơn."
+  }
+]

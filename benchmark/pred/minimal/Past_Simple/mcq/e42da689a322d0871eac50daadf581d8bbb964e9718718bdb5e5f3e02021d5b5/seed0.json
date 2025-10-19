@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My family _____ to Da Lat last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last summer” chỉ một hành động đã xảy ra trong quá khứ, cần dùng thì quá khứ đơn. “Went” là dạng quá khứ của “go”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She _____ a new dress for the party yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buys"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Yesterday” là dấu hiệu của thì quá khứ đơn. “Bought” là dạng quá khứ của “buy”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "When Bill Gates _____ a young man, he attended Harvard University.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“When Bill Gates was a young man” chỉ một thời điểm trong quá khứ. “Bill Gates” là chủ ngữ số ít, nên dùng “was”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "They _____ finish their homework last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "didn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để tạo câu phủ định trong quá khứ đơn, ta dùng “didn't” + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ you visit your grandparents last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Did"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để tạo câu hỏi trong quá khứ đơn, ta dùng “Did” + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "We _____ a lot of fun at the beach two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Two days ago” là dấu hiệu của thì quá khứ đơn. “Had” là dạng quá khứ của “have”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "My brother _____ his leg while playing football yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "break"
+        },
+        {
+          "id": "b",
+          "label": "breaks"
+        },
+        {
+          "id": "c",
+          "label": "broke"
+        },
+        {
+          "id": "d",
+          "label": "broken"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Yesterday” chỉ hành động đã xảy ra trong quá khứ. “Broke” là dạng quá khứ của “break”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The students _____ very quiet during the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“The students” là chủ ngữ số nhiều và hành động xảy ra trong quá khứ, nên dùng “were”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She _____ her keys, so she couldn't open the door.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lose"
+        },
+        {
+          "id": "b",
+          "label": "loses"
+        },
+        {
+          "id": "c",
+          "label": "lost"
+        },
+        {
+          "id": "d",
+          "label": "losing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động “mất chìa khóa” xảy ra trước và là nguyên nhân của việc “không thể mở cửa”, cả hai đều trong quá khứ. “Lost” là dạng quá khứ của “lose”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Last year, I _____ to learn how to play the guitar.",
+      "options": [
+        {
+          "id": "a",
+          "label": "begin"
+        },
+        {
+          "id": "b",
+          "label": "begins"
+        },
+        {
+          "id": "c",
+          "label": "began"
+        },
+        {
+          "id": "d",
+          "label": "beginning"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last year” là dấu hiệu của thì quá khứ đơn. “Began” là dạng quá khứ của “begin”."
+  }
+]

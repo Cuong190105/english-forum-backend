@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_01",
+      "prompt": "He asked, \"So what shall I do?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "He asked what should he do."
+        },
+        {
+          "id": "b",
+          "label": "He asked what he should do."
+        },
+        {
+          "id": "c",
+          "label": "He asked what he shall do."
+        },
+        {
+          "id": "d",
+          "label": "He asked if what he should do."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, đổi trật tự từ (chủ ngữ đứng trước động từ) và lùi thì của động từ khuyết thiếu (shall -> should)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_02",
+      "prompt": "She asked me, \"Where will you go tomorrow?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "She asked me where would I go the next day."
+        },
+        {
+          "id": "b",
+          "label": "She asked me where I will go tomorrow."
+        },
+        {
+          "id": "c",
+          "label": "She asked me where I would go the next day."
+        },
+        {
+          "id": "d",
+          "label": "She asked me where I would go tomorrow."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi chuyển sang câu gián tiếp, cần lùi thì (will -> would), đổi đại từ (you -> I), và đổi trạng từ chỉ thời gian (tomorrow -> the next day)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_03",
+      "prompt": "My friend asked, \"Can you help me with this exercise?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "My friend asked if I could help him with that exercise."
+        },
+        {
+          "id": "b",
+          "label": "My friend asked can I help him with this exercise."
+        },
+        {
+          "id": "c",
+          "label": "My friend asked if I can help him with that exercise."
+        },
+        {
+          "id": "d",
+          "label": "My friend asked whether could I help him with that exercise."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đối với câu hỏi Yes/No, dùng 'if' hoặc 'whether'. Lùi thì (can -> could), đổi đại từ (you -> I, me -> him) và từ chỉ định (this -> that)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_04",
+      "prompt": "The teacher said to us, \"Are you listening to me?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The teacher asked us if were we listening to her."
+        },
+        {
+          "id": "b",
+          "label": "The teacher asked us whether we are listening to her."
+        },
+        {
+          "id": "c",
+          "label": "The teacher asked us if we were listening to me."
+        },
+        {
+          "id": "d",
+          "label": "The teacher asked us if we were listening to her."
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là câu hỏi Yes/No nên dùng 'if/whether'. Lùi thì từ hiện tại tiếp diễn sang quá khứ tiếp diễn và đổi đại từ cho phù hợp (you -> we, me -> her)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_05",
+      "prompt": "He asked his son, \"Why did you come late?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "He asked his son why did he come late."
+        },
+        {
+          "id": "b",
+          "label": "He asked his son why he had come late."
+        },
+        {
+          "id": "c",
+          "label": "He asked his son why he came late."
+        },
+        {
+          "id": "d",
+          "label": "He asked his son that why he had come late."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi động từ tường thuật ở quá khứ, thì quá khứ đơn (did come) trong câu trực tiếp được lùi về thì quá khứ hoàn thành (had come)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_06",
+      "prompt": "The policeman asked the boy, \"What is your name?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The policeman asked the boy what his name was."
+        },
+        {
+          "id": "b",
+          "label": "The policeman asked the boy what was his name."
+        },
+        {
+          "id": "c",
+          "label": "The policeman asked the boy what his name is."
+        },
+        {
+          "id": "d",
+          "label": "The policeman asked the boy if what his name was."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu hỏi gián tiếp, động từ 'to be' (is) phải được lùi thì (was) và đặt sau chủ ngữ (his name)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_07",
+      "prompt": "Mom asked me, \"Have you finished your homework yet?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Mom asked me if had I finished my homework yet."
+        },
+        {
+          "id": "b",
+          "label": "Mom asked me whether I have finished my homework yet."
+        },
+        {
+          "id": "c",
+          "label": "Mom asked me if I had finished my homework yet."
+        },
+        {
+          "id": "d",
+          "label": "Mom asked me if I finished my homework yet."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Lùi thì từ hiện tại hoàn thành (have finished) sang quá khứ hoàn thành (had finished) và dùng 'if/whether' cho câu hỏi Yes/No."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_08",
+      "prompt": "She asked him, \"Who called you last night?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "She asked him who called him last night."
+        },
+        {
+          "id": "b",
+          "label": "She asked him who had called him last night."
+        },
+        {
+          "id": "c",
+          "label": "She asked him who did call him the previous night."
+        },
+        {
+          "id": "d",
+          "label": "She asked him who had called him the previous night."
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Lùi thì từ quá khứ đơn (called) sang quá khứ hoàn thành (had called) và đổi trạng từ thời gian (last night -> the previous night)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_09",
+      "prompt": "He asked, \"Shall we go to the cinema?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "He asked if should they go to the cinema."
+        },
+        {
+          "id": "b",
+          "label": "He asked if they should go to the cinema."
+        },
+        {
+          "id": "c",
+          "label": "He asked whether they shall go to the cinema."
+        },
+        {
+          "id": "d",
+          "label": "He suggested that they should go to the cinema."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi đề nghị với 'Shall we...?' khi tường thuật lại dưới dạng câu hỏi sẽ được chuyển thành 'if/whether they should...'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "EN_VI_DIRECT_INDIRECT_10",
+      "prompt": "The examiner asked her, \"How often do you practice English?\" \n\nChoose the correct indirect speech sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The examiner asked her how often she practiced English."
+        },
+        {
+          "id": "b",
+          "label": "The examiner asked her how often did she practice English."
+        },
+        {
+          "id": "c",
+          "label": "The examiner asked her how often she practices English."
+        },
+        {
+          "id": "d",
+          "label": "The examiner asked her that how often she practiced English."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lùi thì từ hiện tại đơn (do you practice) sang quá khứ đơn (practiced) và giữ trật tự từ của câu khẳng định (chủ ngữ + động từ)."
+  }
+]

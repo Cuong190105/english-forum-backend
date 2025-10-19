@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_001",
+      "prompt": "If I _____ a million dollars, I would travel the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "will have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 dùng thì quá khứ đơn để diễn tả giả định không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_002",
+      "prompt": "If she _____ here, she would help us with the project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu điều kiện loại 2, động từ 'to be' thường dùng 'were' cho tất cả các ngôi, đặc biệt trong các tình huống giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_003",
+      "prompt": "What _____ you do if you found a wallet full of money?",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "did"
+        },
+        {
+          "id": "d",
+          "label": "do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' theo sau là động từ nguyên mẫu không 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_004",
+      "prompt": "If he _____ harder, he would pass the exam easily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "studies"
+        },
+        {
+          "id": "b",
+          "label": "studied"
+        },
+        {
+          "id": "c",
+          "label": "would study"
+        },
+        {
+          "id": "d",
+          "label": "had studied"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề 'if' của câu điều kiện loại 2 yêu cầu thì quá khứ đơn để diễn tả một điều kiện giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_005",
+      "prompt": "I _____ more time for hobbies if I didn't work so much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "would have"
+        },
+        {
+          "id": "c",
+          "label": "will have"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' theo sau là động từ nguyên mẫu không 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_006",
+      "prompt": "If I were you, I _____ that job offer. It sounds great.",
+      "options": [
+        {
+          "id": "a",
+          "label": "accept"
+        },
+        {
+          "id": "b",
+          "label": "will accept"
+        },
+        {
+          "id": "c",
+          "label": "would accept"
+        },
+        {
+          "id": "d",
+          "label": "accepted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm 'If I were you' là dấu hiệu của câu điều kiện loại 2, mệnh đề chính dùng 'would + V'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_007",
+      "prompt": "They _____ happier if they lived in a bigger house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "will be"
+        },
+        {
+          "id": "c",
+          "label": "would be"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' theo sau là động từ nguyên mẫu không 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_008",
+      "prompt": "If we _____ a car, we could drive to the beach every weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "will have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 dùng thì quá khứ đơn để diễn tả giả định không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_009",
+      "prompt": "She wouldn't be so tired if she _____ to bed earlier.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "would go"
+        },
+        {
+          "id": "d",
+          "label": "had gone"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề 'if' của câu điều kiện loại 2 yêu cầu thì quá khứ đơn để diễn tả một điều kiện giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_010",
+      "prompt": "If it _____ sunny tomorrow, we would go for a picnic. (Hypothetical, unlikely for tomorrow)",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu điều kiện loại 2, động từ 'to be' thường dùng 'were' cho tất cả các ngôi, đặc biệt trong các tình huống giả định, kể cả với 'it'."
+  }
+]

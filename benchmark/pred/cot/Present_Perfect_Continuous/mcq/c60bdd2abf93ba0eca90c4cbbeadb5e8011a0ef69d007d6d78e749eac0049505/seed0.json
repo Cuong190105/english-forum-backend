@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "She _____ for hours, so her eyes are red.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been reading"
+        },
+        {
+          "id": "b",
+          "label": "has read"
+        },
+        {
+          "id": "c",
+          "label": "is reading"
+        },
+        {
+          "id": "d",
+          "label": "reads"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (has been reading) diễn tả hành động bắt đầu trong quá khứ, kéo dài đến hiện tại và có kết quả rõ rệt ở hiện tại (mắt đỏ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "They _____ on this project for six months now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been working"
+        },
+        {
+          "id": "b",
+          "label": "have worked"
+        },
+        {
+          "id": "c",
+          "label": "are working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn (have been working) với 'for six months now' để chỉ hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "I _____ English since I was ten years old.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been learning"
+        },
+        {
+          "id": "b",
+          "label": "have learned"
+        },
+        {
+          "id": "c",
+          "label": "am learning"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been learning) phù hợp nhất với 'since' để diễn tả hành động học tiếng Anh bắt đầu từ quá khứ và vẫn tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "The ground is wet because it _____ all morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been raining"
+        },
+        {
+          "id": "b",
+          "label": "has rained"
+        },
+        {
+          "id": "c",
+          "label": "is raining"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn (has been raining) để diễn tả hành động mưa kéo dài trong một khoảng thời gian và có kết quả rõ ràng ở hiện tại (mặt đất ướt)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "How long _____ for the bus?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have you been waiting"
+        },
+        {
+          "id": "b",
+          "label": "have you waited"
+        },
+        {
+          "id": "c",
+          "label": "are you waiting"
+        },
+        {
+          "id": "d",
+          "label": "did you wait"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi 'How long' thường đi với thì hiện tại hoàn thành tiếp diễn (have you been waiting) để hỏi về khoảng thời gian của một hành động vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "He _____ well recently, which is why he looks tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hasn't been sleeping"
+        },
+        {
+          "id": "b",
+          "label": "hasn't slept"
+        },
+        {
+          "id": "c",
+          "label": "isn't sleeping"
+        },
+        {
+          "id": "d",
+          "label": "didn't sleep"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (hasn't been sleeping) diễn tả một hành động không xảy ra liên tục trong thời gian gần đây và có ảnh hưởng đến hiện tại (trông mệt mỏi)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "How long _____ that novel?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have you been writing"
+        },
+        {
+          "id": "b",
+          "label": "have you written"
+        },
+        {
+          "id": "c",
+          "label": "are you writing"
+        },
+        {
+          "id": "d",
+          "label": "did you write"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi 'How long' với hành động 'writing' thường dùng thì hiện tại hoàn thành tiếp diễn (have you been writing) để hỏi về quá trình viết vẫn đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "Our country _____ one-way teaching for a while now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been criticizing"
+        },
+        {
+          "id": "b",
+          "label": "has criticized"
+        },
+        {
+          "id": "c",
+          "label": "is criticizing"
+        },
+        {
+          "id": "d",
+          "label": "criticized"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'for a while now' chỉ một khoảng thời gian kéo dài đến hiện tại, nên dùng thì hiện tại hoàn thành tiếp diễn (has been criticizing) để diễn tả hành động liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "My sister _____ for her exams all week, so she's exhausted.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been studying"
+        },
+        {
+          "id": "b",
+          "label": "has studied"
+        },
+        {
+          "id": "c",
+          "label": "is studying"
+        },
+        {
+          "id": "d",
+          "label": "studied"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (has been studying) diễn tả hành động học kéo dài suốt tuần và có kết quả ở hiện tại (kiệt sức)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "I'm so tired because I _____ in the garden since dawn.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been working"
+        },
+        {
+          "id": "b",
+          "label": "have worked"
+        },
+        {
+          "id": "c",
+          "label": "am working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn (have been working) với 'since dawn' để chỉ hành động bắt đầu từ bình minh và vẫn tiếp diễn, gây ra sự mệt mỏi ở hiện tại."
+  }
+]

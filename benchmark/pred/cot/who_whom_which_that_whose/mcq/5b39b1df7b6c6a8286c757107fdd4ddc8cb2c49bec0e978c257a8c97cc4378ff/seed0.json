@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_01",
+      "prompt": "The student _____ won the scholarship is from our class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Who' làm chủ ngữ cho động từ 'won' và thay thế cho người ('student')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_02",
+      "prompt": "The person _____ I met yesterday was a famous author.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Whom' làm tân ngữ cho động từ 'met' và thay thế cho người ('person')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_03",
+      "prompt": "This is the book _____ I told you about.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Which' dùng để thay thế cho vật ('book') và làm tân ngữ trong mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_04",
+      "prompt": "I know a girl _____ father is a pilot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Whose' dùng để chỉ sự sở hữu, thay thế cho 'her' (father của cô gái)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_05",
+      "prompt": "My car, _____ is red, needs a new engine.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'which' sau dấu phẩy trong mệnh đề quan hệ không xác định để bổ sung thông tin cho vật. 'That' không dùng sau dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_06",
+      "prompt": "The colleague with _____ I work is very supportive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau giới từ ('with'), ta phải dùng 'whom' khi thay thế cho người."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_07",
+      "prompt": "The phone _____ I bought last week is already broken.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Which' dùng để thay thế cho vật ('phone') và làm tân ngữ trong mệnh đề quan hệ xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_08",
+      "prompt": "She showed me the picture _____ was taken during her trip to Paris.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Which' làm chủ ngữ cho động từ 'was taken' và thay thế cho vật ('picture')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_09",
+      "prompt": "I saw a house _____ roof was damaged in the storm.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Whose' dùng để chỉ sự sở hữu của vật ('house's roof')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_10",
+      "prompt": "My friend is a gambler, _____ means he often takes risks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Which' dùng để thay thế cho cả mệnh đề đứng trước ('My friend is a gambler'), diễn tả ý nghĩa của cả sự việc đó."
+  }
+]

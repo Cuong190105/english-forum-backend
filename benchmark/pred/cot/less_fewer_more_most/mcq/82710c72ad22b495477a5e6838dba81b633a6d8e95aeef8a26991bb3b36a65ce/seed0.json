@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_001",
+      "prompt": "In twenty years, I believe there will be _____ cars in use than there are today due to technological advancements.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'fewer' cho danh từ đếm được (cars). Ngữ cảnh 'technological advancements' cho thấy số lượng sẽ giảm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_002",
+      "prompt": "The new policy aims to provide _____ support to small businesses than before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' để chỉ sự gia tăng về số lượng hoặc mức độ. 'Support' là danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_003",
+      "prompt": "Among all the students, Sarah spends the _____ hours studying for her exams.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' khi so sánh nhất, chỉ số lượng lớn nhất trong một nhóm. 'Hours' là danh từ đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_004",
+      "prompt": "After implementing the new system, the company experienced _____ downtime than in previous years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'less' cho danh từ không đếm được (downtime). 'Experienced less downtime' nghĩa là giảm thời gian ngừng hoạt động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_005",
+      "prompt": "Due to budget cuts, the department will hire _____ new employees next year than this year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'fewer' cho danh từ đếm được (employees). 'Budget cuts' cho thấy số lượng nhân viên sẽ giảm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_006",
+      "prompt": "With the new marketing strategy, we expect to attract _____ customers than we did last quarter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' để chỉ sự gia tăng về số lượng khách hàng. 'Customers' là danh từ đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_007",
+      "prompt": "Of all the projects, this one required the _____ effort from the entire team.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' khi so sánh nhất, chỉ mức độ lớn nhất. 'Effort' là danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_008",
+      "prompt": "People are encouraged to use public transport to produce _____ pollution than driving private cars.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'less' cho danh từ không đếm được (pollution). Mục đích là giảm ô nhiễm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_009",
+      "prompt": "The new software update has resulted in _____ bugs than the previous version.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'fewer' cho danh từ đếm được (bugs). 'Resulted in fewer bugs' nghĩa là có ít lỗi hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_010",
+      "prompt": "To achieve success, you need to put in _____ dedication than your competitors.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' để chỉ sự gia tăng về mức độ cống hiến. 'Dedication' là danh từ không đếm được."
+  }
+]

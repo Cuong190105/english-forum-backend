@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The man _____ answered the phone was very polite.",
+      "options": [
+        {
+          "id": "a",
+          "label": "whom"
+        },
+        {
+          "id": "b",
+          "label": "who"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "which"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Who\" làm chủ ngữ cho động từ \"answered\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "My brother, _____ lives in Hanoi, is visiting next week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "who"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"who\" cho người trong mệnh đề quan hệ không xác định (có dấu phẩy)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "This is the house _____ I grew up in.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "whose"
+        },
+        {
+          "id": "c",
+          "label": "that"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"That\" thường dùng cho vật trong mệnh đề quan hệ xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "I met a woman _____ brother is a famous artist.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "which"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Whose\" dùng để chỉ sự sở hữu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The person to _____ I spoke was very helpful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau giới từ, dùng \"whom\" cho người."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "He failed the exam, _____ surprised everyone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "who"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Which\" có thể dùng để thay thế cho cả một mệnh đề đứng trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The book _____ I read was very interesting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Which\" dùng cho vật và có thể thay thế cho \"that\" trong mệnh đề quan hệ xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She is the student _____ won the first prize.",
+      "options": [
+        {
+          "id": "a",
+          "label": "whom"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "that"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"That\" có thể dùng cho người trong mệnh đề quan hệ xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "I know a girl _____ dog is very friendly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who's"
+        },
+        {
+          "id": "b",
+          "label": "whose"
+        },
+        {
+          "id": "c",
+          "label": "whom"
+        },
+        {
+          "id": "d",
+          "label": "which"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Whose\" chỉ sự sở hữu, còn \"who's\" là viết tắt của \"who is\" hoặc \"who has\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The company, _____ products are known worldwide, is expanding its market.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Whose\" dùng để chỉ sự sở hữu của danh từ đứng trước nó."
+  }
+]

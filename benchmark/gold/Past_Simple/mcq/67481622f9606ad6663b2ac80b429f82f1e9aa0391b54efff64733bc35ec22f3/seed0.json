@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-01",
+      "prompt": "My family and I _____ a wonderful holiday in Da Nang last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'last year' (năm ngoái) là dấu hiệu của thì quá khứ đơn. Dạng quá khứ của động từ 'have' là 'had'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-02",
+      "prompt": "She _____ to school yesterday because she was ill.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't go"
+        },
+        {
+          "id": "b",
+          "label": "didn't go"
+        },
+        {
+          "id": "c",
+          "label": "not went"
+        },
+        {
+          "id": "d",
+          "label": "didn't went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để tạo câu phủ định trong thì quá khứ đơn, ta dùng cấu trúc 'didn't' + động từ nguyên mẫu (go)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-03",
+      "prompt": "_____ you finish your homework last night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Were"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu hỏi Yes/No trong thì quá khứ đơn, ta dùng trợ động từ 'Did' đứng đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-04",
+      "prompt": "I _____ a new phone two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buyed"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "have bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'two days ago' chỉ một thời điểm cụ thể trong quá khứ. 'Buy' là động từ bất quy tắc, dạng quá khứ là 'bought'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-05",
+      "prompt": "When I was a child, I _____ to be a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "want"
+        },
+        {
+          "id": "b",
+          "label": "wanted"
+        },
+        {
+          "id": "c",
+          "label": "wants"
+        },
+        {
+          "id": "d",
+          "label": "am wanting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề 'When I was a child' (Khi tôi còn là một đứa trẻ) diễn tả một sự việc trong quá khứ, nên động từ chính cũng phải ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-06",
+      "prompt": "They _____ the football match on TV last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watch"
+        },
+        {
+          "id": "b",
+          "label": "watches"
+        },
+        {
+          "id": "c",
+          "label": "watched"
+        },
+        {
+          "id": "d",
+          "label": "watching"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động đã xảy ra và kết thúc vào 'last night' (tối qua). Với động từ có quy tắc như 'watch', ta thêm '-ed' để tạo dạng quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-07",
+      "prompt": "What _____ you do last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi Wh- trong thì quá khứ đơn có cấu trúc: Từ để hỏi + did + chủ ngữ + động từ nguyên mẫu?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-08",
+      "prompt": "The students _____ very quiet when the teacher came in.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Chủ ngữ 'The students' là danh từ số nhiều. Động từ 'to be' ở thì quá khứ đơn cho chủ ngữ số nhiều là 'were'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-09",
+      "prompt": "He _____ his key yesterday, so he couldn't get into his house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lose"
+        },
+        {
+          "id": "b",
+          "label": "loses"
+        },
+        {
+          "id": "c",
+          "label": "lost"
+        },
+        {
+          "id": "d",
+          "label": "losing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ 'yesterday' (hôm qua) yêu cầu động từ phải ở thì quá khứ đơn. 'Lose' là động từ bất quy tắc, dạng quá khứ là 'lost'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-10",
+      "prompt": "My sister _____ a delicious cake for my birthday party.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "makes"
+        },
+        {
+          "id": "d",
+          "label": "maked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động làm bánh đã xảy ra trong quá khứ (cho bữa tiệc sinh nhật). 'Make' là động từ bất quy tắc, dạng quá khứ là 'made'."
+  }
+]

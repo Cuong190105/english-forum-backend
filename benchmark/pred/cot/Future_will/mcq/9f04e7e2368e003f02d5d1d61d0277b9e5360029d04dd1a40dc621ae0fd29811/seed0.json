@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_001",
+      "prompt": "I think it _____ rain tomorrow, so don't forget your umbrella.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "rains"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” dùng cho dự đoán chung, đặc biệt khi có “I think”. “Is going to” thường dùng cho dự đoán có bằng chứng rõ ràng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_002",
+      "prompt": "\"The phone is ringing!\" \"Don't worry, I _____ answer it.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "answer"
+        },
+        {
+          "id": "d",
+          "label": "answered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng “will” cho quyết định được đưa ra ngay tại thời điểm nói, không có kế hoạch trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_003",
+      "prompt": "I promise I _____ help you with your homework tonight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "help"
+        },
+        {
+          "id": "d",
+          "label": "helped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” được dùng để diễn tả lời hứa. Các lựa chọn khác không phù hợp với ngữ cảnh hứa hẹn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_004",
+      "prompt": "That bag looks heavy. I _____ carry it for you.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "carry"
+        },
+        {
+          "id": "d",
+          "label": "carried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng “will” khi đề nghị giúp đỡ ai đó. “Am going to” dùng cho kế hoạch đã định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_005",
+      "prompt": "My car broke down, so it _____ start.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't"
+        },
+        {
+          "id": "b",
+          "label": "isn't going to"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "didn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Won't” (will not) dùng để diễn tả sự từ chối hoặc một vật không chịu hoạt động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_006",
+      "prompt": "_____ you be home by 7 PM for dinner?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Will"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để hỏi về một hành động trong tương lai, chúng ta dùng trợ động từ “Will” ở đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_007",
+      "prompt": "She said she _____ be able to attend the meeting next week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't"
+        },
+        {
+          "id": "b",
+          "label": "isn't going to"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "didn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Won't” là dạng rút gọn của “will not”, dùng để diễn tả một hành động sẽ không xảy ra trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_008",
+      "prompt": "If it rains tomorrow, we _____ stay home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are going to"
+        },
+        {
+          "id": "c",
+          "label": "stay"
+        },
+        {
+          "id": "d",
+          "label": "stayed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 1, mệnh đề “if” dùng thì hiện tại đơn, mệnh đề chính dùng thì tương lai đơn với “will”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_009",
+      "prompt": "As soon as he arrives, I _____ tell him the news.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "tell"
+        },
+        {
+          "id": "d",
+          "label": "told"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau các liên từ chỉ thời gian như “as soon as”, mệnh đề phụ dùng hiện tại đơn, mệnh đề chính dùng tương lai đơn với “will”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_010",
+      "prompt": "I'm sure our team _____ win the championship this year. I have a good feeling about it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "wins"
+        },
+        {
+          "id": "d",
+          "label": "won"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” thường dùng cho dự đoán dựa trên ý kiến hoặc cảm giác cá nhân, đặc biệt khi có các cụm từ như “I'm sure”."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q1",
+      "prompt": "I saw _____ interesting movie last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"an\" trước danh từ số ít đếm được bắt đầu bằng nguyên âm khi nhắc đến lần đầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q2",
+      "prompt": "She bought a new dress. _____ dress is red.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" khi danh từ đã được nhắc đến trước đó hoặc đã xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q3",
+      "prompt": "_____ sun rises in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" với các danh từ chỉ vật thể duy nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q4",
+      "prompt": "_____ water is essential for life.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ với danh từ không đếm được khi nói về ý nghĩa chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q5",
+      "prompt": "My brother is _____ engineer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"a/an\" trước danh từ chỉ nghề nghiệp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q6",
+      "prompt": "_____ Pacific Ocean is the largest ocean on Earth.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" với tên các đại dương, sông, biển."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q7",
+      "prompt": "We usually have _____ dinner at 7 PM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ với tên các bữa ăn khi nói chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q8",
+      "prompt": "She plays _____ piano very well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" trước tên các nhạc cụ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q9",
+      "prompt": "_____ happiness is a state of mind.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ với danh từ trừu tượng khi nói về ý nghĩa chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q10",
+      "prompt": "The government should help _____ poor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" trước tính từ để chỉ một nhóm người."
+  }
+]

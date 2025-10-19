@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "I think it _____ rain tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "rains"
+        },
+        {
+          "id": "d",
+          "label": "is raining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” được dùng để dự đoán một sự việc có thể xảy ra trong tương lai, thường đi kèm với các cụm từ như “I think”, “I believe”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Oh, I forgot my wallet. Don't worry, I _____ pay for dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "pay"
+        },
+        {
+          "id": "d",
+          "label": "am paying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” được dùng khi đưa ra quyết định ngay tại thời điểm nói (spontaneous decision)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I promise I _____ help you with your homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "help"
+        },
+        {
+          "id": "d",
+          "label": "am helping"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” thường được dùng để hứa hẹn (promise) hoặc tình nguyện làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The company hopes that the new product _____ be a great success.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” được dùng để diễn tả hy vọng hoặc mong đợi về tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Don't worry, I _____ be careful when I drive your car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” được dùng để trấn an hoặc đảm bảo với ai đó về một hành động trong tương lai."
+  }
+]

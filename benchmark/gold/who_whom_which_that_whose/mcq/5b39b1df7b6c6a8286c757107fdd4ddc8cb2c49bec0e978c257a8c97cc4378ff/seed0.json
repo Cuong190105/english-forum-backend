@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-001",
+      "prompt": "The girl _____ sits next to me in class is from Da Nang.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'who' hoặc 'that' để chỉ người làm chủ ngữ trong mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-002",
+      "prompt": "This is the phở restaurant _____ my friend recommended.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'which' hoặc 'that' để chỉ vật trong mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-003",
+      "prompt": "I met a man _____ sister works as a tour guide in Ha Long Bay.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'whose' để chỉ sự sở hữu. (chị gái CỦA người đàn ông đó)"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-004",
+      "prompt": "The teacher to _____ we gave the assignment is Mr. Nam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Sau giới từ (ví dụ: to, for, with), ta dùng 'whom' để chỉ người làm tân ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-005",
+      "prompt": "She failed her driving test, _____ was a big disappointment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'which' để thay thế cho cả một mệnh đề đứng trước nó (việc cô ấy thi trượt)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-006",
+      "prompt": "My uncle, _____ is an engineer, lives in Hanoi.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "who"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Không dùng 'that' trong mệnh đề quan hệ không xác định (có dấu phẩy)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-007",
+      "prompt": "The people _____ I invited to the party are my colleagues.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Ở đây, 'people' là tân ngữ của động từ 'invited'. Dùng 'whom' (hoặc 'that') trong trường hợp này. (Tôi đã mời AI?)"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-008",
+      "prompt": "I'm reading a book _____ plot is very complicated.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Whose' có thể được dùng để chỉ sự sở hữu cho cả người và vật. (cốt truyện CỦA cuốn sách)"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-009",
+      "prompt": "The Ao Dai is a traditional dress _____ is famous all over the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "who"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'That' có thể thay thế cho 'which' để chỉ vật trong mệnh đề quan hệ xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-REL-010",
+      "prompt": "Do you remember the name of the student _____ won the first prize?",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "who"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cần một đại từ quan hệ chỉ người và làm chủ ngữ cho động từ 'won'. Đáp án là 'who'."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She said, 'I am happy.' When reported, this becomes:",
+      "options": [
+        {
+          "id": "a",
+          "label": "She said that she was happy."
+        },
+        {
+          "id": "b",
+          "label": "She said that she is happy."
+        },
+        {
+          "id": "c",
+          "label": "She said that I was happy."
+        },
+        {
+          "id": "d",
+          "label": "She said that I am happy."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi chuyển từ lời nói trực tiếp sang gián tiếp, thì hiện tại đơn thường lùi về quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "He told me, 'I am working on a new project.' In reported speech, this is:",
+      "options": [
+        {
+          "id": "a",
+          "label": "He told me that he was working on a new project."
+        },
+        {
+          "id": "b",
+          "label": "He told me that he is working on a new project."
+        },
+        {
+          "id": "c",
+          "label": "He told me that I was working on a new project."
+        },
+        {
+          "id": "d",
+          "label": "He told me that he had worked on a new project."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại tiếp diễn trong lời nói trực tiếp lùi về quá khứ tiếp diễn trong lời nói gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They announced, 'We have finished the report.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "They announced that they had finished the report."
+        },
+        {
+          "id": "b",
+          "label": "They announced that they have finished the report."
+        },
+        {
+          "id": "c",
+          "label": "They announced that they finished the report."
+        },
+        {
+          "id": "d",
+          "label": "They announced that we had finished the report."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại hoàn thành lùi về quá khứ hoàn thành khi chuyển sang lời nói gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "She explained, 'I went to Paris last year.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "She explained that she had gone to Paris the year before."
+        },
+        {
+          "id": "b",
+          "label": "She explained that she went to Paris last year."
+        },
+        {
+          "id": "c",
+          "label": "She explained that she has gone to Paris last year."
+        },
+        {
+          "id": "d",
+          "label": "She explained that she would go to Paris the year before."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ đơn trong lời nói trực tiếp thường lùi về quá khứ hoàn thành trong lời nói gián tiếp. \"Last year\" đổi thành \"the year before\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He promised, 'I will help you tomorrow.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "He promised that he would help me the next day."
+        },
+        {
+          "id": "b",
+          "label": "He promised that he will help me tomorrow."
+        },
+        {
+          "id": "c",
+          "label": "He promised that he helped me the next day."
+        },
+        {
+          "id": "d",
+          "label": "He promised that he had helped me tomorrow."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Will\" trong lời nói trực tiếp lùi về \"would\" trong lời nói gián tiếp. \"Tomorrow\" đổi thành \"the next day\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The student said, 'I can speak three languages.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "The student said that he could speak three languages."
+        },
+        {
+          "id": "b",
+          "label": "The student said that he can speak three languages."
+        },
+        {
+          "id": "c",
+          "label": "The student said that he might speak three languages."
+        },
+        {
+          "id": "d",
+          "label": "The student said that he would speak three languages."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ khuyết thiếu \"can\" lùi về \"could\" trong lời nói gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The teacher said, 'The Earth revolves around the Sun.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "The teacher said that the Earth revolves around the Sun."
+        },
+        {
+          "id": "b",
+          "label": "The teacher said that the Earth revolved around the Sun."
+        },
+        {
+          "id": "c",
+          "label": "The teacher said that the Earth had revolved around the Sun."
+        },
+        {
+          "id": "d",
+          "label": "The teacher said that the Earth would revolve around the Sun."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sự thật hiển nhiên hoặc chân lý không lùi thì trong lời nói gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "My mother told me, 'You must finish your homework.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "My mother told me that I had to finish my homework."
+        },
+        {
+          "id": "b",
+          "label": "My mother told me that I must finish my homework."
+        },
+        {
+          "id": "c",
+          "label": "My mother told me that I would finish my homework."
+        },
+        {
+          "id": "d",
+          "label": "My mother told me that I finished my homework."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Must\" chỉ sự bắt buộc thường được đổi thành \"had to\" trong lời nói gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "He said, 'If I have time, I will visit you.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "He said that if he had time, he would visit me."
+        },
+        {
+          "id": "b",
+          "label": "He said that if he has time, he will visit me."
+        },
+        {
+          "id": "c",
+          "label": "He said that if he had had time, he would have visited me."
+        },
+        {
+          "id": "d",
+          "label": "He said that if he would have time, he would visit me."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 1 trong lời nói trực tiếp thường lùi về câu điều kiện loại 2 trong lời nói gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "She complained, 'I am feeling tired now.' Reported speech:",
+      "options": [
+        {
+          "id": "a",
+          "label": "She complained that she was feeling tired then."
+        },
+        {
+          "id": "b",
+          "label": "She complained that she is feeling tired now."
+        },
+        {
+          "id": "c",
+          "label": "She complained that she had been feeling tired then."
+        },
+        {
+          "id": "d",
+          "label": "She complained that she felt tired now."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Now\" trong lời nói trực tiếp lùi về \"then\" trong lời nói gián tiếp, và thì hiện tại tiếp diễn lùi về quá khứ tiếp diễn."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My family _____ to Da Lat for a vacation last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "gone"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last summer” là dấu hiệu của thì quá khứ đơn. “Went” là dạng quá khứ của động từ “go”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "She _____ a new car two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buys"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Two days ago” chỉ hành động đã xảy ra và kết thúc trong quá khứ. “Bought” là dạng quá khứ của động từ “buy”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "They _____ finish their homework yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "haven't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Yesterday evening” là dấu hiệu quá khứ đơn. Để phủ định, dùng “didn't” + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ you visit your grandparents last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last weekend” chỉ quá khứ đơn. Để đặt câu hỏi, dùng “Did” + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "I _____ very tired after the long flight last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "have been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last night” là dấu hiệu quá khứ đơn. Chủ ngữ “I” đi với “was” trong thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "We _____ to that restaurant only once, in 2022.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "have gone"
+        },
+        {
+          "id": "d",
+          "label": "are going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“In 2022” là mốc thời gian cụ thể trong quá khứ, yêu cầu dùng thì quá khứ đơn. “Went” là dạng quá khứ của “go”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "The meeting _____ an hour ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "start"
+        },
+        {
+          "id": "b",
+          "label": "starts"
+        },
+        {
+          "id": "c",
+          "label": "started"
+        },
+        {
+          "id": "d",
+          "label": "has started"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“An hour ago” là dấu hiệu của thì quá khứ đơn, chỉ một hành động đã hoàn thành trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "My brother _____ his wallet last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lose"
+        },
+        {
+          "id": "b",
+          "label": "loses"
+        },
+        {
+          "id": "c",
+          "label": "lost"
+        },
+        {
+          "id": "d",
+          "label": "has lost"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last week” là dấu hiệu của thì quá khứ đơn. “Lost” là dạng quá khứ của động từ “lose”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "She _____ her degree in 2010.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "gets"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "has gotten"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“In 2010” là mốc thời gian cụ thể trong quá khứ, yêu cầu dùng thì quá khứ đơn. “Got” là dạng quá khứ của “get”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "When I was a child, I often _____ with my toys.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "played"
+        },
+        {
+          "id": "c",
+          "label": "have played"
+        },
+        {
+          "id": "d",
+          "label": "am playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề “When I was a child” chỉ một thói quen trong quá khứ, do đó động từ chính cũng dùng thì quá khứ đơn."
+  }
+]

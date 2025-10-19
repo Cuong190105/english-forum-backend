@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_001",
+      "prompt": "My family _____ to Da Lat last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "gone"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last summer” là dấu hiệu của thì quá khứ đơn. “Went” là dạng quá khứ của “go”, chỉ hành động đã xảy ra và kết thúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_002",
+      "prompt": "She _____ a delicious meal for us yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cook"
+        },
+        {
+          "id": "b",
+          "label": "cooks"
+        },
+        {
+          "id": "c",
+          "label": "cooked"
+        },
+        {
+          "id": "d",
+          "label": "cooking"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Yesterday evening” chỉ hành động đã xảy ra và kết thúc trong quá khứ. “Cooked” là dạng quá khứ đơn của “cook”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_003",
+      "prompt": "They _____ visit their grandparents last weekend because they were busy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "haven't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Last weekend” là dấu hiệu quá khứ đơn. Để tạo câu phủ định trong quá khứ đơn, dùng “didn't” + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_004",
+      "prompt": "_____ you finish your homework an hour ago?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“An hour ago” chỉ thời gian trong quá khứ. Để đặt câu hỏi Yes/No trong quá khứ đơn, dùng “Did” + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_005",
+      "prompt": "Where _____ you go for your vacation in 2022?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“In 2022” là mốc thời gian cụ thể trong quá khứ. Dùng “did” để hỏi về hành động đã xảy ra và kết thúc trong quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_006",
+      "prompt": "I _____ a stranger in downtown Bangkok a few years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "have been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“A few years ago” là dấu hiệu quá khứ đơn. Với chủ ngữ “I”, động từ “to be” ở quá khứ là “was”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_007",
+      "prompt": "My brother _____ his new car two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "bought"
+        },
+        {
+          "id": "b",
+          "label": "has bought"
+        },
+        {
+          "id": "c",
+          "label": "buys"
+        },
+        {
+          "id": "d",
+          "label": "is buying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Two days ago” là mốc thời gian cụ thể trong quá khứ, yêu cầu dùng thì quá khứ đơn. “Bought” là dạng quá khứ của “buy”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_008",
+      "prompt": "Last night, I _____ a very interesting documentary on TV.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watch"
+        },
+        {
+          "id": "b",
+          "label": "watched"
+        },
+        {
+          "id": "c",
+          "label": "watches"
+        },
+        {
+          "id": "d",
+          "label": "am watching"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last night” là dấu hiệu của thì quá khứ đơn, chỉ hành động đã xảy ra và kết thúc. “Watched” là dạng quá khứ của “watch”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_009",
+      "prompt": "She _____ happy when she received the good news last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last week” là dấu hiệu của thì quá khứ đơn. Với chủ ngữ “She”, động từ “to be” ở quá khứ là “was”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_010",
+      "prompt": "When I _____ to Bangkok a few years ago, I experienced a different culture.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "gone"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“A few years ago” là dấu hiệu quá khứ đơn. “Went” là dạng quá khứ của “go”, phù hợp với hành động đã xảy ra và kết thúc."
+  }
+]

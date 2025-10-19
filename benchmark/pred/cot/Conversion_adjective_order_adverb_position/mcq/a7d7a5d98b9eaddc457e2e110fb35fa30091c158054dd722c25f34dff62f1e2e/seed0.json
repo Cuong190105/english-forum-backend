@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "adj_order_001",
+      "prompt": "She bought a _____ dress for the party.",
+      "options": [
+        {
+          "id": "a",
+          "label": "beautiful long red silk"
+        },
+        {
+          "id": "b",
+          "label": "red beautiful long silk"
+        },
+        {
+          "id": "c",
+          "label": "silk beautiful long red"
+        },
+        {
+          "id": "d",
+          "label": "long red beautiful silk"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ thường là: ý kiến (beautiful), kích thước (long), màu sắc (red), chất liệu (silk)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "adv_pos_002",
+      "prompt": "He _____ arrives late for meetings.",
+      "options": [
+        {
+          "id": "a",
+          "label": "late always arrives"
+        },
+        {
+          "id": "b",
+          "label": "arrives always late"
+        },
+        {
+          "id": "c",
+          "label": "always arrives late"
+        },
+        {
+          "id": "d",
+          "label": "arrives late always"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ tần suất (always) thường đứng trước động từ chính (arrives)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conversion_003",
+      "prompt": "The company needs a more _____ approach to marketing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "creativity"
+        },
+        {
+          "id": "b",
+          "label": "creative"
+        },
+        {
+          "id": "c",
+          "label": "creation"
+        },
+        {
+          "id": "d",
+          "label": " creatively"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần một tính từ (creative) để bổ nghĩa cho danh từ 'approach'. 'Creativity' là danh từ, 'creatively' là trạng từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "adj_order_004",
+      "prompt": "They live in a _____ house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "big old charming"
+        },
+        {
+          "id": "b",
+          "label": "charming big old"
+        },
+        {
+          "id": "c",
+          "label": "old charming big"
+        },
+        {
+          "id": "d",
+          "label": "big charming old"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thứ tự tính từ là: ý kiến (charming), kích thước (big), tuổi tác (old)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "adv_pos_005",
+      "prompt": "She sings _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "beautifully"
+        },
+        {
+          "id": "b",
+          "label": "beautiful"
+        },
+        {
+          "id": "c",
+          "label": "beauty"
+        },
+        {
+          "id": "d",
+          "label": "more beautiful"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần trạng từ (beautifully) để bổ nghĩa cho động từ 'sings'. 'Beautiful' là tính từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conversion_006",
+      "prompt": "His _____ of the project was impressive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "managing"
+        },
+        {
+          "id": "b",
+          "label": "managed"
+        },
+        {
+          "id": "c",
+          "label": "management"
+        },
+        {
+          "id": "d",
+          "label": "manager"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cần danh từ (management) để làm chủ ngữ hoặc tân ngữ. 'Managing' là V-ing, 'managed' là quá khứ/phân từ, 'manager' là người."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "adj_order_007",
+      "prompt": "I saw a _____ car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "red small plastic"
+        },
+        {
+          "id": "b",
+          "label": "small red plastic"
+        },
+        {
+          "id": "c",
+          "label": "plastic small red"
+        },
+        {
+          "id": "d",
+          "label": "small plastic red"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thứ tự tính từ là: kích thước (small), màu sắc (red), chất liệu (plastic)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "adv_pos_008",
+      "prompt": "We finished the report _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "yesterday successfully"
+        },
+        {
+          "id": "b",
+          "label": "successfully yesterday"
+        },
+        {
+          "id": "c",
+          "label": "yesterday successful"
+        },
+        {
+          "id": "d",
+          "label": "successful yesterday"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ chỉ cách thức (successfully) thường đứng trước trạng từ chỉ thời gian (yesterday) khi cả hai đứng cuối câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conversion_009",
+      "prompt": "The _____ of the situation was clear.",
+      "options": [
+        {
+          "id": "a",
+          "label": "importantly"
+        },
+        {
+          "id": "b",
+          "label": "importance"
+        },
+        {
+          "id": "c",
+          "label": "important"
+        },
+        {
+          "id": "d",
+          "label": "import"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần danh từ (importance) để làm chủ ngữ của câu. 'Importantly' là trạng từ, 'important' là tính từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "adv_pos_010",
+      "prompt": "He was _____ tired to continue working.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too much"
+        },
+        {
+          "id": "b",
+          "label": "very"
+        },
+        {
+          "id": "c",
+          "label": "too"
+        },
+        {
+          "id": "d",
+          "label": "enough"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'too + tính từ + to V' diễn tả quá... đến nỗi không thể. 'Too much' dùng với danh từ không đếm được hoặc động từ."
+  }
+]

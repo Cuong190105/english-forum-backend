@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister enjoys _____ to pop music in her free time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "listen"
+        },
+        {
+          "id": "b",
+          "label": "listening"
+        },
+        {
+          "id": "c",
+          "label": "to listen"
+        },
+        {
+          "id": "d",
+          "label": "listened"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau \"enjoy\" là động từ thêm -ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They decided _____ a new house next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buying"
+        },
+        {
+          "id": "c",
+          "label": "to buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau \"decide\" là động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "She is good at _____ English.",
+      "options": [
+        {
+          "id": "a",
+          "label": "speak"
+        },
+        {
+          "id": "b",
+          "label": "speaking"
+        },
+        {
+          "id": "c",
+          "label": "to speak"
+        },
+        {
+          "id": "d",
+          "label": "spoke"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau giới từ (at, in, on, for, about...) là động từ thêm -ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "I want _____ a doctor when I grow up.",
+      "options": [
+        {
+          "id": "a",
+          "label": "become"
+        },
+        {
+          "id": "b",
+          "label": "becoming"
+        },
+        {
+          "id": "c",
+          "label": "to become"
+        },
+        {
+          "id": "d",
+          "label": "became"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau \"want\" là động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He tries to avoid _____ late for work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "be"
+        },
+        {
+          "id": "b",
+          "label": "being"
+        },
+        {
+          "id": "c",
+          "label": "to be"
+        },
+        {
+          "id": "d",
+          "label": "been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau \"avoid\" là động từ thêm -ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "We would like _____ a movie tonight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watch"
+        },
+        {
+          "id": "b",
+          "label": "watching"
+        },
+        {
+          "id": "c",
+          "label": "to watch"
+        },
+        {
+          "id": "d",
+          "label": "watched"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Would like\" luôn đi với động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Please stop _____ so much noise! I'm trying to concentrate.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "making"
+        },
+        {
+          "id": "c",
+          "label": "to make"
+        },
+        {
+          "id": "d",
+          "label": "made"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Stop + V-ing\" nghĩa là dừng hẳn một hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "On the way home, I stopped _____ some groceries.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buying"
+        },
+        {
+          "id": "c",
+          "label": "to buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Stop + to-V\" nghĩa là dừng lại để làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "It's difficult _____ a new language.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "learning"
+        },
+        {
+          "id": "c",
+          "label": "to learn"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc \"It is + adjective + to-V\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Let's go _____ this weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "shop"
+        },
+        {
+          "id": "b",
+          "label": "shopping"
+        },
+        {
+          "id": "c",
+          "label": "to shop"
+        },
+        {
+          "id": "d",
+          "label": "shopped"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Go + V-ing\" dùng để diễn tả các hoạt động giải trí hoặc thể thao."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_001",
+      "prompt": "Due to _____ lack of market research, the new product was a flop.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'the lack of something' thường dùng 'the' để chỉ sự thiếu hụt cụ thể, đã biết hoặc được xác định bởi ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_002",
+      "prompt": "Developing _____ successful product requires extensive market analysis.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Successful product' là danh từ đếm được số ít, được nhắc đến lần đầu và mang nghĩa chung chung, không xác định cụ thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_003",
+      "prompt": "Many companies struggle with _____ product innovation in a competitive marketplace.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Product innovation' là một khái niệm chung, không đếm được và không xác định cụ thể, nên không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_004",
+      "prompt": "_____ price of the new smartphone is quite high for many consumers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm 'of the new smartphone' làm cho 'price' trở nên xác định, duy nhất. Do đó, cần dùng mạo từ 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_005",
+      "prompt": "Being _____ expert in marketing is crucial for launching a new product successfully.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Expert' là danh từ đếm được số ít, bắt đầu bằng nguyên âm, và chỉ một người bất kỳ trong số các chuyên gia. Dùng 'an'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_006",
+      "prompt": "_____ success in business often depends on innovation and adaptability.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Success' là danh từ trừu tượng không đếm được, được dùng với nghĩa chung chung, nên không cần mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_007",
+      "prompt": "This is _____ most innovative product we've seen in the marketplace this year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với hình thức so sánh nhất (most innovative), luôn dùng mạo từ 'the' để chỉ sự độc nhất hoặc nổi bật nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_008",
+      "prompt": "_____ customers often look for good value for money when buying products.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Customers' là danh từ số nhiều, được dùng với nghĩa chung chung (tất cả khách hàng), nên không cần mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_009",
+      "prompt": "After _____ meeting, we decided to revise our marketing strategy for the new product.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Meeting' ở đây được hiểu là một cuộc họp cụ thể, đã biết hoặc vừa diễn ra, nên dùng 'the' để chỉ sự xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_010",
+      "prompt": "The company needs to find _____ effective solution to its declining sales.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Effective solution' là danh từ đếm được số ít, bắt đầu bằng nguyên âm, và chỉ một giải pháp bất kỳ, không xác định cụ thể."
+  }
+]

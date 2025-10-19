@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "I think it _____ rain tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "would"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' để diễn tả dự đoán về tương lai dựa trên ý kiến hoặc niềm tin cá nhân."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Oh, I forgot my wallet. Don't worry, I _____ pay.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "pay"
+        },
+        {
+          "id": "d",
+          "label": "am paying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' cho quyết định tức thời được đưa ra ngay tại thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I promise I _____ be late again.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't"
+        },
+        {
+          "id": "b",
+          "label": "am not going to"
+        },
+        {
+          "id": "c",
+          "label": "don't"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' (hoặc 'won't' cho phủ định) để diễn tả lời hứa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Those bags look heavy. I _____ help you.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "help"
+        },
+        {
+          "id": "d",
+          "label": "am helping"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' để đưa ra lời đề nghị giúp đỡ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He _____ listen to me, no matter what I say.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't"
+        },
+        {
+          "id": "b",
+          "label": "isn't going to"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'won't' (viết tắt của 'will not') để diễn tả sự từ chối hoặc không sẵn lòng làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "_____ you come to the party tonight?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Will"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Are going to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'Will' ở đầu câu hỏi để hỏi về một hành động trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "She probably _____ arrive late.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "arrives"
+        },
+        {
+          "id": "d",
+          "label": "is arriving"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Các trạng từ như 'probably' thường đi với 'will' để diễn tả khả năng xảy ra trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "I believe humans _____ live on Mars in the future.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are going to"
+        },
+        {
+          "id": "c",
+          "label": "live"
+        },
+        {
+          "id": "d",
+          "label": "are living"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' để diễn tả dự đoán dựa trên niềm tin hoặc ý kiến cá nhân về tương lai xa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "If it rains, we _____ stay home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are going to"
+        },
+        {
+          "id": "c",
+          "label": "stay"
+        },
+        {
+          "id": "d",
+          "label": "would"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 1, mệnh đề chính dùng thì tương lai đơn với 'will'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The sun _____ rise at 6 AM tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "rises"
+        },
+        {
+          "id": "d",
+          "label": "is rising"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' để diễn tả một sự thật hoặc sự kiện chắc chắn xảy ra trong tương lai."
+  }
+]

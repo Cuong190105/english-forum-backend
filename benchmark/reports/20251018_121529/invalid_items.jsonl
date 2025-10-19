@@ -1,0 +1,8 @@
+{"run_id": "20251018_121529", "where": "pred", "config": "minimal", "topic": "Present Simple", "type": "mcq", "seed": 0, "error": "i1: prompt_language"}
+{"run_id": "20251018_121529", "where": "gold", "config": "gold", "topic": "Present Simple", "type": "mcq", "seed": 0, "error": "i2: prompt_language"}
+{"run_id": "20251018_121529", "where": "gold", "config": "gold", "topic": "Present Simple", "type": "mcq", "seed": 0, "error": "i4: prompt_language"}
+{"run_id": "20251018_121529", "where": "gold", "config": "gold", "topic": "Present Simple", "type": "mcq", "seed": 0, "error": "i2: prompt_language"}
+{"run_id": "20251018_121529", "where": "gold", "config": "gold", "topic": "Present Simple", "type": "mcq", "seed": 0, "error": "i4: prompt_language"}
+{"run_id": "20251018_121529", "where": "pred", "config": "minimal", "topic": "Present Simple", "type": "mcq", "seed": 0, "error": "i3: prompt_language"}
+{"run_id": "20251018_121529", "where": "pred", "config": "cot", "topic": "Present Simple", "type": "mcq", "seed": 0, "error": "i3: prompt_language"}
+{"run_id": "20251018_121529", "where": "pred", "config": "minimal", "topic": "a/an/the/zero", "type": "mcq", "seed": 0, "error": "i5: prompt_language"}

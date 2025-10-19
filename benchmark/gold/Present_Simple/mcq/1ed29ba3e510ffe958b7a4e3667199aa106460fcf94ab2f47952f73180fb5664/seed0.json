@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-01",
+      "prompt": "My mother often _____ delicious meals for our family on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cook"
+        },
+        {
+          "id": "b",
+          "label": "is cooking"
+        },
+        {
+          "id": "c",
+          "label": "cooks"
+        },
+        {
+          "id": "d",
+          "label": "cooked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ là 'My mother' (ngôi thứ ba số ít) và câu diễn tả một thói quen ('often'), nên ta dùng thì hiện tại đơn và động từ thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-02",
+      "prompt": "Lan and her brother _____ like watching horror movies at night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ là 'Lan and her brother' (số nhiều), nên ta dùng trợ động từ 'do not' (don't) ở thể phủ định của thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-03",
+      "prompt": "_____ your father go to work by bus every day?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Does"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu hỏi về thói quen hàng ngày ('every day') với chủ ngữ 'your father' (ngôi thứ ba số ít) cần trợ động từ 'Does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-04",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "is going"
+        },
+        {
+          "id": "c",
+          "label": "goes"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là một sự thật khoa học, một chân lý hiển nhiên, nên ta dùng thì hiện tại đơn. Chủ ngữ 'The Earth' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-05",
+      "prompt": "He is _____ late for his Vietnamese class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "never is"
+        },
+        {
+          "id": "b",
+          "label": "is never"
+        },
+        {
+          "id": "c",
+          "label": "never be"
+        },
+        {
+          "id": "d",
+          "label": "are never"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ tần suất (never, always, often...) đứng sau động từ 'to be' (is, am, are)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-06",
+      "prompt": "I _____ get up early on Sundays because I don't have to go to school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get up usually"
+        },
+        {
+          "id": "b",
+          "label": "am usually getting up"
+        },
+        {
+          "id": "c",
+          "label": "usually get up"
+        },
+        {
+          "id": "d",
+          "label": "get usually up"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ tần suất (usually, sometimes, never...) đứng trước động từ thường (get up)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-07",
+      "prompt": "Mr. Nam _____ English at a high school in Hanoi.",
+      "options": [
+        {
+          "id": "a",
+          "label": "teach"
+        },
+        {
+          "id": "b",
+          "label": "teachs"
+        },
+        {
+          "id": "c",
+          "label": "is teaching"
+        },
+        {
+          "id": "d",
+          "label": "teaches"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Động từ 'teach' kết thúc bằng 'ch', nên khi chia với chủ ngữ ngôi thứ ba số ít ('Mr. Nam'), ta thêm 'es'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-08",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boils"
+        },
+        {
+          "id": "b",
+          "label": "is boiling"
+        },
+        {
+          "id": "c",
+          "label": "boil"
+        },
+        {
+          "id": "d",
+          "label": "are boiling"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật khoa học, không phải hành động đang diễn ra. Vì vậy, ta dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-09",
+      "prompt": "What time _____ the first bus to the city center usually leave?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về lịch trình, thời gian biểu dùng thì hiện tại đơn. Chủ ngữ 'the first bus' là ngôi thứ ba số ít nên dùng trợ động từ 'does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-10",
+      "prompt": "The lecturer often _____ a different side of the system in his talks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "show"
+        },
+        {
+          "id": "b",
+          "label": "is showing"
+        },
+        {
+          "id": "c",
+          "label": "shows"
+        },
+        {
+          "id": "d",
+          "label": "showed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ 'The lecturer' là ngôi thứ ba số ít và có trạng từ 'often', nên động từ ở thì hiện tại đơn cần thêm 's'."
+  }
+]

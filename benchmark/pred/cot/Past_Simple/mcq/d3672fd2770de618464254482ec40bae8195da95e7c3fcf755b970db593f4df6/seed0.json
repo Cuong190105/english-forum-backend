@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My family _____ to Da Lat last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "gone"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last summer” là dấu hiệu của thì Quá khứ đơn. Động từ 'go' ở dạng quá khứ là 'went'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "She _____ her homework yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't do"
+        },
+        {
+          "id": "b",
+          "label": "didn't do"
+        },
+        {
+          "id": "c",
+          "label": "hasn't done"
+        },
+        {
+          "id": "d",
+          "label": "isn't doing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Yesterday evening” chỉ một hành động đã xảy ra và kết thúc trong quá khứ. Dùng 'didn't do' cho thể phủ định của Quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "_____ you _____ that new movie last week?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did...see"
+        },
+        {
+          "id": "b",
+          "label": "Do...see"
+        },
+        {
+          "id": "c",
+          "label": "Have...seen"
+        },
+        {
+          "id": "d",
+          "label": "Are...seeing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Last week” là dấu hiệu của thì Quá khứ đơn. Cấu trúc câu hỏi là 'Did + chủ ngữ + động từ nguyên mẫu'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "They _____ a lot of delicious food at the party two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eat"
+        },
+        {
+          "id": "b",
+          "label": "ate"
+        },
+        {
+          "id": "c",
+          "label": "eaten"
+        },
+        {
+          "id": "d",
+          "label": "have eaten"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Two days ago” chỉ thời điểm cụ thể trong quá khứ. 'Ate' là dạng quá khứ của 'eat', phù hợp với thì Quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "The director _____ the film in 2022, but it was released last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "makes"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "has made"
+        },
+        {
+          "id": "d",
+          "label": "is making"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“In 2022” là mốc thời gian cụ thể trong quá khứ. Dùng 'made' là dạng quá khứ của 'make' cho thì Quá khứ đơn."
+  }
+]

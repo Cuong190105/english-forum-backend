@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "When I arrived at the airport, my flight _____ already departed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'departed' xảy ra trước hành động 'arrived' trong quá khứ. Dùng quá khứ hoàn thành để diễn tả hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "She couldn't open the door because she _____ her keys inside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "forgot"
+        },
+        {
+          "id": "b",
+          "label": "had forgotten"
+        },
+        {
+          "id": "c",
+          "label": "has forgotten"
+        },
+        {
+          "id": "d",
+          "label": "was forgetting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc quên chìa khóa xảy ra trước và là nguyên nhân của việc không thể mở cửa. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "By the time he retired last year, he _____ for the same company for over 30 years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "has worked"
+        },
+        {
+          "id": "c",
+          "label": "had worked"
+        },
+        {
+          "id": "d",
+          "label": "was working"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'work' kéo dài đến thời điểm 'retired' trong quá khứ. Dùng quá khứ hoàn thành để diễn tả hành động kéo dài đến một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "They didn't understand the new concepts because they _____ the previous lesson.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't attend"
+        },
+        {
+          "id": "b",
+          "label": "hadn't attended"
+        },
+        {
+          "id": "c",
+          "label": "haven't attended"
+        },
+        {
+          "id": "d",
+          "label": "weren't attending"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc không tham gia bài học trước đó xảy ra trước và là nguyên nhân của việc không hiểu bài mới. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "Before she moved to Hanoi in 2022, she _____ never lived in a big city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'never lived' hoàn thành trước mốc thời gian 'moved to Hanoi in 2022' trong quá khứ. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "After he _____ his presentation, he felt a great sense of relief.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finished"
+        },
+        {
+          "id": "b",
+          "label": "had finished"
+        },
+        {
+          "id": "c",
+          "label": "has finished"
+        },
+        {
+          "id": "d",
+          "label": "was finishing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'finish presentation' xảy ra và hoàn thành trước hành động 'felt relief'. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "By the time the rescue team arrived, the hikers _____ already found shelter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'found shelter' xảy ra trước khi đội cứu hộ đến. Dùng quá khứ hoàn thành để diễn tả hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "When I called my friend yesterday, she _____ already left for her appointment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc cô ấy rời đi xảy ra trước khi tôi gọi. Dùng quá khứ hoàn thành để diễn tả hành động xảy ra trước một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "He wished he _____ more carefully before making that big decision last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "thought"
+        },
+        {
+          "id": "b",
+          "label": "had thought"
+        },
+        {
+          "id": "c",
+          "label": "has thought"
+        },
+        {
+          "id": "d",
+          "label": "was thinking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'wish + quá khứ hoàn thành' diễn tả mong ước về một điều không có thật hoặc hối tiếc về một hành động trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "She felt much better after she _____ the doctor's advice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took"
+        },
+        {
+          "id": "b",
+          "label": "had taken"
+        },
+        {
+          "id": "c",
+          "label": "has taken"
+        },
+        {
+          "id": "d",
+          "label": "was taking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc làm theo lời khuyên của bác sĩ xảy ra trước và là nguyên nhân khiến cô ấy cảm thấy tốt hơn. Dùng quá khứ hoàn thành."
+  }
+]

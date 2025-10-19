@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_01",
+      "prompt": "My brother is not _____ to drive a car. He's only 16.",
+      "options": [
+        {
+          "id": "a",
+          "label": "old enough"
+        },
+        {
+          "id": "b",
+          "label": "too old"
+        },
+        {
+          "id": "c",
+          "label": "enough old"
+        },
+        {
+          "id": "d",
+          "label": "so old"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc: S + be + (not) + adj + enough + to V. 'Enough' đứng sau tính từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_02",
+      "prompt": "This coffee is _____ to drink. I need to add some sugar.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sweet enough"
+        },
+        {
+          "id": "b",
+          "label": "too bitter"
+        },
+        {
+          "id": "c",
+          "label": "enough bitter"
+        },
+        {
+          "id": "d",
+          "label": "so bitter"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cà phê quá đắng để uống. Cấu trúc: S + be + too + adj + to V (quá... đến nỗi không thể...)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_03",
+      "prompt": "She spoke _____ for everyone in the back of the room to hear her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too clearly"
+        },
+        {
+          "id": "b",
+          "label": "clearly enough"
+        },
+        {
+          "id": "c",
+          "label": "enough clearly"
+        },
+        {
+          "id": "d",
+          "label": "so clear"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc: S + V + adv + enough + to V. 'Enough' đứng sau trạng từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_04",
+      "prompt": "I was _____ to understand what was happening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "enough tired"
+        },
+        {
+          "id": "b",
+          "label": "so tired"
+        },
+        {
+          "id": "c",
+          "label": "too tired"
+        },
+        {
+          "id": "d",
+          "label": "tired enough"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tôi quá mệt để có thể hiểu chuyện gì đang xảy ra. Cấu trúc: S + be + too + adj + to V."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_05",
+      "prompt": "Do you have _____ to buy a new laptop?",
+      "options": [
+        {
+          "id": "a",
+          "label": "money enough"
+        },
+        {
+          "id": "b",
+          "label": "too much money"
+        },
+        {
+          "id": "c",
+          "label": "enough money"
+        },
+        {
+          "id": "d",
+          "label": "so money"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc: enough + noun + to V. 'Enough' đứng trước danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_06",
+      "prompt": "The box was _____ for the little boy to lift.",
+      "options": [
+        {
+          "id": "a",
+          "label": "heavy enough"
+        },
+        {
+          "id": "b",
+          "label": "enough heavy"
+        },
+        {
+          "id": "c",
+          "label": "so heavy"
+        },
+        {
+          "id": "d",
+          "label": "too heavy"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cái hộp quá nặng để cậu bé nhấc lên. Cấu trúc: S + be + too + adj + (for sb) + to V."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_07",
+      "prompt": "He isn't _____ to join the police force because he's only 1.6m.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tall enough"
+        },
+        {
+          "id": "b",
+          "label": "too tall"
+        },
+        {
+          "id": "c",
+          "label": "enough tall"
+        },
+        {
+          "id": "d",
+          "label": "so tall"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Anh ấy không đủ cao để tham gia lực lượng cảnh sát. Cấu trúc: S + be + (not) + adj + enough + to V."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_08",
+      "prompt": "It's _____ to go swimming today. The water is freezing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "warm enough"
+        },
+        {
+          "id": "b",
+          "label": "too cold"
+        },
+        {
+          "id": "c",
+          "label": "enough cold"
+        },
+        {
+          "id": "d",
+          "label": "so warm"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trời quá lạnh để đi bơi hôm nay. Cấu trúc: It's + too + adj + to V."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_09",
+      "prompt": "She didn't run _____ to catch the bus.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too quickly"
+        },
+        {
+          "id": "b",
+          "label": "enough quickly"
+        },
+        {
+          "id": "c",
+          "label": "so quickly"
+        },
+        {
+          "id": "d",
+          "label": "quickly enough"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cô ấy đã không chạy đủ nhanh để bắt kịp xe buýt. Cấu trúc: S + V + (not) + adv + enough + to V."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_GRAM_TOO_ENOUGH_10",
+      "prompt": "He will be _____ to make wise decisions in expanding his business.",
+      "options": [
+        {
+          "id": "a",
+          "label": "mature enough"
+        },
+        {
+          "id": "b",
+          "label": "too mature"
+        },
+        {
+          "id": "c",
+          "label": "enough mature"
+        },
+        {
+          "id": "d",
+          "label": "so mature"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'adj + enough + to V' có nghĩa là 'đủ... để làm gì'. Anh ấy sẽ đủ trưởng thành để đưa ra quyết định khôn ngoan."
+  }
+]

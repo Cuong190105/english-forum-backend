@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_001",
+      "prompt": "My sister _____ a new language last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "learns"
+        },
+        {
+          "id": "c",
+          "label": "learned"
+        },
+        {
+          "id": "d",
+          "label": "learning"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last year” là dấu hiệu của thì quá khứ đơn. Động từ “learn” ở quá khứ đơn là “learned”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_002",
+      "prompt": "They _____ to the cinema two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "gone"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Two days ago” chỉ hành động đã xảy ra và kết thúc trong quá khứ. “Went” là dạng quá khứ của “go”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_003",
+      "prompt": "I _____ finish my homework yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "wasn't"
+        },
+        {
+          "id": "d",
+          "label": "haven't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu phủ định trong quá khứ đơn, dùng “didn't” + động từ nguyên mẫu. “Yesterday evening” là dấu hiệu quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_004",
+      "prompt": "_____ you visit your grandparents last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để đặt câu hỏi trong quá khứ đơn, dùng trợ động từ “Did” ở đầu câu. “Last weekend” là dấu hiệu quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_005",
+      "prompt": "She _____ very busy with her studies last month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last month” là dấu hiệu quá khứ đơn. Chủ ngữ “She” đi với “was” ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_006",
+      "prompt": "We _____ a great time at the party a week ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "has"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“A week ago” chỉ thời điểm cụ thể trong quá khứ. “Had” là dạng quá khứ của “have”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_007",
+      "prompt": "My parents _____ me a new book last Christmas.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "bought"
+        },
+        {
+          "id": "c",
+          "label": "buys"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last Christmas” là dấu hiệu của thì quá khứ đơn. “Bought” là dạng quá khứ của “buy”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_008",
+      "prompt": "The students _____ a difficult exam yesterday morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "take"
+        },
+        {
+          "id": "b",
+          "label": "took"
+        },
+        {
+          "id": "c",
+          "label": "takes"
+        },
+        {
+          "id": "d",
+          "label": "taken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Yesterday morning” là dấu hiệu quá khứ đơn. “Took” là dạng quá khứ của “take”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_009",
+      "prompt": "My family _____ to Hanoi in 2010.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "moves"
+        },
+        {
+          "id": "c",
+          "label": "moved"
+        },
+        {
+          "id": "d",
+          "label": "moving"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“In 2010” là một mốc thời gian cụ thể trong quá khứ, dùng thì quá khứ đơn. “Moved” là dạng quá khứ của “move”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_010",
+      "prompt": "He _____ his old car and bought a new one last month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sell"
+        },
+        {
+          "id": "b",
+          "label": "sells"
+        },
+        {
+          "id": "c",
+          "label": "sold"
+        },
+        {
+          "id": "d",
+          "label": "selling"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động “bán xe” đã hoàn tất trong quá khứ, được chỉ rõ bởi “last month”. “Sold” là dạng quá khứ của “sell”."
+  }
+]

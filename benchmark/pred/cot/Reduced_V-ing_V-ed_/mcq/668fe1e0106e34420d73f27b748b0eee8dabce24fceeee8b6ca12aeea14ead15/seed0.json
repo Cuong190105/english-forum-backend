@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_001",
+      "prompt": "The transporter _____ food to the supermarket makes our lives easier.",
+      "options": [
+        {
+          "id": "a",
+          "label": "brings"
+        },
+        {
+          "id": "b",
+          "label": "bringing"
+        },
+        {
+          "id": "c",
+          "label": "brought"
+        },
+        {
+          "id": "d",
+          "label": "is bringing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn ở thể chủ động dùng V-ing. 'Bringing' thay cho 'which brings'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_002",
+      "prompt": "The car _____ in the severe accident last night is now at the repair shop.",
+      "options": [
+        {
+          "id": "a",
+          "label": "involved"
+        },
+        {
+          "id": "b",
+          "label": "involving"
+        },
+        {
+          "id": "c",
+          "label": "was involved"
+        },
+        {
+          "id": "d",
+          "label": "involves"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn ở thể bị động dùng V-ed. 'Involved' thay cho 'which was involved'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_003",
+      "prompt": "_____ by the sudden noise, the baby started crying.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Frightening"
+        },
+        {
+          "id": "b",
+          "label": "Frightened"
+        },
+        {
+          "id": "c",
+          "label": "To frighten"
+        },
+        {
+          "id": "d",
+          "label": "Having frightened"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề trạng ngữ rút gọn ở thể bị động dùng V-ed. Em bé bị làm cho sợ hãi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_004",
+      "prompt": "_____ all the necessary documents, she proceeded to the immigration counter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Gathering"
+        },
+        {
+          "id": "b",
+          "label": "Having gathered"
+        },
+        {
+          "id": "c",
+          "label": "To gather"
+        },
+        {
+          "id": "d",
+          "label": "Gathered"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'gather' xảy ra và hoàn thành trước hành động 'proceeded'. Dùng 'Having V-ed' cho hành động xảy ra trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_005",
+      "prompt": "The team members _____ on the new project are working overtime.",
+      "options": [
+        {
+          "id": "a",
+          "label": "working"
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "to work"
+        },
+        {
+          "id": "d",
+          "label": "who work"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn ở thể chủ động dùng V-ing. 'Working' thay cho 'who are working'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_006",
+      "prompt": "The instructions _____ in the manual must be followed carefully.",
+      "options": [
+        {
+          "id": "a",
+          "label": "writing"
+        },
+        {
+          "id": "b",
+          "label": "wrote"
+        },
+        {
+          "id": "c",
+          "label": "written"
+        },
+        {
+          "id": "d",
+          "label": "to write"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề quan hệ rút gọn ở thể bị động dùng V-ed. 'Written' thay cho 'which are written'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_007",
+      "prompt": "_____ in the city for over ten years, he knows all the best places to eat.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Living"
+        },
+        {
+          "id": "b",
+          "label": "Lived"
+        },
+        {
+          "id": "c",
+          "label": "To live"
+        },
+        {
+          "id": "d",
+          "label": "Having lived"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'live' đã diễn ra trong một khoảng thời gian và hoàn thành trước khi anh ấy biết các địa điểm. Dùng 'Having V-ed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_008",
+      "prompt": "Unless _____ otherwise, the meeting will be held online.",
+      "options": [
+        {
+          "id": "a",
+          "label": "informing"
+        },
+        {
+          "id": "b",
+          "label": "informed"
+        },
+        {
+          "id": "c",
+          "label": "to inform"
+        },
+        {
+          "id": "d",
+          "label": "having informed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề trạng ngữ rút gọn ở thể bị động dùng V-ed. 'Informed' thay cho 'unless you are informed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_009",
+      "prompt": "The car, _____ us to the hospital quickly, saved his life after the accident.",
+      "options": [
+        {
+          "id": "a",
+          "label": "brings"
+        },
+        {
+          "id": "b",
+          "label": "bringing"
+        },
+        {
+          "id": "c",
+          "label": "brought"
+        },
+        {
+          "id": "d",
+          "label": "to bring"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ không xác định rút gọn ở thể chủ động dùng V-ing. 'Bringing' thay cho 'which brought/was bringing'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "red_010",
+      "prompt": "The goods _____ by the transporter were delivered safely to the supermarket.",
+      "options": [
+        {
+          "id": "a",
+          "label": "delivering"
+        },
+        {
+          "id": "b",
+          "label": "delivered"
+        },
+        {
+          "id": "c",
+          "label": "to deliver"
+        },
+        {
+          "id": "d",
+          "label": "have delivered"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn ở thể bị động dùng V-ed. 'Delivered' thay cho 'which were delivered'."
+  }
+]

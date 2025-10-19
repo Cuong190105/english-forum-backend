@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_01",
+      "prompt": "I'm not sure about my plans for the weekend, but I think I _____ visit my grandparents.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am visiting"
+        },
+        {
+          "id": "b",
+          "label": "will visit"
+        },
+        {
+          "id": "c",
+          "label": "visit"
+        },
+        {
+          "id": "d",
+          "label": "visited"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'will' để diễn tả một dự đoán hoặc một quyết định chưa chắc chắn, thường đi sau các động từ như 'think', 'believe', 'hope'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_02",
+      "prompt": "\"It's getting cold in here.\" - \"You're right. I _____ the window.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "will close"
+        },
+        {
+          "id": "b",
+          "label": "am going to close"
+        },
+        {
+          "id": "c",
+          "label": "close"
+        },
+        {
+          "id": "d",
+          "label": "closed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng 'will' để diễn tả một quyết định được đưa ra ngay tại thời điểm nói (spontaneous decision)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_03",
+      "prompt": "Don't worry about the test. I'm sure you _____ it easily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are passing"
+        },
+        {
+          "id": "b",
+          "label": "pass"
+        },
+        {
+          "id": "c",
+          "label": "passed"
+        },
+        {
+          "id": "d",
+          "label": "will pass"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Khi bạn đưa ra một dự đoán dựa trên ý kiến cá nhân (ví dụ: 'I'm sure'), hãy dùng 'will'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_04",
+      "prompt": "I promise I _____ be late for the meeting tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am not"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "won't"
+        },
+        {
+          "id": "d",
+          "label": "wasn't"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'will' hoặc dạng phủ định 'won't' (will not) để đưa ra một lời hứa (promise)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fw_05",
+      "prompt": "That box looks very heavy. I _____ you with it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "help"
+        },
+        {
+          "id": "b",
+          "label": "am helping"
+        },
+        {
+          "id": "c",
+          "label": "will help"
+        },
+        {
+          "id": "d",
+          "label": "helped"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sử dụng 'will' để đưa ra một lời đề nghị giúp đỡ một cách tự nguyện (offer to help)."
+  }
+]

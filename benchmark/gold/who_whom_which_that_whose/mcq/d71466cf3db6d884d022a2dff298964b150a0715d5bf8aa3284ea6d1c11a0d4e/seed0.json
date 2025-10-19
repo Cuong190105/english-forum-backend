@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_01",
+      "prompt": "The girl _____ is singing on the stage is my cousin.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'who' để chỉ người và làm chủ ngữ trong mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_02",
+      "prompt": "The teacher with _____ I discussed my project is very helpful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau giới từ (with), ta dùng 'whom' để chỉ người làm tân ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_03",
+      "prompt": "This is the 'bánh mì' stall _____ sells the best sandwiches in Hanoi.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'which' hoặc 'that' để chỉ vật (quầy hàng)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_04",
+      "prompt": "She is the most intelligent student _____ I have ever taught.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Thường dùng 'that' sau dạng so sánh nhất (the most intelligent)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_05",
+      "prompt": "I met a student _____ parents are both famous scientists.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'whose' để chỉ sự sở hữu (bố mẹ của học sinh đó)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_06",
+      "prompt": "My friend missed the bus, _____ meant he was late for the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'which' sau dấu phẩy để thay thế cho cả một mệnh đề đứng trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_07",
+      "prompt": "The people _____ live next door are from Ho Chi Minh City.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "whose"
+        },
+        {
+          "id": "c",
+          "label": "who"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'who' hoặc 'that' để chỉ người làm chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_08",
+      "prompt": "The motorbike, _____ color is bright blue, belongs to my brother.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "who"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Whose' được dùng để chỉ sự sở hữu, kể cả với đồ vật (màu của chiếc xe máy)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_09",
+      "prompt": "The book _____ you lent me was very interesting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "that"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'that' hoặc 'which' để chỉ vật (quyển sách)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_rel_pronoun_10",
+      "prompt": "Do you remember the name of the artist _____ painted this picture?",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "who"
+        },
+        {
+          "id": "c",
+          "label": "whom"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'who' để chỉ người làm chủ ngữ (người nghệ sĩ đã vẽ bức tranh)."
+  }
+]

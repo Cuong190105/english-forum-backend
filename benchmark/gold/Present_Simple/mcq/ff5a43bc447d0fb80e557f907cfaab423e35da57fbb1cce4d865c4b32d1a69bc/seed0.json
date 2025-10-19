@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS001",
+      "prompt": "My father _____ coffee every morning before he goes to work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drink"
+        },
+        {
+          "id": "b",
+          "label": "drinks"
+        },
+        {
+          "id": "c",
+          "label": "is drinking"
+        },
+        {
+          "id": "d",
+          "label": "are drinking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ là 'My father' (ngôi thứ ba số ít) và hành động 'uống cà phê' là một thói quen hàng ngày, nên ta dùng thì hiện tại đơn và động từ phải thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS002",
+      "prompt": "We _____ to school on Sundays; the school is closed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't go"
+        },
+        {
+          "id": "b",
+          "label": "doesn't go"
+        },
+        {
+          "id": "c",
+          "label": "aren't go"
+        },
+        {
+          "id": "d",
+          "label": "isn't going"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu phủ định ở thì hiện tại đơn với chủ ngữ là 'We' (số nhiều), ta dùng trợ động từ 'do not' (don't)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS003",
+      "prompt": "_____ your sister live in Ho Chi Minh City?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Does"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là câu hỏi Yes/No ở thì hiện tại đơn. Với chủ ngữ 'your sister' (ngôi thứ ba số ít), ta phải dùng trợ động từ 'Does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS004",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "is going"
+        },
+        {
+          "id": "d",
+          "label": "are going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn được dùng để diễn tả một sự thật hiển nhiên, một chân lý khoa học. Chủ ngữ 'The Earth' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS005",
+      "prompt": "I _____ usually tired after a long day at school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ là 'I', động từ 'to be' ở thì hiện tại đơn luôn được chia là 'am'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS006",
+      "prompt": "The public library _____ at 9 AM and _____ at 5 PM every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "open / close"
+        },
+        {
+          "id": "b",
+          "label": "opens / closes"
+        },
+        {
+          "id": "c",
+          "label": "is opening / is closing"
+        },
+        {
+          "id": "d",
+          "label": "open / closes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn được dùng để nói về lịch trình, thời gian biểu cố định. Chủ ngữ 'The public library' là ngôi thứ ba số ít nên cả hai động từ đều phải thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS007",
+      "prompt": "What _____ your parents do for a living?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu hỏi Wh- về nghề nghiệp, chủ ngữ là 'your parents' (số nhiều) nên ta dùng trợ động từ 'do'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS008",
+      "prompt": "Phong is a good student. He _____ forgets to do his homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always"
+        },
+        {
+          "id": "b",
+          "label": "usually"
+        },
+        {
+          "id": "c",
+          "label": "never"
+        },
+        {
+          "id": "d",
+          "label": "sometimes"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu đầu tiên nói rằng Phong là một học sinh giỏi. Vì vậy, anh ấy 'không bao giờ' (never) quên làm bài tập về nhà."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS009",
+      "prompt": "My cat _____ sleeping on the sofa.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "is liking"
+        },
+        {
+          "id": "c",
+          "label": "are liking"
+        },
+        {
+          "id": "d",
+          "label": "likes"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Động từ 'like' diễn tả sở thích, thường không dùng ở thì tiếp diễn. Chủ ngữ 'My cat' là ngôi thứ ba số ít nên động từ phải thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS010",
+      "prompt": "They _____ from Vietnam; they are from Thailand.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't"
+        },
+        {
+          "id": "b",
+          "label": "don't be"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "doesn't be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để tạo câu phủ định với động từ 'to be', ta thêm 'not' vào sau nó. Với chủ ngữ 'They', ta dùng 'are not' (aren't)."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_001",
+      "prompt": "_____ you practice, _____ you become.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the better"
+        },
+        {
+          "id": "b",
+          "label": "More / better"
+        },
+        {
+          "id": "c",
+          "label": "The most / the best"
+        },
+        {
+          "id": "d",
+          "label": "More / the best"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh kép là 'The + so sánh hơn + mệnh đề, the + so sánh hơn + mệnh đề'. 'Better' là dạng so sánh hơn của 'good'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_002",
+      "prompt": "_____ sleep you get, _____ energetic you feel.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The less / the less"
+        },
+        {
+          "id": "b",
+          "label": "Less / less"
+        },
+        {
+          "id": "c",
+          "label": "The least / the least"
+        },
+        {
+          "id": "d",
+          "label": "The less / less"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh kép 'The less... the less...' diễn tả mối quan hệ tỉ lệ nghịch giữa hai vế. 'Sleep' là danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_003",
+      "prompt": "_____ he works, _____ time he has for his hobbies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The harder / the less"
+        },
+        {
+          "id": "b",
+          "label": "Harder / less"
+        },
+        {
+          "id": "c",
+          "label": "The hardest / the least"
+        },
+        {
+          "id": "d",
+          "label": "The more hard / the less"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Harder' là dạng so sánh hơn của trạng từ 'hard'. 'The less' dùng với danh từ không đếm được 'time' trong cấu trúc so sánh kép."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_004",
+      "prompt": "_____ expensive the ingredients, _____ delicious the dish.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The less / the more"
+        },
+        {
+          "id": "b",
+          "label": "Less / more"
+        },
+        {
+          "id": "c",
+          "label": "The least / the most"
+        },
+        {
+          "id": "d",
+          "label": "Less / the more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'The less... the more...' thể hiện sự đối lập giữa hai yếu tố. 'Expensive' và 'delicious' đều là tính từ dài, cần 'less' hoặc 'more'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_005",
+      "prompt": "_____ complicated the problem, _____ patience you need to solve it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the more"
+        },
+        {
+          "id": "b",
+          "label": "More / more"
+        },
+        {
+          "id": "c",
+          "label": "The most / the most"
+        },
+        {
+          "id": "d",
+          "label": "The more / more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Complicated' là tính từ dài, dùng 'the more'. 'Patience' là danh từ không đếm được, cũng dùng 'the more' trong cấu trúc so sánh kép."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_006",
+      "prompt": "_____ she sings, _____ her voice improves.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the more"
+        },
+        {
+          "id": "b",
+          "label": "More / more"
+        },
+        {
+          "id": "c",
+          "label": "The most / the most"
+        },
+        {
+          "id": "d",
+          "label": "The more / more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh kép 'The more... the more...' được dùng để diễn tả sự tăng tiến của cả hai vế. 'Sings' và 'improves' là động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_007",
+      "prompt": "_____ books you read, _____ knowledge you gain.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the more"
+        },
+        {
+          "id": "b",
+          "label": "More / more"
+        },
+        {
+          "id": "c",
+          "label": "The most / the most"
+        },
+        {
+          "id": "d",
+          "label": "The more / more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Books' là danh từ đếm được, dùng 'the more'. 'Knowledge' là danh từ không đếm được, cũng dùng 'the more' trong cấu trúc so sánh kép."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_008",
+      "prompt": "_____ money he earns, _____ luxurious his lifestyle becomes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the more"
+        },
+        {
+          "id": "b",
+          "label": "More / more"
+        },
+        {
+          "id": "c",
+          "label": "The most / the most"
+        },
+        {
+          "id": "d",
+          "label": "The more / more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Money' là danh từ không đếm được, dùng 'the more'. 'Luxurious' là tính từ dài, dùng 'the more' trong cấu trúc so sánh kép."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_009",
+      "prompt": "_____ we learn, _____ we realize how much we don't know.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the more"
+        },
+        {
+          "id": "b",
+          "label": "More / more"
+        },
+        {
+          "id": "c",
+          "label": "The most / the most"
+        },
+        {
+          "id": "d",
+          "label": "The more / more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh kép yêu cầu 'The + so sánh hơn + mệnh đề' cho cả hai vế để diễn tả sự tăng tiến đồng thời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dc_010",
+      "prompt": "_____ you wait, _____ difficult it will be to find a good seat.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The longer / the more"
+        },
+        {
+          "id": "b",
+          "label": "Longer / more"
+        },
+        {
+          "id": "c",
+          "label": "The longest / the most"
+        },
+        {
+          "id": "d",
+          "label": "The more long / the more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Longer' là so sánh hơn của 'long'. 'More difficult' là so sánh hơn của 'difficult'. Cả hai vế đều cần 'the' cho cấu trúc so sánh kép."
+  }
+]

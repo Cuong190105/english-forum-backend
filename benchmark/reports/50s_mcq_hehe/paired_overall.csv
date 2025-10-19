@@ -1,0 +1,3 @@
+run_id,metric,n_pairs,delta_mean,delta_std,delta_se,delta_ci95_low,delta_ci95_high,delta_ci95_halfwidth_H,delta_ci_level,delta_H_target,delta_meets_H_target,delta_significant
+50s_mcq_hehe,semantic,50,-0.0036,0.0397,0.0056,-0.0146,0.0074,0.011,0.95,0.04,1,0
+50s_mcq_hehe,judge,50,0.026,0.0777,0.011,0.0044,0.0476,0.0216,0.95,0.05,1,1

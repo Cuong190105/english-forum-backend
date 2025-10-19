@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister has saved enough money. She _____ buy a new laptop next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "goes to"
+        },
+        {
+          "id": "d",
+          "label": "is buying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“is going to” dùng để diễn tả một kế hoạch hoặc ý định đã được quyết định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They _____ visit their grandparents this weekend because they have to work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "aren't going to"
+        },
+        {
+          "id": "b",
+          "label": "won't"
+        },
+        {
+          "id": "c",
+          "label": "don't go to"
+        },
+        {
+          "id": "d",
+          "label": "aren't visiting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng “aren't going to” để diễn tả một kế hoạch không xảy ra trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Look at those dark clouds! It _____ rain very soon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "might"
+        },
+        {
+          "id": "d",
+          "label": "is raining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“is going to” dùng để dự đoán điều gì đó sẽ xảy ra dựa trên bằng chứng hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you _____ study for your exam tonight?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Are / going to"
+        },
+        {
+          "id": "b",
+          "label": "Will / go to"
+        },
+        {
+          "id": "c",
+          "label": "Do / go to"
+        },
+        {
+          "id": "d",
+          "label": "Are / going"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc câu hỏi với “be going to” là “Are/Is/Am + chủ ngữ + going to + động từ nguyên mẫu?”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "I've decided. I _____ learn to play the guitar.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "go to"
+        },
+        {
+          "id": "d",
+          "label": "am learning"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Am going to” diễn tả một quyết định đã được đưa ra trước đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "We _____ have a big party for her birthday next Saturday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "go to"
+        },
+        {
+          "id": "d",
+          "label": "are having"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Are going to” dùng để nói về một sự kiện đã được lên kế hoạch trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "He _____ travel to Japan next year for his vacation.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "goes to"
+        },
+        {
+          "id": "d",
+          "label": "is traveling"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Is going to” diễn tả một kế hoạch hoặc dự định của anh ấy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "My parents _____ buy a new house. They've been saving for years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "go to"
+        },
+        {
+          "id": "d",
+          "label": "are buying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Are going to” thể hiện một kế hoạch hoặc ý định đã có từ lâu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "A: What are your plans for the summer? B: I _____ visit my relatives in the countryside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "go to"
+        },
+        {
+          "id": "d",
+          "label": "am visiting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Am going to” dùng để trả lời về kế hoạch hoặc dự định trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "She feels sick. She _____ see a doctor soon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "goes to"
+        },
+        {
+          "id": "d",
+          "label": "is seeing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Is going to” dùng để diễn tả một hành động cần thiết hoặc dự đoán dựa trên tình trạng hiện tại."
+  }
+]

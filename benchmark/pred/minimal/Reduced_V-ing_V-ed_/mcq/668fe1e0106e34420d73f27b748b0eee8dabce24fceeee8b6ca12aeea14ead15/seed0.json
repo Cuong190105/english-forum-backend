@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The woman _____ a red dress is my aunt.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wearing"
+        },
+        {
+          "id": "b",
+          "label": "worn"
+        },
+        {
+          "id": "c",
+          "label": "to wear"
+        },
+        {
+          "id": "d",
+          "label": "who wears"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn dạng chủ động dùng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The car _____ in the accident was completely destroyed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "involving"
+        },
+        {
+          "id": "b",
+          "label": "involved"
+        },
+        {
+          "id": "c",
+          "label": "to involve"
+        },
+        {
+          "id": "d",
+          "label": "which involved"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng V-ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "_____ the instructions carefully, he managed to assemble the furniture.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Reading"
+        },
+        {
+          "id": "b",
+          "label": "Read"
+        },
+        {
+          "id": "c",
+          "label": "To read"
+        },
+        {
+          "id": "d",
+          "label": "Having read"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề trạng ngữ rút gọn chỉ hành động đồng thời hoặc nguyên nhân, dùng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ by the sudden noise, the baby started to cry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Frightening"
+        },
+        {
+          "id": "b",
+          "label": "Frightened"
+        },
+        {
+          "id": "c",
+          "label": "To frighten"
+        },
+        {
+          "id": "d",
+          "label": "Frightens"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề trạng ngữ rút gọn chỉ nguyên nhân, dạng bị động dùng V-ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The package _____ yesterday has not arrived yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sent"
+        },
+        {
+          "id": "b",
+          "label": "sending"
+        },
+        {
+          "id": "c",
+          "label": "to send"
+        },
+        {
+          "id": "d",
+          "label": "which sent"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng V-ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "_____ in the city for many years, she knows all the best places.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Living"
+        },
+        {
+          "id": "b",
+          "label": "Lived"
+        },
+        {
+          "id": "c",
+          "label": "To live"
+        },
+        {
+          "id": "d",
+          "label": "Having lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề trạng ngữ rút gọn chỉ thời gian hoặc nguyên nhân, dùng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The students _____ for the exam were very nervous.",
+      "options": [
+        {
+          "id": "a",
+          "label": "preparing"
+        },
+        {
+          "id": "b",
+          "label": "prepared"
+        },
+        {
+          "id": "c",
+          "label": "to prepare"
+        },
+        {
+          "id": "d",
+          "label": "who prepare"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn dạng chủ động dùng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "_____ from a distance, the castle looked like a tiny toy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Seeing"
+        },
+        {
+          "id": "b",
+          "label": "Seen"
+        },
+        {
+          "id": "c",
+          "label": "To see"
+        },
+        {
+          "id": "d",
+          "label": "Having seen"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề trạng ngữ rút gọn dạng bị động dùng V-ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The report, _____ by the committee, will be published next week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "writing"
+        },
+        {
+          "id": "b",
+          "label": "written"
+        },
+        {
+          "id": "c",
+          "label": "to write"
+        },
+        {
+          "id": "d",
+          "label": "which wrote"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng V-ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "_____ his homework, he went out to play.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Finishing"
+        },
+        {
+          "id": "b",
+          "label": "Finished"
+        },
+        {
+          "id": "c",
+          "label": "To finish"
+        },
+        {
+          "id": "d",
+          "label": "Having finished"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng \"Having + V-ed\" để chỉ hành động đã hoàn thành trước một hành động khác."
+  }
+]

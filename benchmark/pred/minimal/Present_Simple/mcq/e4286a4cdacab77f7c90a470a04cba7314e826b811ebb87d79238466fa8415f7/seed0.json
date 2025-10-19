@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít (My sister), động từ trong thì Hiện tại đơn cần thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They _____ football on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "plays"
+        },
+        {
+          "id": "b",
+          "label": "play"
+        },
+        {
+          "id": "c",
+          "label": "playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ số nhiều (They), động từ trong thì Hiện tại đơn giữ nguyên thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He _____ like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu phủ định thì Hiện tại đơn với chủ ngữ ngôi thứ ba số ít (He), chúng ta dùng trợ động từ 'doesn't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you speak English?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Is"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu hỏi thì Hiện tại đơn với chủ ngữ 'you', chúng ta dùng trợ động từ 'Do'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "She _____ watches TV in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "often"
+        },
+        {
+          "id": "b",
+          "label": "is often"
+        },
+        {
+          "id": "c",
+          "label": "often is"
+        },
+        {
+          "id": "d",
+          "label": "watches often"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất (như 'often') thường đứng trước động từ chính trong thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "is boiling"
+        },
+        {
+          "id": "d",
+          "label": "boiled"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật khoa học, dùng thì Hiện tại đơn. 'Water' là danh từ không đếm được, được coi là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "We _____ usually _____ breakfast at 7 AM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / eat"
+        },
+        {
+          "id": "b",
+          "label": "usually have"
+        },
+        {
+          "id": "c",
+          "label": "have usually"
+        },
+        {
+          "id": "d",
+          "label": "are usually having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ tần suất 'usually' đứng trước động từ chính 'have' để diễn tả thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "is rising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên, dùng thì Hiện tại đơn. 'The sun' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "My parents _____ in a big house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số nhiều (My parents), động từ trong thì Hiện tại đơn giữ nguyên thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "What time _____ the train _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do / leave"
+        },
+        {
+          "id": "b",
+          "label": "does / leave"
+        },
+        {
+          "id": "c",
+          "label": "do / leaves"
+        },
+        {
+          "id": "d",
+          "label": "does / leaves"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít (the train), dùng trợ động từ 'does' và động từ chính ở dạng nguyên thể 'leave'."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-01",
+      "prompt": "My sister _____ her homework in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is doing"
+        },
+        {
+          "id": "d",
+          "label": "are doing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ là 'My sister' (ngôi thứ ba số ít), nên động từ phải thêm 'es' ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-02",
+      "prompt": "They _____ football in the park on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "plays"
+        },
+        {
+          "id": "b",
+          "label": "is playing"
+        },
+        {
+          "id": "c",
+          "label": "play"
+        },
+        {
+          "id": "d",
+          "label": "are play"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ là 'They' (số nhiều), nên động từ ở dạng nguyên mẫu trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-03",
+      "prompt": "He _____ like spicy food because it hurts his stomach.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "isn't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "doesn't"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Để tạo câu phủ định cho chủ ngữ 'He' (ngôi thứ ba số ít), ta dùng trợ động từ 'doesn't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-04",
+      "prompt": "_____ your parents live in Hanoi?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ là 'your parents' (số nhiều), nên ta dùng trợ động từ 'Do' để đặt câu hỏi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-05",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "is rising"
+        },
+        {
+          "id": "c",
+          "label": "rises"
+        },
+        {
+          "id": "d",
+          "label": "are rising"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là một sự thật hiển nhiên, ta dùng thì hiện tại đơn. 'The sun' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-06",
+      "prompt": "I usually _____ a glass of milk before I go to bed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drinks"
+        },
+        {
+          "id": "b",
+          "label": "drink"
+        },
+        {
+          "id": "c",
+          "label": "am drinking"
+        },
+        {
+          "id": "d",
+          "label": "is drinking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Usually' là trạng từ chỉ tần suất, diễn tả thói quen. Với chủ ngữ 'I', động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-07",
+      "prompt": "Water _____ at 0 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "freeze"
+        },
+        {
+          "id": "b",
+          "label": "freezes"
+        },
+        {
+          "id": "c",
+          "label": "is freezing"
+        },
+        {
+          "id": "d",
+          "label": "are freezing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để diễn tả một sự thật khoa học, ta dùng thì hiện tại đơn. 'Water' là danh từ không đếm được, nên động từ chia như ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-08",
+      "prompt": "How often _____ you visit your grandparents?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "does"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về tần suất (How often) ở thì hiện tại đơn với chủ ngữ 'you' cần trợ động từ 'do'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-09",
+      "prompt": "My school bus _____ at 6:30 AM every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leave"
+        },
+        {
+          "id": "b",
+          "label": "is leaving"
+        },
+        {
+          "id": "c",
+          "label": "leaves"
+        },
+        {
+          "id": "d",
+          "label": "are leaving"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Every morning' chỉ một lịch trình, thói quen lặp đi lặp lại. Chủ ngữ 'My school bus' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps-mcq-10",
+      "prompt": "An, my best friend, _____ in Ho Chi Minh City.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "is live"
+        },
+        {
+          "id": "d",
+          "label": "are living"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ chính của câu là 'An' (ngôi thứ ba số ít), không phải 'my best friend'. Vì vậy, động từ cần thêm 's'."
+  }
+]

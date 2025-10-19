@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "At 7 PM yesterday, my parents _____ dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cooked"
+        },
+        {
+          "id": "b",
+          "label": "were cooking"
+        },
+        {
+          "id": "c",
+          "label": "cook"
+        },
+        {
+          "id": "d",
+          "label": "had cooked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn dùng để diễn tả hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ. \"At 7 PM yesterday\" là dấu hiệu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "While I _____ my homework, my sister _____ to music.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / listened"
+        },
+        {
+          "id": "b",
+          "label": "was doing / was listening"
+        },
+        {
+          "id": "c",
+          "label": "do / listen"
+        },
+        {
+          "id": "d",
+          "label": "have done / have listened"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng quá khứ tiếp diễn cho hai hành động xảy ra đồng thời trong quá khứ, thường nối với \"while\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "I _____ a shower when the doorbell rang.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took"
+        },
+        {
+          "id": "b",
+          "label": "was taking"
+        },
+        {
+          "id": "c",
+          "label": "take"
+        },
+        {
+          "id": "d",
+          "label": "had taken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đang diễn ra (tắm) bị một hành động khác (chuông reo) cắt ngang. Hành động đang diễn ra dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "The birds _____ beautifully as the sun _____ over the mountains.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sang / rose"
+        },
+        {
+          "id": "b",
+          "label": "were singing / was rising"
+        },
+        {
+          "id": "c",
+          "label": "sang / was rising"
+        },
+        {
+          "id": "d",
+          "label": "were singing / rose"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động \"birds were singing\" là nền cho hành động \"sun rose\". Hành động nền dùng quá khứ tiếp diễn, hành động ngắn dùng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "What _____ you _____ when I called you last night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / do"
+        },
+        {
+          "id": "b",
+          "label": "were / doing"
+        },
+        {
+          "id": "c",
+          "label": "are / doing"
+        },
+        {
+          "id": "d",
+          "label": "had / done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi về hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ (\"when I called you last night\") dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "They _____ not _____ attention during the meeting this morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were / paying"
+        },
+        {
+          "id": "b",
+          "label": "did / pay"
+        },
+        {
+          "id": "c",
+          "label": "are / paying"
+        },
+        {
+          "id": "d",
+          "label": "had / paid"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động không xảy ra tại một thời điểm cụ thể trong quá khứ (\"this morning\") dùng quá khứ tiếp diễn thể phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "When she arrived, I _____ for her at the cafe.",
+      "options": [
+        {
+          "id": "a",
+          "label": "waited"
+        },
+        {
+          "id": "b",
+          "label": "was waiting"
+        },
+        {
+          "id": "c",
+          "label": "wait"
+        },
+        {
+          "id": "d",
+          "label": "had waited"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động \"was waiting\" đang diễn ra thì hành động \"she arrived\" xen vào. Hành động đang diễn ra dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "From 2 PM to 4 PM yesterday, we _____ on our group project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "were working"
+        },
+        {
+          "id": "c",
+          "label": "work"
+        },
+        {
+          "id": "d",
+          "label": "had worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khoảng thời gian cụ thể trong quá khứ (\"From 2 PM to 4 PM yesterday\") cho thấy hành động đang diễn ra liên tục, dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "It _____ heavily, and the wind _____ loudly all night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rained / blew"
+        },
+        {
+          "id": "b",
+          "label": "was raining / was blowing"
+        },
+        {
+          "id": "c",
+          "label": "rained / was blowing"
+        },
+        {
+          "id": "d",
+          "label": "was raining / blew"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động mưa và gió thổi đều đang diễn ra liên tục trong suốt đêm, tạo bối cảnh. Dùng quá khứ tiếp diễn cho cả hai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "While the teacher _____ the lesson, a student suddenly fainted.",
+      "options": [
+        {
+          "id": "a",
+          "label": "explained"
+        },
+        {
+          "id": "b",
+          "label": "was explaining"
+        },
+        {
+          "id": "c",
+          "label": "explains"
+        },
+        {
+          "id": "d",
+          "label": "had explained"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động \"was explaining\" đang diễn ra thì hành động \"a student fainted\" bất ngờ xảy ra, cắt ngang. Dùng quá khứ tiếp diễn cho hành động đang diễn ra."
+  }
+]

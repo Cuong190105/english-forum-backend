@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My family _____ to Da Lat for our vacation last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last summer” là dấu hiệu của thì quá khứ đơn. “Go” là động từ bất quy tắc, quá khứ là “went”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She _____ her new dress at the party yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wear"
+        },
+        {
+          "id": "b",
+          "label": "wears"
+        },
+        {
+          "id": "c",
+          "label": "wore"
+        },
+        {
+          "id": "d",
+          "label": "wearing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Yesterday evening” chỉ thời gian trong quá khứ. “Wear” là động từ bất quy tắc, quá khứ là “wore”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They _____ very tired after the long journey.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Chủ ngữ “They” số nhiều và hành động đã xảy ra trong quá khứ, nên dùng “were”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "He _____ _____ his breakfast this morning because he was late.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't eat"
+        },
+        {
+          "id": "b",
+          "label": "didn't ate"
+        },
+        {
+          "id": "c",
+          "label": "didn't eat"
+        },
+        {
+          "id": "d",
+          "label": "wasn't eat"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu phủ định của thì quá khứ đơn, dùng “didn't” và động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "We _____ _____ the new movie last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't see"
+        },
+        {
+          "id": "b",
+          "label": "didn't saw"
+        },
+        {
+          "id": "c",
+          "label": "didn't see"
+        },
+        {
+          "id": "d",
+          "label": "aren't see"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last night” chỉ quá khứ. Dùng “didn't” + động từ nguyên mẫu “see”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "It _____ _____ sunny yesterday, so we stayed indoors.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't"
+        },
+        {
+          "id": "b",
+          "label": "wasn't"
+        },
+        {
+          "id": "c",
+          "label": "weren't"
+        },
+        {
+          "id": "d",
+          "label": "doesn't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“It” đi với “was” trong quá khứ. Câu phủ định là “wasn't”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "_____ you _____ your homework before watching TV?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do, finish"
+        },
+        {
+          "id": "b",
+          "label": "Did, finished"
+        },
+        {
+          "id": "c",
+          "label": "Did, finish"
+        },
+        {
+          "id": "d",
+          "label": "Are, finish"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu hỏi thì quá khứ đơn, dùng “Did” + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "_____ she _____ to the concert with her friends last week?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does, go"
+        },
+        {
+          "id": "b",
+          "label": "Did, went"
+        },
+        {
+          "id": "c",
+          "label": "Did, go"
+        },
+        {
+          "id": "d",
+          "label": "Was, go"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last week” chỉ quá khứ. Dùng “Did” + chủ ngữ + động từ nguyên mẫu “go”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Where _____ you _____ your childhood?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did, spend"
+        },
+        {
+          "id": "b",
+          "label": "do, spend"
+        },
+        {
+          "id": "c",
+          "label": "did, spent"
+        },
+        {
+          "id": "d",
+          "label": "were, spend"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi về quá khứ, dùng “did” và động từ nguyên mẫu “spend”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "When I was young, I often _____ with my neighbors.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "played"
+        },
+        {
+          "id": "c",
+          "label": "playing"
+        },
+        {
+          "id": "d",
+          "label": "plays"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“When I was young” chỉ một thói quen trong quá khứ, dùng thì quá khứ đơn. “Often” cũng có thể dùng với thì quá khứ đơn để diễn tả thói quen trong quá khứ."
+  }
+]

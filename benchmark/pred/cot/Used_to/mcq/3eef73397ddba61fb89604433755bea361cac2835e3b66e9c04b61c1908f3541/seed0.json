@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "usedto_001",
+      "prompt": "When I was a child, I _____ spend hours reading comic books every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "use to"
+        },
+        {
+          "id": "b",
+          "label": "used to"
+        },
+        {
+          "id": "c",
+          "label": "am used to"
+        },
+        {
+          "id": "d",
+          "label": "would used to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'used to + V-inf' diễn tả thói quen trong quá khứ đã kết thúc. 'Use to' sai ngữ pháp, 'am used to' diễn tả sự quen thuộc ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "usedto_002",
+      "prompt": "My grandmother _____ have long, beautiful hair when she was young.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "was used to"
+        },
+        {
+          "id": "d",
+          "label": "got used to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Used to' dùng cho cả thói quen và trạng thái trong quá khứ. 'Would' chỉ dùng cho thói quen, không dùng cho trạng thái như 'have'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "usedto_003",
+      "prompt": "I _____ like coffee, but now I drink it every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't used to"
+        },
+        {
+          "id": "b",
+          "label": "didn't use to"
+        },
+        {
+          "id": "c",
+          "label": "wasn't used to"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't use to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng phủ định của 'used to' là 'didn't use to + V-inf'. 'Used to' sau 'didn't' phải trở về nguyên mẫu 'use to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "usedto_004",
+      "prompt": "_____ you _____ live in this neighborhood before you moved?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did / used to"
+        },
+        {
+          "id": "b",
+          "label": "Did / use to"
+        },
+        {
+          "id": "c",
+          "label": "Were / used to"
+        },
+        {
+          "id": "d",
+          "label": "Do / use to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng câu hỏi của 'used to' là 'Did + S + use to + V-inf'. Tương tự như phủ định, 'used to' phải trở về 'use to' sau 'Did'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "usedto_005",
+      "prompt": "As a freshman in college, I _____ concentrate on my favorite subjects, but now I have too many responsibilities.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "am used to"
+        },
+        {
+          "id": "c",
+          "label": "get used to"
+        },
+        {
+          "id": "d",
+          "label": "would be used to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Used to + V-inf' diễn tả hành động hoặc trạng thái thường xuyên xảy ra trong quá khứ nhưng không còn ở hiện tại. Các lựa chọn khác không phù hợp ngữ cảnh."
+  }
+]

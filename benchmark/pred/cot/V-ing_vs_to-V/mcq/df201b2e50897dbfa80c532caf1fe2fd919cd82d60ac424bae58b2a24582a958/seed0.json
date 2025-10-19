@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_001",
+      "prompt": "She enjoys _____ in the garden every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "planting"
+        },
+        {
+          "id": "b",
+          "label": "to plant"
+        },
+        {
+          "id": "c",
+          "label": "plant"
+        },
+        {
+          "id": "d",
+          "label": "planted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'enjoy' luôn theo sau bởi một danh động từ (V-ing). Các lựa chọn khác không đúng cấu trúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_002",
+      "prompt": "They decided _____ a new project next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "starting"
+        },
+        {
+          "id": "b",
+          "label": "to start"
+        },
+        {
+          "id": "c",
+          "label": "start"
+        },
+        {
+          "id": "d",
+          "label": "started"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'decide' thường theo sau bởi một động từ nguyên mẫu có 'to' (to-V) để chỉ một quyết định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_003",
+      "prompt": "He is good at _____ complex problems.",
+      "options": [
+        {
+          "id": "a",
+          "label": "solving"
+        },
+        {
+          "id": "b",
+          "label": "to solve"
+        },
+        {
+          "id": "c",
+          "label": "solve"
+        },
+        {
+          "id": "d",
+          "label": "solved"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau giới từ (như 'at'), động từ luôn ở dạng danh động từ (V-ing). 'To solve' không đúng cấu trúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_004",
+      "prompt": "She went to the library _____ some books for her research.",
+      "options": [
+        {
+          "id": "a",
+          "label": "borrowing"
+        },
+        {
+          "id": "b",
+          "label": "to borrow"
+        },
+        {
+          "id": "c",
+          "label": "borrow"
+        },
+        {
+          "id": "d",
+          "label": "borrowed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ nguyên mẫu có 'to' (to-V) được dùng để diễn tả mục đích của hành động 'went'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_005",
+      "prompt": "You should avoid _____ too much sugar if you want to stay healthy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eating"
+        },
+        {
+          "id": "b",
+          "label": "to eat"
+        },
+        {
+          "id": "c",
+          "label": "eat"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'avoid' luôn theo sau bởi một danh động từ (V-ing). Các lựa chọn khác không đúng cấu trúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_006",
+      "prompt": "Do you mind _____ the window? It's a bit stuffy in here.",
+      "options": [
+        {
+          "id": "a",
+          "label": "opening"
+        },
+        {
+          "id": "b",
+          "label": "to open"
+        },
+        {
+          "id": "c",
+          "label": "open"
+        },
+        {
+          "id": "d",
+          "label": "opened"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'Do you mind' luôn theo sau bởi một danh động từ (V-ing) khi hỏi xin phép hoặc yêu cầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_007",
+      "prompt": "They agreed _____ the terms of the contract.",
+      "options": [
+        {
+          "id": "a",
+          "label": "discussing"
+        },
+        {
+          "id": "b",
+          "label": "to discuss"
+        },
+        {
+          "id": "c",
+          "label": "discuss"
+        },
+        {
+          "id": "d",
+          "label": "discussed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'agree' thường theo sau bởi một động từ nguyên mẫu có 'to' (to-V) để chỉ sự đồng ý làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_008",
+      "prompt": "It's important _____ new things to keep your mind active.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learning"
+        },
+        {
+          "id": "b",
+          "label": "to learn"
+        },
+        {
+          "id": "c",
+          "label": "learn"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau các tính từ chỉ sự cần thiết hoặc quan trọng (như 'important'), ta dùng động từ nguyên mẫu có 'to' (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_009",
+      "prompt": "He stopped his car _____ a quick call.",
+      "options": [
+        {
+          "id": "a",
+          "label": "making"
+        },
+        {
+          "id": "b",
+          "label": "to make"
+        },
+        {
+          "id": "c",
+          "label": "make"
+        },
+        {
+          "id": "d",
+          "label": "made"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'to make' để diễn tả mục đích của hành động 'stopped' (dừng lại để làm gì). 'Making' có nghĩa là ngừng hẳn việc đang làm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_010",
+      "prompt": "Did you remember _____ the door before you left?",
+      "options": [
+        {
+          "id": "a",
+          "label": "locking"
+        },
+        {
+          "id": "b",
+          "label": "to lock"
+        },
+        {
+          "id": "c",
+          "label": "lock"
+        },
+        {
+          "id": "d",
+          "label": "locked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'remember to-V' khi nhớ một việc cần làm (nghĩa vụ). 'Remember V-ing' dùng khi nhớ một việc đã xảy ra trong quá khứ."
+  }
+]

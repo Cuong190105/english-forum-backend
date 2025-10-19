@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS001",
+      "prompt": "My brother _____ video games every evening after school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "is playing"
+        },
+        {
+          "id": "d",
+          "label": "are playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít (My brother), động từ ở thì hiện tại đơn cần thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS002",
+      "prompt": "We _____ like spicy food, so we usually order mild dishes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "isn't"
+        },
+        {
+          "id": "c",
+          "label": "don't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để tạo câu phủ định ở thì hiện tại đơn với chủ ngữ 'We', ta dùng trợ động từ 'don't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS003",
+      "prompt": "_____ your teacher give you a lot of homework?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Is"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Does"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Chủ ngữ 'your teacher' là ngôi thứ ba số ít, vì vậy ta dùng trợ động từ 'Does' cho câu hỏi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS004",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "is going"
+        },
+        {
+          "id": "c",
+          "label": "goes"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là một sự thật hiển nhiên, chúng ta dùng thì hiện tại đơn. 'The Earth' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS005",
+      "prompt": "I _____ always tired on Monday mornings.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ 'I', động từ 'to be' ở thì hiện tại đơn là 'am'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS006",
+      "prompt": "Cats _____ to sleep a lot during the day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "likes"
+        },
+        {
+          "id": "b",
+          "label": "is liking"
+        },
+        {
+          "id": "c",
+          "label": "like"
+        },
+        {
+          "id": "d",
+          "label": "are liking"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ 'Cats' là danh từ số nhiều, vì vậy động từ ở thì hiện tại đơn giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS007",
+      "prompt": "What time _____ the train to Da Nang leave?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi về lịch trình (tàu, xe) dùng thì hiện tại đơn. Chủ ngữ 'the train' là số ít nên dùng 'does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS008",
+      "prompt": "My mother is a teacher. She _____ English at a primary school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "teaches"
+        },
+        {
+          "id": "b",
+          "label": "teach"
+        },
+        {
+          "id": "c",
+          "label": "is teaching"
+        },
+        {
+          "id": "d",
+          "label": "taught"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để nói về nghề nghiệp hoặc một hành động thường xuyên, ta dùng thì hiện tại đơn. Với chủ ngữ 'She', động từ 'teach' thêm 'es'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS009",
+      "prompt": "They often _____ to the park on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "are going"
+        },
+        {
+          "id": "c",
+          "label": "go"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ chỉ tần suất 'often' là dấu hiệu của thì hiện tại đơn. Chủ ngữ 'They' là số nhiều nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS010",
+      "prompt": "He _____ from Vietnam; he is from Japan.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't come"
+        },
+        {
+          "id": "b",
+          "label": "doesn't comes"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "doesn't come"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trong câu phủ định ở thì hiện tại đơn, sau trợ động từ 'doesn't', động từ chính ở dạng nguyên mẫu không 'to'."
+  }
+]

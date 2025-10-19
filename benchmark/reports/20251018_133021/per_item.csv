@@ -1,0 +1,11 @@
+run_id,config,topic,type,seed,source_text_sha,idx,qid_gold,qid_pred,structural_valid,prompt_sim,ans_sim,distractor_diversity,ans_score,item_score,judge_verdict,judge_score
+20251018_133021,minimal,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,1,defining_vs_non_defining_001,mcq-1,1,0.7064,,0.2719,,0.5761,correct,1.0
+20251018_133021,cot,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,1,defining_vs_non_defining_001,q1,1,0.445,,0.4051,,0.433,correct,1.0
+20251018_133021,minimal,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,1,ENG-VN-PRESENTSIMPLE-001,q1,0,0.4343,,0.285,,0.3895,correct,1.0
+20251018_133021,cot,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,1,ENG-VN-PRESENTSIMPLE-001,q1,0,0.4601,,0.285,,0.4076,correct,1.0
+20251018_133021,minimal,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,1,eng_backshifting_001,q1,1,0.3834,,0.0377,,0.2797,correct,1.0
+20251018_133021,cot,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,1,eng_backshifting_001,q1,1,0.4466,,0.3026,,0.4034,correct,1.0
+20251018_133021,minimal,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,1,eng-assessment-present-simple-001,001,0,0.4747,,0.285,,0.4178,correct,1.0
+20251018_133021,cot,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,1,eng-assessment-present-simple-001,1,0,0.4742,,0.285,,0.4175,correct,1.0
+20251018_133021,minimal,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,1,eng-articles-001,q1,1,1.0,,0.4255,,0.8276,correct,1.0
+20251018_133021,cot,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,1,eng-articles-001,q1,1,0.3353,,0.1809,,0.289,correct,1.0

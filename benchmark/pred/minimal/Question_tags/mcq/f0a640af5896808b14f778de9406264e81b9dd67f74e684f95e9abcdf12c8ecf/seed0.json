@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "You are a student, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "aren't you"
+        },
+        {
+          "id": "b",
+          "label": "are you"
+        },
+        {
+          "id": "c",
+          "label": "don't you"
+        },
+        {
+          "id": "d",
+          "label": "isn't it"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu khẳng định dùng tag phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She can speak English, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "can she"
+        },
+        {
+          "id": "b",
+          "label": "can't she"
+        },
+        {
+          "id": "c",
+          "label": "doesn't she"
+        },
+        {
+          "id": "d",
+          "label": "isn't she"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trợ động từ 'can' trong câu khẳng định dùng tag phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He doesn't like coffee, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't he"
+        },
+        {
+          "id": "b",
+          "label": "is he"
+        },
+        {
+          "id": "c",
+          "label": "does he"
+        },
+        {
+          "id": "d",
+          "label": "did he"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu phủ định dùng tag khẳng định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "They went to the party, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did they"
+        },
+        {
+          "id": "b",
+          "label": "didn't they"
+        },
+        {
+          "id": "c",
+          "label": "don't they"
+        },
+        {
+          "id": "d",
+          "label": "haven't they"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ ở thì quá khứ đơn, dùng trợ động từ 'did' trong tag."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "It's raining heavily, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "is it"
+        },
+        {
+          "id": "b",
+          "label": "isn't it"
+        },
+        {
+          "id": "c",
+          "label": "doesn't it"
+        },
+        {
+          "id": "d",
+          "label": "hasn't it"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu có 'is' dùng tag với 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "We should leave now, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "should we"
+        },
+        {
+          "id": "b",
+          "label": "shouldn't we"
+        },
+        {
+          "id": "c",
+          "label": "don't we"
+        },
+        {
+          "id": "d",
+          "label": "aren't we"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ khuyết thiếu 'should' dùng trong tag."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "You haven't finished your homework, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "haven't you"
+        },
+        {
+          "id": "b",
+          "label": "do you"
+        },
+        {
+          "id": "c",
+          "label": "are you"
+        },
+        {
+          "id": "d",
+          "label": "have you"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu phủ định với 'haven't' dùng tag khẳng định với 'have'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Let's go to the cinema, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "should we"
+        },
+        {
+          "id": "b",
+          "label": "shall we"
+        },
+        {
+          "id": "c",
+          "label": "will we"
+        },
+        {
+          "id": "d",
+          "label": "don't we"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với câu bắt đầu bằng 'Let's', tag luôn là 'shall we'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "There are many people here, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are there"
+        },
+        {
+          "id": "b",
+          "label": "aren't there"
+        },
+        {
+          "id": "c",
+          "label": "don't there"
+        },
+        {
+          "id": "d",
+          "label": "isn't there"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với cấu trúc 'There is/are', tag dùng 'there' làm chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Nobody came to the meeting, ____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't they"
+        },
+        {
+          "id": "b",
+          "label": "do they"
+        },
+        {
+          "id": "c",
+          "label": "did they"
+        },
+        {
+          "id": "d",
+          "label": "are they"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ phủ định (Nobody) làm cho câu mang nghĩa phủ định, nên tag dùng khẳng định. 'Nobody' tương ứng với 'they'."
+  }
+]

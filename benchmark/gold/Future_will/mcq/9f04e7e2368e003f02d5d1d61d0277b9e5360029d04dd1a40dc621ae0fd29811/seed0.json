@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-1",
+      "prompt": "I don't have any plans for the weekend, so I think I _____ just stay home and relax.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' để diễn tả một quyết định được đưa ra ngay tại thời điểm nói, không có kế hoạch từ trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-2",
+      "prompt": "Don't worry about the test. I'm sure you _____ do well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'will' để đưa ra một dự đoán dựa trên quan điểm hoặc niềm tin cá nhân, thường đi với 'I think', 'I'm sure'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-3",
+      "prompt": "A: 'The room is very cold.' B: 'You're right. I _____ the window.'",
+      "options": [
+        {
+          "id": "a",
+          "label": "am closing"
+        },
+        {
+          "id": "b",
+          "label": "am going to close"
+        },
+        {
+          "id": "c",
+          "label": "will close"
+        },
+        {
+          "id": "d",
+          "label": "close"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sử dụng 'will' cho một quyết định tức thời, được đưa ra ngay lúc nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-4",
+      "prompt": "I promise I _____ tell anyone your secret. It's safe with me.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "am not"
+        },
+        {
+          "id": "c",
+          "label": "haven't"
+        },
+        {
+          "id": "d",
+          "label": "won't"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'will not' (won't) để đưa ra một lời hứa sẽ không làm gì đó trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-5",
+      "prompt": "Perhaps the company _____ build a new factory here next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "builds"
+        },
+        {
+          "id": "d",
+          "label": "is building"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' cho những dự đoán không chắc chắn, thường đi với các từ như 'perhaps', 'maybe', 'probably'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-6",
+      "prompt": "That bag looks very heavy. I _____ you with it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "help"
+        },
+        {
+          "id": "b",
+          "label": "am helping"
+        },
+        {
+          "id": "c",
+          "label": "will help"
+        },
+        {
+          "id": "d",
+          "label": "am going to help"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sử dụng 'will' để đưa ra một lời đề nghị giúp đỡ một cách tự nguyện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-7",
+      "prompt": "_____ you be at home this evening around 7 PM?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Will"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để đặt câu hỏi về một sự việc trong tương lai, ta dùng cấu trúc: Will + chủ ngữ + động từ nguyên thể?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-8",
+      "prompt": "He is very busy at the moment, so he _____ you back later.",
+      "options": [
+        {
+          "id": "a",
+          "label": "calls"
+        },
+        {
+          "id": "b",
+          "label": "will call"
+        },
+        {
+          "id": "c",
+          "label": "is calling"
+        },
+        {
+          "id": "d",
+          "label": "called"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'will' + động từ nguyên thể để nói về một hành động sẽ xảy ra trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-9",
+      "prompt": "In the year 2050, I believe that people _____ on Mars.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are living"
+        },
+        {
+          "id": "b",
+          "label": "live"
+        },
+        {
+          "id": "c",
+          "label": "will live"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sử dụng 'will' để đưa ra dự đoán về một tương lai xa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future-will-mcq-10",
+      "prompt": "What do you think _____ happen at the end of the movie?",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi hỏi về một dự đoán hoặc ý kiến về tương lai, ta thường dùng 'will'."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She _____ her homework yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finish"
+        },
+        {
+          "id": "b",
+          "label": "finishes"
+        },
+        {
+          "id": "c",
+          "label": "finished"
+        },
+        {
+          "id": "d",
+          "label": "finishing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dấu hiệu \"yesterday evening\" cho biết đây là thì quá khứ đơn. Động từ \"finish\" là động từ có quy tắc, thêm -ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They _____ play football in the park last Sunday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "didn't"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để tạo câu phủ định trong thì quá khứ đơn, chúng ta dùng trợ động từ \"didn't\" theo sau là động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "_____ you _____ the movie last night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do...enjoy"
+        },
+        {
+          "id": "b",
+          "label": "Did...enjoy"
+        },
+        {
+          "id": "c",
+          "label": "Did...enjoyed"
+        },
+        {
+          "id": "d",
+          "label": "Do...enjoyed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi thì quá khứ đơn, cấu trúc là \"Did\" + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "I _____ a new car two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buys"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"two days ago\" là dấu hiệu của thì quá khứ đơn. \"Buy\" là động từ bất quy tắc, dạng quá khứ là \"bought\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He _____ _____ to school because he was sick.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't go"
+        },
+        {
+          "id": "b",
+          "label": "doesn't go"
+        },
+        {
+          "id": "c",
+          "label": "didn't went"
+        },
+        {
+          "id": "d",
+          "label": "wasn't go"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu phủ định trong quá khứ đơn dùng \"didn't\" và động từ nguyên mẫu. \"Go\" là động từ nguyên mẫu của \"went\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "_____ she _____ the truth about the accident?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does...know"
+        },
+        {
+          "id": "b",
+          "label": "Did...know"
+        },
+        {
+          "id": "c",
+          "label": "Did...knew"
+        },
+        {
+          "id": "d",
+          "label": "Do...knew"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc câu hỏi thì quá khứ đơn là \"Did\" + chủ ngữ + động từ nguyên mẫu. \"Know\" là động từ nguyên mẫu của \"knew\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "They _____ very happy at the party last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Với chủ ngữ số nhiều \"They\" trong thì quá khứ đơn, động từ \"to be\" là \"were\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She _____ at home when I called her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wasn't"
+        },
+        {
+          "id": "b",
+          "label": "weren't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "doesn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số ít \"She\" trong thì quá khứ đơn phủ định, động từ \"to be\" là \"wasn't\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "_____ he busy yesterday morning?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Was"
+        },
+        {
+          "id": "d",
+          "label": "Were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với chủ ngữ số ít \"He\" trong câu hỏi thì quá khứ đơn, động từ \"to be\" là \"Was\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "When I _____ a child, I often _____ with my toys.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am...play"
+        },
+        {
+          "id": "b",
+          "label": "was...played"
+        },
+        {
+          "id": "c",
+          "label": "were...played"
+        },
+        {
+          "id": "d",
+          "label": "was...play"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cả hai hành động đều diễn ra trong quá khứ. \"When I was a child\" là dấu hiệu. \"I\" đi với \"was\", và \"play\" là động từ có quy tắc, thêm -ed."
+  }
+]

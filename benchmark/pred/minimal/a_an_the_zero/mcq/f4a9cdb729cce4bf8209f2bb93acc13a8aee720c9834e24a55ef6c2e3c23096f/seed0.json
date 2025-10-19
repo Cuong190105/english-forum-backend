@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She is _____ excellent teacher.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"an\" trước tính từ bắt đầu bằng nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "I saw _____ interesting movie last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"an\" trước danh từ số ít đếm được bắt đầu bằng nguyên âm, khi nhắc đến lần đầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I bought a new car. _____ car is red.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" khi danh từ đã được nhắc đến trước đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Mount Everest is _____ highest mountain in the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" trước tính từ so sánh nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ dogs are loyal animals.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ với danh từ số nhiều mang nghĩa chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I like _____ coffee in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ với danh từ không đếm được mang nghĩa chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Could you pass me _____ sugar, please?",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" khi danh từ không đếm được được xác định cụ thể (đường trên bàn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "My brother wants to be _____ engineer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"an\" trước tên nghề nghiệp bắt đầu bằng nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Children go to _____ school to learn.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ khi nói về việc đi học, đi làm, đi bệnh viện với mục đích chính của chúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "My mother went to _____ school to talk to my teacher.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "X"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the\" khi nói về một địa điểm cụ thể, không phải mục đích chính của địa điểm đó (mẹ đi đến trường để gặp giáo viên, không phải để học)."
+  }
+]

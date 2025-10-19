@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Choose the correct indirect speech for: \"I am happy,\" she said.",
+      "options": [
+        {
+          "id": "a",
+          "label": "She said that she is happy."
+        },
+        {
+          "id": "b",
+          "label": "She said that I was happy."
+        },
+        {
+          "id": "c",
+          "label": "She said that she was happy."
+        },
+        {
+          "id": "d",
+          "label": "She said she happy."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi chuyển từ trực tiếp sang gián tiếp, thì hiện tại đơn (am) thường lùi về quá khứ đơn (was)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Choose the correct indirect speech for: \"Where do you live?\" he asked me.",
+      "options": [
+        {
+          "id": "a",
+          "label": "He asked me where did I live."
+        },
+        {
+          "id": "b",
+          "label": "He asked me where I lived."
+        },
+        {
+          "id": "c",
+          "label": "He asked me where I live."
+        },
+        {
+          "id": "d",
+          "label": "He asked me where do I live."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, trật tự từ là chủ ngữ + động từ, không phải dạng câu hỏi. Thì hiện tại đơn (do live) lùi về quá khứ đơn (lived)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Choose the correct indirect speech for: \"Are you coming?\" she asked him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "She asked him if was he coming."
+        },
+        {
+          "id": "b",
+          "label": "She asked him if he is coming."
+        },
+        {
+          "id": "c",
+          "label": "She asked him if he was coming."
+        },
+        {
+          "id": "d",
+          "label": "She asked him if he came."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với câu hỏi Yes/No, dùng 'if' hoặc 'whether'. Thì hiện tại tiếp diễn (are coming) lùi về quá khứ tiếp diễn (was coming). Trật tự từ là chủ ngữ + động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Choose the correct indirect speech for: \"Please close the door,\" he told me.",
+      "options": [
+        {
+          "id": "a",
+          "label": "He told me close the door."
+        },
+        {
+          "id": "b",
+          "label": "He told me to close the door."
+        },
+        {
+          "id": "c",
+          "label": "He told me that I closed the door."
+        },
+        {
+          "id": "d",
+          "label": "He told me if I closed the door."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu mệnh lệnh hoặc yêu cầu được chuyển sang gián tiếp bằng cách dùng 'to-infinitive'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Choose the correct indirect speech for: \"I will go there tomorrow,\" he said.",
+      "options": [
+        {
+          "id": "a",
+          "label": "He said that he will go there tomorrow."
+        },
+        {
+          "id": "b",
+          "label": "He said that he would go here the next day."
+        },
+        {
+          "id": "c",
+          "label": "He said that he would go there the next day."
+        },
+        {
+          "id": "d",
+          "label": "He said that he would go there tomorrow."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì tương lai đơn (will go) lùi về tương lai trong quá khứ (would go). Trạng từ thời gian 'tomorrow' đổi thành 'the next day' hoặc 'the following day'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Choose the correct indirect speech for: \"I can swim,\" she said.",
+      "options": [
+        {
+          "id": "a",
+          "label": "She said that she can swim."
+        },
+        {
+          "id": "b",
+          "label": "She said that she could swim."
+        },
+        {
+          "id": "c",
+          "label": "She said that she might swim."
+        },
+        {
+          "id": "d",
+          "label": "She said that she would swim."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ khuyết thiếu 'can' lùi về 'could' trong câu gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Choose the correct direct speech for: He said that he had finished his homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "\"I finished my homework,\" he said."
+        },
+        {
+          "id": "b",
+          "label": "\"I have finished my homework,\" he said."
+        },
+        {
+          "id": "c",
+          "label": "\"He has finished his homework,\" he said."
+        },
+        {
+          "id": "d",
+          "label": "\"I had finished my homework,\" he said."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ hoàn thành (had finished) trong câu gián tiếp thường xuất phát từ thì hiện tại hoàn thành (have finished) hoặc quá khứ đơn trong câu trực tiếp. Đại từ 'he' trong gián tiếp tương ứng với 'I' trong trực tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Choose the correct direct speech for: She asked me what I was doing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "\"What were you doing?\" she asked me."
+        },
+        {
+          "id": "b",
+          "label": "\"What am I doing?\" she asked me."
+        },
+        {
+          "id": "c",
+          "label": "\"What are you doing?\" she asked me."
+        },
+        {
+          "id": "d",
+          "label": "\"What do you do?\" she asked me."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ tiếp diễn (was doing) trong câu gián tiếp thường xuất phát từ thì hiện tại tiếp diễn (are doing) trong câu trực tiếp. Đại từ 'I' trong gián tiếp tương ứng với 'you' trong trực tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Choose the correct indirect speech for: She says, \"I am tired.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "She says that she was tired."
+        },
+        {
+          "id": "b",
+          "label": "She says that she is tired."
+        },
+        {
+          "id": "c",
+          "label": "She said that she is tired."
+        },
+        {
+          "id": "d",
+          "label": "She says she tired."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi động từ tường thuật ở thì hiện tại (says), thì của mệnh đề được tường thuật không thay đổi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Choose the correct indirect speech for: \"We went to the cinema last night,\" they told us.",
+      "options": [
+        {
+          "id": "a",
+          "label": "They told us that we had gone to the cinema the previous night."
+        },
+        {
+          "id": "b",
+          "label": "They told us that they went to the cinema last night."
+        },
+        {
+          "id": "c",
+          "label": "They told us that they had gone to the cinema the previous night."
+        },
+        {
+          "id": "d",
+          "label": "They told us that they had gone to the cinema last night."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ đơn (went) lùi về quá khứ hoàn thành (had gone). Đại từ 'we' đổi thành 'they'. Trạng từ thời gian 'last night' đổi thành 'the previous night'."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_001",
+      "prompt": "Due to budget cuts, the department will hire _____ new staff members this year than last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'fewer' với danh từ đếm được số nhiều (staff members) để chỉ số lượng ít hơn. 'Less' dùng cho danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_002",
+      "prompt": "After implementing the new system, we experienced _____ downtime than before, which improved productivity.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'less' với danh từ không đếm được (downtime) để chỉ số lượng ít hơn. 'Fewer' dùng cho danh từ đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_003",
+      "prompt": "The new marketing campaign attracted _____ customers this month than any previous campaign.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' với danh từ đếm được (customers) để chỉ số lượng lớn hơn khi so sánh. 'Less' và 'fewer' chỉ số lượng ít hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_004",
+      "prompt": "To complete the project on time, we need to allocate _____ resources to it than originally planned.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' với danh từ không đếm được (resources) để chỉ số lượng lớn hơn. 'Less' và 'fewer' chỉ số lượng ít hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_005",
+      "prompt": "Among all the candidates, she received the _____ votes in the election.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' để chỉ số lượng lớn nhất trong một nhóm (all the candidates) với danh từ đếm được (votes)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_006",
+      "prompt": "Of all the departments, R&D requires the _____ funding to support its innovative projects.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' để chỉ số lượng lớn nhất trong một nhóm (all the departments) với danh từ không đếm được (funding)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_007",
+      "prompt": "The company aims to produce _____ waste this year than last year to improve its environmental footprint.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'less' với danh từ không đếm được (waste) để chỉ sự giảm thiểu về số lượng. 'Fewer' dùng cho danh từ đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_008",
+      "prompt": "After the new policy, there were significantly _____ complaints from customers than before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'fewer' với danh từ đếm được số nhiều (complaints) để chỉ số lượng ít hơn. 'Less' dùng cho danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_009",
+      "prompt": "_____ people agree that climate change is a serious global issue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Less"
+        },
+        {
+          "id": "b",
+          "label": "Fewer"
+        },
+        {
+          "id": "c",
+          "label": "More"
+        },
+        {
+          "id": "d",
+          "label": "Most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' để chỉ phần lớn, đa số (most people). 'More' là so sánh hơn, 'less/fewer' là so sánh kém hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lessfewer_010",
+      "prompt": "With the new technology, we can process data _____ efficiently than ever before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' để tạo so sánh hơn cho trạng từ (efficiently), chỉ mức độ cao hơn. 'Less' chỉ mức độ thấp hơn."
+  }
+]

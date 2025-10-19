@@ -1,0 +1,51 @@
+run_id,config,topic,type,seed,source_text_sha,idx,qid_gold,qid_pred,structural_valid,prompt_sim,ans_sim,distractor_diversity,ans_score,item_score,judge_verdict,judge_score
+20251018_121529,minimal,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,1,eng-vn-def-nondef-01,Q1_DN_A,1,0.9372,,0.0087,,0.6587,correct,1.0
+20251018_121529,minimal,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,2,eng-vn-def-nondef-02,Q2_DN_B,1,0.4265,,0.2488,,0.3732,ambiguous,0.5
+20251018_121529,minimal,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,3,eng-vn-def-nondef-03,Q3_DN_B_2,1,0.429,,0.4051,,0.4218,correct,1.0
+20251018_121529,minimal,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,4,eng-vn-def-nondef-04,Q4_DN_C,1,0.251,,0.4091,,0.2984,correct,1.0
+20251018_121529,minimal,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,5,eng-vn-def-nondef-05,Q5_DN_C_2,1,0.4888,,0.6669,,0.5422,correct,1.0
+20251018_121529,cot,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,1,eng-vn-def-nondef-01,q1,1,0.4248,,0.4412,,0.4297,correct,1.0
+20251018_121529,cot,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,2,eng-vn-def-nondef-02,q2,1,0.3852,,0.3024,,0.3604,correct,1.0
+20251018_121529,cot,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,3,eng-vn-def-nondef-03,q3,1,0.4817,,0.4734,,0.4792,correct,1.0
+20251018_121529,cot,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,4,eng-vn-def-nondef-04,q4,1,0.3638,,0.3756,,0.3674,correct,1.0
+20251018_121529,cot,Defining vs Non-defining,mcq,0,f292078783d4446d53e0d92574e4bd01ce6fd6b5cfebdc8720df6f859a688998,5,eng-vn-def-nondef-05,q5,1,0.3991,,0.4142,,0.4036,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,1,en-vn-ps-mcq-01,q1,0,0.6191,,0.285,,0.5189,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,2,en-vn-ps-mcq-02,q2,1,0.577,,0.2048,,0.4653,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,3,en-vn-ps-mcq-03,q3,1,0.4586,,0.1645,,0.3704,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,4,en-vn-ps-mcq-04,q4,1,0.6356,,0.1707,,0.4961,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,5,en-vn-ps-mcq-05,q5,1,0.3491,,0.2268,,0.3124,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,1,en-vn-ps-mcq-01,Q1,1,0.6491,,0.1934,,0.5124,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,2,en-vn-ps-mcq-02,Q2,1,0.5834,,0.2579,,0.4857,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,3,en-vn-ps-mcq-03,Q3,1,0.4336,,0.1612,,0.3519,incorrect,0.0
+20251018_121529,cot,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,4,en-vn-ps-mcq-04,Q4,1,0.5767,,0.3954,,0.5223,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,9eab3612abbf8dda2a62a3ab8cfe1f2b42ae92a30009fb77509a2c97b01b01cb,5,en-vn-ps-mcq-05,Q5,1,0.502,,0.181,,0.4057,correct,1.0
+20251018_121529,minimal,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,1,ENG-BACKSHIFT-001,q1,1,0.4853,,0.3026,,0.4305,correct,1.0
+20251018_121529,minimal,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,2,ENG-BACKSHIFT-002,q2,1,0.4899,,0.2398,,0.4149,correct,1.0
+20251018_121529,minimal,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,3,ENG-BACKSHIFT-003,q3,1,0.4859,,0.4494,,0.475,correct,1.0
+20251018_121529,minimal,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,4,ENG-BACKSHIFT-004,q4,1,0.4986,,0.1992,,0.4088,correct,1.0
+20251018_121529,minimal,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,5,ENG-BACKSHIFT-005,q5,1,0.552,,0.2283,,0.4549,correct,1.0
+20251018_121529,cot,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,1,ENG-BACKSHIFT-001,q1,1,0.5258,,0.4507,,0.5033,correct,1.0
+20251018_121529,cot,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,2,ENG-BACKSHIFT-002,q2,1,0.5253,,0.2623,,0.4464,correct,1.0
+20251018_121529,cot,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,3,ENG-BACKSHIFT-003,q3,1,0.6083,,0.151,,0.4711,correct,1.0
+20251018_121529,cot,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,4,ENG-BACKSHIFT-004,q4,1,0.5456,,0.4189,,0.5076,correct,1.0
+20251018_121529,cot,Backshifting tenses,mcq,0,721f92daccdace489493b6e5f51fd9b1a885dc6f772bb6a743c2ce718f77f165,5,ENG-BACKSHIFT-005,q5,1,0.5264,,0.2716,,0.4499,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,1,eng_ps_001,q1,1,0.7412,,0.1934,,0.5768,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,2,eng_ps_002,q2,1,0.5804,,0.2579,,0.4836,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,3,eng_ps_003,q3,0,0.4644,,0.2737,,0.4072,correct,1.0
+20251018_121529,minimal,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,4,eng_ps_004,q4,1,0.6935,,0.2217,,0.552,ambiguous,0.5
+20251018_121529,minimal,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,5,eng_ps_005,q5,1,0.6895,,0.2048,,0.5441,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,1,eng_ps_001,q1,1,0.7412,,0.1934,,0.5768,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,2,eng_ps_002,q2,1,0.6052,,0.1631,,0.4726,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,3,eng_ps_003,q3,0,0.5182,,0.234,,0.433,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,4,eng_ps_004,q4,1,0.4577,,0.3469,,0.4245,correct,1.0
+20251018_121529,cot,Present Simple,mcq,0,ff5a43bc447d0fb80e557f907cfaab423e35da57fbb1cce4d865c4b32d1a69bc,5,eng_ps_005,q5,1,0.3587,,0.1156,,0.2857,correct,1.0
+20251018_121529,minimal,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,1,ENG-ART-001,q1,1,0.5143,,0.4856,,0.5057,correct,1.0
+20251018_121529,minimal,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,2,ENG-ART-002,q2,1,0.383,,0.4229,,0.395,correct,1.0
+20251018_121529,minimal,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,3,ENG-ART-003,q3,1,0.4747,,0.3349,,0.4327,correct,1.0
+20251018_121529,minimal,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,4,ENG-ART-004,q4,1,0.2627,,0.3349,,0.2843,correct,1.0
+20251018_121529,minimal,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,5,ENG-ART-005,q5,0,0.3115,,0.3527,,0.3239,correct,1.0
+20251018_121529,cot,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,1,ENG-ART-001,q1,1,0.5403,,0.4856,,0.5239,correct,1.0
+20251018_121529,cot,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,2,ENG-ART-002,q2,1,0.4816,,0.4229,,0.464,correct,1.0
+20251018_121529,cot,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,3,ENG-ART-003,q3,1,0.4566,,0.3349,,0.4201,correct,1.0
+20251018_121529,cot,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,4,ENG-ART-004,q4,1,0.2149,,0.3623,,0.2591,correct,1.0
+20251018_121529,cot,a/an/the/zero,mcq,0,98b471e2eadcbd70ddcecc83bbb072009bc3961d1a16515250a44cee8c1e21b9,5,ENG-ART-005,q5,1,0.3454,,0.1512,,0.2872,correct,1.0

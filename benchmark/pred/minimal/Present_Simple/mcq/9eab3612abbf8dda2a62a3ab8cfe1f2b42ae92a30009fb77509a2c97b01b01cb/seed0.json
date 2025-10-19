@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'My sister' là ngôi thứ ba số ít, nên động từ 'go' phải thêm '-es'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They often _____ football on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'They' là số nhiều, nên động từ 'play' giữ nguyên dạng nguyên thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He _____ a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'He' là ngôi thứ ba số ít, nên động từ 'to be' là 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "We _____ usually _____ breakfast at 7 AM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / eat"
+        },
+        {
+          "id": "b",
+          "label": "usually have"
+        },
+        {
+          "id": "c",
+          "label": "have usually"
+        },
+        {
+          "id": "d",
+          "label": "usually eats"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ tần suất 'usually' đứng trước động từ chính. 'We' là chủ ngữ số nhiều, động từ 'have' giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Does she _____ in Hanoi?",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau trợ động từ 'does', động từ chính phải ở dạng nguyên thể không 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rising"
+        },
+        {
+          "id": "d",
+          "label": "rose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên. 'The sun' là chủ ngữ số ít ngôi thứ ba, nên động từ 'rise' thêm '-s'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "My parents _____ not _____ coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do / like"
+        },
+        {
+          "id": "b",
+          "label": "does / like"
+        },
+        {
+          "id": "c",
+          "label": "do / likes"
+        },
+        {
+          "id": "d",
+          "label": "does / likes"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'My parents' là chủ ngữ số nhiều, dùng 'do not' và động từ chính ở dạng nguyên thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "What time _____ the train _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do / leave"
+        },
+        {
+          "id": "b",
+          "label": "does / leave"
+        },
+        {
+          "id": "c",
+          "label": "do / leaves"
+        },
+        {
+          "id": "d",
+          "label": "does / leaves"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'The train' là chủ ngữ số ít, dùng 'does' và động từ chính ở dạng nguyên thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "I _____ a student.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'I' đi với động từ 'to be' là 'am'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Cats _____ milk.",
+      "options": [
+        {
+          "id": "a",
+          "label": "love"
+        },
+        {
+          "id": "b",
+          "label": "loves"
+        },
+        {
+          "id": "c",
+          "label": "loving"
+        },
+        {
+          "id": "d",
+          "label": "loved"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Cats' là chủ ngữ số nhiều, nên động từ 'love' giữ nguyên dạng nguyên thể."
+  }
+]

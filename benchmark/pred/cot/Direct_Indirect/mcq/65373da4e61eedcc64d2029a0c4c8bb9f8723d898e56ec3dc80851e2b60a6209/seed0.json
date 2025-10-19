@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_001",
+      "prompt": "She said, \"I am busy.\" -> She said that she _____ busy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "will be"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi chuyển sang câu gián tiếp, động từ thường lùi một thì. \"am\" (hiện tại đơn) lùi thành \"was\" (quá khứ đơn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_002",
+      "prompt": "He asked me, \"Where do you live?\" -> He asked me where I _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lived"
+        },
+        {
+          "id": "c",
+          "label": "am living"
+        },
+        {
+          "id": "d",
+          "label": "will live"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, động từ lùi thì và cấu trúc trở thành câu trần thuật (chủ ngữ + động từ). \"do you live\" thành \"I lived\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_003",
+      "prompt": "She asked me, \"Are you coming?\" -> She asked me _____ I was coming.",
+      "options": [
+        {
+          "id": "a",
+          "label": "what"
+        },
+        {
+          "id": "b",
+          "label": "if"
+        },
+        {
+          "id": "c",
+          "label": "where"
+        },
+        {
+          "id": "d",
+          "label": "when"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với câu hỏi Yes/No trong câu gián tiếp, ta dùng \"if\" hoặc \"whether\" để nối mệnh đề."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_004",
+      "prompt": "He said to me, \"Please close the door.\" -> He asked me _____ the door.",
+      "options": [
+        {
+          "id": "a",
+          "label": "close"
+        },
+        {
+          "id": "b",
+          "label": "closing"
+        },
+        {
+          "id": "c",
+          "label": "to close"
+        },
+        {
+          "id": "d",
+          "label": "closed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu mệnh lệnh/yêu cầu trong câu gián tiếp dùng cấu trúc \"ask/tell + tân ngữ + to-V\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_005",
+      "prompt": "She said, \"I saw him yesterday.\" -> She said that she had seen him _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "yesterday"
+        },
+        {
+          "id": "b",
+          "label": "the day before"
+        },
+        {
+          "id": "c",
+          "label": "tomorrow"
+        },
+        {
+          "id": "d",
+          "label": "last day"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ chỉ thời gian \"yesterday\" phải đổi thành \"the day before\" hoặc \"the previous day\" trong câu gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_006",
+      "prompt": "He said, \"I will meet you here.\" -> He said that he would meet me _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "here"
+        },
+        {
+          "id": "b",
+          "label": "there"
+        },
+        {
+          "id": "c",
+          "label": "in this place"
+        },
+        {
+          "id": "d",
+          "label": "at this place"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ chỉ nơi chốn \"here\" phải đổi thành \"there\" trong câu gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_007",
+      "prompt": "She said, \"I can swim.\" -> She said that she _____ swim.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can"
+        },
+        {
+          "id": "b",
+          "label": "could"
+        },
+        {
+          "id": "c",
+          "label": "might"
+        },
+        {
+          "id": "d",
+          "label": "would"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ khuyết thiếu \"can\" thường đổi thành \"could\" trong câu gián tiếp khi động từ tường thuật ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_008",
+      "prompt": "He said, \"My car is new.\" -> He said that _____ car was new.",
+      "options": [
+        {
+          "id": "a",
+          "label": "my"
+        },
+        {
+          "id": "b",
+          "label": "her"
+        },
+        {
+          "id": "c",
+          "label": "his"
+        },
+        {
+          "id": "d",
+          "label": "their"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đại từ sở hữu \"my\" phải đổi thành \"his\" để phù hợp với chủ ngữ \"He\" trong câu gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_009",
+      "prompt": "She said, \"I will go tomorrow.\" -> She said that she _____ go the next day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "can"
+        },
+        {
+          "id": "d",
+          "label": "may"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"will\" trong câu trực tiếp đổi thành \"would\" trong câu gián tiếp khi động từ tường thuật ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "di_010",
+      "prompt": "He said, \"I have finished my homework.\" -> He said that he _____ his homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has finished"
+        },
+        {
+          "id": "b",
+          "label": "had finished"
+        },
+        {
+          "id": "c",
+          "label": "finished"
+        },
+        {
+          "id": "d",
+          "label": "will finish"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại hoàn thành \"have finished\" lùi thành quá khứ hoàn thành \"had finished\" trong câu gián tiếp."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-001",
+      "prompt": "She looks exhausted. She _____ all day without a break.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been working"
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "is working"
+        },
+        {
+          "id": "d",
+          "label": "works"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động bắt đầu trong quá khứ, kéo dài liên tục đến hiện tại và có kết quả rõ ràng ở hiện tại (cô ấy trông kiệt sức). Dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-002",
+      "prompt": "How long _____ you _____ for the bus? You seem annoyed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / wait"
+        },
+        {
+          "id": "b",
+          "label": "are / waiting"
+        },
+        {
+          "id": "c",
+          "label": "have / been waiting"
+        },
+        {
+          "id": "d",
+          "label": "do / wait"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về khoảng thời gian của một hành động bắt đầu trong quá khứ và vẫn còn tiếp diễn đến lúc nói. Dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-003",
+      "prompt": "I _____ this book for three hours, but I still haven't finished it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am reading"
+        },
+        {
+          "id": "b",
+          "label": "have been reading"
+        },
+        {
+          "id": "c",
+          "label": "read"
+        },
+        {
+          "id": "d",
+          "label": "have read"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Nhấn mạnh sự kéo dài liên tục của hành động (đọc sách) trong một khoảng thời gian (for three hours) và hành động đó vẫn chưa kết thúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-004",
+      "prompt": "They _____ about moving to a new city, but they haven't made a decision yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been thinking"
+        },
+        {
+          "id": "b",
+          "label": "are thinking"
+        },
+        {
+          "id": "c",
+          "label": "thought"
+        },
+        {
+          "id": "d",
+          "label": "think"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động (suy nghĩ) đã diễn ra trong một khoảng thời gian và vẫn chưa kết thúc ở hiện tại. Dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-005",
+      "prompt": "It _____ all morning. The streets are still wet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rains"
+        },
+        {
+          "id": "b",
+          "label": "is raining"
+        },
+        {
+          "id": "c",
+          "label": "rained"
+        },
+        {
+          "id": "d",
+          "label": "has been raining"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động (mưa) vừa mới kết thúc nhưng kết quả vẫn còn thấy rõ ở hiện tại (đường ướt). Dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-006",
+      "prompt": "My brother _____ the guitar since he was a little boy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "plays"
+        },
+        {
+          "id": "b",
+          "label": "is playing"
+        },
+        {
+          "id": "c",
+          "label": "has been playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động bắt đầu từ một thời điểm trong quá khứ (since he was a little boy) và kéo dài liên tục đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-007",
+      "prompt": "\"Why are your hands so dirty?\" - \"I _____ in the garden.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "am working"
+        },
+        {
+          "id": "d",
+          "label": "have been working"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Giải thích cho một kết quả ở hiện tại (tay bẩn) bằng một hành động vừa mới kết thúc. Dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-008",
+      "prompt": "He _____ for this company for ten years, and he has no plans to leave.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been working"
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "worked"
+        },
+        {
+          "id": "d",
+          "label": "is working"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Nhấn mạnh sự liên tục của hành động làm việc trong một khoảng thời gian dài (for ten years) và hành động đó vẫn tiếp diễn ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-009",
+      "prompt": "Lately, I _____ a lot to improve my health.",
+      "options": [
+        {
+          "id": "a",
+          "label": "exercised"
+        },
+        {
+          "id": "b",
+          "label": "have been exercising"
+        },
+        {
+          "id": "c",
+          "label": "exercise"
+        },
+        {
+          "id": "d",
+          "label": "am exercising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ \"Lately\" (gần đây) thường được dùng với thì Hiện tại Hoàn thành Tiếp diễn để chỉ một hành động hoặc thói quen bắt đầu trong quá khứ gần và vẫn tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vn-eng-ppc-010",
+      "prompt": "Educators _____ the one-way teaching method for years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "criticize"
+        },
+        {
+          "id": "b",
+          "label": "are criticizing"
+        },
+        {
+          "id": "c",
+          "label": "have been criticizing"
+        },
+        {
+          "id": "d",
+          "label": "criticized"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động (phê bình) đã diễn ra trong một khoảng thời gian dài (for years) và vẫn còn liên quan hoặc tiếp diễn đến hiện tại."
+  }
+]

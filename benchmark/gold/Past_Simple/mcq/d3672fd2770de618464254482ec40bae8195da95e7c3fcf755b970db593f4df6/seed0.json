@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_ps_001",
+      "prompt": "My brother and I _____ a great movie at the cinema last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "see"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "sees"
+        },
+        {
+          "id": "d",
+          "label": "seen"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đã xảy ra vào một thời điểm cụ thể trong quá khứ ('last night'). 'See' là một động từ bất quy tắc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_ps_002",
+      "prompt": "She _____ to her grandparents' house every Sunday when she was a child.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "was going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'when she was a child' chỉ một thói quen trong quá khứ. Chúng ta dùng thì quá khứ đơn để diễn tả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_ps_003",
+      "prompt": "_____ you finish your homework before you went to bed?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Did"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là một câu hỏi ở thì quá khứ đơn. Cấu trúc câu hỏi là 'Did + chủ ngữ + động từ nguyên mẫu?'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_ps_004",
+      "prompt": "I called you yesterday, but you _____ at home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't"
+        },
+        {
+          "id": "b",
+          "label": "aren't"
+        },
+        {
+          "id": "c",
+          "label": "wasn't"
+        },
+        {
+          "id": "d",
+          "label": "weren't"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Chủ ngữ là 'you'. Dạng quá khứ của động từ 'to be' đi với 'you' là 'were'. Dạng phủ định là 'weren't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_ps_005",
+      "prompt": "My teacher _____ us a lot of exercises for the weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "give"
+        },
+        {
+          "id": "b",
+          "label": "gived"
+        },
+        {
+          "id": "c",
+          "label": "gave"
+        },
+        {
+          "id": "d",
+          "label": "given"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động này đã xảy ra và kết thúc. 'Give' là động từ bất quy tắc, dạng quá khứ của nó là 'gave'."
+  }
+]

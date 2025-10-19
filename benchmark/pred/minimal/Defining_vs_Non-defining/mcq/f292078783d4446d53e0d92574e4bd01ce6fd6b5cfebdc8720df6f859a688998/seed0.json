@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The student _____ passed the exam received a scholarship.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": ", who"
+        },
+        {
+          "id": "c",
+          "label": ", which"
+        },
+        {
+          "id": "d",
+          "label": ", that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề này cung cấp thông tin cần thiết để xác định 'the student', nên là mệnh đề xác định và không dùng dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "My brother, _____ lives in Hanoi, is a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề này cung cấp thông tin bổ sung về 'my brother' (người đã được xác định), nên là mệnh đề không xác định và dùng dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I met a girl _____ works at the library.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": ", who"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Who' là đại từ quan hệ chỉ người, làm chủ ngữ trong mệnh đề xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "This is the book _____ I told you about.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": ", which"
+        },
+        {
+          "id": "c",
+          "label": "who"
+        },
+        {
+          "id": "d",
+          "label": ", that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Which' là đại từ quan hệ chỉ vật, dùng trong mệnh đề xác định. 'That' cũng có thể dùng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Mr. Smith, _____ is my neighbor, is very kind.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề không xác định chỉ người, dùng 'who' làm chủ ngữ. Không dùng 'that' trong mệnh đề không xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "My car, _____ is very old, often breaks down.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "who"
+        },
+        {
+          "id": "d",
+          "label": "whom"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề không xác định chỉ vật, dùng 'which' làm chủ ngữ. Không dùng 'that' trong mệnh đề không xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The house _____ has a red door is mine.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": ", which"
+        },
+        {
+          "id": "c",
+          "label": ", that"
+        },
+        {
+          "id": "d",
+          "label": ", and which"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề này xác định ngôi nhà nào, nên là mệnh đề xác định và không dùng dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "My hometown, _____ is a small village, is very peaceful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "who"
+        },
+        {
+          "id": "d",
+          "label": ", that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề này cung cấp thông tin bổ sung về 'my hometown' (đã được xác định), nên là mệnh đề không xác định và dùng 'which'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The man is a famous writer. He lives next door.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The man who lives next door is a famous writer."
+        },
+        {
+          "id": "b",
+          "label": "The man, who lives next door, is a famous writer."
+        },
+        {
+          "id": "c",
+          "label": "The man, which lives next door, is a famous writer."
+        },
+        {
+          "id": "d",
+          "label": "The man that, lives next door, is a famous writer."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'who lives next door' xác định người đàn ông nào, nên là mệnh đề xác định và không dùng dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "My best friend is coming to visit. She lives in London.",
+      "options": [
+        {
+          "id": "a",
+          "label": "My best friend, who lives in London, is coming to visit."
+        },
+        {
+          "id": "b",
+          "label": "My best friend who lives in London is coming to visit."
+        },
+        {
+          "id": "c",
+          "label": "My best friend, which lives in London, is coming to visit."
+        },
+        {
+          "id": "d",
+          "label": "My best friend that lives in London is coming to visit."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'My best friend' đã được xác định, nên thông tin 'who lives in London' là bổ sung và cần dùng dấu phẩy."
+  }
+]

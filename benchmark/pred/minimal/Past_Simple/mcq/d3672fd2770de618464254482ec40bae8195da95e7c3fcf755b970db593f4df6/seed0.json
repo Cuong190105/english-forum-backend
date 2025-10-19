@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Yesterday, I _____ my room. It took me hours!",
+      "options": [
+        {
+          "id": "a",
+          "label": "clean"
+        },
+        {
+          "id": "b",
+          "label": "cleans"
+        },
+        {
+          "id": "c",
+          "label": "cleaned"
+        },
+        {
+          "id": "d",
+          "label": "cleaning"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Yesterday” chỉ hành động đã xảy ra và kết thúc trong quá khứ. Động từ thường thêm -ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She _____ a new dress for the party last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buys"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last week” chỉ thời gian trong quá khứ. “Buy” là động từ bất quy tắc, dạng quá khứ là “bought”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They _____ to the cinema because they were busy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't go"
+        },
+        {
+          "id": "b",
+          "label": "don't go"
+        },
+        {
+          "id": "c",
+          "label": "doesn't go"
+        },
+        {
+          "id": "d",
+          "label": "aren't going"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu phủ định trong thì Quá khứ đơn, dùng “didn't” + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you _____ your homework last night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do / do"
+        },
+        {
+          "id": "b",
+          "label": "Did / do"
+        },
+        {
+          "id": "c",
+          "label": "Did / did"
+        },
+        {
+          "id": "d",
+          "label": "Are / doing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi thì Quá khứ đơn dùng “Did” + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "When I was a child, I _____ very shy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với chủ ngữ “I” trong thì Quá khứ đơn, động từ “to be” là “was”."
+  }
+]

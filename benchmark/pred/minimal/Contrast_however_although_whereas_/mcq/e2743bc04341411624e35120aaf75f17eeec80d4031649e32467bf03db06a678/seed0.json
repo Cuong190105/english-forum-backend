@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "_____ it was raining heavily, we decided to go for a walk.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Although"
+        },
+        {
+          "id": "b",
+          "label": "In spite of"
+        },
+        {
+          "id": "c",
+          "label": "Despite"
+        },
+        {
+          "id": "d",
+          "label": "However"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Although\" đi với một mệnh đề (chủ ngữ + động từ), trong khi \"in spite of\" và \"despite\" đi với danh từ hoặc V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She studied hard for the exam; _____, she didn't pass.",
+      "options": [
+        {
+          "id": "a",
+          "label": "but"
+        },
+        {
+          "id": "b",
+          "label": "however"
+        },
+        {
+          "id": "c",
+          "label": "although"
+        },
+        {
+          "id": "d",
+          "label": "despite"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"However\" thường đứng sau dấu chấm phẩy hoặc dấu chấm và trước dấu phẩy để nối hai câu có ý nghĩa đối lập. \"But\" thường nối hai mệnh đề trong cùng một câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "My brother prefers coffee, _____ I like tea.",
+      "options": [
+        {
+          "id": "a",
+          "label": "however"
+        },
+        {
+          "id": "b",
+          "label": "although"
+        },
+        {
+          "id": "c",
+          "label": "whereas"
+        },
+        {
+          "id": "d",
+          "label": "despite"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Whereas\" dùng để so sánh trực tiếp hai sự vật, sự việc, chỉ ra sự khác biệt giữa chúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ his injury, the athlete continued to compete.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Although"
+        },
+        {
+          "id": "b",
+          "label": "Even though"
+        },
+        {
+          "id": "c",
+          "label": "In spite of"
+        },
+        {
+          "id": "d",
+          "label": "However"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"In spite of\" và \"despite\" đi với danh từ hoặc cụm danh từ, không đi với mệnh đề."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The weather was terrible. _____, we had a great time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Although"
+        },
+        {
+          "id": "b",
+          "label": "Whereas"
+        },
+        {
+          "id": "c",
+          "label": "Nevertheless"
+        },
+        {
+          "id": "d",
+          "label": "Despite"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Nevertheless\" có nghĩa tương tự \"however\", dùng để chỉ sự tương phản giữa hai ý tưởng."
+  }
+]

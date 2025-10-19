@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every day” chỉ thói quen lặp lại. Chủ ngữ “My sister” là số ít nên động từ “go” phải thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "revolves"
+        },
+        {
+          "id": "b",
+          "label": "revolve"
+        },
+        {
+          "id": "c",
+          "label": "is revolving"
+        },
+        {
+          "id": "d",
+          "label": "revolved"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hiển nhiên. Chủ ngữ “The Earth” là số ít nên động từ chia ở thì hiện tại đơn, thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "They usually _____ dinner at 7 PM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” chỉ thói quen. Chủ ngữ “They” là số nhiều nên động từ giữ nguyên mẫu “have”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "He _____ like coffee very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "wasn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ “He” là số ít, nên dùng trợ động từ “does” và thêm “not” để tạo câu phủ định trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "_____ she work on weekends?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số ít “she” trong câu hỏi thì hiện tại đơn, ta dùng trợ động từ “Does”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "My father often _____ the newspaper in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reads"
+        },
+        {
+          "id": "b",
+          "label": "read"
+        },
+        {
+          "id": "c",
+          "label": "is reading"
+        },
+        {
+          "id": "d",
+          "label": "reading"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Often” chỉ thói quen. Chủ ngữ “My father” là số ít nên động từ “read” phải thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "Birds _____ south for the winter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fly"
+        },
+        {
+          "id": "b",
+          "label": "flies"
+        },
+        {
+          "id": "c",
+          "label": "is flying"
+        },
+        {
+          "id": "d",
+          "label": "flew"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hoặc thói quen của loài chim. Chủ ngữ “Birds” là số nhiều nên động từ giữ nguyên mẫu “fly”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "The train to Hanoi _____ at 8:00 AM tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leaves"
+        },
+        {
+          "id": "b",
+          "label": "leave"
+        },
+        {
+          "id": "c",
+          "label": "is leaving"
+        },
+        {
+          "id": "d",
+          "label": "left"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lịch trình cố định (tàu, xe, máy bay) dùng thì hiện tại đơn, dù có từ chỉ thời gian tương lai. “The train” là số ít nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "She always _____ happy when she sees her friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "feels"
+        },
+        {
+          "id": "b",
+          "label": "feel"
+        },
+        {
+          "id": "c",
+          "label": "is feeling"
+        },
+        {
+          "id": "d",
+          "label": "felt"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Always” chỉ thói quen. Động từ “feel” thường không dùng ở thì tiếp diễn. Chủ ngữ “She” là số ít nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Many students _____ hard for their exams, but John rarely _____ his books.",
+      "options": [
+        {
+          "id": "a",
+          "label": "study / opens"
+        },
+        {
+          "id": "b",
+          "label": "studies / opens"
+        },
+        {
+          "id": "c",
+          "label": "study / open"
+        },
+        {
+          "id": "d",
+          "label": "studies / open"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Many students” là số nhiều nên động từ “study” giữ nguyên. “John” là số ít nên động từ “open” thêm -s. “Rarely” chỉ thói quen."
+  }
+]

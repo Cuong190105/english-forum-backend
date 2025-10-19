@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_001",
+      "prompt": "She isn't _____ to lift that heavy box by herself.",
+      "options": [
+        {
+          "id": "a",
+          "label": "strong enough"
+        },
+        {
+          "id": "b",
+          "label": "enough strong"
+        },
+        {
+          "id": "c",
+          "label": "too strong"
+        },
+        {
+          "id": "d",
+          "label": "so strong"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc đúng là 'adjective + enough + to V'. 'Enough' đứng sau tính từ mà nó bổ nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_002",
+      "prompt": "The soup is _____ eat right now; it needs to cool down.",
+      "options": [
+        {
+          "id": "a",
+          "label": "enough hot to"
+        },
+        {
+          "id": "b",
+          "label": "too hot to"
+        },
+        {
+          "id": "c",
+          "label": "hot enough to"
+        },
+        {
+          "id": "d",
+          "label": "very hot to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'too + adjective + to V' để diễn tả điều gì đó quá mức không thể làm được. 'Enough' mang nghĩa đủ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_003",
+      "prompt": "Do you have _____ to buy a new laptop?",
+      "options": [
+        {
+          "id": "a",
+          "label": "money enough"
+        },
+        {
+          "id": "b",
+          "label": "too much money"
+        },
+        {
+          "id": "c",
+          "label": "enough money"
+        },
+        {
+          "id": "d",
+          "label": "so much money"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc đúng là 'enough + noun + to V'. 'Enough' đứng trước danh từ mà nó bổ nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_004",
+      "prompt": "He speaks _____ for me to understand him clearly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fast enough"
+        },
+        {
+          "id": "b",
+          "label": "too fast"
+        },
+        {
+          "id": "c",
+          "label": "enough fast"
+        },
+        {
+          "id": "d",
+          "label": "so fast"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'too + adverb + to V' khi hành động quá mức không thể thực hiện. 'Enough' đứng sau trạng từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_005",
+      "prompt": "The room isn't _____ to accommodate all the guests.",
+      "options": [
+        {
+          "id": "a",
+          "label": "big enough"
+        },
+        {
+          "id": "b",
+          "label": "enough big"
+        },
+        {
+          "id": "c",
+          "label": "too big"
+        },
+        {
+          "id": "d",
+          "label": "so big"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc phủ định là 'not + adjective + enough + to V'. 'Enough' đứng sau tính từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_006",
+      "prompt": "There's _____ noise in this library _____ concentrate on my studies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too much / to"
+        },
+        {
+          "id": "b",
+          "label": "too many / to"
+        },
+        {
+          "id": "c",
+          "label": "enough / to"
+        },
+        {
+          "id": "d",
+          "label": "so much / that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Noise' là danh từ không đếm được nên dùng 'too much'. Cấu trúc 'too + noun + to V' diễn tả quá nhiều không thể làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_007",
+      "prompt": "The problem was _____ for the students _____ solve on their own.",
+      "options": [
+        {
+          "id": "a",
+          "label": "difficult enough / to"
+        },
+        {
+          "id": "b",
+          "label": "too difficult / to"
+        },
+        {
+          "id": "c",
+          "label": "so difficult / that"
+        },
+        {
+          "id": "d",
+          "label": "very difficult / for"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'too + adjective + for + object + to V' diễn tả điều gì đó quá khó đối với ai đó để làm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_008",
+      "prompt": "The explanation was _____ for everyone _____ understand easily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too clear / to"
+        },
+        {
+          "id": "b",
+          "label": "clear enough / to"
+        },
+        {
+          "id": "c",
+          "label": "so clear / that"
+        },
+        {
+          "id": "d",
+          "label": "very clear / for"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'adjective + enough + for + object + to V' diễn tả điều gì đó đủ rõ ràng để ai đó làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_009",
+      "prompt": "He's _____ to drive a car legally; he needs to wait another year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "old enough"
+        },
+        {
+          "id": "b",
+          "label": "too old"
+        },
+        {
+          "id": "c",
+          "label": "not old enough"
+        },
+        {
+          "id": "d",
+          "label": "young enough"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Ngữ cảnh 'needs to wait another year' cho thấy anh ấy chưa đủ tuổi. Dùng 'not old enough to V'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "too_enough_010",
+      "prompt": "We don't have _____ time _____ finish the project by Friday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too much / to"
+        },
+        {
+          "id": "b",
+          "label": "enough / to"
+        },
+        {
+          "id": "c",
+          "label": "so much / that"
+        },
+        {
+          "id": "d",
+          "label": "many / to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Ngữ cảnh 'finish the project' cho thấy chúng ta không có đủ thời gian. 'Time' là danh từ không đếm được."
+  }
+]

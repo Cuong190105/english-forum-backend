@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_001",
+      "prompt": "For example, I'd like to go to _____ big city like New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' vì 'big city' là danh từ số ít đếm được, được nhắc đến lần đầu và không xác định cụ thể thành phố nào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_002",
+      "prompt": "We discussed many travel destinations, and _____ city we decided on was New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'city' được xác định cụ thể bởi mệnh đề quan hệ 'we decided on', chỉ rõ đó là thành phố nào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_003",
+      "prompt": "_____ knowledge is power, especially in today's fast-paced world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng mạo từ rỗng vì 'knowledge' là danh từ không đếm được, được dùng với nghĩa chung chung, khái quát."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_004",
+      "prompt": "_____ advice you gave me about my career was invaluable.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'advice' được xác định cụ thể bởi mệnh đề 'you gave me about my career', chỉ rõ đó là lời khuyên nào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_005",
+      "prompt": "New York is considered _____ most diverse city in the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' trước tính từ so sánh nhất ('most diverse') để chỉ một đối tượng duy nhất hoặc nổi bật nhất trong một nhóm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_006",
+      "prompt": "My dream is to travel around _____ world and experience different cultures.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' với các danh từ chỉ những vật thể duy nhất, độc nhất vô nhị như 'world', 'sun', 'moon'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_007",
+      "prompt": "She hopes to become _____ architect after graduating from university.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' trước danh từ chỉ nghề nghiệp 'architect' vì nó bắt đầu bằng một nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_008",
+      "prompt": "_____ books are essential tools for learning and personal growth.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng mạo từ rỗng vì 'books' là danh từ số nhiều, được dùng với nghĩa chung chung, khái quát."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_009",
+      "prompt": "_____ books on that shelf belong to the library.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'books' được xác định cụ thể bởi cụm giới từ 'on that shelf', chỉ rõ đó là những cuốn sách nào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_articles_010",
+      "prompt": "Many people believe that _____ honesty is the best policy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng mạo từ rỗng vì 'honesty' là danh từ trừu tượng, được dùng với nghĩa chung chung, khái quát."
+  }
+]

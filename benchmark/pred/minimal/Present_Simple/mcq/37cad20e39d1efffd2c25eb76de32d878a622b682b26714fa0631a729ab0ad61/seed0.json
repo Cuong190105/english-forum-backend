@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "He _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Nhắc về thói quen hàng ngày của ngôi thứ ba số ít, động từ cần thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They _____ in the park on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "plays"
+        },
+        {
+          "id": "b",
+          "label": "play"
+        },
+        {
+          "id": "c",
+          "label": "playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả thói quen của ngôi thứ ba số nhiều, động từ giữ nguyên thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "She _____ like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng trợ động từ phủ định 'doesn't' cho ngôi thứ ba số ít trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you speak English?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng trợ động từ 'Do' để đặt câu hỏi cho chủ ngữ 'you' trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "We _____ visit our grandparents on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "often"
+        },
+        {
+          "id": "b",
+          "label": "is often"
+        },
+        {
+          "id": "c",
+          "label": "are often"
+        },
+        {
+          "id": "d",
+          "label": "often are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất thường đứng trước động từ chính trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "rising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một sự thật hiển nhiên, động từ chia ở ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "My mother _____ breakfast at 7 AM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "makes"
+        },
+        {
+          "id": "c",
+          "label": "making"
+        },
+        {
+          "id": "d",
+          "label": "made"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả thói quen hàng ngày của ngôi thứ ba số ít, động từ cần thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "I _____ a student.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng đúng của động từ 'to be' với chủ ngữ 'I' là 'am'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "They _____ not happy with the result.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dạng đúng của động từ 'to be' với chủ ngữ 'They' là 'are'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "_____ he from Vietnam?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'Is' để hỏi về nguồn gốc hoặc trạng thái của ngôi thứ ba số ít."
+  }
+]

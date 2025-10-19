@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "I think the weather _____ be sunny tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” thường dùng cho dự đoán dựa trên ý kiến cá nhân hoặc niềm tin."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "It's cold in here. I _____ close the window.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "close"
+        },
+        {
+          "id": "d",
+          "label": "closed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” dùng để diễn tả quyết định tức thời, ngay tại thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Don't worry, I _____ call you as soon as I arrive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "call"
+        },
+        {
+          "id": "d",
+          "label": "called"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” thường được dùng để hứa hẹn hoặc cam kết."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you please help me carry these bags?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Will"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” dùng trong câu hỏi để đưa ra lời đề nghị hoặc yêu cầu lịch sự."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "By the year 2050, many things _____ change dramatically.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are going to"
+        },
+        {
+          "id": "c",
+          "label": "change"
+        },
+        {
+          "id": "d",
+          "label": "changed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” dùng để nói về các sự kiện hoặc dự đoán trong tương lai mà không có kế hoạch cụ thể."
+  }
+]

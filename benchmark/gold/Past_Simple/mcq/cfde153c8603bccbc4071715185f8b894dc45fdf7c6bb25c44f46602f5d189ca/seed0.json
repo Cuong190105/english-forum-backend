@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_001",
+      "prompt": "My family _____ to Da Lat for our summer vacation last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "is going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"last year\" (năm ngoái) là dấu hiệu của thì quá khứ đơn. Động từ \"go\" ở dạng quá khứ là \"went\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_002",
+      "prompt": "What _____ you do yesterday evening?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi ở thì quá khứ đơn với động từ thường (do), ta dùng trợ động từ \"did\" và giữ nguyên động từ chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_003",
+      "prompt": "I _____ a very interesting book two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "reads"
+        },
+        {
+          "id": "c",
+          "label": "am reading"
+        },
+        {
+          "id": "d",
+          "label": "have read"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Two days ago\" chỉ một hành động đã xảy ra trong quá khứ. Động từ \"read\" ở dạng quá khứ vẫn viết là \"read\" nhưng phát âm là /red/."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_004",
+      "prompt": "She _____ not happy when she heard the news.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ \"She\" là ngôi thứ ba số ít, nên động từ \"to be\" ở thì quá khứ đơn là \"was\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_005",
+      "prompt": "They _____ football in the park yesterday because it rained.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't play"
+        },
+        {
+          "id": "b",
+          "label": "not played"
+        },
+        {
+          "id": "c",
+          "label": "don't play"
+        },
+        {
+          "id": "d",
+          "label": "weren't play"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu phủ định trong thì quá khứ đơn, ta dùng cấu trúc \"did not\" (didn't) + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_006",
+      "prompt": "_____ you at the school festival last Saturday?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Was"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Với chủ ngữ \"you\", động từ \"to be\" ở dạng câu hỏi quá khứ đơn là \"Were\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_007",
+      "prompt": "He _____ his homework, and then he watched TV.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finish"
+        },
+        {
+          "id": "b",
+          "label": "finished"
+        },
+        {
+          "id": "c",
+          "label": "finishes"
+        },
+        {
+          "id": "d",
+          "label": "was finishing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một chuỗi hành động đã xảy ra và kết thúc trong quá khứ, nên ta dùng thì quá khứ đơn cho cả hai động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_008",
+      "prompt": "My mother _____ a delicious cake for my birthday last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "makes"
+        },
+        {
+          "id": "c",
+          "label": "made"
+        },
+        {
+          "id": "d",
+          "label": "was making"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ chỉ thời gian \"last week\" cho biết hành động đã xảy ra trong quá khứ. Dạng quá khứ của \"make\" là \"made\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_009",
+      "prompt": "We _____ to the cinema because we were too tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't go"
+        },
+        {
+          "id": "b",
+          "label": "didn't went"
+        },
+        {
+          "id": "c",
+          "label": "didn't go"
+        },
+        {
+          "id": "d",
+          "label": "not go"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dạng phủ định của thì quá khứ đơn là \"didn't\" + động từ nguyên mẫu (go). \"Didn't went\" là một lỗi sai phổ biến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_mcq_past_simple_010",
+      "prompt": "When _____ the first modern Olympic Games take place?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi về một sự kiện đã kết thúc trong quá khứ dùng trợ động từ \"did\" với động từ chính (take) ở dạng nguyên mẫu."
+  }
+]

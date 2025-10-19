@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít 'My sister' và diễn tả thói quen hàng ngày, động từ 'go' phải thêm 'es' thành 'goes' ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rises"
+        },
+        {
+          "id": "b",
+          "label": "rise"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "is rising"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hiển nhiên, nên dùng thì hiện tại đơn. 'The sun' là chủ ngữ số ít, vì vậy động từ 'rise' phải thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "They usually _____ in the park on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "walk"
+        },
+        {
+          "id": "b",
+          "label": "walks"
+        },
+        {
+          "id": "c",
+          "label": "walked"
+        },
+        {
+          "id": "d",
+          "label": "are walking"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số nhiều 'They' và trạng từ tần suất 'usually' diễn tả thói quen, động từ ở thì hiện tại đơn giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "He _____ like coffee very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu phủ định ở thì hiện tại đơn với chủ ngữ ngôi thứ ba số ít 'He', ta dùng trợ động từ 'doesn't' theo sau là động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "_____ she play the piano?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi đặt câu hỏi ở thì hiện tại đơn với chủ ngữ ngôi thứ ba số ít 'she', ta dùng trợ động từ 'Does' ở đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "My cat always _____ on the sofa.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sleeps"
+        },
+        {
+          "id": "b",
+          "label": "sleep"
+        },
+        {
+          "id": "c",
+          "label": "slept"
+        },
+        {
+          "id": "d",
+          "label": "is sleeping"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'My cat' là chủ ngữ số ít, và 'always' chỉ thói quen. Vì vậy, động từ 'sleep' phải thêm 's' thành 'sleeps' ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "We often _____ books in the library.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "reads"
+        },
+        {
+          "id": "c",
+          "label": "reading"
+        },
+        {
+          "id": "d",
+          "label": "are reading"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số nhiều 'We' và trạng từ tần suất 'often' diễn tả thói quen, động từ ở thì hiện tại đơn giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "The train _____ at 7 AM every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leaves"
+        },
+        {
+          "id": "b",
+          "label": "leave"
+        },
+        {
+          "id": "c",
+          "label": "left"
+        },
+        {
+          "id": "d",
+          "label": "is leaving"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lịch trình cố định (timetable) dùng thì hiện tại đơn. 'The train' là chủ ngữ số ít, nên động từ 'leave' phải thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "She _____ a student at this university.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít 'She', động từ 'to be' ở thì hiện tại đơn là 'is'. Đây là một sự thật về cô ấy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Birds _____ south for the winter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fly"
+        },
+        {
+          "id": "b",
+          "label": "flies"
+        },
+        {
+          "id": "c",
+          "label": "flew"
+        },
+        {
+          "id": "d",
+          "label": "are flying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Birds' là chủ ngữ số nhiều, diễn tả một sự thật hoặc thói quen tự nhiên. Vì vậy, động từ 'fly' giữ nguyên mẫu ở thì hiện tại đơn."
+  }
+]

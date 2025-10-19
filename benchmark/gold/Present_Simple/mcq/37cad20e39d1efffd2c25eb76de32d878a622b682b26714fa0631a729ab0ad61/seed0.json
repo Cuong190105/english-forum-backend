@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS001",
+      "prompt": "My brother _____ video games every day after school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "is playing"
+        },
+        {
+          "id": "d",
+          "label": "are playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít (my brother), động từ ở thì hiện tại đơn cần thêm 's' hoặc 'es'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS002",
+      "prompt": "We _____ to the library twice a week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "are going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số nhiều (We), động từ ở thì hiện tại đơn được giữ ở dạng nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS003",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "is moving"
+        },
+        {
+          "id": "c",
+          "label": "moves"
+        },
+        {
+          "id": "d",
+          "label": "has moved"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại đơn được dùng để diễn tả một sự thật hiển nhiên, một chân lý. 'The Earth' là chủ ngữ ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS004",
+      "prompt": "_____ your teacher give you a lot of homework?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Is"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Does"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Để đặt câu hỏi cho chủ ngữ ngôi thứ ba số ít ('your teacher'), ta dùng trợ động từ 'Does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS005",
+      "prompt": "I _____ understand this lesson. Can you help me?",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "am not"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để tạo câu phủ định với chủ ngữ 'I' ở thì hiện tại đơn, ta dùng trợ động từ 'don't' (do not)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS006",
+      "prompt": "The supermarket _____ at 8 AM and _____ at 10 PM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "open / close"
+        },
+        {
+          "id": "b",
+          "label": "opens / closes"
+        },
+        {
+          "id": "c",
+          "label": "is opening / is closing"
+        },
+        {
+          "id": "d",
+          "label": "opened / closed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn được dùng để nói về lịch trình hoặc thời gian biểu. 'The supermarket' là chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS007",
+      "prompt": "My parents often _____ tea in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drinks"
+        },
+        {
+          "id": "b",
+          "label": "are drinking"
+        },
+        {
+          "id": "c",
+          "label": "drink"
+        },
+        {
+          "id": "d",
+          "label": "is drinking"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ 'My parents' là số nhiều, vì vậy động từ ở thì hiện tại đơn không thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS008",
+      "prompt": "She _____ a nurse. She works in a big hospital.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "am"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ 'She', động từ 'to be' ở thì hiện tại đơn được chia là 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS009",
+      "prompt": "How often _____ they go to the cinema?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "do"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trong câu hỏi với chủ ngữ 'they' ở thì hiện tại đơn, ta dùng trợ động từ 'do'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS010",
+      "prompt": "A baker is a person who _____ bread and cakes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "is making"
+        },
+        {
+          "id": "c",
+          "label": "makes"
+        },
+        {
+          "id": "d",
+          "label": "are making"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu này định nghĩa về một nghề nghiệp, là một sự thật. Chủ ngữ 'who' thay thế cho 'a person' (ngôi thứ ba số ít) nên động từ phải thêm 's'."
+  }
+]

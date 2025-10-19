@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My family _____ to Da Lat last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "gone"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Last summer” là dấu hiệu của thì quá khứ đơn. “Went” là dạng quá khứ của “go”, diễn tả hành động đã xảy ra và kết thúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "She _____ finish her homework yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "didn't"
+        },
+        {
+          "id": "c",
+          "label": "hasn't"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Yesterday evening” chỉ quá khứ đơn. Dạng phủ định của quá khứ đơn dùng trợ động từ “didn't” + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "_____ you visit your grandparents last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last weekend” là dấu hiệu quá khứ đơn. Câu hỏi quá khứ đơn dùng trợ động từ “Did” ở đầu câu, sau đó là chủ ngữ và động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "They _____ a new car two years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "bought"
+        },
+        {
+          "id": "c",
+          "label": "buys"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Two years ago” chỉ quá khứ đơn. “Bought” là dạng quá khứ của động từ bất quy tắc “buy”, diễn tả hành động đã hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "I _____ very tired after the long flight yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "have been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Yesterday” chỉ quá khứ đơn. Chủ ngữ “I” đi với “was” trong thì quá khứ đơn để diễn tả trạng thái."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "The weather _____ good last week, so we stayed home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't"
+        },
+        {
+          "id": "b",
+          "label": "wasn't"
+        },
+        {
+          "id": "c",
+          "label": "weren't"
+        },
+        {
+          "id": "d",
+          "label": "hasn't been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last week” chỉ quá khứ đơn. Chủ ngữ “The weather” (số ít) đi với “wasn't” ở dạng phủ định của động từ “to be”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "_____ he at the meeting an hour ago?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Was"
+        },
+        {
+          "id": "c",
+          "label": "Were"
+        },
+        {
+          "id": "d",
+          "label": "Has"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“An hour ago” chỉ quá khứ đơn. Chủ ngữ “he” (số ít) đi với “Was” trong câu hỏi quá khứ đơn của động từ “to be”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "We _____ dinner at a new restaurant last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eat"
+        },
+        {
+          "id": "b",
+          "label": "ate"
+        },
+        {
+          "id": "c",
+          "label": "eaten"
+        },
+        {
+          "id": "d",
+          "label": "have eaten"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last night” là dấu hiệu của thì quá khứ đơn, diễn tả hành động đã hoàn thành. “Ate” là dạng quá khứ của “eat”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "She _____ her degree in 2010.",
+      "options": [
+        {
+          "id": "a",
+          "label": "gets"
+        },
+        {
+          "id": "b",
+          "label": "got"
+        },
+        {
+          "id": "c",
+          "label": "has got"
+        },
+        {
+          "id": "d",
+          "label": "is getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“In 2010” là mốc thời gian cụ thể trong quá khứ, dùng thì quá khứ đơn. “Got” là dạng quá khứ của “get”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "When I was a child, I often _____ hide-and-seek with my friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "played"
+        },
+        {
+          "id": "c",
+          "label": "have played"
+        },
+        {
+          "id": "d",
+          "label": "am playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“When I was a child” chỉ một khoảng thời gian trong quá khứ. “Played” diễn tả thói quen hoặc hành động lặp lại trong quá khứ."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She _____ for two hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been studying"
+        },
+        {
+          "id": "b",
+          "label": "is studying"
+        },
+        {
+          "id": "c",
+          "label": "studied"
+        },
+        {
+          "id": "d",
+          "label": "studies"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Your eyes are red. Have you _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "been crying"
+        },
+        {
+          "id": "b",
+          "label": "cried"
+        },
+        {
+          "id": "c",
+          "label": "cry"
+        },
+        {
+          "id": "d",
+          "label": "been cried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động vừa mới kết thúc và có kết quả rõ ràng ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I _____ this book all morning, and I'm still on chapter 3.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been reading"
+        },
+        {
+          "id": "b",
+          "label": "have read"
+        },
+        {
+          "id": "c",
+          "label": "read"
+        },
+        {
+          "id": "d",
+          "label": "am reading"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Nhấn mạnh quá trình đọc vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "How long _____ for that company?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have you been working"
+        },
+        {
+          "id": "b",
+          "label": "have you worked"
+        },
+        {
+          "id": "c",
+          "label": "are you working"
+        },
+        {
+          "id": "d",
+          "label": "do you work"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hỏi về khoảng thời gian một hành động đã và đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He _____ well recently, so he's very tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hasn't been sleeping"
+        },
+        {
+          "id": "b",
+          "label": "hasn't slept"
+        },
+        {
+          "id": "c",
+          "label": "isn't sleeping"
+        },
+        {
+          "id": "d",
+          "label": "didn't sleep"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động không xảy ra liên tục trong một khoảng thời gian đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "It _____ all day, and the ground is completely wet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been raining"
+        },
+        {
+          "id": "b",
+          "label": "has rained"
+        },
+        {
+          "id": "c",
+          "label": "is raining"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Nhấn mạnh hành động mưa kéo dài suốt cả ngày."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "They _____ since 9 AM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been waiting"
+        },
+        {
+          "id": "b",
+          "label": "are waiting"
+        },
+        {
+          "id": "c",
+          "label": "wait"
+        },
+        {
+          "id": "d",
+          "label": "waited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi có \"since\" hoặc \"for\" với khoảng thời gian, thường dùng thì hiện tại hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "I'm exhausted because I _____ on this project for hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been working"
+        },
+        {
+          "id": "b",
+          "label": "have worked"
+        },
+        {
+          "id": "c",
+          "label": "work"
+        },
+        {
+          "id": "d",
+          "label": "am working"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Kết quả (mệt mỏi) là do hành động kéo dài đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "What _____ since you arrived?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have you been doing"
+        },
+        {
+          "id": "b",
+          "label": "have you done"
+        },
+        {
+          "id": "c",
+          "label": "are you doing"
+        },
+        {
+          "id": "d",
+          "label": "do you do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hỏi về các hoạt động liên tục từ khi bạn đến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "My car is dirty because I _____ it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "haven't been washing"
+        },
+        {
+          "id": "b",
+          "label": "haven't washed"
+        },
+        {
+          "id": "c",
+          "label": "don't wash"
+        },
+        {
+          "id": "d",
+          "label": "didn't wash"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc không rửa xe liên tục dẫn đến kết quả hiện tại là xe bẩn."
+  }
+]

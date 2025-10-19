@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "_____ you practice, _____ you become.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the better"
+        },
+        {
+          "id": "b",
+          "label": "More / better"
+        },
+        {
+          "id": "c",
+          "label": "The most / the best"
+        },
+        {
+          "id": "d",
+          "label": "Most / best"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh kép là 'The + so sánh hơn, the + so sánh hơn'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The _____ the problem is, the _____ it is to solve.",
+      "options": [
+        {
+          "id": "a",
+          "label": "more complex / harder"
+        },
+        {
+          "id": "b",
+          "label": "most complex / hardest"
+        },
+        {
+          "id": "c",
+          "label": "complex / hard"
+        },
+        {
+          "id": "d",
+          "label": "more complex / more hard"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng hình thức so sánh hơn cho cả tính từ 'complex' và 'hard'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The _____ he drives, the _____ he gets to his destination.",
+      "options": [
+        {
+          "id": "a",
+          "label": "faster / sooner"
+        },
+        {
+          "id": "b",
+          "label": "fast / soon"
+        },
+        {
+          "id": "c",
+          "label": "more fast / more soon"
+        },
+        {
+          "id": "d",
+          "label": "fastest / soonest"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng so sánh hơn của trạng từ 'fast' (faster) và 'soon' (sooner)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The _____ money you save, the _____ financial security you will have.",
+      "options": [
+        {
+          "id": "a",
+          "label": "more / more"
+        },
+        {
+          "id": "b",
+          "label": "most / most"
+        },
+        {
+          "id": "c",
+          "label": "much / much"
+        },
+        {
+          "id": "d",
+          "label": "many / many"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'More' là so sánh hơn của 'much' (dùng với danh từ không đếm được như 'money') và 'many'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The _____ she studies, the _____ she understands the subject.",
+      "options": [
+        {
+          "id": "a",
+          "label": "more / more"
+        },
+        {
+          "id": "b",
+          "label": "most / most"
+        },
+        {
+          "id": "c",
+          "label": "much / much"
+        },
+        {
+          "id": "d",
+          "label": "many / many"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'The more + S + V, the more + S + V' được dùng để diễn tả sự tăng tiến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "_____ you eat, _____ you gain weight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The more / the more"
+        },
+        {
+          "id": "b",
+          "label": "More / more"
+        },
+        {
+          "id": "c",
+          "label": "The more / more"
+        },
+        {
+          "id": "d",
+          "label": "More / the more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cả hai vế của cấu trúc so sánh kép đều phải bắt đầu bằng 'The'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The _____ I get, the _____ I appreciate quiet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "older / more"
+        },
+        {
+          "id": "b",
+          "label": "oldest / most"
+        },
+        {
+          "id": "c",
+          "label": "more old / more"
+        },
+        {
+          "id": "d",
+          "label": "older / most"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "So sánh hơn của 'old' là 'older'. 'More' được dùng với động từ 'appreciate'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The _____ the explanation, the _____ it is to follow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "more detailed / harder"
+        },
+        {
+          "id": "b",
+          "label": "detailed / hard"
+        },
+        {
+          "id": "c",
+          "label": "most detailed / hardest"
+        },
+        {
+          "id": "d",
+          "label": "more detailed / more hard"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Detailed' là tính từ dài nên dùng 'more detailed'. 'Hard' là tính từ ngắn nên dùng 'harder'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The _____ you read, the _____ your vocabulary becomes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "more / richer"
+        },
+        {
+          "id": "b",
+          "label": "most / richest"
+        },
+        {
+          "id": "c",
+          "label": "more / more rich"
+        },
+        {
+          "id": "d",
+          "label": "much / rich"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'More' đi với động từ 'read'. 'Richer' là so sánh hơn của tính từ 'rich'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The _____ time we have, the _____ we can finish the project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less / less"
+        },
+        {
+          "id": "b",
+          "label": "least / least"
+        },
+        {
+          "id": "c",
+          "label": "less / more"
+        },
+        {
+          "id": "d",
+          "label": "more / less"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'The less... the less...' diễn tả ý nghĩa 'càng ít... càng ít...'."
+  }
+]

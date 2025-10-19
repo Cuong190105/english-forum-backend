@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_001",
+      "prompt": "He is _____ specialist in computer programming.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Specialist là danh từ đếm được số ít, bắt đầu bằng phụ âm, được nhắc đến lần đầu, nên dùng 'a'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_002",
+      "prompt": "He does not know about _____ other fields.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Other fields là danh từ số nhiều mang nghĩa chung chung, không xác định cụ thể, nên không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_003",
+      "prompt": "We need to find _____ best solution for this problem.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Best là dạng so sánh nhất, chỉ một giải pháp duy nhất và tốt nhất, nên dùng 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_004",
+      "prompt": "She bought _____ new laptop yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "New laptop là danh từ đếm được số ít, được nhắc đến lần đầu và không xác định cụ thể, nên dùng 'a'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_005",
+      "prompt": "She bought a new laptop yesterday. _____ laptop is very fast.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Laptop được nhắc lại lần thứ hai, đã xác định là chiếc laptop cô ấy mua, nên dùng 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_006",
+      "prompt": "_____ information provided was very helpful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Information ở đây được xác định bởi mệnh đề 'provided', chỉ thông tin cụ thể đã được cung cấp, nên dùng 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_007",
+      "prompt": "_____ birds can fly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Birds là danh từ số nhiều mang nghĩa chung chung, chỉ loài chim nói chung, nên không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_008",
+      "prompt": "_____ Sun rises in the East.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sun là danh từ chỉ vật thể duy nhất trong vũ trụ, nên luôn dùng 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_009",
+      "prompt": "He enjoys listening to _____ music.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Music là danh từ không đếm được, được dùng với nghĩa chung chung, không xác định, nên không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_article_010",
+      "prompt": "Can you pass me _____ book on the table?",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Book được xác định rõ ràng bởi cụm giới từ 'on the table', chỉ một cuốn sách cụ thể, nên dùng 'the'."
+  }
+]

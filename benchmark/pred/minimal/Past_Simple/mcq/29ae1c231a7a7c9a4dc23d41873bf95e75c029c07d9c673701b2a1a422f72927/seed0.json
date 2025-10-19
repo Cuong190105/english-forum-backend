@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My mother _____ dinner for us last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cook"
+        },
+        {
+          "id": "b",
+          "label": "cooks"
+        },
+        {
+          "id": "c",
+          "label": "cooked"
+        },
+        {
+          "id": "d",
+          "label": "cooking"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ đơn của động từ thường."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They _____ to the cinema two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "gone"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dạng quá khứ đơn của \"go\" là \"went\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "We _____ a great time at the party last Saturday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dạng quá khứ đơn của \"have\" là \"had\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "He _____ not _____ his homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / do"
+        },
+        {
+          "id": "b",
+          "label": "does / do"
+        },
+        {
+          "id": "c",
+          "label": "did / done"
+        },
+        {
+          "id": "d",
+          "label": "do / did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc phủ định của thì quá khứ đơn là \"did not + động từ nguyên mẫu\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ you _____ your grandparents last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do / visit"
+        },
+        {
+          "id": "b",
+          "label": "Did / visit"
+        },
+        {
+          "id": "c",
+          "label": "Did / visited"
+        },
+        {
+          "id": "d",
+          "label": "Do / visited"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc câu hỏi của thì quá khứ đơn là \"Did + chủ ngữ + động từ nguyên mẫu\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "She _____ very happy when she received the gift.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"She\" đi với \"was\" trong thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "They _____ to Ha Long Bay _____ summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "went / next"
+        },
+        {
+          "id": "b",
+          "label": "go / last"
+        },
+        {
+          "id": "c",
+          "label": "went / last"
+        },
+        {
+          "id": "d",
+          "label": "go / next"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Last summer\" là dấu hiệu của thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "I _____ my old friend at the market an hour ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "meet"
+        },
+        {
+          "id": "b",
+          "label": "have met"
+        },
+        {
+          "id": "c",
+          "label": "met"
+        },
+        {
+          "id": "d",
+          "label": "am meeting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"An hour ago\" chỉ một thời điểm cụ thể trong quá khứ, dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "My brother _____ English when he was young.",
+      "options": [
+        {
+          "id": "a",
+          "label": "study"
+        },
+        {
+          "id": "b",
+          "label": "studies"
+        },
+        {
+          "id": "c",
+          "label": "studied"
+        },
+        {
+          "id": "d",
+          "label": "studying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ kết thúc bằng \"y\" và trước đó là phụ âm thì đổi \"y\" thành \"i\" rồi thêm \"ed\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The police _____ the thief after a long chase.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stoped"
+        },
+        {
+          "id": "b",
+          "label": "stopped"
+        },
+        {
+          "id": "c",
+          "label": "stop"
+        },
+        {
+          "id": "d",
+          "label": "stops"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ một âm tiết kết thúc bằng phụ âm - nguyên âm - phụ âm thì gấp đôi phụ âm cuối rồi thêm \"ed\"."
+  }
+]

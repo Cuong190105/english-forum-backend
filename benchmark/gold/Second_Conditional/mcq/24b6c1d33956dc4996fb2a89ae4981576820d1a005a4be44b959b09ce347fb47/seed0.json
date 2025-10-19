@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-001",
+      "prompt": "If I _____ you, I would apologize to her immediately.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu điều kiện loại 2, mệnh đề 'if' dùng động từ 'to be' ở dạng 'were' cho tất cả các ngôi để đưa ra lời khuyên hoặc giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-002",
+      "prompt": "What would you do if you _____ a lot of money in the lottery?",
+      "options": [
+        {
+          "id": "a",
+          "label": "win"
+        },
+        {
+          "id": "b",
+          "label": "won"
+        },
+        {
+          "id": "c",
+          "label": "will win"
+        },
+        {
+          "id": "d",
+          "label": "would win"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 sử dụng thì quá khứ đơn để diễn tả một tình huống không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-003",
+      "prompt": "If he studied more, he _____ better grades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will get"
+        },
+        {
+          "id": "b",
+          "label": "got"
+        },
+        {
+          "id": "c",
+          "label": "gets"
+        },
+        {
+          "id": "d",
+          "label": "would get"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 2 có cấu trúc 'would + động từ nguyên mẫu' để nói về kết quả giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-004",
+      "prompt": "We would go to the beach if the weather _____ better.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "will be"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'to be' trong mệnh đề 'if' của câu điều kiện loại 2 thường được chia là 'were' cho tất cả các chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-005",
+      "prompt": "If she _____ the truth, she would be very upset.",
+      "options": [
+        {
+          "id": "a",
+          "label": "knew"
+        },
+        {
+          "id": "b",
+          "label": "knows"
+        },
+        {
+          "id": "c",
+          "label": "will know"
+        },
+        {
+          "id": "d",
+          "label": "would know"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ trong mệnh đề 'if' của câu điều kiện loại 2 phải ở dạng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-006",
+      "prompt": "I _____ that car if I had enough money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "will buy"
+        },
+        {
+          "id": "c",
+          "label": "would buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would + động từ nguyên mẫu' để diễn tả kết quả của một điều kiện không có thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-007",
+      "prompt": "If you _____ live anywhere in the world, where would you live?",
+      "options": [
+        {
+          "id": "a",
+          "label": "can"
+        },
+        {
+          "id": "b",
+          "label": "could"
+        },
+        {
+          "id": "c",
+          "label": "will"
+        },
+        {
+          "id": "d",
+          "label": "would"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu điều kiện loại 2, chúng ta dùng dạng quá khứ của động từ khuyết thiếu, ví dụ 'can' trở thành 'could'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-008",
+      "prompt": "They wouldn't be late if they _____ earlier.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leave"
+        },
+        {
+          "id": "b",
+          "label": "leaves"
+        },
+        {
+          "id": "c",
+          "label": "would leave"
+        },
+        {
+          "id": "d",
+          "label": "left"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hãy nhớ rằng mệnh đề 'if' trong câu điều kiện loại 2 luôn sử dụng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-009",
+      "prompt": "If it _____, we would have a picnic in the park.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't rain"
+        },
+        {
+          "id": "b",
+          "label": "didn't rain"
+        },
+        {
+          "id": "c",
+          "label": "won't rain"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't rain"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là dạng phủ định của câu điều kiện loại 2. Mệnh đề 'if' dùng 'didn't + động từ nguyên mẫu'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sq-en-second-conditional-010",
+      "prompt": "My teacher would be happy if I _____ all my homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "will do"
+        },
+        {
+          "id": "d",
+          "label": "would do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề 'if' diễn tả điều kiện giả định và cần động từ ở thì quá khứ đơn."
+  }
+]

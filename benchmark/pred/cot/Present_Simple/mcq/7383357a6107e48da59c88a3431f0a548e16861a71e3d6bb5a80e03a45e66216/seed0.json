@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every day” chỉ thói quen. Chủ ngữ “My sister” (số ít) nên động từ thêm -es. “Go” là nguyên mẫu, “going” là tiếp diễn, “went” là quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "He _____ usually wake up early on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“He” là chủ ngữ số ít, dùng “doesn't” để phủ định trong thì Hiện tại đơn. “Don't” dùng cho chủ ngữ số nhiều. “Isn't” dùng với động từ “to be”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "The sun _____ in the east and sets in the west.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rises"
+        },
+        {
+          "id": "b",
+          "label": "rise"
+        },
+        {
+          "id": "c",
+          "label": "is rising"
+        },
+        {
+          "id": "d",
+          "label": "rose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hiển nhiên. Chủ ngữ “The sun” (số ít) nên động từ thêm -s. Các lựa chọn khác sai thì hoặc không chia động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ you often visit your grandparents?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ “you”, dùng trợ động từ “Do” để đặt câu hỏi trong thì Hiện tại đơn. “Does” dùng cho chủ ngữ số ít. “Are/Is” dùng với động từ “to be”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "Where _____ your best friend live?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Your best friend” là chủ ngữ số ít, nên dùng trợ động từ “does” sau từ để hỏi “Where” trong thì Hiện tại đơn. “Do” dùng cho chủ ngữ số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "She _____ late for work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is never"
+        },
+        {
+          "id": "b",
+          "label": "never is"
+        },
+        {
+          "id": "c",
+          "label": "never be"
+        },
+        {
+          "id": "d",
+          "label": "never being"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất “never” đứng sau động từ “to be” nhưng đứng trước động từ thường. “Is never” là đúng cấu trúc cho thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "I _____ that learning English is important for my future.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believe"
+        },
+        {
+          "id": "b",
+          "label": "am believing"
+        },
+        {
+          "id": "c",
+          "label": "believes"
+        },
+        {
+          "id": "d",
+          "label": "believed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Believe” là động từ chỉ trạng thái, thường không dùng ở thì tiếp diễn. “I” đi với động từ nguyên mẫu trong thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "The train to Hanoi _____ at 7:00 AM tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leaves"
+        },
+        {
+          "id": "b",
+          "label": "leave"
+        },
+        {
+          "id": "c",
+          "label": "is leaving"
+        },
+        {
+          "id": "d",
+          "label": "will leave"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lịch trình cố định (tàu, xe, máy bay) dùng thì Hiện tại đơn, ngay cả khi nói về tương lai. “The train” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "If it _____ today, we will stay home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rains"
+        },
+        {
+          "id": "b",
+          "label": "rain"
+        },
+        {
+          "id": "c",
+          "label": "is raining"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 1, mệnh đề “if” dùng thì Hiện tại đơn. “It” là chủ ngữ số ít nên động từ thêm -s. Các lựa chọn khác sai thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "My father always _____ coffee in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drinks"
+        },
+        {
+          "id": "b",
+          "label": "is drinking"
+        },
+        {
+          "id": "c",
+          "label": "drink"
+        },
+        {
+          "id": "d",
+          "label": "drank"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Always” chỉ thói quen lặp đi lặp lại. “My father” (số ít) nên động từ thêm -s. “Is drinking” là thì tiếp diễn, không phù hợp cho thói quen."
+  }
+]

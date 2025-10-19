@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "I enjoy _____ new things and meeting new people.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "to learn"
+        },
+        {
+          "id": "c",
+          "label": "learning"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"enjoy\" luôn theo sau bởi V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She decided _____ a new job.",
+      "options": [
+        {
+          "id": "a",
+          "label": "find"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "finding"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"decide\" thường theo sau bởi to-V."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He is good at _____ English.",
+      "options": [
+        {
+          "id": "a",
+          "label": "speak"
+        },
+        {
+          "id": "b",
+          "label": "to speak"
+        },
+        {
+          "id": "c",
+          "label": "speaking"
+        },
+        {
+          "id": "d",
+          "label": "spoke"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Giới từ (at) luôn theo sau bởi V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Don't forget _____ the door when you leave.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lock"
+        },
+        {
+          "id": "b",
+          "label": "to lock"
+        },
+        {
+          "id": "c",
+          "label": "locking"
+        },
+        {
+          "id": "d",
+          "label": "locked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Forget to-V\" nghĩa là quên làm gì đó (chưa làm)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "I tried _____ the heavy box, but it was too heavy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lift"
+        },
+        {
+          "id": "b",
+          "label": "to lift"
+        },
+        {
+          "id": "c",
+          "label": "lifting"
+        },
+        {
+          "id": "d",
+          "label": "lifted"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Try to-V\" nghĩa là cố gắng làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The car needs _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "repair"
+        },
+        {
+          "id": "b",
+          "label": "to repair"
+        },
+        {
+          "id": "c",
+          "label": "repairing"
+        },
+        {
+          "id": "d",
+          "label": "to be repair"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Need + V-ing\" mang nghĩa bị động (cần được làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "It's important _____ your homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "to do"
+        },
+        {
+          "id": "c",
+          "label": "doing"
+        },
+        {
+          "id": "d",
+          "label": "done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc \"It is + adjective + to-V\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Let's go _____ this weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "shop"
+        },
+        {
+          "id": "b",
+          "label": "to shop"
+        },
+        {
+          "id": "c",
+          "label": "shopping"
+        },
+        {
+          "id": "d",
+          "label": "shopped"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Go + V-ing\" dùng để chỉ các hoạt động giải trí."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "My parents always let me _____ my own decisions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "to make"
+        },
+        {
+          "id": "c",
+          "label": "making"
+        },
+        {
+          "id": "d",
+          "label": "made"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"let + object + bare infinitive (động từ nguyên mẫu không 'to')\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "I'm not used to _____ up so early.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "to get"
+        },
+        {
+          "id": "c",
+          "label": "getting"
+        },
+        {
+          "id": "d",
+          "label": "got"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Be used to + V-ing\" nghĩa là quen với việc gì."
+  }
+]

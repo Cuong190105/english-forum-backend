@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_001",
+      "prompt": "They have _____ special diet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' vì 'special diet' là danh từ đếm được số ít, được nhắc đến lần đầu và không xác định cụ thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_002",
+      "prompt": "_____ special diet they follow requires careful planning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'special diet' được xác định cụ thể bởi mệnh đề quan hệ 'they follow'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_003",
+      "prompt": "He is currently studying _____ history of ancient civilizations.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'history' được xác định cụ thể là 'lịch sử của các nền văn minh cổ đại'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_004",
+      "prompt": "_____ honesty is always appreciated.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng mạo từ rỗng (zero article) cho danh từ trừu tượng 'honesty' khi nói về nó một cách chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_005",
+      "prompt": "My sister works as _____ English teacher at a local school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' trước danh từ chỉ nghề nghiệp bắt đầu bằng nguyên âm 'English'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_006",
+      "prompt": "Could you pass me _____ salt, please?",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'salt' được hiểu là loại muối cụ thể đang ở gần người nói, đã được xác định trong ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_007",
+      "prompt": "_____ birds can fly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng mạo từ rỗng (zero article) khi nói về danh từ số nhiều 'birds' một cách chung chung, chỉ cả loài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_008",
+      "prompt": "He lives in a small apartment in _____ city center.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' với 'city center' vì đây là một địa điểm cụ thể, duy nhất trong một thành phố."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_009",
+      "prompt": "I saw _____ interesting documentary about space last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' trước danh từ đếm được số ít 'interesting documentary' vì nó bắt đầu bằng nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_010",
+      "prompt": "_____ sun is a star.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' với 'sun' vì đây là một thiên thể duy nhất, đã được xác định."
+  }
+]

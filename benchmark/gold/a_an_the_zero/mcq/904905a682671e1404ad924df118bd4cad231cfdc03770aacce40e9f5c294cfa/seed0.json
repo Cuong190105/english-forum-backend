@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_01",
+      "prompt": "My father is _____ honest man; everyone in our neighborhood respects him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Từ 'honest' bắt đầu bằng một nguyên âm câm (âm /ɒ/), vì vậy chúng ta dùng mạo từ 'an'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_02",
+      "prompt": "Could you please pass me _____ salt? It's on the table next to you.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chúng ta dùng 'the' khi cả người nói và người nghe đều biết đang đề cập đến vật cụ thể nào (lọ muối ở trên bàn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_03",
+      "prompt": "She is studying to become _____ architect because she loves designing buildings.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chúng ta dùng 'a/an' trước tên nghề nghiệp. 'Architect' bắt đầu bằng một nguyên âm (âm /ɑːr/)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_04",
+      "prompt": "I need to buy _____ new pair of shoes. _____ shoes I'm wearing now are too old.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a / The"
+        },
+        {
+          "id": "b",
+          "label": "the / A"
+        },
+        {
+          "id": "c",
+          "label": "a / A"
+        },
+        {
+          "id": "d",
+          "label": "the / The"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' khi nhắc đến một vật lần đầu tiên. Dùng 'the' khi vật đó đã được đề cập trước đó hoặc đã được xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_05",
+      "prompt": "My little brother believes that _____ moon is made of cheese.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' cho những vật thể là duy nhất, ai cũng biết, như mặt trời (the sun), mặt trăng (the moon), trái đất (the Earth)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_06",
+      "prompt": "For breakfast, I usually have _____ bread with _____ milk.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a / a"
+        },
+        {
+          "id": "b",
+          "label": "the / the"
+        },
+        {
+          "id": "c",
+          "label": "--- / ---"
+        },
+        {
+          "id": "d",
+          "label": "a / ---"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Bread' và 'milk' là những danh từ không đếm được. Khi nói về chúng một cách chung chung, chúng ta không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_07",
+      "prompt": "Hoan Kiem Lake is located in _____ center of Hanoi.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'in the center of' là một cụm từ cố định, có nghĩa là 'ở trung tâm của'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_08",
+      "prompt": "She is _____ most intelligent student in our class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Luôn dùng mạo từ 'the' trước dạng so sánh nhất của tính từ (ví dụ: the best, the tallest, the most intelligent)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_09",
+      "prompt": "My dream is to visit _____ United States one day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tên một số quốc gia được thành lập từ nhiều bang hoặc có các từ như 'Kingdom', 'States', 'Republic' thì phải dùng mạo từ 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_10",
+      "prompt": "_____ information you gave me was very helpful. Thank you!",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Information' là danh từ không đếm được. Ở đây, người nói đang đề cập đến một thông tin cụ thể mà người nghe đã cung cấp, vì vậy chúng ta dùng 'the'."
+  }
+]

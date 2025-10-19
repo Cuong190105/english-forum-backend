@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Every day” chỉ thói quen. Chủ ngữ “My sister” (số ít) nên động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "is rising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên. Chủ ngữ “The sun” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "They usually _____ coffee in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't drink"
+        },
+        {
+          "id": "b",
+          "label": "doesn't drink"
+        },
+        {
+          "id": "c",
+          "label": "aren't drinking"
+        },
+        {
+          "id": "d",
+          "label": "didn't drink"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” chỉ thói quen. Chủ ngữ “They” (số nhiều) dùng “do not” (don't) với động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ he _____ English well?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does...speak"
+        },
+        {
+          "id": "b",
+          "label": "Do...speak"
+        },
+        {
+          "id": "c",
+          "label": "Is...speaking"
+        },
+        {
+          "id": "d",
+          "label": "Did...speak"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu hỏi về khả năng/thói quen. Chủ ngữ “he” (số ít) dùng “Does” và động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "She always _____ happy when she sees her friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "feel"
+        },
+        {
+          "id": "b",
+          "label": "feels"
+        },
+        {
+          "id": "c",
+          "label": "is feeling"
+        },
+        {
+          "id": "d",
+          "label": "felt"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Always” chỉ thói quen/trạng thái thường xuyên. “She” (số ít) nên động từ “feel” thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "The train to Hanoi _____ at 7:00 AM tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leave"
+        },
+        {
+          "id": "b",
+          "label": "leaves"
+        },
+        {
+          "id": "c",
+          "label": "is leaving"
+        },
+        {
+          "id": "d",
+          "label": "left"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lịch trình cố định (tàu, xe, máy bay) dùng thì Hiện tại đơn, dù có trạng từ chỉ thời gian tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "Cats _____ like water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "didn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật chung. “Cats” (số nhiều) dùng “do not” (don't) để phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "We _____ visit our grandparents on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "often"
+        },
+        {
+          "id": "b",
+          "label": "often visit"
+        },
+        {
+          "id": "c",
+          "label": "are often visiting"
+        },
+        {
+          "id": "d",
+          "label": "visited often"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ tần suất (often) thường đứng trước động từ chính trong thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Where _____ your brother _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does...work"
+        },
+        {
+          "id": "b",
+          "label": "do...work"
+        },
+        {
+          "id": "c",
+          "label": "is...working"
+        },
+        {
+          "id": "d",
+          "label": "did...work"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi về nơi làm việc thường xuyên. “Your brother” (số ít) dùng “does” và động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "My parents _____ teachers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“My parents” là chủ ngữ số nhiều, nên dùng động từ “to be” là “are” trong thì Hiện tại đơn."
+  }
+]

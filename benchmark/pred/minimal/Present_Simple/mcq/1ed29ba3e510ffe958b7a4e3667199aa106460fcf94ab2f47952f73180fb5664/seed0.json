@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister _____ in a big hospital.",
+      "options": [
+        {
+          "id": "a",
+          "label": "work"
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ \"My sister\" là ngôi thứ ba số ít, động từ cần thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "moves"
+        },
+        {
+          "id": "c",
+          "label": "is moving"
+        },
+        {
+          "id": "d",
+          "label": "moved"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên, dùng thì hiện tại đơn và \"The Earth\" là số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They usually _____ football on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "played"
+        },
+        {
+          "id": "d",
+          "label": "are playing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ \"They\" là số nhiều, động từ giữ nguyên ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "He _____ not like spicy food.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ \"He\" (ngôi thứ ba số ít), trợ động từ phủ định là \"does not\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ you often visit your grandparents?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với chủ ngữ \"you\", trợ động từ nghi vấn ở thì hiện tại đơn là \"Do\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The museum _____ at 9 AM every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "open"
+        },
+        {
+          "id": "b",
+          "label": "opens"
+        },
+        {
+          "id": "c",
+          "label": "is opening"
+        },
+        {
+          "id": "d",
+          "label": "opened"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lịch trình cố định của một địa điểm dùng thì hiện tại đơn. \"The museum\" là chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "is boiling"
+        },
+        {
+          "id": "d",
+          "label": "boiled"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật khoa học hiển nhiên, dùng thì hiện tại đơn. \"Water\" là danh từ không đếm được (số ít)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "I _____ a student at this university.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"to be\" đi với chủ ngữ \"I\" là \"am\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She always _____ her best in every competition.",
+      "options": [
+        {
+          "id": "a",
+          "label": "try"
+        },
+        {
+          "id": "b",
+          "label": "tries"
+        },
+        {
+          "id": "c",
+          "label": "is trying"
+        },
+        {
+          "id": "d",
+          "label": "tried"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ \"She\" (ngôi thứ ba số ít), động từ \"try\" khi chia ở hiện tại đơn sẽ đổi y thành i và thêm es, thành \"tries\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "My parents _____ in a small town.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "is living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ \"My parents\" là số nhiều, động từ giữ nguyên ở thì hiện tại đơn."
+  }
+]

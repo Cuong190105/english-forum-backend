@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "When I was a child, I _____ spend hours reading comic books.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "am used to"
+        },
+        {
+          "id": "c",
+          "label": "get used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Used to\" dùng để diễn tả một thói quen hoặc trạng thái trong quá khứ mà bây giờ không còn nữa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She _____ living in a noisy apartment, so the city doesn't bother her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "is used to"
+        },
+        {
+          "id": "c",
+          "label": "gets used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Be used to + V-ing/noun\" có nghĩa là quen với việc gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "My father _____ smoke, but he quit ten years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't used to"
+        },
+        {
+          "id": "b",
+          "label": "didn't use to"
+        },
+        {
+          "id": "c",
+          "label": "wasn't used to"
+        },
+        {
+          "id": "d",
+          "label": "isn't used to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng phủ định của \"used to\" là \"didn't use to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you _____ play the piano when you were younger?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did...used to"
+        },
+        {
+          "id": "b",
+          "label": "Did...use to"
+        },
+        {
+          "id": "c",
+          "label": "Do...used to"
+        },
+        {
+          "id": "d",
+          "label": "Do...use to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng nghi vấn của \"used to\" là \"Did + S + use to + V-inf?\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "There _____ a small cafe on this corner, but it's a bank now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to be"
+        },
+        {
+          "id": "b",
+          "label": "was used to"
+        },
+        {
+          "id": "c",
+          "label": "got used to"
+        },
+        {
+          "id": "d",
+          "label": "use to be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Used to be\" diễn tả sự tồn tại của một thứ gì đó trong quá khứ nhưng giờ không còn."
+  }
+]

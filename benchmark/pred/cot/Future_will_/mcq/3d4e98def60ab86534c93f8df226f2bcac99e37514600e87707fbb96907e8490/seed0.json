@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_001",
+      "prompt": "I think it _____ rain tomorrow, so don't forget your umbrella.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "rains"
+        },
+        {
+          "id": "d",
+          "label": "is raining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' cho dự đoán chung hoặc sự thật trong tương lai, thường đi kèm với 'I think'. 'Is going to' dùng cho kế hoạch hoặc dự đoán có bằng chứng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_002",
+      "prompt": "Oh, I forgot to buy milk. I _____ get some on my way home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "get"
+        },
+        {
+          "id": "d",
+          "label": "am getting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Will' được dùng để diễn tả một quyết định được đưa ra ngay tại thời điểm nói, không phải là kế hoạch đã định trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_003",
+      "prompt": "Don't worry about the heavy box. I _____ help you carry it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "help"
+        },
+        {
+          "id": "d",
+          "label": "am helping"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Will' thường được dùng để đưa ra lời đề nghị giúp đỡ hoặc lời hứa. Các lựa chọn khác không phù hợp ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_004",
+      "prompt": "If you study hard, you _____ pass the exam easily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are going to"
+        },
+        {
+          "id": "c",
+          "label": "pass"
+        },
+        {
+          "id": "d",
+          "label": "passed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 1, mệnh đề chính dùng 'will + động từ nguyên mẫu' để diễn tả kết quả có thể xảy ra trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_005",
+      "prompt": "The company is expanding rapidly. I believe it _____ definitely succeed in the global market.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "succeeds"
+        },
+        {
+          "id": "d",
+          "label": "succeeded"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Will' dùng cho dự đoán về tương lai, đặc biệt khi có các trạng từ như 'definitely' hoặc 'surely' để nhấn mạnh sự chắc chắn."
+  }
+]

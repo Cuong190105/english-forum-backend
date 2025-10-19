@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "\"I am tired,\" she said. She said that she _____ tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật lời nói trực tiếp ở thì hiện tại đơn, chúng ta lùi thì về quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "\"We are studying for the exam,\" they told me. They told me that they _____ for the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are studying"
+        },
+        {
+          "id": "b",
+          "label": "were studying"
+        },
+        {
+          "id": "c",
+          "label": "had studied"
+        },
+        {
+          "id": "d",
+          "label": "studying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại tiếp diễn trong lời nói trực tiếp sẽ lùi về quá khứ tiếp diễn khi tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "\"He has finished his homework,\" she announced. She announced that he _____ his homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has finished"
+        },
+        {
+          "id": "b",
+          "label": "finished"
+        },
+        {
+          "id": "c",
+          "label": "had finished"
+        },
+        {
+          "id": "d",
+          "label": "would finish"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành khi tường thuật sẽ lùi về quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "\"I saw him yesterday,\" he claimed. He claimed that he _____ him the day before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "saw"
+        },
+        {
+          "id": "b",
+          "label": "had seen"
+        },
+        {
+          "id": "c",
+          "label": "has seen"
+        },
+        {
+          "id": "d",
+          "label": "would see"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ đơn khi tường thuật thường lùi về quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "\"I will call you tomorrow,\" she promised. She promised that she _____ me the next day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will call"
+        },
+        {
+          "id": "b",
+          "label": "called"
+        },
+        {
+          "id": "c",
+          "label": "would call"
+        },
+        {
+          "id": "d",
+          "label": "calls"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Will\" trong lời nói trực tiếp sẽ chuyển thành \"would\" khi tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "\"I can swim very well,\" he boasted. He boasted that he _____ very well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can swim"
+        },
+        {
+          "id": "b",
+          "label": "could swim"
+        },
+        {
+          "id": "c",
+          "label": "will swim"
+        },
+        {
+          "id": "d",
+          "label": "swims"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ khuyết thiếu \"can\" khi tường thuật sẽ chuyển thành \"could\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "\"The Earth revolves around the Sun,\" the teacher explained. The teacher explained that the Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "revolved"
+        },
+        {
+          "id": "b",
+          "label": "had revolved"
+        },
+        {
+          "id": "c",
+          "label": "revolves"
+        },
+        {
+          "id": "d",
+          "label": "would revolve"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sự thật hiển nhiên hoặc chân lý không lùi thì khi tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "\"I am going to the party,\" he says. He says that he _____ to the party.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going"
+        },
+        {
+          "id": "b",
+          "label": "was going"
+        },
+        {
+          "id": "c",
+          "label": "had gone"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Nếu động từ tường thuật ở thì hiện tại (says), thì không cần lùi thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "\"Where do you live?\" he asked me. He asked me where I _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lived"
+        },
+        {
+          "id": "c",
+          "label": "had lived"
+        },
+        {
+          "id": "d",
+          "label": "was living"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật câu hỏi, thì hiện tại đơn lùi về quá khứ đơn và cấu trúc câu trở thành câu trần thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "\"Are you coming to the meeting?\" she asked him. She asked him if he _____ to the meeting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is coming"
+        },
+        {
+          "id": "b",
+          "label": "was coming"
+        },
+        {
+          "id": "c",
+          "label": "had come"
+        },
+        {
+          "id": "d",
+          "label": "comes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật câu hỏi Yes/No, thì hiện tại tiếp diễn lùi về quá khứ tiếp diễn và dùng \"if\" hoặc \"whether\"."
+  }
+]

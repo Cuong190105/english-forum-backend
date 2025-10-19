@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The coffee is _____ hot to drink.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "enough"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cà phê quá nóng để uống."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She is _____ old to drive a car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "enough"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cô ấy đủ tuổi để lái xe."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He speaks _____ quickly for me to understand.",
+      "options": [
+        {
+          "id": "a",
+          "label": "enough"
+        },
+        {
+          "id": "b",
+          "label": "too"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Anh ấy nói quá nhanh để tôi hiểu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "You didn't work _____ hard to pass the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "enough"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Bạn đã không làm việc đủ chăm chỉ để vượt qua kỳ thi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "We don't have _____ money to buy that house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "enough"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chúng tôi không có đủ tiền để mua căn nhà đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "There are _____ many people here to find a quiet spot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "enough"
+        },
+        {
+          "id": "b",
+          "label": "too"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Có quá nhiều người ở đây để tìm một chỗ yên tĩnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The box is _____ heavy for him to lift.",
+      "options": [
+        {
+          "id": "a",
+          "label": "enough"
+        },
+        {
+          "id": "b",
+          "label": "too"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cái hộp quá nặng để anh ấy nhấc lên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "This problem is simple _____ for us to solve.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "enough"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Vấn đề này đủ đơn giản để chúng ta giải quyết."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "He's _____ short to reach the top shelf.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "enough"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Anh ấy quá thấp để với tới kệ trên cùng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Is the water warm _____ for a bath?",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "enough"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Nước đã đủ ấm để tắm chưa?"
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW001",
+      "prompt": "I'm a bit thirsty. I think I _____ a glass of water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am having"
+        },
+        {
+          "id": "b",
+          "label": "will have"
+        },
+        {
+          "id": "c",
+          "label": "am going to have"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'will' để diễn tả một quyết định được đưa ra ngay tại thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW002",
+      "prompt": "Don't worry about the exam. I'm sure you _____ do well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "are going to"
+        },
+        {
+          "id": "d",
+          "label": "can to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' để đưa ra một dự đoán hoặc thể hiện sự tin tưởng về một sự việc trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW003",
+      "prompt": "If you don't hurry, you _____ miss the bus.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would miss"
+        },
+        {
+          "id": "b",
+          "label": "are missing"
+        },
+        {
+          "id": "c",
+          "label": "will miss"
+        },
+        {
+          "id": "d",
+          "label": "miss"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là câu điều kiện loại 1. Mệnh đề chính (kết quả) dùng thì tương lai đơn với 'will'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW004",
+      "prompt": "I promise I _____ tell anyone your secret.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "am not"
+        },
+        {
+          "id": "c",
+          "label": "haven't"
+        },
+        {
+          "id": "d",
+          "label": "won't"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Để diễn tả một lời hứa phủ định trong tương lai, ta dùng 'won't' (will not)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW005",
+      "prompt": "My brother _____ be 18 years old next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will to be"
+        },
+        {
+          "id": "b",
+          "label": "will is"
+        },
+        {
+          "id": "c",
+          "label": "will be"
+        },
+        {
+          "id": "d",
+          "label": "will being"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau 'will' luôn là một động từ nguyên mẫu không 'to'. Dạng nguyên mẫu của 'is/am/are' là 'be'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW006",
+      "prompt": "That bag looks heavy. I _____ help you carry it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "am"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'will' để đưa ra một lời đề nghị giúp đỡ một cách tự nguyện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW007",
+      "prompt": "_____ you please close the window? It's cold.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Will"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Để đưa ra một yêu cầu lịch sự, ta có thể bắt đầu câu hỏi bằng 'Will'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW008",
+      "prompt": "They _____ probably arrive at the airport around 10 PM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "are going to"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Các trạng từ chỉ sự chắc chắn như 'probably', 'certainly', 'definitely' thường được dùng với 'will'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW009",
+      "prompt": "In the year 2050, I believe people _____ travel in flying cars.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will travels"
+        },
+        {
+          "id": "b",
+          "label": "will travel"
+        },
+        {
+          "id": "c",
+          "label": "will to travel"
+        },
+        {
+          "id": "d",
+          "label": "will traveling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ theo sau 'will' phải ở dạng nguyên mẫu (không 's', không 'ing', không 'to')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "FW010",
+      "prompt": "A: 'We've run out of milk.' B: 'Oh, have we? I _____ go and get some.'",
+      "options": [
+        {
+          "id": "a",
+          "label": "am going to"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "will"
+        },
+        {
+          "id": "d",
+          "label": "am"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sử dụng 'will' cho một quyết định tự phát, được đưa ra ngay khi nói, không có kế hoạch từ trước."
+  }
+]

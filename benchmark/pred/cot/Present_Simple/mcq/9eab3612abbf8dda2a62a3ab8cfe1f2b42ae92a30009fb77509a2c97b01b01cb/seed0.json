@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The Earth _____ around the sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "moves"
+        },
+        {
+          "id": "c",
+          "label": "is moving"
+        },
+        {
+          "id": "d",
+          "label": "moved"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên, dùng thì Hiện tại đơn với chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She always _____ her homework after dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is doing"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Từ 'always' chỉ thói quen hoặc hành động lặp lại, dùng thì Hiện tại đơn. Chủ ngữ 'she' là số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "My parents _____ in a small house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "is living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'my parents' là số nhiều, nên động từ ở thì Hiện tại đơn không thêm 's' hoặc 'es'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "He _____ like coffee very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "not"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "isn't"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để phủ định ở thì Hiện tại đơn với chủ ngữ số ít (he), dùng 'does not' (doesn't)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ you often visit your grandparents?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để đặt câu hỏi ở thì Hiện tại đơn với chủ ngữ 'you', dùng trợ động từ 'Do'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "What time _____ the store open?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ số ít ('the store') trong câu hỏi Hiện tại đơn, dùng trợ động từ 'Does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "I _____ that you are a very kind person.",
+      "options": [
+        {
+          "id": "a",
+          "label": "think"
+        },
+        {
+          "id": "b",
+          "label": "am thinking"
+        },
+        {
+          "id": "c",
+          "label": "thinks"
+        },
+        {
+          "id": "d",
+          "label": "thought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'think' khi diễn tả ý kiến hoặc quan điểm thường dùng ở thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The train _____ at 8 AM tomorrow morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leave"
+        },
+        {
+          "id": "b",
+          "label": "leaves"
+        },
+        {
+          "id": "c",
+          "label": "is leaving"
+        },
+        {
+          "id": "d",
+          "label": "will leave"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lịch trình cố định trong tương lai (tàu chạy, máy bay cất cánh, giờ học) dùng thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Birds _____ south for the winter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fly"
+        },
+        {
+          "id": "b",
+          "label": "flies"
+        },
+        {
+          "id": "c",
+          "label": "is flying"
+        },
+        {
+          "id": "d",
+          "label": "flew"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật chung hoặc thói quen của loài vật, dùng thì Hiện tại đơn. Chủ ngữ 'birds' là số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "is boiling"
+        },
+        {
+          "id": "d",
+          "label": "boiled"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật khoa học, dùng thì Hiện tại đơn với chủ ngữ số ít ('water')."
+  }
+]

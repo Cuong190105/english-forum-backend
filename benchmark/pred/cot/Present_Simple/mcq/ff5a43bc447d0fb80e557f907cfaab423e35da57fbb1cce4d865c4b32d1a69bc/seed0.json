@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn, chủ ngữ số ít (my sister) thì động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rises"
+        },
+        {
+          "id": "b",
+          "label": "rise"
+        },
+        {
+          "id": "c",
+          "label": "is rising"
+        },
+        {
+          "id": "d",
+          "label": "rose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn dùng để diễn tả sự thật hiển nhiên, động từ chia theo chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He _____ like coffee very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn, phủ định với chủ ngữ số ít (he) dùng \"doesn't + V-inf\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you usually wake up early?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn, câu hỏi với chủ ngữ số nhiều (you) dùng \"Do + S + V-inf\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "They _____ visit their grandparents on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "often"
+        },
+        {
+          "id": "b",
+          "label": "are often"
+        },
+        {
+          "id": "c",
+          "label": "often are"
+        },
+        {
+          "id": "d",
+          "label": "often visiting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất (often) đứng trước động từ thường trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I _____ that she is a very kind person.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believe"
+        },
+        {
+          "id": "b",
+          "label": "am believing"
+        },
+        {
+          "id": "c",
+          "label": "believes"
+        },
+        {
+          "id": "d",
+          "label": "believed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ chỉ trạng thái (believe) thường không dùng ở thì tiếp diễn, mà dùng ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The train _____ at 7 PM tonight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leaves"
+        },
+        {
+          "id": "b",
+          "label": "is leaving"
+        },
+        {
+          "id": "c",
+          "label": "leave"
+        },
+        {
+          "id": "d",
+          "label": "left"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn dùng để diễn tả lịch trình cố định trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "We _____ watch TV in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "isn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn, phủ định với chủ ngữ số nhiều (we) dùng \"don't + V-inf\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Birds _____ south for the winter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fly"
+        },
+        {
+          "id": "b",
+          "label": "flies"
+        },
+        {
+          "id": "c",
+          "label": "is flying"
+        },
+        {
+          "id": "d",
+          "label": "flew"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn, chủ ngữ số nhiều (birds) thì động từ giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "She always _____ her homework after dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "does"
+        },
+        {
+          "id": "b",
+          "label": "is doing"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Always\" chỉ thói quen, dùng thì hiện tại đơn. Chủ ngữ số ít (she) thì động từ thêm -es."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "I saw _____ interesting movie last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'an' trước danh từ bắt đầu bằng nguyên âm và là lần đầu tiên được nhắc đến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "I have a cat. _____ cat is very playful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The"
+        },
+        {
+          "id": "b",
+          "label": "A"
+        },
+        {
+          "id": "c",
+          "label": "An"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'the' khi danh từ đã được nhắc đến trước đó và trở nên xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "_____ sun rises in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The"
+        },
+        {
+          "id": "b",
+          "label": "A"
+        },
+        {
+          "id": "c",
+          "label": "An"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'the' với những vật thể duy nhất trong vũ trụ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "My brother wants to be _____ engineer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'an' trước danh từ chỉ nghề nghiệp bắt đầu bằng nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "I need _____ information about the project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Ø"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "a"
+        },
+        {
+          "id": "d",
+          "label": "the"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Danh từ không đếm được khi nói chung chung không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "This is _____ most beautiful painting I've ever seen.",
+      "options": [
+        {
+          "id": "a",
+          "label": "the"
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "an"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'the' trước tính từ so sánh nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The Amazon is _____ longest river in South America.",
+      "options": [
+        {
+          "id": "a",
+          "label": "the"
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "an"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'the' trước tên sông."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She lives in _____ France.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Ø"
+        },
+        {
+          "id": "b",
+          "label": "the"
+        },
+        {
+          "id": "c",
+          "label": "a"
+        },
+        {
+          "id": "d",
+          "label": "an"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hầu hết các quốc gia không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "He visited _____ United States last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "the"
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "an"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'the' trước tên các quốc gia có từ 'United', 'Kingdom', 'Republic' hoặc tên số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "_____ love of money is the root of all evil.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The"
+        },
+        {
+          "id": "b",
+          "label": "A"
+        },
+        {
+          "id": "c",
+          "label": "An"
+        },
+        {
+          "id": "d",
+          "label": "Ø"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'the' khi danh từ trừu tượng được xác định bởi một cụm giới từ theo sau."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_001",
+      "prompt": "My family _____ to Da Lat for our vacation last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dấu hiệu 'last summer' chỉ hành động đã xảy ra trong quá khứ. 'Go' là động từ bất quy tắc, dạng quá khứ đơn là 'went'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_002",
+      "prompt": "She _____ her homework before she went to bed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finish"
+        },
+        {
+          "id": "b",
+          "label": "finishes"
+        },
+        {
+          "id": "c",
+          "label": "finished"
+        },
+        {
+          "id": "d",
+          "label": "finishing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'hoàn thành bài tập' xảy ra trước khi 'đi ngủ' trong quá khứ, nên dùng thì Quá khứ đơn. 'Finish' là động từ có quy tắc, thêm '-ed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_003",
+      "prompt": "They _____ visit their grandparents last weekend because they were busy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "didn't"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để tạo câu phủ định trong thì Quá khứ đơn, chúng ta dùng 'didn't' (did not) + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_004",
+      "prompt": "_____ you see the new movie yesterday?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Did"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu hỏi thì Quá khứ đơn, chúng ta dùng trợ động từ 'Did' đứng trước chủ ngữ, sau đó là động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_005",
+      "prompt": "He _____ very tired after the long journey.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu này mô tả trạng thái trong quá khứ. Với chủ ngữ số ít 'He', động từ 'to be' ở quá khứ đơn là 'was'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_006",
+      "prompt": "My parents _____ in Hanoi for ten years before they moved to Ho Chi Minh City.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "lived"
+        },
+        {
+          "id": "d",
+          "label": "living"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'sống ở Hà Nội' đã kết thúc trong quá khứ khi họ chuyển đi. Đây là thì Quá khứ đơn. 'Live' là động từ có quy tắc, thêm '-d'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_007",
+      "prompt": "When I was a child, I often _____ hide-and-seek with my friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "played"
+        },
+        {
+          "id": "c",
+          "label": "playing"
+        },
+        {
+          "id": "d",
+          "label": "have played"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'When I was a child' chỉ một thói quen trong quá khứ. Dùng thì Quá khứ đơn. 'Play' là động từ có quy tắc, thêm '-ed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_008",
+      "prompt": "Last night, I _____ a strange dream.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dấu hiệu 'Last night' chỉ hành động đã xảy ra trong quá khứ. 'Have' là động từ bất quy tắc, dạng quá khứ đơn là 'had'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_009",
+      "prompt": "The students _____ their project two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "present"
+        },
+        {
+          "id": "b",
+          "label": "presents"
+        },
+        {
+          "id": "c",
+          "label": "presented"
+        },
+        {
+          "id": "d",
+          "label": "presenting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dấu hiệu 'two days ago' chỉ hành động đã xảy ra trong quá khứ. 'Present' là động từ có quy tắc, thêm '-ed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1_ps_010",
+      "prompt": "Where _____ you go for your holiday in 2022?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dấu hiệu 'in 2022' chỉ một thời điểm cụ thể trong quá khứ. Trong câu hỏi thì Quá khứ đơn, dùng trợ động từ 'did'."
+  }
+]

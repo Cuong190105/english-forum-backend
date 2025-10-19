@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_001",
+      "prompt": "She works as a marketing manager, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does she"
+        },
+        {
+          "id": "b",
+          "label": "doesn't she"
+        },
+        {
+          "id": "c",
+          "label": "is she"
+        },
+        {
+          "id": "d",
+          "label": "isn't she"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính khẳng định ở thì hiện tại đơn, nên tag question phải phủ định và dùng trợ động từ 'does' cho chủ ngữ 'she'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_002",
+      "prompt": "They didn't attend the conference yesterday, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did they"
+        },
+        {
+          "id": "b",
+          "label": "didn't they"
+        },
+        {
+          "id": "c",
+          "label": "do they"
+        },
+        {
+          "id": "d",
+          "label": "don't they"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề chính phủ định ở thì quá khứ đơn, nên tag question phải khẳng định và dùng trợ động từ 'did' cho chủ ngữ 'they'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_003",
+      "prompt": "You have finished your report, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have you"
+        },
+        {
+          "id": "b",
+          "label": "haven't you"
+        },
+        {
+          "id": "c",
+          "label": "did you"
+        },
+        {
+          "id": "d",
+          "label": "don't you"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính khẳng định ở thì hiện tại hoàn thành, nên tag question phải phủ định và dùng trợ động từ 'have' từ mệnh đề chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_004",
+      "prompt": "We can start the project next week, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "can we"
+        },
+        {
+          "id": "b",
+          "label": "can't we"
+        },
+        {
+          "id": "c",
+          "label": "do we"
+        },
+        {
+          "id": "d",
+          "label": "don't we"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính có động từ khuyết thiếu 'can' và ở dạng khẳng định, nên tag question phải phủ định và dùng 'can't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_005",
+      "prompt": "Let's review the proposal, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "will we"
+        },
+        {
+          "id": "b",
+          "label": "do we"
+        },
+        {
+          "id": "c",
+          "label": "shall we"
+        },
+        {
+          "id": "d",
+          "label": "won't we"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với câu bắt đầu bằng 'Let's' (rủ rê), tag question luôn là 'shall we'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_006",
+      "prompt": "There isn't enough time for a break, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "is there"
+        },
+        {
+          "id": "b",
+          "label": "isn't there"
+        },
+        {
+          "id": "c",
+          "label": "does there"
+        },
+        {
+          "id": "d",
+          "label": "don't there"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề chính phủ định với 'there is/are', nên tag question phải khẳng định và dùng 'is there'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_007",
+      "prompt": "Nobody submitted the assignment on time, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't they"
+        },
+        {
+          "id": "b",
+          "label": "did they"
+        },
+        {
+          "id": "c",
+          "label": "didn't he"
+        },
+        {
+          "id": "d",
+          "label": "did he"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'Nobody' mang nghĩa phủ định nên tag question khẳng định. 'Nobody' dùng đại từ 'they' và trợ động từ 'did' cho quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_008",
+      "prompt": "You rarely go out on weekdays, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do you"
+        },
+        {
+          "id": "b",
+          "label": "don't you"
+        },
+        {
+          "id": "c",
+          "label": "are you"
+        },
+        {
+          "id": "d",
+          "label": "aren't you"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Từ 'rarely' mang nghĩa phủ định, nên mệnh đề chính được coi là phủ định. Do đó, tag question phải khẳng định và dùng 'do you'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_009",
+      "prompt": "Please send me the updated schedule, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do you"
+        },
+        {
+          "id": "b",
+          "label": "will you"
+        },
+        {
+          "id": "c",
+          "label": "don't you"
+        },
+        {
+          "id": "d",
+          "label": "won't you"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với câu mệnh lệnh (yêu cầu), tag question thường dùng 'will you' để hỏi xác nhận hoặc yêu cầu lịch sự."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "qt_010",
+      "prompt": "He has never been to Japan, _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "has he"
+        },
+        {
+          "id": "b",
+          "label": "hasn't he"
+        },
+        {
+          "id": "c",
+          "label": "did he"
+        },
+        {
+          "id": "d",
+          "label": "didn't he"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Từ 'never' mang nghĩa phủ định, nên mệnh đề chính được coi là phủ định. Do đó, tag question phải khẳng định và dùng 'has he'."
+  }
+]

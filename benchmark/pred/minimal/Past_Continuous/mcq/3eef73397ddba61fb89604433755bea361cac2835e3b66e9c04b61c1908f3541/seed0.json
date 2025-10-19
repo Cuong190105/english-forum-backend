@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "At 8 PM last night, I _____ dinner with my family.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was eating"
+        },
+        {
+          "id": "b",
+          "label": "ate"
+        },
+        {
+          "id": "c",
+          "label": "have eaten"
+        },
+        {
+          "id": "d",
+          "label": "eat"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng thì Quá khứ tiếp diễn để diễn tả hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "While she _____ her homework, her phone suddenly rang.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was doing"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "has done"
+        },
+        {
+          "id": "d",
+          "label": "is doing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đang diễn ra (quá khứ tiếp diễn) bị một hành động khác (quá khứ đơn) cắt ngang."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They _____ football when it started to rain heavily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were playing"
+        },
+        {
+          "id": "b",
+          "label": "played"
+        },
+        {
+          "id": "c",
+          "label": "have played"
+        },
+        {
+          "id": "d",
+          "label": "are playing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đang diễn ra trong quá khứ bị một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "What _____ you _____ at 10 AM yesterday?",
+      "options": [
+        {
+          "id": "a",
+          "label": "were / doing"
+        },
+        {
+          "id": "b",
+          "label": "did / do"
+        },
+        {
+          "id": "c",
+          "label": "are / doing"
+        },
+        {
+          "id": "d",
+          "label": "have / done"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì Quá khứ tiếp diễn để hỏi về hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "While I _____ for the bus, I saw an old friend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was waiting"
+        },
+        {
+          "id": "b",
+          "label": "waited"
+        },
+        {
+          "id": "c",
+          "label": "have waited"
+        },
+        {
+          "id": "d",
+          "label": "am waiting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'đang chờ' là hành động nền, bị hành động 'nhìn thấy' cắt ngang."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The children _____ quietly in their room when their mother called them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were playing"
+        },
+        {
+          "id": "b",
+          "label": "played"
+        },
+        {
+          "id": "c",
+          "label": "play"
+        },
+        {
+          "id": "d",
+          "label": "have played"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động đang diễn ra trong quá khứ khi một hành động khác xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "At this time last year, I _____ in London.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was living"
+        },
+        {
+          "id": "b",
+          "label": "lived"
+        },
+        {
+          "id": "c",
+          "label": "have lived"
+        },
+        {
+          "id": "d",
+          "label": "am living"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng thì Quá khứ tiếp diễn để nói về một hành động đang diễn ra trong một khoảng thời gian cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "While my brother _____ TV, I _____ a book.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was watching / was reading"
+        },
+        {
+          "id": "b",
+          "label": "watched / read"
+        },
+        {
+          "id": "c",
+          "label": "was watching / read"
+        },
+        {
+          "id": "d",
+          "label": "watched / was reading"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hai hành động đang diễn ra song song trong quá khứ đều dùng thì Quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She _____ not _____ attention during the lecture yesterday afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was / paying"
+        },
+        {
+          "id": "b",
+          "label": "did / pay"
+        },
+        {
+          "id": "c",
+          "label": "is / paying"
+        },
+        {
+          "id": "d",
+          "label": "has / paid"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng phủ định của thì Quá khứ tiếp diễn: S + was/were + not + V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The sun _____ brightly when we left the house this morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was shining"
+        },
+        {
+          "id": "b",
+          "label": "shone"
+        },
+        {
+          "id": "c",
+          "label": "has shone"
+        },
+        {
+          "id": "d",
+          "label": "is shining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả một hành động đang diễn ra (mặt trời đang chiếu sáng) làm bối cảnh cho một hành động khác (chúng tôi rời nhà)."
+  }
+]

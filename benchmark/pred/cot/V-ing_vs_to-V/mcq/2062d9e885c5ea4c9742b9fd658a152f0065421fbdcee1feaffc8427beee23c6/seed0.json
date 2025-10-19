@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_001",
+      "prompt": "Many people enjoy _____ sports in their free time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "playing"
+        },
+        {
+          "id": "b",
+          "label": "to play"
+        },
+        {
+          "id": "c",
+          "label": "play"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'enjoy' luôn theo sau bởi một động từ ở dạng V-ing để diễn tả sự yêu thích một hoạt động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_002",
+      "prompt": "After a long discussion, they decided _____ a new fitness program.",
+      "options": [
+        {
+          "id": "a",
+          "label": "joining"
+        },
+        {
+          "id": "b",
+          "label": "to join"
+        },
+        {
+          "id": "c",
+          "label": "join"
+        },
+        {
+          "id": "d",
+          "label": "joined"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'decide' thường được theo sau bởi động từ nguyên mẫu có 'to' (to-V) để chỉ một quyết định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_003",
+      "prompt": "He tries to avoid _____ unhealthy snacks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to eat"
+        },
+        {
+          "id": "b",
+          "label": "eating"
+        },
+        {
+          "id": "c",
+          "label": "eat"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'avoid' luôn đi kèm với dạng V-ing để diễn tả việc tránh làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_004",
+      "prompt": "We are planning _____ a trip to the mountains next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "taking"
+        },
+        {
+          "id": "b",
+          "label": "take"
+        },
+        {
+          "id": "c",
+          "label": "to take"
+        },
+        {
+          "id": "d",
+          "label": "took"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'plan' thường được theo sau bởi động từ nguyên mẫu có 'to' (to-V) để chỉ một kế hoạch."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_005",
+      "prompt": "Do you mind _____ me with this heavy box?",
+      "options": [
+        {
+          "id": "a",
+          "label": "to help"
+        },
+        {
+          "id": "b",
+          "label": "help"
+        },
+        {
+          "id": "c",
+          "label": "helping"
+        },
+        {
+          "id": "d",
+          "label": "helped"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'Do you mind' (khi dùng để hỏi) luôn theo sau bởi một động từ thêm -ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_006",
+      "prompt": "She hopes _____ a scholarship to study abroad.",
+      "options": [
+        {
+          "id": "a",
+          "label": "getting"
+        },
+        {
+          "id": "b",
+          "label": "get"
+        },
+        {
+          "id": "c",
+          "label": "to get"
+        },
+        {
+          "id": "d",
+          "label": "got"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'hope' thường được theo sau bởi động từ nguyên mẫu có 'to' (to-V) để diễn tả mong muốn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_007",
+      "prompt": "We need _____ by ourselves to know the benefits of sports.",
+      "options": [
+        {
+          "id": "a",
+          "label": "trying"
+        },
+        {
+          "id": "b",
+          "label": "try"
+        },
+        {
+          "id": "c",
+          "label": "to try"
+        },
+        {
+          "id": "d",
+          "label": "tried"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi 'need' có chủ ngữ thực hiện hành động, nó thường được theo sau bởi động từ nguyên mẫu có 'to' (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_008",
+      "prompt": "The doctor suggested _____ more fruits and vegetables.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to eat"
+        },
+        {
+          "id": "b",
+          "label": "eating"
+        },
+        {
+          "id": "c",
+          "label": "eat"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'suggest' luôn theo sau bởi một động từ ở dạng V-ing để đưa ra một gợi ý."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_009",
+      "prompt": "He refused _____ any help with his project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "accepting"
+        },
+        {
+          "id": "b",
+          "label": "accept"
+        },
+        {
+          "id": "c",
+          "label": "to accept"
+        },
+        {
+          "id": "d",
+          "label": "accepted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'refuse' thường được theo sau bởi động từ nguyên mẫu có 'to' (to-V) để chỉ sự từ chối."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_010",
+      "prompt": "Have you finished _____ your homework yet?",
+      "options": [
+        {
+          "id": "a",
+          "label": "to do"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "doing"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'finish' luôn đi kèm với dạng V-ing để diễn tả việc hoàn thành một hành động."
+  }
+]

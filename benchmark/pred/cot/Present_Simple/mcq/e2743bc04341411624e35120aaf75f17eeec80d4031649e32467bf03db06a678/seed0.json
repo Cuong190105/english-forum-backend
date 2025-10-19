@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "walk"
+        },
+        {
+          "id": "b",
+          "label": "walks"
+        },
+        {
+          "id": "c",
+          "label": "walked"
+        },
+        {
+          "id": "d",
+          "label": "walking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số ít (My sister) dùng động từ thêm 's' hoặc 'es' ở thì Hiện tại đơn cho thói quen hàng ngày."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "rising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sự thật hiển nhiên luôn dùng thì Hiện tại đơn, động từ chia theo chủ ngữ số ít (The sun)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "They usually _____ coffee in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't drink"
+        },
+        {
+          "id": "b",
+          "label": "doesn't drink"
+        },
+        {
+          "id": "c",
+          "label": "aren't drinking"
+        },
+        {
+          "id": "d",
+          "label": "didn't drink"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (They) dùng 'do not' hoặc 'don't' với động từ nguyên mẫu ở thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ he _____ his homework after dinner?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do / do"
+        },
+        {
+          "id": "b",
+          "label": "Does / does"
+        },
+        {
+          "id": "c",
+          "label": "Do / does"
+        },
+        {
+          "id": "d",
+          "label": "Does / do"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Với chủ ngữ số ít (he) trong câu hỏi Hiện tại đơn, dùng trợ động từ 'Does' và động từ chính nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "boiled"
+        },
+        {
+          "id": "d",
+          "label": "is boiling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sự thật khoa học dùng thì Hiện tại đơn. 'Water' là danh từ không đếm được, chia động từ như số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "She always _____ her keys.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lose"
+        },
+        {
+          "id": "b",
+          "label": "loses"
+        },
+        {
+          "id": "c",
+          "label": "lost"
+        },
+        {
+          "id": "d",
+          "label": "is losing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ tần suất 'always' chỉ thói quen. Chủ ngữ số ít (She) dùng động từ thêm 's' ở Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "My parents _____ doctors.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số nhiều (My parents) dùng 'are' với động từ 'to be' ở thì Hiện tại đơn để diễn tả sự thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "He _____ from Vietnam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't"
+        },
+        {
+          "id": "b",
+          "label": "aren't"
+        },
+        {
+          "id": "c",
+          "label": "don't be"
+        },
+        {
+          "id": "d",
+          "label": "doesn't be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số ít (He), dạng phủ định của động từ 'to be' là 'is not' hoặc 'isn't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "_____ you busy on weekends?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Does"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ 'you' trong câu hỏi Hiện tại đơn dùng động từ 'to be', ta dùng 'Are'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "People often _____ other media.",
+      "options": [
+        {
+          "id": "a",
+          "label": "choose"
+        },
+        {
+          "id": "b",
+          "label": "chooses"
+        },
+        {
+          "id": "c",
+          "label": "chose"
+        },
+        {
+          "id": "d",
+          "label": "choosing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (People) dùng động từ nguyên mẫu ở thì Hiện tại đơn cho thói quen hoặc sự thật chung."
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_001",
+      "prompt": "I think the new product _____ be very popular with customers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "would"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” dùng cho dự đoán đơn giản, thường đi kèm với các cụm từ như “I think”. “Is going to” thường có bằng chứng rõ ràng hơn cho dự đoán."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_002",
+      "prompt": "The phone is ringing. I _____ answer it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "am answering"
+        },
+        {
+          "id": "d",
+          "label": "answer"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” dùng để diễn tả một quyết định tức thời, được đưa ra ngay tại thời điểm nói. “Am going to” dùng cho kế hoạch đã định trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_003",
+      "prompt": "It seems like the competition _____ be even stronger with the emergence of new producers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is going to"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "would"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” dùng để diễn tả một dự đoán hoặc sự thật trong tương lai, đặc biệt khi có các cụm từ như “it seems like”. “Is going to” thường có bằng chứng cụ thể hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_004",
+      "prompt": "Don't worry about the heavy box. I _____ help you carry it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am going to"
+        },
+        {
+          "id": "c",
+          "label": "help"
+        },
+        {
+          "id": "d",
+          "label": "am helping"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Will” được dùng để đưa ra lời đề nghị giúp đỡ hoặc lời hứa. Các lựa chọn khác không phù hợp với ngữ cảnh này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fut_will_005",
+      "prompt": "He says he _____ be able to finish the project by Friday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't"
+        },
+        {
+          "id": "b",
+          "label": "isn't going to"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "isn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Won't” (will not) dùng để diễn tả sự từ chối hoặc dự đoán tiêu cực về khả năng hoàn thành một việc trong tương lai."
+  }
+]

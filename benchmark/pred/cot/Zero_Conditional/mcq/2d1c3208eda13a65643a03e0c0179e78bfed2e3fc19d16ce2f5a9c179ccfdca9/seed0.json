@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_001",
+      "prompt": "If you heat water to 100 degrees Celsius, it _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boils"
+        },
+        {
+          "id": "b",
+          "label": "will boil"
+        },
+        {
+          "id": "c",
+          "label": "boiled"
+        },
+        {
+          "id": "d",
+          "label": "is boiling"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề điều kiện loại 0 diễn tả sự thật hiển nhiên, cả hai vế đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_002",
+      "prompt": "Plants _____ if they don't get enough water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "die"
+        },
+        {
+          "id": "b",
+          "label": "will die"
+        },
+        {
+          "id": "c",
+          "label": "died"
+        },
+        {
+          "id": "d",
+          "label": "are dying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật khoa học. Cả hai mệnh đề trong câu điều kiện loại 0 đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_003",
+      "prompt": "When you freeze water, it _____ into ice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "turns"
+        },
+        {
+          "id": "b",
+          "label": "will turn"
+        },
+        {
+          "id": "c",
+          "label": "turned"
+        },
+        {
+          "id": "d",
+          "label": "is turning"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 0 dùng để nói về các sự thật chung hoặc quy luật tự nhiên, cả hai vế đều ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_004",
+      "prompt": "If you drop an apple, it _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "falls"
+        },
+        {
+          "id": "b",
+          "label": "will fall"
+        },
+        {
+          "id": "c",
+          "label": "fell"
+        },
+        {
+          "id": "d",
+          "label": "is falling"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một quy luật vật lý. Trong câu điều kiện loại 0, cả hai mệnh đề đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_005",
+      "prompt": "I _____ sick if I eat too much sugar.",
+      "options": [
+        {
+          "id": "a",
+          "label": "feel"
+        },
+        {
+          "id": "b",
+          "label": "will feel"
+        },
+        {
+          "id": "c",
+          "label": "felt"
+        },
+        {
+          "id": "d",
+          "label": "am feeling"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 0 diễn tả thói quen hoặc kết quả luôn đúng. Cả hai vế đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_006",
+      "prompt": "When metal gets hot, it _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "expands"
+        },
+        {
+          "id": "b",
+          "label": "will expand"
+        },
+        {
+          "id": "c",
+          "label": "expanded"
+        },
+        {
+          "id": "d",
+          "label": "is expanding"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật khoa học. Cả hai mệnh đề trong câu điều kiện loại 0 đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_007",
+      "prompt": "If you mix blue and yellow, you _____ green.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "will get"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "are getting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 0 dùng để diễn tả sự thật hiển nhiên hoặc kết quả luôn đúng. Cả hai vế đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_008",
+      "prompt": "If you don't sleep enough, you _____ tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "feel"
+        },
+        {
+          "id": "b",
+          "label": "will feel"
+        },
+        {
+          "id": "c",
+          "label": "felt"
+        },
+        {
+          "id": "d",
+          "label": "are feeling"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật chung về sức khỏe. Cả hai mệnh đề trong câu điều kiện loại 0 đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_009",
+      "prompt": "When you press this button, the machine _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "starts"
+        },
+        {
+          "id": "b",
+          "label": "will start"
+        },
+        {
+          "id": "c",
+          "label": "started"
+        },
+        {
+          "id": "d",
+          "label": "is starting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 0 diễn tả một kết quả luôn xảy ra khi một điều kiện nhất định được đáp ứng. Cả hai vế đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_010",
+      "prompt": "If you understand the whole idea, you _____ how the theory works.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can imagine"
+        },
+        {
+          "id": "b",
+          "label": "will imagine"
+        },
+        {
+          "id": "c",
+          "label": "imagined"
+        },
+        {
+          "id": "d",
+          "label": "are imagining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 0 diễn tả một sự thật chung hoặc một kết quả logic. Cả hai vế đều dùng thì hiện tại đơn."
+  }
+]

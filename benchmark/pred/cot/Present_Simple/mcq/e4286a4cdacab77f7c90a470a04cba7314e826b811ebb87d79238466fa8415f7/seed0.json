@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số ít (My sister) dùng động từ thêm -es ở thì Hiện tại đơn. \"Every day\" là dấu hiệu thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "is rising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên, nên dùng thì Hiện tại đơn với động từ thêm -s cho chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "He _____ like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "is not"
+        },
+        {
+          "id": "d",
+          "label": "did not"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số ít (He) dùng trợ động từ \"does\" để tạo câu phủ định ở thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ she usually _____ her homework after dinner?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do / do"
+        },
+        {
+          "id": "b",
+          "label": "Does / do"
+        },
+        {
+          "id": "c",
+          "label": "Do / does"
+        },
+        {
+          "id": "d",
+          "label": "Does / does"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số ít (she) dùng trợ động từ \"Does\" ở đầu câu hỏi. Động từ chính giữ nguyên mẫu sau trợ động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "We often _____ books in the library.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "reads"
+        },
+        {
+          "id": "c",
+          "label": "reading"
+        },
+        {
+          "id": "d",
+          "label": "readed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (We) dùng động từ nguyên mẫu ở thì Hiện tại đơn. \"Often\" là dấu hiệu thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "They _____ play football on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        },
+        {
+          "id": "d",
+          "label": "did not"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (They) dùng trợ động từ \"do\" để tạo câu phủ định ở thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "_____ your parents _____ in a big city?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do / live"
+        },
+        {
+          "id": "b",
+          "label": "Does / live"
+        },
+        {
+          "id": "c",
+          "label": "Do / lives"
+        },
+        {
+          "id": "d",
+          "label": "Does / lives"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (your parents) dùng trợ động từ \"Do\" ở đầu câu hỏi. Động từ chính giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "Some Japanese teachers often _____ only about facts during class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "speak"
+        },
+        {
+          "id": "b",
+          "label": "speaks"
+        },
+        {
+          "id": "c",
+          "label": "spoke"
+        },
+        {
+          "id": "d",
+          "label": "are speaking"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (Some Japanese teachers) dùng động từ nguyên mẫu ở thì Hiện tại đơn. \"Often\" là dấu hiệu thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "I usually _____ up early on weekdays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "gets"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "am getting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ \"I\" dùng động từ nguyên mẫu ở thì Hiện tại đơn. \"Usually\" là dấu hiệu thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "The Earth _____ around the sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "moves"
+        },
+        {
+          "id": "c",
+          "label": "moved"
+        },
+        {
+          "id": "d",
+          "label": "is moving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật khoa học, nên dùng thì Hiện tại đơn với động từ thêm -s cho chủ ngữ số ít (The Earth)."
+  }
+]

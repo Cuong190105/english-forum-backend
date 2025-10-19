@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Yesterday, I _____ to the supermarket to buy some groceries.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "gone"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Yesterday” là dấu hiệu của thì quá khứ đơn. Động từ “go” ở quá khứ là “went”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "My sister _____ not finish her project last night because she was sick.",
+      "options": [
+        {
+          "id": "a",
+          "label": "does"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last night” chỉ quá khứ đơn. Để tạo câu phủ định, ta dùng trợ động từ “did” + “not” + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "_____ you see the new movie with your friends last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last weekend” là dấu hiệu thì quá khứ đơn. Để đặt câu hỏi, ta dùng trợ động từ “Did” ở đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "They _____ a beautiful old car three years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "bought"
+        },
+        {
+          "id": "c",
+          "label": "have bought"
+        },
+        {
+          "id": "d",
+          "label": "buying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Three years ago” chỉ thời gian trong quá khứ. Động từ “buy” ở quá khứ đơn là “bought”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "We _____ our summer vacation in Da Lat last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "spend"
+        },
+        {
+          "id": "b",
+          "label": "spent"
+        },
+        {
+          "id": "c",
+          "label": "have spent"
+        },
+        {
+          "id": "d",
+          "label": "spending"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last year” là dấu hiệu của thì quá khứ đơn. Động từ “spend” ở quá khứ là “spent”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "He _____ very happy when he received the good news yesterday morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Yesterday morning” chỉ quá khứ đơn. Chủ ngữ “He” (số ít) đi với “was” trong thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "The students _____ in the library an hour ago, studying for their exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“An hour ago” là dấu hiệu thì quá khứ đơn. Chủ ngữ “The students” (số nhiều) đi với “were” trong thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "Why _____ you call me back last night? I was worried.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "haven't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Last night” chỉ quá khứ đơn. Để hỏi lý do phủ định trong quá khứ, ta dùng “Why didn't you...”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "What time _____ the train leave this morning?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "has"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“This morning” (đã qua) là dấu hiệu thì quá khứ đơn. Để hỏi về hành động trong quá khứ, ta dùng trợ động từ “did”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "She _____ a delicious cake for her brother's birthday party last Saturday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "makes"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "make"
+        },
+        {
+          "id": "d",
+          "label": "has made"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last Saturday” là dấu hiệu thì quá khứ đơn. Động từ “make” ở quá khứ là “made”."
+  }
+]

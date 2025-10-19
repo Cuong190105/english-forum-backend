@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_001",
+      "prompt": "My sister enjoys _____ new languages.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to learn"
+        },
+        {
+          "id": "b",
+          "label": "learning"
+        },
+        {
+          "id": "c",
+          "label": "learn"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"enjoy\" luôn theo sau bởi một danh động từ (V-ing). Các lựa chọn khác không đúng cấu trúc ngữ pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_002",
+      "prompt": "They decided _____ a new marketing strategy next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "implementing"
+        },
+        {
+          "id": "b",
+          "label": "to implement"
+        },
+        {
+          "id": "c",
+          "label": "implement"
+        },
+        {
+          "id": "d",
+          "label": "implemented"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"decide\" thường được theo sau bởi một động từ nguyên mẫu có \"to\" (to-V) để chỉ một quyết định hoặc kế hoạch."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_003",
+      "prompt": "You can achieve success by _____ hard and staying focused.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to work"
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ (như \"by\", \"for\", \"without\"), động từ luôn ở dạng V-ing. Các lựa chọn khác sai cấu trúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_004",
+      "prompt": "He tries to avoid _____ late for meetings.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to be"
+        },
+        {
+          "id": "b",
+          "label": "being"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"avoid\" là một trong số các động từ luôn theo sau bởi V-ing. \"To be\" và \"be\" không đúng cấu trúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_005",
+      "prompt": "We are planning _____ our annual conference in Da Nang this year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "holding"
+        },
+        {
+          "id": "b",
+          "label": "to hold"
+        },
+        {
+          "id": "c",
+          "label": "hold"
+        },
+        {
+          "id": "d",
+          "label": "held"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"plan\" thường được theo sau bởi to-V để diễn tả một kế hoạch hoặc dự định trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_006",
+      "prompt": "She went to the library _____ some research for her project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doing"
+        },
+        {
+          "id": "b",
+          "label": "to do"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng động từ nguyên mẫu có \"to\" (to-V) để diễn tả mục đích của hành động. Cô ấy đi thư viện VỚI MỤC ĐÍCH làm nghiên cứu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_007",
+      "prompt": "Would you mind _____ the window, please? It's a bit stuffy in here.",
+      "options": [
+        {
+          "id": "a",
+          "label": "opening"
+        },
+        {
+          "id": "b",
+          "label": "to open"
+        },
+        {
+          "id": "c",
+          "label": "open"
+        },
+        {
+          "id": "d",
+          "label": "opened"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"Would you mind\" (bạn có phiền không) luôn theo sau bởi một danh động từ (V-ing). Các lựa chọn khác sai cấu trúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_008",
+      "prompt": "I hope _____ you at the upcoming workshop.",
+      "options": [
+        {
+          "id": "a",
+          "label": "seeing"
+        },
+        {
+          "id": "b",
+          "label": "to see"
+        },
+        {
+          "id": "c",
+          "label": "see"
+        },
+        {
+          "id": "d",
+          "label": "saw"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"hope\" (hy vọng) thường được theo sau bởi to-V để diễn tả một mong muốn hoặc kỳ vọng trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_009",
+      "prompt": "It's often difficult _____ new habits.",
+      "options": [
+        {
+          "id": "a",
+          "label": "forming"
+        },
+        {
+          "id": "b",
+          "label": "to form"
+        },
+        {
+          "id": "c",
+          "label": "form"
+        },
+        {
+          "id": "d",
+          "label": "formed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau các tính từ như \"difficult\", \"easy\", \"important\", \"necessary\", thường dùng động từ nguyên mẫu có \"to\" (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_010",
+      "prompt": "The manager suggested _____ a team-building event next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "organizing"
+        },
+        {
+          "id": "b",
+          "label": "to organize"
+        },
+        {
+          "id": "c",
+          "label": "organize"
+        },
+        {
+          "id": "d",
+          "label": "organized"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ \"suggest\" (gợi ý) là một trong số các động từ luôn theo sau bởi V-ing. Các lựa chọn khác không đúng cấu trúc."
+  }
+]

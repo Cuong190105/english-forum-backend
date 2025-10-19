@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Every day” chỉ thói quen, dùng thì hiện tại đơn. Chủ ngữ “My sister” là số ít nên động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_002",
+      "prompt": "The Earth _____ around the sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "moves"
+        },
+        {
+          "id": "c",
+          "label": "moved"
+        },
+        {
+          "id": "d",
+          "label": "is moving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là sự thật khoa học hiển nhiên, dùng thì hiện tại đơn. Chủ ngữ “The Earth” là số ít nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_003",
+      "prompt": "He _____ usually drink coffee in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Usually” chỉ thói quen. Chủ ngữ “He” là số ít, nên dùng trợ động từ “doesn't” cho câu phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_004",
+      "prompt": "We _____ often visit our grandparents on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Often” và “on weekends” chỉ thói quen. Chủ ngữ “We” là số nhiều, nên dùng trợ động từ “don't” cho câu phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_005",
+      "prompt": "_____ your brother play any sports?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Has"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là câu hỏi về thói quen/sở thích. Chủ ngữ “your brother” là số ít, nên dùng trợ động từ “Does”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_006",
+      "prompt": "_____ they enjoy watching movies together?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu hỏi về sở thích chung. Chủ ngữ “they” là số nhiều, nên dùng trợ động từ “Do”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_007",
+      "prompt": "My best friend _____ very kind and helpful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là sự thật về tính cách. Chủ ngữ “My best friend” là số ít, nên dùng động từ “to be” là “is”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_008",
+      "prompt": "Most birds _____ south for the winter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fly"
+        },
+        {
+          "id": "b",
+          "label": "flies"
+        },
+        {
+          "id": "c",
+          "label": "flew"
+        },
+        {
+          "id": "d",
+          "label": "is flying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là sự thật chung về loài chim. Chủ ngữ “Most birds” là số nhiều, nên động từ giữ nguyên thể “fly”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_009",
+      "prompt": "She always _____ her phone on silent mode.",
+      "options": [
+        {
+          "id": "a",
+          "label": "keep"
+        },
+        {
+          "id": "b",
+          "label": "keeps"
+        },
+        {
+          "id": "c",
+          "label": "kept"
+        },
+        {
+          "id": "d",
+          "label": "is keeping"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Always” chỉ thói quen. Chủ ngữ “She” là số ít, nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_010",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "boiled"
+        },
+        {
+          "id": "d",
+          "label": "is boiling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là sự thật khoa học hiển nhiên, dùng thì hiện tại đơn. Chủ ngữ “Water” là danh từ không đếm được (số ít), nên động từ thêm -s."
+  }
+]

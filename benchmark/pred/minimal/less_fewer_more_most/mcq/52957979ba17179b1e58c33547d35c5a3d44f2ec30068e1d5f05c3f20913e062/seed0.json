@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "There are _____ students in the library today than yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Students” là danh từ đếm được, nên dùng “fewer”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "I need _____ time to finish this project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cần thêm thời gian để hoàn thành, nên dùng “more”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "She is the _____ talented singer I know.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là dạng so sánh nhất, nên dùng “most”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "It takes _____ than two hours to get there by train.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với các đơn vị đo lường như thời gian, tiền bạc, khoảng cách, thường dùng “less” ngay cả khi danh từ số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "We have _____ apples left in the basket.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Apples” là danh từ đếm được, nên dùng “fewer”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Could you give me _____ information about the course?",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Information” là danh từ không đếm được, và bạn muốn thêm thông tin, nên dùng “more”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "_____ people prefer coffee to tea in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Less"
+        },
+        {
+          "id": "b",
+          "label": "Fewer"
+        },
+        {
+          "id": "c",
+          "label": "More"
+        },
+        {
+          "id": "d",
+          "label": "Most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Most” dùng để chỉ phần lớn, đa số."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "I feel _____ stress after finishing my exams.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Stress” là danh từ không đếm được, nên dùng “less”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "There were no _____ than fifty guests at the party.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Guests” là danh từ đếm được. Cụm “no fewer than” có nghĩa là “không ít hơn”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "To achieve success, you need _____ effort and _____ mistakes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "more / less"
+        },
+        {
+          "id": "b",
+          "label": "less / more"
+        },
+        {
+          "id": "c",
+          "label": "fewer / less"
+        },
+        {
+          "id": "d",
+          "label": "more / fewer"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Effort” là danh từ không đếm được, “mistakes” là danh từ đếm được."
+  }
+]

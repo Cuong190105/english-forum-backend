@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Extract 1000 JFLEG balanced",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"scripts/extract_jfleg_1000_sources.py",
+				"--from-hf",
+				"--count",
+				"1000",
+				"--seed",
+				"0",
+				"--balanced-per-split"
+			]
+		}
+	]
+}

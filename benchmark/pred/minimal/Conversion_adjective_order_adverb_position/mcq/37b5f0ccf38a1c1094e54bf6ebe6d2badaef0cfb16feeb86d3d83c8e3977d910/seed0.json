@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She bought a beautiful old French silk dress. Which word order is correct for the adjectives?",
+      "options": [
+        {
+          "id": "a",
+          "label": "beautiful, old, French, silk"
+        },
+        {
+          "id": "b",
+          "label": "old, beautiful, French, silk"
+        },
+        {
+          "id": "c",
+          "label": "French, beautiful, old, silk"
+        },
+        {
+          "id": "d",
+          "label": "silk, beautiful, old, French"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ thường là: ý kiến, kích thước, tuổi, hình dạng, màu sắc, nguồn gốc, chất liệu, mục đích."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "He sings. (beautifully) Where should the adverb 'beautifully' be placed?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He beautifully sings."
+        },
+        {
+          "id": "b",
+          "label": "He sings beautifully."
+        },
+        {
+          "id": "c",
+          "label": "Beautifully he sings."
+        },
+        {
+          "id": "d",
+          "label": "He sings, beautifully."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ chỉ cách thức thường đứng sau động từ hoặc sau tân ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The _____ (sun) day made everyone happy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sun"
+        },
+        {
+          "id": "b",
+          "label": "sunny"
+        },
+        {
+          "id": "c",
+          "label": "sunning"
+        },
+        {
+          "id": "d",
+          "label": "sunned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần một tính từ để mô tả danh từ \"day\". \"Sunny\" là tính từ của \"sun\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "I go to the gym. (often) Where should the adverb 'often' be placed?",
+      "options": [
+        {
+          "id": "a",
+          "label": "I often go to the gym."
+        },
+        {
+          "id": "b",
+          "label": "I go often to the gym."
+        },
+        {
+          "id": "c",
+          "label": "Often I go to the gym."
+        },
+        {
+          "id": "d",
+          "label": "I go to the gym often."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ chỉ tần suất thường đứng trước động từ chính, nhưng sau động từ \"to be\" hoặc trợ động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "They live in a _____ (big, red, old) house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "big old red"
+        },
+        {
+          "id": "b",
+          "label": "old big red"
+        },
+        {
+          "id": "c",
+          "label": "red big old"
+        },
+        {
+          "id": "d",
+          "label": "big red old"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ: kích thước, tuổi, màu sắc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Her _____ (perform) was outstanding.",
+      "options": [
+        {
+          "id": "a",
+          "label": "perform"
+        },
+        {
+          "id": "b",
+          "label": "performing"
+        },
+        {
+          "id": "c",
+          "label": "performance"
+        },
+        {
+          "id": "d",
+          "label": "performed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cần một danh từ để làm chủ ngữ cho động từ \"was\". \"Performance\" là danh từ của \"perform\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "We will meet. (tomorrow) Where should the adverb 'tomorrow' be placed?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Tomorrow we will meet."
+        },
+        {
+          "id": "b",
+          "label": "We tomorrow will meet."
+        },
+        {
+          "id": "c",
+          "label": "We will tomorrow meet."
+        },
+        {
+          "id": "d",
+          "label": "We will meet tomorrow."
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trạng từ chỉ thời gian thường đứng ở cuối câu hoặc đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "He bought a _____ (new, leather, black) jacket.",
+      "options": [
+        {
+          "id": "a",
+          "label": "new black leather"
+        },
+        {
+          "id": "b",
+          "label": "black new leather"
+        },
+        {
+          "id": "c",
+          "label": "leather new black"
+        },
+        {
+          "id": "d",
+          "label": "new leather black"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ: tuổi, màu sắc, chất liệu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The government should help the _____. (poor)",
+      "options": [
+        {
+          "id": "a",
+          "label": "poor"
+        },
+        {
+          "id": "b",
+          "label": "poorly"
+        },
+        {
+          "id": "c",
+          "label": "poverty"
+        },
+        {
+          "id": "d",
+          "label": "poors"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"the + tính từ\" để chỉ một nhóm người."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "She is _____ tired. (very)",
+      "options": [
+        {
+          "id": "a",
+          "label": "Very she is tired."
+        },
+        {
+          "id": "b",
+          "label": "She very is tired."
+        },
+        {
+          "id": "c",
+          "label": "She is very tired."
+        },
+        {
+          "id": "d",
+          "label": "She is tired very."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ chỉ mức độ thường đứng trước tính từ hoặc trạng từ mà nó bổ nghĩa."
+  }
+]

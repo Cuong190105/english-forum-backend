@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_001",
+      "prompt": "She _____ arrives late for meetings, which is unusual for her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always"
+        },
+        {
+          "id": "b",
+          "label": "usually"
+        },
+        {
+          "id": "c",
+          "label": "rarely"
+        },
+        {
+          "id": "d",
+          "label": "never"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ 'rarely' (hiếm khi) phù hợp với ngữ cảnh 'unusual' (không bình thường). Các trạng từ khác không diễn tả sự hiếm gặp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_002",
+      "prompt": "They bought a _____ car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "new red sports"
+        },
+        {
+          "id": "b",
+          "label": "red new sports"
+        },
+        {
+          "id": "c",
+          "label": "sports new red"
+        },
+        {
+          "id": "d",
+          "label": "new sports red"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ đúng là: Age (new) -> Color (red) -> Type/Purpose (sports). Các lựa chọn khác sai trật tự."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_003",
+      "prompt": "He drives very _____ on busy roads.",
+      "options": [
+        {
+          "id": "a",
+          "label": "careful"
+        },
+        {
+          "id": "b",
+          "label": "carefully"
+        },
+        {
+          "id": "c",
+          "label": "care"
+        },
+        {
+          "id": "d",
+          "label": "caring"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần một trạng từ ('carefully') để bổ nghĩa cho động từ 'drives'. 'Careful' là tính từ, không dùng để bổ nghĩa cho động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_004",
+      "prompt": "The student answered the question _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "quick"
+        },
+        {
+          "id": "b",
+          "label": "quickly"
+        },
+        {
+          "id": "c",
+          "label": "quickness"
+        },
+        {
+          "id": "d",
+          "label": "quicker"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần một trạng từ ('quickly') để bổ nghĩa cho động từ 'answered'. 'Quick' là tính từ, 'quickness' là danh từ, 'quicker' là tính từ so sánh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_005",
+      "prompt": "She wore a _____ dress to the party.",
+      "options": [
+        {
+          "id": "a",
+          "label": "beautiful long black"
+        },
+        {
+          "id": "b",
+          "label": "long beautiful black"
+        },
+        {
+          "id": "c",
+          "label": "black beautiful long"
+        },
+        {
+          "id": "d",
+          "label": "beautiful black long"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ đúng là: Opinion (beautiful) -> Size (long) -> Color (black). Các lựa chọn khác sai trật tự."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_006",
+      "prompt": "The company needs a _____ solution for its energy problems.",
+      "options": [
+        {
+          "id": "a",
+          "label": "practice"
+        },
+        {
+          "id": "b",
+          "label": "practical"
+        },
+        {
+          "id": "c",
+          "label": "practically"
+        },
+        {
+          "id": "d",
+          "label": "practicality"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần một tính từ ('practical') để bổ nghĩa cho danh từ 'solution'. 'Practice' là danh từ/động từ, 'practically' là trạng từ, 'practicality' là danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_007",
+      "prompt": "We finished the project _____ last night, so we could relax.",
+      "options": [
+        {
+          "id": "a",
+          "label": "late"
+        },
+        {
+          "id": "b",
+          "label": "lately"
+        },
+        {
+          "id": "c",
+          "label": "later"
+        },
+        {
+          "id": "d",
+          "label": "latest"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ 'late' (muộn) bổ nghĩa cho động từ 'finished'. 'Lately' có nghĩa là gần đây, không phù hợp với 'last night'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_008",
+      "prompt": "He bought an _____ bag for his books.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leather old school"
+        },
+        {
+          "id": "b",
+          "label": "old leather school"
+        },
+        {
+          "id": "c",
+          "label": "school old leather"
+        },
+        {
+          "id": "d",
+          "label": "old school leather"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thứ tự tính từ đúng là: Age (old) -> Material (leather) -> Purpose (school). Các lựa chọn khác sai trật tự."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_009",
+      "prompt": "The _____ of these documents is crucial for the report.",
+      "options": [
+        {
+          "id": "a",
+          "label": "write"
+        },
+        {
+          "id": "b",
+          "label": "written"
+        },
+        {
+          "id": "c",
+          "label": "writing"
+        },
+        {
+          "id": "d",
+          "label": "wrote"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cần một danh từ để làm chủ ngữ. 'Writing' (việc viết) là dạng danh động từ, phù hợp với ngữ cảnh. Các lựa chọn khác là động từ hoặc tính từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "conv_adj_adv_010",
+      "prompt": "The presentation was _____ impressive, everyone applauded.",
+      "options": [
+        {
+          "id": "a",
+          "label": "very"
+        },
+        {
+          "id": "b",
+          "label": "too much"
+        },
+        {
+          "id": "c",
+          "label": "much"
+        },
+        {
+          "id": "d",
+          "label": "so much"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ 'very' dùng để bổ nghĩa cho tính từ 'impressive'. 'Too much' và 'so much' thường dùng với danh từ hoặc động từ, không phải tính từ."
+  }
+]

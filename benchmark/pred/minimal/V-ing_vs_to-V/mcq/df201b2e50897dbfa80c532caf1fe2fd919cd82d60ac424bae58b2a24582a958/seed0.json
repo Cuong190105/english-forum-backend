@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She enjoys _____ in the park every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "walk"
+        },
+        {
+          "id": "b",
+          "label": "to walk"
+        },
+        {
+          "id": "c",
+          "label": "walking"
+        },
+        {
+          "id": "d",
+          "label": "walked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"enjoy\" luôn theo sau bởi một động từ thêm -ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "He decided _____ a new car next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "to buy"
+        },
+        {
+          "id": "c",
+          "label": "buying"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"decide\" thường theo sau bởi một động từ nguyên mẫu có \"to\" (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They stopped _____ a coffee on their way to work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "to have"
+        },
+        {
+          "id": "c",
+          "label": "having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Stop to V\" có nghĩa là dừng lại để làm một việc gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "I remember _____ her at the party last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "meet"
+        },
+        {
+          "id": "b",
+          "label": "to meet"
+        },
+        {
+          "id": "c",
+          "label": "meeting"
+        },
+        {
+          "id": "d",
+          "label": "met"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Remember V-ing\" dùng để nói về việc nhớ một hành động đã xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Don't forget _____ the door when you leave.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lock"
+        },
+        {
+          "id": "b",
+          "label": "to lock"
+        },
+        {
+          "id": "c",
+          "label": "locking"
+        },
+        {
+          "id": "d",
+          "label": "locked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Forget to V\" dùng để nói về việc quên làm một hành động cần phải làm (chưa làm)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "She is good at _____ English.",
+      "options": [
+        {
+          "id": "a",
+          "label": "speak"
+        },
+        {
+          "id": "b",
+          "label": "to speak"
+        },
+        {
+          "id": "c",
+          "label": "speaking"
+        },
+        {
+          "id": "d",
+          "label": "spoke"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ (at, in, on, for, etc.) là một động từ thêm -ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "It's difficult _____ a new language.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "to learn"
+        },
+        {
+          "id": "c",
+          "label": "learning"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc \"It's + tính từ + to V\" dùng để diễn tả sự khó khăn hoặc dễ dàng khi làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "My parents don't allow me _____ out late.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "to go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc \"allow someone to do something\" có nghĩa là cho phép ai đó làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "He avoids _____ fast food.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eat"
+        },
+        {
+          "id": "b",
+          "label": "to eat"
+        },
+        {
+          "id": "c",
+          "label": "eating"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"avoid\" luôn theo sau bởi một động từ thêm -ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Would you mind _____ the window?",
+      "options": [
+        {
+          "id": "a",
+          "label": "open"
+        },
+        {
+          "id": "b",
+          "label": "to open"
+        },
+        {
+          "id": "c",
+          "label": "opening"
+        },
+        {
+          "id": "d",
+          "label": "opened"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"Would you mind\" luôn theo sau bởi một động từ thêm -ing."
+  }
+]

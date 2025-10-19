@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS001",
+      "prompt": "My brother _____ video games every evening after finishing his homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "is playing"
+        },
+        {
+          "id": "d",
+          "label": "are playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động lặp đi lặp lại ở hiện tại (every evening) dùng thì hiện tại đơn. Chủ ngữ là 'My brother' (ngôi thứ ba số ít) nên động từ cần thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS002",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "is boiling"
+        },
+        {
+          "id": "c",
+          "label": "boils"
+        },
+        {
+          "id": "d",
+          "label": "boiled"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại đơn được dùng để diễn tả một sự thật hiển nhiên, một chân lý khoa học. 'Water' là danh từ không đếm được, coi như ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS003",
+      "prompt": "My parents _____ in Hanoi. They work for a big company there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "is living"
+        },
+        {
+          "id": "d",
+          "label": "are live"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ là 'My parents' (số nhiều) nên động từ ở thì hiện tại đơn giữ nguyên dạng (không thêm 's')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS004",
+      "prompt": "He _____ like coffee. He prefers tea.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "isn't"
+        },
+        {
+          "id": "c",
+          "label": "not"
+        },
+        {
+          "id": "d",
+          "label": "doesn't"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu phủ định ở thì hiện tại đơn với chủ ngữ ngôi thứ ba số ít (He) cần dùng trợ động từ 'doesn't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS005",
+      "prompt": "_____ you usually walk to school with your friends?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Are"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Does"
+        },
+        {
+          "id": "d",
+          "label": "Is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi ở thì hiện tại đơn với chủ ngữ 'you' cần dùng trợ động từ 'Do'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS006",
+      "prompt": "The school bus _____ at 6:30 AM every weekday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "arrive"
+        },
+        {
+          "id": "b",
+          "label": "arrives"
+        },
+        {
+          "id": "c",
+          "label": "is arriving"
+        },
+        {
+          "id": "d",
+          "label": "has arrived"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn dùng cho lịch trình, thời gian biểu. Chủ ngữ 'The school bus' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS007",
+      "prompt": "My teacher, Mrs. Hoa, _____ very patient and kind.",
+      "options": [
+        {
+          "id": "a",
+          "label": "be"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "am"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với chủ ngữ là ngôi thứ ba số ít ('My teacher, Mrs. Hoa'), động từ 'to be' được chia là 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS008",
+      "prompt": "What time _____ the English class finish?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu hỏi Wh- ở hiện tại đơn, với chủ ngữ là ngôi thứ ba số ít ('the English class'), ta dùng trợ động từ 'does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS009",
+      "prompt": "I _____ have a lot of homework on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "am not"
+        },
+        {
+          "id": "c",
+          "label": "don't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu phủ định ở thì hiện tại đơn với chủ ngữ 'I' dùng trợ động từ 'don't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS010",
+      "prompt": "A good student always _____ attention in class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "pay"
+        },
+        {
+          "id": "b",
+          "label": "pays"
+        },
+        {
+          "id": "c",
+          "label": "is paying"
+        },
+        {
+          "id": "d",
+          "label": "are paying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'A good student' là danh từ số ít, ngôi thứ ba. Động từ ở thì hiện tại đơn cần thêm 's'."
+  }
+]

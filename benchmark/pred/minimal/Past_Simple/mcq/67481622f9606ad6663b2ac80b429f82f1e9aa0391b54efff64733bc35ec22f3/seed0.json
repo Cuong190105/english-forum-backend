@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Last night, she _____ her homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finish"
+        },
+        {
+          "id": "b",
+          "label": "finishes"
+        },
+        {
+          "id": "c",
+          "label": "finished"
+        },
+        {
+          "id": "d",
+          "label": "finishing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ đơn của động từ thường thêm -ed."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They _____ to the cinema two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Go là động từ bất quy tắc, quá khứ đơn là went."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He _____ play football last weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "didn't"
+        },
+        {
+          "id": "c",
+          "label": "wasn't"
+        },
+        {
+          "id": "d",
+          "label": "isn't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để tạo câu phủ định trong quá khứ đơn, dùng didn't + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you visit your grandparents last summer?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Did"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi quá khứ đơn bắt đầu bằng Did + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "My parents _____ very busy yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Chủ ngữ số nhiều (parents) dùng 'were' trong quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "We _____ a delicious meal an hour ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "An hour ago là dấu hiệu của thì quá khứ đơn. Have là động từ bất quy tắc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "I _____ in Hanoi for five years, but now I live in Ho Chi Minh City.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lived"
+        },
+        {
+          "id": "b",
+          "label": "have lived"
+        },
+        {
+          "id": "c",
+          "label": "live"
+        },
+        {
+          "id": "d",
+          "label": "am living"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đã kết thúc hoàn toàn trong quá khứ, không liên quan đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "While I was studying, my phone _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ring"
+        },
+        {
+          "id": "b",
+          "label": "rings"
+        },
+        {
+          "id": "c",
+          "label": "rang"
+        },
+        {
+          "id": "d",
+          "label": "was ringing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động ngắn, đột ngột xảy ra trong khi hành động khác đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She _____ a beautiful song at the party last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sing"
+        },
+        {
+          "id": "b",
+          "label": "sings"
+        },
+        {
+          "id": "c",
+          "label": "sang"
+        },
+        {
+          "id": "d",
+          "label": "sung"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sing là động từ bất quy tắc, quá khứ đơn là sang."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "When I _____ a child, I often _____ with my toys.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am / play"
+        },
+        {
+          "id": "b",
+          "label": "was / played"
+        },
+        {
+          "id": "c",
+          "label": "were / play"
+        },
+        {
+          "id": "d",
+          "label": "am / played"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cả hai hành động đều diễn ra trong quá khứ khi còn là một đứa trẻ."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-001",
+      "prompt": "By the time we arrived at the cinema, the film _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "already started"
+        },
+        {
+          "id": "b",
+          "label": "had already started"
+        },
+        {
+          "id": "c",
+          "label": "has already started"
+        },
+        {
+          "id": "d",
+          "label": "was already starting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động (phim bắt đầu) xảy ra trước một hành động khác (chúng tôi đến) trong quá khứ. Ta dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-002",
+      "prompt": "She couldn't get into her apartment because she _____ her keys inside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "left"
+        },
+        {
+          "id": "b",
+          "label": "has left"
+        },
+        {
+          "id": "c",
+          "label": "was leaving"
+        },
+        {
+          "id": "d",
+          "label": "had left"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'để quên chìa khóa' xảy ra trước hành động 'không thể vào nhà'. Cần dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-003",
+      "prompt": "_____ you _____ your homework before you watched TV last night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did / finish"
+        },
+        {
+          "id": "b",
+          "label": "Have / finished"
+        },
+        {
+          "id": "c",
+          "label": "Had / finished"
+        },
+        {
+          "id": "d",
+          "label": "Were / finishing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về một hành động đã hoàn thành trước một hành động khác trong quá khứ. Cấu trúc câu hỏi: Had + S + V3/ed?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-004",
+      "prompt": "After Lan _____ her lunch, she went back to the office.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had eaten"
+        },
+        {
+          "id": "b",
+          "label": "ate"
+        },
+        {
+          "id": "c",
+          "label": "has eaten"
+        },
+        {
+          "id": "d",
+          "label": "was eating"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề có 'After' thường dùng thì quá khứ hoàn thành để nhấn mạnh hành động xảy ra trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-005",
+      "prompt": "My family _____ to Phu Quoc before our trip last summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have never been"
+        },
+        {
+          "id": "b",
+          "label": "were never"
+        },
+        {
+          "id": "c",
+          "label": "had never been"
+        },
+        {
+          "id": "d",
+          "label": "did not go"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả một trải nghiệm chưa từng có cho đến một thời điểm cụ thể trong quá khứ (chuyến đi mùa hè năm ngoái)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-006",
+      "prompt": "The teacher asked me why I _____ my assignment on time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't submit"
+        },
+        {
+          "id": "b",
+          "label": "haven't submitted"
+        },
+        {
+          "id": "c",
+          "label": "wasn't submitting"
+        },
+        {
+          "id": "d",
+          "label": "hadn't submitted"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trong câu tường thuật, thì quá khứ đơn (simple past) thường được lùi về thì quá khứ hoàn thành (past perfect)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-007",
+      "prompt": "I didn't recognize him at first because he _____ so much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "changed"
+        },
+        {
+          "id": "b",
+          "label": "had changed"
+        },
+        {
+          "id": "c",
+          "label": "has changed"
+        },
+        {
+          "id": "d",
+          "label": "was changing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Nguyên nhân (anh ấy thay đổi) xảy ra trước kết quả (tôi không nhận ra) trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-008",
+      "prompt": "When the firefighters arrived, the fire _____ most of the building.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has already destroyed"
+        },
+        {
+          "id": "b",
+          "label": "already destroyed"
+        },
+        {
+          "id": "c",
+          "label": "had already destroyed"
+        },
+        {
+          "id": "d",
+          "label": "was already destroying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'phá hủy' đã xảy ra và hoàn tất phần lớn trước khi 'lính cứu hỏa đến'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-009",
+      "prompt": "He told me he _____ his wallet on the bus.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had lost"
+        },
+        {
+          "id": "b",
+          "label": "lost"
+        },
+        {
+          "id": "c",
+          "label": "has lost"
+        },
+        {
+          "id": "d",
+          "label": "was losing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu tường thuật. Hành động 'mất ví' xảy ra trước hành động 'kể lại'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG-VIE-PP-010",
+      "prompt": "The students couldn't answer the questions because they _____ the lesson.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't understand"
+        },
+        {
+          "id": "b",
+          "label": "haven't understood"
+        },
+        {
+          "id": "c",
+          "label": "weren't understanding"
+        },
+        {
+          "id": "d",
+          "label": "hadn't understood"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'không hiểu bài' là nguyên nhân xảy ra trước kết quả 'không trả lời được câu hỏi' trong quá khứ."
+  }
+]

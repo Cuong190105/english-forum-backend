@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số ít (my sister) thì động từ thêm -es. \"Every morning\" chỉ thói quen, dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "They usually _____ football on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "played"
+        },
+        {
+          "id": "d",
+          "label": "playing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (they) thì động từ giữ nguyên thể. \"Usually\" và \"on weekends\" chỉ thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "The sun _____ in the East.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rises"
+        },
+        {
+          "id": "b",
+          "label": "rise"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "is rising"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hiển nhiên, dùng thì hiện tại đơn và động từ chia theo chủ ngữ số ít (the sun)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "He _____ like coffee very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số ít (he) ở thể phủ định trong thì hiện tại đơn, dùng trợ động từ \"doesn't\" + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "We _____ often watch TV in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "isn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số nhiều (we) ở thể phủ định trong thì hiện tại đơn, dùng trợ động từ \"don't\" + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "_____ she work at the hospital?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để đặt câu hỏi với chủ ngữ số ít (she) trong thì hiện tại đơn, dùng trợ động từ \"Does\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "_____ your parents live in Hanoi?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để đặt câu hỏi với chủ ngữ số nhiều (your parents) trong thì hiện tại đơn, dùng trợ động từ \"Do\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "She _____ late for class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always is"
+        },
+        {
+          "id": "b",
+          "label": "is always"
+        },
+        {
+          "id": "c",
+          "label": "always be"
+        },
+        {
+          "id": "d",
+          "label": "be always"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ tần suất (always) đứng sau động từ \"to be\" nhưng đứng trước động từ thường trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "My cat _____ very playful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số ít (my cat) đi với động từ \"to be\" là \"is\" trong thì hiện tại đơn để diễn tả trạng thái."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "John and Mary _____ to the gym three times a week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "are going"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (John and Mary) thì động từ giữ nguyên thể. \"Three times a week\" chỉ thói quen, dùng hiện tại đơn."
+  }
+]

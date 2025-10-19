@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“My sister” là ngôi thứ ba số ít, động từ cần thêm “-es” ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They often _____ football on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "plays"
+        },
+        {
+          "id": "b",
+          "label": "play"
+        },
+        {
+          "id": "c",
+          "label": "played"
+        },
+        {
+          "id": "d",
+          "label": "playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“They” là ngôi thứ ba số nhiều, động từ giữ nguyên ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He _____ like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với ngôi thứ ba số ít (He) ở thể phủ định thì hiện tại đơn, dùng “doesn't”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "We _____ live in a big city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với ngôi thứ nhất/thứ hai/thứ ba số nhiều (We) ở thể phủ định thì hiện tại đơn, dùng “don't”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ she speak English well?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Has"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với ngôi thứ ba số ít (she) ở thể nghi vấn thì hiện tại đơn, dùng “Does”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "_____ you usually wake up early?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với ngôi thứ hai số ít/số nhiều (you) ở thể nghi vấn thì hiện tại đơn, dùng “Do”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The sky _____ blue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "am"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“The sky” là danh từ số ít, dùng “is” với động từ “to be” ở thì hiện tại đơn để diễn tả sự thật hiển nhiên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She _____ visits her grandparents on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "often"
+        },
+        {
+          "id": "b",
+          "label": "is often"
+        },
+        {
+          "id": "c",
+          "label": "often is"
+        },
+        {
+          "id": "d",
+          "label": "often visiting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất (often) thường đứng trước động từ chính (visits) trong thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "My father _____ the newspaper every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "reads"
+        },
+        {
+          "id": "c",
+          "label": "reading"
+        },
+        {
+          "id": "d",
+          "label": "is reading"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“My father” là ngôi thứ ba số ít, động từ cần thêm “-s” ở thì hiện tại đơn để diễn tả thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "boiling"
+        },
+        {
+          "id": "d",
+          "label": "is boiling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên, dùng thì hiện tại đơn. “Water” là danh từ không đếm được, coi như số ít, động từ thêm “-s”."
+  }
+]

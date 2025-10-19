@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "Which sentence contains a non-defining relative clause?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The student who passed the exam received a scholarship."
+        },
+        {
+          "id": "b",
+          "label": "My brother, who lives in Hanoi, is a doctor."
+        },
+        {
+          "id": "c",
+          "label": "This is the book that I borrowed from the library."
+        },
+        {
+          "id": "d",
+          "label": "I know a place where you can find good coffee."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ không xác định (non-defining) cung cấp thông tin bổ sung, không cần thiết để xác định danh từ, và luôn được ngăn cách bởi dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "My car, which is red, needs a wash."
+        },
+        {
+          "id": "b",
+          "label": "My car which is red, needs a wash."
+        },
+        {
+          "id": "c",
+          "label": "My car which is red needs a wash."
+        },
+        {
+          "id": "d",
+          "label": "My car, which is red needs a wash."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ không xác định luôn được đặt giữa hai dấu phẩy (hoặc một dấu phẩy nếu ở cuối câu)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "My hometown, _____ is famous for its ancient temples, attracts many tourists.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "where"
+        },
+        {
+          "id": "d",
+          "label": "who"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong mệnh đề quan hệ không xác định, chúng ta chỉ dùng \"which\" cho vật/sự việc, không dùng \"that\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "Choose the sentence where the relative pronoun *cannot* be omitted.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The car that I bought last week is very fast."
+        },
+        {
+          "id": "b",
+          "label": "The woman who lives next door is a teacher."
+        },
+        {
+          "id": "c",
+          "label": "My uncle, whom I admire greatly, is a successful businessman."
+        },
+        {
+          "id": "d",
+          "label": "This is the book which I told you about."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong mệnh đề quan hệ không xác định, đại từ quan hệ (who, whom, which) không bao giờ được lược bỏ, ngay cả khi nó là tân ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "My new laptop, _____ I paid a lot of money, stopped working.",
+      "options": [
+        {
+          "id": "a",
+          "label": "for which"
+        },
+        {
+          "id": "b",
+          "label": "which for"
+        },
+        {
+          "id": "c",
+          "label": "that for"
+        },
+        {
+          "id": "d",
+          "label": "for that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi giới từ đứng trước đại từ quan hệ trong mệnh đề không xác định, cấu trúc là \"giới từ + which/whom\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Mr. Smith, _____ daughter is a famous singer, teaches at our school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "whose"
+        },
+        {
+          "id": "d",
+          "label": "which"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Whose\" được dùng để chỉ sự sở hữu cho cả người và vật trong cả mệnh đề xác định và không xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Last summer, I visited Da Lat, _____ I had spent my childhood.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "where"
+        },
+        {
+          "id": "c",
+          "label": "when"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Where\" được dùng làm trạng từ quan hệ chỉ nơi chốn trong mệnh đề quan hệ không xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "Combine the two sentences into one, using a non-defining relative clause: \"Dr. Evans is a brilliant scientist. He discovered a new vaccine.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "Dr. Evans, who discovered a new vaccine, is a brilliant scientist."
+        },
+        {
+          "id": "b",
+          "label": "Dr. Evans who discovered a new vaccine is a brilliant scientist."
+        },
+        {
+          "id": "c",
+          "label": "Dr. Evans, that discovered a new vaccine, is a brilliant scientist."
+        },
+        {
+          "id": "d",
+          "label": "Dr. Evans is a brilliant scientist, who discovered a new vaccine."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để kết hợp hai câu, biến câu thứ hai thành mệnh đề quan hệ không xác định, đặt sau danh từ mà nó bổ nghĩa và ngăn cách bằng dấu phẩy."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "What is the difference in meaning between \"The students who failed the exam must retake it\" and \"The students, who failed the exam, must retake it\"?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The first sentence implies all students failed, while the second implies only some failed."
+        },
+        {
+          "id": "b",
+          "label": "The first sentence implies only some students failed, while the second implies all students failed."
+        },
+        {
+          "id": "c",
+          "label": "Both sentences have the same meaning."
+        },
+        {
+          "id": "d",
+          "label": "The first sentence is grammatically incorrect."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề xác định (không có dấu phẩy) giới hạn nghĩa của danh từ (chỉ những học sinh trượt). Mệnh đề không xác định (có dấu phẩy) cung cấp thông tin bổ sung cho tất cả danh từ (tất cả học sinh đều trượt)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Identify the error in the following sentence: \"My brother, that lives in London, is visiting next month.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "The use of 'that' instead of 'who' or 'which'."
+        },
+        {
+          "id": "b",
+          "label": "The missing comma after 'London'."
+        },
+        {
+          "id": "c",
+          "label": "The verb 'is visiting' should be 'visits'."
+        },
+        {
+          "id": "d",
+          "label": "The word 'next month' is misplaced."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong mệnh đề quan hệ không xác định, không được dùng đại từ \"that\". Phải dùng \"who\" cho người hoặc \"which\" cho vật."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_001",
+      "prompt": "In _____ movie we watched yesterday, _____ father was a kind man.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "a/the"
+        },
+        {
+          "id": "c",
+          "label": "the/a"
+        },
+        {
+          "id": "d",
+          "label": "the/the"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“The movie we watched yesterday” chỉ một bộ phim cụ thể. “The father” chỉ người cha cụ thể trong bộ phim đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_002",
+      "prompt": "My friend wants to buy _____ new car. He's looking for _____ car that is fuel-efficient.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "a/the"
+        },
+        {
+          "id": "c",
+          "label": "the/a"
+        },
+        {
+          "id": "d",
+          "label": "the/the"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“A new car” là lần đầu nhắc đến, chỉ một chiếc xe bất kỳ. “The car that is fuel-efficient” chỉ loại xe cụ thể mà anh ấy đang tìm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_003",
+      "prompt": "_____ students in this class are very diligent, but generally, _____ students need more motivation.",
+      "options": [
+        {
+          "id": "a",
+          "label": "The/a"
+        },
+        {
+          "id": "b",
+          "label": "The/the"
+        },
+        {
+          "id": "c",
+          "label": "The/zero"
+        },
+        {
+          "id": "d",
+          "label": "Zero/zero"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“The students in this class” chỉ nhóm học sinh cụ thể. “Students” nói chung không dùng mạo từ khi chỉ khái niệm chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_004",
+      "prompt": "Mount Everest is _____ highest mountain in _____ world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "a/the"
+        },
+        {
+          "id": "c",
+          "label": "the/a"
+        },
+        {
+          "id": "d",
+          "label": "the/the"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng “the” trước tính từ so sánh nhất (highest) và trước danh từ chỉ sự vật duy nhất (world)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_005",
+      "prompt": "_____ knowledge is power. _____ knowledge he gained from his studies helped him a lot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A/the"
+        },
+        {
+          "id": "b",
+          "label": "Zero/a"
+        },
+        {
+          "id": "c",
+          "label": "Zero/the"
+        },
+        {
+          "id": "d",
+          "label": "The/the"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Knowledge” khi nói chung chung là danh từ không đếm được, không dùng mạo từ. “The knowledge he gained” chỉ kiến thức cụ thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_006",
+      "prompt": "My uncle is _____ engineer, and he works for _____ big tech company.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "an/a"
+        },
+        {
+          "id": "c",
+          "label": "an/the"
+        },
+        {
+          "id": "d",
+          "label": "the/a"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng “an” trước danh từ bắt đầu bằng nguyên âm (engineer). Dùng “a” trước danh từ số ít đếm được, lần đầu nhắc đến (big tech company)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_007",
+      "prompt": "We crossed _____ Atlantic Ocean to visit _____ United States.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "the/a"
+        },
+        {
+          "id": "c",
+          "label": "a/the"
+        },
+        {
+          "id": "d",
+          "label": "the/the"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng “the” trước tên đại dương (Atlantic Ocean) và trước tên quốc gia có từ “States” (United States)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_008",
+      "prompt": "I usually have _____ breakfast at 7 AM, but yesterday I had _____ special breakfast with my family.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "zero/a"
+        },
+        {
+          "id": "c",
+          "label": "zero/the"
+        },
+        {
+          "id": "d",
+          "label": "the/a"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Các bữa ăn (breakfast, lunch, dinner) thường không dùng mạo từ. “A special breakfast” chỉ một bữa sáng đặc biệt, lần đầu nhắc đến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_009",
+      "prompt": "She can play _____ piano very well, but she doesn't own _____ instrument.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "the/a"
+        },
+        {
+          "id": "c",
+          "label": "the/the"
+        },
+        {
+          "id": "d",
+          "label": "zero/a"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng “the” trước tên nhạc cụ khi nói về việc chơi nhạc cụ đó. “An instrument” là một nhạc cụ bất kỳ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_010",
+      "prompt": "Could you please pass me _____ salt? It's next to _____ pepper shaker.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a/a"
+        },
+        {
+          "id": "b",
+          "label": "a/the"
+        },
+        {
+          "id": "c",
+          "label": "the/a"
+        },
+        {
+          "id": "d",
+          "label": "the/the"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“The salt” và “the pepper shaker” chỉ những vật cụ thể, đã biết trong ngữ cảnh (trên bàn ăn)."
+  }
+]

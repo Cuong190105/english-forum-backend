@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "There are _____ students in the class today than yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Fewer” dùng cho danh từ đếm được số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "I drink _____ coffee now because it makes me nervous.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Less” dùng cho danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "She needs _____ time to finish her project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“More” dùng được cho cả danh từ đếm được và không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Of all the books, this one has the _____ interesting plot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Most” dùng để chỉ mức độ cao nhất hoặc số lượng lớn nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "We have _____ chairs than we need for the party.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Fewer” dùng cho danh từ đếm được số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Could you put _____ sugar in my tea next time?",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Less” dùng cho danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "He earns _____ money than his brother.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“More” dùng để so sánh số lượng lớn hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She is the student who asks the _____ questions in class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Most” dùng để chỉ số lượng lớn nhất trong một nhóm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Due to the new policy, there are _____ cars allowed in the city center.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Fewer” dùng cho danh từ đếm được số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "I need _____ information about the project before I can start.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Less” dùng cho danh từ không đếm được."
+  }
+]

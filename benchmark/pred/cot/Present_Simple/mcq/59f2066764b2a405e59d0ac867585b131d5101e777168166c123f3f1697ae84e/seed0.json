@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'My sister' là số ít, và 'every morning' chỉ thói quen. Vì vậy, động từ phải thêm '-es'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "is rising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên, luôn đúng. Chúng ta dùng thì hiện tại đơn với động từ thêm '-s' cho chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "He usually _____ coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't drink"
+        },
+        {
+          "id": "b",
+          "label": "don't drink"
+        },
+        {
+          "id": "c",
+          "label": "isn't drinking"
+        },
+        {
+          "id": "d",
+          "label": "didn't drink"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số ít 'He' và trạng từ 'usually' chỉ thói quen, dùng 'doesn't + động từ nguyên mẫu' cho câu phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ you often _____ books?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do...read"
+        },
+        {
+          "id": "b",
+          "label": "Does...read"
+        },
+        {
+          "id": "c",
+          "label": "Are...reading"
+        },
+        {
+          "id": "d",
+          "label": "Did...read"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ 'you' và 'often' chỉ thói quen, dùng 'Do + chủ ngữ + động từ nguyên mẫu' để đặt câu hỏi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "They _____ football on Saturdays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "played"
+        },
+        {
+          "id": "d",
+          "label": "are playing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'They' là số nhiều, và 'on Saturdays' chỉ thói quen lặp lại. Vì vậy, động từ giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "boiled"
+        },
+        {
+          "id": "d",
+          "label": "is boiling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật khoa học, luôn đúng. Dùng thì hiện tại đơn với động từ thêm '-s' cho chủ ngữ số ít 'Water'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "We _____ much TV.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't watch"
+        },
+        {
+          "id": "b",
+          "label": "doesn't watch"
+        },
+        {
+          "id": "c",
+          "label": "aren't watching"
+        },
+        {
+          "id": "d",
+          "label": "didn't watch"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số nhiều 'We' và diễn tả thói quen phủ định, dùng 'don't + động từ nguyên mẫu'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "_____ she _____ English well?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does...speak"
+        },
+        {
+          "id": "b",
+          "label": "Do...speak"
+        },
+        {
+          "id": "c",
+          "label": "Is...speaking"
+        },
+        {
+          "id": "d",
+          "label": "Did...speak"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ số ít 'she' và hỏi về khả năng/sự thật, dùng 'Does + chủ ngữ + động từ nguyên mẫu'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "He _____ his homework every evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always does"
+        },
+        {
+          "id": "b",
+          "label": "does always"
+        },
+        {
+          "id": "c",
+          "label": "is always doing"
+        },
+        {
+          "id": "d",
+          "label": "always did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất 'always' thường đứng trước động từ chính trong thì hiện tại đơn. Chủ ngữ số ít nên động từ thêm '-es'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Young people often _____ active minds.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'Young people' là số nhiều, và 'often' chỉ một sự thật hoặc thói quen chung. Động từ 'have' giữ nguyên mẫu."
+  }
+]

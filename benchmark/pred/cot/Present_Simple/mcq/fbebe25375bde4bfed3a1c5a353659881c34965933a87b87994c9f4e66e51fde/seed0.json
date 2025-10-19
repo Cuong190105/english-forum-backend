@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Every morning” chỉ thói quen. Chủ ngữ số ít (My sister) dùng động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "revolve"
+        },
+        {
+          "id": "b",
+          "label": "revolves"
+        },
+        {
+          "id": "c",
+          "label": "is revolving"
+        },
+        {
+          "id": "d",
+          "label": "revolved"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật hiển nhiên. Chủ ngữ số ít (The Earth) dùng động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "The advertisement often _____ about the product's functionality.",
+      "options": [
+        {
+          "id": "a",
+          "label": "speak"
+        },
+        {
+          "id": "b",
+          "label": "speaks"
+        },
+        {
+          "id": "c",
+          "label": "is speaking"
+        },
+        {
+          "id": "d",
+          "label": "spoke"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Often” chỉ thói quen/sự thật lặp lại. Chủ ngữ số ít (The advertisement) dùng động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "I _____ with this opinion because it isn't logical.",
+      "options": [
+        {
+          "id": "a",
+          "label": "not agree"
+        },
+        {
+          "id": "b",
+          "label": "don't agree"
+        },
+        {
+          "id": "c",
+          "label": "doesn't agree"
+        },
+        {
+          "id": "d",
+          "label": "am not agree"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“I” dùng trợ động từ “do” để tạo câu phủ định trong thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "_____ he usually _____ his homework after dinner?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does / do"
+        },
+        {
+          "id": "b",
+          "label": "Do / does"
+        },
+        {
+          "id": "c",
+          "label": "Does / does"
+        },
+        {
+          "id": "d",
+          "label": "Do / do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ “he” dùng trợ động từ “Does”. Động từ chính sau “Does” luôn ở dạng nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "She always _____ her best in every project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "try"
+        },
+        {
+          "id": "b",
+          "label": "tries"
+        },
+        {
+          "id": "c",
+          "label": "is trying"
+        },
+        {
+          "id": "d",
+          "label": "tried"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Always” chỉ thói quen. Chủ ngữ số ít (She) dùng động từ thêm -es (try -> tries)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "Many characteristics _____ on the product's design.",
+      "options": [
+        {
+          "id": "a",
+          "label": "depend"
+        },
+        {
+          "id": "b",
+          "label": "depends"
+        },
+        {
+          "id": "c",
+          "label": "is depending"
+        },
+        {
+          "id": "d",
+          "label": "depended"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (Many characteristics) dùng động từ nguyên mẫu không thêm -s/-es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "The success of the campaign often _____ on good planning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "depend"
+        },
+        {
+          "id": "b",
+          "label": "depends"
+        },
+        {
+          "id": "c",
+          "label": "is depending"
+        },
+        {
+          "id": "d",
+          "label": "depended"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Often” và “depend” là động từ trạng thái, chỉ sự thật. Chủ ngữ số ít (The success) dùng động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "The train to Hanoi _____ at 7:00 AM tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leave"
+        },
+        {
+          "id": "b",
+          "label": "leaves"
+        },
+        {
+          "id": "c",
+          "label": "is leaving"
+        },
+        {
+          "id": "d",
+          "label": "left"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lịch trình cố định (tàu, xe, máy bay) dùng thì Hiện tại đơn, ngay cả khi nói về tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "My boss _____ that good communication is key to teamwork.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believe"
+        },
+        {
+          "id": "b",
+          "label": "believes"
+        },
+        {
+          "id": "c",
+          "label": "is believing"
+        },
+        {
+          "id": "d",
+          "label": "believed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một niềm tin hoặc quan điểm chung. Chủ ngữ số ít (My boss) dùng động từ thêm -s."
+  }
+]

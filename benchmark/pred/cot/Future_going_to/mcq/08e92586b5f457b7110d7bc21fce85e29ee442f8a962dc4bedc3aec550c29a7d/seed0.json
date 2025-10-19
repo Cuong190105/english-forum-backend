@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_001",
+      "prompt": "We have saved enough money. We _____ our house in Binangonan next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to finish"
+        },
+        {
+          "id": "b",
+          "label": "will finish"
+        },
+        {
+          "id": "c",
+          "label": "finish"
+        },
+        {
+          "id": "d",
+          "label": "finished"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' để diễn tả kế hoạch hoặc ý định đã được quyết định trước. 'Next year' là dấu hiệu của tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_002",
+      "prompt": "On her salary, we _____ a car this year. It's too expensive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "aren't going to buy"
+        },
+        {
+          "id": "b",
+          "label": "won't buy"
+        },
+        {
+          "id": "c",
+          "label": "don't buy"
+        },
+        {
+          "id": "d",
+          "label": "didn't buy"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' ở dạng phủ định để diễn tả một kế hoạch hoặc ý định không thực hiện được. 'This year' chỉ tương lai gần."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_003",
+      "prompt": "_____ you _____ your studies in Boston next semester?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Are / going to finish"
+        },
+        {
+          "id": "b",
+          "label": "Will / finish"
+        },
+        {
+          "id": "c",
+          "label": "Do / finish"
+        },
+        {
+          "id": "d",
+          "label": "Did / finish"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng cấu trúc câu hỏi với 'be going to' để hỏi về kế hoạch hoặc ý định trong tương lai. 'Next semester' là dấu hiệu thời gian."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_004",
+      "prompt": "When _____ you _____ tuition for your studies?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are / going to pay"
+        },
+        {
+          "id": "b",
+          "label": "will / pay"
+        },
+        {
+          "id": "c",
+          "label": "do / pay"
+        },
+        {
+          "id": "d",
+          "label": "did / pay"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' để hỏi về thời điểm của một kế hoạch hoặc sự kiện đã định trước. Các lựa chọn khác không phù hợp ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_005",
+      "prompt": "Look at those dark clouds! It _____ rain soon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "rains"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' để diễn tả dự đoán dựa trên bằng chứng rõ ràng ở hiện tại ('dark clouds')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_006",
+      "prompt": "I'm studying hard because I _____ my exams next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am going to pass"
+        },
+        {
+          "id": "b",
+          "label": "will pass"
+        },
+        {
+          "id": "c",
+          "label": "pass"
+        },
+        {
+          "id": "d",
+          "label": "passed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' để diễn tả ý định hoặc kế hoạch đã được chuẩn bị ('studying hard'). 'Next month' chỉ tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_007",
+      "prompt": "My sister _____ to visit Binangonan next week. She loves Rizal.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going"
+        },
+        {
+          "id": "b",
+          "label": "are going"
+        },
+        {
+          "id": "c",
+          "label": "will go"
+        },
+        {
+          "id": "d",
+          "label": "goes"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'My sister' là số ít nên động từ 'to be' phải là 'is'. 'Is going to' diễn tả kế hoạch trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_008",
+      "prompt": "We've decided. We _____ our old furniture and buy new ones for the renovated house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to sell"
+        },
+        {
+          "id": "b",
+          "label": "will sell"
+        },
+        {
+          "id": "c",
+          "label": "sell"
+        },
+        {
+          "id": "d",
+          "label": "sold"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'We've decided' cho thấy đây là một kế hoạch đã được quyết định, nên dùng 'be going to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_009",
+      "prompt": "My parents have saved enough money. They _____ a new car next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to buy"
+        },
+        {
+          "id": "b",
+          "label": "will buy"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc 'saved enough money' là bằng chứng cho thấy đây là một kế hoạch đã định, dùng 'be going to'. 'Next month' chỉ tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ftr_gt_010",
+      "prompt": "Why _____ you _____ to Boston this year? Is it because of the tuition?",
+      "options": [
+        {
+          "id": "a",
+          "label": "aren't / going"
+        },
+        {
+          "id": "b",
+          "label": "won't / go"
+        },
+        {
+          "id": "c",
+          "label": "don't / go"
+        },
+        {
+          "id": "d",
+          "label": "didn't / go"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' ở dạng câu hỏi phủ định để hỏi về lý do của một kế hoạch không thực hiện. 'This year' chỉ tương lai."
+  }
+]

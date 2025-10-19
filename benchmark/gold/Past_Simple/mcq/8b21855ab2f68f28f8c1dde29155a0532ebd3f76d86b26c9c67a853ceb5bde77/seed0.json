@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-1",
+      "prompt": "My family _______ to Da Nang for our summer vacation last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "goes"
+        },
+        {
+          "id": "d",
+          "label": "have gone"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ \"last year\" (năm ngoái) là dấu hiệu của thì quá khứ đơn. Động từ bất quy tắc \"go\" ở dạng quá khứ là \"went\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-2",
+      "prompt": "I _______ a new phone two days ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buys"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "have bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"two days ago\" (hai ngày trước) chỉ một hành động đã xảy ra và kết thúc trong quá khứ. Động từ \"buy\" ở thì quá khứ là \"bought\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-3",
+      "prompt": "She _______ her homework because she felt tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't do"
+        },
+        {
+          "id": "b",
+          "label": "doesn't do"
+        },
+        {
+          "id": "c",
+          "label": "didn't do"
+        },
+        {
+          "id": "d",
+          "label": "wasn't do"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để tạo câu phủ định trong thì quá khứ đơn, ta dùng cấu trúc \"didn't\" + động từ nguyên mẫu (do)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-4",
+      "prompt": "_______ you watch the football match on TV last night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Were"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để đặt câu hỏi Yes/No cho một hành động trong quá khứ, ta dùng trợ động từ \"Did\" ở đầu câu, theo sau là chủ ngữ và động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-5",
+      "prompt": "When I was a child, I _______ very shy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Với chủ ngữ là \"I\", động từ \"to be\" ở thì quá khứ đơn là \"was\". Mệnh đề \"When I was a child\" cũng chỉ rõ đây là sự việc trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-6",
+      "prompt": "They _______ at the cinema yesterday afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với chủ ngữ số nhiều là \"They\", động từ \"to be\" ở thì quá khứ đơn là \"were\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-7",
+      "prompt": "What time _______ the meeting start this morning?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu hỏi có từ để hỏi (What time) ở thì quá khứ đơn. Ta dùng trợ động từ \"did\" trước chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-8",
+      "prompt": "We _______ a delicious meal at that new restaurant last weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eat"
+        },
+        {
+          "id": "b",
+          "label": "eated"
+        },
+        {
+          "id": "c",
+          "label": "ate"
+        },
+        {
+          "id": "d",
+          "label": "eaten"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Eat\" là một động từ bất quy tắc. Dạng quá khứ đơn của nó là \"ate\". \"Eated\" không phải là một từ đúng trong tiếng Anh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-9",
+      "prompt": "He _______ very hard for the exam and got a high score.",
+      "options": [
+        {
+          "id": "a",
+          "label": "study"
+        },
+        {
+          "id": "b",
+          "label": "studies"
+        },
+        {
+          "id": "c",
+          "label": "studied"
+        },
+        {
+          "id": "d",
+          "label": "studying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"study\" kết thúc bằng phụ âm + 'y', khi chuyển sang quá khứ đơn, ta đổi 'y' thành 'i' và thêm đuôi 'ed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past-simple-mcq-10",
+      "prompt": "The film wasn't very good. I _______ it at all.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't enjoy"
+        },
+        {
+          "id": "b",
+          "label": "don't enjoy"
+        },
+        {
+          "id": "c",
+          "label": "wasn't enjoy"
+        },
+        {
+          "id": "d",
+          "label": "not enjoyed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu phủ định ở thì quá khứ đơn được thành lập bằng cách dùng \"didn't\" + động từ nguyên mẫu (enjoy)."
+  }
+]

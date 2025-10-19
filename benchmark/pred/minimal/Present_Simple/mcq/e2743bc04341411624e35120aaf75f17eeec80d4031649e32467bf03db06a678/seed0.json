@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn với chủ ngữ số ít (my sister) thì động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "They often _____ football on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số nhiều (they) trong thì hiện tại đơn thì động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He _____ like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng phủ định của thì hiện tại đơn với chủ ngữ số ít (he) dùng \"doesn't + V-inf\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "We _____ live in a big city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "isn't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng phủ định của thì hiện tại đơn với chủ ngữ số nhiều (we) dùng \"don't + V-inf\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ she work in a hospital?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng nghi vấn của thì hiện tại đơn với chủ ngữ số ít (she) dùng \"Does + S + V-inf?\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "_____ you speak English?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dạng nghi vấn của thì hiện tại đơn với chủ ngữ số nhiều (you) dùng \"Do + S + V-inf?\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The sky _____ blue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ \"to be\" với chủ ngữ số ít (the sky) là \"is\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She _____ wakes up early.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always"
+        },
+        {
+          "id": "b",
+          "label": "always is"
+        },
+        {
+          "id": "c",
+          "label": "is always"
+        },
+        {
+          "id": "d",
+          "label": "always do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ chỉ tần suất (always) thường đứng trước động từ thường."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Every student _____ to study hard.",
+      "options": [
+        {
+          "id": "a",
+          "label": "need"
+        },
+        {
+          "id": "b",
+          "label": "needs"
+        },
+        {
+          "id": "c",
+          "label": "needing"
+        },
+        {
+          "id": "d",
+          "label": "needed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Every student\" là chủ ngữ số ít, động từ chia ở thì hiện tại đơn phải thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "boiling"
+        },
+        {
+          "id": "d",
+          "label": "boiled"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sự thật hiển nhiên (nước sôi ở 100 độ C) dùng thì hiện tại đơn, chủ ngữ số ít (water) nên động từ thêm -s."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She bought a ______ dress.",
+      "options": [
+        {
+          "id": "a",
+          "label": "beautiful new red silk"
+        },
+        {
+          "id": "b",
+          "label": "red new beautiful silk"
+        },
+        {
+          "id": "c",
+          "label": "silk new beautiful red"
+        },
+        {
+          "id": "d",
+          "label": "new beautiful red silk"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ thường là: ý kiến, kích thước, tuổi, hình dạng, màu sắc, nguồn gốc, chất liệu, mục đích."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "He ______ goes to the gym.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes often"
+        },
+        {
+          "id": "b",
+          "label": "often goes"
+        },
+        {
+          "id": "c",
+          "label": "goes often to"
+        },
+        {
+          "id": "d",
+          "label": "often to goes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ tần suất (như \"often\") thường đứng trước động từ chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The city has a lot of ______ buildings. (history)",
+      "options": [
+        {
+          "id": "a",
+          "label": "historic"
+        },
+        {
+          "id": "b",
+          "label": "historical"
+        },
+        {
+          "id": "c",
+          "label": "history"
+        },
+        {
+          "id": "d",
+          "label": "historically"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Historic\" dùng để chỉ những sự kiện, địa điểm quan trọng trong lịch sử. \"Historical\" dùng để chỉ những gì liên quan đến lịch sử nói chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "They live in a ______ house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "big old charming"
+        },
+        {
+          "id": "b",
+          "label": "charming big old"
+        },
+        {
+          "id": "c",
+          "label": "old big charming"
+        },
+        {
+          "id": "d",
+          "label": "big charming old"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thứ tự tính từ: ý kiến (charming), kích thước (big), tuổi (old)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "She sings ______.",
+      "options": [
+        {
+          "id": "a",
+          "label": "beautifully always"
+        },
+        {
+          "id": "b",
+          "label": "always beautifully"
+        },
+        {
+          "id": "c",
+          "label": "beautifully"
+        },
+        {
+          "id": "d",
+          "label": "always sings beautifully"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ chỉ cách thức (như \"beautifully\") thường đứng sau động từ hoặc tân ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The ______ need our help. (poor)",
+      "options": [
+        {
+          "id": "a",
+          "label": "poor"
+        },
+        {
+          "id": "b",
+          "label": "poverty"
+        },
+        {
+          "id": "c",
+          "label": "the poor"
+        },
+        {
+          "id": "d",
+          "label": "poorly"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"the + tính từ\" để chỉ một nhóm người có cùng đặc điểm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "We met ______ yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "at the park"
+        },
+        {
+          "id": "b",
+          "label": "yesterday at the park"
+        },
+        {
+          "id": "c",
+          "label": "at the park yesterday"
+        },
+        {
+          "id": "d",
+          "label": "yesterday at the park"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thứ tự trạng từ thường là: cách thức, nơi chốn, thời gian."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "His ______ of the problem was very clear. (explain)",
+      "options": [
+        {
+          "id": "a",
+          "label": "explaining"
+        },
+        {
+          "id": "b",
+          "label": "explanation"
+        },
+        {
+          "id": "c",
+          "label": "explanatory"
+        },
+        {
+          "id": "d",
+          "label": "explainable"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần một danh từ để làm chủ ngữ hoặc tân ngữ. \"Explanation\" là danh từ của \"explain\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She has a ______ cat.",
+      "options": [
+        {
+          "id": "a",
+          "label": "small fluffy white Persian"
+        },
+        {
+          "id": "b",
+          "label": "fluffy small white Persian"
+        },
+        {
+          "id": "c",
+          "label": "white small fluffy Persian"
+        },
+        {
+          "id": "d",
+          "label": "Persian small fluffy white"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thứ tự tính từ: kích thước (small), mô tả (fluffy), màu sắc (white), nguồn gốc (Persian)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "She was ______ tired to continue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "too"
+        },
+        {
+          "id": "b",
+          "label": "very"
+        },
+        {
+          "id": "c",
+          "label": "enough"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Too\" đứng trước tính từ hoặc trạng từ để diễn tả ý \"quá... đến nỗi không thể...\"."
+  }
+]

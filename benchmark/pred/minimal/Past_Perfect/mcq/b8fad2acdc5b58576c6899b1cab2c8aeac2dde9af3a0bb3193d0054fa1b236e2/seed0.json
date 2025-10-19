@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "By the time we arrived at the cinema, the movie _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "started"
+        },
+        {
+          "id": "b",
+          "label": "had started"
+        },
+        {
+          "id": "c",
+          "label": "was starting"
+        },
+        {
+          "id": "d",
+          "label": "has started"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “bắt đầu” của bộ phim xảy ra trước hành động “đến” của chúng tôi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She couldn't enter her house because she _____ her keys.",
+      "options": [
+        {
+          "id": "a",
+          "label": "forgot"
+        },
+        {
+          "id": "b",
+          "label": "had forgotten"
+        },
+        {
+          "id": "c",
+          "label": "has forgotten"
+        },
+        {
+          "id": "d",
+          "label": "was forgetting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc quên chìa khóa xảy ra trước và là nguyên nhân của việc không thể vào nhà."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Before he moved to London, he _____ in Paris for five years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lived"
+        },
+        {
+          "id": "b",
+          "label": "had lived"
+        },
+        {
+          "id": "c",
+          "label": "has lived"
+        },
+        {
+          "id": "d",
+          "label": "was living"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc sống ở Paris đã hoàn thành trước khi anh ấy chuyển đến London."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "They didn't get the ideas or any concepts from what they _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learned"
+        },
+        {
+          "id": "b",
+          "label": "had learned"
+        },
+        {
+          "id": "c",
+          "label": "have learned"
+        },
+        {
+          "id": "d",
+          "label": "were learning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc học xảy ra trước khi họ không nhận được ý tưởng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "When I met John, I realized I _____ him before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "met"
+        },
+        {
+          "id": "b",
+          "label": "had met"
+        },
+        {
+          "id": "c",
+          "label": "have met"
+        },
+        {
+          "id": "d",
+          "label": "was meeting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc gặp John đã xảy ra trước thời điểm tôi nhận ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The old house looked much better after they _____ it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "painted"
+        },
+        {
+          "id": "b",
+          "label": "had painted"
+        },
+        {
+          "id": "c",
+          "label": "have painted"
+        },
+        {
+          "id": "d",
+          "label": "were painting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc sơn nhà hoàn thành trước khi ngôi nhà trông đẹp hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "If she _____ harder, she would have passed the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "studied"
+        },
+        {
+          "id": "b",
+          "label": "had studied"
+        },
+        {
+          "id": "c",
+          "label": "has studied"
+        },
+        {
+          "id": "d",
+          "label": "was studying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là câu điều kiện loại 3, diễn tả điều không có thật trong quá khứ. Mệnh đề “if” dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "By the time the police arrived, the thieves _____ away.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ran"
+        },
+        {
+          "id": "b",
+          "label": "had run"
+        },
+        {
+          "id": "c",
+          "label": "have run"
+        },
+        {
+          "id": "d",
+          "label": "were running"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “chạy trốn” của bọn trộm xảy ra và hoàn tất trước khi cảnh sát đến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She told me that she _____ to New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "never went"
+        },
+        {
+          "id": "b",
+          "label": "had never gone"
+        },
+        {
+          "id": "c",
+          "label": "has never gone"
+        },
+        {
+          "id": "d",
+          "label": "was never going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “chưa từng đi” xảy ra trước thời điểm cô ấy kể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "How long _____ you _____ before you moved to this city?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did...live"
+        },
+        {
+          "id": "b",
+          "label": "had...lived"
+        },
+        {
+          "id": "c",
+          "label": "have...lived"
+        },
+        {
+          "id": "d",
+          "label": "were...living"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hỏi về khoảng thời gian một hành động đã xảy ra và kết thúc trước một hành động khác trong quá khứ."
+  }
+]

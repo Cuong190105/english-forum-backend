@@ -1,0 +1,10 @@
+run_id,config,topic,type,seed,n_items,structural_pass_pct,semantic_mean,semantic_std,semantic_se,semantic_ci95_low,semantic_ci95_high,judge_mean,judge_std,judge_se,judge_ci95_low,judge_ci95_high
+50s_mcq_min_cot_i10_s0,minimal,Present Simple,mcq,0,10,100.0,0.4303,0.0767,0.0243,0.3827,0.4778,1.0,0.0,0.0,1.0,1.0
+50s_mcq_min_cot_i10_s0,cot,Present Simple,mcq,0,10,100.0,0.4651,0.0621,0.0196,0.4266,0.5036,1.0,0.0,0.0,1.0,1.0
+50s_mcq_min_cot_i10_s0,minimal,Past Continuous,mcq,0,10,100.0,0.4804,0.0789,0.025,0.4314,0.5293,0.95,0.1581,0.05,0.852,1.0
+50s_mcq_min_cot_i10_s0,cot,Past Continuous,mcq,0,10,100.0,0.4653,0.0613,0.0194,0.4272,0.5033,0.95,0.1581,0.05,0.852,1.0
+50s_mcq_min_cot_i10_s0,minimal,Future will,mcq,0,10,100.0,0.5705,0.1164,0.0368,0.4984,0.6427,0.8,0.3496,0.1106,0.5833,1.0
+50s_mcq_min_cot_i10_s0,cot,Future will,mcq,0,10,100.0,0.5551,0.0914,0.0289,0.4985,0.6118,0.75,0.2635,0.0833,0.5867,0.9133
+50s_mcq_min_cot_i10_s0,minimal,less/fewer/more/most,mcq,0,10,100.0,0.4586,0.1243,0.0393,0.3816,0.5356,0.7,0.2582,0.0816,0.54,0.86
+50s_mcq_min_cot_i10_s0,cot,less/fewer/more/most,mcq,0,10,100.0,0.392,0.0541,0.0171,0.3584,0.4255,0.95,0.1581,0.05,0.852,1.0
+50s_mcq_min_cot_i10_s0,minimal,a/an/the/zero,mcq,0,10,100.0,0.4107,0.0507,0.016,0.3793,0.4421,1.0,0.0,0.0,1.0,1.0

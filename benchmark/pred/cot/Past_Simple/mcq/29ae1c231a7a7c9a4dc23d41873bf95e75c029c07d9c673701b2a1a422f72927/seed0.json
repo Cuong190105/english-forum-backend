@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Yesterday, I _____ a new skill at the workshop.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "learned"
+        },
+        {
+          "id": "c",
+          "label": "learning"
+        },
+        {
+          "id": "d",
+          "label": "learns"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Quá khứ đơn dùng để diễn tả hành động đã xảy ra và kết thúc trong quá khứ, với 'yesterday' là dấu hiệu. 'Learned' là dạng quá khứ của 'learn'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "They _____ go to the party last night because they were busy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "aren't"
+        },
+        {
+          "id": "d",
+          "label": "wasn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định quá khứ đơn, dùng 'did not' (didn't) theo sau là động từ nguyên mẫu. 'Last night' là dấu hiệu thời gian."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "_____ you finish your homework an hour ago?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để đặt câu hỏi ở thì quá khứ đơn, bắt đầu bằng 'Did' rồi đến chủ ngữ và động từ nguyên mẫu. 'An hour ago' là dấu hiệu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "She _____ very happy when she received the good news last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ số ít (she) đi với 'was' ở thì quá khứ đơn. 'Last week' là dấu hiệu thời gian. 'Were' dùng cho chủ ngữ số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "Last year, I _____ many new friends during my exchange program.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "makes"
+        },
+        {
+          "id": "c",
+          "label": "made"
+        },
+        {
+          "id": "d",
+          "label": "making"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Made' là dạng quá khứ đơn của động từ 'make'. 'Last year' chỉ thời gian trong quá khứ, yêu cầu dùng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "My brother _____ to play the guitar when he was ten years old.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "learns"
+        },
+        {
+          "id": "c",
+          "label": "learned"
+        },
+        {
+          "id": "d",
+          "label": "learning"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Learned' là dạng quá khứ đơn của động từ 'learn'. 'When he was ten years old' là mốc thời gian cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "In 2020, our company _____ a significant profit despite the challenges.",
+      "options": [
+        {
+          "id": "a",
+          "label": "achieve"
+        },
+        {
+          "id": "b",
+          "label": "achieves"
+        },
+        {
+          "id": "c",
+          "label": "achieved"
+        },
+        {
+          "id": "d",
+          "label": "achieving"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'In 2020' là một mốc thời gian cụ thể trong quá khứ, yêu cầu dùng thì quá khứ đơn. 'Achieved' là dạng quá khứ của 'achieve'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "The weather _____ good yesterday, so we stayed indoors.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wasn't"
+        },
+        {
+          "id": "b",
+          "label": "weren't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'The weather' là chủ ngữ số ít, nên dùng 'wasn't' ở dạng phủ định quá khứ đơn. 'Yesterday' là dấu hiệu thời gian."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Where _____ you go for your vacation two months ago?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu hỏi Wh- ở quá khứ đơn, dùng 'did' sau từ hỏi và trước chủ ngữ, theo sau là động từ nguyên mẫu. 'Two months ago' là dấu hiệu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "After she finished her studies, she _____ abroad for a year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "travel"
+        },
+        {
+          "id": "b",
+          "label": "travels"
+        },
+        {
+          "id": "c",
+          "label": "traveled"
+        },
+        {
+          "id": "d",
+          "label": "traveling"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'travel' xảy ra sau khi 'finished her studies' và cả hai đều ở quá khứ, nên dùng quá khứ đơn. 'Traveled' là dạng quá khứ của 'travel'."
+  }
+]

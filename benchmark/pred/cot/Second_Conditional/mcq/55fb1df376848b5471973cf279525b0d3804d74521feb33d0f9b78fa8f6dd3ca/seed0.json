@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_001",
+      "prompt": "If I _____ a millionaire, I would travel the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Were” được dùng cho tất cả các ngôi trong mệnh đề “if” của câu điều kiện loại 2, diễn tả điều không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_002",
+      "prompt": "If she studied harder, she _____ better grades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will get"
+        },
+        {
+          "id": "b",
+          "label": "would get"
+        },
+        {
+          "id": "c",
+          "label": "gets"
+        },
+        {
+          "id": "d",
+          "label": "would have got"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng “would + động từ nguyên mẫu” để diễn tả kết quả giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_003",
+      "prompt": "If they _____ enough money, they wouldn't buy that expensive car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "didn't have"
+        },
+        {
+          "id": "c",
+          "label": "don't have"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề “if” của câu điều kiện loại 2 dùng thì quá khứ đơn. Để phủ định, dùng “didn't + động từ nguyên mẫu”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_004",
+      "prompt": "What _____ if you found a wallet full of money?",
+      "options": [
+        {
+          "id": "a",
+          "label": "will you do"
+        },
+        {
+          "id": "b",
+          "label": "would you do"
+        },
+        {
+          "id": "c",
+          "label": "do you do"
+        },
+        {
+          "id": "d",
+          "label": "did you do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi điều kiện loại 2, mệnh đề chính dùng “would + chủ ngữ + động từ nguyên mẫu”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_005",
+      "prompt": "If I _____ you, I would accept the job offer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm “If I were you” là cách diễn đạt lời khuyên trong câu điều kiện loại 2, luôn dùng “were” cho ngôi “I”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_006",
+      "prompt": "If it _____ sunny tomorrow, we would go to the beach.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mặc dù có “tomorrow”, đây là tình huống giả định không có thật ở hiện tại/tương lai, nên dùng quá khứ đơn “were” trong mệnh đề “if”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_007",
+      "prompt": "If he _____ more time, he would learn to play the guitar.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "will have"
+        },
+        {
+          "id": "d",
+          "label": "would have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề “if” của câu điều kiện loại 2 luôn dùng thì quá khứ đơn để diễn tả điều kiện giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_008",
+      "prompt": "If she didn't have to work, she _____ more time for her hobbies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would have"
+        },
+        {
+          "id": "b",
+          "label": "will have"
+        },
+        {
+          "id": "c",
+          "label": "has"
+        },
+        {
+          "id": "d",
+          "label": "would had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng “would + động từ nguyên mẫu”. “Would had” là cấu trúc sai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_009",
+      "prompt": "If there _____ no internet, how would people communicate globally?",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là tình huống giả định không có thật ở hiện tại, tương tự ví dụ trong đề bài, nên dùng “were” cho “there”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_010",
+      "prompt": "If I knew her address, I _____ her a letter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will send"
+        },
+        {
+          "id": "b",
+          "label": "would send"
+        },
+        {
+          "id": "c",
+          "label": "would have sent"
+        },
+        {
+          "id": "d",
+          "label": "send"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là câu điều kiện loại 2, diễn tả điều không có thật ở hiện tại. Mệnh đề chính dùng “would + động từ nguyên mẫu”, không phải “would have sent” (loại 3)."
+  }
+]

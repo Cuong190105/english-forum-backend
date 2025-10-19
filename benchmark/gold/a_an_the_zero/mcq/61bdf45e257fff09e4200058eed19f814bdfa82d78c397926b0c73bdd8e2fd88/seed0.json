@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_01",
+      "prompt": "My father works as _____ electrician for a big company in the city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' trước một danh từ bắt đầu bằng một nguyên âm (a, e, i, o, u). 'Electrician' bắt đầu bằng âm /ɪ/."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_02",
+      "prompt": "I bought a new shirt yesterday. _____ shirt is blue and has white stripes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi danh từ đã được nhắc đến trước đó. Ở đây, 'the shirt' chính là 'a new shirt' đã mua hôm qua."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_03",
+      "prompt": "She believes that _____ education is the key to success.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ khi nói về một khái niệm chung chung, trừu tượng như 'education' (giáo dục)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_04",
+      "prompt": "Could you see _____ sun setting over the ocean? It was beautiful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' với những vật thể là duy nhất, như 'the sun' (mặt trời), 'the moon' (mặt trăng), 'the earth' (trái đất)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_05",
+      "prompt": "We need to buy _____ new furniture for our living room.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Furniture' là một danh từ không đếm được. Chúng ta không dùng 'a' hoặc 'an' với danh từ không đếm được. Ở đây nói chung chung nên không dùng 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_06",
+      "prompt": "Mount Everest is _____ highest mountain in the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Luôn dùng 'the' trước dạng so sánh nhất của tính từ (ví dụ: highest, best, most beautiful)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_07",
+      "prompt": "My family is going on vacation to _____ Philippines next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' trước tên của một số quốc gia ở dạng số nhiều hoặc có chứa các từ như 'Republic', 'Kingdom', 'States'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_08",
+      "prompt": "It took me _____ hour to finish my homework last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mặc dù 'hour' bắt đầu bằng 'h', nhưng âm 'h' là âm câm. Từ này được phát âm bắt đầu bằng nguyên âm /aʊər/, vì vậy chúng ta dùng 'an'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_09",
+      "prompt": "I don't usually like coffee, but _____ coffee at this cafe is excellent.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Bình thường 'coffee' là danh từ không đếm được và không dùng mạo từ. Nhưng ở đây, người nói đang đề cập đến một loại cà phê cụ thể (cà phê ở quán này), vì vậy chúng ta dùng 'the'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ART_10",
+      "prompt": "My sister plays _____ piano very well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' trước tên các loại nhạc cụ khi nói về khả năng chơi chúng (play the piano, play the guitar)."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "is going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn dùng để diễn tả thói quen hoặc hành động lặp lại hàng ngày. Chủ ngữ \"My sister\" là ngôi thứ ba số ít nên động từ thêm \"-es\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The sun _____ in the east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rises"
+        },
+        {
+          "id": "b",
+          "label": "rise"
+        },
+        {
+          "id": "c",
+          "label": "is rising"
+        },
+        {
+          "id": "d",
+          "label": "rose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn dùng để diễn tả sự thật hiển nhiên. Chủ ngữ \"The sun\" là ngôi thứ ba số ít nên động từ thêm \"-s\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The train to Hanoi _____ at 7:00 AM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leaves"
+        },
+        {
+          "id": "b",
+          "label": "leave"
+        },
+        {
+          "id": "c",
+          "label": "is leaving"
+        },
+        {
+          "id": "d",
+          "label": "left"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn dùng để nói về lịch trình cố định (tàu, xe, máy bay, phim...). Chủ ngữ \"The train\" là ngôi thứ ba số ít nên động từ thêm \"-s\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "She _____ a new car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "is having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ \"have\" (sở hữu) là động từ trạng thái, thường dùng ở thì hiện tại đơn. Chủ ngữ \"She\" là ngôi thứ ba số ít nên dùng \"has\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He often _____ his homework after dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "does"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "is doing"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn với chủ ngữ ngôi thứ ba số ít (\"He\") thì động từ \"do\" phải thêm \"-es\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "They _____ like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        },
+        {
+          "id": "d",
+          "label": "is not"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu phủ định ở thì hiện tại đơn với chủ ngữ số nhiều (\"They\"), chúng ta dùng \"do not\" + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "_____ she speak English?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu hỏi ở thì hiện tại đơn với chủ ngữ ngôi thứ ba số ít (\"she\"), chúng ta dùng \"Does\" ở đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "We _____ usually go to the cinema on weekdays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        },
+        {
+          "id": "d",
+          "label": "is not"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất \"usually\" thường đi với thì hiện tại đơn. Với chủ ngữ \"We\", câu phủ định dùng \"do not\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boils"
+        },
+        {
+          "id": "b",
+          "label": "boil"
+        },
+        {
+          "id": "c",
+          "label": "is boiling"
+        },
+        {
+          "id": "d",
+          "label": "boiled"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật khoa học, một sự thật hiển nhiên, nên dùng thì hiện tại đơn. Chủ ngữ \"Water\" là danh từ không đếm được, coi như ngôi thứ ba số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "My parents _____ in a small house near the river.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "are living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật về nơi ở của bố mẹ tôi, một tình trạng cố định, nên dùng thì hiện tại đơn. Chủ ngữ \"My parents\" là số nhiều."
+  }
+]

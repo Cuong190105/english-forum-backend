@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "If you heat ice, it _____ into water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "melts"
+        },
+        {
+          "id": "b",
+          "label": "will melt"
+        },
+        {
+          "id": "c",
+          "label": "melted"
+        },
+        {
+          "id": "d",
+          "label": "would melt"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề điều kiện loại 0 diễn tả sự thật hiển nhiên, cả hai vế dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "When it rains, the ground _____ wet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "gets"
+        },
+        {
+          "id": "b",
+          "label": "will get"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "would get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Điều kiện loại 0 dùng để nói về những điều luôn đúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "If you mix blue and yellow, you _____ green.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "will get"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "would get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật khoa học, sử dụng thì hiện tại đơn cho cả hai mệnh đề."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Plants die if they _____ water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't get"
+        },
+        {
+          "id": "b",
+          "label": "won't get"
+        },
+        {
+          "id": "c",
+          "label": "didn't get"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề \"if\" và mệnh đề chính đều ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "If I am tired, I usually _____ to bed early.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "will go"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "would go"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Điều kiện loại 0 cũng dùng để diễn tả thói quen hoặc hành động thường xuyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "What _____ if you drop a glass? It breaks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "happens"
+        },
+        {
+          "id": "b",
+          "label": "will happen"
+        },
+        {
+          "id": "c",
+          "label": "happened"
+        },
+        {
+          "id": "d",
+          "label": "would happen"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi với điều kiện loại 0 cũng dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "If you touch a fire, you _____ burned.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "will get"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "would get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hiển nhiên, kết quả luôn xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Babies cry if they _____ hungry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "will be"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề điều kiện loại 0 diễn tả một sự thật chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "If you freeze water, it _____ into ice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "turns"
+        },
+        {
+          "id": "b",
+          "label": "will turn"
+        },
+        {
+          "id": "c",
+          "label": "turned"
+        },
+        {
+          "id": "d",
+          "label": "would turn"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật khoa học, cả hai mệnh đề đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "When the sun sets, it _____ dark.",
+      "options": [
+        {
+          "id": "a",
+          "label": "gets"
+        },
+        {
+          "id": "b",
+          "label": "will get"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "would get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Điều kiện loại 0 dùng để mô tả các sự kiện tự nhiên luôn xảy ra theo một cách nhất định."
+  }
+]

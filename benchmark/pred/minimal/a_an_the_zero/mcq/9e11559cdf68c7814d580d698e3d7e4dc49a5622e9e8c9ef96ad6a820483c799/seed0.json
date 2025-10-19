@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She is _____ excellent student.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Excellent” bắt đầu bằng nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "I saw _____ cat on _____ roof.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a / a"
+        },
+        {
+          "id": "b",
+          "label": "a / the"
+        },
+        {
+          "id": "c",
+          "label": "the / a"
+        },
+        {
+          "id": "d",
+          "label": "the / the"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lần đầu nhắc đến dùng “a”, mái nhà cụ thể dùng “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He goes to work by _____ bus.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“By bus” là cụm từ cố định không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ sun rises in _____ east.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A / the"
+        },
+        {
+          "id": "b",
+          "label": "The / a"
+        },
+        {
+          "id": "c",
+          "label": "The / the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article / the"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mặt trời là duy nhất, phương hướng dùng “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Do you like _____ coffee?",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Coffee” là danh từ không đếm được, nói chung không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Can you pass me _____ salt, please?",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Muối cụ thể đang ở gần người nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "My brother is _____ engineer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Engineer” bắt đầu bằng nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "_____ Amazon River is _____ longest river in South America.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A / a"
+        },
+        {
+          "id": "b",
+          "label": "The / a"
+        },
+        {
+          "id": "c",
+          "label": "The / the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article / the"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tên sông và so sánh nhất dùng “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She plays _____ piano very well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Nhạc cụ dùng “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "I usually have _____ breakfast at 7 AM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Bữa ăn nói chung không dùng mạo từ."
+  }
+]

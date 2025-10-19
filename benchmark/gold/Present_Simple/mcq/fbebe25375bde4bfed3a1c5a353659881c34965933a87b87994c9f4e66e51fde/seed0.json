@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS001",
+      "prompt": "My father _____ coffee every morning before he goes to work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drink"
+        },
+        {
+          "id": "b",
+          "label": "drinks"
+        },
+        {
+          "id": "c",
+          "label": "is drinking"
+        },
+        {
+          "id": "d",
+          "label": "are drinking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn dùng để diễn tả thói quen. Với chủ ngữ ngôi thứ ba số ít ('My father'), động từ cần thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS002",
+      "prompt": "The school bus _____ at 6:30 AM every weekday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "arrive"
+        },
+        {
+          "id": "b",
+          "label": "is arriving"
+        },
+        {
+          "id": "c",
+          "label": "arrives"
+        },
+        {
+          "id": "d",
+          "label": "arriving"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại đơn được dùng để nói về lịch trình, thời gian biểu. Chủ ngữ 'The school bus' là số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS003",
+      "prompt": "Linh is a good student. She _____ her homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always do"
+        },
+        {
+          "id": "b",
+          "label": "does always"
+        },
+        {
+          "id": "c",
+          "label": "always does"
+        },
+        {
+          "id": "d",
+          "label": "is always doing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ chỉ tần suất (always) thường đứng trước động từ thường. Với chủ ngữ 'She', động từ 'do' trở thành 'does'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS004",
+      "prompt": "We _____ to the cinema on weekends because we love movies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "often go"
+        },
+        {
+          "id": "b",
+          "label": "goes often"
+        },
+        {
+          "id": "c",
+          "label": "often goes"
+        },
+        {
+          "id": "d",
+          "label": "are often going"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với chủ ngữ 'We' (số nhiều), động từ ở thì hiện tại đơn được giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS005",
+      "prompt": "My brother _____ video games. He prefers reading books.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't like"
+        },
+        {
+          "id": "b",
+          "label": "isn't like"
+        },
+        {
+          "id": "c",
+          "label": "not like"
+        },
+        {
+          "id": "d",
+          "label": "doesn't like"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Để tạo câu phủ định cho chủ ngữ ngôi thứ ba số ít ('My brother'), ta dùng trợ động từ 'doesn't' + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS006",
+      "prompt": "_____ your parents know that you are here?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'your parents' là số nhiều, vì vậy ta dùng trợ động từ 'Do' để đặt câu hỏi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS007",
+      "prompt": "Water _____ at 100 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "boil"
+        },
+        {
+          "id": "b",
+          "label": "boils"
+        },
+        {
+          "id": "c",
+          "label": "is boiling"
+        },
+        {
+          "id": "d",
+          "label": "are boiling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn được dùng để diễn tả một sự thật khoa học, một chân lý. 'Water' là danh từ không đếm được, coi như số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS008",
+      "prompt": "What time _____ the English class usually finish?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ 'the English class' tương ứng với 'it', vì vậy ta dùng trợ động từ 'does' trong câu hỏi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS009",
+      "prompt": "My little sister often _____ cartoons on TV after she finishes her homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watch"
+        },
+        {
+          "id": "b",
+          "label": "watchs"
+        },
+        {
+          "id": "c",
+          "label": "is watching"
+        },
+        {
+          "id": "d",
+          "label": "watches"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Với động từ kết thúc bằng 'ch' và chủ ngữ là ngôi thứ ba số ít, ta thêm 'es' vào cuối động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "PS010",
+      "prompt": "I _____ understand this math problem. Can you help me?",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "am not"
+        },
+        {
+          "id": "c",
+          "label": "don't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để tạo câu phủ định với chủ ngữ 'I', ta dùng trợ động từ 'don't' (do not)."
+  }
+]

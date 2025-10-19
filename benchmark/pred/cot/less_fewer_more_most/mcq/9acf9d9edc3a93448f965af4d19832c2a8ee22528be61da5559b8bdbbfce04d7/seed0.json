@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_001",
+      "prompt": "After decluttering, I found I had _____ books than before, making my shelves look much neater.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'fewer' cho danh từ đếm được (books). Ngữ cảnh 'decluttering' cho thấy số lượng giảm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_002",
+      "prompt": "Due to the drought, farmers are worried they will have _____ water for their crops this year than last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'less' cho danh từ không đếm được (water). Ngữ cảnh 'drought' cho thấy số lượng giảm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_003",
+      "prompt": "To meet the growing demand, the factory needs to produce _____ units of smartphones next month than this month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' để chỉ số lượng tăng lên của danh từ đếm được (units). Ngữ cảnh 'growing demand' xác nhận điều này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_004",
+      "prompt": "Students need to spend _____ time studying if they want to improve their grades significantly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' cho danh từ không đếm được (time) khi muốn chỉ sự gia tăng về số lượng hoặc mức độ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_005",
+      "prompt": "Among all the students, Sarah received the _____ votes for class president, securing her victory.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' để chỉ số lượng lớn nhất trong một nhóm (votes). Cụm 'among all the students' là dấu hiệu của so sánh nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_006",
+      "prompt": "Of all the ingredients, sugar contains the _____ calories, so we should consume it sparingly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' để chỉ lượng lớn nhất của danh từ không đếm được (calories) trong một nhóm. 'Of all the ingredients' là dấu hiệu so sánh nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_007",
+      "prompt": "Despite the new marketing campaign, the company attracted _____ new customers this quarter than expected.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'fewer' cho danh từ đếm được (customers). Ngữ cảnh 'than expected' và 'despite' cho thấy số lượng ít hơn dự kiến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_008",
+      "prompt": "After the budget cuts, the department has _____ funding available for new projects than last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'less' cho danh từ không đếm được (funding). Ngữ cảnh 'budget cuts' và 'than last year' cho thấy lượng tiền ít hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_009",
+      "prompt": "This year, our team completed _____ projects than any other team in the department.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'more' để so sánh số lượng lớn hơn của danh từ đếm được (projects) giữa các nhóm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_lfm_010",
+      "prompt": "Learning a new language requires the _____ dedication and consistent practice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng 'most' để chỉ mức độ cao nhất của một phẩm chất hoặc hành động (dedication, practice). Đây là so sánh nhất."
+  }
+]

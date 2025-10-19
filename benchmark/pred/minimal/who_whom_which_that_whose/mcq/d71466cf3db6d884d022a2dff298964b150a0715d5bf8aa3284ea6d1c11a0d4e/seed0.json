@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The man _____ lives next door is a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Who” dùng cho người làm chủ ngữ của mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "I bought a new phone, _____ has a great camera.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Which” dùng cho vật hoặc động vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "She is the student _____ father is a famous scientist.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Whose” dùng để chỉ sự sở hữu cho cả người và vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The woman _____ I met yesterday is my new boss.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Whom” dùng cho người làm tân ngữ của mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "This is the book _____ I told you about.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“That” có thể dùng thay cho “which” trong mệnh đề quan hệ xác định khi nói về vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The car _____ is parked outside belongs to my neighbor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“That” có thể dùng thay cho “which” khi làm chủ ngữ của mệnh đề quan hệ xác định cho vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The person to _____ I spoke was very helpful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi có giới từ đứng trước, dùng “whom” cho người và “which” cho vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "This is the best movie _____ I have ever seen.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Sau các từ như “the only”, “the best”, “all”, “everything”, “nothing”, thường dùng “that”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "He passed his exam, _____ made his parents very proud.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Which” có thể thay thế cho cả một mệnh đề đứng trước, thường trong mệnh đề quan hệ không xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Do you know the girl _____ won the first prize?",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Who” làm chủ ngữ của mệnh đề quan hệ, theo sau là một động từ."
+  }
+]

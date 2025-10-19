@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_01",
+      "prompt": "If you _____ water to 100 degrees Celsius, it boils.",
+      "options": [
+        {
+          "id": "a",
+          "label": "heat"
+        },
+        {
+          "id": "b",
+          "label": "will heat"
+        },
+        {
+          "id": "c",
+          "label": "heated"
+        },
+        {
+          "id": "d",
+          "label": "are heating"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 0 dùng để diễn tả một sự thật hiển nhiên, một chân lý. Cả hai mệnh đề đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_02",
+      "prompt": "Plants die if they _____ enough sunlight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will not get"
+        },
+        {
+          "id": "b",
+          "label": "did not get"
+        },
+        {
+          "id": "c",
+          "label": "don't get"
+        },
+        {
+          "id": "d",
+          "label": "are not getting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 0 sử dụng thì hiện tại đơn. Với chủ ngữ 'they', ta dùng trợ động từ 'do not' (don't)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_03",
+      "prompt": "When the sun goes down, it _____ dark.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will get"
+        },
+        {
+          "id": "b",
+          "label": "got"
+        },
+        {
+          "id": "c",
+          "label": "is getting"
+        },
+        {
+          "id": "d",
+          "label": "gets"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là một quy luật tự nhiên, một sự thật luôn đúng. Mệnh đề chính trong câu điều kiện loại 0 dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_04",
+      "prompt": "If you mix red and yellow, you _____ orange.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "will get"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "have gotten"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Kết quả của việc pha màu đỏ và vàng luôn là màu cam. Đây là một sự thật, vì vậy hãy dùng thì hiện tại đơn cho cả hai vế."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_05",
+      "prompt": "My teacher gets annoyed if I _____ my homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't do"
+        },
+        {
+          "id": "b",
+          "label": "don't do"
+        },
+        {
+          "id": "c",
+          "label": "didn't do"
+        },
+        {
+          "id": "d",
+          "label": "am not doing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu này diễn tả một thói quen hoặc một điều luôn đúng trong một tình huống cụ thể. Mệnh đề 'if' cần thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_06",
+      "prompt": "If you _____ ice, it melts.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will heat"
+        },
+        {
+          "id": "b",
+          "label": "are heating"
+        },
+        {
+          "id": "c",
+          "label": "heat"
+        },
+        {
+          "id": "d",
+          "label": "heated"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu điều kiện loại 0 diễn tả một sự thật khoa học. Mệnh đề 'if' phải ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_07",
+      "prompt": "When I _____ a big lunch, I usually feel sleepy afterwards.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eat"
+        },
+        {
+          "id": "b",
+          "label": "will eat"
+        },
+        {
+          "id": "c",
+          "label": "ate"
+        },
+        {
+          "id": "d",
+          "label": "have eaten"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu này diễn tả một thói quen hoặc một kết quả luôn xảy ra với người nói. Dùng thì hiện tại đơn trong mệnh đề 'when'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_08",
+      "prompt": "If metal gets hot, it _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will expand"
+        },
+        {
+          "id": "b",
+          "label": "expanded"
+        },
+        {
+          "id": "c",
+          "label": "expands"
+        },
+        {
+          "id": "d",
+          "label": "is expanding"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là một sự thật vật lý. Mệnh đề chính trong câu điều kiện loại 0 dùng thì hiện tại đơn. 'It' là chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_09",
+      "prompt": "People _____ weight if they eat too much and don't exercise.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will put on"
+        },
+        {
+          "id": "b",
+          "label": "put on"
+        },
+        {
+          "id": "c",
+          "label": "are putting on"
+        },
+        {
+          "id": "d",
+          "label": "putted on"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một kết quả chung, một sự thật về sức khỏe. Mệnh đề chính trong câu điều kiện loại 0 dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ENG_ZC_10",
+      "prompt": "If you _____ the 'power' button, the machine starts.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are pressing"
+        },
+        {
+          "id": "b",
+          "label": "will press"
+        },
+        {
+          "id": "c",
+          "label": "pressed"
+        },
+        {
+          "id": "d",
+          "label": "press"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu này mô tả cách hoạt động của một cái máy, một sự thật luôn đúng. Mệnh đề 'if' dùng thì hiện tại đơn."
+  }
+]

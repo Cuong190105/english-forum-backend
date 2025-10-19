@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_001",
+      "prompt": "My parents have decided _____ a new apartment in the city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buying"
+        },
+        {
+          "id": "b",
+          "label": "to buy"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "to buying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'decide' (quyết định) đi với động từ nguyên mẫu có 'to' (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_002",
+      "prompt": "Would you mind _____ the window? It's a bit cold in here.",
+      "options": [
+        {
+          "id": "a",
+          "label": "closing"
+        },
+        {
+          "id": "b",
+          "label": "to close"
+        },
+        {
+          "id": "c",
+          "label": "close"
+        },
+        {
+          "id": "d",
+          "label": "to closing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'Would you mind' (bạn có phiền không) được theo sau bởi danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_003",
+      "prompt": "He is very good at _____ stories that make everyone laugh.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tell"
+        },
+        {
+          "id": "b",
+          "label": "to tell"
+        },
+        {
+          "id": "c",
+          "label": "telling"
+        },
+        {
+          "id": "d",
+          "label": "to telling"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ 'at', chúng ta sử dụng danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_004",
+      "prompt": "I stopped _____ coffee because it was making me feel anxious.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to drink"
+        },
+        {
+          "id": "b",
+          "label": "drinking"
+        },
+        {
+          "id": "c",
+          "label": "drink"
+        },
+        {
+          "id": "d",
+          "label": "for drinking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Stop V-ing' có nghĩa là dừng hẳn một việc gì đó. 'Stop to-V' có nghĩa là dừng lại để làm một việc khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_005",
+      "prompt": "It is not easy _____ a new language in a short time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learning"
+        },
+        {
+          "id": "b",
+          "label": "learn"
+        },
+        {
+          "id": "c",
+          "label": "to learn"
+        },
+        {
+          "id": "d",
+          "label": "for learning"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'It is + adjective + to-V' được dùng để đưa ra nhận xét hoặc đánh giá."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_006",
+      "prompt": "My teacher advised me _____ for the exam more carefully.",
+      "options": [
+        {
+          "id": "a",
+          "label": "studying"
+        },
+        {
+          "id": "b",
+          "label": "to study"
+        },
+        {
+          "id": "c",
+          "label": "study"
+        },
+        {
+          "id": "d",
+          "label": "to studying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'advise somebody to do something' (khuyên ai làm gì) yêu cầu động từ nguyên mẫu có 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_007",
+      "prompt": "_____ a lot of vegetables is good for your health.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Eat"
+        },
+        {
+          "id": "b",
+          "label": "To eating"
+        },
+        {
+          "id": "c",
+          "label": "Eating"
+        },
+        {
+          "id": "d",
+          "label": "For eat"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Danh động từ (V-ing) có thể được dùng làm chủ ngữ của câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_008",
+      "prompt": "Please remember _____ off the lights before you leave the room.",
+      "options": [
+        {
+          "id": "a",
+          "label": "turning"
+        },
+        {
+          "id": "b",
+          "label": "to turn"
+        },
+        {
+          "id": "c",
+          "label": "turn"
+        },
+        {
+          "id": "d",
+          "label": "to turning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Remember to-V' có nghĩa là nhớ phải làm một việc gì đó (chưa xảy ra)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_009",
+      "prompt": "I'm looking forward to _____ from you soon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hear"
+        },
+        {
+          "id": "b",
+          "label": "to hear"
+        },
+        {
+          "id": "c",
+          "label": "hearing"
+        },
+        {
+          "id": "d",
+          "label": "be heard"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'look forward to' được theo sau bởi danh động từ (V-ing) vì 'to' ở đây là giới từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vn_mcq_010",
+      "prompt": "My brother is trying _____ smoking, but it's very difficult for him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to quit"
+        },
+        {
+          "id": "b",
+          "label": "quitting"
+        },
+        {
+          "id": "c",
+          "label": "quit"
+        },
+        {
+          "id": "d",
+          "label": "for quitting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Try to-V' có nghĩa là cố gắng, nỗ lực làm gì đó. 'Try V-ing' có nghĩa là thử làm gì đó."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'goes' vì chủ ngữ 'My sister' là ngôi thứ ba số ít, và 'every day' chỉ thói quen ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "They usually _____ football on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "played"
+        },
+        {
+          "id": "d",
+          "label": "playing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'play' vì chủ ngữ 'They' là số nhiều, và 'usually' chỉ thói quen ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "The sun _____ in the East.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "rises"
+        },
+        {
+          "id": "c",
+          "label": "rose"
+        },
+        {
+          "id": "d",
+          "label": "rising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'rises' vì 'The sun' là ngôi thứ ba số ít, và đây là một sự thật hiển nhiên, dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "He _____ like coffee.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'doesn't' vì chủ ngữ 'He' là ngôi thứ ba số ít khi dùng thể phủ định với động từ thường ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "We _____ watch TV in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'don't' vì chủ ngữ 'We' là số nhiều khi dùng thể phủ định với động từ thường ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "_____ she _____ English?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do / speak"
+        },
+        {
+          "id": "b",
+          "label": "Does / speak"
+        },
+        {
+          "id": "c",
+          "label": "Do / speaks"
+        },
+        {
+          "id": "d",
+          "label": "Does / speaks"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'Does' cho ngôi thứ ba số ít và động từ chính ở dạng nguyên mẫu 'speak' trong câu hỏi thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "_____ you _____ your homework every night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do / do"
+        },
+        {
+          "id": "b",
+          "label": "Does / do"
+        },
+        {
+          "id": "c",
+          "label": "Do / does"
+        },
+        {
+          "id": "d",
+          "label": "Does / does"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'Do' cho chủ ngữ 'you' và động từ chính ở dạng nguyên mẫu 'do' trong câu hỏi thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "My cat _____ very playful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'is' vì chủ ngữ 'My cat' là ngôi thứ ba số ít, dùng động từ 'to be' để diễn tả trạng thái ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "The students usually _____ in the classroom by 8 AM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'are' vì chủ ngữ 'The students' là số nhiều, và 'usually' chỉ thói quen ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Birds _____ nests.",
+      "options": [
+        {
+          "id": "a",
+          "label": "build"
+        },
+        {
+          "id": "b",
+          "label": "builds"
+        },
+        {
+          "id": "c",
+          "label": "built"
+        },
+        {
+          "id": "d",
+          "label": "building"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'build' vì chủ ngữ 'Birds' là số nhiều, và đây là một sự thật chung, dùng thì hiện tại đơn."
+  }
+]

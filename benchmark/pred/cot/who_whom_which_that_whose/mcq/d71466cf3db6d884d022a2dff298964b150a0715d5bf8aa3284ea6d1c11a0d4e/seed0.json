@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_001",
+      "prompt": "The manager, _____ is known for her strictness, announced new policies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Who” làm chủ ngữ cho động từ “is known”. “Whom” dùng làm tân ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_002",
+      "prompt": "My neighbor, _____ works as a doctor, helped me with my injury.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "who"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'who' để chỉ người. 'Which' dùng cho vật hoặc động vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_003",
+      "prompt": "The new smartphone, _____ has a longer battery life, is very popular.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "which"
+        },
+        {
+          "id": "c",
+          "label": "whom"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'which' sau dấu phẩy để thêm thông tin không thiết yếu. 'That' không dùng trong mệnh đề không xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_004",
+      "prompt": "I met a student _____ parents are both teachers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Whose' dùng để chỉ sự sở hữu, thay thế cho 'his/her/their' trong mệnh đề quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_005",
+      "prompt": "The person to _____ I spoke yesterday was very helpful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi có giới từ đứng trước, dùng 'whom' cho người. 'Who' không đứng sau giới từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_006",
+      "prompt": "The student _____ the teacher praised received a scholarship.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Whom' là tân ngữ của động từ 'praised'. 'Who' làm chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_007",
+      "prompt": "He failed the exam, _____ surprised everyone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Which' có thể dùng để chỉ toàn bộ mệnh đề hoặc một sự việc đã được nhắc đến trước đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_008",
+      "prompt": "All _____ glitters is not gold.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Sau các từ như 'all', 'everything', 'nothing', thường dùng 'that' làm đại từ quan hệ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_009",
+      "prompt": "The project, for _____ we worked tirelessly, was a great success.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "that"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'which' sau giới từ khi đại từ quan hệ thay thế cho vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "wh_mcq_010",
+      "prompt": "She is the artist _____ everyone says will win the award.",
+      "options": [
+        {
+          "id": "a",
+          "label": "who"
+        },
+        {
+          "id": "b",
+          "label": "whom"
+        },
+        {
+          "id": "c",
+          "label": "which"
+        },
+        {
+          "id": "d",
+          "label": "whose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Who' là chủ ngữ của mệnh đề 'will win the award'. 'Everyone says' là mệnh đề phụ."
+  }
+]

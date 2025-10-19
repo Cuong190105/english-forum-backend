@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Bill Gates _____ a young man when he attended Harvard University.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ đơn dùng để diễn tả trạng thái đã xảy ra và kết thúc trong quá khứ. 'Was' là dạng quá khứ của 'to be' cho chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "He _____ Harvard University for a few years before starting Microsoft.",
+      "options": [
+        {
+          "id": "a",
+          "label": "attended"
+        },
+        {
+          "id": "b",
+          "label": "attends"
+        },
+        {
+          "id": "c",
+          "label": "has attended"
+        },
+        {
+          "id": "d",
+          "label": "will attend"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Attended' là dạng quá khứ đơn của động từ 'attend', phù hợp với hành động đã hoàn thành trong quá khứ trước khi bắt đầu Microsoft."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "Many people _____ him for his intelligence even when he was a student.",
+      "options": [
+        {
+          "id": "a",
+          "label": "respected"
+        },
+        {
+          "id": "b",
+          "label": "respect"
+        },
+        {
+          "id": "c",
+          "label": "have respected"
+        },
+        {
+          "id": "d",
+          "label": "will respect"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Respected' là dạng quá khứ đơn của động từ 'respect', diễn tả hành động đã xảy ra và kết thúc trong quá khứ, được gợi ý bởi 'when he was a student'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "Last year, my family _____ to Da Lat for our summer vacation.",
+      "options": [
+        {
+          "id": "a",
+          "label": "went"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "gone"
+        },
+        {
+          "id": "d",
+          "label": "goes"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Last year' là dấu hiệu của thì quá khứ đơn. 'Went' là dạng quá khứ của động từ bất quy tắc 'go', diễn tả hành động đã xảy ra và kết thúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "My sister _____ her homework yesterday evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't finish"
+        },
+        {
+          "id": "b",
+          "label": "doesn't finish"
+        },
+        {
+          "id": "c",
+          "label": "hasn't finished"
+        },
+        {
+          "id": "d",
+          "label": "won't finish"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Yesterday evening' chỉ thời gian trong quá khứ. 'Didn't finish' là dạng phủ định của thì quá khứ đơn, diễn tả hành động không xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "_____ you visit your grandparents last weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Will"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Last weekend' là dấu hiệu của thì quá khứ đơn. 'Did' được dùng để đặt câu hỏi trong thì quá khứ đơn, theo sau là động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "They _____ a new car two months ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "bought"
+        },
+        {
+          "id": "b",
+          "label": "buy"
+        },
+        {
+          "id": "c",
+          "label": "have bought"
+        },
+        {
+          "id": "d",
+          "label": "will buy"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Two months ago' là dấu hiệu của thì quá khứ đơn. 'Bought' là dạng quá khứ của động từ bất quy tắc 'buy', diễn tả hành động đã hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "In 2010, I _____ my first international trip.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took"
+        },
+        {
+          "id": "b",
+          "label": "take"
+        },
+        {
+          "id": "c",
+          "label": "have taken"
+        },
+        {
+          "id": "d",
+          "label": "will take"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'In 2010' là mốc thời gian cụ thể trong quá khứ. 'Took' là dạng quá khứ của động từ bất quy tắc 'take', diễn tả hành động đã xảy ra và kết thúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "When I was a child, I often _____ with my toys for hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "played"
+        },
+        {
+          "id": "b",
+          "label": "play"
+        },
+        {
+          "id": "c",
+          "label": "have played"
+        },
+        {
+          "id": "d",
+          "label": "will play"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'When I was a child' đặt ngữ cảnh trong quá khứ. 'Played' là dạng quá khứ đơn của 'play', diễn tả thói quen trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "She _____ a letter to her friend last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wrote"
+        },
+        {
+          "id": "b",
+          "label": "writes"
+        },
+        {
+          "id": "c",
+          "label": "has written"
+        },
+        {
+          "id": "d",
+          "label": "is writing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Last night' là dấu hiệu của thì quá khứ đơn. 'Wrote' là dạng quá khứ của động từ bất quy tắc 'write', diễn tả hành động đã hoàn thành."
+  }
+]

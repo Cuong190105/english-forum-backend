@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "will-mcq-1",
+      "prompt": "Based on the weather forecast, it _____ sunny tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "will be"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để đưa ra một dự đoán về tương lai, chúng ta dùng thì tương lai đơn: will + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "will-mcq-2",
+      "prompt": "A: 'I'm so thirsty.' B: 'Wait a moment, I _____ you a glass of water.'",
+      "options": [
+        {
+          "id": "a",
+          "label": "am getting"
+        },
+        {
+          "id": "b",
+          "label": "got"
+        },
+        {
+          "id": "c",
+          "label": "will get"
+        },
+        {
+          "id": "d",
+          "label": "get"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sử dụng 'will' để diễn tả một quyết định được đưa ra ngay tại thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "will-mcq-3",
+      "prompt": "I promise I _____ tell anyone your secret.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "am not"
+        },
+        {
+          "id": "d",
+          "label": "haven't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng phủ định của 'will' là 'will not', thường được viết tắt là 'won't', dùng để đưa ra lời hứa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "will-mcq-4",
+      "prompt": "_____ you be at the party this Saturday?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Have"
+        },
+        {
+          "id": "d",
+          "label": "Will"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Để đặt câu hỏi về một sự kiện trong tương lai, ta đảo 'Will' lên trước chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "will-mcq-5",
+      "prompt": "If you take a risk and succeed, you surely _____ a successful person.",
+      "options": [
+        {
+          "id": "a",
+          "label": "become"
+        },
+        {
+          "id": "b",
+          "label": "are becoming"
+        },
+        {
+          "id": "c",
+          "label": "will become"
+        },
+        {
+          "id": "d",
+          "label": "became"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là câu điều kiện loại 1. Mệnh đề chính (kết quả) dùng thì tương lai đơn (will + V)."
+  }
+]

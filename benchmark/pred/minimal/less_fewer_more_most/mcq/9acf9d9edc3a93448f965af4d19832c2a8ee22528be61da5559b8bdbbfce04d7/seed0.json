@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "I have _____ time to finish my homework than you do.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "many"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Time là danh từ không đếm được, vì vậy chúng ta dùng 'less'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "There are _____ students in this class than in the other one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "much"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Students là danh từ đếm được số nhiều, vì vậy chúng ta dùng 'fewer'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "She needs _____ information about the project before she can start.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "least"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Information là danh từ không đếm được. 'More' được dùng để chỉ số lượng lớn hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Of all the books, this one has the _____ interesting plot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "least"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là dạng so sánh nhất. 'Most' được dùng với tính từ dài để chỉ mức độ cao nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Could you please add _____ sugar to my coffee?",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sugar là danh từ không đếm được. 'More' được dùng để yêu cầu thêm số lượng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I wish I had _____ worries in my life.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "much"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Worries là danh từ đếm được số nhiều, vì vậy chúng ta dùng 'fewer'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Among all the candidates, she received the _____ votes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "least"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Votes là danh từ đếm được số nhiều. 'Most' được dùng trong so sánh nhất để chỉ số lượng lớn nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "He spends _____ money on clothes than his sister.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "many"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Money là danh từ không đếm được, vì vậy chúng ta dùng 'less'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "We need to buy _____ apples for the pie.",
+      "options": [
+        {
+          "id": "a",
+          "label": "less"
+        },
+        {
+          "id": "b",
+          "label": "fewer"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Apples là danh từ đếm được số nhiều. 'More' được dùng để chỉ số lượng lớn hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "This is the restaurant with the _____ delicious food in town.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fewer"
+        },
+        {
+          "id": "b",
+          "label": "less"
+        },
+        {
+          "id": "c",
+          "label": "least"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là dạng so sánh nhất. 'Most' được dùng với tính từ dài ('delicious') để chỉ mức độ cao nhất."
+  }
+]

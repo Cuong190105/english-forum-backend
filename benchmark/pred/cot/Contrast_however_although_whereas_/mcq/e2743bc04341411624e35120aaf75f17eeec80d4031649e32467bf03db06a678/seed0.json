@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "contrast_001",
+      "prompt": "_____ the heavy rain, the outdoor concert continued as planned.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Although"
+        },
+        {
+          "id": "b",
+          "label": "Despite"
+        },
+        {
+          "id": "c",
+          "label": "However"
+        },
+        {
+          "id": "d",
+          "label": "Whereas"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'Despite' hoặc 'In spite of' với danh từ/cụm danh từ (the heavy rain). 'Although' dùng với mệnh đề (chủ ngữ + động từ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "contrast_002",
+      "prompt": "She studied hard for the exam; _____, she didn't pass.",
+      "options": [
+        {
+          "id": "a",
+          "label": "although"
+        },
+        {
+          "id": "b",
+          "label": "but"
+        },
+        {
+          "id": "c",
+          "label": "however"
+        },
+        {
+          "id": "d",
+          "label": "whereas"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'However' là trạng từ liên kết, thường đứng sau dấu chấm phẩy và trước dấu phẩy để nối hai câu độc lập. 'But' là liên từ đẳng lập."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "contrast_003",
+      "prompt": "My brother prefers action movies, _____ I enjoy romantic comedies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "however"
+        },
+        {
+          "id": "b",
+          "label": "although"
+        },
+        {
+          "id": "c",
+          "label": "whereas"
+        },
+        {
+          "id": "d",
+          "label": "despite"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Whereas' dùng để so sánh hai sự vật, sự việc và làm nổi bật sự khác biệt giữa chúng. 'However' thường dùng để chỉ sự đối lập mạnh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "contrast_004",
+      "prompt": "_____ he was tired, he still finished his work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Despite"
+        },
+        {
+          "id": "b",
+          "label": "In spite of"
+        },
+        {
+          "id": "c",
+          "label": "Although"
+        },
+        {
+          "id": "d",
+          "label": "However"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Although' (hoặc 'Even though', 'Though') dùng để giới thiệu một mệnh đề phụ chỉ sự nhượng bộ. 'Despite' và 'In spite of' theo sau là danh từ hoặc V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "contrast_005",
+      "prompt": "The new policy is unpopular. Many employees, _____, support it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "although"
+        },
+        {
+          "id": "b",
+          "label": "however"
+        },
+        {
+          "id": "c",
+          "label": "despite"
+        },
+        {
+          "id": "d",
+          "label": "whereas"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'However' có thể đứng giữa câu, thường đặt giữa hai dấu phẩy, để thể hiện sự đối lập với ý trước đó. Các lựa chọn khác không phù hợp ngữ pháp ở vị trí này."
+  }
+]

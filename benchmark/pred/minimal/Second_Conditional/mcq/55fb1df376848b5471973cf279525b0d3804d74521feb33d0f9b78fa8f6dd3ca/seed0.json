@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "If I _____ a millionaire, I would travel the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc câu điều kiện loại 2: If + S + V (quá khứ đơn), S + would/could/might + V (nguyên mẫu). Với động từ \"to be\", dùng \"were\" cho tất cả các ngôi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "If she _____ more time, she would learn to play the piano.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề \"if\" trong câu điều kiện loại 2 dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "What would you do if you _____ a ghost?",
+      "options": [
+        {
+          "id": "a",
+          "label": "see"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "would see"
+        },
+        {
+          "id": "d",
+          "label": "had seen"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau \"if\" trong câu điều kiện loại 2, động từ chia ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "If he didn't work so hard, he _____ more time for his hobbies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "would have"
+        },
+        {
+          "id": "c",
+          "label": "will have"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 2 có cấu trúc S + would/could/might + V (nguyên mẫu)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "They _____ happier if they lived in the countryside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "will be"
+        },
+        {
+          "id": "c",
+          "label": "would be"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là mệnh đề chính của câu điều kiện loại 2, cần dùng \"would be\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "If I _____ you, I would apologize to her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu điều kiện loại 2, khi dùng \"to be\" với chủ ngữ \"I\" (hoặc bất kỳ chủ ngữ nào), ta dùng \"were\" để diễn tả điều không có thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "If we _____ a map, we wouldn't be lost.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "didn't have"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "don't have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề \"if\" cần ở thì quá khứ đơn. \"Wouldn't be lost\" là kết quả, vậy \"if\" phải là điều kiện ngược lại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She _____ able to buy that house if she saved enough money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "will be"
+        },
+        {
+          "id": "c",
+          "label": "would be"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng \"would/could/might + V nguyên mẫu\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "If it _____ raining, we could go for a walk.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stopped"
+        },
+        {
+          "id": "b",
+          "label": "stops"
+        },
+        {
+          "id": "c",
+          "label": "would stop"
+        },
+        {
+          "id": "d",
+          "label": "had stopped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề \"if\" trong câu điều kiện loại 2 dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "What _____ you do if you found a wallet full of money?",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "did"
+        },
+        {
+          "id": "d",
+          "label": "do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là câu hỏi trong mệnh đề chính của câu điều kiện loại 2, cần dùng \"would\"."
+  }
+]

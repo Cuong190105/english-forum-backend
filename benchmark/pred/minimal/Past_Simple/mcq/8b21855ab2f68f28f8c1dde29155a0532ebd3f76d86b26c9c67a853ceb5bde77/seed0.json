@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Yesterday, I _____ to the park with my friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "going"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Yesterday\" là dấu hiệu của thì quá khứ đơn. \"Go\" là động từ bất quy tắc, quá khứ là \"went\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She _____ a delicious cake for her birthday party last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "bake"
+        },
+        {
+          "id": "b",
+          "label": "bakes"
+        },
+        {
+          "id": "c",
+          "label": "baked"
+        },
+        {
+          "id": "d",
+          "label": "baking"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Last week\" chỉ thì quá khứ đơn. \"Bake\" là động từ có quy tắc, thêm \"-ed\" vào cuối."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They _____ visit their grandparents last summer because they were busy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định thì quá khứ đơn, chúng ta dùng \"didn't\" + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you finish your homework an hour ago?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để đặt câu hỏi ở thì quá khứ đơn, chúng ta dùng \"Did\" + chủ ngữ + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "My brother _____ very happy when he received the gift.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ \"My brother\" là số ít, nên dùng \"was\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The students _____ in the library all morning yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Chủ ngữ \"The students\" là số nhiều, nên dùng \"were\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "We _____ a lot of interesting things at the museum last month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "see"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "seen"
+        },
+        {
+          "id": "d",
+          "label": "seeing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Last month\" chỉ thì quá khứ đơn. \"See\" là động từ bất quy tắc, quá khứ là \"saw\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "My mother _____ for me when I was late.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worry"
+        },
+        {
+          "id": "b",
+          "label": "worries"
+        },
+        {
+          "id": "c",
+          "label": "worried"
+        },
+        {
+          "id": "d",
+          "label": "worrying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Worry\" là động từ có quy tắc, khi chuyển sang quá khứ đơn, \"y\" đổi thành \"i\" rồi thêm \"-ed\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Two years ago, I _____ to Hanoi for the first time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "travel"
+        },
+        {
+          "id": "b",
+          "label": "travels"
+        },
+        {
+          "id": "c",
+          "label": "traveled"
+        },
+        {
+          "id": "d",
+          "label": "traveling"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Two years ago\" là dấu hiệu của thì quá khứ đơn. \"Travel\" là động từ có quy tắc, thêm \"-ed\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Last night, I _____ a strange dream.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Last night\" chỉ thì quá khứ đơn. \"Have\" là động từ bất quy tắc, quá khứ là \"had\"."
+  }
+]
