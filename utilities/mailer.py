@@ -1,7 +1,5 @@
 import aiosmtplib
 import logging
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from email.message import EmailMessage
 from configs.config_mail import *
 

@@ -12,10 +12,15 @@ load_dotenv()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    if getenv("APP_ENV") != "test":
+    env = getenv("APP_ENV")
+    if env != "test":
         from database import database
-        print("Not in test mode")
-        database.create_db_and_tables()
+        print("Not in test env")
+        # Drop all tables if this is dev env
+        database.create_db_and_tables(env == "development")
+        if env == "development":
+            from database import testdata
+            testdata.prepareForTest()
     yield
 
 app = FastAPI(lifespan=lifespan)

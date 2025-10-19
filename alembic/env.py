@@ -4,9 +4,8 @@ import os
 from configs.config_db import *
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
-from models import Base
+from database.models import Base
 from alembic import context
-import sys
 
 # sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 load_dotenv()

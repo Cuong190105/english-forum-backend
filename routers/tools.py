@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from typing import Annotated
 from fastapi import APIRouter, status, HTTPException
 from database.models import Activity, User, Post, Notification
@@ -20,12 +21,12 @@ async def search(this_user: User_auth, keyword: str, db: Db_dependency):
     }
 
 @router.get("/notifications", status_code=status.HTTP_200_OK, response_model=OutputNotification)
-async def get_notifications(this_user: User_auth, db: Db_dependency, start: int = 0):
+async def get_notifications(this_user: User_auth, db: Db_dependency, cursor: datetime = datetime.now(timezone.utc)):
     NOTI_PAGE_LIMIT = 10
     noti = db.query(Notification)\
-        .filter(Notification.user_id == this_user.user_id, Notification.is_deleted == False)\
+        .filter(Notification.user_id == this_user.user_id, Notification.is_deleted == False, Notification.created_at < cursor)\
         .order_by(Notification.created_at.desc())\
-        .limit(NOTI_PAGE_LIMIT).offset(start)\
+        .limit(NOTI_PAGE_LIMIT)\
         .all()
 
     output = []

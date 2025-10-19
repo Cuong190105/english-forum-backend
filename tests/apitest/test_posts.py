@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from database.models import Post
 import pytest
 
@@ -22,16 +23,39 @@ class TestPost:
         )
         assert response.status_code == 200
 
-        # Test with criteria and offset+limit newsfeed filter
+        # Test with criteria, cursor and limit newsfeed filter
         response = client.get(
             "/",
             headers={"Authorization": "Bearer 1"},
             params = {
                 "criteria": "trending",
-                "offset": 15,
+                "cursor": datetime.now(timezone.utc),
                 "limit": 15,
             }
         )
+        assert response.status_code == 200
+
+        # Test with invalid criteria
+        response = client.get(
+            "/",
+            headers={"Authorization": "Bearer 1"},
+            params = {
+                "criteria": "trding",
+            }
+        )
+        assert response.status_code == 422
+
+        # Test with invalid criteria
+        response = client.get(
+            "/",
+            headers={"Authorization": "Bearer 1"},
+            params = {
+                "limit": "0",
+            }
+        )
+        assert response.status_code == 422
+
+
     
     def test_upload(self, client):
         # Test upload without attachment

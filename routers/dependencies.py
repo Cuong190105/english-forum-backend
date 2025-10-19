@@ -33,8 +33,9 @@ async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db
     if user is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authorized")
     
-    path = request.scope.get("route").path
+    path = request.url.path
     if user.email_verified_at is None and not path.startswith("/register/"):
+        print(path)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="You have to verify your email before using the app")
     return user
 

@@ -1,3 +1,4 @@
+from fastapi import HTTPException
 import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -23,6 +24,8 @@ class TestPostComment:
         assert len(await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='question',limit=3)) == 3
         assert len(await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc) - timedelta(days=1), criteria='latest', limit=15)) == 4
         assert await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='trending', limit=15) != posts
+        assert await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='treng', limit=15) is None
+        assert await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='trending', limit=-1) is None
 
     @pytest.mark.asyncio
     async def test_createPost(self, mock_db):

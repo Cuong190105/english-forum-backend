@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 from typing import Annotated, Optional
 from fastapi import APIRouter, File, Form,  HTTPException, Query, status, Depends, UploadFile
-from pydantic import BaseModel
+from pydantic import BaseModel, PositiveInt
 from database.database import Db_dependency
 from database.models import User, Post, Attachment, PostVote
 from database.outputmodel import OutputPost, SimpleAttachment
@@ -29,7 +29,7 @@ class PostTextContent(BaseModel):
         return cls(title=title, content=content, tag=tag)
 
 @router.get("/", status_code=status.HTTP_200_OK)
-async def get_newsfeed(this_user: User_auth, db: Db_dependency, criteria: FeedCriteria = 'latest', cursor: datetime = datetime.now(timezone.utc), limit: int = 15):
+async def get_newsfeed(this_user: User_auth, db: Db_dependency, criteria: FeedCriteria = 'latest', cursor: datetime = datetime.now(timezone.utc), limit: PositiveInt = 15):
     """
     Get latest posts for user's feed.\n
     Return a list of post.
@@ -47,7 +47,7 @@ async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
     """
     Get the post by post_id
     """
-    post = await postutils.getPost(this_user, post_id, db)
+    post = await postutils.getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     return await postutils.getOutputPost(this_user, post, db)
@@ -62,29 +62,23 @@ async def upload_post(
     Upload a post
     """
 
+    # Validate and store attachments
+    if attachments is not None:
+        ats = await postutils.saveAttachments(db, attachments)
+        if ats is None:
+            raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file type or size. Only accept image with type jpg, png, gif with size < 5MB, and video with type mp4, mkv, mov, avi with size < 100MB")
+    else:
+        ats = None
+
     # Create a post object and get its post_id
-    new_post = await postutils.createPost(db, this_user, text_content.title, text_content.content, text_content.tag)
+    new_post = await postutils.createPost(db, this_user, text_content.title, text_content.content, text_content.tag, ats)
 
     # Store the attachments
-    media_name = []
-    if attachments is not None:
-        for index in range(len(attachments)):
-            # metadata = "str"
-            # att = Attachment(
-            #     post_id=post.post_id,
-            #     media_type=attachments[index].content_type,
-            #     media_metadata=attachments[index].headers,
-            #     index=index
-            # )
-            # post.attachments.append(att)
-            media_name.append(attachments[index].filename)
-    else:
-        print("none")
+
     await logActivity(this_user.user_id, db, ActionType.POST, new_post.content, new_post.post_id)
 
     return {
         "message": "Post created",
-        "filename": media_name,
     }
 
 @router.put("/posts/{post_id}", status_code=status.HTTP_202_ACCEPTED)
