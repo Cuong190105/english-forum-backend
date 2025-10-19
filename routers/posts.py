@@ -1,16 +1,15 @@
 from datetime import datetime, timezone
 from typing import Annotated, Optional
-from fastapi import APIRouter, File, Form,  HTTPException, Query, status, Depends, UploadFile
+from fastapi import APIRouter, File, Form,  HTTPException, status, Depends, UploadFile
 from pydantic import BaseModel, PositiveInt
 from database.database import Db_dependency
-from database.models import User, Post, Attachment, PostVote
-from database.outputmodel import OutputPost, SimpleAttachment
+from database.outputmodel import OutputPost
 from routers.dependencies import User_auth
 from utilities import post as postutils
-from utilities.attachments import getMetadata
 from utilities.activity import logActivity
 from configs.config_activity import ActionType
 from configs.config_post import FeedCriteria
+from fastapi.responses import FileResponse
 
 router = APIRouter()
 
@@ -66,7 +65,7 @@ async def upload_post(
     if attachments is not None:
         ats = await postutils.saveAttachments(db, attachments)
         if ats is None:
-            raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file type or size. Only accept image with type jpg, png, gif with size < 5MB, and video with type mp4, mkv, mov, avi with size < 100MB")
+            raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file upload. Can upload at most 10 files per post. Only accept image with type jpg, png, gif with size < 5MB, and video with type mp4, mkv, mov, avi with size < 100MB")
     else:
         ats = None
 
@@ -87,11 +86,28 @@ async def edit_post(
     db: Db_dependency,
     post_id: int,
     text_content: Annotated[PostTextContent, Depends(PostTextContent.form)],
+    attachments_update: Optional[list[str]],
     attachments: Optional[list[UploadFile]] = File(None)
 ):
     """
-    Edit a post
+    Edit a post.
+    if there are changes in attachments, please send the changes in `attachments_update` with syntax: "<change_type> <index> <new_position>"
+    change_type can be:
+    -   add: Add a new file to position `index`
+    -   remove: Remove a file at position `index`
+    -   move: Move a file from position `index` to `new_position`
+    Then send new media files according to their indices.
+    Don't need to provide <new_position> if change_type doesn't require
     """
+
+    if attachments is not None:
+        st = await postutils.editAttachments(db, attachments, attachments_update)
+        if st == 1:
+            raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file upload. Can upload at most 10 files per post. Only accept image with type jpg, png, gif with size < 5MB, and video with type mp4, mkv, mov, avi with size < 100MB")
+        elif st == 2:
+            raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail="Media indexed wrong")
+        elif st == 3:
+            raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Server error")
 
     # Update post content
     post = await postutils.getPost(post_id, db)
@@ -103,28 +119,8 @@ async def edit_post(
     
     await postutils.updatePost(db, post, text_content.title, text_content.content, text_content.tag)
 
-    # TODO: Update post attachment
-    for att in post.attachments:
-        att.is_deleted=True
-    
-    # Store the attachments
-    media_name = []
-    if attachments is not None:
-        for index in range(len(attachments)):
-            # metadata = "str"
-            # att = Attachment(
-            #     post_id=post.post_id,
-            #     media_type=attachments[index].content_type,
-            #     media_metadata=attachments[index].headers,
-            #     index=index
-            # )
-            # post.attachments.append(att)
-            media_name.append(attachments[index].filename)
-    db.commit()
-
     return {
         "message": "Post updated successfully",
-        "filename": media_name,
     }
 
 @router.delete("/posts/{post_id}", status_code=status.HTTP_200_OK)
@@ -162,3 +158,15 @@ async def vote_post(this_user: User_auth, post_id: int, vote_type: Annotated[int
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid value")
 
     return {"message": "Voted"}
+
+@router.get("posts/{post_id}/media/{media_filename}")
+async def get_post_media(db: Db_dependency, this_user: User_auth, post_id: int, media_filename: str):
+    """
+    Get media by its id.
+    """
+    if await postutils.getPost(post_id, db) is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
+
+    file = postutils.getFile(db, post_id, media_filename)
+    if file is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Requested resource not found")

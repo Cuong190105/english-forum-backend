@@ -8,7 +8,7 @@ from database.database import Db_dependency
 from database.models import Post, Attachment, PostVote, User
 from database.outputmodel import OutputPost, SimpleAttachment
 from utilities import comment as cmtutils
-from configs.config_post import FeedCriteria
+from configs.config_post import FeedCriteria, FileChange
 from configs.config_validation import FileRule
 
 async def getPost(post_id: int, db: Db_dependency):
@@ -191,75 +191,3 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
     db.commit()
 
     return True
-
-async def validateSize(file: UploadFile):
-    """
-    Validate a file by type and size.
-    
-    Params:
-        file: File need validating
-
-    Returns:
-        bool: True if pass, else False
-    """
-    ext = os.path.splitext(file.filename)[1]
-    limitSize = 0
-    if ext in FileRule.VALID_IMAGE_FILE_TYPES:
-        limitSize = FileRule.IMAGE_MAX_SIZE_MB
-    elif ext in FileRule.VALID_VIDEO_FILE_TYPES:
-        limitSize = FileRule.VIDEO_MAX_SIZE_MB
-    else:
-        return False
-    
-    total_size = 0
-    CHUNK_SIZE = 1024 * 1024
-    while chunk := await file.read(CHUNK_SIZE):
-        total_size += len(chunk) / CHUNK_SIZE
-        if total_size >= limitSize:
-            return False
-    file.file.seek(0)
-    return True
-
-
-async def saveAttachments(db: Db_dependency, attachments: list[UploadFile]):
-    """
-    Validate and store attachments.
-
-    Params:
-        db: Database session object
-        attachments: List of Files uploaded
-
-    Returns:
-        Optional[list[Attachment]]: List of Attachment metadata objects. None if one of the attachment fails the validation.  
-    """
-    # Validate files
-    for file in attachments:
-        if not await validateSize(file):
-            return None
-    
-    # Store files
-    os.makedirs("storage/public", exist_ok=True)
-    idx = 0
-    try:
-        saved = []
-        for file in attachments:
-            ext = os.path.splitext(file.filename)[1]
-            
-            filename = f"{datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")}_{uuid.uuid4().hex}{ext}"
-            path = f"storage/public/{filename}"
-            with open(path, "wb") as buffer:
-                while chunk := await file.read(1024 * 1024):
-                    buffer.write(chunk)
-
-            attachment = Attachment(
-                media_type=file.content_type,
-                media_metadata="",
-                index=idx,
-                media_url=filename,
-            )
-            idx += 1
-            saved.append(attachment)
-        return saved
-    except Exception as e:
-        print(e.with_traceback(e.__traceback__))
-        return None

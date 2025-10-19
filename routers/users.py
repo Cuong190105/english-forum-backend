@@ -1,11 +1,11 @@
 from typing import Annotated
-from fastapi import APIRouter, Form,  HTTPException, status, Depends
+from fastapi import APIRouter, File, Form,  HTTPException, UploadFile, status, Depends
 from pydantic import EmailStr
 from database.database import Db_dependency
 from database.models import Following
 from database.outputmodel import SimpleUser
 from routers.dependencies import User_auth
-from utilities import account, mailer, security, user
+from utilities import account, mailer, security, user, attachments
 from configs.config_auth import OTP_Purpose
 from configs.config_user import Relationship
 from configs.config_validation import Pattern
@@ -126,6 +126,15 @@ async def confirm_email_update(otp: Annotated[str, Form(pattern=Pattern.OTP_PATT
 
     return {
         "message": "Email updated successfully"
+    }
+
+@router.put("/user/avatar", status_code=status.HTTP_200_OK)
+async def update_avatar(this_user: User_auth, new_avatar: UploadFile):
+    if not await attachments.validateFile(new_avatar):
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file. Avatar must have type jpg, png, or gif, and size less than 5MB.")
+    await attachments.saveFile(new_avatar, purpose='avatar')
+    return {
+        "message": "Avatar updated successfully"
     }
 
 @router.post("/user/{username}/{reltype}", status_code=status.HTTP_200_OK)

@@ -1,10 +1,12 @@
 from datetime import datetime, timezone
 from typing import Annotated
 from fastapi import APIRouter, status, HTTPException
+from fastapi.responses import FileResponse
 from database.models import Activity, User, Post, Notification
 from database.outputmodel import OutputNotification
 from database.database import Db_dependency
 from routers.dependencies import User_auth
+from utilities.attachments import getFile
 router = APIRouter()
 
 @router.get("/search", status_code=status.HTTP_200_OK)
@@ -48,3 +50,15 @@ async def get_exercises(this_user: User_auth, post_id: int, db: Db_dependency):
     """
 
     pass
+
+@router.get("download/{media_filename}")
+async def download(db: Db_dependency, this_user: User_auth, media_filename: str):
+    """
+    Get media by its filename.
+    """
+
+    file = getFile(db, media_filename)
+    if file is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Requested resource not found")
+    
+    return FileResponse(file)

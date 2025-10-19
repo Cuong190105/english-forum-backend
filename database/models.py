@@ -13,7 +13,7 @@ class User(Base):
     username = Column(String(30), unique=True, nullable=False)
     email = Column(String(255), unique=True, nullable=False)
     bio = Column(Text, nullable=True)
-    avatar_url = Column(String(255), nullable=True)
+    avatar_filename = Column(String(255), nullable=True)
     email_verified_at = Column(TIMESTAMP, nullable=True)
     created_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
     updated_at = Column(TIMESTAMP, nullable=False, server_default=func.now(), onupdate=func.now())
@@ -96,7 +96,7 @@ class Attachment(Base):
     # _________Fields_____________
     attachment_id = Column(Integer, primary_key=True, index=True)
     post_id = Column(Integer, ForeignKey("posts.post_id", ondelete="CASCADE"))
-    media_url = Column(String(255), nullable=False)
+    media_filename = Column(String(255), nullable=False)
     media_type = Column(String(10), nullable=False)
     media_metadata = Column(Text, nullable=True)
     index = Column(Integer, nullable=False)
