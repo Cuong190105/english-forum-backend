@@ -66,7 +66,7 @@ async def getOutputPost(user: User, post: Post, db: Db_dependency):
     simple_attachments = [
         SimpleAttachment(
             media_type=a.media_type,
-            media_url=a.media_url,
+            media_filename=a.media_filename,
             # media_metadata=str(a.media_metadata),
             media_metadata=a.media_metadata,
             index=a.index

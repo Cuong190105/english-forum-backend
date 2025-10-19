@@ -1,5 +1,8 @@
 from datetime import datetime, timezone
 import os
+import sys
+import traceback
+import typing
 import uuid
 from fastapi import UploadFile
 from configs.config_app import FilePurpose
@@ -55,10 +58,10 @@ async def saveAttachments(db: Db_dependency, attachments: list[UploadFile]):
         return None
     for file in attachments:
         if not await validateFile(file):
+            print(file.filename)
             return None
     
     # Store files
-    os.makedirs("storage/attachments", exist_ok=True)
     idx = 0
     try:
         saved = []
@@ -75,17 +78,18 @@ async def saveAttachments(db: Db_dependency, attachments: list[UploadFile]):
             saved.append(attachment)
         return saved
     except Exception as e:
-        print(e.with_traceback(e.__traceback__))
+        print(file.filename)
+        print(e)
         return None
 
-async def editAttachments(db: Db_dependency, post: Post, attachments: list[UploadFile], updates: list[str]):
+async def editAttachments(db: Db_dependency, post: Post, attachments: list[UploadFile], updates: str):
     """
     Validate and store updated attachments.
 
     Params:
         db: Database session object
         attachments: List of Files uploaded
-        update: status of updated media
+        updates: status of updated media
 
     Returns:
         int: Change status. 0 for normal, 1 for invalid file, 2 for not acceptable change, 3 for other errors.
@@ -93,30 +97,35 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
     # Validate files
     for file in attachments:
         if not await validateFile(file):
+            print("Not validated")
             return 1
-    for update in updates:
+        
+    updatelist = updates.split(",")
+    for update in updatelist:
         parted = update.split(" ")
-        if len(parted) < 2 or parted[0] not in FileChange or not parted[1].isnumeric() or int(parted[1]) >= FileRule.MAX_FILE_COUNT:
+        if len(parted) < 2 or parted[0] not in typing.get_args(FileChange) or not parted[1].isnumeric() or int(parted[1]) >= FileRule.MAX_FILE_COUNT:
+            print("Wrong command", parted)
             return 1
         elif parted[0] == 'move' and (len(parted) == 2 or int(parted[2]) >= FileRule.MAX_FILE_COUNT):
+            print("Wrong command", parted)
             return 1
 
     # Validate attachment position and modify database
-    updates.sort(reverse=True)
-    os.makedirs("storage/attachments", exist_ok=True)
+    def sortkey(x):
+        parted = x.split()
+        return (-ord(parted[0][0]), int(parted[1]))
+    
+    updatelist.sort(key=sortkey)
+
     try:
         position_taken = []
 
-        def sortkey(x):
-            parted = x.split()
-            return (-ord(parted[0][0]), int(parted[1]))
-
-        postAtt = sorted(post.attachments, key=sortkey)
+        postAtt = sorted(post.attachments, key=lambda x: x.index)
         for att in postAtt:
-            position_taken.add(att.index)
+            position_taken.append(att.index)
         newAtts = []
 
-        for update in updates:
+        for update in updatelist:
             parted = update.split(" ")
             idx = int(parted[1])
             if parted[0] == 'remove':
@@ -146,6 +155,7 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
                     index=idx,
                     media_filename="",
                 ))
+                position_taken.append(idx)
                 
         position_taken.sort()
         for i in range(len(position_taken) - 1):
@@ -159,7 +169,7 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
 
 
         # Store files
-        for i in range(newAtts):
+        for i in range(len(newAtts)):
             file = attachments[i]
             filename = await saveFile(file, purpose='attachment')
             newAtts[i].media_filename = filename
@@ -167,7 +177,8 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
         db.commit()
         return 0
     except Exception as e:
-        print(e.with_traceback(e.__traceback__))
+        print(traceback.format_exc())
+
         return 3
     
 async def getFile(db: Db_dependency, media_filename: str):
@@ -188,6 +199,7 @@ async def saveFile(file: UploadFile, purpose: FilePurpose):
     Returns:
         str: File name
     """
+    os.makedirs(f"storage/{purpose}", exist_ok=True)
     ext = os.path.splitext(file.filename)[1]
     filename = f"{datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")}_{uuid.uuid4().hex}{ext}"
     path = f"storage/{purpose}/{filename}"

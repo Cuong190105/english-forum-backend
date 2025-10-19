@@ -5,7 +5,7 @@ from pydantic import BaseModel, PositiveInt
 from database.database import Db_dependency
 from database.outputmodel import OutputPost
 from routers.dependencies import User_auth
-from utilities import post as postutils
+from utilities import post as postutils, attachments as attutils
 from utilities.activity import logActivity
 from configs.config_activity import ActionType
 from configs.config_post import FeedCriteria
@@ -63,7 +63,7 @@ async def upload_post(
 
     # Validate and store attachments
     if attachments is not None:
-        ats = await postutils.saveAttachments(db, attachments)
+        ats = await attutils.saveAttachments(db, attachments)
         if ats is None:
             raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file upload. Can upload at most 10 files per post. Only accept image with type jpg, png, gif with size < 5MB, and video with type mp4, mkv, mov, avi with size < 100MB")
     else:
@@ -86,7 +86,7 @@ async def edit_post(
     db: Db_dependency,
     post_id: int,
     text_content: Annotated[PostTextContent, Depends(PostTextContent.form)],
-    attachments_update: Optional[list[str]],
+    attachments_update: Annotated[str, Form()] = None,
     attachments: Optional[list[UploadFile]] = File(None)
 ):
     """
@@ -95,13 +95,17 @@ async def edit_post(
     change_type can be:
     -   add: Add a new file to position `index`
     -   remove: Remove a file at position `index`
-    -   move: Move a file from position `index` to `new_position`
+    -   move: Move a file from position `index` to `new_position`\n
     Then send new media files according to their indices.
-    Don't need to provide <new_position> if change_type doesn't require
+    Don't need to provide <new_position> if change_type doesn't require.
+    If there are multiple changes, separate them with commas only (without following space): <change1>,<change2>,...
     """
+    post = await postutils.getPost(post_id, db)
+    if post is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
 
     if attachments is not None:
-        st = await postutils.editAttachments(db, attachments, attachments_update)
+        st = await attutils.editAttachments(db, post, attachments, attachments_update)
         if st == 1:
             raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file upload. Can upload at most 10 files per post. Only accept image with type jpg, png, gif with size < 5MB, and video with type mp4, mkv, mov, avi with size < 100MB")
         elif st == 2:
@@ -110,9 +114,6 @@ async def edit_post(
             raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Server error")
 
     # Update post content
-    post = await postutils.getPost(post_id, db)
-    if post is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     
     if post.author_id != this_user.user_id:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Not permitted")

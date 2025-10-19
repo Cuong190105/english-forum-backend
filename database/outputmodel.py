@@ -13,7 +13,7 @@ class SimpleUser(BaseModel):
     avatar_url: str | None
 
 class SimpleAttachment(BaseModel):
-    media_url: str
+    media_filename: str
     media_type: str
     media_metadata: str
     index: int
