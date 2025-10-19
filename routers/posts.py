@@ -91,7 +91,7 @@ async def edit_post(
 ):
     """
     Edit a post.
-    if there are changes in attachments, please send the changes in `attachments_update` with syntax: "<change_type> <index> <new_position>"
+    if there are changes in attachments, please send the changes in `attachments_update` with syntax: "<change_type> <current_index> <new_position>"
     change_type can be:
     -   add: Add a new file to position `index`
     -   remove: Remove a file at position `index`
