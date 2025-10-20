@@ -20,6 +20,8 @@ class SimpleAttachment(BaseModel):
 
 class OutputPost(BaseModel):
     post_id: int
+    author_username: str
+    author_avatar: str
     title: str
     content: str
     vote_count: int
