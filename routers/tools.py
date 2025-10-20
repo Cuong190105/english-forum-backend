@@ -9,6 +9,7 @@ from database.database import Db_dependency
 from routers.dependencies import User_auth
 from utilities.attachments import getFile
 from utilities.activity import getNotifications, markAsRead
+from utilities import tool
 router = APIRouter()
 
 @router.get("/search", status_code=status.HTTP_200_OK)
@@ -16,13 +17,9 @@ async def search(this_user: User_auth, keyword: str, db: Db_dependency):
     if keyword is None or keyword == "":
         raise HTTPException("Keyword must not be null")
     
-    users = db.query(User).filter(User.username.ilike(keyword)).all()
-    post = db.query(Post).filter(Post.content.ilike(keyword)).all()
+    result = await tool.search(db, keyword)
 
-    return {
-        "users": users,
-        "posts": post
-    }
+    return result
 
 @router.get("/notifications", status_code=status.HTTP_200_OK, response_model=list[OutputNotification])
 async def get_notifications(this_user: User_auth, db: Db_dependency, cursor: datetime | None = None):

@@ -24,6 +24,7 @@ class OutputPost(BaseModel):
     author_avatar: str | None
     title: str
     content: str
+    tag: str
     vote_count: int
     user_vote: int
     comment_count: int
