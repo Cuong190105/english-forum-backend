@@ -10,7 +10,7 @@ from datetime import datetime
 class SimpleUser(BaseModel):
     username: str
     bio: str | None
-    filename: str | None
+    avatar_filename: str | None
 
 class SimpleAttachment(BaseModel):
     media_filename: str
