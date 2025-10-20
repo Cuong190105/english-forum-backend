@@ -75,6 +75,7 @@ async def upload_post(
 
     return {
         "message": "Post created",
+        "post_id": new_post.post_id,
     }
 
 @router.put("/posts/{post_id}", status_code=status.HTTP_202_ACCEPTED)
