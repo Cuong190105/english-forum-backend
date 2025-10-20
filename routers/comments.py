@@ -49,7 +49,8 @@ async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[
     await logActivity(this_user.user_id, db, 'comment', comment.content, comment.comment_id, 'post', post.post_id, post.author_id)
 
     return {
-        "message": "Comment Uploaded"
+        "message": "Comment Uploaded",
+        "comment_id": comment.comment_id,
     }
 
 @router.get("/comments/{comment_id}", status_code=status.HTTP_202_ACCEPTED, response_model=OutputComment)
