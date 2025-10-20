@@ -34,7 +34,7 @@ def getSimpleUser(user: User):
     return SimpleUser(
         username=user.username,
         bio=user.bio,
-        avatar_url=user.avatar_url
+        avatar_filename=user.avatar_filename
     )
 
 async def changeRelationship(db: Db_dependency, actor: User, target: User, reltype: str):
