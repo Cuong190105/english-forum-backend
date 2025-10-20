@@ -21,7 +21,7 @@ class SimpleAttachment(BaseModel):
 class OutputPost(BaseModel):
     post_id: int
     author_username: str
-    author_avatar: str
+    author_avatar: str | None
     title: str
     content: str
     vote_count: int
@@ -36,7 +36,7 @@ class OutputComment(BaseModel):
     post_id: int
     reply_to_id: int | None
     author_username: str
-    author_avatar: str
+    author_avatar: str | None
     content: str
     vote_count: int
     user_vote: int
