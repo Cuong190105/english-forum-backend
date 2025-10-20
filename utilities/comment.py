@@ -187,15 +187,15 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
 
 async def getUserComments(this_user: User, user: User, cursor: datetime):
     """
-    Get user's posts
+    Get user's comments
 
     Parans:
         this_user: User requesting
         user: Target user
-        cursor: Get all posts up to this timestamp
+        cursor: Get all comments up to this timestamp
     
     Returns:
-        list[OutputPost]: All processed posts.
+        list[OutputComment]: All processed comments.
     """
     LIMIT = 10
     comments = user.comments.filter(Comment.is_deleted == False, Comment.created_at < cursor).limit(LIMIT).all()

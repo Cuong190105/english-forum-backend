@@ -73,6 +73,8 @@ async def getOutputPost(user: User, post: Post):
     ]
     output = OutputPost(
         post_id=post.post_id,
+        author_username=post.author.username,
+        author_avatar=post.author.avatar,
         title=post.title,
         tag=post.tag,
         content=post.content,   

@@ -64,7 +64,7 @@ class Post(Base):
     is_deleted = Column(Boolean, default=False, nullable=False)
 
     # _________Relationship_____________
-    author = relationship("User", back_populates="posts", single_parent=True)
+    author = relationship("User", back_populates="posts", single_parent=True, uselist=False)
     comments = relationship("Comment", back_populates="post", cascade="all, delete-orphan", passive_deletes=True)
     attachments = relationship("Attachment", back_populates="post", cascade="all, delete-orphan", passive_deletes=True)
     votes = relationship("PostVote", back_populates="post", cascade="all, delete-orphan", passive_deletes=True, lazy="dynamic")
