@@ -51,7 +51,8 @@ async def getOutputComment(user: User, comment: Comment):
         vote_value = user_vote.value
 
     return OutputComment(
-        author_id=comment.author_id,
+        author_username=comment.author.username,
+        author_avatar=comment.author.avatar_filename,
         post_id=comment.post_id,
         comment_id=comment.comment_id,
         content=comment.content,

@@ -35,7 +35,8 @@ class OutputComment(BaseModel):
     comment_id: int
     post_id: int
     reply_to_id: int | None
-    author_id: int
+    author_username: str
+    author_avatar: str
     content: str
     vote_count: int
     user_vote: int
