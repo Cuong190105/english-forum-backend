@@ -1,5 +1,4 @@
-class Relationship:
-    FOLLOW = 'follow'
-    BLOCK = 'block'
-    UNFOLLOW = 'unfollow'
-    UNBLOCK = 'unblock'
+from typing import Literal
+
+
+Relationship = Literal['follow', 'block', 'unfollow', 'unblock']

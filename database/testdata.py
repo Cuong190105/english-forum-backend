@@ -26,6 +26,10 @@ def prepareForTest():
     )
     user2.credential = creds2
 
+    rel = models.Following()
+    user1.following_asso.append(rel)
+    user2.follower_asso.append(rel)
+
     # Create posts
     post1 = models.Post(
         title = "Test 1",
@@ -137,5 +141,6 @@ def prepareForTest():
 
     db.add(user1)
     db.add(user2)
+    db.add(rel)
     db.commit()
     db.close()

@@ -1,9 +1,22 @@
 import uuid
-from sqlalchemy import Boolean, Column, Integer, String, Text, DateTime, ForeignKey, func
+from sqlalchemy import Boolean, Column, Integer, String, Text, DateTime, ForeignKey, and_, func
 from sqlalchemy.orm import relationship
 from database.database import Base
 from configs.config_auth import Duration
 from datetime import datetime, timezone, timedelta
+
+class Following(Base):
+    __tablename__ = "following"
+
+    # _________Fields_____________
+    rel_id = Column(Integer, primary_key=True)
+    follower_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
+    following_user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
+    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now(), server_onupdate=func.now())
+    unfollow = Column(Boolean, nullable=False, default=False)
+
+    follower = relationship("User", foreign_keys=[follower_id], back_populates="following_asso")
+    following = relationship("User", foreign_keys=[following_user_id], back_populates="follower_asso")
 
 class User(Base):
     __tablename__ = "users"
@@ -24,16 +37,37 @@ class User(Base):
     comments = relationship("Comment", back_populates="author", cascade="all, delete-orphan", passive_deletes=True)
     activities = relationship("Activity", back_populates="actor", cascade="all, delete-orphan", passive_deletes=True)
     notifications = relationship("Notification", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
+    postvotes = relationship("PostVote", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
+    commentvotes = relationship("CommentVote", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
+    following_asso = relationship(
+        "Following",
+        foreign_keys=[Following.follower_id],
+        back_populates="follower",
+        cascade="all, delete-orphan"
+    )
+
+    follower_asso = relationship(
+        "Following",
+        foreign_keys=[Following.following_user_id],
+        back_populates="following",
+        cascade="all, delete-orphan"
+    )
+
     following = relationship(
         "User",
         secondary="following",
-        primaryjoin=lambda: (User.user_id==Following.follower_id) & (Following.unfollow==False),
-        secondaryjoin=lambda: User.user_id==Following.following_user_id,
-        backref="followers"
+        primaryjoin=and_(user_id==Following.follower_id, Following.unfollow==False),
+        secondaryjoin=user_id==Following.following_user_id,
+        viewonly=True
     )
-    postvotes = relationship("PostVote", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
-    commentvotes = relationship("CommentVote", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
-    
+
+    followers = relationship(
+        "User",
+        secondary="following",
+        primaryjoin=user_id==Following.following_user_id,
+        secondaryjoin=and_(user_id==Following.follower_id, Following.unfollow==False),
+        viewonly=True
+    )
 
 
 class Credentials(Base):
@@ -179,16 +213,6 @@ class Notification(Base):
     # _________Relationship_____________
     user = relationship("User", back_populates="notifications", single_parent=True)
     activity = relationship("Activity", back_populates="notifications", single_parent=True, uselist=False)
-    
-class Following(Base):
-    __tablename__ = "following"
-
-    # _________Fields_____________
-    rel_id = Column(Integer, primary_key=True)
-    follower_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
-    following_user_id = Column(ForeignKey("users.user_id", ondelete="CASCADE"))
-    created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
-    unfollow = Column(Boolean, nullable=False, default=False)
 
 class PostVote(Base):
     __tablename__ = "post_votes"

@@ -11,6 +11,9 @@ class SimpleUser(BaseModel):
     username: str
     bio: str | None
     avatar_filename: str | None
+    following: bool
+    follower_count: int
+    following_count: int
 
 class SimpleAttachment(BaseModel):
     media_filename: str

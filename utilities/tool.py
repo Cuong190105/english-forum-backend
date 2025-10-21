@@ -1,12 +1,15 @@
 from database.database import Db_dependency
 from database.models import User, Post
+from utilities.user import getSimpleUser
+from utilities.post import getOutputPost
 
-async def search(db: Db_dependency, keyword: str):
+async def search(db: Db_dependency, user: User, keyword: str):
     """
     Search for users and posts that contain given keyword.
 
     Params:
         db: Database session object.
+        user: Current session user.
         keyword: Word or phrase in target search result
 
     Returns:
@@ -14,10 +17,14 @@ async def search(db: Db_dependency, keyword: str):
     """
 
     param = "%" + keyword + "%"
+
     users = db.query(User).filter(User.username.ilike(param)).all()
     posts = db.query(Post).filter(Post.content.ilike(param)).all()
 
+    outputUsers = [await getSimpleUser(user, u) for u in users]
+    outputPosts = [await getOutputPost(p) for p in posts]
+
     return {
-        "users": users,
-        "posts": posts,
+        "users": outputUsers,
+        "posts": outputPosts,
     }

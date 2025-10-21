@@ -18,26 +18,30 @@ async def getUserByUsername(username: str, db: Db_dependency):
     user = db.query(User).filter(or_(User.username == username, User.email == username)).first()
     return user
 
-def getSimpleUser(user: User):
+def getSimpleUser(this_user: User, user: User):
     """
     Create `SimpleUser` object from `User` data for output.
 
     Params:
-        user: User info
+        this_user: Current session user.
+        user: User object need simplified.
 
     Returns:
         Optional[SimpleUser]: Output simple user data, if `user` is `None`, return `None`.
     """
     if user is None:
         return None
-    
+
     return SimpleUser(
         username=user.username,
         bio=user.bio,
-        avatar_filename=user.avatar_filename
+        avatar_filename=user.avatar_filename,
+        following=this_user.following.filter(User.user_id == user.user_id).first() is not None,
+        follower_count=len(list(user.followers)),
+        following_count=len(list(user.following))
     )
 
-async def changeRelationship(db: Db_dependency, actor: User, target: User, reltype: str):
+async def changeRelationship(db: Db_dependency, actor: User, target: User, reltype: Relationship):
     """
     Change relationship between 2 users.
 
@@ -63,12 +67,15 @@ async def changeRelationship(db: Db_dependency, actor: User, target: User, relty
             follower_id = actor.user_id,
             following_user_id=target.user_id,
             # reltype=reltype
+            unfollow=reltype=='unfollow'
         )
         db.add(new_relation)
     else:
         # Simple logic for follow and unfollow
-        if reltype == Relationship.UNFOLLOW:
+        print("record found")
+        if reltype == 'unfollow':
             record.unfollow = True
-        elif reltype == Relationship.FOLLOW:
+        elif reltype == 'follow':
             record.unfollow = False
+    db.commit()
     return True

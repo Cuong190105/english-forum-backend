@@ -18,7 +18,7 @@ async def get_current_user(this_user: User_auth):
     """
     Get current user info
     """
-    return userutils.getSimpleUser(this_user)
+    return userutils.getSimpleUser(this_user, this_user)
 
 @router.get("/user/{username}", status_code=status.HTTP_200_OK, response_model=SimpleUser)
 async def get_user(this_user: User_auth, username: str, db: Db_dependency):
@@ -28,7 +28,7 @@ async def get_user(this_user: User_auth, username: str, db: Db_dependency):
     requested_user = await userutils.getUserByUsername(username, db)
     if requested_user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    return userutils.getSimpleUser(requested_user)
+    return userutils.getSimpleUser(this_user, requested_user)
 
 @router.put("/user/bio", status_code=status.HTTP_200_OK)
 async def update_bio(bio: Annotated[str, Form(min_length=1)], this_user: User_auth, db: Db_dependency):
@@ -141,19 +141,43 @@ async def update_avatar(db: Db_dependency, this_user: User_auth, new_avatar: Upl
     }
 
 @router.post("/user/{username}/{reltype}", status_code=status.HTTP_200_OK)
-async def change_relationship(this_user: User_auth, username: str, reltype: str, db: Db_dependency):
+async def change_relationship(this_user: User_auth, username: str, reltype: Relationship, db: Db_dependency):
     """
     Change user's relationship with another user.
     Relationship can be: follow, unfollow (block and unblock added later)
     """
-    target = await userutils.getUserByUsername(username)
+    if this_user.username == username:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Self following not allowed")
+    target = await userutils.getUserByUsername(username, db)
     if target is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    if not await userutils.changeRelationship(this_user, target, reltype):
+    if not await userutils.changeRelationship(db, this_user, target, reltype):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Something went wrong")
     return {
-        "message": "User followed"
+        "message": "Relationship changed"
     }
+
+@router.get("/user/{username}/followers", status_code=status.HTTP_200_OK)
+async def get_followers_list(this_user: User_auth, db: Db_dependency, username: str):
+    """
+    Get a list of user's followers
+    """
+    user = await userutils.getUserByUsername(username, db)
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    
+    return user.followers
+
+@router.get("/user/{username}/following", status_code=status.HTTP_200_OK)
+async def get_following_list(this_user: User_auth, db: Db_dependency, username: str):
+    """
+    Get a list of user's following.
+    """
+    user = await userutils.getUserByUsername(username, db)
+    if user is None:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    
+    return user.following
 
 @router.get("/user/{username}/posts", status_code=status.HTTP_200_OK)
 async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):

@@ -1,18 +1,17 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, HTTPException, Request
 from contextlib import asynccontextmanager
 
-from fastapi.exceptions import RequestValidationError
-from fastapi.responses import JSONResponse
 from routers import auth, users, posts, comments, tools
 from os import getenv
 from dotenv import load_dotenv
+import traceback
 
 load_dotenv()
 
+env = getenv("APP_ENV")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    env = getenv("APP_ENV")
     if env != "test":
         from database import database
         print("Not in test env")
@@ -23,10 +22,15 @@ async def lifespan(app: FastAPI):
             testdata.prepareForTest()
     yield
 
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(lifespan=lifespan, debug= env != 'production')
 
 app.include_router(auth.router)
 app.include_router(users.router)
 app.include_router(posts.router)
 app.include_router(comments.router)
 app.include_router(tools.router)
+
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request: Request, exc:HTTPException):
+    print(traceback.print_tb(exc.__traceback__))
+    raise exc

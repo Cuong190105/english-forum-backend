@@ -35,7 +35,6 @@ async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db
     
     path = request.url.path
     if user.email_verified_at is None and not path.startswith("/register/"):
-        print(path)
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="You have to verify your email before using the app")
     return user
 
