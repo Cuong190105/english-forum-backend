@@ -17,7 +17,7 @@ async def search(this_user: User_auth, keyword: str, db: Db_dependency):
     if keyword is None or keyword == "":
         raise HTTPException("Keyword must not be null")
     
-    result = await tool.search(db, keyword)
+    result = await tool.search(db, this_user, keyword)
 
     return result
 

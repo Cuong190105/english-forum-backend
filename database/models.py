@@ -39,6 +39,9 @@ class User(Base):
     notifications = relationship("Notification", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
     postvotes = relationship("PostVote", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
     commentvotes = relationship("CommentVote", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
+    refresh_tokens = relationship("RefreshToken", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
+    email_change_tokens = relationship("EmailChangeRequest", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
+    otps = relationship("OTP", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
     following_asso = relationship(
         "Following",
         foreign_keys=[Following.follower_id],
@@ -145,7 +148,7 @@ class OTP(Base):
 
     # _________Fields_____________
     otp_id = Column(Integer, primary_key=True)
-    username = Column(String(255), nullable=False)
+    username = Column(String(255), ForeignKey("users.username", ondelete="CASCADE"), nullable=False)
     otp_code = Column(String(6), nullable=False)
     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
     expires_at = Column(DateTime(timezone=True), nullable=False, server_onupdate=None)
@@ -155,6 +158,7 @@ class OTP(Base):
     is_token_used = Column(Boolean, default=False, nullable=False)
 
     # _________Relationship_____________
+    user = relationship("User", single_parent=True, back_populates="otps", uselist=False)
 
 class EmailChangeRequest(Base):
     __tablename__ = "email_change_tokens"
@@ -162,25 +166,27 @@ class EmailChangeRequest(Base):
     # _________Fields_____________
     id = Column(Integer, primary_key=True)
     jti = Column(String(36), nullable=False, unique=True, default=lambda: str(uuid.uuid4()))
-    user_id = Column(Integer, nullable=False)
+    user_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"), nullable=False)
     new_email = Column(String(255), nullable=False)
     created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     is_revoked = Column(Boolean, nullable=False, default=False)
 
     # _________Relationship_____________
+    user = relationship("User", single_parent=True, back_populates="email_change_tokens", uselist=False)
 
 class RefreshToken(Base):
     __tablename__ = "refresh_tokens"
 
     # _________Fields_____________
     token_id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, nullable=False)
+    user_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"), nullable=False)
     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
     expires_at = Column(DateTime(timezone=True), nullable=False, default=datetime.now(timezone.utc) + timedelta(days=Duration.REFRESH_TOKEN_EXPIRE_DAYS))
     created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
     is_revoked = Column(Boolean, default=False, nullable=False)
 
     # _________Relationship_____________
+    user = relationship("User", single_parent=True, back_populates="refresh_tokens", uselist=False)
 
 class Activity(Base):
     __tablename__ = "activities"
