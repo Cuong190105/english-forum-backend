@@ -91,6 +91,7 @@ async def getNotifications(user: User, db: Db_dependency, cursor: datetime):
         actor = activity.actor
 
         output.append(OutputNotification(
+            notification_id=n.noti_id,
             actor_username=actor.username,
             actor_avatar=actor.avatar_filename,
             action_type=activity.action_type,
