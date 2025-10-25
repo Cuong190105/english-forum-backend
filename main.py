@@ -30,7 +30,7 @@ app.include_router(posts.router)
 app.include_router(comments.router)
 app.include_router(tools.router)
 
-@app.exception_handler(HTTPException)
-async def http_exception_handler(request: Request, exc:HTTPException):
-    print(traceback.print_tb(exc.__traceback__))
-    raise exc
+# @app.exception_handler(HTTPException)
+# async def http_exception_handler(request: Request, exc:HTTPException):
+#     print(traceback.print_tb(exc.__traceback__))
+#     raise exc
