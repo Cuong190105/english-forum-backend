@@ -51,6 +51,7 @@ class OutputComment(BaseModel):
     is_modified: bool
 
 class OutputNotification(BaseModel):
+    notification_id: int
     actor_username: str
     actor_avatar: str | None
     action_type: str
