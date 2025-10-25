@@ -60,4 +60,5 @@ async def generate_from_text(req: GenerateFromTextRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f'LLM generation failed: {e}')
 
-    return {"items": result.get("items", [])}
+    # include isAskable flag (False when classifier couldn't pick an allowed topic)
+    return {"items": result.get("items", []), "isAskable": bool(result.get("isAskable", True))}

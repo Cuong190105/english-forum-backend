@@ -79,7 +79,7 @@ def load_all_topic_displays() -> List[str]:
     return _TOPICS_CACHE
 
 
-def classify_topic(text: str) -> str:
+def classify_topic(text: str) -> str | bool:
     """Classify input text to the single best grammar topic display name.
 
     Returns a display string guaranteed to be within the allowed list. Falls back to
@@ -97,6 +97,7 @@ def classify_topic(text: str) -> str:
         "Respond with JSON only: {\"topic_display\": \"<one of the allowed list exactly as-is>\"}.\n\n"
         f"ALLOWED_TOPICS = {json.dumps(choices, ensure_ascii=False)}\n\n"
         f"CONTEXT:\n{text}\n\n"
+        "If you cannot confidently choose exactly one of the ALLOWED_TOPICS, output this exact JSON instead: {\"topic_display\": \"Không tạo được câu hỏi\"}.\n\n"
         "NOW OUTPUT ONLY THE JSON WITH THE 'topic_display' FIELD."
     )
 
@@ -111,13 +112,16 @@ def classify_topic(text: str) -> str:
         cleaned = _strip_code_fences(raw)
         data = json.loads(cleaned)
         cand = str(data.get('topic_display') or '').strip()
+        # If model explicitly returned the special message, propagate failure
+        if cand == 'Không tạo được câu hỏi':
+            return False
         if cand in choices:
             return cand
     except Exception:
         if DEBUG:
             print('[ai] classify_topic: fallback triggered')
-    # Fallback
-    return choices[0] if choices else 'Present Simple'
+    # Fallback: classification failure
+    return False
 # =========================
 # Prompt builders (public helper)
 # =========================
@@ -749,6 +753,10 @@ def generate_exercises_from_context(
     Returns a dict with keys: { 'topic': <display>, 'items': [ ... ] }
     """
     topic_display = classify_topic(context_text)
+    # If classification failed (False), return isAskable=False and no items
+    if topic_display is False:
+        return {"topic": None, "items": [], "isAskable": False}
+
     items = generate_with_llm(
         post_text=context_text,
         hw_type=hw_type if hw_type in {'mcq','fill'} else 'mcq',
@@ -758,7 +766,7 @@ def generate_exercises_from_context(
         seed=0 if seed is None else int(seed),
         locked_topic=topic_display,
     )
-    return {"topic": topic_display, "items": items}
+    return {"topic": topic_display, "items": items, "isAskable": True}
 
 
 def generate_homework(post_text: str, hw_type: str, num_items: int = 1) -> List[Dict[str, Any]]:
