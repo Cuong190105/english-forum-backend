@@ -197,4 +197,4 @@ async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str,
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    return await comment.getUserComments(this_user, cursor)
+    return await comment.getUserComments(this_user, user, cursor)
