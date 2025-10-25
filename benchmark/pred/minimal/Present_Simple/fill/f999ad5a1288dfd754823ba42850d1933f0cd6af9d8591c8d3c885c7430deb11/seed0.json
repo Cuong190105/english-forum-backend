@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_001",
+      "prompt": "The roots of the plants always _____ which way to grow."
+    },
+    "answer": "know",
+    "hint": "Động từ \"know\" ở thì hiện tại đơn, chia theo chủ ngữ số nhiều \"roots\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_002",
+      "prompt": "Roots _____ special hairs that tie them into the soil."
+    },
+    "answer": "have",
+    "hint": "Động từ \"have\" ở thì hiện tại đơn, chia theo chủ ngữ số nhiều \"roots\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_003",
+      "prompt": "A team at the John Inners Center in Norwich _____ in the February 29 issue of Journal Science."
+    },
+    "answer": "reports",
+    "hint": "Động từ \"report\" ở thì hiện tại đơn, chia theo chủ ngữ số ít \"a team\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_004",
+      "prompt": "The key _____ in the fuzzy coat of hairs on the roots of plants."
+    },
+    "answer": "is",
+    "hint": "Động từ \"to be\" ở thì hiện tại đơn, chia theo chủ ngữ số ít \"The key\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_005",
+      "prompt": "A growth control system _____ these hairs to find their way."
+    },
+    "answer": "enables",
+    "hint": "Động từ \"enable\" ở thì hiện tại đơn, chia theo chủ ngữ số ít \"A growth control system\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_006",
+      "prompt": "Root hairs _____ the soil in much the same way a person would feel their way in the dark."
+    },
+    "answer": "explore",
+    "hint": "Động từ \"explore\" ở thì hiện tại đơn, chia theo chủ ngữ số nhiều \"Root hairs\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_007",
+      "prompt": "If they _____ across an obstacle, they make their way around."
+    },
+    "answer": "come",
+    "hint": "Động từ \"come\" ở thì hiện tại đơn, chia theo chủ ngữ số nhiều \"they\" trong câu điều kiện loại 0/1."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_008",
+      "prompt": "The plant _____ held in place as the hairs grip the soil."
+    },
+    "answer": "is",
+    "hint": "Động từ \"to be\" ở thì hiện tại đơn, chia theo chủ ngữ số ít \"The plant\" trong cấu trúc bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_009",
+      "prompt": "A protein at the tip of the root hairs called RHD2 _____ them to take calcium from the soil."
+    },
+    "answer": "helps",
+    "hint": "Động từ \"help\" ở thì hiện tại đơn, chia theo chủ ngữ số ít \"A protein\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_010",
+      "prompt": "Calcium _____ the hairs grow, and produce more RHD2."
+    },
+    "answer": "makes",
+    "hint": "Động từ \"make\" ở thì hiện tại đơn, chia theo chủ ngữ số ít \"Calcium\"."
+  }
+]

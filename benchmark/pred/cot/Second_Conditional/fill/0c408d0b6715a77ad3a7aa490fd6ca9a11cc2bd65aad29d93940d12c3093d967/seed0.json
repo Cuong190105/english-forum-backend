@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_001",
+      "prompt": "If I _____ a politician, I would prioritize animal welfare."
+    },
+    "answer": "were",
+    "hint": "Trong câu điều kiện loại 2, động từ 'to be' trong mệnh đề 'if' luôn dùng 'were' cho tất cả các ngôi, kể cả 'I', để diễn tả tình huống giả định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_002",
+      "prompt": "If people cared more, animal abuse _____ less common."
+    },
+    "answer": "would be",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' + động từ nguyên mẫu để diễn tả kết quả giả định không có thật ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_003",
+      "prompt": "If everyone _____ like that, we wouldn't have organizations helping animals."
+    },
+    "answer": "thought",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 yêu cầu động từ ở thì quá khứ đơn để diễn tả điều kiện giả định hoặc không có thật ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_004",
+      "prompt": "If I found an abused animal, I _____ it to a shelter immediately."
+    },
+    "answer": "would take",
+    "hint": "Để diễn tả hành động giả định trong mệnh đề chính của câu điều kiện loại 2, ta dùng 'would' theo sau là động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_005",
+      "prompt": "If we _____ animals, they would suffer greatly."
+    },
+    "answer": "didn't help",
+    "hint": "Trong câu điều kiện loại 2, mệnh đề 'if' dùng thì quá khứ đơn. 'Didn't help' là dạng phủ định đúng của quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_006",
+      "prompt": "If I had more time, I _____ volunteer at the local animal shelter."
+    },
+    "answer": "could",
+    "hint": "'Could' được dùng trong mệnh đề chính của câu điều kiện loại 2 để diễn tả khả năng hoặc sự cho phép trong tình huống giả định, thay vì 'would'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_007",
+      "prompt": "If she _____ aware of the issue, she would definitely help."
+    },
+    "answer": "were",
+    "hint": "Trong câu điều kiện loại 2, 'were' được dùng cho tất cả các ngôi với động từ 'to be' trong mệnh đề 'if', không chỉ riêng 'I'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_008",
+      "prompt": "If people understood animal rights, they _____ them better."
+    },
+    "answer": "would treat",
+    "hint": "Cấu trúc 'would + V nguyên mẫu' là bắt buộc cho mệnh đề chính trong câu điều kiện loại 2, diễn tả kết quả giả định không có thật ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_009",
+      "prompt": "If he _____ a pet, he would understand the bond."
+    },
+    "answer": "had",
+    "hint": "Mệnh đề 'if' của câu điều kiện loại 2 yêu cầu động từ ở thì quá khứ đơn, như 'had' cho động từ 'have', để diễn tả điều kiện giả định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_010",
+      "prompt": "If we didn't protect endangered species, many animals _____ extinct."
+    },
+    "answer": "would become",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' + động từ nguyên mẫu để nói về kết quả giả định không có thật ở hiện tại."
+  }
+]

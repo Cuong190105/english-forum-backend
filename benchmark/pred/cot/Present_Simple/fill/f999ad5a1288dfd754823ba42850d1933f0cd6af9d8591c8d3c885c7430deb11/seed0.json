@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_001",
+      "prompt": "The roots of plants always _____ which way to grow."
+    },
+    "answer": "know",
+    "hint": "Động từ \"know\" ở thì hiện tại đơn phải chia theo chủ ngữ số nhiều \"roots\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_002",
+      "prompt": "It _____ out that roots have special hairs for growth."
+    },
+    "answer": "turns",
+    "hint": "Chủ ngữ \"It\" là ngôi thứ ba số ít, nên động từ \"turn\" phải thêm \"s\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_003",
+      "prompt": "A team at the John Inners Center in Norwich _____ this finding in Journal Science."
+    },
+    "answer": "reports",
+    "hint": "Chủ ngữ \"A team\" là danh từ số ít, nên động từ \"report\" phải thêm \"s\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_004",
+      "prompt": "The key to root growth _____ in the fuzzy coat of hairs on the roots."
+    },
+    "answer": "is",
+    "hint": "Chủ ngữ \"The key\" là số ít, nên động từ \"to be\" chia là \"is\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_005",
+      "prompt": "Root hairs _____ the soil in much the same way a person would feel their way in the dark."
+    },
+    "answer": "explore",
+    "hint": "Chủ ngữ \"Root hairs\" là số nhiều, nên động từ \"explore\" giữ nguyên ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_006",
+      "prompt": "If root hairs _____ across an obstacle, they make their way around it."
+    },
+    "answer": "come",
+    "hint": "Trong mệnh đề điều kiện loại 1, động từ ở mệnh đề \"if\" chia thì hiện tại đơn. Chủ ngữ \"root hairs\" là số nhiều, nên \"come\" giữ nguyên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_007",
+      "prompt": "The plant _____ held in place as the hairs grip the soil."
+    },
+    "answer": "is",
+    "hint": "Chủ ngữ \"The plant\" là số ít, nên động từ \"to be\" chia là \"is\" trong câu bị động thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_008",
+      "prompt": "A protein called RHD2 _____ root hairs to take calcium from the soil."
+    },
+    "answer": "helps",
+    "hint": "Chủ ngữ \"A protein\" là số ít, nên động từ \"help\" phải thêm \"s\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_009",
+      "prompt": "Calcium _____ the hairs grow and produce more RHD2."
+    },
+    "answer": "makes",
+    "hint": "Chủ ngữ \"Calcium\" là danh từ không đếm được (coi như số ít), nên động từ \"make\" phải thêm \"s\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_010",
+      "prompt": "When an obstacle _____ the hair's path, the growth cycle is broken."
+    },
+    "answer": "blocks",
+    "hint": "Trong mệnh đề chỉ thời gian với \"when\" diễn tả sự thật hiển nhiên, động từ chia thì hiện tại đơn. Chủ ngữ \"an obstacle\" là số ít, nên \"block\" thêm \"s\"."
+  }
+]

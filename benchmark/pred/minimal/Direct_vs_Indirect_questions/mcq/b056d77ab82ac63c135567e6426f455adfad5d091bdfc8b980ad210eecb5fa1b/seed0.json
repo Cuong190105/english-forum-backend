@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Choose the correct indirect question for: \"Where is the nearest post office?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "Could you tell me where is the nearest post office?"
+        },
+        {
+          "id": "b",
+          "label": "Could you tell me where the nearest post office is?"
+        },
+        {
+          "id": "c",
+          "label": "Where the nearest post office is, could you tell me?"
+        },
+        {
+          "id": "d",
+          "label": "Do you know where is the nearest post office?"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, trật tự từ là chủ ngữ + động từ, không phải động từ + chủ ngữ như câu hỏi trực tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Choose the correct indirect question for: \"Do you like classical music?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "I wonder do you like classical music."
+        },
+        {
+          "id": "b",
+          "label": "I wonder if you like classical music."
+        },
+        {
+          "id": "c",
+          "label": "I wonder you like classical music."
+        },
+        {
+          "id": "d",
+          "label": "Do you wonder if you like classical music?"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi chuyển câu hỏi Yes/No sang gián tiếp, chúng ta dùng 'if' hoặc 'whether' và theo sau là trật tự chủ ngữ + động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Choose the correct indirect question for: \"Is she a doctor?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "He asked if she is a doctor."
+        },
+        {
+          "id": "b",
+          "label": "He asked if she was a doctor."
+        },
+        {
+          "id": "c",
+          "label": "He asked was she a doctor."
+        },
+        {
+          "id": "d",
+          "label": "He asked if is she a doctor."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật lại câu hỏi trong quá khứ, động từ trong câu hỏi gián tiếp cần lùi thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Choose the correct indirect question for: \"Who wrote this book?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "I want to know who did write this book."
+        },
+        {
+          "id": "b",
+          "label": "I want to know who wrote this book."
+        },
+        {
+          "id": "c",
+          "label": "Who wrote this book, I want to know?"
+        },
+        {
+          "id": "d",
+          "label": "I want to know who this book was written by."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với câu hỏi trực tiếp về chủ ngữ (bắt đầu bằng 'who' hoặc 'what' làm chủ ngữ), cấu trúc trong câu hỏi gián tiếp thường giữ nguyên trật tự từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Choose the correct indirect question for: \"What time does the bank open?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "Could you tell me what time does the bank open?"
+        },
+        {
+          "id": "b",
+          "label": "Could you tell me what time the bank opens?"
+        },
+        {
+          "id": "c",
+          "label": "What time the bank opens, could you tell me?"
+        },
+        {
+          "id": "d",
+          "label": "Do you know what time does the bank open?"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, chúng ta không dùng trợ động từ 'do/does/did' và động từ chính chia theo chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Choose the correct indirect question for: \"How much does this cost?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "I'd like to know how much does this cost."
+        },
+        {
+          "id": "b",
+          "label": "I'd like to know how much this costs."
+        },
+        {
+          "id": "c",
+          "label": "How much this costs, I'd like to know."
+        },
+        {
+          "id": "d",
+          "label": "I'd like to know how much this is cost."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tương tự như câu hỏi gián tiếp khác, bỏ trợ động từ 'does' và chia động từ chính 'cost' thành 'costs'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Choose the correct indirect question for: \"When will they arrive?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do you have any idea when will they arrive?"
+        },
+        {
+          "id": "b",
+          "label": "Do you have any idea when they will arrive?"
+        },
+        {
+          "id": "c",
+          "label": "When will they arrive, do you have any idea?"
+        },
+        {
+          "id": "d",
+          "label": "Do you have any idea when they arrive?"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau từ để hỏi trong câu hỏi gián tiếp, trật tự từ là chủ ngữ + động từ (không đảo ngữ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Choose the correct indirect question for: \"Did you finish your homework?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "She asked if I finished my homework."
+        },
+        {
+          "id": "b",
+          "label": "She asked if I had finished my homework."
+        },
+        {
+          "id": "c",
+          "label": "She asked did I finish my homework."
+        },
+        {
+          "id": "d",
+          "label": "She asked if did I finish my homework."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật câu hỏi trong quá khứ, thì quá khứ đơn (Did you finish) lùi về quá khứ hoàn thành (had finished)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Choose the correct indirect question for: \"Why are you late?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "Can you explain why are you late?"
+        },
+        {
+          "id": "b",
+          "label": "Can you explain why you are late?"
+        },
+        {
+          "id": "c",
+          "label": "Why are you late, can you explain?"
+        },
+        {
+          "id": "d",
+          "label": "Can you explain why were you late?"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, động từ 'are' đứng sau chủ ngữ 'you'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Choose the correct indirect question for: \"Where did you go last night?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "He wanted to know where did I go last night."
+        },
+        {
+          "id": "b",
+          "label": "He wanted to know where I went last night."
+        },
+        {
+          "id": "c",
+          "label": "He wanted to know where I had gone the previous night."
+        },
+        {
+          "id": "d",
+          "label": "He wanted to know where I had gone last night."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi tường thuật câu hỏi trong quá khứ, thì quá khứ đơn (did you go) lùi về quá khứ hoàn thành (had gone) và các trạng từ chỉ thời gian cũng cần thay đổi (last night -> the previous night)."
+  }
+]

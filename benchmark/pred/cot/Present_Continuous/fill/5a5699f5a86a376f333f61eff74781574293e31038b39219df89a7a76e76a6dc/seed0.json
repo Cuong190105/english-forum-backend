@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_001",
+      "prompt": "Look! A horse, a panda, and a cat _____."
+    },
+    "answer": "are running",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả hành động đang xảy ra tại thời điểm nói, thường có dấu hiệu như 'Look!'. Chủ ngữ số nhiều nên dùng 'are' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_002",
+      "prompt": "Over there, a dog and two tigers _____."
+    },
+    "answer": "are jumping",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả hành động đang xảy ra tại thời điểm nói. Chủ ngữ số nhiều nên dùng 'are' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_003",
+      "prompt": "Two monkeys _____ the trees."
+    },
+    "answer": "are climbing",
+    "hint": "Thì hiện tại tiếp diễn diễn tả hành động đang diễn ra. Chủ ngữ số nhiều 'Two monkeys' đi với 'are' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_004",
+      "prompt": "Four birds _____ around and singing."
+    },
+    "answer": "are flying",
+    "hint": "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra. 'Four birds' là chủ ngữ số nhiều, dùng 'are' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_005",
+      "prompt": "The elephants _____."
+    },
+    "answer": "are standing",
+    "hint": "Thì hiện tại tiếp diễn diễn tả hành động đang diễn ra. 'The elephants' là chủ ngữ số nhiều, dùng 'are' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_006",
+      "prompt": "A monkey _____ on an old elephant."
+    },
+    "answer": "is sitting",
+    "hint": "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra. 'A monkey' là chủ ngữ số ít, dùng 'is' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_007",
+      "prompt": "Polly _____ in the tree."
+    },
+    "answer": "is sitting",
+    "hint": "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra. 'Polly' là chủ ngữ số ít, dùng 'is' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_008",
+      "prompt": "A fox, a baby panda, and some small animals _____ under the tree."
+    },
+    "answer": "are sitting",
+    "hint": "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra. Chủ ngữ gồm nhiều đối tượng nên dùng 'are' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_009",
+      "prompt": "They all _____."
+    },
+    "answer": "are watching",
+    "hint": "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra. 'They' là chủ ngữ số nhiều, dùng 'are' + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_010",
+      "prompt": "Now, the sun _____ brightly in the blue sky."
+    },
+    "answer": "is shining",
+    "hint": "'Now' là dấu hiệu của thì hiện tại tiếp diễn. 'The sun' là chủ ngữ số ít, dùng 'is' + V-ing."
+  }
+]

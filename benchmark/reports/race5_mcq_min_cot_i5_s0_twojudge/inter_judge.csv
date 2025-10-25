@@ -1,0 +1,2 @@
+run_id,type,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+race5_mcq_min_cot_i5_s0_twojudge,mcq,100,0.78,0.6988,0.8612,0.0606,0.7187

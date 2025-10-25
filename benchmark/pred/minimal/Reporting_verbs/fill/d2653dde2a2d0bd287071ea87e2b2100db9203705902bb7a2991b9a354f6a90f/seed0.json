@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "New research _____ that speaking more than one language may delay different kinds of dementia."
+    },
+    "answer": "suggests",
+    "hint": "Động từ tường thuật nào có nghĩa là \"gợi ý, cho thấy\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "Researchers _____, speaking two languages appears to be more important than the level of education in defending against dementias."
+    },
+    "answer": "say",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nói\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "Thomas Bak _____ that individuals who speak more than one language train their brains by moving back and forth between different words and expressions."
+    },
+    "answer": "suggests",
+    "hint": "Động từ tường thuật nào có nghĩa là \"gợi ý, cho thấy\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "He also _____ this effort improves what scientists called executive functioning."
+    },
+    "answer": "believes",
+    "hint": "Động từ tường thuật nào có nghĩa là \"tin rằng\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "He _____ that researchers found there was no extra gain in speaking more than two languages."
+    },
+    "answer": "states",
+    "hint": "Động từ tường thuật nào có nghĩa là \"tuyên bố, phát biểu\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "Mr Bak _____ it does not appear important whether you learn another language at a young age or later in life."
+    },
+    "answer": "says",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nói\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Researchers _____ that the dementias began about four-and-a-half years later in those who spoke two languages."
+    },
+    "answer": "found",
+    "hint": "Động từ tường thuật nào có nghĩa là \"phát hiện ra\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "A study in India _____ the effect of knowing more than one language in delaying the first signs of several dementias."
+    },
+    "answer": "examined",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nghiên cứu, xem xét\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "Researchers _____ nearly 650 people whose average age was 66 for their study."
+    },
+    "answer": "studied",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nghiên cứu\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "Mr Bak _____ that learning a language as an adult is still quite useful and powerful."
+    },
+    "answer": "emphasized",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nhấn mạnh\"?"
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Mike _____ this soup in the afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't like"
+        },
+        {
+          "id": "b",
+          "label": "don't like"
+        },
+        {
+          "id": "c",
+          "label": "isn't liking"
+        },
+        {
+          "id": "d",
+          "label": "not like"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mike là ngôi thứ ba số ít, nên động từ phủ định dùng \"doesn't\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Mike and his father _____ on the farm after lunch.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "are working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ \"Mike and his father\" là số nhiều, nên động từ giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "In the evening, Mike's father _____ him a bowl of soup.",
+      "options": [
+        {
+          "id": "a",
+          "label": "give"
+        },
+        {
+          "id": "b",
+          "label": "gives"
+        },
+        {
+          "id": "c",
+          "label": "is giving"
+        },
+        {
+          "id": "d",
+          "label": "gave"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Mike's father\" là ngôi thứ ba số ít, nên động từ thêm \"s\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Mike _____ that he doesn't like the soup.",
+      "options": [
+        {
+          "id": "a",
+          "label": "say"
+        },
+        {
+          "id": "b",
+          "label": "says"
+        },
+        {
+          "id": "c",
+          "label": "is saying"
+        },
+        {
+          "id": "d",
+          "label": "said"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Mike\" là ngôi thứ ba số ít, nên động từ thêm \"s\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Mike and his father _____ hard on the farm.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "is working"
+        },
+        {
+          "id": "d",
+          "label": "does work"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ \"Mike and his father\" tương đương với \"They\" (số nhiều), nên động từ giữ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Mike _____ to have the soup at first.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't want"
+        },
+        {
+          "id": "b",
+          "label": "don't want"
+        },
+        {
+          "id": "c",
+          "label": "isn't wanting"
+        },
+        {
+          "id": "d",
+          "label": "not wants"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Mike\" là ngôi thứ ba số ít, nên động từ phủ định dùng \"doesn't\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "What _____ Mike and his father do after lunch?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ \"Mike and his father\" là số nhiều, nên trợ động từ dùng \"do\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Mike's mother _____ that the soup is the same.",
+      "options": [
+        {
+          "id": "a",
+          "label": "say"
+        },
+        {
+          "id": "b",
+          "label": "says"
+        },
+        {
+          "id": "c",
+          "label": "is saying"
+        },
+        {
+          "id": "d",
+          "label": "said"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Mike's mother\" là ngôi thứ ba số ít, nên động từ thêm \"s\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The soup _____ nice to Mike in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "be"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "being"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"The soup\" là danh từ số ít, nên động từ \"to be\" dùng \"is\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Mike's father usually _____ Mike a bowl of soup in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "give"
+        },
+        {
+          "id": "b",
+          "label": "gives"
+        },
+        {
+          "id": "c",
+          "label": "is giving"
+        },
+        {
+          "id": "d",
+          "label": "gave"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Mike's father\" là ngôi thứ ba số ít, và \"usually\" chỉ thói quen, nên động từ thêm \"s\"."
+  }
+]

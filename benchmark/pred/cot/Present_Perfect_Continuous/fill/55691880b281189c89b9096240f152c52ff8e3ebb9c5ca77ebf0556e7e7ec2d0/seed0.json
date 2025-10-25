@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_001",
+      "prompt": "The newspaper industry _____ (struggle) with declining readership for a long time."
+    },
+    "answer": "has been struggling",
+    "hint": "Diễn tả hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nhấn mạnh tính liên tục của sự việc."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_002",
+      "prompt": "Publishers _____ (explore) new business models since the rise of digital media."
+    },
+    "answer": "have been exploring",
+    "hint": "Hành động tìm kiếm bắt đầu trong quá khứ và vẫn đang tiếp diễn, có kết quả hoặc ảnh hưởng đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_003",
+      "prompt": "For years, readers _____ (get) used to accessing news online without paying."
+    },
+    "answer": "have been getting",
+    "hint": "Diễn tả một quá trình thay đổi thói quen kéo dài từ quá khứ đến hiện tại, nhấn mạnh sự liên tục."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_004",
+      "prompt": "Many newspaper companies _____ (deal) with significant debts from acquisitions for several years now."
+    },
+    "answer": "have been dealing",
+    "hint": "Hành động đối phó với nợ đã diễn ra và vẫn đang tiếp diễn, có thể còn chưa kết thúc."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_005",
+      "prompt": "Since the internet became widespread, newspapers _____ (redesign) their content for online platforms."
+    },
+    "answer": "have been redesigning",
+    "hint": "Quá trình thiết kế lại bắt đầu trong quá khứ và vẫn đang tiếp tục, nhấn mạnh tính liên tục của hành động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_006",
+      "prompt": "The way newspapers earn revenue _____ (change) dramatically over the past two decades."
+    },
+    "answer": "has been changing",
+    "hint": "Diễn tả sự thay đổi liên tục từ quá khứ đến hiện tại, nhấn mạnh quá trình đang diễn ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_007",
+      "prompt": "Publishers _____ (face) increasing pressure to find new revenue streams for years."
+    },
+    "answer": "have been facing",
+    "hint": "Diễn tả tình trạng đối mặt với áp lực kéo dài từ quá khứ đến hiện tại, nhấn mạnh sự liên tục."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_008",
+      "prompt": "The industry _____ (try) to balance its financial needs with customer expectations for free content."
+    },
+    "answer": "has been trying",
+    "hint": "Hành động cố gắng cân bằng đã diễn ra và vẫn đang tiếp diễn, có thể còn chưa đạt được kết quả cuối cùng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_009",
+      "prompt": "Since its arrival, USA Today _____ (influence) the design of many other papers."
+    },
+    "answer": "has been influencing",
+    "hint": "Diễn tả ảnh hưởng kéo dài từ quá khứ đến hiện tại, nhấn mạnh tính liên tục của sự tác động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_010",
+      "prompt": "Millions of readers _____ (choose) online news over printed versions for several years."
+    },
+    "answer": "have been choosing",
+    "hint": "Diễn tả hành động lựa chọn liên tục từ quá khứ đến hiện tại, nhấn mạnh thói quen hoặc xu hướng."
+  }
+]

@@ -1,0 +1,26 @@
+run_id,type,topic,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+race50combined_fill_min_cot_i10_s0,fill,First Conditional,40,0.95,0.8825,1.0,-0.0256,0.9474
+race50combined_fill_min_cot_i10_s0,fill,Passive (all tenses),100,0.94,0.8935,0.9865,0.5455,0.931
+race50combined_fill_min_cot_i10_s0,fill,Past Simple,100,0.96,0.9216,0.9984,0.6479,0.9549
+race50combined_fill_min_cot_i10_s0,fill,Present Perfect Continuous,40,0.975,0.9266,1.0,0.0,0.9744
+race50combined_fill_min_cot_i10_s0,fill,Reporting verbs,40,1.0,1.0,1.0,0.0,1.0
+race50combined_fill_min_cot_i10_s0,fill,"Verb patterns (advise sb to…, make/let + bare inf…)",20,1.0,1.0,1.0,0.0,1.0
+race50combined_fill_min_cot_i10_s0,fill,can/could,20,1.0,1.0,1.0,1.0,1.0
+race50combined_fill_min_cot_i10_s0,fill,Direct vs Indirect questions,20,0.95,0.8545,1.0,0.0,0.9474
+race50combined_fill_min_cot_i10_s0,fill,Zero Conditional,39,0.9487,0.8795,1.0,0.0,0.946
+race50combined_fill_min_cot_i10_s0,fill,Reduced relative clauses,20,0.85,0.6935,1.0,0.625,0.7505
+race50combined_fill_min_cot_i10_s0,fill,Present Simple,100,0.88,0.8163,0.9437,0.2982,0.8565
+race50combined_fill_min_cot_i10_s0,fill,Present Continuous,60,0.9167,0.8467,0.9866,0.5763,0.8967
+race50combined_fill_min_cot_i10_s0,fill,this/that/these/those,20,0.85,0.6935,1.0,0.0,0.8258
+race50combined_fill_min_cot_i10_s0,fill,Past Perfect,80,0.95,0.9022,0.9978,0.6404,0.9419
+race50combined_fill_min_cot_i10_s0,fill,Participle clauses (V-ing/V-ed),20,0.85,0.6935,1.0,0.0,0.8258
+race50combined_fill_min_cot_i10_s0,fill,Used to,20,0.8,0.6247,0.9753,-0.0811,0.7561
+race50combined_fill_min_cot_i10_s0,fill,should/ought to,20,1.0,1.0,1.0,0.0,1.0
+race50combined_fill_min_cot_i10_s0,fill,Second Conditional,40,0.925,0.8434,1.0,0.0,0.9192
+race50combined_fill_min_cot_i10_s0,fill,may/might,20,1.0,1.0,1.0,0.0,1.0
+race50combined_fill_min_cot_i10_s0,fill,Backshifting tenses,40,0.9,0.807,0.993,0.0,0.8895
+race50combined_fill_min_cot_i10_s0,fill,V-ing vs to-V,40,1.0,1.0,1.0,0.0,1.0
+race50combined_fill_min_cot_i10_s0,fill,Present Perfect,20,0.75,0.5602,0.9398,0.0,0.68
+race50combined_fill_min_cot_i10_s0,fill,Past Perfect Continuous,40,1.0,1.0,1.0,1.0,1.0
+race50combined_fill_min_cot_i10_s0,fill,Preposition + V-ing,20,0.8,0.6247,0.9753,0.2727,0.7315
+race50combined_fill_min_cot_i10_s0,fill,Future (going to),20,0.85,0.6935,1.0,0.3182,0.808

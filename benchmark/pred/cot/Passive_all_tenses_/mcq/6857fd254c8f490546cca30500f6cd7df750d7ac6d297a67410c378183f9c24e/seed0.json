@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_001",
+      "prompt": "English _____ as a world language by many people.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is considered"
+        },
+        {
+          "id": "b",
+          "label": "considers"
+        },
+        {
+          "id": "c",
+          "label": "considered"
+        },
+        {
+          "id": "d",
+          "label": "has considered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hiện tại đơn bị động (is + V3) dùng để diễn tả sự thật hoặc ý kiến chung về chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_002",
+      "prompt": "Although English _____ in more and more schools abroad, the process is not always popular.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is teaching"
+        },
+        {
+          "id": "b",
+          "label": "is being taught"
+        },
+        {
+          "id": "c",
+          "label": "has taught"
+        },
+        {
+          "id": "d",
+          "label": "taught"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hiện tại tiếp diễn bị động (is/are being + V3) diễn tả hành động đang diễn ra tại thời điểm nói hoặc xung quanh đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_003",
+      "prompt": "A new word, \"franglais,\" _____ in France to describe the results of English influence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "invented"
+        },
+        {
+          "id": "b",
+          "label": "was invented"
+        },
+        {
+          "id": "c",
+          "label": "has invented"
+        },
+        {
+          "id": "d",
+          "label": "is inventing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Quá khứ đơn bị động (was/were + V3) dùng cho hành động đã xảy ra và kết thúc trong quá khứ, không rõ người thực hiện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_004",
+      "prompt": "The language problem _____ for centuries, but no perfect solution has been found yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been discussed"
+        },
+        {
+          "id": "b",
+          "label": "discussed"
+        },
+        {
+          "id": "c",
+          "label": "is discussed"
+        },
+        {
+          "id": "d",
+          "label": "discusses"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hiện tại hoàn thành bị động (has/have been + V3) dùng cho hành động bắt đầu trong quá khứ và kéo dài đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_005",
+      "prompt": "An artificial language, such as Esperanto, _____ boring by many learners in the future.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will think"
+        },
+        {
+          "id": "b",
+          "label": "will be thought"
+        },
+        {
+          "id": "c",
+          "label": "thinks"
+        },
+        {
+          "id": "d",
+          "label": "is thought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tương lai đơn bị động (will be + V3) dùng cho hành động sẽ được thực hiện hoặc sẽ xảy ra trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_006",
+      "prompt": "Misunderstandings between people of different countries _____ without a common language.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can cause"
+        },
+        {
+          "id": "b",
+          "label": "can be caused"
+        },
+        {
+          "id": "c",
+          "label": "causes"
+        },
+        {
+          "id": "d",
+          "label": "are causing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ khuyết thiếu bị động (modal + be + V3) diễn tả khả năng hoặc sự cho phép một hành động được thực hiện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_007",
+      "prompt": "The influence of English words _____ by many people who fear for their own language.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is disliked"
+        },
+        {
+          "id": "b",
+          "label": "dislikes"
+        },
+        {
+          "id": "c",
+          "label": "has disliked"
+        },
+        {
+          "id": "d",
+          "label": "was disliked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hiện tại đơn bị động (is + V3) với tác nhân 'by many people' cho thấy hành động được thực hiện bởi người khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_008",
+      "prompt": "An artificial language, such as Esperanto, _____ boring by many learners because it has no culture.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is thought"
+        },
+        {
+          "id": "b",
+          "label": "thinks"
+        },
+        {
+          "id": "c",
+          "label": "thought"
+        },
+        {
+          "id": "d",
+          "label": "has thought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc bị động 'be thought' (được nghĩ là) dùng để diễn tả ý kiến chung hoặc quan điểm của nhiều người."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_009",
+      "prompt": "It _____ that English is quickly becoming a world language.",
+      "options": [
+        {
+          "id": "a",
+          "label": "often says"
+        },
+        {
+          "id": "b",
+          "label": "often said"
+        },
+        {
+          "id": "c",
+          "label": "is often said"
+        },
+        {
+          "id": "d",
+          "label": "has often said"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc bị động 'It is said that...' (người ta nói rằng) dùng để truyền đạt thông tin chung hoặc tin đồn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_010",
+      "prompt": "An artificial language _____ as one of the possible solutions to the language problem.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can make up"
+        },
+        {
+          "id": "b",
+          "label": "can be made up"
+        },
+        {
+          "id": "c",
+          "label": "makes up"
+        },
+        {
+          "id": "d",
+          "label": "is making up"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ khuyết thiếu bị động (can be + V3) diễn tả khả năng một điều gì đó được thực hiện hoặc tạo ra."
+  }
+]

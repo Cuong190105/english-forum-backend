@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-001",
+      "prompt": "If you do not use your arms or your legs some time, they _____ weak."
+    },
+    "answer": "become",
+    "hint": "Đây là một sự thật chung, sử dụng thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-002",
+      "prompt": "When you start using your arms and legs again, they slowly _____ strong again."
+    },
+    "answer": "become",
+    "hint": "Khi bạn bắt đầu sử dụng lại, chúng sẽ khỏe lại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-003",
+      "prompt": "When someone says he has a good memory, he really means that he _____ his memory in practice."
+    },
+    "answer": "keeps",
+    "hint": "Anh ấy giữ trí nhớ của mình được luyện tập."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-004",
+      "prompt": "If someone says his memory is poor, it means he _____ it enough chances to become strong."
+    },
+    "answer": "doesn't give",
+    "hint": "Anh ấy không cho nó đủ cơ hội."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-005",
+      "prompt": "If a friend complains that his arms and legs are weak, we _____ that it is his own fault."
+    },
+    "answer": "know",
+    "hint": "Chúng ta biết đó là lỗi của anh ấy."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-006",
+      "prompt": "Your arms and legs become weak if you _____ not use them some time."
+    },
+    "answer": "do",
+    "hint": "Đây là cấu trúc phủ định của hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-007",
+      "prompt": "When someone has a good memory, it means he _____ it frequently."
+    },
+    "answer": "exercises",
+    "hint": "Anh ấy luyện tập nó thường xuyên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-008",
+      "prompt": "If a memory is poor, it means one _____ it enough chances to become strong."
+    },
+    "answer": "doesn't give",
+    "hint": "Nó không được cho đủ cơ hội."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-009",
+      "prompt": "We know it is his own fault if a friend _____ that his arms and legs are weak."
+    },
+    "answer": "complains",
+    "hint": "Anh ấy phàn nàn về cánh tay và chân yếu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-010",
+      "prompt": "They slowly become strong again when you _____ using them again."
+    },
+    "answer": "start",
+    "hint": "Khi bạn bắt đầu sử dụng lại."
+  }
+]

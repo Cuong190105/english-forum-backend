@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The iPhone 4s made its international appearance at the press conference _____ by the iPhone cooperation.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which was claimed"
+        },
+        {
+          "id": "b",
+          "label": "claiming"
+        },
+        {
+          "id": "c",
+          "label": "claimed"
+        },
+        {
+          "id": "d",
+          "label": "that claimed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng phân từ quá khứ (V3/ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Jailbreaking allows users to bypass restrictions _____ by the device's manufacturer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which are imposed"
+        },
+        {
+          "id": "b",
+          "label": "imposing"
+        },
+        {
+          "id": "c",
+          "label": "imposed"
+        },
+        {
+          "id": "d",
+          "label": "that imposing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng phân từ quá khứ (V3/ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Apple products, such as the iPhone and iPad, are devices _____ the user to applications licensed exclusively by Apple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that routinely restrict"
+        },
+        {
+          "id": "b",
+          "label": "routinely restricting"
+        },
+        {
+          "id": "c",
+          "label": "restricted routinely"
+        },
+        {
+          "id": "d",
+          "label": "which are routinely restricted"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng chủ động dùng phân từ hiện tại (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Users often jailbreak to run applications not _____ exclusively by Apple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "licensing"
+        },
+        {
+          "id": "b",
+          "label": "licensed"
+        },
+        {
+          "id": "c",
+          "label": "which license"
+        },
+        {
+          "id": "d",
+          "label": "that are licensing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng phân từ quá khứ (V3/ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "_____ often do so as a reaction against what they consider as a form of censorship.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Those who jailbreak"
+        },
+        {
+          "id": "b",
+          "label": "Those jailbreaking"
+        },
+        {
+          "id": "c",
+          "label": "Those are jailbreaking"
+        },
+        {
+          "id": "d",
+          "label": "Those jailbroken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng chủ động dùng phân từ hiện tại (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Many users view the restrictions as a form of censorship _____ by Apple Inc.",
+      "options": [
+        {
+          "id": "a",
+          "label": "imposing"
+        },
+        {
+          "id": "b",
+          "label": "imposed"
+        },
+        {
+          "id": "c",
+          "label": "which imposes"
+        },
+        {
+          "id": "d",
+          "label": "that is imposing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng phân từ quá khứ (V3/ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Jailbreaking allows users to install games and other applications _____ by Apple Inc.",
+      "options": [
+        {
+          "id": "a",
+          "label": "not licensed"
+        },
+        {
+          "id": "b",
+          "label": "not licensing"
+        },
+        {
+          "id": "c",
+          "label": "which not license"
+        },
+        {
+          "id": "d",
+          "label": "that not licensing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng phân từ quá khứ (V3/ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The first jailbreaking occurrence, _____ to the adding of custom ringtones, happened in July 2007.",
+      "options": [
+        {
+          "id": "a",
+          "label": "which related"
+        },
+        {
+          "id": "b",
+          "label": "relating"
+        },
+        {
+          "id": "c",
+          "label": "related"
+        },
+        {
+          "id": "d",
+          "label": "that was related"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng chủ động dùng phân từ hiện tại (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Jailbreaking removes restrictions on applications _____ and run on the device.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to be downloaded"
+        },
+        {
+          "id": "b",
+          "label": "downloading"
+        },
+        {
+          "id": "c",
+          "label": "downloaded"
+        },
+        {
+          "id": "d",
+          "label": "which are downloading"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn dùng to-infinitive khi diễn tả mục đích hoặc khả năng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The iPhone, iPod, and iPad are examples of devices _____ the user to applications licensed exclusively by Apple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "restricting"
+        },
+        {
+          "id": "b",
+          "label": "restricted"
+        },
+        {
+          "id": "c",
+          "label": "which restrict"
+        },
+        {
+          "id": "d",
+          "label": "that are restricted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ rút gọn dạng chủ động dùng phân từ hiện tại (V-ing)."
+  }
+]

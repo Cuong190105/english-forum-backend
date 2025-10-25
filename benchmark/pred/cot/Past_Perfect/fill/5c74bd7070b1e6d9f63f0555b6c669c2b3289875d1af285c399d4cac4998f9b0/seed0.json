@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "Before Forssmann decided to experiment on himself, similar experiments _____ on horses."
+    },
+    "answer": "had been done",
+    "hint": "Hành động 'had been done' xảy ra trước hành động 'decided' trong quá khứ. Đây là cấu trúc bị động của thì quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "Forssmann wanted to try the experiment on human patients, but it _____ because it was considered too dangerous."
+    },
+    "answer": "had not been permitted",
+    "hint": "Việc không được cho phép xảy ra trước khi Forssmann muốn thử nghiệm trên người. Dùng quá khứ hoàn thành bị động để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "Before Robin Warren found that Helicobacter pylori might cause gastritis, most doctors _____ that stress was the main reason."
+    },
+    "answer": "had believed",
+    "hint": "Niềm tin của các bác sĩ tồn tại trước khi Robin Warren đưa ra phát hiện của mình. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một mốc thời gian khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "Marshall drank the bacteria after their request to experiment on patients _____ by the authorities."
+    },
+    "answer": "had been denied",
+    "hint": "Yêu cầu bị từ chối xảy ra trước khi Marshall uống vi khuẩn. Dùng quá khứ hoàn thành bị động để diễn tả hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "By 2007, Steinman already _____ that he couldn't use his method to treat patients yet."
+    },
+    "answer": "had known",
+    "hint": "Việc Steinman biết điều này đã xảy ra và hoàn tất trước mốc thời gian 'by 2007'. Dùng quá khứ hoàn thành để nhấn mạnh hành động đã hoàn tất trước một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "Steinman lived much longer than doctors _____ he would."
+    },
+    "answer": "had said",
+    "hint": "Lời tiên đoán của các bác sĩ xảy ra trước khi Steinman sống lâu hơn dự kiến. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "By the time the Nobel Prize committee announced the winners, these scientists _____ significant contributions to their fields."
+    },
+    "answer": "had made",
+    "hint": "Việc các nhà khoa học đóng góp đã hoàn tất trước thời điểm ủy ban công bố giải thưởng. Dùng quá khứ hoàn thành để chỉ hành động hoàn thành trước một mốc thời gian trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "The researchers couldn't start the new phase of the study because they _____ all the necessary data from the previous stage."
+    },
+    "answer": "had not collected",
+    "hint": "Việc chưa thu thập đủ dữ liệu xảy ra trước và là nguyên nhân khiến họ không thể bắt đầu giai đoạn mới. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "After Forssmann _____ his own arm, he made a cut and inserted the pipe."
+    },
+    "answer": "had anaesthetized",
+    "hint": "Hành động gây tê xảy ra và hoàn tất trước hành động rạch và đưa ống vào. Dùng quá khứ hoàn thành cho hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "Marshall lost his appetite five days after he _____ the bacteria."
+    },
+    "answer": "had drunk",
+    "hint": "Hành động uống vi khuẩn xảy ra trước và dẫn đến việc mất cảm giác ngon miệng. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  }
+]

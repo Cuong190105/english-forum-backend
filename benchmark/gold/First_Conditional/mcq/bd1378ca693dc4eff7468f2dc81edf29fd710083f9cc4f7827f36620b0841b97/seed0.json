@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_001",
+      "prompt": "If you _____ to spend a lot of money, you will be able to afford an eye lift.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be willing"
+        },
+        {
+          "id": "b",
+          "label": "are willing"
+        },
+        {
+          "id": "c",
+          "label": "were willing"
+        },
+        {
+          "id": "d",
+          "label": "would be willing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu điều kiện loại 1: Mệnh đề 'If' dùng thì hiện tại đơn (are willing), mệnh đề chính dùng 'will + V' để diễn tả khả năng có thật ở tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_002",
+      "prompt": "You might waste your money if you _____ enough research before buying an eye cream.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't do"
+        },
+        {
+          "id": "b",
+          "label": "won't do"
+        },
+        {
+          "id": "c",
+          "label": "didn't do"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 1, mệnh đề 'If' (điều kiện) phải ở thì hiện tại đơn (don't do), không dùng 'will' hoặc thì quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_003",
+      "prompt": "If you _____ a dermatologist tomorrow, you can ask for professional advice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will see"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "see"
+        },
+        {
+          "id": "d",
+          "label": "would see"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề 'If' không bao giờ dùng 'will'. Với sự việc có thể xảy ra trong tương lai (tomorrow), ta dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_004",
+      "prompt": "She _____ for reviews online if she doesn't have a dermatologist to ask.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will look"
+        },
+        {
+          "id": "b",
+          "label": "looks"
+        },
+        {
+          "id": "c",
+          "label": "looked"
+        },
+        {
+          "id": "d",
+          "label": "would look"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu điều kiện loại 1 với mệnh đề chính đứng trước. Mệnh đề chính dùng 'will + V', mệnh đề 'If' dùng hiện tại đơn (doesn't have)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_005",
+      "prompt": "If you follow these tips, you _____ the best eye cream for your needs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are finding"
+        },
+        {
+          "id": "b",
+          "label": "found"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "will find"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cấu trúc câu điều kiện loại 1: If + S + V(hiện tại đơn), S + will + V(nguyên mẫu). Mệnh đề chính diễn tả kết quả trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_006",
+      "prompt": "Your aging problem will get worse if you _____ a fake product.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will use"
+        },
+        {
+          "id": "b",
+          "label": "use"
+        },
+        {
+          "id": "c",
+          "label": "used"
+        },
+        {
+          "id": "d",
+          "label": "are using"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề điều kiện bắt đầu bằng 'if' phải sử dụng thì hiện tại đơn (use), không được dùng 'will' hay các thì khác trong trường hợp này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_007",
+      "prompt": "What _____ if this eye cream doesn't work for my sensitive skin?",
+      "options": [
+        {
+          "id": "a",
+          "label": "happens"
+        },
+        {
+          "id": "b",
+          "label": "will happen"
+        },
+        {
+          "id": "c",
+          "label": "would happen"
+        },
+        {
+          "id": "d",
+          "label": "did happen"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi điều kiện loại 1, mệnh đề chính (kết quả) dùng cấu trúc 'từ để hỏi + will + S + V?', mệnh đề 'If' vẫn ở hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_008",
+      "prompt": "You won't see good results _____ you use the cream consistently every night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "if"
+        },
+        {
+          "id": "b",
+          "label": "unless"
+        },
+        {
+          "id": "c",
+          "label": "when"
+        },
+        {
+          "id": "d",
+          "label": "in case"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Unless' có nghĩa là 'if... not' (trừ khi). Câu này có nghĩa: Bạn sẽ không thấy kết quả tốt trừ khi bạn dùng kem đều đặn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_009",
+      "prompt": "If the product reviews are positive, I _____ it this evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will buy"
+        },
+        {
+          "id": "b",
+          "label": "am buying"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 1 cần 'will + động từ nguyên mẫu' để chỉ một quyết định hoặc hành động trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fc_010",
+      "prompt": "If this new eye cream ____ my lines, I will recommend it to my friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will reduce"
+        },
+        {
+          "id": "b",
+          "label": "reduce"
+        },
+        {
+          "id": "c",
+          "label": "reduces"
+        },
+        {
+          "id": "d",
+          "label": "reduced"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong mệnh đề 'If', với chủ ngữ ngôi thứ ba số ít ('this new eye cream'), động từ ở thì hiện tại đơn phải thêm 's' (reduces)."
+  }
+]

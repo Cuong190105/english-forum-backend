@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "According to the text, what responsibility ______ employers take for their retired employees?",
+      "options": [
+        {
+          "id": "a",
+          "label": "ought to"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "have to"
+        },
+        {
+          "id": "d",
+          "label": "need to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi về trách nhiệm của người sử dụng lao động đối với nhân viên đã nghỉ hưu, theo văn bản. \"ought to\" thể hiện nghĩa vụ hoặc lời khuyên mạnh mẽ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "A percentage of profits ______ be set aside for retired employees, according to the text.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "could"
+        },
+        {
+          "id": "d",
+          "label": "might"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản nói rõ \"a percentage of profits should be set aside\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The text suggests that individuals ______ save during their working years for retirement, though it notes this isn't always fair.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ought to"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "will"
+        },
+        {
+          "id": "d",
+          "label": "can"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mặc dù văn bản dùng \"must\", nhưng khi đặt trong ngữ cảnh lời khuyên hoặc kỳ vọng, \"ought to\" phù hợp hơn để hỏi về điều nên làm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "If individuals struggle to save for retirement, the government ______ step in to care for the poor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "could"
+        },
+        {
+          "id": "d",
+          "label": "might"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản nói \"the government might have to step in\", nhưng trong ngữ cảnh câu hỏi về trách nhiệm hoặc điều nên làm, \"should\" là lựa chọn tốt nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The government ______ take responsibility for the care of the old, as one possible solution.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ought to"
+        },
+        {
+          "id": "b",
+          "label": "has to"
+        },
+        {
+          "id": "c",
+          "label": "is able to"
+        },
+        {
+          "id": "d",
+          "label": "will"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản đề cập \"the government could take the responsibility\", nhưng khi hỏi về một giải pháp được đề xuất, \"ought to\" thể hiện ý nghĩa \"nên làm\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "To provide a comfortable life for senior citizens, some institutions ______ be created.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "could"
+        },
+        {
+          "id": "d",
+          "label": "might"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản nói \"some institutions should be created\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Given the advantages and disadvantages of each option, a combination of solutions ______ be needed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "will"
+        },
+        {
+          "id": "d",
+          "label": "can"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản kết luận \"it is reasonable to expect that some combination of these options may be needed\", \"should\" thể hiện sự cần thiết hợp lý."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The text implies that relying solely on individuals to save for retirement ______ be the only solution.",
+      "options": [
+        {
+          "id": "a",
+          "label": "shouldn't"
+        },
+        {
+          "id": "b",
+          "label": "mustn't"
+        },
+        {
+          "id": "c",
+          "label": "couldn't"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản nói \"This does not seem a very fair model\", ngụ ý rằng đây không phải là giải pháp duy nhất hoặc tốt nhất. \"shouldn't\" thể hiện điều không nên làm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "To avoid commercial disadvantage, companies ______ be solely responsible for lifelong care of employees without other support.",
+      "options": [
+        {
+          "id": "a",
+          "label": "shouldn't"
+        },
+        {
+          "id": "b",
+          "label": "mustn't"
+        },
+        {
+          "id": "c",
+          "label": "couldn't"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản nói \"it may suffer from a commercial disadvantage\", ngụ ý rằng công ty không nên chịu trách nhiệm hoàn toàn mà không có sự hỗ trợ khác. \"shouldn't\" phù hợp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "When considering solutions for the elderly, society ______ prioritize a system that is fair and viable.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ought to"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "will"
+        },
+        {
+          "id": "d",
+          "label": "can"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Văn bản thảo luận về các vấn đề tài chính và \"a question of the system we want for our society\", ngụ ý rằng xã hội nên ưu tiên một hệ thống công bằng và khả thi. \"ought to\" thể hiện nghĩa vụ hoặc lời khuyên mạnh mẽ."
+  }
+]

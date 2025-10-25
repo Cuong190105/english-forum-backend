@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "Just five years ago, if you wanted to visit Germany and Spain in one trip, you _____ wait for weeks to apply for different visas."
+    },
+    "answer": "used to",
+    "hint": "Diễn tả thói quen hoặc hành động lặp lại trong quá khứ không còn nữa."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "Before the introduction of the Euro, most European countries _____ have their own distinct money."
+    },
+    "answer": "used to",
+    "hint": "Nói về một tình trạng đã từng tồn tại trong quá khứ nhưng nay đã thay đổi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "Traveling across Europe _____ be much more complicated due to visa requirements and different currencies."
+    },
+    "answer": "used to",
+    "hint": "Diễn tả một sự thật hoặc trạng thái trong quá khứ đã thay đổi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "Before the Schengen Agreement, people _____ go through border checks every time they crossed into another European country."
+    },
+    "answer": "used to",
+    "hint": "Mô tả một hành động lặp đi lặp lại trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "It _____ be necessary to exchange currency multiple times when traveling through several European nations."
+    },
+    "answer": "used to",
+    "hint": "Diễn tả một sự cần thiết trong quá khứ không còn nữa."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "Drivers _____ need separate car insurance policies for each European country they visited."
+    },
+    "answer": "used to",
+    "hint": "Nói về một quy định đã từng áp dụng trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Before the EU's unification efforts, Europe _____ be a continent of more distinct and separate nations."
+    },
+    "answer": "used to",
+    "hint": "Diễn tả một trạng thái tồn tại trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "Shopping in different European countries _____ be confusing because of the many different currencies and exchange rates."
+    },
+    "answer": "used to",
+    "hint": "Mô tả một trải nghiệm trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "Planning a multi-country trip in Europe _____ take a long time due to the complex logistics."
+    },
+    "answer": "used to",
+    "hint": "Diễn tả một thực tế trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "Travelers _____ face many more bureaucratic hurdles when visiting multiple European countries in one trip."
+    },
+    "answer": "used to",
+    "hint": "Nói về những khó khăn đã từng tồn tại trong quá khứ."
+  }
+]

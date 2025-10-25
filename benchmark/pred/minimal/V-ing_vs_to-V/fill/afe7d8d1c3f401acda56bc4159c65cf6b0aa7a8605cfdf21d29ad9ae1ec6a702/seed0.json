@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "People who go Zero Waste are careful about _____ what they do."
+    },
+    "answer": "doing",
+    "hint": "Giới từ thường theo sau bởi V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "They make good plans not _____ more than necessary before going shopping."
+    },
+    "answer": "to buy",
+    "hint": "Dùng 'to-V' để chỉ mục đích."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "The villagers sometimes just feel unhappy about what they have _____."
+    },
+    "answer": "to do",
+    "hint": "Cấu trúc 'have to + V' (phải làm gì)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "Let's think about how _____ a Zero Waste Christmas."
+    },
+    "answer": "to enjoy",
+    "hint": "Dùng 'question word + to-V' để hỏi cách làm gì."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "By sending recyclable cards, we can help our friends and family _____ waste."
+    },
+    "answer": "reduce",
+    "hint": "Cấu trúc 'help someone do something' (giúp ai làm gì)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "And wouldn't it be better _____ the spirit of Christmas with a real tree?"
+    },
+    "answer": "to enjoy",
+    "hint": "Cấu trúc 'It is + adj + to-V'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Going Zero Waste requires us _____ more about what happens."
+    },
+    "answer": "to think",
+    "hint": "Động từ 'require' thường theo sau bởi tân ngữ và 'to-V'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "_____ Zero Waste is not always easy."
+    },
+    "answer": "Going",
+    "hint": "V-ing có thể làm chủ ngữ của câu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "Going Zero Waste means _____ waste, too."
+    },
+    "answer": "reducing",
+    "hint": "Động từ 'mean' khi có nghĩa 'bao gồm/có nghĩa là' thường theo sau bởi V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "They make good plans not to buy more than necessary before _____ shopping."
+    },
+    "answer": "going",
+    "hint": "Giới từ 'before' thường theo sau bởi V-ing."
+  }
+]

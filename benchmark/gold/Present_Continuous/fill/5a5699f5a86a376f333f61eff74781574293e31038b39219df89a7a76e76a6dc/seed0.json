@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_001",
+      "prompt": "Look! The animals in the forest _____ a sports meeting right now."
+    },
+    "answer": "are having",
+    "hint": "Dùng thì hiện tại tiếp diễn (be + V-ing) để diễn tả hành động đang xảy ra, có dấu hiệu \"Look!\" và \"right now\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_002",
+      "prompt": "Listen! A horse, a panda, and a cat _____ in the race at the moment."
+    },
+    "answer": "are running",
+    "hint": "Chủ ngữ là số nhiều (\"a horse, a panda, and a cat\") nên dùng \"are\". \"At the moment\" là dấu hiệu của thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_003",
+      "prompt": "Over there, a dog and two tigers _____ over the hurdles."
+    },
+    "answer": "are jumping",
+    "hint": "\"Over there\" chỉ một hành động đang diễn ra trong tầm mắt. Chủ ngữ số nhiều (\"a dog and two tigers\") nên dùng \"are\" + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_004",
+      "prompt": "Be quiet! The two monkeys _____ up the tall trees."
+    },
+    "answer": "are climbing",
+    "hint": "\"Be quiet!\" là dấu hiệu cho thấy một hành động đang diễn ra. Chủ ngữ \"The two monkeys\" là số nhiều nên dùng \"are climbing\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_005",
+      "prompt": "Right now, four beautiful birds _____ in the blue sky."
+    },
+    "answer": "are flying",
+    "hint": "\"Right now\" là dấu hiệu rõ ràng của thì hiện tại tiếp diễn. Chủ ngữ số nhiều (\"four beautiful birds\") đi với \"are\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_006",
+      "prompt": "Look at that! A little monkey _____ on a big elephant's back."
+    },
+    "answer": "is sitting",
+    "hint": "Chủ ngữ là số ít (\"A little monkey\") nên dùng \"is\". \"Look at that!\" cho thấy hành động đang diễn ra ngay bây giờ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_007",
+      "prompt": "A fox and a baby panda _____ under the tree and watching the games."
+    },
+    "answer": "are sitting",
+    "hint": "Chủ ngữ là số nhiều (\"A fox and a baby panda\") nên động từ \"to be\" phải là \"are\". Đây là hành động đang diễn ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_008",
+      "prompt": "Where is Polly? Oh, she _____ in the tree over there."
+    },
+    "answer": "is sitting",
+    "hint": "Câu trả lời cho câu hỏi \"Where is...?\" thường mô tả trạng thái hoặc hành động hiện tại. Chủ ngữ \"she\" là số ít nên dùng \"is sitting\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_009",
+      "prompt": "The elephants aren't moving. They _____ very still near the river."
+    },
+    "answer": "are standing",
+    "hint": "Mô tả một trạng thái tạm thời đang diễn ra. Chủ ngữ \"They\" là số nhiều nên dùng \"are\" + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_010",
+      "prompt": "Everyone is very excited. They _____ the sports meeting with great interest."
+    },
+    "answer": "are watching",
+    "hint": "Diễn tả hành động của \"They\" (mọi người) đang diễn ra tại thời điểm nói. Dùng thì hiện tại tiếp diễn \"are\" + V-ing."
+  }
+]

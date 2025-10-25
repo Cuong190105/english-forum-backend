@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_001",
+      "prompt": "Many students are interested _____ their talents at the \"Show Yourselves!\" Festival.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to show"
+        },
+        {
+          "id": "b",
+          "label": "in showing"
+        },
+        {
+          "id": "c",
+          "label": "for showing"
+        },
+        {
+          "id": "d",
+          "label": "about show"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ \"interested in\" (quan tâm đến) luôn đi kèm với một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_002",
+      "prompt": "Lucy is good _____ ads for the art club.",
+      "options": [
+        {
+          "id": "a",
+          "label": "at painting"
+        },
+        {
+          "id": "b",
+          "label": "in paint"
+        },
+        {
+          "id": "c",
+          "label": "for painting"
+        },
+        {
+          "id": "d",
+          "label": "to paint"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"good at\" (giỏi về) luôn theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_003",
+      "prompt": "_____ their talents, students from different clubs prepare carefully.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Before showing"
+        },
+        {
+          "id": "b",
+          "label": "Before to show"
+        },
+        {
+          "id": "c",
+          "label": "Before show"
+        },
+        {
+          "id": "d",
+          "label": "Before they show"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Giới từ \"before\" (trước khi) khi chỉ hành động thường được theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_004",
+      "prompt": "Students can show their talents _____ English songs or playing instruments.",
+      "options": [
+        {
+          "id": "a",
+          "label": "by singing"
+        },
+        {
+          "id": "b",
+          "label": "for singing"
+        },
+        {
+          "id": "c",
+          "label": "in sing"
+        },
+        {
+          "id": "d",
+          "label": "with sing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"by + V-ing\" được dùng để diễn tả phương tiện hoặc cách thức thực hiện một hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_005",
+      "prompt": "Some students choose the art club _____ the music club.",
+      "options": [
+        {
+          "id": "a",
+          "label": "instead of joining"
+        },
+        {
+          "id": "b",
+          "label": "instead of to join"
+        },
+        {
+          "id": "c",
+          "label": "instead of join"
+        },
+        {
+          "id": "d",
+          "label": "instead joining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm giới từ \"instead of\" (thay vì) luôn được theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_006",
+      "prompt": "It's hard to imagine the festival _____ students' creativity.",
+      "options": [
+        {
+          "id": "a",
+          "label": "without showing"
+        },
+        {
+          "id": "b",
+          "label": "without to show"
+        },
+        {
+          "id": "c",
+          "label": "without show"
+        },
+        {
+          "id": "d",
+          "label": "without being shown"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Giới từ \"without\" (mà không) luôn được theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_007",
+      "prompt": "Lucy paints the ads _____ the art club.",
+      "options": [
+        {
+          "id": "a",
+          "label": "for helping"
+        },
+        {
+          "id": "b",
+          "label": "for to help"
+        },
+        {
+          "id": "c",
+          "label": "for help"
+        },
+        {
+          "id": "d",
+          "label": "for being helped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Giới từ \"for\" (để, vì) khi chỉ mục đích thường được theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_008",
+      "prompt": "Nothing can stop students _____ their talents at the festival.",
+      "options": [
+        {
+          "id": "a",
+          "label": "from showing"
+        },
+        {
+          "id": "b",
+          "label": "to show"
+        },
+        {
+          "id": "c",
+          "label": "for showing"
+        },
+        {
+          "id": "d",
+          "label": "in showing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"stop/prevent someone from + V-ing\" có nghĩa là ngăn cản ai đó làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_009",
+      "prompt": "Students are keen _____ their talents at the annual festival.",
+      "options": [
+        {
+          "id": "a",
+          "label": "on showing"
+        },
+        {
+          "id": "b",
+          "label": "in showing"
+        },
+        {
+          "id": "c",
+          "label": "for showing"
+        },
+        {
+          "id": "d",
+          "label": "to show"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"keen on\" (thích thú, say mê) luôn đi kèm với một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_pv_010",
+      "prompt": "The students often talk _____ their performances for the festival.",
+      "options": [
+        {
+          "id": "a",
+          "label": "about preparing"
+        },
+        {
+          "id": "b",
+          "label": "about to prepare"
+        },
+        {
+          "id": "c",
+          "label": "about prepare"
+        },
+        {
+          "id": "d",
+          "label": "about prepared"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Giới từ \"about\" (về) khi nói về một hành động thường được theo sau bởi một danh động từ (V-ing)."
+  }
+]

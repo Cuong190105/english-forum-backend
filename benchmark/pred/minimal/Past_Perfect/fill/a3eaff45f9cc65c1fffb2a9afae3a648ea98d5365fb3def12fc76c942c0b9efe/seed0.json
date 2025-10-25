@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_001",
+      "prompt": "Before she decided to change her son's name, he _____ poorly in study."
+    },
+    "answer": "had done",
+    "hint": "Hành động \"làm bài kém\" xảy ra trước khi cô ấy quyết định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_002",
+      "prompt": "By the time she consulted the name-giving master, she _____ him tutored after school many times."
+    },
+    "answer": "had had",
+    "hint": "Việc \"thuê gia sư\" đã xảy ra trước khi cô ấy tham khảo ý kiến thầy phong thủy."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_003",
+      "prompt": "By the time the article was written, the naming agency _____ names for nearly 1,000 students since its establishment."
+    },
+    "answer": "had found",
+    "hint": "Việc \"tìm tên\" đã hoàn thành trước thời điểm bài báo được viết."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_004",
+      "prompt": "Hu Jie regretted that she _____ her old name."
+    },
+    "answer": "had changed",
+    "hint": "Cô ấy hối hận về việc đã \"đổi tên\" trước đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_005",
+      "prompt": "The mother hoped the new name would bring good luck because her son _____ low marks in school for a long time."
+    },
+    "answer": "had earned",
+    "hint": "Việc \"đạt điểm thấp\" đã diễn ra trong một thời gian dài trước khi mẹ cậu bé hy vọng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_006",
+      "prompt": "Before suggesting a new name, the professionals at the naming agency _____ the defects of a person's original name."
+    },
+    "answer": "had analyzed",
+    "hint": "Việc \"phân tích\" xảy ra trước khi họ \"đề xuất tên mới\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_007",
+      "prompt": "After parents _____ a new name, they also had to register it at the local police department."
+    },
+    "answer": "had bought",
+    "hint": "Việc \"mua tên mới\" xảy ra trước khi họ \"đăng ký\" với cảnh sát."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_008",
+      "prompt": "Before the teachers noticed this trend, many students _____ their names at the start of previous semesters."
+    },
+    "answer": "had changed",
+    "hint": "Việc \"đổi tên\" đã xảy ra trước khi giáo viên nhận thấy xu hướng này."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_009",
+      "prompt": "Hu Jie said she always had no idea who her classmates were calling when they used her new name, because she _____ used to it."
+    },
+    "answer": "hadn't gotten",
+    "hint": "Cô ấy \"chưa quen\" với tên mới trước khi bạn bè gọi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_010",
+      "prompt": "The mother hoped the special recipe could bring her son good luck, as he _____ poor academic results for years."
+    },
+    "answer": "had had",
+    "hint": "Con trai cô ấy \"đã có\" kết quả học tập kém trong nhiều năm trước khi cô ấy hy vọng vào tên mới."
+  }
+]

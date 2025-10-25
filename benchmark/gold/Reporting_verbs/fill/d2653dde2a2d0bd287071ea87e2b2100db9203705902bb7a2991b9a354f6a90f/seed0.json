@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_001",
+      "prompt": "The new study _____ that learning a second language can be beneficial for brain health."
+    },
+    "answer": "suggests",
+    "hint": "Động từ này có nghĩa là 'gợi ý' hoặc 'cho thấy' một khả năng, phù hợp với kết quả nghiên cứu chưa phải là kết luận cuối cùng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_002",
+      "prompt": "In the article, the researchers _____ that bilingualism is more protective than education level against dementia."
+    },
+    "answer": "say",
+    "hint": "Dùng 'say' để tường thuật lại một phát biểu hoặc ý kiến chung từ các nhà nghiên cứu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_003",
+      "prompt": "After analyzing the data last year, the team _____ that dementia started significantly later in bilinguals."
+    },
+    "answer": "found",
+    "hint": "'Found' (quá khứ của find) được dùng để báo cáo một kết quả hoặc khám phá cụ thể từ một nghiên cứu đã hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_004",
+      "prompt": "Dr. Bak _____ that switching between languages is a form of mental exercise that strengthens the brain."
+    },
+    "answer": "believes",
+    "hint": "'Believes' diễn tả niềm tin hoặc quan điểm cá nhân của một người, trong trường hợp này là của Dr. Bak."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_005",
+      "prompt": "The official report clearly _____ that there was no additional benefit from speaking more than two languages."
+    },
+    "answer": "states",
+    "hint": "'States' là một động từ tường thuật trang trọng, có nghĩa là 'phát biểu' hoặc 'tuyên bố' một cách chính thức."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_006",
+      "prompt": "The scientist went on to _____ that the brain's executive functions are improved through this mental activity."
+    },
+    "answer": "explain",
+    "hint": "Dùng 'explain' khi muốn tường thuật lại lời giải thích về một cơ chế hay lý do nào đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_007",
+      "prompt": "Based on the findings, doctors might _____ older patients to learn a new language to keep their minds active."
+    },
+    "answer": "advise",
+    "hint": "Cấu trúc 'advise someone to do something' (khuyên ai làm gì) phù hợp với ngữ cảnh đưa ra lời khuyên dựa trên kết quả nghiên cứu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_008",
+      "prompt": "Some critics _____ that the study's sample size was too small, but the evidence is strong."
+    },
+    "answer": "claim",
+    "hint": "'Claim' có nghĩa là 'quả quyết', thường dùng cho một ý kiến chưa được chứng minh rộng rãi hoặc có thể gây tranh cãi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_009",
+      "prompt": "Last week, several news outlets _____ that the Indian study provided strong evidence for the benefits of bilingualism."
+    },
+    "answer": "reported",
+    "hint": "'Reported' (quá khứ) được dùng để tường thuật lại thông tin đã được công bố hoặc đưa tin trong quá khứ (last week)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_010",
+      "prompt": "Further studies are needed to _____ that these findings apply to all populations worldwide."
+    },
+    "answer": "confirm",
+    "hint": "'Confirm' có nghĩa là 'xác nhận', dùng khi muốn khẳng định một điều gì đó là đúng hoặc chắc chắn."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "My mother realized she _____ a couple of things on her shopping list by the time she reached the checkout counter."
+    },
+    "answer": "had forgotten",
+    "hint": "Hành động quên xảy ra trước khi mẹ đến quầy thanh toán."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "By the time my mom returned, I _____ all the items onto the belt."
+    },
+    "answer": "had loaded",
+    "hint": "Hành động chất đồ lên băng chuyền đã hoàn thành trước khi mẹ quay lại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "I was angry because my mom _____ me with no money before she left."
+    },
+    "answer": "had left",
+    "hint": "Hành động để lại không tiền xảy ra trước khi mẹ rời đi và tôi tức giận."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "Norman was prepared because he _____ a spare bulb for the projector."
+    },
+    "answer": "had brought",
+    "hint": "Hành động mang theo bóng đèn xảy ra trước khi anh ấy cần dùng đến."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "Before the projector bulb blew out, Norman _____ for such an emergency."
+    },
+    "answer": "had prepared",
+    "hint": "Hành động chuẩn bị xảy ra trước khi bóng đèn bị hỏng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "The cashier asked for money, but I couldn't pay because my mom _____ me any."
+    },
+    "answer": "hadn't given",
+    "hint": "Hành động không đưa tiền xảy ra trước khi thu ngân hỏi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "After the embarrassing incident at the store, the narrator decided he _____ always carry enough money."
+    },
+    "answer": "had decided",
+    "hint": "Quyết định này được đưa ra sau sự việc đáng xấu hổ trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "The class was surprised because no one else _____ to bring a spare bulb."
+    },
+    "answer": "had thought",
+    "hint": "Hành động nghĩ đến việc mang bóng đèn xảy ra trước khi bóng đèn hỏng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "My mother realized she _____ her shopping list at home."
+    },
+    "answer": "had left",
+    "hint": "Hành động để quên danh sách xảy ra trước khi mẹ nhận ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "By the time his mom returned, the boy _____ ashamed and embarrassed."
+    },
+    "answer": "had felt",
+    "hint": "Cảm giác xấu hổ đã bắt đầu và kéo dài cho đến khi mẹ cậu bé quay lại."
+  }
+]

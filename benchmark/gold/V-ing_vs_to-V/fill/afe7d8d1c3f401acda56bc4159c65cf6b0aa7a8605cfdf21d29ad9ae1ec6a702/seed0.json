@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_01",
+      "prompt": "Going Zero Waste means _____ more carefully about the products you buy."
+    },
+    "answer": "thinking",
+    "hint": "Động từ 'mean' khi mang nghĩa 'có nghĩa là' hoặc 'bao gồm' sẽ đi với V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_02",
+      "prompt": "The villagers of Kamikatsu decided _____ a comprehensive recycling program years ago."
+    },
+    "answer": "to start",
+    "hint": "Động từ 'decide' (quyết định) diễn tả một quyết định cho hành động trong tương lai, vì vậy nó đi với 'to-V'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_03",
+      "prompt": "To reduce waste, you should avoid _____ items with excessive plastic packaging."
+    },
+    "answer": "buying",
+    "hint": "Sau động từ 'avoid' (tránh), chúng ta dùng V-ing để chỉ hành động cần tránh."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_04",
+      "prompt": "It can be difficult _____ a zero-waste lifestyle, but it is very rewarding."
+    },
+    "answer": "to maintain",
+    "hint": "Cấu trúc 'It is + adjective + to-V' được dùng để đưa ra nhận xét hoặc đánh giá về một hành động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_05",
+      "prompt": "Before _____ to the store, it's a good idea to make a shopping list."
+    },
+    "answer": "going",
+    "hint": "Sau giới từ (ví dụ: before, after, by, in), động từ luôn ở dạng V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_06",
+      "prompt": "The new policy requires all citizens _____ their organic waste for composting."
+    },
+    "answer": "to separate",
+    "hint": "Cấu trúc 'require somebody to do something' (yêu cầu ai làm gì) luôn dùng 'to-V'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_07",
+      "prompt": "Many people enjoy _____ new ways to reuse and recycle things at home."
+    },
+    "answer": "discovering",
+    "hint": "Sau động từ 'enjoy' (thích thú), chúng ta luôn dùng dạng V-ing để diễn tả một hoạt động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_08",
+      "prompt": "The community campaign convinced many residents to stop _____ single-use plastic bottles."
+    },
+    "answer": "using",
+    "hint": "'Stop V-ing' có nghĩa là chấm dứt, từ bỏ một thói quen hoặc hành động nào đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_09",
+      "prompt": "We plan _____ a real Christmas tree this year that can be re-planted in the spring."
+    },
+    "answer": "to have",
+    "hint": "Động từ 'plan' (lên kế hoạch) luôn đi kèm với 'to-V' để chỉ mục đích hoặc dự định trong tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zw_fill_10",
+      "prompt": "If your reusable bag is dirty, you should try _____ it instead of buying a new one."
+    },
+    "answer": "washing",
+    "hint": "'Try V-ing' có nghĩa là thử làm gì đó để xem kết quả. 'Try to V' có nghĩa là cố gắng, nỗ lực làm gì."
+  }
+]

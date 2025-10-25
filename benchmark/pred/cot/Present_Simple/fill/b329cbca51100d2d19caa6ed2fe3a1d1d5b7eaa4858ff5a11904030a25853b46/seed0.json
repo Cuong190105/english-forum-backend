@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_001",
+      "prompt": "Lincoln College of English _____ classes for foreign students at all levels."
+    },
+    "answer": "offers",
+    "hint": "Động từ \"offer\" cần chia ở thì Hiện tại đơn với chủ ngữ số ít \"Lincoln College of English\", nên thêm \"-s\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_002",
+      "prompt": "A course at Lincoln College usually _____ all year."
+    },
+    "answer": "opens",
+    "hint": "\"A course\" là chủ ngữ số ít, và \"usually\" chỉ thói quen, nên động từ \"open\" cần thêm \"-s\" ở thì Hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_003",
+      "prompt": "The classes at Lincoln College _____ a maximum of 12 students."
+    },
+    "answer": "have",
+    "hint": "Chủ ngữ \"The classes\" là số nhiều, nên động từ \"have\" giữ nguyên ở thì Hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_004",
+      "prompt": "Accommodation with selected families _____ 25 minutes from London."
+    },
+    "answer": "is",
+    "hint": "\"Accommodation\" là danh từ không đếm được, được coi là số ít, nên dùng \"is\" ở thì Hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_005",
+      "prompt": "Course fees for English for one year _____ $1380."
+    },
+    "answer": "are",
+    "hint": "\"Course fees\" là chủ ngữ số nhiều, nên dùng \"are\" ở thì Hiện tại đơn để diễn tả sự thật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_006",
+      "prompt": "The college _____ a library, a language lab, and a listening center."
+    },
+    "answer": "has",
+    "hint": "\"The college\" là chủ ngữ số ít, nên động từ \"have\" chuyển thành \"has\" ở thì Hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_007",
+      "prompt": "Sheffield _____ a city in England."
+    },
+    "answer": "is",
+    "hint": "Đây là một sự thật hiển nhiên, nên dùng \"is\" ở thì Hiện tại đơn với chủ ngữ số ít \"Sheffield\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_008",
+      "prompt": "The college usually _____ a reduction for shorter periods of study."
+    },
+    "answer": "gives",
+    "hint": "\"The college\" là chủ ngữ số ít, và \"usually\" chỉ thói quen, nên động từ \"give\" cần thêm \"-s\" ở thì Hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_009",
+      "prompt": "Foreign students often _____ English at Lincoln College."
+    },
+    "answer": "study",
+    "hint": "\"Foreign students\" là chủ ngữ số nhiều, và \"often\" chỉ thói quen, nên động từ \"study\" giữ nguyên ở thì Hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_010",
+      "prompt": "The English course _____ students at all levels."
+    },
+    "answer": "accepts",
+    "hint": "\"The English course\" là chủ ngữ số ít, nên động từ \"accept\" cần thêm \"-s\" ở thì Hiện tại đơn."
+  }
+]

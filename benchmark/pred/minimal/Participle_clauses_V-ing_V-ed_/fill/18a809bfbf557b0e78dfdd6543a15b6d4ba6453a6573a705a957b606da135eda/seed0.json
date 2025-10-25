@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_01",
+      "prompt": "Loren Gladstone of Toronto is 58, but _____ over how to bequeath his digital property."
+    },
+    "answer": "thinking",
+    "hint": "“thinking over” là một mệnh đề phân từ hiện tại (V-ing) rút gọn, bổ nghĩa cho chủ ngữ “Loren Gladstone”, diễn tả hành động đang diễn ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_02",
+      "prompt": "Online lives have _____ economic and emotional value."
+    },
+    "answer": "increasing",
+    "hint": "“increasing” là phân từ hiện tại (V-ing) dùng làm tính từ để mô tả “value” (giá trị đang tăng lên)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_03",
+      "prompt": "Testamentary laws offer _____ and incomplete ways of bequeathing and inheriting digital property."
+    },
+    "answer": "confusing",
+    "hint": "“confusing” là phân từ hiện tại (V-ing) dùng làm tính từ để mô tả “ways” (những cách gây bối rối)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_04",
+      "prompt": "Digital property may include software, websites, _____ content, online gaming identities, social-media accounts and even e-mails."
+    },
+    "answer": "downloaded",
+    "hint": "“downloaded” là phân từ quá khứ (V-ed) dùng làm tính từ để mô tả “content” (nội dung đã được tải xuống)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_05",
+      "prompt": "Nathan Lustig of Entrustet, a company _____ people manage digital property, says..."
+    },
+    "answer": "helping",
+    "hint": "“helping” là phân từ hiện tại (V-ing) rút gọn từ mệnh đề quan hệ “that helps”, bổ nghĩa cho “a company”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_06",
+      "prompt": "Gmail, _____ by Google, will provide copies of e-mails to an executor."
+    },
+    "answer": "run",
+    "hint": "“run” là phân từ quá khứ (V-ed) rút gọn từ mệnh đề quan hệ “which is run”, bổ nghĩa cho “Gmail”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_07",
+      "prompt": "Music _____ via iTunes is held under a license which can be abolished on death."
+    },
+    "answer": "downloaded",
+    "hint": "“downloaded” là phân từ quá khứ (V-ed) rút gọn từ mệnh đề quan hệ “which is downloaded”, bổ nghĩa cho “Music”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_08",
+      "prompt": "In 2004 the family of Justin Ellsworth, an army man _____ in Iraq, took Yahoo! to court."
+    },
+    "answer": "killed",
+    "hint": "“killed” là phân từ quá khứ (V-ed) rút gọn từ mệnh đề quan hệ “who was killed”, bổ nghĩa cho “an army man”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_09",
+      "prompt": "Now five American states have made laws _____ executors control over the social-networking accounts of dead users."
+    },
+    "answer": "giving",
+    "hint": "“giving” là phân từ hiện tại (V-ing) rút gọn từ mệnh đề quan hệ “which give”, bổ nghĩa cho “laws”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pc_10",
+      "prompt": "Colin Pearson, a _____-based lawyer, says access should come only with a clear provision in a will."
+    },
+    "answer": "London",
+    "hint": "“London-based” là một tính từ ghép sử dụng phân từ quá khứ (V-ed) để mô tả “lawyer” (luật sư có trụ sở tại London)."
+  }
+]

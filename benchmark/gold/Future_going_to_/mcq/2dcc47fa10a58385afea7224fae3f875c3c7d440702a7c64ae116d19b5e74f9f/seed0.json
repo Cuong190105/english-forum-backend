@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_001",
+      "prompt": "Look at the rapid increase in e-book sales. It's clear that traditional publishers _____ to adapt their business models.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going"
+        },
+        {
+          "id": "b",
+          "label": "are going to have"
+        },
+        {
+          "id": "c",
+          "label": "will to have"
+        },
+        {
+          "id": "d",
+          "label": "is going to have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'be going to' cho dự đoán có bằng chứng ở hiện tại (doanh số tăng). Chủ ngữ số nhiều (publishers) đi với 'are'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_002",
+      "prompt": "I've just read Mike Shatzkin's prediction. I _____ my old printed books because they might become valuable.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am not going to sell"
+        },
+        {
+          "id": "b",
+          "label": "am not go to sell"
+        },
+        {
+          "id": "c",
+          "label": "don't go to sell"
+        },
+        {
+          "id": "d",
+          "label": "will not to sell"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' để diễn tả một ý định hoặc kế hoạch. Cấu trúc phủ định là 'be + not + going to + V-nguyên thể'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_003",
+      "prompt": "Based on Robert Stein's ideas, what kind of features _____ the gaming industry _____ to future books?",
+      "options": [
+        {
+          "id": "a",
+          "label": "is / going to add"
+        },
+        {
+          "id": "b",
+          "label": "does / going to add"
+        },
+        {
+          "id": "c",
+          "label": "are / going to add"
+        },
+        {
+          "id": "d",
+          "label": "will / going add"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu hỏi, cấu trúc là 'Wh-word + be + S + going to + V?'. Chủ ngữ 'the gaming industry' là số ít nên dùng 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_004",
+      "prompt": "My friend just bought a new Kindle. He _____ it to read novels on the train every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going use"
+        },
+        {
+          "id": "b",
+          "label": "are going to use"
+        },
+        {
+          "id": "c",
+          "label": "is going to use"
+        },
+        {
+          "id": "d",
+          "label": "goes to use"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả ý định đã có kế hoạch. Cấu trúc đúng là 'be going to + V-nguyên thể'. Chủ ngữ 'He' đi với 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_005",
+      "prompt": "Look at those dark clouds! The outdoor book fair _____ a lot of trouble.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to have"
+        },
+        {
+          "id": "b",
+          "label": "will have"
+        },
+        {
+          "id": "c",
+          "label": "are going to have"
+        },
+        {
+          "id": "d",
+          "label": "is going have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'be going to' để dự đoán điều gì đó sắp xảy ra dựa trên bằng chứng hiện tại (mây đen)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_006",
+      "prompt": "Maryanne Wolf is worried about the effects of e-reading. She _____ a book about it next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to write"
+        },
+        {
+          "id": "b",
+          "label": "are going to write"
+        },
+        {
+          "id": "c",
+          "label": "is going write"
+        },
+        {
+          "id": "d",
+          "label": "goes to write"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả một kế hoạch, dự định trong tương lai. Chủ ngữ 'She' (số ít) đi với 'is'. Cấu trúc là 'is going to + V'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_007",
+      "prompt": "We've decided to create a more social reading experience. We _____ readers and authors to interact on our platform.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to allow"
+        },
+        {
+          "id": "b",
+          "label": "are going to allow"
+        },
+        {
+          "id": "c",
+          "label": "are going allow"
+        },
+        {
+          "id": "d",
+          "label": "will to allow"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu 'We've decided' cho thấy đây là một kế hoạch đã định sẵn. Chủ ngữ 'We' (số nhiều) đi với 'are'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_008",
+      "prompt": "_____ you _____ to the library later to borrow some printed books, or just download them?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Are / going to go"
+        },
+        {
+          "id": "b",
+          "label": "Is / going to go"
+        },
+        {
+          "id": "c",
+          "label": "Do / go to go"
+        },
+        {
+          "id": "d",
+          "label": "Are / going go"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hỏi về dự định của người khác. Cấu trúc câu hỏi Yes/No là 'Be + S + going to + V?'. Chủ ngữ 'you' đi với 'Are'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_009",
+      "prompt": "The university has just received a large grant for its library. It _____ its entire collection of classic literature.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to digitize"
+        },
+        {
+          "id": "b",
+          "label": "is going to digitize"
+        },
+        {
+          "id": "c",
+          "label": "is going digitize"
+        },
+        {
+          "id": "d",
+          "label": "goes to digitize"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc nhận được tài trợ là bằng chứng cho một kế hoạch trong tương lai. Chủ ngữ 'It' (the university) là số ít nên dùng 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fgt_010",
+      "prompt": "My little brother saw me reading on a tablet and asked, 'What _____ you _____ to do with all your old comic books?'",
+      "options": [
+        {
+          "id": "a",
+          "label": "are / going"
+        },
+        {
+          "id": "b",
+          "label": "is / going"
+        },
+        {
+          "id": "c",
+          "label": "are / going to"
+        },
+        {
+          "id": "d",
+          "label": "do / going to"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hỏi về dự định. Cấu trúc câu hỏi Wh- là 'Wh-word + be + S + going to + V?'. Động từ chính là 'do' đã có sẵn trong câu."
+  }
+]

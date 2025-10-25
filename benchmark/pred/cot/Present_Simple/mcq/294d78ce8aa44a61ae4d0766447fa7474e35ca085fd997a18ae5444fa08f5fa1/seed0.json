@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_001",
+      "prompt": "Mike's father _____ on the farm every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "work"
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số ít (Mike's father) đi với động từ thêm 's' hoặc 'es' ở thì Hiện tại đơn để diễn tả thói quen hàng ngày."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_002",
+      "prompt": "Mike and his father _____ hard on the farm.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "is working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số nhiều (Mike and his father) đi với động từ nguyên mẫu ở thì Hiện tại đơn để diễn tả một sự thật hoặc thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_003",
+      "prompt": "Mike _____ this soup. He prefers noodles.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't like"
+        },
+        {
+          "id": "b",
+          "label": "doesn't like"
+        },
+        {
+          "id": "c",
+          "label": "isn't like"
+        },
+        {
+          "id": "d",
+          "label": "not like"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ số ít (Mike) ở thể phủ định thì Hiện tại đơn, dùng 'doesn't' + động từ nguyên mẫu để diễn tả sở thích."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_004",
+      "prompt": "They _____ to have lunch at 3 PM; they usually eat earlier.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't want"
+        },
+        {
+          "id": "b",
+          "label": "don't want"
+        },
+        {
+          "id": "c",
+          "label": "aren't want"
+        },
+        {
+          "id": "d",
+          "label": "not want"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ số nhiều (They) ở thể phủ định thì Hiện tại đơn, dùng 'don't' + động từ nguyên mẫu để diễn tả mong muốn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_005",
+      "prompt": "_____ Mike's mother cook dinner every evening?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        },
+        {
+          "id": "d",
+          "label": "Has"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để đặt câu hỏi thì Hiện tại đơn với chủ ngữ số ít (Mike's mother), dùng trợ động từ 'Does' đứng đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_006",
+      "prompt": "_____ you usually have soup for lunch?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Do"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để đặt câu hỏi thì Hiện tại đơn với chủ ngữ 'you', dùng trợ động từ 'Do' đứng đầu câu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_007",
+      "prompt": "Mike usually _____ his homework after dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "doing"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số ít (Mike) đi với động từ thêm 's' hoặc 'es' ở thì Hiện tại đơn. 'Usually' là dấu hiệu của thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_008",
+      "prompt": "The Earth _____ around the sun. This is a scientific fact.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "moves"
+        },
+        {
+          "id": "c",
+          "label": "is moving"
+        },
+        {
+          "id": "d",
+          "label": "moved"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì Hiện tại đơn dùng để diễn tả sự thật hiển nhiên. Chủ ngữ số ít (The Earth) đi với động từ thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_009",
+      "prompt": "My sister _____ always _____ her bed in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always makes"
+        },
+        {
+          "id": "b",
+          "label": "makes always"
+        },
+        {
+          "id": "c",
+          "label": "is always making"
+        },
+        {
+          "id": "d",
+          "label": "always make"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ tần suất (always) thường đứng trước động từ chính (makes) trong thì Hiện tại đơn. Chủ ngữ số ít nên động từ thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_010",
+      "prompt": "My parents often _____ books, but my younger brother never _____ them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read, reads"
+        },
+        {
+          "id": "b",
+          "label": "reads, read"
+        },
+        {
+          "id": "c",
+          "label": "read, read"
+        },
+        {
+          "id": "d",
+          "label": "reads, reads"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'My parents' là chủ ngữ số nhiều nên động từ là 'read'. 'My younger brother' là chủ ngữ số ít nên động từ là 'reads'."
+  }
+]

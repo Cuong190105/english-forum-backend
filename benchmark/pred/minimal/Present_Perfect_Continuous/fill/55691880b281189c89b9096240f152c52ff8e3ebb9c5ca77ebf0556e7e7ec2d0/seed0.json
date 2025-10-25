@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_001",
+      "prompt": "The number of people who buy newspapers _____ for years."
+    },
+    "answer": "has been falling",
+    "hint": "Diễn tả hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_002",
+      "prompt": "Many newspaper companies _____ large debts by buying other papers for many years."
+    },
+    "answer": "have been accumulating",
+    "hint": "Diễn tả quá trình tích lũy nợ kéo dài từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_003",
+      "prompt": "Some papers _____ to survive in a bad economy for a while."
+    },
+    "answer": "have been struggling",
+    "hint": "Hành động đấu tranh đã diễn ra và vẫn tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_004",
+      "prompt": "Newspapers _____ for new ways to reinvent themselves and new ways to earn money for some time now."
+    },
+    "answer": "have been looking",
+    "hint": "Hành động tìm kiếm đã bắt đầu và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_005",
+      "prompt": "Publishers _____ charging for online content, an idea they previously offered for free."
+    },
+    "answer": "have been considering",
+    "hint": "Hành động xem xét đã bắt đầu và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_006",
+      "prompt": "People _____ news for free for so long that it's hard to charge them now."
+    },
+    "answer": "have been receiving",
+    "hint": "Hành động nhận tin miễn phí đã kéo dài trong quá khứ và tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_007",
+      "prompt": "The design of USA Today _____ many other papers since its arrival in 1982."
+    },
+    "answer": "has been influencing",
+    "hint": "Hành động ảnh hưởng đã bắt đầu trong quá khứ và vẫn tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_008",
+      "prompt": "Newspapers _____ to redesign themselves for an increasingly online world for a while now."
+    },
+    "answer": "have been trying",
+    "hint": "Hành động cố gắng đã bắt đầu và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_009",
+      "prompt": "Millions of people _____ papers like USA Today and The New York Times for free on the Web for years."
+    },
+    "answer": "have been reading",
+    "hint": "Hành động đọc báo miễn phí đã diễn ra trong quá khứ và vẫn tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_010",
+      "prompt": "Publishers _____ their content for free online, a decision they might now regret."
+    },
+    "answer": "have been providing",
+    "hint": "Hành động cung cấp nội dung miễn phí đã diễn ra và vẫn tiếp diễn."
+  }
+]

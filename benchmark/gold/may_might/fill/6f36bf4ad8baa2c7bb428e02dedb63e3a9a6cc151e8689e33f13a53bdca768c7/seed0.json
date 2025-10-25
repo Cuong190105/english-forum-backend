@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_01",
+      "prompt": "According to the text, chewing gum _____ help improve your test scores in the future."
+    },
+    "answer": "may",
+    "hint": "Dùng 'may' để diễn tả một khả năng có thể xảy ra trong tương lai, dựa trên các bằng chứng khoa học ban đầu. 'Might' cũng có thể được dùng trong trường hợp này."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_02",
+      "prompt": "In a few years, schools _____ consider changing their rules about chewing gum."
+    },
+    "answer": "might",
+    "hint": "Dùng 'might' để diễn tả một khả năng trong tương lai nhưng không chắc chắn lắm. 'May' cũng có thể được dùng, nhưng 'might' nhấn mạnh sự không chắc chắn hơn một chút."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_03",
+      "prompt": "The manufacturer of Stay Alert gum _____ one day offer it for sale to the public."
+    },
+    "answer": "may",
+    "hint": "'May' được dùng để chỉ một khả năng trong tương lai. Việc nhà sản xuất có bán sản phẩm ra công chúng hay không là một điều có thể xảy ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_04",
+      "prompt": "Truck drivers who work at night _____ benefit from a product like Stay Alert."
+    },
+    "answer": "might",
+    "hint": "'Might' diễn tả một khả năng hoặc một lợi ích giả định cho một nhóm người cụ thể nếu họ sử dụng sản phẩm."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_05",
+      "prompt": "Scientists believe that new types of gum _____ work better than pills to deliver medicine."
+    },
+    "answer": "might",
+    "hint": "Dùng 'might' để diễn tả một khả năng dựa trên nghiên cứu khoa học, nhưng vẫn còn đang trong giai đoạn khám phá, chưa hoàn toàn chắc chắn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_06",
+      "prompt": "In the future, scientists _____ even create antimicrobial gums that cure bad breath."
+    },
+    "answer": "might",
+    "hint": "'Might' được dùng để nói về một khả năng trong tương lai xa hoặc một ý tưởng có phần tham vọng, chưa chắc chắn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_07",
+      "prompt": "The article suggests that chewing gum _____ be good for your overall health, not just your teeth."
+    },
+    "answer": "may",
+    "hint": "'May' được dùng để diễn tả một khả năng chung chung dựa trên những phát hiện được đề cập trong bài báo."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_08",
+      "prompt": "Developing these new medicinal gums _____ take many years of research."
+    },
+    "answer": "may",
+    "hint": "Dùng 'may' để chỉ một khả năng về khoảng thời gian cần thiết cho một dự án. Đây là một dự đoán, không phải một sự thật chắc chắn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_09",
+      "prompt": "Although the research is promising, some of these new gum technologies _____ not succeed."
+    },
+    "answer": "may",
+    "hint": "'May not' được dùng để diễn tả khả năng một điều gì đó sẽ không xảy ra. 'Might not' cũng có nghĩa tương tự."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "maymight_fill_10",
+      "prompt": "Based on these discoveries, the future of chewing gum _____ be very different from what it is today."
+    },
+    "answer": "might",
+    "hint": "'Might' được dùng để suy đoán về một khả năng trong tương lai dựa trên các thông tin hiện có. Nó thể hiện sự không chắc chắn nhưng có cơ sở."
+  }
+]

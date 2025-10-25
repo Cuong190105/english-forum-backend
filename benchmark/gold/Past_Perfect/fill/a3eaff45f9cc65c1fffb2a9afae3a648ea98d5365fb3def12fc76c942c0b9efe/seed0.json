@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "By the time Shi decided to change her son's name last year, he _____ poorly in his studies for a long time."
+    },
+    "answer": "had done",
+    "hint": "Dùng quá khứ hoàn thành để diễn tả một hành động (học kém) đã xảy ra trước một hành động khác trong quá khứ (quyết định đổi tên)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "Hu Jie told the reporter that she wished she _____ her old name."
+    },
+    "answer": "had kept",
+    "hint": "Cấu trúc 'wish + S + had + V3/ed' dùng để diễn tả một mong ước, sự hối tiếc về một điều không có thật trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "Before she consulted the name-giving master, the mother _____ him tutored after school, but it did not help."
+    },
+    "answer": "had had",
+    "hint": "Hành động 'cho đi học thêm' xảy ra trước hành động 'tìm đến thầy đặt tên' trong quá khứ, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "After the professionals _____ the defects of the original name, they suggested a new one."
+    },
+    "answer": "had analyzed",
+    "hint": "Hành động 'phân tích' xảy ra trước hành động 'gợi ý' trong quá khứ. Dùng quá khứ hoàn thành với 'After' để nhấn mạnh trình tự."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "The parents could register the new name at the police department only after they _____ the naming agency."
+    },
+    "answer": "had paid",
+    "hint": "Dùng quá khứ hoàn thành để diễn tả hành động (trả phí) đã hoàn tất trước một hành động khác trong quá khứ (đăng ký tên)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "Hu Jie said she felt confused because she _____ her name in her final year of high school."
+    },
+    "answer": "had changed",
+    "hint": "Hành động 'đổi tên' là nguyên nhân và đã xảy ra trước hành động 'cảm thấy bối rối' trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "By 2015, the naming agency _____ names for nearly 1,000 students since it opened in 1998."
+    },
+    "answer": "had found",
+    "hint": "Dùng quá khứ hoàn thành để chỉ một hành động (tìm tên) đã hoàn tất trước một thời điểm cụ thể trong quá khứ (năm 2015)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "When her classmates used her new name, she realized she _____ a mistake."
+    },
+    "answer": "had made",
+    "hint": "Hành động 'mắc lỗi' xảy ra trước thời điểm 'nhận ra' trong quá khứ, do đó cần dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "The mother turned to a name-giving master after all her previous efforts _____."
+    },
+    "answer": "had failed",
+    "hint": "Hành động 'thất bại' của những nỗ lực trước đó xảy ra trước hành động 'tìm đến thầy' trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "Before she changed her name, Hu Jie _____ any problems with her identity."
+    },
+    "answer": "had not had",
+    "hint": "Diễn tả một việc chưa từng xảy ra tính đến một thời điểm trong quá khứ (trước khi cô ấy đổi tên)."
+  }
+]

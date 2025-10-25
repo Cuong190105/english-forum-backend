@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_001",
+      "prompt": "Look! The children _____ in the park right now."
+    },
+    "answer": "are playing",
+    "hint": "Thì hiện tại tiếp diễn dùng cho hành động đang diễn ra. \"Right now\" là dấu hiệu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_002",
+      "prompt": "My brother usually lives in Hanoi, but this month he _____ with us in Ho Chi Minh City."
+    },
+    "answer": "is staying",
+    "hint": "Hành động tạm thời, chỉ diễn ra trong một khoảng thời gian nhất định (this month), dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_003",
+      "prompt": "The global temperature _____ year by year."
+    },
+    "answer": "is increasing",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả xu hướng hoặc sự thay đổi đang diễn ra. \"Year by year\" chỉ sự tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_004",
+      "prompt": "He _____ his keys, which is very annoying."
+    },
+    "answer": "is always losing",
+    "hint": "Dùng hiện tại tiếp diễn với \"always\" để diễn tả thói quen gây khó chịu hoặc hành động lặp đi lặp lại quá mức."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_005",
+      "prompt": "We _____ to Da Lat next weekend. Everything is already planned."
+    },
+    "answer": "are going",
+    "hint": "Thì hiện tại tiếp diễn có thể dùng để diễn tả kế hoạch hoặc sắp xếp chắc chắn sẽ xảy ra trong tương lai gần. \"Next weekend\" và \"planned\" là dấu hiệu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_006",
+      "prompt": "Amy is looking for Sun Yang. She thinks he _____ in Shaoxing these days for swimming."
+    },
+    "answer": "is staying",
+    "hint": "\"These days\" chỉ hành động tạm thời, đang diễn ra trong khoảng thời gian hiện tại, phù hợp với thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_007",
+      "prompt": "Why are you so quiet? What _____ you _____ about?"
+    },
+    "answer": "are thinking",
+    "hint": "Câu hỏi về hành động đang diễn ra tại thời điểm nói, cần dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_008",
+      "prompt": "Be careful! The baby _____ on the floor."
+    },
+    "answer": "is crawling",
+    "hint": "\"Be careful!\" là dấu hiệu cho thấy hành động đang diễn ra ngay lúc nói, cần dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_009",
+      "prompt": "My sister _____ for a new job because she wants a better salary."
+    },
+    "answer": "is looking",
+    "hint": "Hành động \"tìm việc\" là tạm thời và đang diễn ra trong giai đoạn hiện tại, dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_010",
+      "prompt": "At the moment, I _____ a very interesting book about history."
+    },
+    "answer": "am reading",
+    "hint": "\"At the moment\" là dấu hiệu rõ ràng của thì hiện tại tiếp diễn, diễn tả hành động đang xảy ra ngay lúc nói."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_001",
+      "prompt": "The man said he _____ often lose things.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "wouldn't"
+        },
+        {
+          "id": "d",
+          "label": "hadn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật \"said\" ở quá khứ, nên thì hiện tại đơn \"don't lose\" phải lùi về quá khứ đơn \"didn't lose\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_002",
+      "prompt": "He mentioned that he _____ always careful with money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật \"mentioned\" ở quá khứ, nên thì hiện tại đơn \"am\" phải lùi về quá khứ đơn \"was\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_003",
+      "prompt": "He explained that he _____ it with him just before he had walked into the restaurant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had had"
+        },
+        {
+          "id": "d",
+          "label": "would have"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật \"explained\" ở quá khứ. Thì quá khứ đơn \"had\" (sở hữu) phải lùi về quá khứ hoàn thành \"had had\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_004",
+      "prompt": "He wondered if it had been possible that it could have dropped out of his pocket while he _____ dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was eating"
+        },
+        {
+          "id": "b",
+          "label": "had eaten"
+        },
+        {
+          "id": "c",
+          "label": "had been eating"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật \"wondered\" ở quá khứ. Thì quá khứ tiếp diễn \"was eating\" phải lùi về quá khứ hoàn thành tiếp diễn \"had been eating\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_005",
+      "prompt": "The head of the restaurant asked him if anything _____ wrong.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật \"asked\" ở quá khứ. Thì quá khứ đơn \"was\" phải lùi về quá khứ hoàn thành \"had been\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_006",
+      "prompt": "He told the head of the restaurant that he _____ to do so.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't want"
+        },
+        {
+          "id": "b",
+          "label": "doesn't want"
+        },
+        {
+          "id": "c",
+          "label": "hadn't wanted"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't want"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật \"told\" ở quá khứ. Thì quá khứ đơn \"didn't want\" phải lùi về quá khứ hoàn thành \"hadn't wanted\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_007",
+      "prompt": "He explained that he _____ in a hurry because he had had to reach his waiting room before two o'clock.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật \"explained\" ở quá khứ. Thì quá khứ đơn \"was\" phải lùi về quá khứ hoàn thành \"had been\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_008",
+      "prompt": "He mentioned that some people _____ to see him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are waiting"
+        },
+        {
+          "id": "b",
+          "label": "were waiting"
+        },
+        {
+          "id": "c",
+          "label": "had been waiting"
+        },
+        {
+          "id": "d",
+          "label": "would be waiting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật \"mentioned\" ở quá khứ. Thì quá khứ tiếp diễn \"were waiting\" phải lùi về quá khứ hoàn thành tiếp diễn \"had been waiting\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_009",
+      "prompt": "He also told him that his biggest worry _____ how he _____ to pay for the meal.",
+      "options": [
+        {
+          "id": "a",
+          "label": "at the moment / was going"
+        },
+        {
+          "id": "b",
+          "label": "at that moment / was going"
+        },
+        {
+          "id": "c",
+          "label": "at the moment / had been going"
+        },
+        {
+          "id": "d",
+          "label": "at that moment / had been going"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ \"at the moment\" phải đổi thành \"at that moment\". Các thì quá khứ đơn và tương lai gần phải lùi về quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_mcq_010",
+      "prompt": "The restaurant head said he _____ send him a bill.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "had sent"
+        },
+        {
+          "id": "d",
+          "label": "was going to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật \"said\" ở quá khứ. Thì tương lai đơn \"will send\" phải lùi về \"would send\"."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_001",
+      "prompt": "If Lucien _____ his father back, he would be able to see the stars again."
+    },
+    "answer": "had",
+    "hint": "Cấu trúc điều kiện loại 2: If + S + V(quá khứ đơn), S + would + V(nguyên mẫu). 'Had' là quá khứ đơn của 'have'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_002",
+      "prompt": "If I were a professor, I _____ more time for my children."
+    },
+    "answer": "would have",
+    "hint": "Trong câu điều kiện loại 2, mệnh đề chính dùng 'would' + động từ nguyên mẫu để diễn tả kết quả giả định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_003",
+      "prompt": "If more parents _____ this in their hearts to be true, there might be fewer knives on our streets today."
+    },
+    "answer": "knew",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 sử dụng thì quá khứ đơn để diễn tả một điều kiện không có thật ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_004",
+      "prompt": "If I found a telescope, I _____ it to Lucien."
+    },
+    "answer": "would give",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' theo sau là động từ nguyên mẫu để nói về kết quả giả định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_005",
+      "prompt": "If I _____ you, I would cherish every moment with my parents."
+    },
+    "answer": "were",
+    "hint": "Trong câu điều kiện loại 2, động từ 'to be' luôn dùng 'were' cho tất cả các ngôi, kể cả 'I', 'he', 'she', 'it'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_006",
+      "prompt": "If he _____ his father, Lucien wouldn't feel so sad."
+    },
+    "answer": "didn't lose",
+    "hint": "Để tạo câu phủ định trong quá khứ đơn cho mệnh đề 'if' của câu điều kiện loại 2, dùng 'didn't' + động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_007",
+      "prompt": "If I didn't have to work, I _____ more time to reflect on life."
+    },
+    "answer": "would have",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' + động từ nguyên mẫu. 'Would have' là cấu trúc đúng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_008",
+      "prompt": "If I _____ to the stars, I could see my father there."
+    },
+    "answer": "flew",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 dùng thì quá khứ đơn để diễn tả một tình huống giả định. 'Flew' là quá khứ đơn của 'fly'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_009",
+      "prompt": "If people _____ more about the impact of their actions, the world would be a better place."
+    },
+    "answer": "cared",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 yêu cầu động từ ở thì quá khứ đơn để diễn tả điều kiện không có thật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "sc_fill_010",
+      "prompt": "If I were to write a letter to Father Christmas now, I _____ for peace."
+    },
+    "answer": "would ask",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would' + động từ nguyên mẫu để diễn tả kết quả của điều kiện giả định."
+  }
+]

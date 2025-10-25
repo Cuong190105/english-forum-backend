@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_001",
+      "prompt": "The first Global Children's Designation event _____ by a Dutch company called Unexpect on November 15th, 2014.",
+      "options": [
+        {
+          "id": "a",
+          "label": "organized"
+        },
+        {
+          "id": "b",
+          "label": "was organized"
+        },
+        {
+          "id": "c",
+          "label": "has organized"
+        },
+        {
+          "id": "d",
+          "label": "is organized"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sự kiện diễn ra vào 'November 15th, 2014' (quá khứ) và được tổ chức bởi một công ty (bị động). Cần dùng thì quá khứ đơn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_002",
+      "prompt": "Many amazing ideas _____ by the children since the Global Children's Designation project began.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are produced"
+        },
+        {
+          "id": "b",
+          "label": "were produced"
+        },
+        {
+          "id": "c",
+          "label": "have been produced"
+        },
+        {
+          "id": "d",
+          "label": "had been produced"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ 'since' chỉ thì hiện tại hoàn thành. Ý tưởng được tạo ra (bị động), nên dùng cấu trúc hiện tại hoàn thành bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_003",
+      "prompt": "Free tool kits _____ by Unexpect to interested schools in 2015.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will distribute"
+        },
+        {
+          "id": "b",
+          "label": "will be distributed"
+        },
+        {
+          "id": "c",
+          "label": "are distributing"
+        },
+        {
+          "id": "d",
+          "label": "have distributed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mốc thời gian 'in 2015' chỉ hành động trong tương lai. 'Tool kits' được phân phát (bị động), nên dùng thì tương lai đơn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_004",
+      "prompt": "Smart cars _____ to ease traffic pressure by telling traffic lights of their arrival.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can use"
+        },
+        {
+          "id": "b",
+          "label": "can be used"
+        },
+        {
+          "id": "c",
+          "label": "are using"
+        },
+        {
+          "id": "d",
+          "label": "will use"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Smart cars không tự sử dụng mà được sử dụng (bị động) để giảm áp lực giao thông. Cần dùng cấu trúc bị động với động từ khuyết thiếu 'can'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_005",
+      "prompt": "New skills, which are often not taught in regular classes, _____ to children through this project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "introduce"
+        },
+        {
+          "id": "b",
+          "label": "are introduced"
+        },
+        {
+          "id": "c",
+          "label": "introduced"
+        },
+        {
+          "id": "d",
+          "label": "have introduced"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một sự thật chung hoặc một quá trình thường xuyên. Kỹ năng được giới thiệu (bị động) cho trẻ em, nên dùng thì hiện tại đơn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_006",
+      "prompt": "While the teams were brainstorming solutions, the challenges _____ to them by the organizers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were relating"
+        },
+        {
+          "id": "b",
+          "label": "were being related"
+        },
+        {
+          "id": "c",
+          "label": "had related"
+        },
+        {
+          "id": "d",
+          "label": "related"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'brainstorming' đang diễn ra trong quá khứ, và các thử thách cũng đang được liên hệ (bị động) cùng lúc. Dùng thì quá khứ tiếp diễn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_007",
+      "prompt": "Before the teams were asked to brainstorm, the various challenges _____ to their particular cities and towns.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had related"
+        },
+        {
+          "id": "b",
+          "label": "had been related"
+        },
+        {
+          "id": "c",
+          "label": "were relating"
+        },
+        {
+          "id": "d",
+          "label": "have been related"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'liên hệ các thử thách' xảy ra trước hành động 'được yêu cầu động não' trong quá khứ. Các thử thách đã được liên hệ (bị động), nên dùng thì quá khứ hoàn thành bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_008",
+      "prompt": "Children expect _____ to new technologies and creative thinking through such projects.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to introduce"
+        },
+        {
+          "id": "b",
+          "label": "to be introduced"
+        },
+        {
+          "id": "c",
+          "label": "introducing"
+        },
+        {
+          "id": "d",
+          "label": "being introduced"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau động từ 'expect', ta dùng cấu trúc 'to-infinitive'. Trẻ em mong đợi được giới thiệu (bị động), nên dùng 'to be introduced'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_009",
+      "prompt": "Children enjoy _____ to new and practical skills that are not typically taught in school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "introducing"
+        },
+        {
+          "id": "b",
+          "label": "to introduce"
+        },
+        {
+          "id": "c",
+          "label": "being introduced"
+        },
+        {
+          "id": "d",
+          "label": "to be introduced"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau động từ 'enjoy', ta dùng V-ing. Trẻ em thích được giới thiệu (bị động), nên dùng 'being introduced'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pass_010",
+      "prompt": "Creative thinking and problem-solving skills _____ to children for them to be successful in the modern world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should teach"
+        },
+        {
+          "id": "b",
+          "label": "should be teaching"
+        },
+        {
+          "id": "c",
+          "label": "should be taught"
+        },
+        {
+          "id": "d",
+          "label": "should have taught"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Kỹ năng không tự dạy mà cần được dạy (bị động). Cần dùng cấu trúc bị động với động từ khuyết thiếu 'should': 'should be + V3'."
+  }
+]

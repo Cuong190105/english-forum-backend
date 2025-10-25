@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "Tommy's father _____ apples very much."
+    },
+    "answer": "likes",
+    "hint": "Chủ ngữ số ít (Tommy's father) nên động từ thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "Tommy's mother _____ yellow bananas."
+    },
+    "answer": "likes",
+    "hint": "Chủ ngữ số ít (Tommy's mother) nên động từ thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "The strawberries _____ very nice."
+    },
+    "answer": "are",
+    "hint": "Chủ ngữ số nhiều (The strawberries) nên dùng 'are'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "Tommy's mother _____ some strawberries for herself."
+    },
+    "answer": "buys",
+    "hint": "Chủ ngữ số ít (Tommy's mother) nên động từ thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "Tommy _____ oranges very much."
+    },
+    "answer": "likes",
+    "hint": "Chủ ngữ số ít (Tommy) nên động từ thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "They _____ some vegetables."
+    },
+    "answer": "need",
+    "hint": "Chủ ngữ số nhiều (They) nên động từ giữ nguyên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "The vegetables in the supermarket _____ very good."
+    },
+    "answer": "are",
+    "hint": "Chủ ngữ số nhiều (The vegetables) nên dùng 'are'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "They _____ some tomatoes, cabbages and carrots."
+    },
+    "answer": "buy",
+    "hint": "Chủ ngữ số nhiều (They) nên động từ giữ nguyên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "Tommy _____ like carrots."
+    },
+    "answer": "doesn't",
+    "hint": "Chủ ngữ số ít (Tommy) và câu phủ định nên dùng 'doesn't'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "His parents _____ carrots very much."
+    },
+    "answer": "like",
+    "hint": "Chủ ngữ số nhiều (His parents) nên động từ giữ nguyên."
+  }
+]

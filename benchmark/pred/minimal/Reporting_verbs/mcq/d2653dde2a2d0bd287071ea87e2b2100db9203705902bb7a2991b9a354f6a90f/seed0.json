@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "New research _____ that speaking more than one language may delay different kinds of dementia.",
+      "options": [
+        {
+          "id": "a",
+          "label": "suggests"
+        },
+        {
+          "id": "b",
+          "label": "claims"
+        },
+        {
+          "id": "c",
+          "label": "proves"
+        },
+        {
+          "id": "d",
+          "label": "confirms"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'suggests' (gợi ý, đề xuất) phù hợp nhất khi nghiên cứu đưa ra một khả năng hoặc ý kiến, chưa phải là một sự thật đã được chứng minh hoàn toàn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Researchers _____ that speaking two languages appears to be more important than the level of education in defending against dementias.",
+      "options": [
+        {
+          "id": "a",
+          "label": "declared"
+        },
+        {
+          "id": "b",
+          "label": "said"
+        },
+        {
+          "id": "c",
+          "label": "insisted"
+        },
+        {
+          "id": "d",
+          "label": "argued"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'said' (nói) là cách tường thuật chung và phổ biến nhất cho lời nói hoặc ý kiến của người khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "A study in India _____ the effect of knowing more than one language in delaying the first signs of several dementias.",
+      "options": [
+        {
+          "id": "a",
+          "label": "examined"
+        },
+        {
+          "id": "b",
+          "label": "reported"
+        },
+        {
+          "id": "c",
+          "label": "concluded"
+        },
+        {
+          "id": "d",
+          "label": "revealed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'examined' (nghiên cứu, xem xét) mô tả hành động của một nghiên cứu khi điều tra một vấn đề cụ thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Researchers _____ the dementias began about four-and-a-half years later in those who spoke two languages compared to those who spoke only one language.",
+      "options": [
+        {
+          "id": "a",
+          "label": "found"
+        },
+        {
+          "id": "b",
+          "label": "speculated"
+        },
+        {
+          "id": "c",
+          "label": "doubted"
+        },
+        {
+          "id": "d",
+          "label": "questioned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'found' (phát hiện, tìm thấy) được dùng để tường thuật kết quả hoặc khám phá từ một nghiên cứu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Thomas Bak _____ that individuals who speak more than one language train their brains by moving back and forth between different words and expressions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "suggests"
+        },
+        {
+          "id": "b",
+          "label": "demands"
+        },
+        {
+          "id": "c",
+          "label": "insists"
+        },
+        {
+          "id": "d",
+          "label": "proves"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Bak đưa ra một ý kiến hoặc giả thuyết dựa trên quan sát, nên 'suggests' (gợi ý, cho rằng) là phù hợp nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "He also _____ this effort improves what scientists called executive functioning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believes"
+        },
+        {
+          "id": "b",
+          "label": "confirms"
+        },
+        {
+          "id": "c",
+          "label": "denies"
+        },
+        {
+          "id": "d",
+          "label": "disputes"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'believes' (tin rằng) thể hiện niềm tin hoặc quan điểm cá nhân của Bak về tác động của việc học ngôn ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "He _____ that researchers found there was no extra gain in speaking more than two languages.",
+      "options": [
+        {
+          "id": "a",
+          "label": "states"
+        },
+        {
+          "id": "b",
+          "label": "wonders"
+        },
+        {
+          "id": "c",
+          "label": "questions"
+        },
+        {
+          "id": "d",
+          "label": "doubts"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'states' (nêu rõ, tuyên bố) được dùng khi trình bày một thông tin hoặc sự thật một cách rõ ràng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Mr Bak _____ it does not appear important whether you learn another language at a young age or later in life.",
+      "options": [
+        {
+          "id": "a",
+          "label": "says"
+        },
+        {
+          "id": "b",
+          "label": "complains"
+        },
+        {
+          "id": "c",
+          "label": "regrets"
+        },
+        {
+          "id": "d",
+          "label": "warns"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'says' (nói) là cách tường thuật trực tiếp và đơn giản nhất cho lời nói của Mr Bak."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The article _____ that learning a second language can have significant benefits for brain health.",
+      "options": [
+        {
+          "id": "a",
+          "label": "highlights"
+        },
+        {
+          "id": "b",
+          "label": "ignores"
+        },
+        {
+          "id": "c",
+          "label": "disputes"
+        },
+        {
+          "id": "d",
+          "label": "questions"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'highlights' (nhấn mạnh, làm nổi bật) phù hợp khi bài báo muốn chỉ ra tầm quan trọng của một vấn đề."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The findings of the study _____ the idea that bilingualism offers protection against cognitive decline.",
+      "options": [
+        {
+          "id": "a",
+          "label": "support"
+        },
+        {
+          "id": "b",
+          "label": "contradict"
+        },
+        {
+          "id": "c",
+          "label": "undermine"
+        },
+        {
+          "id": "d",
+          "label": "reject"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Kết quả nghiên cứu thường 'support' (ủng hộ) hoặc 'chứng minh' một ý tưởng hoặc giả thuyết."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "The days _____ shorter as winter approaches.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "are getting"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "will get"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả sự thay đổi hoặc xu hướng đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "Right now, scientific research _____ that electric light is affecting our biological clocks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finds"
+        },
+        {
+          "id": "b",
+          "label": "found"
+        },
+        {
+          "id": "c",
+          "label": "is finding"
+        },
+        {
+          "id": "d",
+          "label": "will find"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả hành động đang diễn ra tại thời điểm nói hoặc xung quanh thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "Many people _____ more electric light these days because of shorter winter days.",
+      "options": [
+        {
+          "id": "a",
+          "label": "use"
+        },
+        {
+          "id": "b",
+          "label": "used"
+        },
+        {
+          "id": "c",
+          "label": "are using"
+        },
+        {
+          "id": "d",
+          "label": "will use"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một tình huống tạm thời hoặc một xu hướng đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "The body's biological clock _____ fooled by electric light into releasing hormones at the wrong times.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is being"
+        },
+        {
+          "id": "b",
+          "label": "was being"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc bị động của thì hiện tại tiếp diễn là 'is/am/are + being + V3/ed', diễn tả hành động đang bị tác động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "Scientists believe that the misuse of electric light _____ to seasonal fatigue and depression.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leads"
+        },
+        {
+          "id": "b",
+          "label": "led"
+        },
+        {
+          "id": "c",
+          "label": "is leading"
+        },
+        {
+          "id": "d",
+          "label": "will lead"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một quá trình hoặc nguyên nhân đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "New studies _____ that women who work at night have higher chances of getting breast cancer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "show"
+        },
+        {
+          "id": "b",
+          "label": "showed"
+        },
+        {
+          "id": "c",
+          "label": "are showing"
+        },
+        {
+          "id": "d",
+          "label": "will show"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả những phát hiện hoặc nghiên cứu đang được tiến hành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Due to artificial light, our bodies _____ differently than our ancestors' bodies did.",
+      "options": [
+        {
+          "id": "a",
+          "label": "function"
+        },
+        {
+          "id": "b",
+          "label": "functioned"
+        },
+        {
+          "id": "c",
+          "label": "are functioning"
+        },
+        {
+          "id": "d",
+          "label": "will function"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả cách thức hoạt động hiện tại, thường là tạm thời hoặc khác biệt so với trước đây."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "Scientists _____ on the exact cause of Seasonal Affective Disorder (SAD).",
+      "options": [
+        {
+          "id": "a",
+          "label": "disagree"
+        },
+        {
+          "id": "b",
+          "label": "disagreed"
+        },
+        {
+          "id": "c",
+          "label": "are disagreeing"
+        },
+        {
+          "id": "d",
+          "label": "will disagree"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một cuộc tranh luận hoặc bất đồng đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "The body's clock _____ forward by getting bright light first thing in the morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "shifts"
+        },
+        {
+          "id": "b",
+          "label": "shifted"
+        },
+        {
+          "id": "c",
+          "label": "is shifting"
+        },
+        {
+          "id": "d",
+          "label": "will shift"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một quá trình hoặc sự thay đổi đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Most people _____ artificial light in their daily lives, despite its potential drawbacks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "use"
+        },
+        {
+          "id": "b",
+          "label": "used"
+        },
+        {
+          "id": "c",
+          "label": "are using"
+        },
+        {
+          "id": "d",
+          "label": "will use"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một thói quen hoặc tình huống đang diễn ra trong giai đoạn hiện tại."
+  }
+]

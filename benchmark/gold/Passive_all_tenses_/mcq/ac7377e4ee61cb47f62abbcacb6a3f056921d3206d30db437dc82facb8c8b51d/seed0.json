@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_01",
+      "prompt": "According to the text, Dublin Castle _____ in the 13th century on the foundations of a Viking structure.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was built"
+        },
+        {
+          "id": "b",
+          "label": "built"
+        },
+        {
+          "id": "c",
+          "label": "is built"
+        },
+        {
+          "id": "d",
+          "label": "has been built"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sự việc xảy ra và kết thúc trong quá khứ (thế kỷ 13), nên dùng thể bị động của thì quá khứ đơn (was/were + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_02",
+      "prompt": "Trinity College, the sole college of the University of Dublin, _____ by Queen Elizabeth I in 1592.",
+      "options": [
+        {
+          "id": "a",
+          "label": "founded"
+        },
+        {
+          "id": "b",
+          "label": "was founding"
+        },
+        {
+          "id": "c",
+          "label": "was founded"
+        },
+        {
+          "id": "d",
+          "label": "is founded"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu có 'by + tác nhân' và mốc thời gian quá khứ rõ ràng (in 1592), nên phải dùng cấu trúc bị động quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_03",
+      "prompt": "Today, Dublin Castle _____ for important state functions and government conferences.",
+      "options": [
+        {
+          "id": "a",
+          "label": "uses"
+        },
+        {
+          "id": "b",
+          "label": "is used"
+        },
+        {
+          "id": "c",
+          "label": "was used"
+        },
+        {
+          "id": "d",
+          "label": "has used"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trạng từ 'Today' chỉ sự thật ở hiện tại. Lâu đài 'được sử dụng' chứ không tự sử dụng, nên dùng bị động hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_04",
+      "prompt": "The Book of Kells, a famous manuscript, _____ at the Old Library in Trinity College for visitors to see.",
+      "options": [
+        {
+          "id": "a",
+          "label": "displays"
+        },
+        {
+          "id": "b",
+          "label": "was displayed"
+        },
+        {
+          "id": "c",
+          "label": "is displaying"
+        },
+        {
+          "id": "d",
+          "label": "is displayed"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là một sự thật ở hiện tại. Cuốn sách 'được trưng bày' chứ không tự trưng bày, nên dùng bị động hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_05",
+      "prompt": "City Hall, which was once badly damaged, _____ recently and is now open to the public.",
+      "options": [
+        {
+          "id": "a",
+          "label": "restored"
+        },
+        {
+          "id": "b",
+          "label": "was restoring"
+        },
+        {
+          "id": "c",
+          "label": "has been restored"
+        },
+        {
+          "id": "d",
+          "label": "is restored"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trạng từ 'recently' thường dùng với thì hiện tại hoàn thành. Tòa nhà được sửa chữa, nên dùng thể bị động (has been + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_06",
+      "prompt": "The Irish Museum of Modern Art _____ in the beautifully restored Royal Hospital Kilmainham.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is housed"
+        },
+        {
+          "id": "b",
+          "label": "houses"
+        },
+        {
+          "id": "c",
+          "label": "was housed"
+        },
+        {
+          "id": "d",
+          "label": "has housed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu mô tả vị trí của bảo tàng ở hiện tại. Bảo tàng 'được đặt tại' một tòa nhà, nên dùng bị động hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_07",
+      "prompt": "According to the information, guided tours _____ daily at both Dublin Castle and City Hall.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are available"
+        },
+        {
+          "id": "b",
+          "label": "are being offered"
+        },
+        {
+          "id": "c",
+          "label": "will be offered"
+        },
+        {
+          "id": "d",
+          "label": "were offered"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mặc dù 'are available' đúng ngữ pháp, 'are being offered' nhấn mạnh hành động cung cấp dịch vụ đang diễn ra. Đây là cách dùng bị động hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_08",
+      "prompt": "The James Joyce Centre _____ to promoting the life and works of one of Dublin's most famous writers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "dedicates"
+        },
+        {
+          "id": "b",
+          "label": "was dedicated"
+        },
+        {
+          "id": "c",
+          "label": "is dedicated"
+        },
+        {
+          "id": "d",
+          "label": "has been dedicated"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'to be dedicated to' (cống hiến cho) là một dạng bị động phổ biến, mô tả mục đích của một tổ chức ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_09",
+      "prompt": "For many years, Joyce's name _____ forever with the city of Dublin.",
+      "options": [
+        {
+          "id": "a",
+          "label": "linked"
+        },
+        {
+          "id": "b",
+          "label": "has been linked"
+        },
+        {
+          "id": "c",
+          "label": "is linking"
+        },
+        {
+          "id": "d",
+          "label": "will link"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'For many years' chỉ hành động kéo dài từ quá khứ đến hiện tại. Tên của ông 'được liên kết', nên dùng bị động hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "dublin_passive_10",
+      "prompt": "Visitors should know that Dublin Castle _____ during state functions, so it's best to check the schedule before going.",
+      "options": [
+        {
+          "id": "a",
+          "label": "closes"
+        },
+        {
+          "id": "b",
+          "label": "is closed"
+        },
+        {
+          "id": "c",
+          "label": "was closed"
+        },
+        {
+          "id": "d",
+          "label": "has been closed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu thông báo một quy định hoặc tình trạng. Lâu đài 'bị đóng cửa' chứ không tự đóng cửa, nên dùng bị động hiện tại đơn."
+  }
+]

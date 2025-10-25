@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_001",
+      "prompt": "When Drew carried the dish, he warned everyone that it _____ pretty hot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi động từ tường thuật 'warned' ở quá khứ, thì hiện tại đơn 'is' trong câu trực tiếp phải lùi về quá khứ đơn 'was'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_002",
+      "prompt": "Michi looked at the food and exclaimed that it _____ so good.",
+      "options": [
+        {
+          "id": "a",
+          "label": "smells"
+        },
+        {
+          "id": "b",
+          "label": "was smelling"
+        },
+        {
+          "id": "c",
+          "label": "smelled"
+        },
+        {
+          "id": "d",
+          "label": "had smelled"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi tường thuật lại với động từ 'exclaimed' ở quá khứ, thì hiện tại đơn 'smells' phải lùi về quá khứ đơn 'smelled'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_003",
+      "prompt": "Michi asked Kent if most of the parents _____ there yet because she was hungry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "have been"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trong câu hỏi gián tiếp, 'are' phải lùi thì thành 'were' và trạng từ chỉ nơi chốn 'here' trong câu gốc được đổi thành 'there'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_004",
+      "prompt": "Kent told Michi that he thought the teachers _____ the garden tour just a few moments before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "just finished"
+        },
+        {
+          "id": "b",
+          "label": "have just finished"
+        },
+        {
+          "id": "c",
+          "label": "had just finished"
+        },
+        {
+          "id": "d",
+          "label": "were finishing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật 'told' ở quá khứ, nên thì quá khứ đơn ('finished') trong lời nói trực tiếp phải lùi về quá khứ hoàn thành ('had finished')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_005",
+      "prompt": "In her speech, Ms. Milano said that she _____ to take a moment to congratulate the students on their idea.",
+      "options": [
+        {
+          "id": "a",
+          "label": "just wanted"
+        },
+        {
+          "id": "b",
+          "label": "had just wanted"
+        },
+        {
+          "id": "c",
+          "label": "has just wanted"
+        },
+        {
+          "id": "d",
+          "label": "would want"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi động từ tường thuật ở quá khứ (said), thì quá khứ đơn (wanted) trong lời nói trực tiếp sẽ lùi về quá khứ hoàn thành (had wanted)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_006",
+      "prompt": "Ms. Milano told the families that the students _____ absolutely correct in their planning for the garden.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "have been"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Thì quá khứ đơn 'were' trong câu trực tiếp ('they were correct') phải được lùi về thì quá khứ hoàn thành 'had been' trong câu gián tiếp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_007",
+      "prompt": "She explained that about three-quarters of the food the families _____ that evening came from the school garden.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be enjoying"
+        },
+        {
+          "id": "b",
+          "label": "are enjoying"
+        },
+        {
+          "id": "c",
+          "label": "would be enjoying"
+        },
+        {
+          "id": "d",
+          "label": "were enjoying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong lời nói gián tiếp, động từ tương lai 'will' trong câu gốc ('you will be enjoying') phải được chuyển thành 'would'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_008",
+      "prompt": "Ms. Milano continued her speech, explaining that the students' names and the date _____ on the stones they had received.",
+      "options": [
+        {
+          "id": "a",
+          "label": "appear"
+        },
+        {
+          "id": "b",
+          "label": "appeared"
+        },
+        {
+          "id": "c",
+          "label": "are appearing"
+        },
+        {
+          "id": "d",
+          "label": "had appeared"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật ở quá khứ (explained), nên thì hiện tại đơn 'appear' trong câu gốc phải lùi về quá khứ đơn 'appeared'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_009",
+      "prompt": "She told the three students that future students _____ the garden that they had helped create.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be enjoying"
+        },
+        {
+          "id": "b",
+          "label": "enjoy"
+        },
+        {
+          "id": "c",
+          "label": "had been enjoying"
+        },
+        {
+          "id": "d",
+          "label": "would be enjoying"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Khi tường thuật lại, động từ khuyết thiếu 'will' trong câu nói trực tiếp ('will be enjoying') phải được lùi về dạng quá khứ là 'would'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_010",
+      "prompt": "Finally, Ms. Milano raised her voice and announced that dinner _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is served"
+        },
+        {
+          "id": "b",
+          "label": "has been served"
+        },
+        {
+          "id": "c",
+          "label": "was served"
+        },
+        {
+          "id": "d",
+          "label": "had been served"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu bị động ở hiện tại đơn 'is served' phải được lùi thì thành câu bị động ở quá khứ đơn 'was served' khi tường thuật lại."
+  }
+]

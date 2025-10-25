@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_001",
+      "prompt": "Look at those dark clouds! It _____ to rain soon."
+    },
+    "answer": "is going",
+    "hint": "Dùng 'going to' để dự đoán một sự việc sắp xảy ra dựa trên bằng chứng rõ ràng ở hiện tại (mây đen)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_002",
+      "prompt": "I've bought all the ingredients. I _____ to bake a cake for her birthday."
+    },
+    "answer": "am going",
+    "hint": "'Going to' diễn tả một kế hoạch hoặc dự định đã được quyết định trước và có sự chuẩn bị."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_003",
+      "prompt": "She feels very tired, so she _____ to come to the party tonight."
+    },
+    "answer": "isn't going",
+    "hint": "Dạng phủ định của 'going to' dùng để nói về một dự định không xảy ra hoặc một điều không có khả năng xảy ra dựa trên tình trạng hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_004",
+      "prompt": "_____ you going to visit your grandparents next weekend?"
+    },
+    "answer": "Are",
+    "hint": "Trong câu hỏi Yes/No với 'going to', trợ động từ 'be' (phù hợp với chủ ngữ 'you') đứng đầu câu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_005",
+      "prompt": "E-book sales have jumped significantly. The publishing industry _____ to face more challenges."
+    },
+    "answer": "is going",
+    "hint": "'Going to' dùng cho dự đoán dựa trên bằng chứng hiện tại rõ ràng (doanh số e-book tăng mạnh)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_006",
+      "prompt": "Robert Stein believes that future forms of books _____ to be developed by the gaming industry."
+    },
+    "answer": "are going",
+    "hint": "'Going to' diễn tả một dự đoán hoặc kế hoạch được tin là sẽ xảy ra trong tương lai, thường dựa trên ý kiến hoặc thông tin hiện có."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_007",
+      "prompt": "Maryanne Wolf worries that electronic reading _____ to negatively affect our reading comprehension."
+    },
+    "answer": "is going",
+    "hint": "'Going to' dùng cho dự đoán dựa trên lo ngại hoặc bằng chứng hiện tại về một tác động tiêu cực."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_008",
+      "prompt": "We have decided that we _____ to start a new project next month."
+    },
+    "answer": "are going",
+    "hint": "'Going to' diễn tả một quyết định đã được đưa ra và có kế hoạch thực hiện trong tương lai gần."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_009",
+      "prompt": "According to Mike Shatzkin, printed books for plain reading _____ to be unusual in 10 years."
+    },
+    "answer": "are going",
+    "hint": "'Going to' dùng cho dự đoán về một trạng thái hoặc sự việc trong tương lai dựa trên quan điểm hoặc bằng chứng hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fut_go_010",
+      "prompt": "The company is losing money, so it _____ to expand its operations this year."
+    },
+    "answer": "isn't going",
+    "hint": "Dạng phủ định của 'going to' diễn tả một điều không có ý định hoặc không có khả năng xảy ra dựa trên tình hình hiện tại (công ty đang thua lỗ)."
+  }
+]

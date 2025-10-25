@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The merchant _____ his fourth wife the most.",
+      "options": [
+        {
+          "id": "a",
+          "label": "loves"
+        },
+        {
+          "id": "b",
+          "label": "loved"
+        },
+        {
+          "id": "c",
+          "label": "is loving"
+        },
+        {
+          "id": "d",
+          "label": "has loved"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động yêu thương đã xảy ra và kết thúc trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "When the merchant faced problems, he always _____ to his second wife.",
+      "options": [
+        {
+          "id": "a",
+          "label": "turns"
+        },
+        {
+          "id": "b",
+          "label": "turned"
+        },
+        {
+          "id": "c",
+          "label": "was turning"
+        },
+        {
+          "id": "d",
+          "label": "has turned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một thói quen trong quá khứ của người thương gia."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "One day, the merchant ____ ill.",
+      "options": [
+        {
+          "id": "a",
+          "label": "falls"
+        },
+        {
+          "id": "b",
+          "label": "fell"
+        },
+        {
+          "id": "c",
+          "label": "is falling"
+        },
+        {
+          "id": "d",
+          "label": "has fallen"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sự việc 'ngã bệnh' đã xảy ra tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The fourth wife _____ to follow the merchant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "refuses"
+        },
+        {
+          "id": "b",
+          "label": "refused"
+        },
+        {
+          "id": "c",
+          "label": "is refusing"
+        },
+        {
+          "id": "d",
+          "label": "has refused"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động từ chối đã xảy ra và kết thúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "After the fourth wife's refusal, the answer _____ like a sharp knife right into the merchant's heart.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cuts"
+        },
+        {
+          "id": "b",
+          "label": "cut"
+        },
+        {
+          "id": "c",
+          "label": "was cutting"
+        },
+        {
+          "id": "d",
+          "label": "has cut"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Cut' là động từ bất quy tắc, quá khứ đơn vẫn là 'cut'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The third wife _____ that she would remarry when the merchant died.",
+      "options": [
+        {
+          "id": "a",
+          "label": "replies"
+        },
+        {
+          "id": "b",
+          "label": "replied"
+        },
+        {
+          "id": "c",
+          "label": "is replying"
+        },
+        {
+          "id": "d",
+          "label": "has replied"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lời đáp của người vợ thứ ba đã được nói ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The merchant's heart _____ and turned cold after the third wife's answer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sinks"
+        },
+        {
+          "id": "b",
+          "label": "sank"
+        },
+        {
+          "id": "c",
+          "label": "is sinking"
+        },
+        {
+          "id": "d",
+          "label": "has sunk"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Sink' là động từ bất quy tắc, quá khứ đơn là 'sank'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The second wife _____ help the merchant follow him to his grave.",
+      "options": [
+        {
+          "id": "a",
+          "label": "couldn't"
+        },
+        {
+          "id": "b",
+          "label": "can't"
+        },
+        {
+          "id": "c",
+          "label": "isn't able"
+        },
+        {
+          "id": "d",
+          "label": "hasn't been able"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động không thể giúp đỡ đã xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Then a voice _____ out: \"I'll leave with you.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "calls"
+        },
+        {
+          "id": "b",
+          "label": "called"
+        },
+        {
+          "id": "c",
+          "label": "is calling"
+        },
+        {
+          "id": "d",
+          "label": "has called"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'gọi' đã xảy ra tại một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The first wife _____ so skinny, almost like she suffered from malnutrition.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Miêu tả tình trạng của người vợ thứ nhất trong quá khứ."
+  }
+]

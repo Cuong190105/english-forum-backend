@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "Bill Masters _____ for the company since 2015."
+    },
+    "answer": "has worked",
+    "hint": "Dùng thì Hiện tại hoàn thành với \"since\" để diễn tả hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "The company _____ Bill to a new position in northern California recently."
+    },
+    "answer": "has moved",
+    "hint": "\"Recently\" là dấu hiệu của thì Hiện tại hoàn thành, diễn tả hành động vừa xảy ra và có liên quan đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "Under Bill's leadership, we _____ 37 percent of the market share."
+    },
+    "answer": "have gained",
+    "hint": "Thì Hiện tại hoàn thành được dùng để nói về thành tựu có kết quả rõ ràng ở hiện tại, nhấn mạnh kết quả đạt được."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "So far this year, Bill _____ the sales team to achieve record numbers."
+    },
+    "answer": "has led",
+    "hint": "\"So far this year\" là khoảng thời gian chưa kết thúc, yêu cầu dùng thì Hiện tại hoàn thành để chỉ hành động đã xảy ra trong khoảng thời gian đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "I _____ never met such an inspiring leader as Bill Masters."
+    },
+    "answer": "have",
+    "hint": "\"Never\" thường đi với thì Hiện tại hoàn thành để diễn tả trải nghiệm chưa từng có trong đời tính đến thời điểm hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "In six years, Bill _____ the firm from fifth to second position in sales."
+    },
+    "answer": "has brought",
+    "hint": "Thì Hiện tại hoàn thành diễn tả sự thay đổi hoặc phát triển trong một khoảng thời gian dẫn đến kết quả hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "I can't imagine what we will do without him; he _____ so much for us."
+    },
+    "answer": "has done",
+    "hint": "Hành động \"has done\" trong quá khứ có ảnh hưởng trực tiếp đến tình hình hiện tại (\"can't imagine\"), nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "The sales team _____ already met their targets for this quarter."
+    },
+    "answer": "has",
+    "hint": "\"Already\" là dấu hiệu của thì Hiện tại hoàn thành, chỉ hành động đã hoàn thành trước thời điểm hiện tại trong một khoảng thời gian chưa kết thúc."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "Bill _____ just finished his farewell speech to the team."
+    },
+    "answer": "has",
+    "hint": "\"Just\" dùng với thì Hiện tại hoàn thành để diễn tả hành động vừa mới xảy ra, có liên quan đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "Our market share _____ steadily increased since Bill took over."
+    },
+    "answer": "has",
+    "hint": "\"Since Bill took over\" chỉ một mốc thời gian trong quá khứ, hành động \"increased\" tiếp diễn đến hiện tại, nên dùng Hiện tại hoàn thành."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "In only six years, Bill Masters _____ the firm from a very low fifth position to a leading market position."
+    },
+    "answer": "has brought",
+    "hint": "Sử dụng thì hiện tại hoàn thành để diễn tả hành động đã hoàn thành trong quá khứ nhưng có kết quả liên quan đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "Under Bill's leadership, the company _____ 37 per cent of the market share."
+    },
+    "answer": "has got",
+    "hint": "Điền dạng đúng của động từ 'get' ở thì hiện tại hoàn thành, phù hợp với chủ ngữ 'the company'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "The company _____ Bill to northern California for his new assignment."
+    },
+    "answer": "has moved",
+    "hint": "Sử dụng thì hiện tại hoàn thành để diễn tả một sự kiện đã xảy ra và có liên quan đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "Thanks to Bill, the company _____ a strong market position in the Houston area."
+    },
+    "answer": "has developed",
+    "hint": "Sử dụng thì hiện tại hoàn thành để nói về thành quả mà Bill đã đạt được và vẫn còn giá trị đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "The firm _____ from a very low fifth position to a leading market position in just six years, thanks to Bill."
+    },
+    "answer": "has risen",
+    "hint": "Điền động từ phù hợp ở thì hiện tại hoàn thành để diễn tả sự thay đổi vị trí của công ty."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "Under Bill's leadership, the company _____ its market share to 37 per cent."
+    },
+    "answer": "has increased",
+    "hint": "Sử dụng thì hiện tại hoàn thành để diễn tả sự tăng trưởng thị phần của công ty."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Bill _____ to northern California to take on a new challenge."
+    },
+    "answer": "has been moved",
+    "hint": "Sử dụng thì hiện tại hoàn thành ở dạng bị động để diễn tả việc Bill được chuyển công tác."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "Everyone at the company _____ Bill Masters as a valuable asset for many years."
+    },
+    "answer": "has considered",
+    "hint": "Sử dụng thì hiện tại hoàn thành để diễn tả một hành động kéo dài từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "The sales force in the Houston area _____ almost single-handed by Bill Masters."
+    },
+    "answer": "has been built up",
+    "hint": "Điền dạng bị động của thì hiện tại hoàn thành cho động từ 'build up'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "Thanks to Bill's efforts, the firm _____ its competitors in sales, except for one."
+    },
+    "answer": "has outsold",
+    "hint": "Sử dụng thì hiện tại hoàn thành để diễn tả kết quả bán hàng của công ty."
+  }
+]

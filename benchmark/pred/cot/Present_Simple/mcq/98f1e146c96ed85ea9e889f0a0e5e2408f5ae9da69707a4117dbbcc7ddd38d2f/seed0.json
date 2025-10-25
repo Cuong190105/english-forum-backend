@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Mr. and Mrs. Martin _____ in New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lives"
+        },
+        {
+          "id": "b",
+          "label": "live"
+        },
+        {
+          "id": "c",
+          "label": "is living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số nhiều \"Mr. and Mrs. Martin\" đi với động từ nguyên mẫu \"live\" ở thì Hiện tại đơn để diễn tả sự thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "Mr. Martin _____ a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Mr. Martin\" là chủ ngữ số ít, nên dùng \"is\" với động từ \"to be\" ở thì Hiện tại đơn để diễn tả nghề nghiệp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "Mrs. Martin _____ music at a school in New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "teach"
+        },
+        {
+          "id": "b",
+          "label": "teaches"
+        },
+        {
+          "id": "c",
+          "label": "taught"
+        },
+        {
+          "id": "d",
+          "label": "is teaching"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Mrs. Martin\" là chủ ngữ số ít, động từ \"teach\" phải thêm \"-es\" ở thì Hiện tại đơn để diễn tả thói quen/công việc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "They _____ two sons.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "is having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ số nhiều \"They\" dùng \"have\" ở thì Hiện tại đơn để diễn tả sở hữu. \"Has\" dùng cho chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "Roy _____ to high school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "is going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Roy\" là chủ ngữ số ít, động từ \"go\" phải thêm \"-es\" ở thì Hiện tại đơn để diễn tả thói quen hàng ngày."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "Roy _____ sports very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "liked"
+        },
+        {
+          "id": "d",
+          "label": "is liking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Roy\" là chủ ngữ số ít, động từ \"like\" phải thêm \"-s\" ở thì Hiện tại đơn để diễn tả sở thích."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "Roy _____ swimming best.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "liked"
+        },
+        {
+          "id": "d",
+          "label": "is liking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Roy\" là chủ ngữ số ít, động từ \"like\" phải thêm \"-s\" ở thì Hiện tại đơn để diễn tả sở thích cá nhân."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "Roy _____ swim faster than his father.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Can\" dùng để diễn tả khả năng ở thì Hiện tại đơn. Các lựa chọn khác không phù hợp ngữ pháp hoặc ngữ nghĩa trong câu này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Roy _____ to be the best swimmer in his school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "want"
+        },
+        {
+          "id": "b",
+          "label": "wants"
+        },
+        {
+          "id": "c",
+          "label": "wanted"
+        },
+        {
+          "id": "d",
+          "label": "is wanting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Roy\" là chủ ngữ số ít, động từ \"want\" phải thêm \"-s\" ở thì Hiện tại đơn để diễn tả mong muốn hoặc mục tiêu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Mr. Martin's office _____ in New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Mr. Martin's office\" là chủ ngữ số ít, nên dùng \"is\" với động từ \"to be\" ở thì Hiện tại đơn để diễn tả vị trí."
+  }
+]

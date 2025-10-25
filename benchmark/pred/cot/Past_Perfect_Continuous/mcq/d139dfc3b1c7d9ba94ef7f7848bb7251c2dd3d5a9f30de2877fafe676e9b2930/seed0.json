@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Before the family decided to gather for Dad's last birthday, they _____ his birthday on Thanksgiving Day for many years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "celebrated"
+        },
+        {
+          "id": "b",
+          "label": "were celebrating"
+        },
+        {
+          "id": "c",
+          "label": "had been celebrating"
+        },
+        {
+          "id": "d",
+          "label": "have been celebrating"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động \"celebrating\" diễn ra liên tục trong nhiều năm cho đến trước khi gia đình quyết định tụ họp, nên dùng Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "Dad's eyes were teary because he _____ to his family's heartfelt stories for quite a while before that quiet moment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was listening"
+        },
+        {
+          "id": "b",
+          "label": "listened"
+        },
+        {
+          "id": "c",
+          "label": "had been listening"
+        },
+        {
+          "id": "d",
+          "label": "has been listening"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Việc \"listening\" diễn ra liên tục trong một khoảng thời gian trước khi Dad có đôi mắt đẫm lệ, cần Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "The room became quiet after I announced it was Dad's turn to listen, as everyone _____ stories about him in their minds for some time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "prepared"
+        },
+        {
+          "id": "b",
+          "label": "were preparing"
+        },
+        {
+          "id": "c",
+          "label": "had been preparing"
+        },
+        {
+          "id": "d",
+          "label": "have been preparing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động \"preparing\" diễn ra liên tục trong tâm trí mọi người trước khi căn phòng trở nên yên tĩnh, dùng Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "By the time Dad entered the nursing home, the family _____ his birthday on Thanksgiving Day for decades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "celebrated"
+        },
+        {
+          "id": "b",
+          "label": "were celebrating"
+        },
+        {
+          "id": "c",
+          "label": "had been celebrating"
+        },
+        {
+          "id": "d",
+          "label": "has celebrated"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động \"celebrating\" diễn ra liên tục trong nhiều thập kỷ cho đến thời điểm Dad vào viện dưỡng lão, dùng Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Dad was exhausted at the end of the celebration because he _____ with so many visitors all day long.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was interacting"
+        },
+        {
+          "id": "b",
+          "label": "interacted"
+        },
+        {
+          "id": "c",
+          "label": "had been interacting"
+        },
+        {
+          "id": "d",
+          "label": "has been interacting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sự mệt mỏi là kết quả của hành động \"interacting\" diễn ra liên tục suốt cả ngày trước đó, dùng Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "When the grandchildren finally got to tell their stories, they _____ to share their love for Dad for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "waited"
+        },
+        {
+          "id": "b",
+          "label": "were waiting"
+        },
+        {
+          "id": "c",
+          "label": "had been waiting"
+        },
+        {
+          "id": "d",
+          "label": "have been waiting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động \"waiting\" diễn ra liên tục trong một thời gian dài trước khi các cháu được kể chuyện, dùng Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "His voice was hoarse because he _____ stories to his family for hours before it was his turn to listen.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was telling"
+        },
+        {
+          "id": "b",
+          "label": "told"
+        },
+        {
+          "id": "c",
+          "label": "had been telling"
+        },
+        {
+          "id": "d",
+          "label": "has been telling"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Giọng khàn là kết quả của việc \"telling stories\" liên tục trong nhiều giờ trước đó, dùng Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "A few months later, at Dad's memorial service, we realized what a gift we had given him, as he _____ those memories in his mind during his last days.",
+      "options": [
+        {
+          "id": "a",
+          "label": "held and enjoyed"
+        },
+        {
+          "id": "b",
+          "label": "was holding and enjoying"
+        },
+        {
+          "id": "c",
+          "label": "had been holding and enjoying"
+        },
+        {
+          "id": "d",
+          "label": "has been holding and enjoying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động \"holding and enjoying\" diễn ra liên tục trong tâm trí Dad suốt những ngày cuối đời, trước khi gia đình nhận ra giá trị món quà."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "Before the family decided to have a huge celebration, they _____ about how to make Dad's last birthday special for weeks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "thought"
+        },
+        {
+          "id": "b",
+          "label": "were thinking"
+        },
+        {
+          "id": "c",
+          "label": "had been thinking"
+        },
+        {
+          "id": "d",
+          "label": "have been thinking"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động \"thinking\" diễn ra liên tục trong nhiều tuần trước khi gia đình đưa ra quyết định tổ chức tiệc lớn, dùng Quá khứ Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "The family knew it might be Dad's last birthday because he _____ ill for several months before that time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "felt"
+        },
+        {
+          "id": "b",
+          "label": "was feeling"
+        },
+        {
+          "id": "c",
+          "label": "had been feeling"
+        },
+        {
+          "id": "d",
+          "label": "has been feeling"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tình trạng \"feeling ill\" diễn ra liên tục trong vài tháng trước thời điểm gia đình nhận ra đây có thể là sinh nhật cuối của Dad."
+  }
+]

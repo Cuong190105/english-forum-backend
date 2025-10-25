@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_001",
+      "prompt": "If you do not use your arms for a long time, they _____ weak."
+    },
+    "answer": "become",
+    "hint": "Câu điều kiện loại 0 diễn tả sự thật hiển nhiên. Cả hai vế đều dùng thì hiện tại đơn (Present Simple)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_002",
+      "prompt": "Your memory becomes poor if you _____ give it enough practice."
+    },
+    "answer": "don't",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 0 dùng thì hiện tại đơn. 'You' đi với trợ động từ 'do not' (don't) ở dạng phủ định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_003",
+      "prompt": "When you start using your muscles again, they slowly _____ strong."
+    },
+    "answer": "become",
+    "hint": "'When' có thể được dùng thay cho 'if' trong câu điều kiện loại 0 để diễn tả một quy luật, sự thật luôn đúng. Vế chính dùng hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_004",
+      "prompt": "If a person frequently _____ their memory, it stays strong."
+    },
+    "answer": "exercises",
+    "hint": "Diễn tả một sự thật chung. Chủ ngữ 'a person' là ngôi thứ ba số ít nên động từ ở hiện tại đơn phải thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_005",
+      "prompt": "When someone says his memory is poor, he really _____ that he doesn't exercise it."
+    },
+    "answer": "means",
+    "hint": "Câu điều kiện loại 0 diễn tả kết quả tất yếu. Vế chính dùng thì hiện tại đơn, chủ ngữ 'he' nên động từ thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_006",
+      "prompt": "Ice _____ if you heat it to a high temperature."
+    },
+    "answer": "melts",
+    "hint": "Câu điều kiện loại 0 dùng để diễn tả một sự thật khoa học. Cả hai vế đều chia ở thì hiện tại đơn. Chủ ngữ 'Ice' là số ít."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_007",
+      "prompt": "If a friend complains his arms are weak, we _____ it is his own fault."
+    },
+    "answer": "know",
+    "hint": "Diễn tả một phản ứng thông thường, một sự thật. Mệnh đề chính trong câu điều kiện loại 0 dùng thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_008",
+      "prompt": "Plants die if they _____ get enough water."
+    },
+    "answer": "don't",
+    "hint": "Diễn tả một quy luật tự nhiên. Mệnh đề 'if' dùng thì hiện tại đơn. 'They' đi với trợ động từ 'do not' (don't) ở dạng phủ định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_009",
+      "prompt": "If you _____ your memory, it gets weaker over time."
+    },
+    "answer": "neglect",
+    "hint": "Câu điều kiện loại 0 diễn tả một quy luật. Mệnh đề 'if' dùng thì hiện tại đơn. 'You' đi với động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ZC_F_010",
+      "prompt": "When a person _____ their memory in practice, it becomes stronger."
+    },
+    "answer": "keeps",
+    "hint": "Diễn tả một sự thật chung. Chủ ngữ 'a person' là ngôi thứ ba số ít nên động từ ở thì hiện tại đơn phải thêm 's'."
+  }
+]

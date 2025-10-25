@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_001",
+      "prompt": "The Dublin City Hall building, which dates from 1779, once badly damaged, _____ recently.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was restored"
+        },
+        {
+          "id": "b",
+          "label": "restored"
+        },
+        {
+          "id": "c",
+          "label": "has restored"
+        },
+        {
+          "id": "d",
+          "label": "is restoring"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Recently” và ngữ cảnh tòa nhà bị hư hại cần được sửa chữa cho thấy đây là thể bị động thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_002",
+      "prompt": "Dublin Castle _____ in the 13th century on top of the foundations of a Viking structure.",
+      "options": [
+        {
+          "id": "a",
+          "label": "built"
+        },
+        {
+          "id": "b",
+          "label": "was built"
+        },
+        {
+          "id": "c",
+          "label": "has built"
+        },
+        {
+          "id": "d",
+          "label": "is building"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“In the 13th century” chỉ thời gian cụ thể trong quá khứ, và lâu đài không tự xây mà được xây dựng, nên dùng bị động quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_003",
+      "prompt": "Trinity College _____ by Queen Elizabeth I in 1592.",
+      "options": [
+        {
+          "id": "a",
+          "label": "founded"
+        },
+        {
+          "id": "b",
+          "label": "was founded"
+        },
+        {
+          "id": "c",
+          "label": "has founded"
+        },
+        {
+          "id": "d",
+          "label": "is founding"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“By Queen Elizabeth I” và “in 1592” rõ ràng chỉ thể bị động thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_004",
+      "prompt": "Today, Dublin Castle _____ for state functions and government conferences.",
+      "options": [
+        {
+          "id": "a",
+          "label": "uses"
+        },
+        {
+          "id": "b",
+          "label": "is used"
+        },
+        {
+          "id": "c",
+          "label": "has used"
+        },
+        {
+          "id": "d",
+          "label": "was used"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Today” và ngữ cảnh lâu đài được dùng cho các sự kiện hiện tại yêu cầu thể bị động thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_005",
+      "prompt": "The famous Book of Kells _____ on display at the Old Library in Trinity College.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“On display” là một cụm trạng thái bị động, và đây là sự thật hiện tại nên dùng “is”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_006",
+      "prompt": "An impressive permanent collection of contemporary art _____ at the Irish Museum of Modern Art since its opening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is exhibited"
+        },
+        {
+          "id": "b",
+          "label": "has been exhibited"
+        },
+        {
+          "id": "c",
+          "label": "was exhibited"
+        },
+        {
+          "id": "d",
+          "label": "will be exhibited"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since its opening” chỉ một hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nên dùng thì hiện tại hoàn thành bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_007",
+      "prompt": "Next month, special guided tours of Dublin Castle _____ for visitors.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are arranged"
+        },
+        {
+          "id": "b",
+          "label": "will arrange"
+        },
+        {
+          "id": "c",
+          "label": "will be arranged"
+        },
+        {
+          "id": "d",
+          "label": "have been arranged"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Next month” chỉ tương lai, và các chuyến tham quan không tự sắp xếp mà được sắp xếp, nên dùng bị động thì tương lai đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_008",
+      "prompt": "All historical items in the exhibition _____ carefully preserved for future generations.",
+      "options": [
+        {
+          "id": "a",
+          "label": "must preserve"
+        },
+        {
+          "id": "b",
+          "label": "must be preserved"
+        },
+        {
+          "id": "c",
+          "label": "preserved"
+        },
+        {
+          "id": "d",
+          "label": "are preserving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Các hiện vật không tự bảo quản mà phải được bảo quản, và “must” thể hiện sự bắt buộc, nên dùng cấu trúc bị động với động từ khiếm khuyết."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_009",
+      "prompt": "A new exhibition about James Joyce's early life _____ at the James Joyce Centre this week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is being prepared"
+        },
+        {
+          "id": "b",
+          "label": "prepares"
+        },
+        {
+          "id": "c",
+          "label": "has prepared"
+        },
+        {
+          "id": "d",
+          "label": "was prepared"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“This week” chỉ một hành động đang diễn ra trong hiện tại, và triển lãm được chuẩn bị, nên dùng thì hiện tại tiếp diễn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_010",
+      "prompt": "By the time the Irish Museum of Modern Art opened, the Royal Hospital Kilmainham building _____ beautifully _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been restored"
+        },
+        {
+          "id": "b",
+          "label": "was restored"
+        },
+        {
+          "id": "c",
+          "label": "has been restored"
+        },
+        {
+          "id": "d",
+          "label": "is restored"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“By the time... opened” chỉ một hành động xảy ra trước một hành động khác trong quá khứ, và tòa nhà được trùng tu, nên dùng thì quá khứ hoàn thành bị động."
+  }
+]

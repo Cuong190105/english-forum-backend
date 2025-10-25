@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "My mother realized she _____ a couple of things on her shopping list before we reached the checkout counter."
+    },
+    "answer": "had forgotten",
+    "hint": "Hành động \"quên\" xảy ra trước hành động \"nhận ra\" và \"đến quầy thanh toán\" trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "By the time my mom returned, I was angry because the cashier _____ me for money, and I had none."
+    },
+    "answer": "had asked",
+    "hint": "Việc thu ngân hỏi tiền xảy ra trước khi mẹ về và tôi tức giận, do đó dùng thì quá khứ hoàn thành để diễn tả hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "While my mother was away, I _____ all the items onto the belt, and they were already rung up when she came back."
+    },
+    "answer": "had loaded",
+    "hint": "Hành động \"xếp đồ lên băng chuyền\" hoàn thành trước khi mẹ quay lại, một thời điểm trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "Norman was prepared because he _____ a spare bulb for the projector before his presentation started."
+    },
+    "answer": "had brought",
+    "hint": "Hành động \"mang theo bóng đèn dự phòng\" xảy ra và hoàn thành trước khi bóng đèn cũ hỏng trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "Before I went to bed last night, I realized I _____ to lock the front door."
+    },
+    "answer": "had forgotten",
+    "hint": "Hành động \"quên khóa cửa\" xảy ra trước hành động \"đi ngủ\" trong quá khứ, do đó cần dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "When the police arrived, the thieves _____ with all the valuables."
+    },
+    "answer": "had already escaped",
+    "hint": "Hành động \"tẩu thoát\" đã hoàn thành trước khi cảnh sát đến, một thời điểm trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "She couldn't enter her house because she _____ her keys inside."
+    },
+    "answer": "had left",
+    "hint": "Việc \"để quên chìa khóa\" xảy ra trước và là nguyên nhân của việc \"không thể vào nhà\" trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "By the time we got to the cinema, the movie _____ already."
+    },
+    "answer": "had started",
+    "hint": "Hành động \"bộ phim bắt đầu\" đã hoàn thành trước khi chúng tôi đến rạp, một thời điểm trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "He was tired because he _____ all day without a break."
+    },
+    "answer": "had worked",
+    "hint": "Sự mệt mỏi trong quá khứ là kết quả của việc \"đã làm việc\" liên tục trước đó, nên dùng quá khứ hoàn thành để chỉ hành động xảy ra trước."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "Before she moved to London, she _____ in Paris for five years."
+    },
+    "answer": "had lived",
+    "hint": "Hành động \"sống ở Paris\" đã hoàn thành trước khi cô ấy chuyển đến London, một hành động khác trong quá khứ, nên dùng quá khứ hoàn thành."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_001",
+      "prompt": "By the time the last story was told, the father _____ with tears in his eyes for nearly an hour."
+    },
+    "answer": "had been listening",
+    "hint": "Dùng quá khứ hoàn thành tiếp diễn để nhấn mạnh hành động (lắng nghe) kéo dài liên tục cho đến một thời điểm khác trong quá khứ (câu chuyện cuối cùng được kể)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_002",
+      "prompt": "The family felt relieved after the party because they _____ about making his last birthday special for weeks."
+    },
+    "answer": "had been worrying",
+    "hint": "Hành động (lo lắng) đã diễn ra liên tục trong một khoảng thời gian (nhiều tuần) trước một mốc thời gian trong quá khứ (sau bữa tiệc)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_003",
+      "prompt": "Before he moved into the nursing home, the family _____ his birthday on Thanksgiving for over fifty years."
+    },
+    "answer": "had been celebrating",
+    "hint": "Diễn tả một thói quen (tổ chức sinh nhật) kéo dài liên tục trong quá khứ trước khi một sự kiện khác xảy ra (ông chuyển vào viện dưỡng lão)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_004",
+      "prompt": "The grandchildren were so excited because they _____ all afternoon for their turn to speak."
+    },
+    "answer": "had been waiting",
+    "hint": "Nhấn mạnh quá trình (chờ đợi) diễn ra liên tục và kéo dài cho đến một thời điểm cụ thể trong quá khứ (đến lượt chúng nói)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_005",
+      "prompt": "He was a great storyteller because he _____ stories to his children and grandchildren his entire life before he got sick."
+    },
+    "answer": "had been telling",
+    "hint": "Hành động (kể chuyện) là một quá trình kéo dài suốt cuộc đời ông, xảy ra trước một sự kiện khác trong quá khứ (ông bị bệnh)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_006",
+      "prompt": "Before the author announced it was Dad's turn to listen, everyone _____ quietly among themselves for a few minutes."
+    },
+    "answer": "had been talking",
+    "hint": "Diễn tả hành động (nói chuyện) đang diễn ra và kéo dài ngay trước một hành động khác xen vào trong quá khứ (tác giả thông báo)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_007",
+      "prompt": "At the memorial service, they understood how much the party meant to him; he _____ those memories during his last days."
+    },
+    "answer": "had been holding",
+    "hint": "Nhấn mạnh hành động (gìn giữ ký ức) diễn ra liên tục trong một khoảng thời gian ở quá khứ (những ngày cuối đời)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_008",
+      "prompt": "The nursing home staff noticed the family's love; they _____ for this special celebration all week."
+    },
+    "answer": "had been preparing",
+    "hint": "Hành động (chuẩn bị) đã diễn ra liên tục trong suốt một tuần trước khi nhân viên viện dưỡng lão chú ý đến."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_009",
+      "prompt": "The author realized that for years, they _____ the wrong way by saving stories for funerals."
+    },
+    "answer": "had been doing",
+    "hint": "Diễn tả một hành động (làm sai cách) đã kéo dài trong nhiều năm cho đến một thời điểm nhận ra trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_010",
+      "prompt": "His eyes were red because he _____ back tears of joy all evening before he finally let them fall."
+    },
+    "answer": "had been fighting",
+    "hint": "Hành động (kìm nén) kéo dài liên tục và là nguyên nhân của một kết quả trong quá khứ (mắt anh ấy đỏ hoe)."
+  }
+]

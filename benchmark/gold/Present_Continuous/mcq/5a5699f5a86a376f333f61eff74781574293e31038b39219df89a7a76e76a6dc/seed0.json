@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "Look! A horse, a panda, and a cat ______ in the race right now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is running"
+        },
+        {
+          "id": "b",
+          "label": "are running"
+        },
+        {
+          "id": "c",
+          "label": "run"
+        },
+        {
+          "id": "d",
+          "label": "ran"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'are running' vì chủ ngữ là số nhiều (3 con vật) và có dấu hiệu 'Look!', 'right now' chỉ hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "Over there, a dog and two tigers ______ high into the air at the moment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is jumping"
+        },
+        {
+          "id": "b",
+          "label": "jump"
+        },
+        {
+          "id": "c",
+          "label": "are jumping"
+        },
+        {
+          "id": "d",
+          "label": "jumps"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ 'a dog and two tigers' là số nhiều nên dùng 'are'. 'At the moment' là dấu hiệu của thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "What are the two monkeys doing now? They ______ the trees.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are climbing"
+        },
+        {
+          "id": "b",
+          "label": "is climbing"
+        },
+        {
+          "id": "c",
+          "label": "climb"
+        },
+        {
+          "id": "d",
+          "label": "climbs"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi 'What are... doing?' yêu cầu câu trả lời ở thì hiện tại tiếp diễn. Chủ ngữ 'They' là số nhiều nên dùng 'are climbing'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "Listen! The four birds ______ around and singing beautiful songs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fly"
+        },
+        {
+          "id": "b",
+          "label": "is flying"
+        },
+        {
+          "id": "c",
+          "label": "flies"
+        },
+        {
+          "id": "d",
+          "label": "are flying"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dấu hiệu 'Listen!' cho thấy hành động đang xảy ra. Chủ ngữ 'The four birds' là số nhiều nên động từ to be là 'are'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "The elephants aren't moving. They ______ still by the river.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stand"
+        },
+        {
+          "id": "b",
+          "label": "is standing"
+        },
+        {
+          "id": "c",
+          "label": "are standing"
+        },
+        {
+          "id": "d",
+          "label": "stood"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu 'They aren't moving' cho thấy trạng thái đang diễn ra tại thời điểm nói. Chủ ngữ 'They' là số nhiều nên dùng 'are standing'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "Look at that old elephant! A little monkey ______ on its back.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sits"
+        },
+        {
+          "id": "b",
+          "label": "is sitting"
+        },
+        {
+          "id": "c",
+          "label": "are sitting"
+        },
+        {
+          "id": "d",
+          "label": "sit"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'A little monkey' là số ít nên dùng 'is sitting'. 'Look at...' là dấu hiệu cho hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "The fox, the baby panda, and other animals ______ the sports meeting now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is watching"
+        },
+        {
+          "id": "b",
+          "label": "watch"
+        },
+        {
+          "id": "c",
+          "label": "are watching"
+        },
+        {
+          "id": "d",
+          "label": "watches"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ gồm nhiều con vật là số nhiều, nên dùng 'are watching'. 'Now' là dấu hiệu rõ ràng của thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "______ Polly ______ in the tree at the moment?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Are / sitting"
+        },
+        {
+          "id": "b",
+          "label": "Does / sit"
+        },
+        {
+          "id": "c",
+          "label": "Is / sit"
+        },
+        {
+          "id": "d",
+          "label": "Is / sitting"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Đây là câu hỏi Yes/No ở thì hiện tại tiếp diễn. Chủ ngữ 'Polly' là số ít nên dùng 'Is' và động từ ở dạng V-ing ('sitting')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "The monkey isn't climbing. It ______ a flag in its hand.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is holding"
+        },
+        {
+          "id": "b",
+          "label": "are holding"
+        },
+        {
+          "id": "c",
+          "label": "holds"
+        },
+        {
+          "id": "d",
+          "label": "hold"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu này miêu tả hành động đang diễn ra tại thời điểm nói. Chủ ngữ 'It' (the monkey) là số ít nên dùng 'is holding'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "Why ______ you ______ at the sky? Because the birds are singing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is / looking"
+        },
+        {
+          "id": "b",
+          "label": "do / look"
+        },
+        {
+          "id": "c",
+          "label": "are / looking"
+        },
+        {
+          "id": "d",
+          "label": "are / look"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về một hành động đang diễn ra. Chủ ngữ là 'you' nên cấu trúc câu hỏi là 'Why are you + V-ing?'."
+  }
+]

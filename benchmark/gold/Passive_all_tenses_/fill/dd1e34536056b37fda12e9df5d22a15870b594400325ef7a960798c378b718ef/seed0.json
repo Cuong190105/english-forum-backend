@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_01",
+      "prompt": "According to the text, a special gas _____ out by the cabbage plant whenever its surface is cut."
+    },
+    "answer": "is sent",
+    "hint": "Đây là sự thật khoa học, dùng thì hiện tại đơn. Cấu trúc bị động: to be (is) + V3 (sent)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_02",
+      "prompt": "For the experiment described in the text, the cabbage gene _____ by adding the protein luciferase."
+    },
+    "answer": "was changed",
+    "hint": "Hành động đã xảy ra và kết thúc trong quá khứ (for the experiment). Cấu trúc bị động: to be (was) + V3 (changed)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_03",
+      "prompt": "The research is exciting because for the first time, it _____ that plants can actually communicate."
+    },
+    "answer": "has been proved",
+    "hint": "Nhấn mạnh kết quả của hành động còn liên quan đến hiện tại (for the first time). Cấu trúc bị động: has been + V3 (proved)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_04",
+      "prompt": "The text states that further research _____ to understand if plants are warning each other."
+    },
+    "answer": "will be required",
+    "hint": "Nói về một hành động cần thiết trong tương lai. Cấu trúc bị động với 'will': will + be + V3 (required)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_05",
+      "prompt": "Thanks to the luciferase, the gas being sent out by the plant _____ clearly on video by the scientists."
+    },
+    "answer": "could be seen",
+    "hint": "Diễn tả khả năng trong quá khứ. Cấu trúc bị động với modal verb: could + be + V3 (seen)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_06",
+      "prompt": "The team, which _____ by Professor Nick Smirnoff, is very excited about the findings."
+    },
+    "answer": "is led",
+    "hint": "Mệnh đề quan hệ mô tả trạng thái hiện tại của nhóm. Cấu trúc bị động: to be (is) + V3 (led)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_07",
+      "prompt": "While the experiment _____, detailed notes were taken by the scientists to record every change."
+    },
+    "answer": "was being conducted",
+    "hint": "Diễn tả một hành động đang diễn ra tại một thời điểm trong quá khứ. Cấu trúc bị động quá khứ tiếp diễn: was + being + V3 (conducted)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_08",
+      "prompt": "By the time the scientists started recording, the plant's gene _____ with the special protein."
+    },
+    "answer": "had been changed",
+    "hint": "Hành động (thay đổi gen) đã hoàn tất trước một hành động khác trong quá khứ (bắt đầu ghi hình). Cấu trúc bị động quá khứ hoàn thành: had been + V3 (changed)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_09",
+      "prompt": "The scientists believe that a warning about danger needs _____ to the other plants."
+    },
+    "answer": "to be communicated",
+    "hint": "Sau 'needs', dùng động từ nguyên mẫu có 'to'. Ở dạng bị động, cấu trúc là 'to be + V3' (communicated)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pv_fill_10",
+      "prompt": "Based on these findings, more plants _____ for similar abilities by scientists right now."
+    },
+    "answer": "are being tested",
+    "hint": "Dấu hiệu 'right now' cho thấy hành động đang diễn ra. Cấu trúc bị động tiếp diễn: are + being + V3 (tested)."
+  }
+]

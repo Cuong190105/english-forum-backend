@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_001",
+      "prompt": "The discovery of two distinct African elephant species _____ by researchers at York and Harvard Universities last year."
+    },
+    "answer": "was made",
+    "hint": "Thì quá khứ đơn dạng bị động (was/were + V3) dùng để diễn tả hành động xảy ra và kết thúc trong quá khứ, có dấu hiệu \"last year\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_002",
+      "prompt": "In their groundbreaking study, the researchers _____ DNA sequences from ancient mammoth and mastodon fossils."
+    },
+    "answer": "obtained",
+    "hint": "\"In their groundbreaking study\" và ngữ cảnh khoa học đã hoàn thành chỉ ra thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_003",
+      "prompt": "After obtaining the DNA sequences, the team _____ them with DNA from modern elephants to find similarities."
+    },
+    "answer": "compared",
+    "hint": "Hành động \"obtained\" đã xảy ra trong quá khứ, nên hành động tiếp theo \"compared\" cũng phải ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_004",
+      "prompt": "To their amazement, the scientists _____ that modern forest and savanna elephants were as distinct as Asian elephants and mammoths."
+    },
+    "answer": "found",
+    "hint": "\"To their amazement\" và ngữ cảnh về một phát hiện đã hoàn thành trong quá khứ yêu cầu thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_005",
+      "prompt": "In their research, the scientists _____ detailed genetic analysis to prove the divergence of elephant species."
+    },
+    "answer": "used",
+    "hint": "\"In their research\" và việc chứng minh đã hoàn tất trong quá khứ đòi hỏi động từ ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_006",
+      "prompt": "The divergence of the two African elephant species _____ around the time of the divergence of Asian elephants and woolly mammoths."
+    },
+    "answer": "took place",
+    "hint": "Cụm từ \"around the time of\" chỉ một thời điểm cụ thể trong quá khứ, nên dùng thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_007",
+      "prompt": "This unexpected result _____ all the scientists involved in the study when it was published."
+    },
+    "answer": "amazed",
+    "hint": "\"When it was published\" là dấu hiệu của thì quá khứ đơn, diễn tả hành động đã xảy ra và kết thúc."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_008",
+      "prompt": "Previously, many naturalists _____ that African savanna elephants and forest elephants were the same species."
+    },
+    "answer": "believed",
+    "hint": "Trạng từ \"Previously\" rõ ràng chỉ một hành động, niềm tin đã tồn tại và kết thúc trong quá khứ, dùng thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_009",
+      "prompt": "Before the DNA analysis, these two elephant populations _____ considered the same species by many experts."
+    },
+    "answer": "were",
+    "hint": "\"Before the DNA analysis\" chỉ một thời điểm trong quá khứ, và chủ ngữ số nhiều \"populations\" yêu cầu \"were\" ở thì quá khứ đơn bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_010",
+      "prompt": "Alfred Roca, an assistant professor at the University of Illinois, _____ that forest elephants should become a bigger priority for conservation."
+    },
+    "answer": "said",
+    "hint": "Động từ tường thuật \"said\" dùng để kể lại lời nói trong quá khứ, nên động từ chính cũng ở thì quá khứ đơn."
+  }
+]

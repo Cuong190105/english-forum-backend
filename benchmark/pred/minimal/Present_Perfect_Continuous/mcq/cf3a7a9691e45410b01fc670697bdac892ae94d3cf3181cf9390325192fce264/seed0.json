@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "Based on the text, what has the writer been doing since 9-11?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He has been taking medicine."
+        },
+        {
+          "id": "b",
+          "label": "He has been fighting his alcoholism."
+        },
+        {
+          "id": "c",
+          "label": "He fought his alcoholism."
+        },
+        {
+          "id": "d",
+          "label": "He is fighting his alcoholism."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (Present Perfect Continuous) dùng để diễn tả hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại. \"Ever since I went through 9-11\" chỉ rõ điểm bắt đầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "The writer states, \"I have been hiding from my family since then.\" What does \"since then\" refer to in the context of the letter?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Since he went through 9-11."
+        },
+        {
+          "id": "b",
+          "label": "Since he started taking medicine."
+        },
+        {
+          "id": "c",
+          "label": "Since he fell down at the airport."
+        },
+        {
+          "id": "d",
+          "label": "Since he started having nightmares."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Since then\" thường ám chỉ sự kiện gần nhất được nhắc đến trước đó, trong trường hợp này là việc anh ta ngã ở sân bay và phải vào phòng cấp cứu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "Which sentence correctly uses the Present Perfect Continuous tense to describe an action that started in the past and is still ongoing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "I have taken some medicine."
+        },
+        {
+          "id": "b",
+          "label": "I have been taking some medicine."
+        },
+        {
+          "id": "c",
+          "label": "I took some medicine."
+        },
+        {
+          "id": "d",
+          "label": "I am taking some medicine."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have/has been + V-ing) nhấn mạnh tính liên tục của hành động từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "The phrase \"I've been fighting mine ever since I went through 9-11\" implies that the writer's struggle with alcoholism:",
+      "options": [
+        {
+          "id": "a",
+          "label": "started and finished after 9-11."
+        },
+        {
+          "id": "b",
+          "label": "started after 9-11 and is still continuing."
+        },
+        {
+          "id": "c",
+          "label": "happened only once after 9-11."
+        },
+        {
+          "id": "d",
+          "label": "will start in the future."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn diễn tả hành động bắt đầu trong quá khứ và vẫn tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "If the writer says, \"I have been drinking heavily for a week,\" what does it mean about his drinking?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He drank heavily last week and stopped."
+        },
+        {
+          "id": "b",
+          "label": "He started drinking heavily a week ago and is still doing so."
+        },
+        {
+          "id": "c",
+          "label": "He will drink heavily next week."
+        },
+        {
+          "id": "d",
+          "label": "He used to drink heavily for a week, but not anymore."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"For a week\" kết hợp với thì hiện tại hoàn thành tiếp diễn cho thấy hành động đã diễn ra liên tục trong khoảng thời gian đó và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Which of the following situations is best described using the Present Perfect Continuous tense?",
+      "options": [
+        {
+          "id": "a",
+          "label": "An action completed at a specific time in the past."
+        },
+        {
+          "id": "b",
+          "label": "A general truth or habit."
+        },
+        {
+          "id": "c",
+          "label": "An action that began in the past and is still ongoing, or has just stopped with a visible result."
+        },
+        {
+          "id": "d",
+          "label": "A future plan or arrangement."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn nhấn mạnh quá trình và sự liên tục của hành động từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "The sentence \"I have been hiding from my family since then\" primarily emphasizes:",
+      "options": [
+        {
+          "id": "a",
+          "label": "the completion of the hiding action."
+        },
+        {
+          "id": "b",
+          "label": "the duration and ongoing nature of the hiding."
+        },
+        {
+          "id": "c",
+          "label": "the exact moment the hiding started."
+        },
+        {
+          "id": "d",
+          "label": "a single instance of hiding in the past."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (Present Perfect Continuous) nhấn mạnh khoảng thời gian hành động đã diễn ra và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "In the sentence \"I've been fighting mine ever since I went through 9-11,\" what does \"ever since\" highlight?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The end point of the fighting."
+        },
+        {
+          "id": "b",
+          "label": "The continuous nature of the fighting from a past point until now."
+        },
+        {
+          "id": "c",
+          "label": "A cause-and-effect relationship between 9-11 and the fighting."
+        },
+        {
+          "id": "d",
+          "label": "A repeated action that happened many times in the past."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Ever since\" là một dấu hiệu mạnh mẽ cho thấy hành động đã bắt đầu từ một thời điểm cụ thể trong quá khứ và kéo dài liên tục đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "If the writer says, \"I have been having nightmares of people jumping,\" what does it imply about the nightmares?",
+      "options": [
+        {
+          "id": "a",
+          "label": "They occurred once in the past."
+        },
+        {
+          "id": "b",
+          "label": "They are a recurring and recent experience."
+        },
+        {
+          "id": "c",
+          "label": "They are expected to happen in the future."
+        },
+        {
+          "id": "d",
+          "label": "They are a permanent, unchanging condition."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (Present Perfect Continuous) với động từ \"have\" (trong nghĩa trải nghiệm) cho thấy một trải nghiệm đã diễn ra liên tục hoặc lặp đi lặp lại trong một khoảng thời gian gần đây."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Which of the following sentences correctly uses the Present Perfect Continuous to describe an action that has been happening up to the present moment?",
+      "options": [
+        {
+          "id": "a",
+          "label": "I have understood your struggle."
+        },
+        {
+          "id": "b",
+          "label": "I have taken medicine for a while."
+        },
+        {
+          "id": "c",
+          "label": "I have been hiding from my family for a week."
+        },
+        {
+          "id": "d",
+          "label": "I have fought alcoholism since 9-11."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu C sử dụng cấu trúc \"have been + V-ing\" và có \"for a week\" để chỉ rõ hành động \"hiding\" đã diễn ra liên tục trong một khoảng thời gian và vẫn đang tiếp diễn. Các lựa chọn khác dùng thì hiện tại hoàn thành đơn."
+  }
+]

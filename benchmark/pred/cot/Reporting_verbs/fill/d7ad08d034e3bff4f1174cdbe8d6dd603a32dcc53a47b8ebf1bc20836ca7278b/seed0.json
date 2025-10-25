@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_001",
+      "prompt": "A new report _____ that African governments are ill prepared to handle the growing number of people over age 65."
+    },
+    "answer": "states",
+    "hint": "Động từ tường thuật 'states' (hoặc 'suggests', 'indicates') phù hợp để báo cáo thông tin từ một báo cáo."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_002",
+      "prompt": "The African Development Bank _____ that aging is highly linked with long-term physical and mental disability."
+    },
+    "answer": "explained",
+    "hint": "'Explained' là động từ tường thuật thích hợp khi trình bày một sự thật hoặc mối liên hệ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_003",
+      "prompt": "Professor Mthuli Ncube _____ that Africa was not well prepared to care for its aging population."
+    },
+    "answer": "warned",
+    "hint": "'Warned' thể hiện sự cảnh báo về một tình trạng không tốt, phù hợp với ngữ cảnh."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_004",
+      "prompt": "Professor Mthuli Ncube _____ that African governments had failed to take action on health insurance and pensions."
+    },
+    "answer": "claimed",
+    "hint": "'Claimed' hoặc 'asserted' phù hợp khi tường thuật một tuyên bố về một sự việc đã xảy ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_005",
+      "prompt": "The African Development Bank _____ that governments help carry out health insurance and pension plans."
+    },
+    "answer": "recommended",
+    "hint": "'Recommended' là động từ tường thuật dùng khi đưa ra lời khuyên hoặc đề xuất."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_006",
+      "prompt": "Ncube _____ that African governments did not have to handle the health insurance burden alone."
+    },
+    "answer": "stressed",
+    "hint": "'Stressed' nhấn mạnh một điểm quan trọng, phù hợp với việc làm rõ trách nhiệm."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_007",
+      "prompt": "He _____ that it was not only a must but also an opportunity for private companies to contribute."
+    },
+    "answer": "added",
+    "hint": "'Added' được dùng khi tường thuật thêm một ý kiến hoặc thông tin bổ sung."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_008",
+      "prompt": "The report also _____ that African governments consider providing free health services for the elderly."
+    },
+    "answer": "suggested",
+    "hint": "'Suggested' là động từ tường thuật dùng khi đưa ra một ý tưởng hoặc đề xuất."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_009",
+      "prompt": "Experts _____ that the worsening of informal systems of social protection is another challenge for Africa."
+    },
+    "answer": "observed",
+    "hint": "'Observed' hoặc 'noted' phù hợp khi tường thuật một nhận định hoặc phát hiện."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "rv_fill_010",
+      "prompt": "The African Development Bank _____ concerns over the shortage of health insurance and pensions."
+    },
+    "answer": "raised",
+    "hint": "'Raised' (hoặc 'expressed') concerns là cụm từ phổ biến để tường thuật việc bày tỏ sự lo ngại."
+  }
+]

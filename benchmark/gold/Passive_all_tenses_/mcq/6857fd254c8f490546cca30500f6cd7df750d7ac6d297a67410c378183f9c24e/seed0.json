@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_01",
+      "prompt": "It is often said that English _____ in more and more schools abroad these days.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is being taught"
+        },
+        {
+          "id": "b",
+          "label": "teaches"
+        },
+        {
+          "id": "c",
+          "label": "was taught"
+        },
+        {
+          "id": "d",
+          "label": "has taught"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dấu hiệu 'these days' chỉ một quá trình đang diễn ra. Chủ ngữ 'English' không thể tự 'dạy' mà 'được dạy', nên dùng thì hiện tại tiếp diễn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_02",
+      "prompt": "The new word 'franglais' _____ in France many years ago to describe the influence of English.",
+      "options": [
+        {
+          "id": "a",
+          "label": "invented"
+        },
+        {
+          "id": "b",
+          "label": "is invented"
+        },
+        {
+          "id": "c",
+          "label": "was invented"
+        },
+        {
+          "id": "d",
+          "label": "has been invented"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dấu hiệu 'many years ago' chỉ một sự việc đã kết thúc trong quá khứ. 'The new word' phải 'được phát minh', nên dùng quá khứ đơn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_03",
+      "prompt": "To avoid misunderstandings, a common language _____ by international travelers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should use"
+        },
+        {
+          "id": "b",
+          "label": "should be used"
+        },
+        {
+          "id": "c",
+          "label": "must used"
+        },
+        {
+          "id": "d",
+          "label": "can use"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là câu khuyên bảo. Sau động từ khuyết thiếu (should) ở dạng bị động, ta dùng cấu trúc 'modal + be + V3/ed'. 'A common language' là vật nên dùng bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_04",
+      "prompt": "An artificial language like Esperanto _____ boring by many learners because it has no culture.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is thought"
+        },
+        {
+          "id": "b",
+          "label": "thinks"
+        },
+        {
+          "id": "c",
+          "label": "was thinking"
+        },
+        {
+          "id": "d",
+          "label": "has thought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu diễn tả một quan điểm, sự thật chung. 'An artificial language' không thể tự 'suy nghĩ' mà 'được cho là', nên dùng hiện tại đơn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_05",
+      "prompt": "By the time we arrived at the meeting yesterday, the two possible solutions _____ already.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had discussed"
+        },
+        {
+          "id": "b",
+          "label": "were discussing"
+        },
+        {
+          "id": "c",
+          "label": "had been discussed"
+        },
+        {
+          "id": "d",
+          "label": "have been discussed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'thảo luận' xảy ra trước một hành động khác trong quá khứ ('arrived'). 'Solutions' không tự thảo luận, nên dùng quá khứ hoàn thành bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_06",
+      "prompt": "In the future, it is predicted that modern methods of transport _____ even further by technology.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will improve"
+        },
+        {
+          "id": "b",
+          "label": "will be improved"
+        },
+        {
+          "id": "c",
+          "label": "are improved"
+        },
+        {
+          "id": "d",
+          "label": "have been improved"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu diễn tả một dự đoán trong tương lai ('In the future'). 'Methods of transport' không tự 'cải thiện', nên dùng tương lai đơn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_07",
+      "prompt": "Since the 1990s, English _____ as the main language of international business.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was used"
+        },
+        {
+          "id": "b",
+          "label": "has been used"
+        },
+        {
+          "id": "c",
+          "label": "is using"
+        },
+        {
+          "id": "d",
+          "label": "used"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dấu hiệu 'Since the 1990s' chỉ một hành động bắt đầu trong quá khứ và kéo dài đến hiện tại. 'English' phải 'được sử dụng', nên dùng hiện tại hoàn thành bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_08",
+      "prompt": "While the new education policy _____ last month, many parents expressed their concerns.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was implementing"
+        },
+        {
+          "id": "b",
+          "label": "implemented"
+        },
+        {
+          "id": "c",
+          "label": "is being implemented"
+        },
+        {
+          "id": "d",
+          "label": "was being implemented"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'thực thi' đang diễn ra song song với một hành động khác trong quá khứ ('expressed'). 'Policy' không tự thực thi, nên dùng quá khứ tiếp diễn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_09",
+      "prompt": "According to the plan, a new language center _____ in our city next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to build"
+        },
+        {
+          "id": "b",
+          "label": "will be building"
+        },
+        {
+          "id": "c",
+          "label": "is going to be built"
+        },
+        {
+          "id": "d",
+          "label": "has been built"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu diễn tả một kế hoạch trong tương lai ('next year'). 'A new language center' không thể tự 'xây dựng', nên dùng cấu trúc bị động với 'be going to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_mcq_10",
+      "prompt": "By 2030, it is expected that English _____ by over two billion people worldwide.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will have been spoken"
+        },
+        {
+          "id": "b",
+          "label": "will speak"
+        },
+        {
+          "id": "c",
+          "label": "is spoken"
+        },
+        {
+          "id": "d",
+          "label": "was spoken"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dấu hiệu 'By 2030' chỉ một hành động sẽ hoàn tất trước một thời điểm trong tương lai. 'English' phải 'được nói', nên dùng tương lai hoàn thành bị động."
+  }
+]

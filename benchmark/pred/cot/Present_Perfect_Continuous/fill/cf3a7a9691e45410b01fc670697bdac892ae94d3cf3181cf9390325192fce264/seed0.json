@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_001",
+      "prompt": "I _____ (fight) mine ever since I went through 9-11."
+    },
+    "answer": "have been fighting",
+    "hint": "Hành động 'fighting' bắt đầu trong quá khứ (sau 9-11) và vẫn tiếp diễn đến hiện tại, nhấn mạnh quá trình. Dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_002",
+      "prompt": "She _____ (hide) from her family since the incident at the airport."
+    },
+    "answer": "has been hiding",
+    "hint": "Hành động 'hiding' bắt đầu từ một thời điểm trong quá khứ ('since the incident') và vẫn đang tiếp diễn. Dùng Hiện tại Hoàn thành Tiếp diễn để nhấn mạnh sự liên tục."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_003",
+      "prompt": "He _____ (take) medicine for several months, but the attacks still occur."
+    },
+    "answer": "has been taking",
+    "hint": "Hành động 'taking medicine' bắt đầu trong quá khứ và kéo dài đến hiện tại ('for several months'). Thì Hiện tại Hoàn thành Tiếp diễn phù hợp để diễn tả quá trình này."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_004",
+      "prompt": "The writer _____ (struggle) with alcoholism for a long time, and it's still affecting his life."
+    },
+    "answer": "has been struggling",
+    "hint": "Hành động 'struggling' bắt đầu trong quá khứ và vẫn tiếp diễn, hoặc vừa kết thúc nhưng có ảnh hưởng đến hiện tại. Dùng Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_005",
+      "prompt": "How long _____ you _____ (try) to overcome this addiction?"
+    },
+    "answer": "have been trying",
+    "hint": "Câu hỏi về khoảng thời gian một hành động đã diễn ra và vẫn còn tiếp diễn đến hiện tại. Cấu trúc 'How long' thường đi với Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_006",
+      "prompt": "I _____ (not sleep) well since I started having these nightmares."
+    },
+    "answer": "have not been sleeping",
+    "hint": "Hành động 'not sleeping' bắt đầu từ một thời điểm trong quá khứ ('since I started') và vẫn tiếp diễn đến hiện tại. Dùng Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_007",
+      "prompt": "The support group _____ (help) him manage his cravings for the last two months."
+    },
+    "answer": "has been helping",
+    "hint": "Hành động 'helping' bắt đầu trong quá khứ ('for the last two months') và vẫn tiếp diễn đến hiện tại. Dùng Hiện tại Hoàn thành Tiếp diễn để nhấn mạnh quá trình."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_008",
+      "prompt": "He _____ (feel) guilty about the incident at the airport all week."
+    },
+    "answer": "has been feeling",
+    "hint": "Trạng thái 'feeling guilty' bắt đầu trong quá khứ ('all week') và vẫn tiếp diễn đến hiện tại. Dùng Hiện tại Hoàn thành Tiếp diễn để nhấn mạnh sự liên tục của cảm xúc."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_009",
+      "prompt": "Lately, I _____ (think) a lot about finding a way out of this situation."
+    },
+    "answer": "have been thinking",
+    "hint": "Từ 'lately' chỉ một hành động bắt đầu gần đây và vẫn tiếp diễn đến hiện tại. Thì Hiện tại Hoàn thành Tiếp diễn phù hợp để diễn tả điều này."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_010",
+      "prompt": "The doctors _____ (research) new treatments for addiction for several years now."
+    },
+    "answer": "have been researching",
+    "hint": "Hành động 'researching' bắt đầu trong quá khứ ('for several years') và vẫn đang tiếp diễn đến hiện tại. Thì Hiện tại Hoàn thành Tiếp diễn diễn tả quá trình này."
+  }
+]
