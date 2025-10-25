@@ -1,3 +1,0 @@
-run_id,metric,n_pairs,delta_mean,delta_std,delta_se,delta_ci95_low,delta_ci95_high,delta_ci95_halfwidth_H,delta_ci_level,delta_H_target,delta_meets_H_target,delta_significant
-race50more_fill_min_cot_i5_s0_smoketest,semantic,5,0.0014,0.0448,0.0201,-0.0379,0.0407,0.0393,0.95,0.04,1,0
-race50more_fill_min_cot_i5_s0_smoketest,judge,5,0.0,0.0,0.0,0.0,0.0,0.0,0.95,0.05,1,0

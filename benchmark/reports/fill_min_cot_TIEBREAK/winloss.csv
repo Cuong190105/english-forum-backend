@@ -1,2 +1,0 @@
-run_id,semantic_wins,semantic_losses,semantic_ties,semantic_n_effective,semantic_win_rate,semantic_binomial_p,judge_wins,judge_losses,judge_ties,judge_n_effective,judge_win_rate,judge_binomial_p
-fill_min_cot_TIEBREAK,12,8,0,20,0.6,0.503445,16,4,0,20,0.8,0.011818

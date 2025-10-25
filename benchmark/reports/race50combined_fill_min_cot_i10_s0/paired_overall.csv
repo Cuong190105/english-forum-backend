@@ -1,3 +1,0 @@
-run_id,metric,n_pairs,delta_mean,delta_std,delta_se,delta_ci95_low,delta_ci95_high,delta_ci95_halfwidth_H,delta_ci_level,delta_H_target,delta_meets_H_target,delta_significant
-race50combined_fill_min_cot_i10_s0,semantic,50,-0.0114,0.0573,0.0081,-0.0273,0.0044,0.0159,0.95,0.04,1,0
-race50combined_fill_min_cot_i10_s0,judge,50,0.01,0.0763,0.0108,-0.0111,0.0311,0.0211,0.95,0.05,1,0

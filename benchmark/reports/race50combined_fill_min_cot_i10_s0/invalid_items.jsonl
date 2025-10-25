@@ -1,8 +1,0 @@
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Present Perfect Continuous", "type": "fill", "seed": 0, "error": "i5: fill_blank_count != 1"}
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Present Continuous", "type": "fill", "seed": 0, "error": "i7: fill_blank_count != 1"}
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Past Perfect", "type": "fill", "seed": 0, "error": "i3: fill_blank_count != 1"}
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Past Perfect", "type": "fill", "seed": 0, "error": "i4: fill_blank_count != 1"}
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Past Perfect", "type": "fill", "seed": 0, "error": "i5: fill_blank_count != 1"}
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Past Perfect", "type": "fill", "seed": 0, "error": "i7: fill_blank_count != 1"}
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Past Perfect", "type": "fill", "seed": 0, "error": "i9: fill_blank_count != 1"}
-{"run_id": "race50combined_fill_min_cot_i10_s0", "where": "pred", "config": "cot", "topic": "Past Perfect", "type": "fill", "seed": 0, "error": "i10: fill_blank_count != 1"}

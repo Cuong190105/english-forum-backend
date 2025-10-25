@@ -1,2 +1,0 @@
-run_id,type,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
-fill_min_cot_TIEBREAK,mcq,400,0.7425,0.6996,0.7854,0.4557,0.5142

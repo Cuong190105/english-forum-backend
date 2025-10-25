@@ -1,5 +1,0 @@
-run_id,config,topic,type,seed,n_items,structural_pass_pct,semantic_mean,semantic_std,semantic_se,semantic_ci95_low,semantic_ci95_high,judge_mean,judge_std,judge_se,judge_ci95_low,judge_ci95_high,judge2_mean,judge2_std,judge2_se,judge2_ci95_low,judge2_ci95_high
-smoke_fill_min_cot_i5_s0_afterpatch,minimal,First Conditional,fill,0,5,100.0,0.5693,0.1129,0.0505,0.4704,0.6683,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
-smoke_fill_min_cot_i5_s0_afterpatch,cot,First Conditional,fill,0,5,100.0,0.5337,0.0576,0.0258,0.4832,0.5842,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
-smoke_fill_min_cot_i5_s0_afterpatch,minimal,First Conditional,fill,0,5,100.0,0.6223,0.1056,0.0472,0.5298,0.7149,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
-smoke_fill_min_cot_i5_s0_afterpatch,cot,First Conditional,fill,0,5,100.0,0.721,0.1791,0.0801,0.564,0.878,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0

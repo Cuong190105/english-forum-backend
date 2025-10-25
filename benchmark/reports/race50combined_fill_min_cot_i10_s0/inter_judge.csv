@@ -1,2 +1,0 @@
-run_id,type,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
-race50combined_fill_min_cot_i10_s0,fill,999,0.9309,0.9152,0.9467,0.4111,0.9219

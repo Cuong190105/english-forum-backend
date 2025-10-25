@@ -1,0 +1,106 @@
+{
+  "tenses_aspects": [
+    {"id": "present_simple", "display": "Present Simple"},
+    {"id": "present_continuous", "display": "Present Continuous"},
+    {"id": "present_perfect", "display": "Present Perfect"},
+    {"id": "present_perfect_continuous", "display": "Present Perfect Continuous"},
+    {"id": "past_simple", "display": "Past Simple"},
+    {"id": "past_continuous", "display": "Past Continuous"},
+    {"id": "past_perfect", "display": "Past Perfect"},
+    {"id": "past_perfect_continuous", "display": "Past Perfect Continuous"},
+    {"id": "future_will", "display": "Future (will)"},
+    {"id": "future_going_to", "display": "Future (going to)"},
+    {"id": "present_continuous_future", "display": "Present Continuous (future arrangements)"},
+    {"id": "used_to", "display": "Used to"},
+    {"id": "would_past_habit", "display": "Would (past habit)"}
+  ],
+  "conditionals_hypothesis": [
+    {"id": "zero_conditional", "display": "Zero Conditional"},
+    {"id": "first_conditional", "display": "First Conditional"},
+    {"id": "second_conditional", "display": "Second Conditional"},
+    {"id": "third_conditional", "display": "Third Conditional"},
+    {"id": "mixed_conditional", "display": "Mixed Conditional"},
+    {"id": "conditional_subordinators", "display": "Unless / Provided that / As long as"},
+    {"id": "wish_if_only", "display": "Wish / If only"}
+  ],
+  "passive_causative": [
+    {"id": "passive_all_tenses", "display": "Passive (all tenses)"},
+    {"id": "passive_with_modals", "display": "Passive with modals"},
+    {"id": "causative_have_get", "display": "Causative: have/get something done"}
+  ],
+  "reported_speech": [
+    {"id": "backshifting_tenses", "display": "Backshifting tenses"},
+    {"id": "time_place_pronoun_shift", "display": "Adverbial/pronoun changes (today→that day, here→there…)"},
+    {"id": "reported_questions", "display": "Reported questions"},
+    {"id": "reporting_verbs", "display": "Reporting verbs"}
+  ],
+  "modals": [
+    {"id": "can_could", "display": "can/could"},
+    {"id": "may_might", "display": "may/might"},
+    {"id": "must_have_to", "display": "must/have to"},
+    {"id": "should_ought_to", "display": "should/ought to"},
+    {"id": "be_able_to", "display": "be able to"},
+    {"id": "be_supposed_to", "display": "be supposed to"},
+    {"id": "past_modals_deduction", "display": "Past modals of deduction (must/might/could have + V3)"}
+  ],
+  "relatives_participles": [
+    {"id": "defining_vs_nondefining", "display": "Defining vs Non-defining"},
+    {"id": "relative_pronouns_set", "display": "who/whom/which/that/whose"},
+    {"id": "reduced_relative", "display": "Reduced relative clauses"},
+    {"id": "participle_clauses", "display": "Participle clauses (V-ing/V-ed)"}
+  ],
+  "gerunds_infinitives": [
+    {"id": "ing_vs_to", "display": "V-ing vs to-V"},
+    {"id": "verb_patterns", "display": "Verb patterns (advise sb to…, make/let + bare inf…)"},
+    {"id": "prep_plus_gerund", "display": "Preposition + V-ing"}
+  ],
+  "sva": [
+    {"id": "agreement_basics", "display": "Subject–Verb Agreement (basics)"},
+    {"id": "collective_nouns", "display": "Collective nouns"},
+    {"id": "either_neither_none", "display": "either/neither/none (agreement)"},
+    {"id": "a_number_the_number", "display": "a number of / the number of"},
+    {"id": "each_every", "display": "each/every (singular agreement)"},
+    {"id": "noun_clause_subject", "display": "Noun clause as subject (agreement)"}
+  ],
+  "articles_determiners": [
+    {"id": "a_an_the_zero", "display": "a/an/the/zero"},
+    {"id": "demonstratives", "display": "this/that/these/those"},
+    {"id": "quantifiers", "display": "some/any/much/many/few/little"},
+    {"id": "both_either_neither_determiners", "display": "both/either/neither (determiners)"},
+    {"id": "countable_uncountable", "display": "Countable vs Uncountable (link to articles/quantifiers)"}
+  ],
+  "prepositions": [
+    {"id": "prep_time", "display": "Time (in/on/at/by/for/since/during/over)"},
+    {"id": "prep_place", "display": "Place (in/on/at/into/onto/…)"},
+    {"id": "prep_phrases", "display": "Phrases (in spite of/despite/because of/according to/…)"}
+  ],
+  "comparisons": [
+    {"id": "comp_sup_forms", "display": "Comparative/Superlative forms"},
+    {"id": "less_fewer_more_most", "display": "less/fewer/more/most"},
+    {"id": "as_as", "display": "as…as"},
+    {"id": "too_enough_to", "display": "too/enough + to V"},
+    {"id": "double_comparatives", "display": "Double comparatives"}
+  ],
+  "emphasis_inversion": [
+    {"id": "negative_adverbial_inversion", "display": "Inversion with negative adverbials (Never/Rarely/Hardly/No sooner…)"},
+    {"id": "conditional_inversion", "display": "If-omitted inversion (Had/Should/Were…)"},
+    {"id": "cleft_it", "display": "Cleft sentences (It is/was … that …)"},
+    {"id": "what_cleft", "display": "What-cleft"}
+  ],
+  "linking_adverbial": [
+    {"id": "linking_semantics", "display": "Time/Reason/Purpose/Result/Concession/Condition"},
+    {"id": "so_so_that", "display": "so / so that"},
+    {"id": "such_that", "display": "such … that"},
+    {"id": "contrast_markers", "display": "Contrast (however/although/whereas/…)"}
+  ],
+  "questions_special": [
+    {"id": "direct_indirect", "display": "Direct vs Indirect questions"},
+    {"id": "question_tags", "display": "Question tags"},
+    {"id": "ellipsis_substitution", "display": "Ellipsis/Substitution (so/neither, do so, etc.)"}
+  ],
+  "word_order": [
+    {"id": "adjective_order", "display": "Adjective order"},
+    {"id": "adverb_position", "display": "Adverb position"},
+    {"id": "focus_emphasis", "display": "Focus/Emphasis (non-inversion word order)"}
+  ]
+}
