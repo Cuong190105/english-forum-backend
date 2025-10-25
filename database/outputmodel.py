@@ -16,6 +16,7 @@ class SimpleUser(BaseModel):
     following_count: int
     post_count: int
     comment_count: int
+    upvote_count: int
 
 class SimpleAttachment(BaseModel):
     media_filename: str
