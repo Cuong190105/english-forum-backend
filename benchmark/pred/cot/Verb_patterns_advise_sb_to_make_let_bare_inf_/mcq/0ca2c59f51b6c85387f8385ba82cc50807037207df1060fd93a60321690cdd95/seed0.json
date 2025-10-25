@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_001",
+      "prompt": "White often isn't the best choice because it can _____ your skin look a bit gray.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "to make"
+        },
+        {
+          "id": "c",
+          "label": "making"
+        },
+        {
+          "id": "d",
+          "label": "makes"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'make + tân ngữ + động từ nguyên mẫu không 'to'' (bare infinitive) được dùng để diễn tả việc khiến ai/cái gì làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_002",
+      "prompt": "The photographer _____ us to practice smiling naturally before the photo shoot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "advised us practicing"
+        },
+        {
+          "id": "b",
+          "label": "advised us to practice"
+        },
+        {
+          "id": "c",
+          "label": "advised us practice"
+        },
+        {
+          "id": "d",
+          "label": "advised us for practicing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'advise' thường đi với cấu trúc 'advise somebody to do something' (khuyên ai làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_003",
+      "prompt": "My parents wouldn't _____ me dye my hair a bright color for the yearbook photo.",
+      "options": [
+        {
+          "id": "a",
+          "label": "let"
+        },
+        {
+          "id": "b",
+          "label": "to let"
+        },
+        {
+          "id": "c",
+          "label": "letting"
+        },
+        {
+          "id": "d",
+          "label": "let me to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'let + tân ngữ + động từ nguyên mẫu không 'to'' (bare infinitive) có nghĩa là cho phép ai làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_004",
+      "prompt": "You should _____ smiling in a mirror to find your most attractive face.",
+      "options": [
+        {
+          "id": "a",
+          "label": "practice"
+        },
+        {
+          "id": "b",
+          "label": "practice to smile"
+        },
+        {
+          "id": "c",
+          "label": "practice to smiling"
+        },
+        {
+          "id": "d",
+          "label": "practice smile"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'practice' luôn theo sau bởi một động từ ở dạng V-ing (danh động từ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_005",
+      "prompt": "You should _____ practicing until you find your most attractive smiling face.",
+      "options": [
+        {
+          "id": "a",
+          "label": "keep"
+        },
+        {
+          "id": "b",
+          "label": "keep to practice"
+        },
+        {
+          "id": "c",
+          "label": "keep practice"
+        },
+        {
+          "id": "d",
+          "label": "keep to practicing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'keep' (tiếp tục) thường theo sau bởi một động từ ở dạng V-ing (danh động từ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_006",
+      "prompt": "It's best to _____ big changes to your appearance right before the photo.",
+      "options": [
+        {
+          "id": "a",
+          "label": "avoid making"
+        },
+        {
+          "id": "b",
+          "label": "avoid to make"
+        },
+        {
+          "id": "c",
+          "label": "avoid make"
+        },
+        {
+          "id": "d",
+          "label": "avoid to making"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'avoid' (tránh) luôn theo sau bởi một động từ ở dạng V-ing (danh động từ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_007",
+      "prompt": "You surely _____ take a good school yearbook photo.",
+      "options": [
+        {
+          "id": "a",
+          "label": "want to"
+        },
+        {
+          "id": "b",
+          "label": "want taking"
+        },
+        {
+          "id": "c",
+          "label": "want take"
+        },
+        {
+          "id": "d",
+          "label": "want for taking"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'want' thường đi với cấu trúc 'want to do something' (muốn làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_008",
+      "prompt": "You _____ prepare a little to make a natural-looking smile for the camera.",
+      "options": [
+        {
+          "id": "a",
+          "label": "need to"
+        },
+        {
+          "id": "b",
+          "label": "need preparing"
+        },
+        {
+          "id": "c",
+          "label": "need prepare"
+        },
+        {
+          "id": "d",
+          "label": "need for preparing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi chủ ngữ là người và thực hiện hành động, 'need' thường đi với 'to-V' (cần làm gì). 'Need V-ing' thường mang nghĩa bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_009",
+      "prompt": "After practicing for an hour, she _____ a break.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stopped taking"
+        },
+        {
+          "id": "b",
+          "label": "stopped to take"
+        },
+        {
+          "id": "c",
+          "label": "stopped take"
+        },
+        {
+          "id": "d",
+          "label": "stopped for taking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Stop to V' nghĩa là dừng lại để làm gì đó. 'Stop V-ing' nghĩa là dừng hẳn việc đang làm. Ở đây là dừng để nghỉ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vp_010",
+      "prompt": "Don't forget to comb your hair. Remember _____ it up right before the photo is taken.",
+      "options": [
+        {
+          "id": "a",
+          "label": "combing"
+        },
+        {
+          "id": "b",
+          "label": "to comb"
+        },
+        {
+          "id": "c",
+          "label": "comb"
+        },
+        {
+          "id": "d",
+          "label": "for combing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Remember to V' nghĩa là nhớ phải làm gì đó (một nhiệm vụ hoặc hành động trong tương lai). 'Remember V-ing' nghĩa là nhớ lại một việc đã làm trong quá khứ."
+  }
+]

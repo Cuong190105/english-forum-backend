@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_001",
+      "prompt": "If children stay in a museum for too long, they _____ tired and impatient."
+    },
+    "answer": "will become",
+    "hint": "Câu điều kiện loại 1 diễn tả khả năng có thật ở tương lai. Mệnh đề chính dùng 'will + động từ nguyên mẫu'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_002",
+      "prompt": "A young visitor will get more out of the visit if he _____ on no more than nine objects."
+    },
+    "answer": "focuses",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Chủ ngữ ngôi thứ ba số ít (he) nên động từ phải thêm '-es'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_003",
+      "prompt": "If you _____ to see too many things in one visit, you will get 'museum feet'."
+    },
+    "answer": "try",
+    "hint": "Trong câu điều kiện loại 1, mệnh đề chứa 'if' sử dụng thì hiện tại đơn. Chủ ngữ 'you' đi với động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_004",
+      "prompt": "The children _____ bored if they just look at paintings without any interaction."
+    },
+    "answer": "will get",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 1 dùng 'will + động từ nguyên mẫu' để chỉ kết quả có thể xảy ra trong tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_005",
+      "prompt": "If a child _____ something interesting like a strange sound or smell, he will be more engaged."
+    },
+    "answer": "finds",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Chủ ngữ 'a child' là ngôi thứ ba số ít nên động từ thêm '-s'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_006",
+      "prompt": "Their feet will be happy if the museum visit _____ longer than one and a half hours."
+    },
+    "answer": "is not",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Động từ 'to be' chia là 'is' với chủ ngữ số ít 'the museum visit'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_007",
+      "prompt": "If we _____ a short break, their eyes and minds will stay sharp."
+    },
+    "answer": "take",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Đừng nhầm lẫn với thì tương lai 'will take'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_008",
+      "prompt": "The average visitor _____ at an object for longer than four seconds if it is truly captivating."
+    },
+    "answer": "will look",
+    "hint": "Câu điều kiện loại 1 diễn tả một sự việc có thể xảy ra. Mệnh đề chính dùng cấu trúc 'will + động từ nguyên mẫu'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_009",
+      "prompt": "You will avoid 'museum feet' tomorrow if you _____ a good plan for the visit today."
+    },
+    "answer": "make",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn, ngay cả khi mệnh đề chính nói về tương lai (tomorrow)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "FC_F_010",
+      "prompt": "If a child says 'This is boring', the parents _____ their strategy for the museum tour."
+    },
+    "answer": "should change",
+    "hint": "Ngoài 'will', mệnh đề chính trong câu điều kiện loại 1 có thể dùng các động từ khuyết thiếu khác như 'should' để đưa ra lời khuyên."
+  }
+]

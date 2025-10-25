@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "Before the father telephoned his daughter from Florida, he ______ her the tree.",
+      "options": [
+        {
+          "id": "a",
+          "label": "brought"
+        },
+        {
+          "id": "b",
+          "label": "had brought"
+        },
+        {
+          "id": "c",
+          "label": "was bringing"
+        },
+        {
+          "id": "d",
+          "label": "has brought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động mang cây xảy ra trước khi ông gọi điện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "When the daughter was on the plane, she regretted that she ______ enough time to talk to her father.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't take"
+        },
+        {
+          "id": "b",
+          "label": "hadn't taken"
+        },
+        {
+          "id": "c",
+          "label": "wasn't taking"
+        },
+        {
+          "id": "d",
+          "label": "hasn't taken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc không dành thời gian xảy ra trước khi cô ấy hối tiếc trên máy bay."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "By the time the daughter arrived in Florida, her father ______.",
+      "options": [
+        {
+          "id": "a",
+          "label": "passed away"
+        },
+        {
+          "id": "b",
+          "label": "had passed away"
+        },
+        {
+          "id": "c",
+          "label": "was passing away"
+        },
+        {
+          "id": "d",
+          "label": "has passed away"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cái chết của người cha xảy ra trước khi con gái đến nơi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "For 22 years, the father called his daughter every Sunday. This routine started after she ______ for college.",
+      "options": [
+        {
+          "id": "a",
+          "label": "left"
+        },
+        {
+          "id": "b",
+          "label": "had left"
+        },
+        {
+          "id": "c",
+          "label": "was leaving"
+        },
+        {
+          "id": "d",
+          "label": "has left"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc cô con gái rời nhà đi học xảy ra trước khi thói quen gọi điện hàng tuần bắt đầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "Nine years ago, the daughter bought her first house. Her father ______ it for three days before she could move in.",
+      "options": [
+        {
+          "id": "a",
+          "label": "painted"
+        },
+        {
+          "id": "b",
+          "label": "had painted"
+        },
+        {
+          "id": "c",
+          "label": "was painting"
+        },
+        {
+          "id": "d",
+          "label": "has painted"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc sơn nhà hoàn thành trước khi cô con gái dọn vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Before her daughter started playing on it, the father ______ a swingset for his granddaughter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "put together"
+        },
+        {
+          "id": "b",
+          "label": "had put together"
+        },
+        {
+          "id": "c",
+          "label": "was putting together"
+        },
+        {
+          "id": "d",
+          "label": "has put together"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc lắp đặt xích đu hoàn thành trước khi cháu gái bắt đầu chơi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "When the father called from Florida, he seemed to have forgotten some things, indicating that his memory ______ already ______.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was...failing"
+        },
+        {
+          "id": "b",
+          "label": "had...failed"
+        },
+        {
+          "id": "c",
+          "label": "has...failed"
+        },
+        {
+          "id": "d",
+          "label": "is...failing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc trí nhớ suy giảm xảy ra trước thời điểm ông gọi điện và có vẻ đã quên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "Four years ago, the father drove a tree from Denver to Topeka. He ______ a long journey before he arrived at his daughter's home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took"
+        },
+        {
+          "id": "b",
+          "label": "had taken"
+        },
+        {
+          "id": "c",
+          "label": "was taking"
+        },
+        {
+          "id": "d",
+          "label": "has taken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chuyến đi dài đã hoàn thành trước khi ông đến nhà con gái."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "After her father passed away, the daughter realized that she ______ no idea who he was.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "had had"
+        },
+        {
+          "id": "c",
+          "label": "was having"
+        },
+        {
+          "id": "d",
+          "label": "has had"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc không biết về cha mình đã xảy ra và kéo dài cho đến trước thời điểm cô ấy nhận ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "The daughter was too busy to spend time with her father on several occasions. She ______ many opportunities to talk to him before his final call.",
+      "options": [
+        {
+          "id": "a",
+          "label": "missed"
+        },
+        {
+          "id": "b",
+          "label": "had missed"
+        },
+        {
+          "id": "c",
+          "label": "was missing"
+        },
+        {
+          "id": "d",
+          "label": "has missed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc bỏ lỡ các cơ hội đã xảy ra và tích lũy trước cuộc gọi cuối cùng của người cha."
+  }
+]

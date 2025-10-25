@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_01",
+      "prompt": "To get a good photo, you surely want _____ your best for the camera."
+    },
+    "answer": "to look",
+    "hint": "Động từ 'want' (muốn) thường đi với 'to-infinitive' để chỉ mục đích hoặc mong muốn. Cấu trúc: want + to V."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_02",
+      "prompt": "Wearing white isn't the best choice because it can make your skin _____ a bit gray."
+    },
+    "answer": "look",
+    "hint": "Sau 'make' trong cấu trúc 'make somebody do something' (khiến ai làm gì), ta dùng động từ nguyên mẫu không 'to'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_03",
+      "prompt": "The guide suggests that you should practice _____ in front of a mirror to find your best angle."
+    },
+    "answer": "smiling",
+    "hint": "Động từ 'practice' (luyện tập) được theo sau bởi một danh động từ (V-ing). Cấu trúc: practice + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_04",
+      "prompt": "For a classic yearbook photo, you should avoid _____ clothes with busy patterns."
+    },
+    "answer": "wearing",
+    "hint": "Động từ 'avoid' (tránh) yêu cầu một danh động từ (V-ing) theo sau. Cấu trúc: avoid + V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_05",
+      "prompt": "The photographer told me to keep _____ until he got the perfect shot."
+    },
+    "answer": "smiling",
+    "hint": "Cấu trúc 'keep + V-ing' có nghĩa là tiếp tục làm một việc gì đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_06",
+      "prompt": "My friend advised me _____ my outfit the night before photo day to avoid any last-minute problems."
+    },
+    "answer": "to prepare",
+    "hint": "Cấu trúc 'advise somebody to do something' (khuyên ai làm gì) dùng 'to-infinitive'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_07",
+      "prompt": "The photographer tried to let the students _____ more natural by telling a few jokes."
+    },
+    "answer": "feel",
+    "hint": "Sau 'let' trong cấu trúc 'let somebody do something' (để ai làm gì), ta dùng động từ nguyên mẫu không 'to'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_08",
+      "prompt": "If you feel nervous, stop _____ about the camera for a moment and think of something happy."
+    },
+    "answer": "thinking",
+    "hint": "'Stop + V-ing' có nghĩa là dừng hẳn một hành động đang diễn ra. 'Stop to think' có nghĩa là dừng lại để suy nghĩ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_09",
+      "prompt": "Please remember _____ your hair neatly right before the photo is taken."
+    },
+    "answer": "to comb",
+    "hint": "'Remember + to V' có nghĩa là nhớ phải làm một việc gì đó (chưa xảy ra). 'Remember + V-ing' là nhớ lại một việc đã làm."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vpat_f_10",
+      "prompt": "If you can't get a natural smile, try _____ of a happy memory from your school year."
+    },
+    "answer": "thinking",
+    "hint": "'Try + V-ing' có nghĩa là thử làm gì đó để xem kết quả. 'Try to V' có nghĩa là cố gắng, nỗ lực làm gì."
+  }
+]

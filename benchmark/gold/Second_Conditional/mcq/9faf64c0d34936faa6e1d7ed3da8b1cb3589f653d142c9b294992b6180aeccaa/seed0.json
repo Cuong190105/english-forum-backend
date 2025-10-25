@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_001",
+      "prompt": "If Lucien's father were here now, the boy _____ the stars in the sky again.",
+      "options": [
+        {
+          "id": "a",
+          "label": "could see"
+        },
+        {
+          "id": "b",
+          "label": "can see"
+        },
+        {
+          "id": "c",
+          "label": "sees"
+        },
+        {
+          "id": "d",
+          "label": "has seen"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 2: Mệnh đề chính dùng 'would/could + V-nguyên mẫu' để diễn tả kết quả của một giả định không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_002",
+      "prompt": "What would you do if you _____ a letter as touching as Lucien's?",
+      "options": [
+        {
+          "id": "a",
+          "label": "receive"
+        },
+        {
+          "id": "b",
+          "label": "received"
+        },
+        {
+          "id": "c",
+          "label": "would receive"
+        },
+        {
+          "id": "d",
+          "label": "are receiving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu điều kiện loại 2: Mệnh đề 'if' phải dùng thì quá khứ đơn để diễn tả một tình huống giả định, không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_003",
+      "prompt": "If the author's parents were still alive today, he _____ them how much their values mean to him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will tell"
+        },
+        {
+          "id": "b",
+          "label": "tells"
+        },
+        {
+          "id": "c",
+          "label": "told"
+        },
+        {
+          "id": "d",
+          "label": "would tell"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 2 có cấu trúc 'would + động từ nguyên mẫu' để nói về kết quả của một giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_004",
+      "prompt": "There might be fewer knives on our streets if more people _____ about the legacy they leave behind.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cared"
+        },
+        {
+          "id": "b",
+          "label": "care"
+        },
+        {
+          "id": "c",
+          "label": "would care"
+        },
+        {
+          "id": "d",
+          "label": "are caring"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dù mệnh đề 'if' đứng ở vế sau, động từ trong mệnh đề này vẫn phải chia ở thì quá khứ đơn trong câu điều kiện loại 2."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_005",
+      "prompt": "If I _____ you, I would try to live a life that my children would remember with pride.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu điều kiện loại 2, ta dùng 'were' cho tất cả các ngôi (I, he, she, it) trong mệnh đề 'if' để diễn tả giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_006",
+      "prompt": "The author's mother implied that if her son _____ a professor, he would have less time for his children.",
+      "options": [
+        {
+          "id": "a",
+          "label": "becomes"
+        },
+        {
+          "id": "b",
+          "label": "became"
+        },
+        {
+          "id": "c",
+          "label": "will become"
+        },
+        {
+          "id": "d",
+          "label": "would become"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là một câu tường thuật lại một ý giả định. Mệnh đề 'if' trong câu điều kiện loại 2 yêu cầu động từ ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_007",
+      "prompt": "If people truly lived as if they _____ die tomorrow, they would probably treasure each moment more.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are going to"
+        },
+        {
+          "id": "c",
+          "label": "would"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'as if' (như thể là) thường đi với cấu trúc giả định tương tự câu điều kiện loại 2, dùng 'would' hoặc thì quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_008",
+      "prompt": "How many people _____ you back for Christmas if you were gone tomorrow?",
+      "options": [
+        {
+          "id": "a",
+          "label": "would want"
+        },
+        {
+          "id": "b",
+          "label": "will want"
+        },
+        {
+          "id": "c",
+          "label": "want"
+        },
+        {
+          "id": "d",
+          "label": "wanted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu hỏi điều kiện loại 2, mệnh đề chính (mệnh đề hỏi) có cấu trúc 'Wh-word + would + S + V-nguyên mẫu?'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_009",
+      "prompt": "If we _____ that death could come suddenly, we might not postpone important conversations.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't know"
+        },
+        {
+          "id": "b",
+          "label": "wouldn't know"
+        },
+        {
+          "id": "c",
+          "label": "didn't know"
+        },
+        {
+          "id": "d",
+          "label": "haven't known"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để tạo thể phủ định trong mệnh đề 'if' của câu điều kiện loại 2, ta dùng 'didn't + V-nguyên mẫu' cho động từ thường."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_010",
+      "prompt": "Life _____ less meaningful if we lived forever and never had to face loss.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "will be"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 dùng 'would + V-nguyên mẫu' để diễn tả kết quả của một tình huống giả định ở hiện tại."
+  }
+]

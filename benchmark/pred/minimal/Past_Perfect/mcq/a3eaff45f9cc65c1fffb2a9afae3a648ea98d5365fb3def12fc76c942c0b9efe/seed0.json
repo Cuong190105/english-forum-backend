@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "01",
+      "prompt": "Before Mrs. Shi decided to change her son's name, she ________ him tutored after school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had had"
+        },
+        {
+          "id": "b",
+          "label": "has had"
+        },
+        {
+          "id": "c",
+          "label": "was having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành (had + V3) diễn tả hành động xảy ra và hoàn thành trước một hành động khác trong quá khứ. 'Had had' là dạng quá khứ hoàn thành của 'have someone do something'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "02",
+      "prompt": "By the time the article was written, the naming agency ________ names for nearly 1,000 students since setting up in 1998.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had found"
+        },
+        {
+          "id": "b",
+          "label": "has found"
+        },
+        {
+          "id": "c",
+          "label": "found"
+        },
+        {
+          "id": "d",
+          "label": "was finding"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành (had + V3) được dùng để diễn tả một hành động xảy ra và kéo dài đến một thời điểm cụ thể trong quá khứ ('by the time the article was written')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "03",
+      "prompt": "Hu Jie wished she ________ her old name when she realized the new one caused confusion.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had kept"
+        },
+        {
+          "id": "b",
+          "label": "has kept"
+        },
+        {
+          "id": "c",
+          "label": "kept"
+        },
+        {
+          "id": "d",
+          "label": "would keep"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'wish + S + had + V3' dùng để diễn tả sự hối tiếc về một điều gì đó đã xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "04",
+      "prompt": "By the time parents registered the new name, they ________ for it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had already paid"
+        },
+        {
+          "id": "b",
+          "label": "already paid"
+        },
+        {
+          "id": "c",
+          "label": "have already paid"
+        },
+        {
+          "id": "d",
+          "label": "were already paying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'paid' xảy ra trước hành động 'registered' trong quá khứ, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "05",
+      "prompt": "The mother decided to change her son's name because he ________ poorly in study for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had done"
+        },
+        {
+          "id": "b",
+          "label": "has done"
+        },
+        {
+          "id": "c",
+          "label": "did"
+        },
+        {
+          "id": "d",
+          "label": "was doing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'did poorly' xảy ra và kéo dài trong một khoảng thời gian trước khi người mẹ quyết định đổi tên, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "06",
+      "prompt": "Teachers noticed that a few students ________ their names before the new semester started.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had changed"
+        },
+        {
+          "id": "b",
+          "label": "changed"
+        },
+        {
+          "id": "c",
+          "label": "have changed"
+        },
+        {
+          "id": "d",
+          "label": "were changing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'changed' xảy ra trước hành động 'started' trong quá khứ, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "07",
+      "prompt": "Before suggesting a new name, the professionals at the agency ________ the defects of a person's original name.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had analyzed"
+        },
+        {
+          "id": "b",
+          "label": "analyzed"
+        },
+        {
+          "id": "c",
+          "label": "have analyzed"
+        },
+        {
+          "id": "d",
+          "label": "were analyzing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'analyzed' xảy ra trước hành động 'suggesting' trong quá khứ, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "08",
+      "prompt": "The mother hoped the special recipe could bring her son good luck, as she ________ everything else to improve his study.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had tried"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "has tried"
+        },
+        {
+          "id": "d",
+          "label": "was trying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'tried' xảy ra và hoàn thành trước khi người mẹ 'hoped' (trong quá khứ), nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "09",
+      "prompt": "Hu Jie felt confused because her classmates ________ her by her new name for some time before she got used to it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had called"
+        },
+        {
+          "id": "b",
+          "label": "called"
+        },
+        {
+          "id": "c",
+          "label": "have called"
+        },
+        {
+          "id": "d",
+          "label": "were calling"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'called' xảy ra và kéo dài trong một khoảng thời gian trước khi Hu Jie 'felt confused' và 'got used to it' trong quá khứ, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Before the article mentioned the agency's founding year, it ________ names for many students.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had already found"
+        },
+        {
+          "id": "b",
+          "label": "already found"
+        },
+        {
+          "id": "c",
+          "label": "has already found"
+        },
+        {
+          "id": "d",
+          "label": "was already finding"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'found names' xảy ra và hoàn thành trước khi bài báo 'mentioned' (trong quá khứ) năm thành lập, nên dùng thì quá khứ hoàn thành."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_01",
+      "prompt": "After working as an architect for ten years, Adam Reed Tucker decided _____ something different with his career."
+    },
+    "answer": "to do",
+    "hint": "Động từ 'decide' (quyết định) luôn đi với 'to-V' để chỉ một quyết định hoặc kế hoạch cho tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_02",
+      "prompt": "He wanted _____ his feelings for skyscrapers through his unique Lego art."
+    },
+    "answer": "to express",
+    "hint": "Động từ 'want' (muốn) luôn đi với 'to-V' để diễn tả một mong muốn hoặc ý định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_03",
+      "prompt": "He chose _____ Lego bricks, a material familiar to many from their childhood."
+    },
+    "answer": "to use",
+    "hint": "Động từ 'choose' (chọn lựa) thường đi với 'to-V' để chỉ mục đích của sự lựa chọn đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_04",
+      "prompt": "Visitors at the museum seem to enjoy _____ the artist create his models brick by brick."
+    },
+    "answer": "watching",
+    "hint": "Động từ 'enjoy' (thích thú) luôn đi với V-ing để diễn tả một sở thích hoặc sự tận hưởng một hoạt động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_05",
+      "prompt": "As soon as the boy saw the Lego stations, he wanted _____ building his own creation immediately."
+    },
+    "answer": "to start",
+    "hint": "Cấu trúc 'want to do something' (muốn làm gì đó) rất phổ biến. Ở đây, 'want' yêu cầu 'to-V', nên phải là 'to start'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_06",
+      "prompt": "After _____ through the exhibit of amazing models, visitors can build their own structures."
+    },
+    "answer": "walking",
+    "hint": "Sau giới từ (ví dụ: after, before, in, on, by), động từ luôn ở dạng V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_07",
+      "prompt": "The exhibit is designed to encourage children _____ their own creativity with Lego bricks."
+    },
+    "answer": "to use",
+    "hint": "Cấu trúc 'encourage someone to do something' (khuyến khích ai làm gì) luôn dùng 'to-V'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_08",
+      "prompt": "_____ another Lego artist at work, you can visit the website mentioned in the article."
+    },
+    "answer": "To watch",
+    "hint": "Dùng 'To-V' ở đầu câu để chỉ mục đích của hành động (Để xem...)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_09",
+      "prompt": "Mr. Tucker avoids _____ computers to design his models; he prefers using only pictures."
+    },
+    "answer": "using",
+    "hint": "Động từ 'avoid' (tránh) luôn được theo sau bởi một động từ ở dạng V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "lego_fill_10",
+      "prompt": "Many young visitors plan _____ the museum again to see how the Lego city has grown."
+    },
+    "answer": "to visit",
+    "hint": "Động từ 'plan' (lên kế hoạch) luôn đi với 'to-V' để diễn tả một dự định trong tương lai."
+  }
+]

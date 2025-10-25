@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "When she got to the checkout counter, the mother realized she _____ a couple of things on her shopping list."
+    },
+    "answer": "had forgotten",
+    "hint": "Hành động 'quên' (forgot) xảy ra trước hành động 'nhận ra' (realized) trong quá khứ, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "By the time his mother returned, the boy _____ all the groceries onto the checkout belt."
+    },
+    "answer": "had loaded",
+    "hint": "Cấu trúc 'By the time + S + V(quá khứ đơn)' diễn tả một hành động đã hoàn thành trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "The boy was angry because his mother _____ him alone at the counter with no money."
+    },
+    "answer": "had left",
+    "hint": "Nguyên nhân (mẹ bỏ đi) xảy ra trước kết quả (cậu bé tức giận) trong quá khứ. Dùng quá khứ hoàn thành để chỉ nguyên nhân."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "The projector bulb blew out, but luckily Norman _____ a spare one with him."
+    },
+    "answer": "had brought",
+    "hint": "Hành động 'mang theo' (brought) xảy ra trước hành động 'bóng đèn cháy' (blew out). Dùng quá khứ hoàn thành để nhấn mạnh trình tự."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "After the mother _____ she forgot some items, she ran back into the store to get them."
+    },
+    "answer": "had realized",
+    "hint": "Cấu trúc 'After + S + V(quá khứ hoàn thành)' diễn tả hành động xảy ra trước (nhận ra) và hành động xảy ra sau (chạy đi)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "The author was embarrassed at the store because he _____ never been in such a situation before that day."
+    },
+    "answer": "had",
+    "hint": "'Before that day' là dấu hiệu cho thấy sự việc xảy ra trước một thời điểm cụ thể trong quá khứ, cần dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "Norman was able to solve the problem quickly because he _____ about potential issues before his presentation."
+    },
+    "answer": "had thought",
+    "hint": "Hành động 'suy nghĩ' (thought) xảy ra trước khi 'bài thuyết trình' (presentation) bắt đầu, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "By the time the mother returned, the cashier _____ already asked the young boy for the money."
+    },
+    "answer": "had",
+    "hint": "'By the time' + quá khứ đơn (returned) là dấu hiệu để dùng quá khứ hoàn thành cho hành động xảy ra trước đó (asked)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "Before Norman revealed his spare bulb, the other students _____ that he was so well-prepared."
+    },
+    "answer": "had not known",
+    "hint": "Trạng thái 'không biết' (not known) tồn tại trước khi hành động 'lấy bóng đèn ra' (revealed) xảy ra trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "The author decided to always carry money after he _____ that embarrassing moment at the store."
+    },
+    "answer": "had experienced",
+    "hint": "Hành động 'trải qua' (experienced) là nguyên nhân xảy ra trước hành động 'quyết định' (decided) trong quá khứ."
+  }
+]

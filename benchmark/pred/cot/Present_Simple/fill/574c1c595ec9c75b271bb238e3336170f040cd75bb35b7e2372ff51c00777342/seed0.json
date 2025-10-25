@@ -1,0 +1,47 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_001",
+      "prompt": "A car _____ gas to run, just as your body needs food."
+    },
+    "answer": "needs",
+    "hint": "Động từ 'need' chia ở thì hiện tại đơn với chủ ngữ số ít 'A car' để diễn tả một sự thật hiển nhiên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_002",
+      "prompt": "Eating healthy food _____ your body grow strong."
+    },
+    "answer": "helps",
+    "hint": "Chủ ngữ 'Eating healthy food' là danh động từ số ít, nên động từ 'help' cần thêm 's' ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_003",
+      "prompt": "The dairy group _____ food like milk, cheese, and sour milk."
+    },
+    "answer": "has",
+    "hint": "Chủ ngữ 'The dairy group' là số ít, nên động từ 'have' chia thành 'has' ở thì hiện tại đơn để diễn tả sự thật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_004",
+      "prompt": "For good health, each meal usually _____ at least one food from all four main groups."
+    },
+    "answer": "has",
+    "hint": "Với chủ ngữ số ít 'Each meal' và trạng từ 'usually' chỉ thói quen, động từ 'have' chia thành 'has' ở thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_005",
+      "prompt": "Taking some exercise regularly _____ your body healthy and strong."
+    },
+    "answer": "keeps",
+    "hint": "Chủ ngữ 'Taking some exercise' là danh động từ số ít, nên động từ 'keep' cần thêm 's' ở thì hiện tại đơn để diễn tả sự thật."
+  }
+]

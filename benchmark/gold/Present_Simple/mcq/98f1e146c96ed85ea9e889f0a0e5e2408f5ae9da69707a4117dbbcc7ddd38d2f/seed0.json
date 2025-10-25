@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Mr. and Mrs. Martin _____ in New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "are living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'Mr. and Mrs. Martin' là số nhiều nên động từ 'live' không thêm 's'. Đây là một sự thật ở hiện tại, không dùng thì tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "Mr. Martin _____ as a doctor in his office.",
+      "options": [
+        {
+          "id": "a",
+          "label": "work"
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "is working"
+        },
+        {
+          "id": "d",
+          "label": "has worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'Mr. Martin' là ngôi thứ ba số ít, nên động từ ở thì hiện tại đơn phải thêm 's'. Đây là nghề nghiệp, một sự thật lâu dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "Mrs. Martin _____ music at a school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "teach"
+        },
+        {
+          "id": "b",
+          "label": "teaches"
+        },
+        {
+          "id": "c",
+          "label": "is teaching"
+        },
+        {
+          "id": "d",
+          "label": "taught"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít ('Mrs. Martin'), động từ kết thúc bằng 'ch' cần thêm 'es' ở thì hiện tại đơn để chỉ công việc thường xuyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "Roy _____ to high school because he is thirteen years old.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "is going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'Roy' là ngôi thứ ba số ít. Động từ kết thúc bằng 'o' phải thêm 'es' ở thì hiện tại đơn để diễn tả một sự thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "According to the text, Roy _____ sports very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "is liking"
+        },
+        {
+          "id": "d",
+          "label": "liked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'Roy' là ngôi thứ ba số ít nên động từ 'like' phải thêm 's'. 'Like' là động từ chỉ trạng thái, không dùng ở thì tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "What _____ Mrs. Martin teach at her school?",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi đặt câu hỏi cho chủ ngữ ngôi thứ ba số ít ('Mrs. Martin') ở thì hiện tại đơn, ta dùng trợ động từ 'does' trước chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "Roy _____ to be the best swimmer in his school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "want"
+        },
+        {
+          "id": "b",
+          "label": "wants"
+        },
+        {
+          "id": "c",
+          "label": "is wanting"
+        },
+        {
+          "id": "d",
+          "label": "wanted"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'Roy' là ngôi thứ ba số ít nên động từ 'want' phải thêm 's'. 'Want' là động từ chỉ trạng thái, thường không dùng ở thì tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "Where _____ Mr. Martin's office?",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi về vị trí của một vật ('Mr. Martin's office' - số ít) dùng động từ 'to be' là 'is'. 'Does' dùng cho câu hỏi có động từ thường."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Based on the text, Ted _____ in New York at the moment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't live"
+        },
+        {
+          "id": "b",
+          "label": "don't live"
+        },
+        {
+          "id": "c",
+          "label": "isn't live"
+        },
+        {
+          "id": "d",
+          "label": "not lives"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để tạo câu phủ định cho chủ ngữ ngôi thứ ba số ít ('Ted') ở thì hiện tại đơn, ta dùng 'doesn't' + động từ nguyên mẫu ('live')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "The Martin family _____ two sons.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "is having"
+        },
+        {
+          "id": "d",
+          "label": "are having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'The Martin family' được coi là một đơn vị (danh từ tập hợp) số ít, nên dùng 'has'. Không dùng thì tiếp diễn để chỉ sự sở hữu."
+  }
+]

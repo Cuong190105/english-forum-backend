@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Most schools currently forbid chewing gum, but they might consider changing that rule because scientists are finding evidence that gum chewing may be good for your health and may even help improve:",
+      "options": [
+        {
+          "id": "a",
+          "label": "athletic performance."
+        },
+        {
+          "id": "b",
+          "label": "test scores."
+        },
+        {
+          "id": "c",
+          "label": "social skills."
+        },
+        {
+          "id": "d",
+          "label": "eyesight."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đọc đoạn đầu tiên để tìm lợi ích cụ thể của việc nhai kẹo cao su được đề cập."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Companies are experimenting with adding various substances to gum, which might give it the power to:",
+      "options": [
+        {
+          "id": "a",
+          "label": "make people taller."
+        },
+        {
+          "id": "b",
+          "label": "change hair color."
+        },
+        {
+          "id": "c",
+          "label": "cure headaches and fight diseases."
+        },
+        {
+          "id": "d",
+          "label": "improve singing ability."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm trong đoạn văn những khả năng chữa bệnh hoặc chống lại bệnh tật mà kẹo cao su có thể có được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Some researchers believe that gum might work better than a pill to deliver medicines and other substances into the bloodstream because:",
+      "options": [
+        {
+          "id": "a",
+          "label": "gum tastes better than pills."
+        },
+        {
+          "id": "b",
+          "label": "gum is cheaper to produce."
+        },
+        {
+          "id": "c",
+          "label": "the lining of our cheeks can absorb certain substances more quickly."
+        },
+        {
+          "id": "d",
+          "label": "pills are difficult to swallow."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm lý do cụ thể được đưa ra trong bài về khả năng hấp thụ nhanh hơn của kẹo cao su so với thuốc viên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Scientists might even create antimicrobial gums that could potentially:",
+      "options": [
+        {
+          "id": "a",
+          "label": "make teeth whiter."
+        },
+        {
+          "id": "b",
+          "label": "cure bad breath."
+        },
+        {
+          "id": "c",
+          "label": "prevent cavities entirely."
+        },
+        {
+          "id": "d",
+          "label": "improve digestion."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đọc đoạn nói về kẹo cao su kháng khuẩn và công dụng của chúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "One recent success for gum scientists is the creation of a gum that could help us:",
+      "options": [
+        {
+          "id": "a",
+          "label": "lose weight."
+        },
+        {
+          "id": "b",
+          "label": "sleep better."
+        },
+        {
+          "id": "c",
+          "label": "stay awake."
+        },
+        {
+          "id": "d",
+          "label": "remember things more easily."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm thành công gần đây của các nhà khoa học về kẹo cao su và công dụng của sản phẩm đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The gum called 'Stay Alert' contains as much caffeine as a cup of coffee, but its caffeine might take effect much faster, in just a few minutes, whereas coffee's full effect can take:",
+      "options": [
+        {
+          "id": "a",
+          "label": "a few seconds."
+        },
+        {
+          "id": "b",
+          "label": "half an hour."
+        },
+        {
+          "id": "c",
+          "label": "an hour."
+        },
+        {
+          "id": "d",
+          "label": "several hours."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "So sánh thời gian tác dụng của caffeine trong kẹo cao su Stay Alert và cà phê."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Stay Alert gum is easy to transport and stable in various climates. Unlike a pill, it doesn't require water to swallow, which might make it particularly easy for:",
+      "options": [
+        {
+          "id": "a",
+          "label": "children to use."
+        },
+        {
+          "id": "b",
+          "label": "soldiers to use."
+        },
+        {
+          "id": "c",
+          "label": "elderly people to use."
+        },
+        {
+          "id": "d",
+          "label": "people with allergies."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm đối tượng cụ thể được nhắc đến trong bài là người dùng dễ dàng hơn nhờ đặc tính của kẹo cao su."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "For now, Stay Alert gum is available only to the military. However, the manufacturer may one day offer it for sale to the public, and people who work at night, such as truck drivers and medical personnel, might benefit from it because:",
+      "options": [
+        {
+          "id": "a",
+          "label": "it helps them relax."
+        },
+        {
+          "id": "b",
+          "label": "it improves their vision."
+        },
+        {
+          "id": "c",
+          "label": "it helps them stay awake."
+        },
+        {
+          "id": "d",
+          "label": "it cures their headaches."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Nhớ lại công dụng chính của kẹo cao su Stay Alert."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The text suggests that future medicine-containing gums might be developed to fight colds, ease headaches, and battle nervousness. This discovery could help researchers develop gums that might also:",
+      "options": [
+        {
+          "id": "a",
+          "label": "improve athletic performance."
+        },
+        {
+          "id": "b",
+          "label": "enhance memory recall."
+        },
+        {
+          "id": "c",
+          "label": "reduce stress and anxiety."
+        },
+        {
+          "id": "d",
+          "label": "prevent hair loss."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm trong đoạn văn những khả năng khác của kẹo cao su y tế trong tương lai, đặc biệt là liên quan đến 'nervousness'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The research on gum's potential benefits is just beginning, and companies are experimenting with adding various substances. This suggests that in the future, gum might become:",
+      "options": [
+        {
+          "id": "a",
+          "label": "a common snack food."
+        },
+        {
+          "id": "b",
+          "label": "a significant medical delivery system."
+        },
+        {
+          "id": "c",
+          "label": "a popular toy for children."
+        },
+        {
+          "id": "d",
+          "label": "a replacement for toothpaste."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tổng hợp thông tin về các nghiên cứu và thử nghiệm đang diễn ra để suy luận về vai trò tương lai của kẹo cao su."
+  }
+]

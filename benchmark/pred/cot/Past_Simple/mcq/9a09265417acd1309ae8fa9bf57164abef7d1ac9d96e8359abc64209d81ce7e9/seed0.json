@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Ancient Egyptians _____ mostly on the Nile River to water their crops.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rely"
+        },
+        {
+          "id": "b",
+          "label": "relied"
+        },
+        {
+          "id": "c",
+          "label": "are relying"
+        },
+        {
+          "id": "d",
+          "label": "have relied"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'dựa vào sông Nile' của người Ai Cập cổ đại đã xảy ra và kết thúc trong quá khứ. Cần dùng thì Quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The ancient Egyptians mainly _____ wheat and barley for food.",
+      "options": [
+        {
+          "id": "a",
+          "label": "grow"
+        },
+        {
+          "id": "b",
+          "label": "grown"
+        },
+        {
+          "id": "c",
+          "label": "grew"
+        },
+        {
+          "id": "d",
+          "label": "have grown"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Việc trồng trọt của người Ai Cập cổ đại là một hành động đã hoàn thành trong quá khứ. Dùng dạng quá khứ đơn của 'grow' là 'grew'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "The Egyptians _____ the wheat into bread, soup, and porridge.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "makes"
+        },
+        {
+          "id": "d",
+          "label": "are making"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'làm bánh mì' của người Ai Cập cổ đại đã xảy ra và kết thúc. Dùng thì Quá khứ đơn với động từ 'make' thành 'made'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "To make beer, the Egyptians also _____ hops to the barley.",
+      "options": [
+        {
+          "id": "a",
+          "label": "add"
+        },
+        {
+          "id": "b",
+          "label": "adds"
+        },
+        {
+          "id": "c",
+          "label": "added"
+        },
+        {
+          "id": "d",
+          "label": "have added"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Việc 'thêm hoa bia' là một hành động đã hoàn thành trong quá khứ của người Ai Cập. Dùng dạng quá khứ đơn của 'add' là 'added'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "Many Egyptian models of beer jars were found, which the Egyptians _____ into graves of dead people.",
+      "options": [
+        {
+          "id": "a",
+          "label": "put"
+        },
+        {
+          "id": "b",
+          "label": "puts"
+        },
+        {
+          "id": "c",
+          "label": "putting"
+        },
+        {
+          "id": "d",
+          "label": "have put"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'đặt bình bia vào mộ' là một sự kiện đã xảy ra trong quá khứ. Dạng quá khứ đơn của 'put' vẫn là 'put'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "Besides grains, the Egyptians also _____ meat, like beef and mutton.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eat"
+        },
+        {
+          "id": "b",
+          "label": "eats"
+        },
+        {
+          "id": "c",
+          "label": "ate"
+        },
+        {
+          "id": "d",
+          "label": "eaten"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Việc 'ăn thịt' là một thói quen trong quá khứ của người Ai Cập. Dùng thì Quá khứ đơn với động từ 'eat' thành 'ate'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "They _____ to a butcher shop and _____ meat there, just as people do today.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go/buy"
+        },
+        {
+          "id": "b",
+          "label": "went/bought"
+        },
+        {
+          "id": "c",
+          "label": "gone/bought"
+        },
+        {
+          "id": "d",
+          "label": "went/buy"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cả hai hành động 'đi đến cửa hàng' và 'mua thịt' đều xảy ra trong quá khứ. Cần dùng dạng quá khứ đơn cho cả hai động từ: 'went' và 'bought'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "However, Egyptians _____ pigs carried infectious disease.",
+      "options": [
+        {
+          "id": "a",
+          "label": "think"
+        },
+        {
+          "id": "b",
+          "label": "thinks"
+        },
+        {
+          "id": "c",
+          "label": "thought"
+        },
+        {
+          "id": "d",
+          "label": "thinking"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Niềm tin của người Ai Cập về lợn là một quan điểm trong quá khứ. Dùng thì Quá khứ đơn với động từ 'think' thành 'thought'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "For dessert, the Egyptians _____ a great interest in dates.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Việc 'có sở thích' với chà là là một đặc điểm trong quá khứ của người Ai Cập. Dùng thì Quá khứ đơn với động từ 'have' thành 'had'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Archaeologists _____ up real Egyptian dates that were kept for three thousand years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "dig"
+        },
+        {
+          "id": "b",
+          "label": "digs"
+        },
+        {
+          "id": "c",
+          "label": "dug"
+        },
+        {
+          "id": "d",
+          "label": "digging"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'đào lên' của các nhà khảo cổ đã xảy ra trong quá khứ. Dùng thì Quá khứ đơn với động từ 'dig' thành 'dug'."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-1",
+      "prompt": "Look! _____ is my new phone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "This"
+        },
+        {
+          "id": "b",
+          "label": "That"
+        },
+        {
+          "id": "c",
+          "label": "These"
+        },
+        {
+          "id": "d",
+          "label": "Those"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"this\" cho vật số ít ở gần người nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-2",
+      "prompt": "Can you see _____ bird flying high in the sky?",
+      "options": [
+        {
+          "id": "a",
+          "label": "This"
+        },
+        {
+          "id": "b",
+          "label": "That"
+        },
+        {
+          "id": "c",
+          "label": "These"
+        },
+        {
+          "id": "d",
+          "label": "Those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"that\" cho vật số ít ở xa người nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-3",
+      "prompt": "_____ are my favorite books, right here on my desk.",
+      "options": [
+        {
+          "id": "a",
+          "label": "This"
+        },
+        {
+          "id": "b",
+          "label": "That"
+        },
+        {
+          "id": "c",
+          "label": "These"
+        },
+        {
+          "id": "d",
+          "label": "Those"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng \"these\" cho vật số nhiều ở gần người nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-4",
+      "prompt": "_____ mountains in the distance look beautiful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "This"
+        },
+        {
+          "id": "b",
+          "label": "That"
+        },
+        {
+          "id": "c",
+          "label": "These"
+        },
+        {
+          "id": "d",
+          "label": "Those"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng \"those\" cho vật số nhiều ở xa người nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-5",
+      "prompt": "A: What is _____? (pointing to something in A's own hand) B: It's a pen.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "this"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Người nói đang chỉ vào vật ở gần mình (trong tay mình) và số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-6",
+      "prompt": "A: Look at _____ flowers over there! B: Yes, they are lovely.",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "\"Over there\" chỉ vật ở xa và \"flowers\" là số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-7",
+      "prompt": "Alice: Bob, _____ is Grace.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that"
+        },
+        {
+          "id": "b",
+          "label": "this"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"this\" để giới thiệu một người ở gần."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-8",
+      "prompt": "Alice: Oh, what is _____? (referring to Bob's key, which is now slightly further or just observed)",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"That\" dùng để chỉ vật số ít vừa được nhắc đến hoặc ở xa người nói một chút."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-9",
+      "prompt": "My ruler is red. _____ ruler is blue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "That"
+        },
+        {
+          "id": "b",
+          "label": "This"
+        },
+        {
+          "id": "c",
+          "label": "These"
+        },
+        {
+          "id": "d",
+          "label": "Those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"This\" dùng để chỉ vật số ít đang được nhắc đến hoặc ở gần người nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq-10",
+      "prompt": "I like _____ shoes you are wearing, but I prefer _____ ones in the shop window.",
+      "options": [
+        {
+          "id": "a",
+          "label": "these / those"
+        },
+        {
+          "id": "b",
+          "label": "those / these"
+        },
+        {
+          "id": "c",
+          "label": "this / that"
+        },
+        {
+          "id": "d",
+          "label": "that / this"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Shoes you are wearing\" là số nhiều ở gần, \"ones in the shop window\" là số nhiều ở xa."
+  }
+]

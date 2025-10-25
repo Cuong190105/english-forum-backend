@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Who was responsible for the discovery that the African elephant is divided into two distinct species?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Researchers at York and Harvard Universities."
+        },
+        {
+          "id": "b",
+          "label": "Alfred Roca."
+        },
+        {
+          "id": "c",
+          "label": "Ancient woolly mammoths."
+        },
+        {
+          "id": "d",
+          "label": "African savanna elephants."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi về chủ thể thực hiện hành động trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "What did the research team do immediately after obtaining DNA sequences from fossils?",
+      "options": [
+        {
+          "id": "a",
+          "label": "They compared them with DNA from modern elephants."
+        },
+        {
+          "id": "b",
+          "label": "They examined the genetic relationship between ancient and modern elephants."
+        },
+        {
+          "id": "c",
+          "label": "They divided African elephants into two species."
+        },
+        {
+          "id": "d",
+          "label": "They studied the size differences of elephants."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Tìm hành động tiếp theo sau khi nhóm nghiên cứu thu được chuỗi DNA."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "What did the scientists find to their amazement regarding modern forest and savanna elephants?",
+      "options": [
+        {
+          "id": "a",
+          "label": "That African elephants are one species."
+        },
+        {
+          "id": "b",
+          "label": "That modern forest and savanna elephants are very distinct from each other."
+        },
+        {
+          "id": "c",
+          "label": "That Asian elephants and mammoths are the same species."
+        },
+        {
+          "id": "d",
+          "label": "That the African elephant is not divided into species."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm thông tin mà các nhà khoa học đã phát hiện ra một cách ngạc nhiên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "When did the divergence of the two African elephant species take place?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Recently."
+        },
+        {
+          "id": "b",
+          "label": "Around the time Asian elephants and woolly mammoths diverged."
+        },
+        {
+          "id": "c",
+          "label": "After 1950."
+        },
+        {
+          "id": "d",
+          "label": "Several million years in the future."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm thời điểm diễn ra sự phân tách của hai loài voi châu Phi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "How did the scientists react to the result that proved the two African elephant species were distinct?",
+      "options": [
+        {
+          "id": "a",
+          "label": "They were confused."
+        },
+        {
+          "id": "b",
+          "label": "They were amazed."
+        },
+        {
+          "id": "c",
+          "label": "They were indifferent."
+        },
+        {
+          "id": "d",
+          "label": "They were skeptical."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm từ mô tả cảm xúc của các nhà khoa học khi biết kết quả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "What did many naturalists believe about African savanna and forest elephants previously?",
+      "options": [
+        {
+          "id": "a",
+          "label": "They were two distinct species."
+        },
+        {
+          "id": "b",
+          "label": "They were two populations of the same species."
+        },
+        {
+          "id": "c",
+          "label": "They had no genetic relationship."
+        },
+        {
+          "id": "d",
+          "label": "They were not elephants."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm niềm tin trước đây của các nhà tự nhiên học về voi châu Phi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Before the DNA analysis, what did naturalists consider the significant difference between savanna and forest elephants?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Their genetic makeup."
+        },
+        {
+          "id": "b",
+          "label": "Their habitat."
+        },
+        {
+          "id": "c",
+          "label": "Their size differences."
+        },
+        {
+          "id": "d",
+          "label": "Their diet."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm điểm khác biệt rõ ràng mà các nhà tự nhiên học đã nhận thấy trước khi có phân tích DNA."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Where did the ultimate proof for the distinct species of African elephants lie?",
+      "options": [
+        {
+          "id": "a",
+          "label": "In their size differences."
+        },
+        {
+          "id": "b",
+          "label": "In their habitat."
+        },
+        {
+          "id": "c",
+          "label": "In the analysis of their DNA."
+        },
+        {
+          "id": "d",
+          "label": "In the opinions of naturalists."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm nơi chứa bằng chứng cuối cùng về sự khác biệt loài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "What did Alfred Roca say about how to treat forest and savanna elephants for conservation purposes?",
+      "options": [
+        {
+          "id": "a",
+          "label": "They should be treated as one species."
+        },
+        {
+          "id": "b",
+          "label": "They should be treated as two different units."
+        },
+        {
+          "id": "c",
+          "label": "They should be ignored."
+        },
+        {
+          "id": "d",
+          "label": "They should be studied more."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm lời phát biểu của Alfred Roca về cách đối xử với voi rừng và voi thảo nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "What method did the scientists use to prove the distinctness of the two African elephant species?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Observation of their size."
+        },
+        {
+          "id": "b",
+          "label": "Detailed genetic analysis."
+        },
+        {
+          "id": "c",
+          "label": "Studying their behavior."
+        },
+        {
+          "id": "d",
+          "label": "Comparing their diets."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm phương pháp mà các nhà khoa học đã sử dụng để chứng minh sự khác biệt loài."
+  }
+]

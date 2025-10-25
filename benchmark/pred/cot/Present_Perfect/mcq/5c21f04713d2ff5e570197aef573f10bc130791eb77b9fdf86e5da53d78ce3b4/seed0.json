@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "Have you _____ visited the Houston area for business?",
+      "options": [
+        {
+          "id": "a",
+          "label": "ever"
+        },
+        {
+          "id": "b",
+          "label": "never"
+        },
+        {
+          "id": "c",
+          "label": "yet"
+        },
+        {
+          "id": "d",
+          "label": "already"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Ever” thường dùng trong câu hỏi để hỏi về trải nghiệm đã từng xảy ra. “Never” dùng trong câu phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "Bill Masters _____ for this company since 2015, contributing greatly to its market share.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "has worked"
+        },
+        {
+          "id": "c",
+          "label": "works"
+        },
+        {
+          "id": "d",
+          "label": "was working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since 2015” chỉ hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nên dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "The company _____ Bill to northern California, so he's no longer in Houston.",
+      "options": [
+        {
+          "id": "a",
+          "label": "just moved"
+        },
+        {
+          "id": "b",
+          "label": "has just moved"
+        },
+        {
+          "id": "c",
+          "label": "moves"
+        },
+        {
+          "id": "d",
+          "label": "was just moving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Has just moved” diễn tả hành động vừa xảy ra và có kết quả rõ ràng ở hiện tại (he's no longer in Houston)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "Last year, our sales team _____ a significant increase in market share.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has achieved"
+        },
+        {
+          "id": "b",
+          "label": "achieved"
+        },
+        {
+          "id": "c",
+          "label": "achieves"
+        },
+        {
+          "id": "d",
+          "label": "is achieving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last year” là mốc thời gian cụ thể trong quá khứ, nên dùng thì Quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "We _____ 37% of the market share this month, thanks to Bill's leadership.",
+      "options": [
+        {
+          "id": "a",
+          "label": "got"
+        },
+        {
+          "id": "b",
+          "label": "have got"
+        },
+        {
+          "id": "c",
+          "label": "get"
+        },
+        {
+          "id": "d",
+          "label": "were getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“This month” là khoảng thời gian chưa kết thúc, nên dùng Hiện tại hoàn thành để chỉ hành động đã xảy ra trong đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "The firm _____ its market position significantly in the last six years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "improved"
+        },
+        {
+          "id": "b",
+          "label": "has improved"
+        },
+        {
+          "id": "c",
+          "label": "improves"
+        },
+        {
+          "id": "d",
+          "label": "was improving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“In the last six years” chỉ khoảng thời gian từ quá khứ đến hiện tại, diễn tả sự thay đổi, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "Our sales force _____ the target for this quarter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "already reached"
+        },
+        {
+          "id": "b",
+          "label": "has already reached"
+        },
+        {
+          "id": "c",
+          "label": "reaches already"
+        },
+        {
+          "id": "d",
+          "label": "was already reaching"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Already” thường dùng với thì Hiện tại hoàn thành để chỉ một hành động đã hoàn thành trước thời điểm hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "The new sales strategy _____ its full potential yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hasn't reached"
+        },
+        {
+          "id": "b",
+          "label": "didn't reach"
+        },
+        {
+          "id": "c",
+          "label": "doesn't reach"
+        },
+        {
+          "id": "d",
+          "label": "isn't reaching"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Yet” thường dùng trong câu phủ định hoặc câu hỏi với thì Hiện tại hoàn thành để chỉ một điều chưa xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "How long _____ Bill Masters _____ in the Houston area?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / work"
+        },
+        {
+          "id": "b",
+          "label": "has / worked"
+        },
+        {
+          "id": "c",
+          "label": "is / working"
+        },
+        {
+          "id": "d",
+          "label": "will / work"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“How long” hỏi về khoảng thời gian của một hành động kéo dài đến hiện tại, nên dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "Our company _____ several new clients this year, increasing our market share.",
+      "options": [
+        {
+          "id": "a",
+          "label": "acquired"
+        },
+        {
+          "id": "b",
+          "label": "has acquired"
+        },
+        {
+          "id": "c",
+          "label": "acquires"
+        },
+        {
+          "id": "d",
+          "label": "was acquiring"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“This year” là khoảng thời gian chưa kết thúc. Hành động đã xảy ra nhiều lần trong đó, nên dùng Hiện tại hoàn thành."
+  }
+]

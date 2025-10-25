@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "Sun Yang _____ in Shaoxing these days for swimming."
+    },
+    "answer": "is staying",
+    "hint": "Diễn tả hành động tạm thời đang diễn ra trong khoảng thời gian hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "Jill asks if Sun Yang _____ a pair of sunglasses at the moment."
+    },
+    "answer": "is wearing",
+    "hint": "Diễn tả trang phục đang mặc tại thời điểm nói."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "Amy _____ to find the two persons she wants to take photos with."
+    },
+    "answer": "is trying",
+    "hint": "Diễn tả một nỗ lực đang diễn ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "If Amy goes quickly, she can catch them because they _____ away from here."
+    },
+    "answer": "are walking",
+    "hint": "Diễn tả hành động đang diễn ra và tiếp tục."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "After Jill's advice, Amy says, \"I will do that,\" meaning she _____ quickly to follow them."
+    },
+    "answer": "is going",
+    "hint": "Diễn tả hành động đang diễn ra ngay sau đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "Jill _____ carefully to Amy's description of the two people."
+    },
+    "answer": "is listening",
+    "hint": "Diễn tả hành động đang diễn ra trong cuộc hội thoại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Amy _____ the two persons she saw to Jill."
+    },
+    "answer": "is describing",
+    "hint": "Diễn tả hành động đang diễn ra trong cuộc hội thoại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "The number of famous athletes _____ Shaoxing for training recently."
+    },
+    "answer": "is increasing",
+    "hint": "Diễn tả một xu hướng hoặc tình huống đang phát triển."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "Sun Yang _____ in Shaoxing specifically for swimming training."
+    },
+    "answer": "is training",
+    "hint": "Diễn tả một hoạt động tạm thời đang diễn ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "Amy _____ to catch up with Sun Yang and the girl."
+    },
+    "answer": "is hurrying",
+    "hint": "Diễn tả hành động đang diễn ra ngay lúc này."
+  }
+]

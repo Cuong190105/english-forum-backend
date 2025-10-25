@@ -1,0 +1,3 @@
+run_id,metric,n_pairs,delta_mean,delta_std,delta_se,delta_ci95_low,delta_ci95_high,delta_ci95_halfwidth_H,delta_ci_level,delta_H_target,delta_meets_H_target,delta_significant
+smoke_mcq_min_cot_i5_s0_afterpatch,semantic,2,0.0058,0.0886,0.0627,-0.117,0.1286,0.1228,0.95,0.04,0,0
+smoke_mcq_min_cot_i5_s0_afterpatch,judge,2,0.0,0.0,0.0,0.0,0.0,0.0,0.95,0.05,1,0

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_001",
+      "prompt": "He said that he _____ always careful with money, so he was surprised to lose his wallet."
+    },
+    "answer": "was",
+    "hint": "Lùi thì từ Hiện tại đơn (am/is/are) sang Quá khứ đơn (was/were) khi động từ tường thuật ở quá khứ (said)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_002",
+      "prompt": "He explained to the manager that he _____ often lose his personal belongings."
+    },
+    "answer": "didn't",
+    "hint": "Lùi thì từ Hiện tại đơn (don't) sang Quá khứ đơn (didn't) trong câu tường thuật với động từ 'explained'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_003",
+      "prompt": "He remembered paying the taxi, so he knew he _____ his wallet with him just moments before."
+    },
+    "answer": "had had",
+    "hint": "Lùi thì từ Quá khứ đơn (had) sang Quá khứ hoàn thành (had had) để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_004",
+      "prompt": "The restaurant manager asked him if anything _____ wrong."
+    },
+    "answer": "was",
+    "hint": "Trong câu hỏi tường thuật, thì Hiện tại đơn (is) được lùi về Quá khứ đơn (was) khi động từ tường thuật ở quá khứ (asked)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_005",
+      "prompt": "He told the manager that some people _____ to see him in the waiting room at two o'clock."
+    },
+    "answer": "were waiting",
+    "hint": "Lùi thì từ Hiện tại tiếp diễn (are waiting) sang Quá khứ tiếp diễn (were waiting) trong câu tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_006",
+      "prompt": "The kind manager said he _____ him a bill later instead of making him pay then."
+    },
+    "answer": "would send",
+    "hint": "Trong câu tường thuật, 'will' được lùi thành 'would' khi động từ tường thuật ở quá khứ (said)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_007",
+      "prompt": "He told the manager that his biggest worry at that moment _____ how he was going to pay for the meal."
+    },
+    "answer": "was",
+    "hint": "Lùi thì từ Hiện tại đơn (is) sang Quá khứ đơn (was) và đổi 'at the moment' thành 'at that moment'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_008",
+      "prompt": "He wondered if the wallet could have dropped out while he _____ dinner at the table."
+    },
+    "answer": "had been eating",
+    "hint": "Lùi thì từ Quá khứ tiếp diễn (was eating) sang Quá khứ hoàn thành tiếp diễn (had been eating) trong câu tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_009",
+      "prompt": "He told the manager he _____ want to report the missing wallet to the police because he was in a hurry."
+    },
+    "answer": "didn't want",
+    "hint": "Lùi thì từ Hiện tại đơn (don't want) sang Quá khứ đơn (didn't want) khi động từ tường thuật ở quá khứ (told)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_010",
+      "prompt": "He was quite surprised when he reached for his wallet and realized it _____ there."
+    },
+    "answer": "wasn't",
+    "hint": "Khi tường thuật lại sự việc trong quá khứ, thì Hiện tại đơn (isn't) được lùi về Quá khứ đơn (wasn't)."
+  }
+]

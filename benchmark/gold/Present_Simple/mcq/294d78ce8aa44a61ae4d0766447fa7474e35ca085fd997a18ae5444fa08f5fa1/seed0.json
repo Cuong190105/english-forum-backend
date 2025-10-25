@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Mike's father often _____ him a bowl of soup in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "give"
+        },
+        {
+          "id": "b",
+          "label": "gives"
+        },
+        {
+          "id": "c",
+          "label": "is giving"
+        },
+        {
+          "id": "d",
+          "label": "gave"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ là 'Mike's father' (ngôi thứ ba số ít), nên động từ ở thì hiện tại đơn phải thêm 's'. 'Often' chỉ thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "At lunchtime, Mike _____ want to eat the soup because he thinks he doesn't like it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "isn't"
+        },
+        {
+          "id": "c",
+          "label": "doesn't"
+        },
+        {
+          "id": "d",
+          "label": "not"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Chủ ngữ là 'Mike' (ngôi thứ ba số ít), nên trợ động từ phủ định ở thì hiện tại đơn là 'doesn't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "After lunch, Mike and his father usually _____ on the farm.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "is working"
+        },
+        {
+          "id": "d",
+          "label": "are work"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ là 'Mike and his father' (số nhiều), nên động từ ở thì hiện tại đơn giữ nguyên mẫu. 'Usually' chỉ thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ Mike and his father work hard on the farm every day?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does"
+        },
+        {
+          "id": "b",
+          "label": "Is"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        },
+        {
+          "id": "d",
+          "label": "Do"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Với chủ ngữ số nhiều ('Mike and his father'), câu hỏi ở thì hiện tại đơn bắt đầu bằng trợ động từ 'Do'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "According to his mother, the soup in the evening _____ the same soup from lunch.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'The soup' là chủ ngữ số ít. Câu này diễn tả một sự thật trong câu chuyện, nên dùng động từ 'to be' ở thì hiện tại đơn là 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "The sun _____ in the east and sets in the west.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rise"
+        },
+        {
+          "id": "b",
+          "label": "is rising"
+        },
+        {
+          "id": "c",
+          "label": "rises"
+        },
+        {
+          "id": "d",
+          "label": "rose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là một sự thật hiển nhiên, luôn đúng. Dùng thì hiện tại đơn. Chủ ngữ 'The sun' là ngôi thứ ba số ít nên động từ thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "Farmers generally _____ have an easy life; they work very hard.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'Farmers' là danh từ số nhiều. Dạng phủ định của thì hiện tại đơn với chủ ngữ số nhiều là 'don't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "Why _____ Mike think the soup is nice in the evening?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "does"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi với từ để hỏi (Why) và chủ ngữ ngôi thứ ba số ít ('Mike') cần trợ động từ 'does' ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "My family and I always _____ lunch together on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "are having"
+        },
+        {
+          "id": "c",
+          "label": "haves"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Chủ ngữ 'My family and I' là số nhiều. Động từ 'have' ở thì hiện tại đơn giữ nguyên mẫu. 'Always' chỉ thói quen."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "A person who works on a farm _____ a farmer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "call"
+        },
+        {
+          "id": "b",
+          "label": "is called"
+        },
+        {
+          "id": "c",
+          "label": "are called"
+        },
+        {
+          "id": "d",
+          "label": "calls"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là câu bị động ở thì hiện tại đơn (is/are + V3/ed) để diễn tả một định nghĩa. Chủ ngữ 'A person' là số ít nên dùng 'is'."
+  }
+]

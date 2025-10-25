@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_001",
+      "prompt": "Many students are interested _____ English songs."
+    },
+    "answer": "in singing",
+    "hint": "Cụm \"interested in\" luôn đi với giới từ \"in\", và theo sau giới từ là động từ thêm -ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_002",
+      "prompt": "The students are very good _____ beautiful pictures."
+    },
+    "answer": "at drawing",
+    "hint": "Cụm \"good at\" có nghĩa là giỏi về điều gì đó. Giới từ \"at\" phải đi kèm với động từ thêm -ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_003",
+      "prompt": "Lucy always checks her paintbrushes _____ the ads."
+    },
+    "answer": "before painting",
+    "hint": "\"Before\" là giới từ chỉ thời gian, theo sau nó là một động từ ở dạng V-ing để diễn tả hành động xảy ra trước."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_004",
+      "prompt": "They show their talents _____ various instruments."
+    },
+    "answer": "by playing",
+    "hint": "\"By\" + V-ing được dùng để diễn tả phương tiện hoặc cách thức thực hiện một hành động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_005",
+      "prompt": "It's hard to learn a new instrument _____ regularly."
+    },
+    "answer": "without practicing",
+    "hint": "\"Without\" là giới từ, theo sau nó là động từ thêm -ing để chỉ sự thiếu vắng hoặc không có một hành động nào đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_006",
+      "prompt": "Lucy is responsible _____ the ads for the art club."
+    },
+    "answer": "for painting",
+    "hint": "Cụm \"responsible for\" có nghĩa là chịu trách nhiệm về điều gì đó. Giới từ \"for\" phải đi kèm với động từ thêm -ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_007",
+      "prompt": "The festival focuses _____ students' talents."
+    },
+    "answer": "on showing",
+    "hint": "Cụm \"focus on\" có nghĩa là tập trung vào điều gì đó. Giới từ \"on\" phải đi kèm với động từ thêm -ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_008",
+      "prompt": "_____ their performances, the students felt very happy."
+    },
+    "answer": "After showing",
+    "hint": "\"After\" là giới từ chỉ thời gian, theo sau nó là một động từ ở dạng V-ing để diễn tả hành động xảy ra sau."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_009",
+      "prompt": "Some students participate in the chess club _____ the ball game club."
+    },
+    "answer": "instead of joining",
+    "hint": "\"Instead of\" là cụm giới từ, theo sau là động từ thêm -ing để chỉ sự thay thế."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_pv_010",
+      "prompt": "Many students look forward _____ their talents at the festival."
+    },
+    "answer": "to showing",
+    "hint": "\"Look forward to\" là một cụm động từ cố định, trong đó \"to\" là giới từ, nên động từ theo sau phải ở dạng V-ing."
+  }
+]

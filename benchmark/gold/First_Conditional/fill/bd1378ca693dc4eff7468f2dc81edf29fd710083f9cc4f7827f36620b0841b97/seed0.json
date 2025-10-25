@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_01",
+      "prompt": "If you follow these tips, you _____ the best eye cream for your problem."
+    },
+    "answer": "will find",
+    "hint": "Câu điều kiện loại 1: Mệnh đề 'if' dùng thì hiện tại đơn (follow), mệnh đề chính dùng 'will' + động từ nguyên mẫu để chỉ kết quả có thể xảy ra trong tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_02",
+      "prompt": "You might fall victim to fake products if you _____ not research carefully before buying."
+    },
+    "answer": "do",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Dạng phủ định của động từ thường 'research' là 'do not research'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_03",
+      "prompt": "If you _____ willing to spend a lot of money, you can try eye lifts."
+    },
+    "answer": "are",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Với chủ ngữ 'you', động từ 'to be' được chia là 'are'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_04",
+      "prompt": "The product will not fulfill its promises if you _____ it incorrectly."
+    },
+    "answer": "use",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Sau chủ ngữ 'you', động từ ở dạng nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_05",
+      "prompt": "If you have a dermatologist, you _____ for professional advice next week."
+    },
+    "answer": "can ask",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 1 có thể dùng 'can' + động từ nguyên mẫu để chỉ khả năng hoặc sự cho phép trong tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_06",
+      "prompt": "Your aging problem _____ if you choose the right cream for your needs."
+    },
+    "answer": "will improve",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 1 diễn tả kết quả trong tương lai, dùng cấu trúc 'will' + động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_07",
+      "prompt": "If you read fake reviews online, you _____ your money on a bad product."
+    },
+    "answer": "will waste",
+    "hint": "Câu điều kiện loại 1 diễn tả một kết quả có thể xảy ra trong tương lai. Mệnh đề chính dùng 'will' + động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_08",
+      "prompt": "You will save a lot of money if you _____ an effective eye cream."
+    },
+    "answer": "buy",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Với chủ ngữ 'you', động từ ở dạng nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_09",
+      "prompt": "If a customer _____ not know which brand to choose, they will probably get confused."
+    },
+    "answer": "does",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 1 dùng thì hiện tại đơn. Với chủ ngữ số ít 'a customer', trợ động từ phủ định là 'does not'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fc_fill_10",
+      "prompt": "If an eye cream contains the right ingredients, it _____ the lines around your eyes."
+    },
+    "answer": "will reduce",
+    "hint": "Câu điều kiện loại 1: Mệnh đề 'if' ở hiện tại đơn (contains), mệnh đề chính diễn tả kết quả tương lai dùng 'will' + động từ nguyên mẫu."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The building of Dublin City Hall, which dates from 1779, once badly damaged, was recently _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "restoring"
+        },
+        {
+          "id": "b",
+          "label": "restored"
+        },
+        {
+          "id": "c",
+          "label": "restores"
+        },
+        {
+          "id": "d",
+          "label": "restore"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cần một động từ ở thể bị động quá khứ đơn để hoàn thành câu, diễn tả hành động 'được phục hồi'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Dublin Castle _____ in the 13th century on top of the foundations of a Viking structure.",
+      "options": [
+        {
+          "id": "a",
+          "label": "built"
+        },
+        {
+          "id": "b",
+          "label": "was built"
+        },
+        {
+          "id": "c",
+          "label": "has built"
+        },
+        {
+          "id": "d",
+          "label": "is building"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lâu đài không tự xây mà 'được xây dựng' vào thế kỷ 13, cần thể bị động quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Dublin Castle _____ now for state functions and government conferences.",
+      "options": [
+        {
+          "id": "a",
+          "label": "uses"
+        },
+        {
+          "id": "b",
+          "label": "is used"
+        },
+        {
+          "id": "c",
+          "label": "has used"
+        },
+        {
+          "id": "d",
+          "label": "was using"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hiện tại lâu đài 'được sử dụng' cho các chức năng nhà nước, cần thể bị động hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Trinity College _____ by Queen Elizabeth I in 1592.",
+      "options": [
+        {
+          "id": "a",
+          "label": "founded"
+        },
+        {
+          "id": "b",
+          "label": "was founded"
+        },
+        {
+          "id": "c",
+          "label": "has founded"
+        },
+        {
+          "id": "d",
+          "label": "is founding"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trường đại học 'được thành lập' bởi Nữ hoàng Elizabeth I vào năm 1592, cần thể bị động quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The Royal Hospital Kilmainham, where the Irish Museum of Modern Art is housed, _____ on Les Invalides in Paris.",
+      "options": [
+        {
+          "id": "a",
+          "label": "modelled"
+        },
+        {
+          "id": "b",
+          "label": "was modelled"
+        },
+        {
+          "id": "c",
+          "label": "has modelled"
+        },
+        {
+          "id": "d",
+          "label": "is modelling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Bệnh viện 'được mô phỏng' theo một công trình khác, cần thể bị động quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "James Joyce's name _____ forever linked to the city of Dublin.",
+      "options": [
+        {
+          "id": "a",
+          "label": "links"
+        },
+        {
+          "id": "b",
+          "label": "is linked"
+        },
+        {
+          "id": "c",
+          "label": "has linked"
+        },
+        {
+          "id": "d",
+          "label": "was linking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tên của James Joyce 'được gắn liền' với thành phố, cần thể bị động hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The James Joyce Centre _____ to promoting the life and works of James Joyce.",
+      "options": [
+        {
+          "id": "a",
+          "label": "dedicates"
+        },
+        {
+          "id": "b",
+          "label": "is dedicated"
+        },
+        {
+          "id": "c",
+          "label": "has dedicated"
+        },
+        {
+          "id": "d",
+          "label": "was dedicating"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trung tâm 'được dành riêng' để quảng bá, cần thể bị động hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The Book of Kells _____ at the Old Library of Trinity College.",
+      "options": [
+        {
+          "id": "a",
+          "label": "displays"
+        },
+        {
+          "id": "b",
+          "label": "is displayed"
+        },
+        {
+          "id": "c",
+          "label": "has displayed"
+        },
+        {
+          "id": "d",
+          "label": "was displaying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cuốn sách 'được trưng bày', cần thể bị động hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Many historical items from the old city _____ in the exhibition at Dublin City Hall.",
+      "options": [
+        {
+          "id": "a",
+          "label": "includes"
+        },
+        {
+          "id": "b",
+          "label": "are included"
+        },
+        {
+          "id": "c",
+          "label": "has included"
+        },
+        {
+          "id": "d",
+          "label": "was including"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Các hiện vật lịch sử 'được bao gồm' trong triển lãm, cần thể bị động hiện tại đơn với chủ ngữ số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Visitors to the Irish Museum of Modern Art _____ for admission.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't charge"
+        },
+        {
+          "id": "b",
+          "label": "aren't charged"
+        },
+        {
+          "id": "c",
+          "label": "haven't charged"
+        },
+        {
+          "id": "d",
+          "label": "weren't charging"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khách tham quan 'không bị tính phí' vào cửa, cần thể bị động hiện tại đơn phủ định."
+  }
+]

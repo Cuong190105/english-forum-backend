@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "Look! The children _____ in the park right now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are playing"
+        },
+        {
+          "id": "b",
+          "label": "play"
+        },
+        {
+          "id": "c",
+          "label": "played"
+        },
+        {
+          "id": "d",
+          "label": "will play"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Right now” là dấu hiệu của thì hiện tại tiếp diễn, diễn tả hành động đang xảy ra tại thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "My brother usually works in an office, but this week he _____ from home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is working"
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "worked"
+        },
+        {
+          "id": "d",
+          "label": "will work"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“This week” chỉ một hành động tạm thời, không phải thói quen, nên dùng hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "The climate _____ warmer and warmer every year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is getting"
+        },
+        {
+          "id": "b",
+          "label": "gets"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "will get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ “warmer and warmer” diễn tả một xu hướng đang thay đổi, phát triển dần, dùng hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "He _____ always _____ his keys, which is very annoying.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is ... losing"
+        },
+        {
+          "id": "b",
+          "label": "loses"
+        },
+        {
+          "id": "c",
+          "label": "lost"
+        },
+        {
+          "id": "d",
+          "label": "will ... lose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Always” kết hợp với hiện tại tiếp diễn diễn tả một thói quen xấu, gây khó chịu hoặc phàn nàn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "We _____ to Ha Long Bay next month. Everything is booked.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "went"
+        },
+        {
+          "id": "d",
+          "label": "will go"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Next month” và “everything is booked” cho thấy đây là kế hoạch đã sắp xếp chắc chắn trong tương lai gần."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "Please be quiet. I _____ to concentrate on my work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am trying"
+        },
+        {
+          "id": "b",
+          "label": "try"
+        },
+        {
+          "id": "c",
+          "label": "tried"
+        },
+        {
+          "id": "d",
+          "label": "will try"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Please be quiet” yêu cầu sự im lặng vì hành động đang diễn ra tại thời điểm nói, cần sự tập trung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "The number of people using smartphones _____ rapidly these days.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is increasing"
+        },
+        {
+          "id": "b",
+          "label": "increases"
+        },
+        {
+          "id": "c",
+          "label": "increased"
+        },
+        {
+          "id": "d",
+          "label": "will increase"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“These days” và “rapidly” chỉ một xu hướng đang phát triển mạnh mẽ, liên tục trong giai đoạn hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "She _____ with her aunt for a few weeks while her house is being renovated.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is staying"
+        },
+        {
+          "id": "b",
+          "label": "stays"
+        },
+        {
+          "id": "c",
+          "label": "stayed"
+        },
+        {
+          "id": "d",
+          "label": "will stay"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“For a few weeks” và “while her house is being renovated” cho thấy đây là một tình huống tạm thời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "What _____ you _____ these days? Are you still studying English?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are ... doing"
+        },
+        {
+          "id": "b",
+          "label": "do ... do"
+        },
+        {
+          "id": "c",
+          "label": "did ... do"
+        },
+        {
+          "id": "d",
+          "label": "will ... do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“These days” hỏi về hoạt động đang diễn ra trong giai đoạn hiện tại, không nhất thiết ngay lúc nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "My car broke down, so I _____ the bus to work until it's fixed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am taking"
+        },
+        {
+          "id": "b",
+          "label": "take"
+        },
+        {
+          "id": "c",
+          "label": "took"
+        },
+        {
+          "id": "d",
+          "label": "will take"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đi xe buýt là tạm thời và đang diễn ra liên tục cho đến khi xe được sửa chữa xong."
+  }
+]

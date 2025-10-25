@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_001",
+      "prompt": "He _____ with his alcoholism for many years, and it's still a daily struggle."
+    },
+    "answer": "has been struggling",
+    "hint": "Hành động bắt đầu trong quá khứ, kéo dài liên tục đến hiện tại và vẫn đang tiếp diễn. Dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_002",
+      "prompt": "She looks very tired because she _____ from her family for the past week."
+    },
+    "answer": "has been hiding",
+    "hint": "Hành động bắt đầu trong quá khứ (for the past week) và vẫn đang tiếp diễn, kết quả là cô ấy trông mệt mỏi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_003",
+      "prompt": "His family _____ for him to call all morning; they are getting worried."
+    },
+    "answer": "has been waiting",
+    "hint": "Hành động (chờ đợi) kéo dài suốt buổi sáng và vẫn chưa kết thúc. Nhấn mạnh tính liên tục của hành động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_004",
+      "prompt": "I _____ about what you said, and I think I finally understand your point of view."
+    },
+    "answer": "have been thinking",
+    "hint": "Hành động suy nghĩ vừa mới kết thúc và có kết quả ở hiện tại (tôi đã hiểu). Nhấn mạnh quá trình suy nghĩ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_005",
+      "prompt": "The patient _____ this medicine for three months, and his condition is improving."
+    },
+    "answer": "has been taking",
+    "hint": "Hành động bắt đầu từ 3 tháng trước và vẫn tiếp tục ở hiện tại, có kết quả rõ ràng (tình trạng cải thiện)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_006",
+      "prompt": "Ever since the accident, he _____ terrible nightmares almost every night."
+    },
+    "answer": "has been having",
+    "hint": "'Ever since' là dấu hiệu của thì Hiện tại Hoàn thành. Hành động lặp đi lặp lại từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_007",
+      "prompt": "She _____ her boss all day because she is afraid to tell him about the mistake."
+    },
+    "answer": "has been avoiding",
+    "hint": "Hành động (tránh né) kéo dài suốt cả ngày và vẫn đang diễn ra. Nhấn mạnh sự liên tục trong một khoảng thời gian."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_008",
+      "prompt": "I _____ unwell for a few days, so I think I should see a doctor."
+    },
+    "answer": "have been feeling",
+    "hint": "Trạng thái bắt đầu trong quá khứ (a few days) và vẫn tiếp diễn đến hiện tại, dẫn đến một quyết định (gặp bác sĩ)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_009",
+      "prompt": "They _____ to quit drinking for the last six months, but it's very difficult."
+    },
+    "answer": "have been trying",
+    "hint": "Nhấn mạnh sự nỗ lực liên tục trong một khoảng thời gian (for the last six months) mà chưa có kết quả cuối cùng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_010",
+      "prompt": "She _____ that letter for over two hours; her hand must be tired."
+    },
+    "answer": "has been writing",
+    "hint": "Hành động vừa mới kết thúc hoặc vẫn đang tiếp diễn, và có kết quả có thể thấy được ở hiện tại (tay mỏi)."
+  }
+]

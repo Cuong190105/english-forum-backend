@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "According to the text, what are a horse, a panda, and a cat doing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "jumping"
+        },
+        {
+          "id": "b",
+          "label": "climbing"
+        },
+        {
+          "id": "c",
+          "label": "running"
+        },
+        {
+          "id": "d",
+          "label": "standing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm hành động của ngựa, gấu trúc và mèo trong đoạn văn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "What are a dog and two tigers doing in the forest?",
+      "options": [
+        {
+          "id": "a",
+          "label": "running"
+        },
+        {
+          "id": "b",
+          "label": "jumping"
+        },
+        {
+          "id": "c",
+          "label": "flying"
+        },
+        {
+          "id": "d",
+          "label": "sitting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đoạn văn nói gì về hành động của chó và hai con hổ?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "What are the two monkeys doing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "sitting on an elephant"
+        },
+        {
+          "id": "b",
+          "label": "climbing the trees"
+        },
+        {
+          "id": "c",
+          "label": "flying around"
+        },
+        {
+          "id": "d",
+          "label": "watching the meeting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tìm hành động của hai con khỉ trong đoạn văn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "What are the four birds doing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "running and jumping"
+        },
+        {
+          "id": "b",
+          "label": "climbing and sitting"
+        },
+        {
+          "id": "c",
+          "label": "flying around and singing"
+        },
+        {
+          "id": "d",
+          "label": "standing and watching"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đoạn văn mô tả hành động của bốn con chim là gì?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "What are the elephants doing at the sports meeting?",
+      "options": [
+        {
+          "id": "a",
+          "label": "running"
+        },
+        {
+          "id": "b",
+          "label": "jumping"
+        },
+        {
+          "id": "c",
+          "label": "standing"
+        },
+        {
+          "id": "d",
+          "label": "sitting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm hành động của những con voi trong đoạn văn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Where is a monkey sitting?",
+      "options": [
+        {
+          "id": "a",
+          "label": "in the tree"
+        },
+        {
+          "id": "b",
+          "label": "under the tree"
+        },
+        {
+          "id": "c",
+          "label": "on an old elephant"
+        },
+        {
+          "id": "d",
+          "label": "on the big mountain"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đoạn văn nói con khỉ đang ngồi ở đâu?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "According to the text, where is Polly sitting?",
+      "options": [
+        {
+          "id": "a",
+          "label": "on an old elephant"
+        },
+        {
+          "id": "b",
+          "label": "under the tree"
+        },
+        {
+          "id": "c",
+          "label": "in the tree"
+        },
+        {
+          "id": "d",
+          "label": "on the big mountain"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tìm vị trí ngồi của Polly trong đoạn văn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Who is sitting under the tree?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A monkey and Polly"
+        },
+        {
+          "id": "b",
+          "label": "A fox, a baby panda and some small animals"
+        },
+        {
+          "id": "c",
+          "label": "Two tigers and a dog"
+        },
+        {
+          "id": "d",
+          "label": "Four birds"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đoạn văn liệt kê những con vật nào đang ngồi dưới gốc cây?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "What is the general activity that all the animals mentioned are doing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "running"
+        },
+        {
+          "id": "b",
+          "label": "jumping"
+        },
+        {
+          "id": "c",
+          "label": "watching"
+        },
+        {
+          "id": "d",
+          "label": "singing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu cuối cùng của đoạn văn nói về hành động chung của tất cả các con vật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "What is the monkey on the old elephant doing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "running"
+        },
+        {
+          "id": "b",
+          "label": "jumping"
+        },
+        {
+          "id": "c",
+          "label": "climbing"
+        },
+        {
+          "id": "d",
+          "label": "sitting"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Tìm hành động của con khỉ đang ở trên lưng voi."
+  }
+]

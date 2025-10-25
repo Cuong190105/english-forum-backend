@@ -1,0 +1,13 @@
+run_id,config,topic,type,seed,n_items,structural_pass_pct,semantic_mean,semantic_std,semantic_se,semantic_ci95_low,semantic_ci95_high,judge_mean,judge_std,judge_se,judge_ci95_low,judge_ci95_high,judge2_mean,judge2_std,judge2_se,judge2_ci95_low,judge2_ci95_high
+50s_mcq_min_cot_i50_s0,minimal,Contrast (however/although/whereas/…),mcq,0,5,100.0,0.3822,0.0451,0.0202,0.3427,0.4217,1.0,0.0,0.0,1.0,1.0,,,,,
+50s_mcq_min_cot_i50_s0,cot,Contrast (however/although/whereas/…),mcq,0,5,100.0,0.3811,0.0453,0.0203,0.3414,0.4208,1.0,0.0,0.0,1.0,1.0,,,,,
+50s_mcq_min_cot_i50_s0,minimal,Used to,mcq,0,5,100.0,0.4611,0.0505,0.0226,0.4169,0.5054,0.8,0.4472,0.2,0.408,1.0,,,,,
+50s_mcq_min_cot_i50_s0,cot,Used to,mcq,0,5,100.0,0.535,0.0733,0.0328,0.4707,0.5992,1.0,0.0,0.0,1.0,1.0,,,,,
+50s_mcq_min_cot_i50_s0,minimal,Future (will),mcq,0,5,100.0,0.5801,0.1011,0.0452,0.4915,0.6686,0.8,0.2739,0.1225,0.56,1.0,,,,,
+50s_mcq_min_cot_i50_s0,cot,Future (will),mcq,0,5,100.0,0.5777,0.0928,0.0415,0.4964,0.6591,0.7,0.2739,0.1225,0.46,0.94,,,,,
+50s_mcq_min_cot_i50_s0,minimal,Future (will),mcq,0,5,100.0,0.5508,0.032,0.0143,0.5228,0.5788,0.9,0.2236,0.1,0.704,1.0,,,,,
+50s_mcq_min_cot_i50_s0,cot,Future (will),mcq,0,5,100.0,0.4855,0.0654,0.0293,0.4281,0.5428,0.7,0.2739,0.1225,0.46,0.94,,,,,
+50s_mcq_min_cot_i50_s0,minimal,Past Simple,mcq,0,5,100.0,0.4834,0.053,0.0237,0.4369,0.5299,1.0,0.0,0.0,1.0,1.0,,,,,
+50s_mcq_min_cot_i50_s0,cot,Past Simple,mcq,0,5,100.0,0.4571,0.0642,0.0287,0.4009,0.5134,1.0,0.0,0.0,1.0,1.0,,,,,
+50s_mcq_min_cot_i50_s0,minimal,Present Simple,mcq,0,50,100.0,0.4368,0.0592,0.0084,0.4204,0.4532,0.97,0.1199,0.017,0.9368,1.0,,,,,
+50s_mcq_min_cot_i50_s0,cot,Present Simple,mcq,0,50,100.0,0.3961,0.06,0.0085,0.3795,0.4127,0.98,0.099,0.014,0.9526,1.0,,,,,

@@ -1,0 +1,2 @@
+run_id,type,topic,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+smoke_mcq_min_cot_i5_s0_afterpatch,mcq,First Conditional,20,0.55,0.332,0.768,0.1429,0.1022

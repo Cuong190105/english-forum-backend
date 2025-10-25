@@ -1,0 +1,11 @@
+run_id,config,topic,type,seed,n_items,structural_pass_pct,semantic_mean,semantic_std,semantic_se,semantic_ci95_low,semantic_ci95_high,judge_mean,judge_std,judge_se,judge_ci95_low,judge_ci95_high,judge2_mean,judge2_std,judge2_se,judge2_ci95_low,judge2_ci95_high
+race5_mcq_min_cot_i5_s0_twojudge,minimal,First Conditional,mcq,0,15,100.0,0.4561,0.0855,0.0221,0.4128,0.4994,0.6,0.5071,0.1309,0.3434,0.8566,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,cot,First Conditional,mcq,0,15,100.0,0.5283,0.1149,0.0297,0.4701,0.5864,0.7667,0.2582,0.0667,0.636,0.8973,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,minimal,Passive (all tenses),mcq,0,15,100.0,0.5915,0.1572,0.0406,0.5119,0.671,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,cot,Passive (all tenses),mcq,0,15,100.0,0.5135,0.0921,0.0238,0.4669,0.5601,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,minimal,Past Simple,mcq,0,10,100.0,0.611,0.1417,0.0448,0.5232,0.6989,0.8,0.2582,0.0816,0.64,0.96,0.8,0.4216,0.1333,0.5387,1.0
+race5_mcq_min_cot_i5_s0_twojudge,cot,Past Simple,mcq,0,10,100.0,0.664,0.0655,0.0207,0.6234,0.7046,0.9,0.2108,0.0667,0.7693,1.0,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,minimal,Present Perfect Continuous,mcq,0,5,100.0,0.4067,0.0468,0.0209,0.3657,0.4477,0.7,0.4472,0.2,0.308,1.0,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,cot,Present Perfect Continuous,mcq,0,5,100.0,0.4565,0.0943,0.0422,0.3738,0.5392,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,minimal,Reporting verbs,mcq,0,5,100.0,0.6525,0.077,0.0345,0.5849,0.72,0.9,0.2236,0.1,0.704,1.0,1.0,0.0,0.0,1.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,cot,Reporting verbs,mcq,0,5,100.0,0.6174,0.0984,0.044,0.5312,0.7036,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0

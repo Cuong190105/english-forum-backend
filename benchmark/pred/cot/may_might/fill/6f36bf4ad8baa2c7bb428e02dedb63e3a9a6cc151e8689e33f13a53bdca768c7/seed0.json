@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_001",
+      "prompt": "Most schools forbid chewing gum, but in a few years they _____ consider changing that rule."
+    },
+    "answer": "might",
+    "hint": "Might diễn tả khả năng có thể xảy ra trong tương lai, thường yếu hơn may, phù hợp với ngữ cảnh dự đoán về sự thay đổi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_002",
+      "prompt": "Scientists are finding evidence that gum chewing _____ be good for your health."
+    },
+    "answer": "may",
+    "hint": "May được dùng để diễn tả khả năng hoặc sự thật có thể xảy ra dựa trên bằng chứng hiện có, mang tính khách quan hơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_003",
+      "prompt": "Chewing gum _____ even help improve your test scores, according to some research."
+    },
+    "answer": "may",
+    "hint": "May diễn tả một khả năng hoặc một điều có thể đúng, phù hợp với ngữ cảnh nghiên cứu đang khám phá lợi ích tiềm năng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_004",
+      "prompt": "Other researchers are finding that gum _____ work better than a pill to deliver medicines into the bloodstream."
+    },
+    "answer": "might",
+    "hint": "Might diễn tả một khả năng hoặc một giả thuyết đang được nghiên cứu, thường yếu hơn may, phù hợp với ngữ cảnh khám phá."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_005",
+      "prompt": "Scientists _____ even create antimicrobial gums that cure bad breath in the future."
+    },
+    "answer": "might",
+    "hint": "Might diễn tả một khả năng có thể xảy ra trong tương lai, thường mang tính dự đoán hoặc suy đoán về những phát triển mới."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_006",
+      "prompt": "Developing new medicinal gums _____ take years to complete due to the complexity of research."
+    },
+    "answer": "may",
+    "hint": "May diễn tả khả năng hoặc sự thật có thể xảy ra, phù hợp với việc các dự án nghiên cứu phức tạp thường mất nhiều thời gian."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_007",
+      "prompt": "The manufacturer _____ one day offer Stay Alert gum for sale to the public, but it's currently for military use."
+    },
+    "answer": "may",
+    "hint": "May diễn tả một khả năng có thể xảy ra trong tương lai, thường là một dự định hoặc kế hoạch chưa chắc chắn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_008",
+      "prompt": "People who work at night, such as truck drivers, _____ benefit from a product like Stay Alert."
+    },
+    "answer": "might",
+    "hint": "Might diễn tả một khả năng hoặc một lợi ích tiềm năng, phù hợp với ngữ cảnh đưa ra ví dụ về đối tượng sử dụng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_009",
+      "prompt": "Because our cheeks absorb substances quickly, medicine-containing gums _____ be more effective than pills for certain treatments."
+    },
+    "answer": "may",
+    "hint": "May diễn tả khả năng hoặc kết quả có thể xảy ra dựa trên một lý do đã được nêu (hấp thụ nhanh), mang tính suy luận hợp lý."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_maymight_010",
+      "prompt": "If you need to stay awake quickly, Stay Alert gum _____ be a good option as its caffeine takes effect fast."
+    },
+    "answer": "might",
+    "hint": "Might diễn tả một khả năng hoặc một gợi ý, phù hợp với việc đưa ra một lựa chọn tiềm năng cho người dùng dựa trên đặc tính sản phẩm."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "Before Forssmann tried experiments on human patients, experiments _____ on horses."
+    },
+    "answer": "had been done",
+    "hint": "Hành động 'làm thí nghiệm' trên ngựa xảy ra trước khi Forssmann thử trên người."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "Forssmann decided to experiment on himself because his request to try with human patients _____ by the authorities."
+    },
+    "answer": "had been denied",
+    "hint": "Việc 'bị từ chối' xảy ra trước khi ông ấy quyết định tự thí nghiệm."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "After Forssmann _____ his own arm, he made a cut and put the pipe into his vein."
+    },
+    "answer": "had anaesthetized",
+    "hint": "Việc 'gây tê' xảy ra trước khi ông ấy rạch và đưa ống vào."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "Forssmann climbed two floors to the X-ray room after he _____ the pipe 30 centimeters into his vein."
+    },
+    "answer": "had put",
+    "hint": "Việc 'đặt ống' xảy ra trước khi ông ấy leo lên phòng X-quang."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "Marshall bravely drank some bacteria because his request to experiment on patients _____ by the ethics committee."
+    },
+    "answer": "had been denied",
+    "hint": "Việc 'bị từ chối' xảy ra trước khi Marshall uống vi khuẩn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "By the time Marshall drank the bacteria, Robin Warren _____ that the disease might be related to Helicobacter pylori."
+    },
+    "answer": "had found",
+    "hint": "Việc 'tìm ra' vi khuẩn xảy ra và hoàn thành trước khi Marshall uống nó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "Marshall lost his appetite and started vomiting after he _____ the bacteria for five days."
+    },
+    "answer": "had drunk",
+    "hint": "Việc 'uống vi khuẩn' đã xảy ra và hoàn thành trước khi ông ấy có triệu chứng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "Steinman lived four and a half years, much longer than doctors _____ he would."
+    },
+    "answer": "had said",
+    "hint": "Lời tiên đoán của bác sĩ xảy ra trước khi Steinman sống lâu hơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "Before doctors told Steinman he had cancer in 2007, he _____ a new type of immune system cell."
+    },
+    "answer": "had discovered",
+    "hint": "Việc 'khám phá' tế bào xảy ra trước khi ông ấy được chẩn đoán ung thư."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "These scientists were willing to experiment on themselves because they _____ all other options to advance their research."
+    },
+    "answer": "had exhausted",
+    "hint": "Việc 'cạn kiệt các lựa chọn' xảy ra trước khi họ quyết định tự thí nghiệm."
+  }
+]

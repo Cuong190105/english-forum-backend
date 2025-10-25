@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "1",
+      "prompt": "Drew warned them that the dish _____ pretty hot."
+    },
+    "answer": "was",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì hiện tại đơn, chúng ta lùi thì về quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "2",
+      "prompt": "Michi said that she _____ hungry."
+    },
+    "answer": "was",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì hiện tại đơn, chúng ta lùi thì về quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "3",
+      "prompt": "Kent said that he thought Ms. Milano and Mr. Hasselbach _____ just finished giving the garden touring."
+    },
+    "answer": "had",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì hiện tại hoàn thành, chúng ta lùi thì về quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "4",
+      "prompt": "Ms. Milano said that she just _____ to take a moment to congratulate Drew, Emilio and Michi for their wonderful idea."
+    },
+    "answer": "had wanted",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì quá khứ đơn, chúng ta lùi thì về quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "5",
+      "prompt": "She mentioned that a year ago, they first _____ to her with the plan for starting a garden at Jefferson."
+    },
+    "answer": "had come",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì quá khứ đơn, chúng ta lùi thì về quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "6",
+      "prompt": "Ms. Milano said that she _____ whether it would work."
+    },
+    "answer": "had wondered",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì quá khứ đơn, chúng ta lùi thì về quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "7",
+      "prompt": "She added that any time she _____ a question about how they would make it work, they had an answer prepared."
+    },
+    "answer": "had had",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì quá khứ đơn, chúng ta lùi thì về quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "8",
+      "prompt": "She explained that about three-quarters of the food they _____ be enjoying came from the school garden."
+    },
+    "answer": "would",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì tương lai tiếp diễn (will be V-ing), chúng ta lùi thì về thì điều kiện tiếp diễn (would be V-ing)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "9",
+      "prompt": "She also mentioned that the students _____ the entire meal themselves."
+    },
+    "answer": "had prepared",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì quá khứ đơn, chúng ta lùi thì về quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "10",
+      "prompt": "She said that students for years to come _____ be enjoying the garden that they had helped create."
+    },
+    "answer": "would",
+    "hint": "Khi tường thuật lại lời nói trực tiếp ở thì tương lai tiếp diễn (will be V-ing), chúng ta lùi thì về thì điều kiện tiếp diễn (would be V-ing)."
+  }
+]

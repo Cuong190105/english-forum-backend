@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "A new report ______ that African governments are ill prepared to handle the growing number of people over age 65.",
+      "options": [
+        {
+          "id": "a",
+          "label": "claimed"
+        },
+        {
+          "id": "b",
+          "label": "suggested"
+        },
+        {
+          "id": "c",
+          "label": "denied"
+        },
+        {
+          "id": "d",
+          "label": "questioned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật nào phù hợp nhất để diễn tả một tuyên bố từ một báo cáo?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The African Development Bank ______ that aging is highly linked with long-term physical and mental disability.",
+      "options": [
+        {
+          "id": "a",
+          "label": "advised"
+        },
+        {
+          "id": "b",
+          "label": "explained"
+        },
+        {
+          "id": "c",
+          "label": "warned"
+        },
+        {
+          "id": "d",
+          "label": "promised"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật nào phù hợp nhất để diễn tả việc trình bày một sự thật hoặc thông tin?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Professor Mthuli Ncube ______ that Africa was not well prepared to care for its aging population and needed to prepare for this fact.",
+      "options": [
+        {
+          "id": "a",
+          "label": "admitted"
+        },
+        {
+          "id": "b",
+          "label": "announced"
+        },
+        {
+          "id": "c",
+          "label": "stressed"
+        },
+        {
+          "id": "d",
+          "label": "wondered"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật nào diễn tả việc nhấn mạnh một điểm quan trọng?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Professor Mthuli Ncube ______ African governments for failing to take action on health insurance and pensions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "praised"
+        },
+        {
+          "id": "b",
+          "label": "criticized"
+        },
+        {
+          "id": "c",
+          "label": "thanked"
+        },
+        {
+          "id": "d",
+          "label": "encouraged"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật nào diễn tả sự không hài lòng hoặc lên án về một hành động sai lầm?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He ______ that it was not only a must but also an opportunity for private companies to add their bit.",
+      "options": [
+        {
+          "id": "a",
+          "label": "proposed"
+        },
+        {
+          "id": "b",
+          "label": "insisted"
+        },
+        {
+          "id": "c",
+          "label": "doubted"
+        },
+        {
+          "id": "d",
+          "label": "denied"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật nào diễn tả việc khẳng định một điều gì đó một cách mạnh mẽ hoặc kiên quyết?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The report ______ African governments to consider providing ways of free health services.",
+      "options": [
+        {
+          "id": "a",
+          "label": "refused"
+        },
+        {
+          "id": "b",
+          "label": "suggested"
+        },
+        {
+          "id": "c",
+          "label": "ordered"
+        },
+        {
+          "id": "d",
+          "label": "complained"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật nào diễn tả việc đưa ra một ý kiến hoặc lời khuyên?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The African Development Bank ______ that governments should help carry out health insurance and pension plans.",
+      "options": [
+        {
+          "id": "a",
+          "label": "demanded"
+        },
+        {
+          "id": "b",
+          "label": "advised"
+        },
+        {
+          "id": "c",
+          "label": "questioned"
+        },
+        {
+          "id": "d",
+          "label": "warned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật nào diễn tả việc đưa ra lời khuyên hoặc khuyến nghị?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Ncube ______ that African governments did not have to handle the health insurance burden alone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "confirmed"
+        },
+        {
+          "id": "b",
+          "label": "denied"
+        },
+        {
+          "id": "c",
+          "label": "claimed"
+        },
+        {
+          "id": "d",
+          "label": "explained"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Động từ tường thuật nào phù hợp nhất để làm rõ một điểm hoặc cung cấp thông tin?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The African Development Bank ______ its concern over the shortage of health insurance and pensions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "expressed"
+        },
+        {
+          "id": "b",
+          "label": "concealed"
+        },
+        {
+          "id": "c",
+          "label": "ignored"
+        },
+        {
+          "id": "d",
+          "label": "dismissed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật nào diễn tả việc thể hiện một cảm xúc hoặc ý kiến?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Professor Mthuli Ncube ______ that Africa was not well prepared to care for its aging population.",
+      "options": [
+        {
+          "id": "a",
+          "label": "promised"
+        },
+        {
+          "id": "b",
+          "label": "admitted"
+        },
+        {
+          "id": "c",
+          "label": "denied"
+        },
+        {
+          "id": "d",
+          "label": "stated"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Động từ tường thuật nào diễn tả việc đưa ra một tuyên bố hoặc thông tin một cách trung lập?"
+  }
+]

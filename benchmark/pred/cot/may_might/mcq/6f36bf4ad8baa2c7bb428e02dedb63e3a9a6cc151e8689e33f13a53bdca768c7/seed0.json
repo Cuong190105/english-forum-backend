@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_001",
+      "prompt": "Most schools forbid chewing gum, but in a few years they _____ consider changing that rule.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "should"
+        },
+        {
+          "id": "d",
+          "label": "must"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Might diễn tả khả năng xảy ra trong tương lai, thường với mức độ chắc chắn thấp hơn may, hoặc khi có sự cân nhắc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_002",
+      "prompt": "Scientists are finding evidence that gum chewing _____ be good for your health.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "can"
+        },
+        {
+          "id": "d",
+          "label": "will"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "May diễn tả khả năng hoặc sự thật có thể xảy ra. Trong câu này, nó chỉ khả năng gum tốt cho sức khỏe."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_003",
+      "prompt": "It _____ even help improve your test scores, according to some research.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "should"
+        },
+        {
+          "id": "d",
+          "label": "must"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "May được dùng để nói về một khả năng có thể xảy ra trong tương lai hoặc hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_004",
+      "prompt": "Other researchers are finding that gum _____ work better than a pill to deliver medicines.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "can"
+        },
+        {
+          "id": "d",
+          "label": "will"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Might diễn tả một khả năng hoặc dự đoán, thường với mức độ chắc chắn thấp hơn may, hoặc khi có sự so sánh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_005",
+      "prompt": "Scientists _____ even create antimicrobial gums that cure bad breath in the future.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "should"
+        },
+        {
+          "id": "d",
+          "label": "must"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Might được dùng để nói về một khả năng có thể xảy ra trong tương lai, mang tính dự đoán hoặc giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_006",
+      "prompt": "Those projects _____ take years to complete, but scientists have already had some success.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "can"
+        },
+        {
+          "id": "d",
+          "label": "will"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "May diễn tả khả năng hoặc sự thật có thể xảy ra. Ở đây, nó chỉ khả năng các dự án sẽ mất nhiều năm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_007",
+      "prompt": "The manufacturer _____ one day offer Stay Alert gum for sale to the public.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "should"
+        },
+        {
+          "id": "d",
+          "label": "must"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "May được dùng để nói về một khả năng có thể xảy ra trong tương lai, thường là một dự đoán."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_008",
+      "prompt": "People who work at night, such as truck drivers, _____ benefit from a product like Stay Alert.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "can"
+        },
+        {
+          "id": "d",
+          "label": "will"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Might diễn tả một khả năng hoặc dự đoán, thường với mức độ chắc chắn thấp hơn may, hoặc khi đưa ra gợi ý."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_009",
+      "prompt": "The discovery that cheeks absorb substances quickly _____ help researchers develop new medicine-containing gums.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "should"
+        },
+        {
+          "id": "d",
+          "label": "must"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "May và might đều diễn tả khả năng. May thường dùng cho khả năng chung chung hoặc có phần chắc chắn hơn might."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "mcq_may_might_010",
+      "prompt": "This exciting research is just beginning, so its full impact _____ not be known for some time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "may"
+        },
+        {
+          "id": "b",
+          "label": "might"
+        },
+        {
+          "id": "c",
+          "label": "should"
+        },
+        {
+          "id": "d",
+          "label": "must"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "May được dùng để nói về một khả năng có thể xảy ra trong tương lai, đặc biệt khi có sự không chắc chắn."
+  }
+]

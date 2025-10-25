@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_001",
+      "prompt": "Lincoln College of English _____ classes for foreign students at all levels."
+    },
+    "answer": "offers",
+    "hint": "Chủ ngữ 'Lincoln College of English' là số ít (ngôi thứ ba), nên động từ ở thì hiện tại đơn phải thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_002",
+      "prompt": "According to the text, one course _____ open all year round."
+    },
+    "answer": "is",
+    "hint": "Đây là một sự thật, một trạng thái. Với chủ ngữ số ít 'one course', ta dùng động từ 'to be' là 'is'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_003",
+      "prompt": "A typical class at this school _____ a maximum of 12 students."
+    },
+    "answer": "has",
+    "hint": "Chủ ngữ 'A typical class' là số ít, tương đương 'it'. Vì vậy, động từ 'have' phải được chia thành 'has'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_004",
+      "prompt": "The college _____ a library and a language lab to support students."
+    },
+    "answer": "provides",
+    "hint": "Chủ ngữ 'The college' là số ít. Động từ ở thì hiện tại đơn diễn tả một sự thật cần thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_005",
+      "prompt": "The school also _____ accommodations with selected local families."
+    },
+    "answer": "arranges",
+    "hint": "Chủ ngữ 'The school' là số ít. Động từ ở thì hiện tại đơn cần thêm 's' để phù hợp với chủ ngữ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_006",
+      "prompt": "The course fees for a full year of study _____ $1380."
+    },
+    "answer": "are",
+    "hint": "Chủ ngữ 'fees' là danh từ số nhiều, nên động từ 'to be' phải được chia là 'are' trong thì hiện tại đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_007",
+      "prompt": "The college _____ located just 25 minutes from London."
+    },
+    "answer": "is",
+    "hint": "Câu này diễn tả một sự thật về vị trí. Với chủ ngữ số ít 'The college', ta dùng động từ 'is'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_008",
+      "prompt": "Students who study for shorter periods _____ a reduction in their fees."
+    },
+    "answer": "receive",
+    "hint": "Chủ ngữ 'Students' là số nhiều. Động từ ở thì hiện tại đơn được giữ ở dạng nguyên mẫu, không thêm 's'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_009",
+      "prompt": "The college _____ offer courses longer than one year, based on this text."
+    },
+    "answer": "doesn't",
+    "hint": "Để tạo câu phủ định cho chủ ngữ số ít ('The college') ở thì hiện tại đơn, ta dùng trợ động từ 'doesn't'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_010",
+      "prompt": "The listening center _____ students improve their comprehension skills."
+    },
+    "answer": "helps",
+    "hint": "Chủ ngữ 'The listening center' là số ít. Động từ 'help' cần thêm 's' để phù hợp với chủ ngữ."
+  }
+]

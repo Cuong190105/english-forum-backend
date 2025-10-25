@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "Mr. and Mrs. Martin _____ in New York."
+    },
+    "answer": "live",
+    "hint": "Động từ 'live' chia theo chủ ngữ số nhiều 'Mr. and Mrs. Martin'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "Mr. Martin _____ a doctor."
+    },
+    "answer": "is",
+    "hint": "Động từ 'to be' chia theo chủ ngữ số ít 'Mr. Martin'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "Mrs. Martin _____ music at a school in New York."
+    },
+    "answer": "teaches",
+    "hint": "Động từ 'teach' chia theo chủ ngữ số ít 'Mrs. Martin'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "They _____ two sons."
+    },
+    "answer": "have",
+    "hint": "Động từ 'have' chia theo chủ ngữ số nhiều 'They'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "Their sons' names _____ Ted and Roy."
+    },
+    "answer": "are",
+    "hint": "Động từ 'to be' chia theo chủ ngữ số nhiều 'names'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "Roy _____ thirteen years old."
+    },
+    "answer": "is",
+    "hint": "Động từ 'to be' chia theo chủ ngữ số ít 'Roy'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Roy _____ to high school."
+    },
+    "answer": "goes",
+    "hint": "Động từ 'go' chia theo chủ ngữ số ít 'Roy'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "He _____ sports very much."
+    },
+    "answer": "likes",
+    "hint": "Động từ 'like' chia theo chủ ngữ số ít 'He'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "He _____ swimming best."
+    },
+    "answer": "likes",
+    "hint": "Động từ 'like' chia theo chủ ngữ số ít 'He'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "He _____ to be the best swimmer in his school."
+    },
+    "answer": "wants",
+    "hint": "Động từ 'want' chia theo chủ ngữ số ít 'He'."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q1",
+      "prompt": "A new report _____ that African governments are ill prepared to handle the growing number of people over age 65."
+    },
+    "answer": "says",
+    "hint": "Động từ tường thuật nào thường dùng để giới thiệu thông tin từ một báo cáo hoặc nguồn tin hiện tại?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q2",
+      "prompt": "The African Development Bank _____ that aging is highly linked with long-term physical and mental disability."
+    },
+    "answer": "stated",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nói\" hoặc \"tuyên bố\" một cách trang trọng?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q3",
+      "prompt": "Professor Mthuli Ncube, the chief economist, _____ that Africa was not well prepared to care for its aging population."
+    },
+    "answer": "explained",
+    "hint": "Động từ tường thuật nào có nghĩa là \"giải thích\" hoặc \"làm rõ\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q4",
+      "prompt": "Professor Mthuli Ncube _____ that African governments had failed to take action on health insurance and pensions."
+    },
+    "answer": "asserted",
+    "hint": "Động từ tường thuật nào có nghĩa là \"khẳng định\" một điều gì đó?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q5",
+      "prompt": "The African Development Bank _____ that governments should help carry out health insurance and pension plans."
+    },
+    "answer": "recommended",
+    "hint": "Động từ tường thuật nào có nghĩa là \"đề xuất\" hoặc \"khuyên\"?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q6",
+      "prompt": "Ncube _____ that African governments did not have to handle the health insurance burden alone."
+    },
+    "answer": "pointed out",
+    "hint": "Cụm động từ tường thuật nào có nghĩa là \"chỉ ra\" một sự thật hoặc quan điểm?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q7",
+      "prompt": "He _____ that it was not only a must but also an opportunity for private companies to add their bit."
+    },
+    "answer": "added",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nói thêm\" một thông tin?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q8",
+      "prompt": "The report also _____ that African governments should consider providing ways of free health services."
+    },
+    "answer": "suggested",
+    "hint": "Động từ tường thuật nào có nghĩa là \"gợi ý\" hoặc \"đề xuất\" một ý tưởng?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q9",
+      "prompt": "The African Development Bank is _____ concerns over the shortage of health insurance and pensions."
+    },
+    "answer": "raising",
+    "hint": "Động từ nào thường đi với \"concerns\" để diễn tả việc nêu lên mối lo ngại?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q10",
+      "prompt": "Ncube _____ that private companies also had an opportunity to contribute to health insurance."
+    },
+    "answer": "emphasized",
+    "hint": "Động từ tường thuật nào có nghĩa là \"nhấn mạnh\" một điểm quan trọng?"
+  }
+]

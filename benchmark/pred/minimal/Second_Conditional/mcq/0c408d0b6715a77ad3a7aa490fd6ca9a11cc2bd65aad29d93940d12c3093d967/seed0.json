@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "If I _____ a lot of money, I would travel the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "will have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề \"if\" trong câu điều kiện loại 2 dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "If she studied harder, she _____ pass the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "would"
+        },
+        {
+          "id": "c",
+          "label": "can"
+        },
+        {
+          "id": "d",
+          "label": "may"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 2 dùng \"would\" + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "If they _____ more time, they _____ visit us.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had / would"
+        },
+        {
+          "id": "b",
+          "label": "have / will"
+        },
+        {
+          "id": "c",
+          "label": "would have / would"
+        },
+        {
+          "id": "d",
+          "label": "had / will"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cả hai vế của câu điều kiện loại 2 phải tuân thủ cấu trúc: If + S + V(quá khứ đơn), S + would + V(nguyên mẫu)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "If he _____ so busy, he would help you.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wasn't"
+        },
+        {
+          "id": "b",
+          "label": "isn't"
+        },
+        {
+          "id": "c",
+          "label": "wouldn't be"
+        },
+        {
+          "id": "d",
+          "label": "weren't"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trong câu điều kiện loại 2, động từ \"to be\" ở mệnh đề \"if\" thường dùng \"were\" cho tất cả các ngôi, kể cả \"he/she/it/I\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "What _____ you do if you _____ a ghost?",
+      "options": [
+        {
+          "id": "a",
+          "label": "would / saw"
+        },
+        {
+          "id": "b",
+          "label": "will / see"
+        },
+        {
+          "id": "c",
+          "label": "would / see"
+        },
+        {
+          "id": "d",
+          "label": "will / saw"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu hỏi trong câu điều kiện loại 2. Mệnh đề \"if\" dùng quá khứ đơn, mệnh đề chính dùng \"would\" + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "If I _____ her address, I _____ write to her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "knew / would"
+        },
+        {
+          "id": "b",
+          "label": "know / will"
+        },
+        {
+          "id": "c",
+          "label": "knew / will"
+        },
+        {
+          "id": "d",
+          "label": "know / would"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề \"if\" dùng quá khứ đơn (knew), mệnh đề chính dùng \"would\" + động từ nguyên mẫu (would write)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "If we _____ a car, we _____ go on a road trip.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had / could"
+        },
+        {
+          "id": "b",
+          "label": "have / can"
+        },
+        {
+          "id": "c",
+          "label": "had / can"
+        },
+        {
+          "id": "d",
+          "label": "have / could"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 2 diễn tả một tình huống giả định không có thật ở hiện tại. Mệnh đề \"if\" dùng quá khứ đơn, mệnh đề chính dùng \"would/could/might\" + động từ nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "If I _____ you, I _____ accept the offer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were / would"
+        },
+        {
+          "id": "b",
+          "label": "was / would"
+        },
+        {
+          "id": "c",
+          "label": "were / will"
+        },
+        {
+          "id": "d",
+          "label": "was / will"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 2, \"If I were you\" là một cấu trúc cố định để đưa ra lời khuyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She _____ happier if she _____ a less stressful job.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would be / had"
+        },
+        {
+          "id": "b",
+          "label": "will be / has"
+        },
+        {
+          "id": "c",
+          "label": "would be / has"
+        },
+        {
+          "id": "d",
+          "label": "will be / had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề chính dùng \"would be\", mệnh đề \"if\" dùng quá khứ đơn \"had\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "If it _____ rain, we _____ go for a picnic.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't / would"
+        },
+        {
+          "id": "b",
+          "label": "doesn't / will"
+        },
+        {
+          "id": "c",
+          "label": "didn't / will"
+        },
+        {
+          "id": "d",
+          "label": "doesn't / would"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề \"if\" dùng quá khứ đơn phủ định (didn't rain), mệnh đề chính dùng \"would\" + động từ nguyên mẫu (would go)."
+  }
+]

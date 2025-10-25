@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_01",
+      "prompt": "Many students are interested _____ new clubs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to join"
+        },
+        {
+          "id": "b",
+          "label": "joining"
+        },
+        {
+          "id": "c",
+          "label": "join"
+        },
+        {
+          "id": "d",
+          "label": "in joining"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cấu trúc 'interested in + V-ing' (quan tâm đến việc gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_02",
+      "prompt": "Lucy is good _____ beautiful pictures.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to draw"
+        },
+        {
+          "id": "b",
+          "label": "drawing"
+        },
+        {
+          "id": "c",
+          "label": "at drawing"
+        },
+        {
+          "id": "d",
+          "label": "draw"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'good at + V-ing' (giỏi làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_03",
+      "prompt": "Instead _____ staying home, they went to the festival.",
+      "options": [
+        {
+          "id": "a",
+          "label": "of staying"
+        },
+        {
+          "id": "b",
+          "label": "to stay"
+        },
+        {
+          "id": "c",
+          "label": "stay"
+        },
+        {
+          "id": "d",
+          "label": "for staying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'instead of + V-ing' (thay vì làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_04",
+      "prompt": "Some students left the club _____ saying goodbye.",
+      "options": [
+        {
+          "id": "a",
+          "label": "without saying"
+        },
+        {
+          "id": "b",
+          "label": "not saying"
+        },
+        {
+          "id": "c",
+          "label": "to not say"
+        },
+        {
+          "id": "d",
+          "label": "without to say"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'without + V-ing' (mà không làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_05",
+      "prompt": "Before _____ to the festival, students practiced a lot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "going"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "to go"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Giới từ 'before' theo sau bởi V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_06",
+      "prompt": "After _____ their talents, they felt very happy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "show"
+        },
+        {
+          "id": "b",
+          "label": "showing"
+        },
+        {
+          "id": "c",
+          "label": "to show"
+        },
+        {
+          "id": "d",
+          "label": "showed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Giới từ 'after' theo sau bởi V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_07",
+      "prompt": "We thank Lucy _____ the ads.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to paint"
+        },
+        {
+          "id": "b",
+          "label": "painting"
+        },
+        {
+          "id": "c",
+          "label": "for painting"
+        },
+        {
+          "id": "d",
+          "label": "paint"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'thank someone for + V-ing' (cảm ơn ai vì đã làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_08",
+      "prompt": "Many students dream _____ famous artists.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to become"
+        },
+        {
+          "id": "b",
+          "label": "becoming"
+        },
+        {
+          "id": "c",
+          "label": "of becoming"
+        },
+        {
+          "id": "d",
+          "label": "become"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'dream of + V-ing' (mơ ước làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_09",
+      "prompt": "The rain prevented them _____ outside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to play"
+        },
+        {
+          "id": "b",
+          "label": "playing"
+        },
+        {
+          "id": "c",
+          "label": "from playing"
+        },
+        {
+          "id": "d",
+          "label": "play"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'prevent someone from + V-ing' (ngăn cản ai làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_prep_v_ing_10",
+      "prompt": "Students look forward _____ the \"Show Yourselves !\" Festival every year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to attend"
+        },
+        {
+          "id": "b",
+          "label": "attending"
+        },
+        {
+          "id": "c",
+          "label": "to attending"
+        },
+        {
+          "id": "d",
+          "label": "attend"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'look forward to + V-ing' (mong đợi làm gì). 'To' ở đây là giới từ."
+  }
+]

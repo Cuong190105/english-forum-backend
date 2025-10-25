@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_01",
+      "prompt": "Mr. and Mrs. Martin _____ in New York."
+    },
+    "answer": "live",
+    "hint": "Chủ ngữ là 'Mr. and Mrs. Martin' (số nhiều) nên động từ 'live' ở dạng nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_02",
+      "prompt": "Mrs. Martin _____ music at a school."
+    },
+    "answer": "teaches",
+    "hint": "Chủ ngữ là 'Mrs. Martin' (ngôi thứ ba số ít), nên động từ 'teach' phải thêm '-es'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_03",
+      "prompt": "Roy _____ to high school because he is thirteen years old."
+    },
+    "answer": "goes",
+    "hint": "Chủ ngữ là 'Roy' (ngôi thứ ba số ít), nên động từ 'go' phải thêm '-es' để diễn tả một hành động thường xuyên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_04",
+      "prompt": "They _____ two sons named Ted and Roy."
+    },
+    "answer": "have",
+    "hint": "Chủ ngữ là 'They' (số nhiều) nên dùng động từ 'have'. 'Has' chỉ dùng cho ngôi thứ ba số ít."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_05",
+      "prompt": "Roy _____ sports very much, especially swimming."
+    },
+    "answer": "likes",
+    "hint": "Chủ ngữ là 'Roy' (ngôi thứ ba số ít), nên động từ 'like' phải thêm '-s' để diễn tả sở thích."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_06",
+      "prompt": "Mr. Martin _____ a doctor, and his office is in New York."
+    },
+    "answer": "is",
+    "hint": "Với chủ ngữ ngôi thứ ba số ít như 'Mr. Martin', ta dùng động từ 'to be' là 'is' để chỉ nghề nghiệp hoặc một sự thật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_07",
+      "prompt": "Roy _____ to be the best swimmer in his school."
+    },
+    "answer": "wants",
+    "hint": "Chủ ngữ là 'Roy' (ngôi thứ ba số ít), nên động từ 'want' phải thêm '-s' để diễn tả một mong muốn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_08",
+      "prompt": "Where _____ Mr. and Mrs. Martin live?"
+    },
+    "answer": "do",
+    "hint": "Dùng trợ động từ 'do' cho câu hỏi với chủ ngữ số nhiều ('Mr. and Mrs. Martin')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_09",
+      "prompt": "What subject _____ Mrs. Martin teach?"
+    },
+    "answer": "does",
+    "hint": "Dùng trợ động từ 'does' cho câu hỏi với chủ ngữ ngôi thứ ba số ít ('Mrs. Martin')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_10",
+      "prompt": "Mr. Martin _____ not teach music; he is a doctor."
+    },
+    "answer": "does",
+    "hint": "Dùng trợ động từ 'does' trong câu phủ định với chủ ngữ ngôi thứ ba số ít ('Mr. Martin')."
+  }
+]

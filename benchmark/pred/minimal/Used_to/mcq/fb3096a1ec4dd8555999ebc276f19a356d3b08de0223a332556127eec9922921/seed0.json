@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "When I was a child, I _____ play hide-and-seek every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "am used to"
+        },
+        {
+          "id": "c",
+          "label": "get used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to” diễn tả một thói quen trong quá khứ đã không còn nữa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "There _____ be a cinema on this street, but it was demolished last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "is used to"
+        },
+        {
+          "id": "c",
+          "label": "gets used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to” cũng dùng để diễn tả một trạng thái hoặc sự tồn tại trong quá khứ không còn đúng ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "My grandmother _____ like spicy food, but now she loves it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't use to"
+        },
+        {
+          "id": "b",
+          "label": "wasn't used to"
+        },
+        {
+          "id": "c",
+          "label": "didn't used to"
+        },
+        {
+          "id": "d",
+          "label": "isn't used to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng phủ định của “used to” là “didn't use to”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ you _____ live in a small town before moving to the city?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did / use to"
+        },
+        {
+          "id": "b",
+          "label": "Were / used to"
+        },
+        {
+          "id": "c",
+          "label": "Did / used to"
+        },
+        {
+          "id": "d",
+          "label": "Do / use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng nghi vấn của “used to” là “Did + chủ ngữ + use to”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "I _____ wake up early when I started this job, but now it's normal for me.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't use to"
+        },
+        {
+          "id": "b",
+          "label": "wasn't used to"
+        },
+        {
+          "id": "c",
+          "label": "didn't used to"
+        },
+        {
+          "id": "d",
+          "label": "am not used to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu này nói về một thói quen trong quá khứ không tồn tại, không phải về sự quen thuộc với việc gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "It took me a while to _____ the cold weather in Canada.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "get used to"
+        },
+        {
+          "id": "c",
+          "label": "be used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Get used to” diễn tả quá trình làm quen với điều gì đó. “Used to” diễn tả thói quen/trạng thái trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Before smartphones, people _____ send letters more often.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "are used to"
+        },
+        {
+          "id": "c",
+          "label": "get used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to” diễn tả một thói quen trong quá khứ đã không còn nữa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "He _____ be very shy, but now he's quite outgoing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "is used to"
+        },
+        {
+          "id": "c",
+          "label": "gets used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to” diễn tả một trạng thái trong quá khứ đã thay đổi ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "When I was young, I _____ climb trees every summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "climb"
+        },
+        {
+          "id": "c",
+          "label": "was used to"
+        },
+        {
+          "id": "d",
+          "label": "get used to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to” nhấn mạnh thói quen lặp đi lặp lại trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "My parents _____ live in a small village, but they moved to the city ten years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "are used to"
+        },
+        {
+          "id": "c",
+          "label": "get used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to” diễn tả một trạng thái hoặc nơi ở trong quá khứ đã thay đổi."
+  }
+]

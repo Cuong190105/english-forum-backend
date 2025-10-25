@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_001",
+      "prompt": "Before the Euro, travelers _____ different currencies when moving between European countries.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to use"
+        },
+        {
+          "id": "b",
+          "label": "were used to use"
+        },
+        {
+          "id": "c",
+          "label": "got used to using"
+        },
+        {
+          "id": "d",
+          "label": "use"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to + V-inf” diễn tả thói quen hoặc trạng thái trong quá khứ không còn tiếp diễn. Các lựa chọn khác sai cấu trúc hoặc nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_002",
+      "prompt": "After the Euro was introduced in 2002, people quickly _____ using a single currency for most transactions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "were used to"
+        },
+        {
+          "id": "c",
+          "label": "got used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Get used to + V-ing” diễn tả quá trình làm quen với điều gì đó. Từ “quickly” gợi ý một quá trình thay đổi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_003",
+      "prompt": "Just five years ago, travelers _____ for weeks to apply for multiple visas, but now it's much simpler.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to wait"
+        },
+        {
+          "id": "b",
+          "label": "waited"
+        },
+        {
+          "id": "c",
+          "label": "were used to waiting"
+        },
+        {
+          "id": "d",
+          "label": "get used to waiting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to + V-inf” diễn tả thói quen lặp đi lặp lại trong quá khứ, thường đi kèm với sự tương phản với hiện tại ('but now it's simpler')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_004",
+      "prompt": "Most Europeans _____ the convenience of using the Euro since 2002, making shopping easier.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to"
+        },
+        {
+          "id": "b",
+          "label": "are used to"
+        },
+        {
+          "id": "c",
+          "label": "get used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Be used to + V-ing/noun” diễn tả việc đã quen với điều gì đó ở hiện tại. “Since 2002” cho thấy trạng thái đã quen thuộc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_005",
+      "prompt": "Before the EU, people _____ travel across 15 European countries without stopping, as visas were required for each.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't use to"
+        },
+        {
+          "id": "b",
+          "label": "weren't used to"
+        },
+        {
+          "id": "c",
+          "label": "didn't get used to"
+        },
+        {
+          "id": "d",
+          "label": "aren't used to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng phủ định của “used to” là “didn't use to + V-inf”, diễn tả thói quen hoặc trạng thái không tồn tại trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_006",
+      "prompt": "_____ you _____ a calculator to convert currencies when traveling in Europe before the Euro was introduced?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did...use to"
+        },
+        {
+          "id": "b",
+          "label": "Were...used to"
+        },
+        {
+          "id": "c",
+          "label": "Did...get used to"
+        },
+        {
+          "id": "d",
+          "label": "Do...use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng nghi vấn của “used to” là “Did + S + use to + V-inf?”, hỏi về thói quen hoặc trạng thái trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_007",
+      "prompt": "In the past, if you wanted to visit multiple European countries, you _____ for different visas, which was a lengthy process.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to apply"
+        },
+        {
+          "id": "b",
+          "label": "would apply"
+        },
+        {
+          "id": "c",
+          "label": "were used to applying"
+        },
+        {
+          "id": "d",
+          "label": "got used to applying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to + V-inf” diễn tả thói quen hoặc hành động lặp lại trong quá khứ mà nay không còn. “Would” cũng đúng cho thói quen nhưng không dùng cho trạng thái."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_008",
+      "prompt": "Your driving license _____ only valid in your home country before the current EU regulations made it valid across Europe.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used to be"
+        },
+        {
+          "id": "b",
+          "label": "was used to being"
+        },
+        {
+          "id": "c",
+          "label": "got used to being"
+        },
+        {
+          "id": "d",
+          "label": "use to be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Used to + V-inf” là cấu trúc đúng để diễn tả trạng thái hoặc thói quen trong quá khứ. “Use to” (không có -d) là lỗi sai phổ biến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_009",
+      "prompt": "Nowadays, travelers _____ using their mobile phones everywhere in Europe, which wasn't always the case before the EU integration.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are used to"
+        },
+        {
+          "id": "b",
+          "label": "used to"
+        },
+        {
+          "id": "c",
+          "label": "get used to"
+        },
+        {
+          "id": "d",
+          "label": "use to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Be used to + V-ing” diễn tả trạng thái đã quen với điều gì đó ở hiện tại. “Nowadays” là dấu hiệu quan trọng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_usedto_010",
+      "prompt": "The convenience of traveling between European countries is something people _____ now, but it was much more complicated just five years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are used to experiencing"
+        },
+        {
+          "id": "b",
+          "label": "used to experience"
+        },
+        {
+          "id": "c",
+          "label": "get used to experiencing"
+        },
+        {
+          "id": "d",
+          "label": "use to experience"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Be used to + V-ing” diễn tả việc đã quen với điều gì đó ở hiện tại. “Now” và sự tương phản với quá khứ là các dấu hiệu."
+  }
+]

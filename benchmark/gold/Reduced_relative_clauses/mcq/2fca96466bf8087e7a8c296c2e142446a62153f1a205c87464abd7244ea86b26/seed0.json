@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_001",
+      "prompt": "The restrictions _____ by the manufacturer prevent users from installing unauthorized software.",
+      "options": [
+        {
+          "id": "a",
+          "label": "imposed"
+        },
+        {
+          "id": "b",
+          "label": "imposing"
+        },
+        {
+          "id": "c",
+          "label": "which imposed"
+        },
+        {
+          "id": "d",
+          "label": "are imposed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ bị động (which are imposed) được rút gọn thành V3/ed (imposed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_002",
+      "prompt": "Users _____ to customize their phones often look for jailbreaking methods.",
+      "options": [
+        {
+          "id": "a",
+          "label": "want"
+        },
+        {
+          "id": "b",
+          "label": "wanted"
+        },
+        {
+          "id": "c",
+          "label": "wanting"
+        },
+        {
+          "id": "d",
+          "label": "are wanting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề quan hệ chủ động (who want) được rút gọn thành V-ing (wanting)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_003",
+      "prompt": "The App Store is limited to applications _____ exclusively by Apple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "licensing"
+        },
+        {
+          "id": "b",
+          "label": "licensed"
+        },
+        {
+          "id": "c",
+          "label": "which license"
+        },
+        {
+          "id": "d",
+          "label": "are licensed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Rút gọn mệnh đề quan hệ bị động. 'Applications which are licensed' trở thành 'applications licensed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_004",
+      "prompt": "The first developer _____ the iPhone successfully did so in July 2007.",
+      "options": [
+        {
+          "id": "a",
+          "label": "jailbreaking"
+        },
+        {
+          "id": "b",
+          "label": "jailbroken"
+        },
+        {
+          "id": "c",
+          "label": "who jailbreaks"
+        },
+        {
+          "id": "d",
+          "label": "to jailbreak"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Sau các từ chỉ thứ tự như 'the first', mệnh đề quan hệ (who jailbroke) được rút gọn thành 'to V'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_005",
+      "prompt": "Jailbreaking involves using a special piece of software _____ the device's operating system.",
+      "options": [
+        {
+          "id": "a",
+          "label": "unlocking"
+        },
+        {
+          "id": "b",
+          "label": "unlocked"
+        },
+        {
+          "id": "c",
+          "label": "to be unlocked"
+        },
+        {
+          "id": "d",
+          "label": "which unlocked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ chủ động (which unlocks) được rút gọn thành V-ing (unlocking) để mô tả chức năng của phần mềm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_006",
+      "prompt": "The iPhone 4s, a device _____ at a press conference on Oct 4, 2011, became a global fashion.",
+      "options": [
+        {
+          "id": "a",
+          "label": "announcing"
+        },
+        {
+          "id": "b",
+          "label": "announced"
+        },
+        {
+          "id": "c",
+          "label": "was announced"
+        },
+        {
+          "id": "d",
+          "label": "which announcing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Rút gọn mệnh đề quan hệ ở thể bị động trong quá khứ (which was announced) thành V3/ed (announced)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_007",
+      "prompt": "Many new expressions _____ with high-tech products have entered the language.",
+      "options": [
+        {
+          "id": "a",
+          "label": "associated"
+        },
+        {
+          "id": "b",
+          "label": "associating"
+        },
+        {
+          "id": "c",
+          "label": "are associated"
+        },
+        {
+          "id": "d",
+          "label": "which associating"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề quan hệ bị động (which are associated) được rút gọn thành V3/ed (associated)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_008",
+      "prompt": "The concept of jailbreaking is most often associated with products _____ from Apple Inc.",
+      "options": [
+        {
+          "id": "a",
+          "label": "come"
+        },
+        {
+          "id": "b",
+          "label": "came"
+        },
+        {
+          "id": "c",
+          "label": "coming"
+        },
+        {
+          "id": "d",
+          "label": "to come"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề quan hệ chủ động (which come) được rút gọn thành V-ing (coming)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_009",
+      "prompt": "Apple's App Store was the only official channel _____ games and applications for the iPhone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to purchase"
+        },
+        {
+          "id": "b",
+          "label": "purchasing"
+        },
+        {
+          "id": "c",
+          "label": "purchased"
+        },
+        {
+          "id": "d",
+          "label": "which purchasing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau 'the only', mệnh đề quan hệ (through which users could purchase) thường được rút gọn thành 'to V'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rrc_010",
+      "prompt": "Jailbreaking is a reaction against the censorship _____ to be imposed by Apple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "considering"
+        },
+        {
+          "id": "b",
+          "label": "consider"
+        },
+        {
+          "id": "c",
+          "label": "is considered"
+        },
+        {
+          "id": "d",
+          "label": "considered"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Mệnh đề quan hệ bị động (which is considered) được rút gọn thành V3/ed (considered)."
+  }
+]

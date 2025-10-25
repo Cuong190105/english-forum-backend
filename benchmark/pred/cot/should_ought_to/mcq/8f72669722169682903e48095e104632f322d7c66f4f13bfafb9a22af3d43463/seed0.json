@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_001",
+      "prompt": "Employers _____ take responsibility for their retired employees, according to one suggestion.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "have to"
+        },
+        {
+          "id": "d",
+          "label": "are able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Should” dùng để đưa ra lời khuyên hoặc đề xuất, phù hợp với ngữ cảnh “one suggestion”. “Must/have to” thể hiện nghĩa bắt buộc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_002",
+      "prompt": "To support retired employees, a percentage of profits _____ be set aside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ought to"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "has to"
+        },
+        {
+          "id": "d",
+          "label": "is able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Ought to” có nghĩa tương tự “should”, dùng để khuyên hoặc đề xuất điều nên làm. Các lựa chọn khác mang nghĩa bắt buộc hoặc khả năng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_003",
+      "prompt": "Given the unfairness of individuals solely funding their retirement, people _____ not be expected to bear the full financial burden alone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "have to"
+        },
+        {
+          "id": "d",
+          "label": "are able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Should not” thể hiện lời khuyên hoặc ý kiến rằng điều gì đó không nên xảy ra, phù hợp với việc mô hình bị chỉ trích là không công bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_004",
+      "prompt": "Some argue that the government _____ take responsibility for the care of the elderly, financed through taxes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "has to"
+        },
+        {
+          "id": "d",
+          "label": "is able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Should” dùng để đưa ra lời khuyên hoặc đề xuất về điều nên làm, phù hợp với ngữ cảnh “some argue”. “Must/has to” mang nghĩa bắt buộc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_005",
+      "prompt": "To provide a comfortable life for senior citizens, some institutions _____ be created.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ought to"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "have to"
+        },
+        {
+          "id": "d",
+          "label": "are able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Ought to” có nghĩa tương tự “should”, dùng để khuyên hoặc đề xuất điều nên làm. Các lựa chọn khác mang nghĩa bắt buộc hoặc khả năng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_006",
+      "prompt": "Since the government can seldom afford to care for the old, it _____ not be the sole provider of support.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "has to"
+        },
+        {
+          "id": "d",
+          "label": "is able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Should not” thể hiện lời khuyên hoặc kết luận rằng điều gì đó không nên xảy ra, dựa trên thông tin chính phủ khó có khả năng chi trả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_007",
+      "prompt": "To promote independence, the government or social organizations _____ establish workplaces specifically for the elderly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "have to"
+        },
+        {
+          "id": "d",
+          "label": "are able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Should” dùng để đưa ra lời khuyên hoặc đề xuất về một giải pháp, phù hợp với việc tạo ra nơi làm việc cho người già. “Must/have to” là bắt buộc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_008",
+      "prompt": "Given the advantages and disadvantages of each option, a combination of these solutions _____ be considered for elderly care.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "has to"
+        },
+        {
+          "id": "d",
+          "label": "is able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Should” dùng để đưa ra lời khuyên hoặc kết luận hợp lý về điều nên làm, phù hợp với việc xem xét kết hợp các giải pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_009",
+      "prompt": "If companies bear lifelong responsibility for employees, they _____ consider the potential commercial disadvantage.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "have to"
+        },
+        {
+          "id": "d",
+          "label": "are able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Should” dùng để khuyên nhủ về việc cân nhắc một yếu tố quan trọng, phù hợp với việc đánh giá rủi ro thương mại. “Must/have to” là bắt buộc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "should_ought_010",
+      "prompt": "Because some people struggle with daily expenses, the individual responsibility model _____ not be seen as a fair approach.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ought to"
+        },
+        {
+          "id": "b",
+          "label": "must"
+        },
+        {
+          "id": "c",
+          "label": "has to"
+        },
+        {
+          "id": "d",
+          "label": "is able to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Ought not to” thể hiện ý kiến rằng điều gì đó không nên được nhìn nhận theo cách đó, dựa trên lý do về sự công bằng."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC001",
+      "prompt": "Before the AAP's announcement, school districts _____ (rethink) start times for a while."
+    },
+    "answer": "had been rethinking",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC002",
+      "prompt": "Dos Santos _____ (worry) about the earlier start time for days before she gathered others to her cause."
+    },
+    "answer": "had been worrying",
+    "hint": "Diễn tả hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC003",
+      "prompt": "Start School Later _____ (advocate) for healthy school hours for years before the AAP released its new policy statement."
+    },
+    "answer": "had been advocating",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC004",
+      "prompt": "Many students _____ (suffer) from chronic sleep loss for a long time before the AAP made its recommendation."
+    },
+    "answer": "had been suffering",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC005",
+      "prompt": "The researchers _____ (study) adolescent sleep patterns for decades before they reached these conclusions."
+    },
+    "answer": "had been studying",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC006",
+      "prompt": "Before the final decision, the school officials _____ (discuss) the new schedule for hours."
+    },
+    "answer": "had been discussing",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC007",
+      "prompt": "She _____ (work) on her presentation about sleep deprivation all morning before the assembly began."
+    },
+    "answer": "had been working",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC008",
+      "prompt": "The community _____ (oppose) changes to school schedules for a long time before the new proposal was introduced."
+    },
+    "answer": "had been opposing",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC009",
+      "prompt": "By the time the AAP released its statement, many parents _____ (complain) about early start times for years."
+    },
+    "answer": "had been complaining",
+    "hint": "Hành động "
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "PPC010",
+      "prompt": "He _____ (read) articles about the benefits of later school starts for months before he joined the movement."
+    },
+    "answer": "had been reading",
+    "hint": "Hành động "
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_001",
+      "prompt": "Look at those dark clouds in the sky! It _____ rain very soon."
+    },
+    "answer": "is going to",
+    "hint": "Dùng 'is going to' để diễn tả một dự đoán dựa trên bằng chứng rõ ràng ở hiện tại (mây đen)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_002",
+      "prompt": "I've already decided. I _____ buy the e-book version instead of the printed one to save space."
+    },
+    "answer": "am going to",
+    "hint": "Dùng 'am going to' để diễn tả một kế hoạch hoặc dự định đã được quyết định từ trước ('I've already decided')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_003",
+      "prompt": "The publishing industry sees the trend. They _____ release more interactive digital books next year."
+    },
+    "answer": "are going to",
+    "hint": "Dùng 'are going to' để nói về một kế hoạch trong tương lai. 'They' thay thế cho 'industry' (danh từ tập hợp)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_004",
+      "prompt": "My old bookshelf is full, so I _____ buy any more physical books this year."
+    },
+    "answer": "am not going to",
+    "hint": "Dùng 'am not going to' để diễn tả một dự định không làm gì đó trong tương lai dựa trên tình hình hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_005",
+      "prompt": "What _____ you going to do with all your old printed books now that you have a Kindle?"
+    },
+    "answer": "are",
+    "hint": "Trong câu hỏi với 'going to', trợ động từ 'be' (are) phải đứng trước chủ ngữ (you)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_006",
+      "prompt": "Based on his research, the professor _____ write an article about the future of reading."
+    },
+    "answer": "is going to",
+    "hint": "Dùng 'is going to' để diễn tả một dự định đã có kế hoạch. Chủ ngữ 'the professor' là ngôi thứ ba số ít."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_007",
+      "prompt": "The two companies have signed an agreement. They _____ collaborate on a new e-reading platform."
+    },
+    "answer": "are going to",
+    "hint": "Dùng 'are going to' để nói về một kế hoạch chắc chắn sẽ xảy ra, đã có sự chuẩn bị (signed an agreement)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_008",
+      "prompt": "He doesn't like reading on screens. He _____ switch to e-books anytime soon."
+    },
+    "answer": "is not going to",
+    "hint": "Dùng dạng phủ định 'is not going to' để diễn tả một điều chắc chắn không xảy ra dựa trên ý định của người đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_009",
+      "prompt": "Look at the rapid increase in e-book sales. The way we read _____ change dramatically."
+    },
+    "answer": "is going to",
+    "hint": "Dùng 'is going to' cho một dự đoán dựa trên bằng chứng hoặc xu hướng hiện tại (doanh số tăng nhanh)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fg_fill_010",
+      "prompt": "We have a detailed plan for our new library. We _____ dedicate a whole section to digital media."
+    },
+    "answer": "are going to",
+    "hint": "Dùng 'are going to' để diễn tả một kế hoạch đã được lên chi tiết ('detailed plan')."
+  }
+]

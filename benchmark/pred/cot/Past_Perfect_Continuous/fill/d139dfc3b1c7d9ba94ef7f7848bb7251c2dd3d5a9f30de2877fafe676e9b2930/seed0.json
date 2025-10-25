@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_001",
+      "prompt": "Before I announced it was Dad's turn to listen, he _____ stories for years."
+    },
+    "answer": "had been telling",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn (had been V-ing) diễn tả hành động kéo dài đến một thời điểm trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_002",
+      "prompt": "The family _____ for hours before they finally decided to celebrate Dad's birthday at the nursing home."
+    },
+    "answer": "had been discussing",
+    "hint": "Hành động \"discussing\" kéo dài trước khi họ đưa ra quyết định cuối cùng trong quá khứ. Dùng quá khứ hoàn thành tiếp diễn để nhấn mạnh sự kéo dài."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_003",
+      "prompt": "Dad's eyes were teary because he _____ to all the heartfelt stories for a long time."
+    },
+    "answer": "had been listening",
+    "hint": "Đôi mắt đẫm lệ là kết quả của việc nghe chuyện liên tục trong một khoảng thời gian trước đó trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_004",
+      "prompt": "The little grandchildren _____ eagerly for their turn to tell Dad why they loved him before the room became quiet."
+    },
+    "answer": "had been waiting",
+    "hint": "Hành động \"waiting\" diễn ra liên tục trong một khoảng thời gian trước khi căn phòng trở nên yên tĩnh."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_005",
+      "prompt": "For a man who _____ kind to so many people, it was time to show him our love."
+    },
+    "answer": "had been being",
+    "hint": "\"Had been being\" nhấn mạnh trạng thái \"kind\" kéo dài liên tục cho đến một thời điểm trong quá khứ, trước khi chúng ta thể hiện tình yêu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_006",
+      "prompt": "We realized what we had given to Dad that night because we _____ about it for months."
+    },
+    "answer": "had been thinking",
+    "hint": "Hành động \"thinking\" kéo dài liên tục trong nhiều tháng trước khi họ nhận ra giá trị của những gì đã làm."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_007",
+      "prompt": "Dad enjoyed the memories from time to time in his mind because we _____ them to him through laughter and joy."
+    },
+    "answer": "had been giving",
+    "hint": "Việc Dad tận hưởng ký ức là kết quả của hành động \"giving\" liên tục những kỷ niệm đó cho ông trước đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_008",
+      "prompt": "The room became quiet after everyone _____ their stories for a while."
+    },
+    "answer": "had been telling",
+    "hint": "Căn phòng trở nên yên tĩnh là kết quả của việc mọi người đã kể chuyện liên tục trong một khoảng thời gian trước đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_009",
+      "prompt": "We _____ Dad's birthday on Thanksgiving Day for many years before he entered a nursing home."
+    },
+    "answer": "had been celebrating",
+    "hint": "Hành động \"celebrating\" diễn ra liên tục trong nhiều năm trước khi Dad vào viện dưỡng lão."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_010",
+      "prompt": "During his last days, Dad held onto the memories we had given him, as he _____ them in his mind for months."
+    },
+    "answer": "had been enjoying",
+    "hint": "Dad giữ những ký ức vì ông đã liên tục tận hưởng chúng trong tâm trí suốt nhiều tháng trước đó."
+  }
+]

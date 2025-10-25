@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_01",
+      "prompt": "The first Global Children's Designation event _____ by a Dutch company called Unexpect in 2014."
+    },
+    "answer": "was organized",
+    "hint": "Sự kiện xảy ra trong quá khứ (in 2014) và là đối tượng của hành động (được tổ chức), nên dùng bị động quá khứ đơn: was + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_02",
+      "prompt": "After the introduction yesterday, the teams _____ to brainstorm solutions for the city's problems."
+    },
+    "answer": "were asked",
+    "hint": "Các đội 'được yêu cầu', không tự yêu cầu. Hành động đã xảy ra trong quá khứ (yesterday), nên dùng bị động quá khứ đơn: were + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_03",
+      "prompt": "Many amazing ideas _____ by the young participants during the event last week."
+    },
+    "answer": "were produced",
+    "hint": "Ý tưởng 'được tạo ra' (bởi người tham gia). Đây là hành động trong quá khứ (last week), nên dùng bị động quá khứ đơn: were + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_04",
+      "prompt": "Since 2015, free tool kits _____ to thousands of schools worldwide by the organization."
+    },
+    "answer": "have been distributed",
+    "hint": "'Since 2015' chỉ hành động bắt đầu trong quá khứ và kéo dài đến hiện tại. Dùng bị động hiện tại hoàn thành: have/has + been + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_05",
+      "prompt": "It is generally believed that creative skills _____ enough in many traditional schools today."
+    },
+    "answer": "are not taught",
+    "hint": "Đây là một niềm tin, một sự thật chung ở hiện tại. Dùng bị động hiện tại đơn: am/is/are + (not) + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_06",
+      "prompt": "The founder insists that children _____ how to handle unexpected situations to be successful."
+    },
+    "answer": "must be taught",
+    "hint": "Đây là một sự bắt buộc hoặc cần thiết. Dùng bị động với động từ khuyết thiếu: modal verb (must) + be + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_07",
+      "prompt": "Next year, an even bigger challenge _____ to involve children from over fifty countries."
+    },
+    "answer": "will be held",
+    "hint": "Hành động sẽ xảy ra trong tương lai (Next year). Dùng bị động tương lai đơn: will + be + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_08",
+      "prompt": "While the new smart car idea _____ by one team, another was working on a water purification system."
+    },
+    "answer": "was being developed",
+    "hint": "Diễn tả một hành động đang diễn ra tại một thời điểm trong quá khứ và là hành động bị động. Dùng bị động quá khứ tiếp diễn: was/were + being + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_09",
+      "prompt": "Right now, a new website _____ to showcase all the amazing ideas from the children."
+    },
+    "answer": "is being built",
+    "hint": "'Right now' chỉ hành động đang diễn ra ở hiện tại. Dùng bị động hiện tại tiếp diễn: am/is/are + being + V3/ed."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_10",
+      "prompt": "By the time the judges arrived, all the projects _____ neatly on the display tables."
+    },
+    "answer": "had been placed",
+    "hint": "Hành động 'đặt dự án' xảy ra trước một hành động khác trong quá khứ ('judges arrived'). Dùng bị động quá khứ hoàn thành: had + been + V3/ed."
+  }
+]

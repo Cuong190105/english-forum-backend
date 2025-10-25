@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_001",
+      "prompt": "Look at _____ book right here on my desk. It's very interesting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Right here” chỉ ra vật ở gần người nói và là số ít, nên dùng “this”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_002",
+      "prompt": "_____ flowers in my hand are for you, Mom.",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“In my hand” chỉ ra vật ở gần người nói và là số nhiều, nên dùng “these”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_003",
+      "prompt": "What is _____? (pointing to something far away)",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Pointing to something far away” chỉ ra vật ở xa người nói và là số ít, nên dùng “that”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_004",
+      "prompt": "Can you pass me _____ pens over there on the table?",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Over there” chỉ ra vật ở xa người nói và là số nhiều, nên dùng “those”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_005",
+      "prompt": "Bob, _____ is Grace. She's new to our team.",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi giới thiệu một người ở gần hoặc đang ở cùng không gian, ta dùng “this is...”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_006",
+      "prompt": "Alice asked, 'What's _____?' (holding a ruler). Bob replied, 'It is a ruler.'",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Holding a ruler” chỉ ra vật ở gần người nói và là số ít, nên dùng “this”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_007",
+      "prompt": "I really like _____ shoes I tried on earlier. I think I'll buy them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Tried on earlier” ngụ ý đôi giày không còn ở gần người nói nữa, và “shoes” là danh từ số nhiều, nên dùng “those”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_008",
+      "prompt": "The meeting was very productive. I think _____ was a great success.",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi đề cập đến một sự việc, ý tưởng đã xảy ra hoặc được nói đến trước đó, ta dùng “that” (số ít)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_009",
+      "prompt": "Look at _____ beautiful birds flying high in the sky!",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Flying high in the sky” chỉ ra vật ở xa người nói và là số nhiều, nên dùng “those”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "this_that_010",
+      "prompt": "You said you're moving to a new city. _____ is exciting news!",
+      "options": [
+        {
+          "id": "a",
+          "label": "this"
+        },
+        {
+          "id": "b",
+          "label": "that"
+        },
+        {
+          "id": "c",
+          "label": "these"
+        },
+        {
+          "id": "d",
+          "label": "those"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi đề cập đến thông tin, tin tức vừa được nghe hoặc nói đến, ta dùng “that” (số ít)."
+  }
+]

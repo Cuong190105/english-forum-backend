@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_01",
+      "prompt": "Before the Schengen Visa, travelers _____ apply for different visas to visit each European country."
+    },
+    "answer": "used to",
+    "hint": "Dùng 'used to + V-inf' để diễn tả một thói quen hoặc tình trạng trong quá khứ không còn đúng ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_02",
+      "prompt": "Five years ago, people _____ travel so freely between Germany and Spain without stopping at the border."
+    },
+    "answer": "didn't use to",
+    "hint": "Dạng phủ định của 'used to' là 'didn't use to + V-inf'. 'Use' ở dạng nguyên mẫu vì đã có trợ động từ 'did'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_03",
+      "prompt": "Did travelers _____ carry different types of money for each country before the Euro was introduced?"
+    },
+    "answer": "use to",
+    "hint": "Trong câu hỏi với 'did', ta dùng dạng nguyên mẫu 'use to', không phải 'used to'. 'Did' đã thể hiện thì quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_04",
+      "prompt": "After living in Italy for a year, I am now _____ using the Euro for all my purchases."
+    },
+    "answer": "used to",
+    "hint": "Cấu trúc 'be used to + V-ing' có nghĩa là 'quen với việc gì đó'. Phân biệt với 'used to + V-inf' (đã từng làm gì)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_05",
+      "prompt": "When the Euro was first introduced, many older people found it difficult to _____ using the new currency."
+    },
+    "answer": "get used to",
+    "hint": "Cấu trúc 'get used to + V-ing' diễn tả quá trình trở nên quen với việc gì đó. Nó khác với 'be used to' (đã quen)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_06",
+      "prompt": "In the past, there _____ be strict border controls between most European countries, but not anymore."
+    },
+    "answer": "used to",
+    "hint": "Dùng 'used to be' để chỉ một tình trạng tồn tại trong quá khứ nhưng bây giờ không còn nữa. 'Used to' đi với động từ nguyên mẫu 'be'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_07",
+      "prompt": "My father _____ carry a calculator to convert currencies on his trips, but now he just uses his phone."
+    },
+    "answer": "used to",
+    "hint": "Cụm từ 'but now' là dấu hiệu rõ ràng cho thấy một thói quen trong quá khứ đã thay đổi, cần dùng cấu trúc 'used to + V-inf'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_08",
+      "prompt": "Modern travelers are _____ the convenience of having one visa and one currency for most of Europe."
+    },
+    "answer": "used to",
+    "hint": "Sau 'be used to' có thể là một danh từ hoặc V-ing, mang nghĩa 'quen với cái gì/việc gì'. Ở đây 'convenience' là danh từ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_09",
+      "prompt": "Before the EU agreements, your driving license _____ be valid in other European countries."
+    },
+    "answer": "didn't use to",
+    "hint": "Dạng phủ định 'didn't use to + V-inf' diễn tả điều gì đó không phải là sự thật trong quá khứ nhưng bây giờ đã thay đổi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "EU_UT_10",
+      "prompt": "Did you _____ wait for weeks to get a visa just to travel from Germany to Spain five years ago?"
+    },
+    "answer": "use to",
+    "hint": "Trong câu hỏi nghi vấn với 'Did', động từ chính theo sau ở dạng nguyên mẫu. Vì vậy, ta dùng 'use to', không phải 'used to'."
+  }
+]

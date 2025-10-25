@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "He _____ an old lady stranded on the side of the road.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sees"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "has seen"
+        },
+        {
+          "id": "d",
+          "label": "is seeing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu chuyện kể về sự việc đã xảy ra trong quá khứ, nên cần dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "He _____ in front of her car and _____ out.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stops / gets"
+        },
+        {
+          "id": "b",
+          "label": "stopped / got"
+        },
+        {
+          "id": "c",
+          "label": "has stopped / gotten"
+        },
+        {
+          "id": "d",
+          "label": "was stopping / getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động này xảy ra liên tiếp trong quá khứ, nên dùng thì quá khứ đơn cho cả hai động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "Even with the smile on his face, she _____ worried.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả trạng thái của cô ấy trong quá khứ, nên dùng động từ 'to be' ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "He _____ how she _____",
+      "options": [
+        {
+          "id": "a",
+          "label": "knows / feels"
+        },
+        {
+          "id": "b",
+          "label": "knew / felt"
+        },
+        {
+          "id": "c",
+          "label": "has known / felt"
+        },
+        {
+          "id": "d",
+          "label": "was knowing / feeling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cả hai động từ đều diễn tả sự việc đã xảy ra trong quá khứ, nên dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "He _____ \"I am here to help you, madam.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "says"
+        },
+        {
+          "id": "b",
+          "label": "said"
+        },
+        {
+          "id": "c",
+          "label": "has said"
+        },
+        {
+          "id": "d",
+          "label": "is saying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật lời nói trực tiếp trong quá khứ, nên dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "She _____ a flat tire.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "is having"
+        },
+        {
+          "id": "d",
+          "label": "will have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả sự sở hữu trong quá khứ, nên dùng thì quá khứ đơn của 'have'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Joe _____ under the car and _____ the tire.",
+      "options": [
+        {
+          "id": "a",
+          "label": "crawls / changes"
+        },
+        {
+          "id": "b",
+          "label": "crawled / changed"
+        },
+        {
+          "id": "c",
+          "label": "has crawled / changed"
+        },
+        {
+          "id": "d",
+          "label": "was crawling / changing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động liên tiếp của Joe trong quá khứ, nên dùng thì quá khứ đơn cho cả hai động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "After Joe helped her, she _____ off.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drives"
+        },
+        {
+          "id": "b",
+          "label": "drove"
+        },
+        {
+          "id": "c",
+          "label": "has driven"
+        },
+        {
+          "id": "d",
+          "label": "is driving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động rời đi đã hoàn thành trong quá khứ, nên dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "She _____ into a small restaurant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "has gone"
+        },
+        {
+          "id": "d",
+          "label": "is going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đi vào nhà hàng đã xảy ra trong quá khứ, nên dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "When the waitress came back, she _____ something written on a napkin.",
+      "options": [
+        {
+          "id": "a",
+          "label": "notices"
+        },
+        {
+          "id": "b",
+          "label": "noticed"
+        },
+        {
+          "id": "c",
+          "label": "has noticed"
+        },
+        {
+          "id": "d",
+          "label": "was noticing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động nhận ra điều gì đó đã xảy ra trong quá khứ, nên dùng thì quá khứ đơn."
+  }
+]

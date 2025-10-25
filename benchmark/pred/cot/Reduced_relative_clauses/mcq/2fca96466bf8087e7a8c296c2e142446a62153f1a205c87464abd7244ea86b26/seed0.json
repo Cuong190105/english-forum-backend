@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_001",
+      "prompt": "The press conference _____ by the iPhone cooperation on Oct 4, 2011, introduced the iPhone 4s.",
+      "options": [
+        {
+          "id": "a",
+          "label": "claiming"
+        },
+        {
+          "id": "b",
+          "label": "claimed"
+        },
+        {
+          "id": "c",
+          "label": "which claimed"
+        },
+        {
+          "id": "d",
+          "label": "to claim"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề quan hệ rút gọn dạng bị động dùng phân từ quá khứ (V3/ed). 'Claimed by' nghĩa là 'được tuyên bố bởi'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_002",
+      "prompt": "The concept of jailbreaking, _____ back to July 2007, was first applied to the iPhone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "dated"
+        },
+        {
+          "id": "b",
+          "label": "which dated"
+        },
+        {
+          "id": "c",
+          "label": "dating"
+        },
+        {
+          "id": "d",
+          "label": "to date"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Date back to' là hành động chủ động. Mệnh đề quan hệ rút gọn dạng chủ động dùng phân từ hiện tại (-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_003",
+      "prompt": "Restrictions _____ by the manufacturer prevent users from installing unauthorized software.",
+      "options": [
+        {
+          "id": "a",
+          "label": "imposing"
+        },
+        {
+          "id": "b",
+          "label": "imposed"
+        },
+        {
+          "id": "c",
+          "label": "which impose"
+        },
+        {
+          "id": "d",
+          "label": "to impose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Restrictions' không tự 'impose' mà 'được impose'. Dùng phân từ quá khứ (V3/ed) cho mệnh đề rút gọn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_004",
+      "prompt": "Users _____ to lift restrictions often jailbreak their devices.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wanting"
+        },
+        {
+          "id": "b",
+          "label": "wanted"
+        },
+        {
+          "id": "c",
+          "label": "who wanted"
+        },
+        {
+          "id": "d",
+          "label": "to want"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Want' là hành động chủ động của 'users'. Mệnh đề quan hệ rút gọn dạng chủ động dùng phân từ hiện tại (-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_005",
+      "prompt": "Applications _____ exclusively by Apple are only available through the App Store.",
+      "options": [
+        {
+          "id": "a",
+          "label": "licensing"
+        },
+        {
+          "id": "b",
+          "label": "licensed"
+        },
+        {
+          "id": "c",
+          "label": "which license"
+        },
+        {
+          "id": "d",
+          "label": "to license"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Applications' không tự 'license' mà 'được cấp phép'. Dùng phân từ quá khứ (V3/ed) cho mệnh đề rút gọn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_006",
+      "prompt": "The iPhone was the first device _____ with jailbreaking in July 2007.",
+      "options": [
+        {
+          "id": "a",
+          "label": "associated"
+        },
+        {
+          "id": "b",
+          "label": "associating"
+        },
+        {
+          "id": "c",
+          "label": "to be associated"
+        },
+        {
+          "id": "d",
+          "label": "which associated"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau số thứ tự (the first), dùng mệnh đề rút gọn với to-infinitive. Vì 'device' được 'associate' nên dùng dạng bị động 'to be V3'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_007",
+      "prompt": "The software _____ to remove manufacturer restrictions is essential for jailbreaking.",
+      "options": [
+        {
+          "id": "a",
+          "label": "designing"
+        },
+        {
+          "id": "b",
+          "label": "designed"
+        },
+        {
+          "id": "c",
+          "label": "which designs"
+        },
+        {
+          "id": "d",
+          "label": "to design"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Software' không tự 'design' mà 'được thiết kế'. Dùng phân từ quá khứ (V3/ed) cho mệnh đề rút gọn bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_008",
+      "prompt": "Many new expressions, _____ in relationship with high-tech products, include 'Jailbreak'.",
+      "options": [
+        {
+          "id": "a",
+          "label": "coming about"
+        },
+        {
+          "id": "b",
+          "label": "come about"
+        },
+        {
+          "id": "c",
+          "label": "which come about"
+        },
+        {
+          "id": "d",
+          "label": "to come about"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Come about' là động từ nội động từ (không có tân ngữ), luôn ở thể chủ động. Dùng phân từ hiện tại (-ing) cho mệnh đề rút gọn chủ động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_009",
+      "prompt": "The concept of jailbreaking is most often associated with products from Apple Inc., such as the iPhone, iPod and iPad, _____ the user to applications licensed exclusively by Apple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "restricting"
+        },
+        {
+          "id": "b",
+          "label": "restricted"
+        },
+        {
+          "id": "c",
+          "label": "which restrict"
+        },
+        {
+          "id": "d",
+          "label": "to restrict"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Products' là chủ ngữ của hành động 'restrict' (hạn chế). Dùng phân từ hiện tại (-ing) cho mệnh đề rút gọn chủ động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rc_010",
+      "prompt": "Those _____ against what they consider a form of censorship often jailbreak their devices.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reacting"
+        },
+        {
+          "id": "b",
+          "label": "reacted"
+        },
+        {
+          "id": "c",
+          "label": "who reacted"
+        },
+        {
+          "id": "d",
+          "label": "to react"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'React' là hành động chủ động của 'those' (những người đó). Dùng phân từ hiện tại (-ing) cho mệnh đề rút gọn chủ động."
+  }
+]

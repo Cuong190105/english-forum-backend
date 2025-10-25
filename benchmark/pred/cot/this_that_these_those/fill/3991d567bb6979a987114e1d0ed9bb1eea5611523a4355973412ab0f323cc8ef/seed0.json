@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_001",
+      "prompt": "Look at _____ book right here. It's mine."
+    },
+    "answer": "this",
+    "hint": "Dùng 'this' cho danh từ số ít ('book') và ở gần người nói ('right here')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_002",
+      "prompt": "Can you see _____ car parked far away? It's very old."
+    },
+    "answer": "that",
+    "hint": "Dùng 'that' cho danh từ số ít ('car') và ở xa người nói ('far away')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_003",
+      "prompt": "_____ flowers in my hand are for you."
+    },
+    "answer": "These",
+    "hint": "Dùng 'these' cho danh từ số nhiều ('flowers') và ở gần người nói ('in my hand')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_004",
+      "prompt": "Do you remember _____ children playing in the park yesterday? They were so happy."
+    },
+    "answer": "those",
+    "hint": "Dùng 'those' cho danh từ số nhiều ('children') và ở xa người nói (ám chỉ đã qua, không còn ở gần)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_005",
+      "prompt": "What is _____ strange sound coming from inside the room?"
+    },
+    "answer": "this",
+    "hint": "Dùng 'this' cho danh từ số ít ('sound') và ở gần người nói (âm thanh đang nghe thấy)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_006",
+      "prompt": "Who is _____ woman standing at the end of the street?"
+    },
+    "answer": "that",
+    "hint": "Dùng 'that' cho danh từ số ít ('woman') và ở xa người nói ('at the end of the street')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_007",
+      "prompt": "Are _____ pencils on your desk yours?"
+    },
+    "answer": "these",
+    "hint": "Dùng 'these' cho danh từ số nhiều ('pencils') và ở gần người được hỏi ('on your desk')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_008",
+      "prompt": "Please pick up _____ papers scattered on the floor over there."
+    },
+    "answer": "those",
+    "hint": "Dùng 'those' cho danh từ số nhiều ('papers') và ở xa người nói ('over there')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_009",
+      "prompt": "I prefer _____ coffee I'm holding now to the one you had earlier."
+    },
+    "answer": "this",
+    "hint": "Dùng 'this' cho danh từ số ít ('coffee') và ở gần người nói ('I'm holding now')."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_tt_010",
+      "prompt": "_____ old photos in the album remind me of my childhood."
+    },
+    "answer": "These",
+    "hint": "Dùng 'these' cho danh từ số nhiều ('photos') và ở gần người nói (ám chỉ album đang xem)."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_001",
+      "prompt": "I have bought all the ingredients. I _____ a cake for her birthday tonight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am going to bake"
+        },
+        {
+          "id": "b",
+          "label": "will bake"
+        },
+        {
+          "id": "c",
+          "label": "bake"
+        },
+        {
+          "id": "d",
+          "label": "baked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"going to\" cho kế hoạch đã định trước và có sự chuẩn bị (mua nguyên liệu). \"Will\" thường là quyết định tức thời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_002",
+      "prompt": "Look at those dark clouds! It _____ soon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to rain"
+        },
+        {
+          "id": "b",
+          "label": "will rain"
+        },
+        {
+          "id": "c",
+          "label": "rains"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"going to\" để dự đoán dựa trên bằng chứng rõ ràng ở hiện tại (mây đen). \"Will\" là dự đoán không có bằng chứng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_003",
+      "prompt": "She feels sick. She _____ to the party tonight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't going to come"
+        },
+        {
+          "id": "b",
+          "label": "won't come"
+        },
+        {
+          "id": "c",
+          "label": "doesn't come"
+        },
+        {
+          "id": "d",
+          "label": "didn't come"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Isn't going to\" diễn tả một kế hoạch không xảy ra hoặc dự đoán tiêu cực dựa trên tình trạng hiện tại (cảm thấy ốm)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_004",
+      "prompt": "_____ you _____ your homework after dinner?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Are...going to do"
+        },
+        {
+          "id": "b",
+          "label": "Will...do"
+        },
+        {
+          "id": "c",
+          "label": "Do...do"
+        },
+        {
+          "id": "d",
+          "label": "Did...do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc câu hỏi với \"going to\" là \"Are/Is/Am + S + going to + V-inf?\" để hỏi về kế hoạch."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_005",
+      "prompt": "My car broke down, so I _____ a taxi to get to work tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am going to take"
+        },
+        {
+          "id": "b",
+          "label": "will take"
+        },
+        {
+          "id": "c",
+          "label": "take"
+        },
+        {
+          "id": "d",
+          "label": "took"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Going to\" diễn tả một kế hoạch hoặc ý định đã được quyết định sau khi có sự cố, cho hành động trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_006",
+      "prompt": "According to Mike Shatzkin, printed books _____ unusual in 10 years from now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to be"
+        },
+        {
+          "id": "b",
+          "label": "will be"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"going to\" để diễn tả dự đoán dựa trên thông tin hoặc bằng chứng có sẵn, như lời của chuyên gia trong bài đọc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_007",
+      "prompt": "We _____ a new e-reader next month. We've saved enough money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are going to buy"
+        },
+        {
+          "id": "b",
+          "label": "will buy"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Going to\" được dùng khi có kế hoạch hoặc ý định rõ ràng, thường đi kèm với bằng chứng hoặc sự chuẩn bị (đã tiết kiệm đủ tiền)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_008",
+      "prompt": "Be careful! That stack of books _____ over!",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to fall"
+        },
+        {
+          "id": "b",
+          "label": "will fall"
+        },
+        {
+          "id": "c",
+          "label": "falls"
+        },
+        {
+          "id": "d",
+          "label": "fell"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"going to\" cho hành động sắp xảy ra, có dấu hiệu rõ ràng ở hiện tại (chồng sách đang đổ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_009",
+      "prompt": "What _____ you _____ this weekend?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are...going to do"
+        },
+        {
+          "id": "b",
+          "label": "will...do"
+        },
+        {
+          "id": "c",
+          "label": "do...do"
+        },
+        {
+          "id": "d",
+          "label": "did...do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Going to\" thích hợp để hỏi về kế hoạch hoặc dự định trong tương lai gần (cuối tuần này)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "future_goingto_010",
+      "prompt": "The company _____ a new digital strategy next year to boost e-book sales.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to implement"
+        },
+        {
+          "id": "b",
+          "label": "will implement"
+        },
+        {
+          "id": "c",
+          "label": "implements"
+        },
+        {
+          "id": "d",
+          "label": "implemented"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Going to\" dùng cho kế hoạch hoặc dự định đã được quyết định bởi một tổ chức, thường đi kèm với mốc thời gian cụ thể."
+  }
+]

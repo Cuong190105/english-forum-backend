@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_001",
+      "prompt": "For 22 years, after I _____ home for college, my father called me every Sunday at 9 am.",
+      "options": [
+        {
+          "id": "a",
+          "label": "left"
+        },
+        {
+          "id": "b",
+          "label": "had left"
+        },
+        {
+          "id": "c",
+          "label": "leave"
+        },
+        {
+          "id": "d",
+          "label": "was leaving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động \"rời nhà\" xảy ra và hoàn tất trước khi chuỗi hành động \"gọi điện\" kéo dài 22 năm bắt đầu. Dùng quá khứ hoàn thành cho hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_002",
+      "prompt": "Nine years ago, when I bought my first house, my father _____ it for three days before I realized I was too busy to help.",
+      "options": [
+        {
+          "id": "a",
+          "label": "painted"
+        },
+        {
+          "id": "b",
+          "label": "had painted"
+        },
+        {
+          "id": "c",
+          "label": "paints"
+        },
+        {
+          "id": "d",
+          "label": "was painting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc sơn nhà diễn ra và hoàn tất trong ba ngày trước khi người kể chuyện nhận ra mình bận. Quá khứ hoàn thành diễn tả hành động hoàn tất trước một thời điểm hoặc hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_003",
+      "prompt": "By the time I was asked to get him iced tea, my father _____ the swingset for my daughter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "put together"
+        },
+        {
+          "id": "b",
+          "label": "had put together"
+        },
+        {
+          "id": "c",
+          "label": "puts together"
+        },
+        {
+          "id": "d",
+          "label": "was putting together"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc lắp đặt xích đu đã hoàn thành trước khi người kể chuyện được yêu cầu lấy trà đá. Quá khứ hoàn thành dùng cho hành động xảy ra và hoàn tất trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_004",
+      "prompt": "My father _____ all the way from Denver with a tree before I started preparing for my trip that weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drove"
+        },
+        {
+          "id": "b",
+          "label": "had driven"
+        },
+        {
+          "id": "c",
+          "label": "drives"
+        },
+        {
+          "id": "d",
+          "label": "was driving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động lái xe đã hoàn tất trước khi người kể chuyện bắt đầu chuẩn bị cho chuyến đi. Quá khứ hoàn thành diễn tả hành động xảy ra và hoàn tất trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_005",
+      "prompt": "That morning, he called the tree 'Fat Oscar', even though he _____ it 'Fat Albert' before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "called"
+        },
+        {
+          "id": "b",
+          "label": "had called"
+        },
+        {
+          "id": "c",
+          "label": "calls"
+        },
+        {
+          "id": "d",
+          "label": "was calling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc gọi tên cây là 'Fat Albert' đã xảy ra và hoàn tất trước khi ông ấy gọi nhầm là 'Fat Oscar'. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_006",
+      "prompt": "On the way to Florida, I thought of all the times I _____ the time to talk to my father.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did not take"
+        },
+        {
+          "id": "b",
+          "label": "had not taken"
+        },
+        {
+          "id": "c",
+          "label": "do not take"
+        },
+        {
+          "id": "d",
+          "label": "was not taking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc không dành thời gian nói chuyện với cha đã xảy ra và hoàn tất trước khi người kể chuyện suy nghĩ về điều đó trên máy bay. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_007",
+      "prompt": "I arrived in Florida at 1 am, but my father _____ away at 9:12 pm.",
+      "options": [
+        {
+          "id": "a",
+          "label": "passed"
+        },
+        {
+          "id": "b",
+          "label": "had passed"
+        },
+        {
+          "id": "c",
+          "label": "passes"
+        },
+        {
+          "id": "d",
+          "label": "was passing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động qua đời của người cha đã xảy ra và hoàn tất lúc 9:12 tối, tức là trước khi người kể chuyện đến lúc 1 giờ sáng. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_008",
+      "prompt": "Before that day he called from Florida, my father _____ me every Sunday for 22 years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "called"
+        },
+        {
+          "id": "b",
+          "label": "had called"
+        },
+        {
+          "id": "c",
+          "label": "calls"
+        },
+        {
+          "id": "d",
+          "label": "was calling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động gọi điện kéo dài 22 năm đã hoàn tất trước một thời điểm cụ thể trong quá khứ (cuộc gọi từ Florida). Dùng quá khứ hoàn thành để nhấn mạnh thời gian kéo dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_009",
+      "prompt": "Once my father asked me to hold his hammer after he _____ something, so we could talk.",
+      "options": [
+        {
+          "id": "a",
+          "label": "repaired"
+        },
+        {
+          "id": "b",
+          "label": "had repaired"
+        },
+        {
+          "id": "c",
+          "label": "repairs"
+        },
+        {
+          "id": "d",
+          "label": "was repairing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động sửa chữa đã hoàn tất trước khi người cha yêu cầu giữ búa. Quá khứ hoàn thành diễn tả hành động xảy ra và hoàn tất trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_010",
+      "prompt": "I realized that I had no idea who he was because I _____ the time to talk to him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't take"
+        },
+        {
+          "id": "b",
+          "label": "hadn't taken"
+        },
+        {
+          "id": "c",
+          "label": "don't take"
+        },
+        {
+          "id": "d",
+          "label": "wasn't taking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc không dành thời gian nói chuyện đã xảy ra và hoàn tất trước khi người kể chuyện nhận ra mình không hiểu cha. Dùng quá khứ hoàn thành để chỉ nguyên nhân xảy ra trước kết quả trong quá khứ."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_001",
+      "prompt": "If you don't use your muscles, they _____ weak."
+    },
+    "answer": "become",
+    "hint": "Đây là một sự thật hiển nhiên. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế để diễn tả sự thật hoặc quy luật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_002",
+      "prompt": "When you start exercising regularly, your body _____ stronger."
+    },
+    "answer": "gets",
+    "hint": "Đây là một quy luật chung về sức khỏe. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_003",
+      "prompt": "If you don't practice your memory, it _____ weaker over time."
+    },
+    "answer": "becomes",
+    "hint": "Đây là một sự thật về cách bộ nhớ hoạt động. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_004",
+      "prompt": "When someone exercises their memory frequently, it _____ good."
+    },
+    "answer": "stays",
+    "hint": "Đây là một sự thật về việc duy trì trí nhớ. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_005",
+      "prompt": "If a person doesn't give their memory enough chances to become strong, it _____ poor."
+    },
+    "answer": "remains",
+    "hint": "Đây là một sự thật về việc trí nhớ kém. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_006",
+      "prompt": "If you heat water to 100 degrees Celsius, it _____ boiling."
+    },
+    "answer": "starts",
+    "hint": "Đây là một sự thật khoa học. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế để diễn tả sự thật hiển nhiên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_007",
+      "prompt": "Plants _____ if they don't get enough sunlight."
+    },
+    "answer": "die",
+    "hint": "Đây là một quy luật tự nhiên. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế để diễn tả sự thật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_008",
+      "prompt": "When ice _____, it turns into water."
+    },
+    "answer": "melts",
+    "hint": "Đây là một sự thật khoa học. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_009",
+      "prompt": "If there is heavy rain, traffic _____ worse."
+    },
+    "answer": "gets",
+    "hint": "Đây là một sự thật hiển nhiên về giao thông. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "zc_fill_010",
+      "prompt": "If you don't eat healthy food, you _____ sick easily."
+    },
+    "answer": "get",
+    "hint": "Đây là một sự thật về sức khỏe. Mệnh đề điều kiện loại 0 dùng thì hiện tại đơn ở cả hai vế."
+  }
+]
