@@ -17,7 +17,7 @@ async def lifespan(app: FastAPI):
         print("Not in test env")
         # Drop all tables if this is dev env
         database.create_db_and_tables(env == "development")
-        if env == "development":
+        if env == "test":
             from database import testdata
             testdata.prepareForTest()
     yield
