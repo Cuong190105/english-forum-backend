@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "Drew warned that _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "this was pretty hot"
+        },
+        {
+          "id": "b",
+          "label": "that was pretty hot"
+        },
+        {
+          "id": "c",
+          "label": "this is pretty hot"
+        },
+        {
+          "id": "d",
+          "label": "that is pretty hot"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật lời nói trực tiếp, 'this' thường đổi thành 'that' và thì hiện tại đơn 'is' đổi thành quá khứ đơn 'was'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "Michi exclaimed that _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that smelled so good"
+        },
+        {
+          "id": "b",
+          "label": "this smelled so good"
+        },
+        {
+          "id": "c",
+          "label": "that smells so good"
+        },
+        {
+          "id": "d",
+          "label": "this smells so good"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại đơn 'smells' lùi về quá khứ đơn 'smelled' trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "Michi asked if most of the parents _____ yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are here"
+        },
+        {
+          "id": "b",
+          "label": "were here"
+        },
+        {
+          "id": "c",
+          "label": "had been here"
+        },
+        {
+          "id": "d",
+          "label": "would be here"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi Yes/No trong lời nói trực tiếp dùng thì hiện tại đơn 'are', khi tường thuật lùi về quá khứ đơn 'were'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "Michi added that _____ hungry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "she is"
+        },
+        {
+          "id": "b",
+          "label": "she was"
+        },
+        {
+          "id": "c",
+          "label": "I am"
+        },
+        {
+          "id": "d",
+          "label": "I was"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đại từ 'I' đổi thành 'she' và thì hiện tại đơn 'am' lùi về quá khứ đơn 'was'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "Kent said he thought Ms. Milano and Mr. Hasselbach _____ giving the garden touring.",
+      "options": [
+        {
+          "id": "a",
+          "label": "just finished"
+        },
+        {
+          "id": "b",
+          "label": "had just finished"
+        },
+        {
+          "id": "c",
+          "label": "have just finished"
+        },
+        {
+          "id": "d",
+          "label": "would just finish"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ đơn 'just finished' lùi về quá khứ hoàn thành 'had just finished' trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Ms. Milano mentioned that a year ago, they _____ to her with the plan.",
+      "options": [
+        {
+          "id": "a",
+          "label": "first came"
+        },
+        {
+          "id": "b",
+          "label": "had first come"
+        },
+        {
+          "id": "c",
+          "label": "have first come"
+        },
+        {
+          "id": "d",
+          "label": "would first come"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ đơn 'came' lùi về quá khứ hoàn thành 'had come' trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Ms. Milano said she had wondered whether it would work, but they _____ through everything.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had thought"
+        },
+        {
+          "id": "b",
+          "label": "thought"
+        },
+        {
+          "id": "c",
+          "label": "have thought"
+        },
+        {
+          "id": "d",
+          "label": "would think"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành 'had thought' không thay đổi khi lùi thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "Ms. Milano pointed out that about three-quarters of the food they _____ came from the school garden.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be enjoying"
+        },
+        {
+          "id": "b",
+          "label": "would be enjoying"
+        },
+        {
+          "id": "c",
+          "label": "are enjoying"
+        },
+        {
+          "id": "d",
+          "label": "were enjoying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì tương lai tiếp diễn 'will be enjoying' lùi về 'would be enjoying' trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "Ms. Milano added that the students _____ the entire meal themselves.",
+      "options": [
+        {
+          "id": "a",
+          "label": "prepared"
+        },
+        {
+          "id": "b",
+          "label": "had prepared"
+        },
+        {
+          "id": "c",
+          "label": "have prepared"
+        },
+        {
+          "id": "d",
+          "label": "would prepare"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ đơn 'prepared' lùi về quá khứ hoàn thành 'had prepared' trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Ms. Milano told them that students for years to come _____ the garden that they _____ create.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be enjoying / helped"
+        },
+        {
+          "id": "b",
+          "label": "would be enjoying / helped"
+        },
+        {
+          "id": "c",
+          "label": "will be enjoying / had helped"
+        },
+        {
+          "id": "d",
+          "label": "would be enjoying / had helped"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Thì tương lai tiếp diễn 'will be enjoying' lùi về 'would be enjoying' và thì quá khứ đơn 'helped' lùi về quá khứ hoàn thành 'had helped'."
+  }
+]

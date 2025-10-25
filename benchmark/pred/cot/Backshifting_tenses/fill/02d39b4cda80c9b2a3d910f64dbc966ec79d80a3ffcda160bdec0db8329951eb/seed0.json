@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_001",
+      "prompt": "He said he _____ often lose things."
+    },
+    "answer": "didn't",
+    "hint": "Khi tường thuật câu trực tiếp ở thì hiện tại đơn, ta lùi thì thành quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_002",
+      "prompt": "He mentioned that he _____ always careful with money."
+    },
+    "answer": "was",
+    "hint": "Động từ \"to be\" ở hiện tại đơn \"am\" lùi thì thành \"was\" trong câu tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_003",
+      "prompt": "He knew he _____ it with him just before he walked into the restaurant."
+    },
+    "answer": "had had",
+    "hint": "Thì quá khứ đơn \"had\" (sở hữu) lùi thành quá khứ hoàn thành \"had had\" khi tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_004",
+      "prompt": "He explained that he _____ wanted to do so."
+    },
+    "answer": "hadn't",
+    "hint": "Thì quá khứ đơn phủ định \"didn't want\" lùi thành quá khứ hoàn thành phủ định \"hadn't wanted\" khi tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_005",
+      "prompt": "He said he _____ in a hurry that day."
+    },
+    "answer": "was",
+    "hint": "Lùi thì hiện tại đơn \"am\" thành quá khứ đơn \"was\" và đổi \"today\" thành \"that day\" trong câu tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_006",
+      "prompt": "He stated that he _____ to reach his waiting room before two o'clock."
+    },
+    "answer": "had",
+    "hint": "Cụm từ \"have to\" (phải làm gì) lùi thì thành \"had to\" trong câu tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_007",
+      "prompt": "He added that some people _____ waiting to see him there."
+    },
+    "answer": "were",
+    "hint": "Lùi thì hiện tại tiếp diễn \"are waiting\" thành quá khứ tiếp diễn \"were waiting\" và đổi \"here\" thành \"there\" khi tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_008",
+      "prompt": "He told them that his biggest worry at that moment _____ how he was going to pay for the meal."
+    },
+    "answer": "was",
+    "hint": "Động từ \"is\" trong mệnh đề danh từ lùi thì thành \"was\" khi tường thuật, đồng thời đổi \"at the moment\" thành \"at that moment\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_009",
+      "prompt": "He promised that he _____ send him a bill."
+    },
+    "answer": "would",
+    "hint": "Thì tương lai đơn \"will send\" lùi thành tương lai trong quá khứ \"would send\" khi tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_010",
+      "prompt": "He asked where his wallet _____."
+    },
+    "answer": "was",
+    "hint": "Trong câu hỏi gián tiếp, thì hiện tại đơn \"is\" lùi thành quá khứ đơn \"was\" và trật tự từ là chủ ngữ + động từ."
+  }
+]

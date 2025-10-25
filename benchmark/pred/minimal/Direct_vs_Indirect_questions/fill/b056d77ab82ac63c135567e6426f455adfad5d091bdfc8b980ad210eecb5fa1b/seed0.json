@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_001",
+      "prompt": "The experts want to know _____ much land you have available."
+    },
+    "answer": "how",
+    "hint": "Cần một từ để hỏi về số lượng đất."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_002",
+      "prompt": "Could you tell me _____ good the land is?"
+    },
+    "answer": "how",
+    "hint": "Cần một từ để hỏi về chất lượng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_003",
+      "prompt": "I wonder _____ you understand that there always has to be someone to care for the goats."
+    },
+    "answer": "if",
+    "hint": "Khi chuyển câu hỏi Yes/No sang gián tiếp, dùng 'if' hoặc 'whether'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_004",
+      "prompt": "They asked _____ you had buildings for the number of female goats you planned to keep during winter."
+    },
+    "answer": "if",
+    "hint": "Đây là câu hỏi Yes/No được tường thuật lại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_005",
+      "prompt": "The experts want to know _____ you have the equipment to clean barns and harvest hay."
+    },
+    "answer": "if",
+    "hint": "Dùng từ nối cho câu hỏi Yes/No gián tiếp."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_006",
+      "prompt": "They also asked _____ you would get someone else to do it, or buy the hay."
+    },
+    "answer": "if",
+    "hint": "Câu hỏi lựa chọn Yes/No."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_007",
+      "prompt": "Do you know _____ long a profitable business in goat meat may take to establish?"
+    },
+    "answer": "how",
+    "hint": "Hỏi về khoảng thời gian."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_008",
+      "prompt": "I wonder _____ there are any guarantees."
+    },
+    "answer": "if",
+    "hint": "Chuyển câu khẳng định sang câu hỏi gián tiếp."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_009",
+      "prompt": "Could you tell me _____ an open, cold, dry barn is better than a closed, warm barn?"
+    },
+    "answer": "why",
+    "hint": "Hỏi về lý do."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_010",
+      "prompt": "The experts asked _____ there always has to be someone to care for the goats."
+    },
+    "answer": "if",
+    "hint": "Câu hỏi Yes/No gián tiếp."
+  }
+]

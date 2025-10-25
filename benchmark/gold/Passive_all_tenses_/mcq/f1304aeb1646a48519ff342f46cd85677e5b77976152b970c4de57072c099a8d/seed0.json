@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_001",
+      "prompt": "In many parts of the world, it _____ that different cultures have unique standards of beauty.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is believed"
+        },
+        {
+          "id": "b",
+          "label": "believes"
+        },
+        {
+          "id": "c",
+          "label": "was believing"
+        },
+        {
+          "id": "d",
+          "label": "has believed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một quan niệm phổ biến, một sự thật chung. Dùng cấu trúc bị động ở thì hiện tại đơn (is + V3) với chủ ngữ giả 'it'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_002",
+      "prompt": "According to Balinese tradition, a teenager's teeth _____ flat by a special person to be considered beautiful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "must file"
+        },
+        {
+          "id": "b",
+          "label": "are filing"
+        },
+        {
+          "id": "c",
+          "label": "must be filed"
+        },
+        {
+          "id": "d",
+          "label": "have filed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Răng (teeth) không thể tự mài, nó 'phải được mài'. Dùng cấu trúc bị động với động từ khuyết thiếu: modal + be + V3."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_003",
+      "prompt": "In Myanmar, the group of people known for their long necks _____ the 'Papaung'.",
+      "options": [
+        {
+          "id": "a",
+          "label": "call"
+        },
+        {
+          "id": "b",
+          "label": "is called"
+        },
+        {
+          "id": "c",
+          "label": "are calling"
+        },
+        {
+          "id": "d",
+          "label": "are called"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Nhóm người này 'được gọi là', không phải chủ thể thực hiện hành động. Dùng bị động hiện tại đơn (are + V3) vì đây là một sự thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_004",
+      "prompt": "The first heavy metal rings _____ around a Papaung girl's neck when she is about five years old.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fit"
+        },
+        {
+          "id": "b",
+          "label": "are fitted"
+        },
+        {
+          "id": "c",
+          "label": "are fitting"
+        },
+        {
+          "id": "d",
+          "label": "have fitted"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Những chiếc vòng (rings) là vật, phải 'được lắp vào'. Đây là một phong tục lặp lại ở hiện tại, nên dùng bị động hiện tại đơn (are + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_005",
+      "prompt": "Last year, my friend's arm _____ with a beautiful design by a famous tattoo artist in Hanoi.",
+      "options": [
+        {
+          "id": "a",
+          "label": "decorated"
+        },
+        {
+          "id": "b",
+          "label": "was decorated"
+        },
+        {
+          "id": "c",
+          "label": "has been decorated"
+        },
+        {
+          "id": "d",
+          "label": "was decorating"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Có mốc thời gian 'Last year' nên dùng thì quá khứ đơn. Cánh tay (arm) 'được trang trí', nên phải dùng thể bị động (was + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_006",
+      "prompt": "Over the past decade, many traditional ideas about beauty _____ by younger generations.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been challenged"
+        },
+        {
+          "id": "b",
+          "label": "have challenged"
+        },
+        {
+          "id": "c",
+          "label": "were challenged"
+        },
+        {
+          "id": "d",
+          "label": "challenged"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Over the past decade' là dấu hiệu của thì hiện tại hoàn thành. Các ý tưởng (ideas) 'bị thách thức', nên dùng bị động (have been + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_007",
+      "prompt": "Look at that woman! Her hair _____ right now in a very modern style.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is cutting"
+        },
+        {
+          "id": "b",
+          "label": "has been cut"
+        },
+        {
+          "id": "c",
+          "label": "is being cut"
+        },
+        {
+          "id": "d",
+          "label": "cuts"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Right now' là dấu hiệu của thì hiện tại tiếp diễn. Tóc (hair) 'đang được cắt', không thể tự cắt. Dùng bị động (is being + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_008",
+      "prompt": "In the future, it is possible that new forms of body decoration _____ by technology.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will influence"
+        },
+        {
+          "id": "b",
+          "label": "are influenced"
+        },
+        {
+          "id": "c",
+          "label": "will be influenced"
+        },
+        {
+          "id": "d",
+          "label": "have been influenced"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'In the future' chỉ tương lai. Các hình thức trang trí (forms) 'sẽ bị ảnh hưởng', không phải chủ thể gây ảnh hưởng. Dùng bị động tương lai đơn (will be + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_009",
+      "prompt": "The painful tooth filing ceremony _____ without anesthetic in the past.",
+      "options": [
+        {
+          "id": "a",
+          "label": "performed"
+        },
+        {
+          "id": "b",
+          "label": "was performed"
+        },
+        {
+          "id": "c",
+          "label": "was performing"
+        },
+        {
+          "id": "d",
+          "label": "has performed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đã xảy ra và kết thúc trong quá khứ. Nghi lễ (ceremony) 'được thực hiện', nên dùng bị động quá khứ đơn (was + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pv_010",
+      "prompt": "Some people believe that these ancient traditions _____ to preserve cultural identity.",
+      "options": [
+        {
+          "id": "a",
+          "label": "should preserve"
+        },
+        {
+          "id": "b",
+          "label": "must be preserving"
+        },
+        {
+          "id": "c",
+          "label": "can preserve"
+        },
+        {
+          "id": "d",
+          "label": "should be preserved"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Truyền thống (traditions) 'nên được bảo tồn', không phải chủ thể tự bảo tồn. Dùng cấu trúc bị động với modal: should + be + V3."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_001",
+      "prompt": "A new report _____ that African governments are ill prepared to handle the growing number of elderly people.",
+      "options": [
+        {
+          "id": "a",
+          "label": "says"
+        },
+        {
+          "id": "b",
+          "label": "said"
+        },
+        {
+          "id": "c",
+          "label": "is saying"
+        },
+        {
+          "id": "d",
+          "label": "has said"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Báo cáo hiện tại dùng thì hiện tại đơn để tường thuật thông tin vẫn còn đúng hoặc mới được công bố."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_002",
+      "prompt": "Professor Mthuli Ncube _____ that African governments had failed to take action on health insurance.",
+      "options": [
+        {
+          "id": "a",
+          "label": "said"
+        },
+        {
+          "id": "b",
+          "label": "told"
+        },
+        {
+          "id": "c",
+          "label": "spoke"
+        },
+        {
+          "id": "d",
+          "label": "explained to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Said' thường dùng với mệnh đề 'that' mà không cần tân ngữ trực tiếp. 'Told' cần tân ngữ (ví dụ: told me)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_003",
+      "prompt": "The African Development Bank _____ that governments help carry out health insurance and pension plans.",
+      "options": [
+        {
+          "id": "a",
+          "label": "recommended"
+        },
+        {
+          "id": "b",
+          "label": "recommends"
+        },
+        {
+          "id": "c",
+          "label": "is recommending"
+        },
+        {
+          "id": "d",
+          "label": "has recommended"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Recommends' ở thì hiện tại đơn phù hợp khi nói về khuyến nghị chung hoặc thường xuyên của một tổ chức."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_004",
+      "prompt": "Ncube _____ that African governments didn't have to handle the health insurance burden alone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stated"
+        },
+        {
+          "id": "b",
+          "label": "told"
+        },
+        {
+          "id": "c",
+          "label": "advised"
+        },
+        {
+          "id": "d",
+          "label": "suggested"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Stated' là một động từ tường thuật trang trọng, tương tự 'said', dùng với mệnh đề 'that' để trình bày một sự thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_005",
+      "prompt": "He _____ that it was not only a must but also an opportunity for private companies to add their bit.",
+      "options": [
+        {
+          "id": "a",
+          "label": "emphasized"
+        },
+        {
+          "id": "b",
+          "label": "denied"
+        },
+        {
+          "id": "c",
+          "label": "questioned"
+        },
+        {
+          "id": "d",
+          "label": "wondered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Emphasized' (nhấn mạnh) phù hợp với ý nghĩa của câu nói, thể hiện tầm quan trọng của việc đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_006",
+      "prompt": "The report also _____ that African governments consider providing free health services.",
+      "options": [
+        {
+          "id": "a",
+          "label": "recommended"
+        },
+        {
+          "id": "b",
+          "label": "recommends"
+        },
+        {
+          "id": "c",
+          "label": "is recommending"
+        },
+        {
+          "id": "d",
+          "label": "has recommended"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Recommends' ở thì hiện tại đơn phù hợp với khuyến nghị của một báo cáo hiện hành, vẫn còn giá trị."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_007",
+      "prompt": "The African Development Bank _____ that aging was highly linked with long-term physical and mental disability.",
+      "options": [
+        {
+          "id": "a",
+          "label": "explained"
+        },
+        {
+          "id": "b",
+          "label": "denied"
+        },
+        {
+          "id": "c",
+          "label": "questioned"
+        },
+        {
+          "id": "d",
+          "label": "refused"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Explained' (giải thích) phù hợp khi tường thuật một sự thật hoặc mối liên hệ đã được nêu rõ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_008",
+      "prompt": "Professor Mthuli Ncube _____ that Africa was not well prepared to care for its aging population and needed to prepare for this fact.",
+      "options": [
+        {
+          "id": "a",
+          "label": "warned"
+        },
+        {
+          "id": "b",
+          "label": "promised"
+        },
+        {
+          "id": "c",
+          "label": "denied"
+        },
+        {
+          "id": "d",
+          "label": "agreed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Warned' (cảnh báo) phù hợp với nội dung câu nói, thể hiện sự lo ngại và cần hành động để tránh hậu quả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_009",
+      "prompt": "It was _____ that African nations spent far less on healthcare than developed nations.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reported"
+        },
+        {
+          "id": "b",
+          "label": "told"
+        },
+        {
+          "id": "c",
+          "label": "spoken"
+        },
+        {
+          "id": "d",
+          "label": "discussed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'It was reported' là cấu trúc bị động phổ biến để tường thuật thông tin chung từ một nguồn nào đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_010",
+      "prompt": "Ncube _____ African governments not to handle the health insurance burden alone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "advised"
+        },
+        {
+          "id": "b",
+          "label": "said"
+        },
+        {
+          "id": "c",
+          "label": "explained"
+        },
+        {
+          "id": "d",
+          "label": "claimed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Advised' (khuyên) đi với tân ngữ và động từ nguyên mẫu có 'to' để đưa ra lời khuyên hoặc chỉ dẫn."
+  }
+]

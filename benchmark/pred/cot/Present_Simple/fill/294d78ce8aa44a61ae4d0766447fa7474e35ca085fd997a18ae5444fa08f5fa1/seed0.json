@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_001",
+      "prompt": "Mike and his father often _____ hard on the farm."
+    },
+    "answer": "work",
+    "hint": "“often” là dấu hiệu của thì hiện tại đơn, động từ “work” giữ nguyên vì chủ ngữ số nhiều “Mike and his father”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_002",
+      "prompt": "Mike _____ this soup at first. (not like)"
+    },
+    "answer": "doesn't like",
+    "hint": "“not like” trong thì hiện tại đơn với chủ ngữ số ít “Mike” thành “doesn't like”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_003",
+      "prompt": "His mother always _____ that it's the same soup. (say)"
+    },
+    "answer": "says",
+    "hint": "“always” chỉ thói quen, sự thật lặp lại. Chủ ngữ “His mother” số ít nên động từ “say” thêm “s”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_004",
+      "prompt": "In the evening, Mike's father usually _____ him a bowl of soup. (give)"
+    },
+    "answer": "gives",
+    "hint": "“usually” là trạng từ tần suất, động từ “give” chia theo chủ ngữ số ít “Mike's father” thành “gives”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_005",
+      "prompt": "They _____ their lunch at the table every day. (have)"
+    },
+    "answer": "have",
+    "hint": "“every day” chỉ thói quen hàng ngày. Chủ ngữ “They” số nhiều nên động từ “have” giữ nguyên."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_006",
+      "prompt": "Mike _____ to have the soup when he first tries it. (not want)"
+    },
+    "answer": "doesn't want",
+    "hint": "“not want” với chủ ngữ số ít “Mike” trong thì hiện tại đơn là “doesn't want”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_007",
+      "prompt": "The farm work _____ them tired sometimes. (make)"
+    },
+    "answer": "makes",
+    "hint": "“sometimes” chỉ sự việc lặp lại. “The farm work” là chủ ngữ số ít, động từ “make” thêm “s”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_008",
+      "prompt": "Mike's father _____ him lessons about hard work. (teach)"
+    },
+    "answer": "teaches",
+    "hint": "Đây là một sự thật hoặc thói quen. Chủ ngữ “Mike's father” số ít, động từ “teach” thêm “es”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_009",
+      "prompt": "The soup _____ nice after a hard day's work. (taste)"
+    },
+    "answer": "tastes",
+    "hint": "Đây là một sự thật hoặc cảm nhận chung. “The soup” là chủ ngữ số ít, động từ “taste” thêm “s”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ps_fill_010",
+      "prompt": "Mike and his father often _____ after lunch."
+    },
+    "answer": "work",
+    "hint": "“often” chỉ thói quen. Chủ ngữ “Mike and his father” là số nhiều, động từ “work” giữ nguyên."
+  }
+]

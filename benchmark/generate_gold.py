@@ -8,12 +8,15 @@ from utilities.ai_generator_LLM_Clone import generate_with_llm
 
 
 def generate_gold(topic: str, hw_type: Literal['mcq','fill'], post_text: str, out_path: Path, num_items: int = 1):
-    # Deterministic config
+    # Deterministic config; prompt mode aligned with CoT by default
+    mode = (os.getenv('GOLD_PROMPT_MODE') or 'cot').strip().lower()
+    if mode not in {'cot', 'minimal'}:
+        mode = 'cot'
     items = generate_with_llm(
         post_text,
         hw_type,
         num_items,
-        mode='minimal',
+        mode=mode,
         temperature=0.0,
         seed=0,
         model=os.getenv('GOLD_MODEL') or 'gemini-2.5-pro',

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "The newspaper industry is facing challenges because the number of readers ____ for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has fallen"
+        },
+        {
+          "id": "b",
+          "label": "has been falling"
+        },
+        {
+          "id": "c",
+          "label": "is falling"
+        },
+        {
+          "id": "d",
+          "label": "fell"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động giảm số lượng độc giả đã diễn ra liên tục trong nhiều năm cho đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "For several years, newspaper companies ____ new strategies to reinvent themselves and earn money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have looked"
+        },
+        {
+          "id": "b",
+          "label": "are looking"
+        },
+        {
+          "id": "c",
+          "label": "have been looking"
+        },
+        {
+          "id": "d",
+          "label": "looked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Các công ty báo chí đã và đang tìm kiếm các chiến lược mới trong nhiều năm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "The traditional newspaper business model ____ effectively on the Internet, especially with the changing economy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hasn't worked"
+        },
+        {
+          "id": "b",
+          "label": "isn't working"
+        },
+        {
+          "id": "c",
+          "label": "hasn't been working"
+        },
+        {
+          "id": "d",
+          "label": "didn't work"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mô hình kinh doanh truyền thống đã không hoạt động hiệu quả liên tục trên Internet cho đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "People ____ free news online for a long time, so charging for content is a big challenge for publishers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have got used to"
+        },
+        {
+          "id": "b",
+          "label": "have been getting used to"
+        },
+        {
+          "id": "c",
+          "label": "are getting used to"
+        },
+        {
+          "id": "d",
+          "label": "got used to"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc mọi người đã quen với tin tức miễn phí là một quá trình diễn ra liên tục trong thời gian dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "Publishers who chose to offer free online content ____ their decision, as they now face financial difficulties.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have regretted"
+        },
+        {
+          "id": "b",
+          "label": "are regretting"
+        },
+        {
+          "id": "c",
+          "label": "have been regretting"
+        },
+        {
+          "id": "d",
+          "label": "regretted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sự hối tiếc của các nhà xuất bản là một trạng thái kéo dài từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Like any other business, newspapers ____ to balance their needs with the needs of their customers for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have had"
+        },
+        {
+          "id": "b",
+          "label": "have been having"
+        },
+        {
+          "id": "c",
+          "label": "are having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc cân bằng nhu cầu là một quá trình liên tục mà các tờ báo đã và đang thực hiện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Since its arrival in 1982, USA Today's design ____ many other papers, changing the look of American newspapers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has influenced"
+        },
+        {
+          "id": "b",
+          "label": "has been influencing"
+        },
+        {
+          "id": "c",
+          "label": "is influencing"
+        },
+        {
+          "id": "d",
+          "label": "influenced"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thiết kế của USA Today đã và đang ảnh hưởng đến nhiều tờ báo khác trong suốt một thời gian dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "For some time now, newspapers ____ themselves for an increasingly online world to stay relevant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have redesigned"
+        },
+        {
+          "id": "b",
+          "label": "are redesigning"
+        },
+        {
+          "id": "c",
+          "label": "have been redesigning"
+        },
+        {
+          "id": "d",
+          "label": "redesigned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Các tờ báo đã và đang liên tục thiết kế lại mình để phù hợp với thế giới trực tuyến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "Due to financial pressures, some newspaper companies ____ their operations or declared bankruptcy recently.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have reduced"
+        },
+        {
+          "id": "b",
+          "label": "have been reducing"
+        },
+        {
+          "id": "c",
+          "label": "are reducing"
+        },
+        {
+          "id": "d",
+          "label": "reduced"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc cắt giảm hoạt động là một quá trình diễn ra liên tục do áp lực tài chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Publishers ____ with the question of how much people are willing to pay for news that they have received for free.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have struggled"
+        },
+        {
+          "id": "b",
+          "label": "are struggling"
+        },
+        {
+          "id": "c",
+          "label": "have been struggling"
+        },
+        {
+          "id": "d",
+          "label": "struggled"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Các nhà xuất bản đã và đang vật lộn với câu hỏi này trong một thời gian."
+  }
+]

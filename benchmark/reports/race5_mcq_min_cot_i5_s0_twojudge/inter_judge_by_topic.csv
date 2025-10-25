@@ -1,0 +1,6 @@
+run_id,type,topic,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+race5_mcq_min_cot_i5_s0_twojudge,mcq,First Conditional,30,0.5667,0.3893,0.744,0.0,0.32
+race5_mcq_min_cot_i5_s0_twojudge,mcq,Passive (all tenses),30,1.0,1.0,1.0,0.0,1.0
+race5_mcq_min_cot_i5_s0_twojudge,mcq,Past Simple,20,0.7,0.4992,0.9008,0.1892,0.5489
+race5_mcq_min_cot_i5_s0_twojudge,mcq,Present Perfect Continuous,10,0.8,0.5521,1.0,0.0,0.7546
+race5_mcq_min_cot_i5_s0_twojudge,mcq,Reporting verbs,10,0.9,0.7141,1.0,0.0,0.8895

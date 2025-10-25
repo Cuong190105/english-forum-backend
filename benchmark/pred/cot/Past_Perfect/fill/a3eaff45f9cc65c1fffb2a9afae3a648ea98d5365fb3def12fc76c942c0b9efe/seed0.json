@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_001",
+      "prompt": "Mother Shi decided to change her son's name because he _____ poorly in study for a long time."
+    },
+    "answer": "had done",
+    "hint": "Hành động 'did poorly' xảy ra và kéo dài trước khi bà Shi quyết định đổi tên, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_002",
+      "prompt": "By the time the article was written, the naming agency _____ names for nearly 1,000 students since 1998."
+    },
+    "answer": "had found",
+    "hint": "'By the time' chỉ một hành động hoàn thành trước một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_003",
+      "prompt": "Hu Jie wished she _____ her old name before she graduated from high school."
+    },
+    "answer": "had kept",
+    "hint": "Hành động 'kept her old name' đáng lẽ phải xảy ra trước khi cô ấy tốt nghiệp, thể hiện sự hối tiếc về một việc trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_004",
+      "prompt": "After parents _____ a new name, they had to register it at the local police department."
+    },
+    "answer": "had bought",
+    "hint": "Hành động 'bought a new name' xảy ra và hoàn thành trước hành động 'had to register', nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_005",
+      "prompt": "The naming agency _____ its shop in 1998, and by 2020, it had already found names for thousands of students."
+    },
+    "answer": "had set up",
+    "hint": "Hành động 'set up' xảy ra trước một thời điểm cụ thể trong quá khứ (2020), nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_006",
+      "prompt": "The mother hoped the special recipe could bring him good luck, as she _____ to a name-giving master."
+    },
+    "answer": "had turned",
+    "hint": "Hành động 'turned to a master' xảy ra trước và là nguyên nhân cho hành động 'hoped', nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_007",
+      "prompt": "Although his mother _____ him tutored after school, he still earned low marks in school."
+    },
+    "answer": "had had",
+    "hint": "Hành động 'had him tutored' xảy ra trước khi anh ta vẫn nhận điểm thấp, thể hiện một nỗ lực trước đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_008",
+      "prompt": "When her classmates used her new name, Hu Jie always had no idea who they were calling because she _____ used to it."
+    },
+    "answer": "hadn't gotten",
+    "hint": "Việc 'chưa quen với tên mới' xảy ra trước và kéo dài đến thời điểm bạn bè gọi tên, gây ra sự bối rối."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_009",
+      "prompt": "The store said its professionals _____ the defects of a person's original name before they suggested a new one."
+    },
+    "answer": "had analyzed",
+    "hint": "Hành động 'analyzed' xảy ra và hoàn thành trước hành động 'suggested', nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pp_fill_010",
+      "prompt": "Parents had to register the name at the local police department after they _____ to change their child's name."
+    },
+    "answer": "had decided",
+    "hint": "Hành động 'decided to change' xảy ra trước và là điều kiện tiên quyết cho hành động 'had to register', nên dùng quá khứ hoàn thành."
+  }
+]

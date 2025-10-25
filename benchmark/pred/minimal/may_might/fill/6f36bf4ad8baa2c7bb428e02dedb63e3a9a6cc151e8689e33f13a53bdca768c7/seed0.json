@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_01",
+      "prompt": "In a few years, schools _____ consider changing the rule about chewing gum."
+    },
+    "answer": "might",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra trong tương lai?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_02",
+      "prompt": "Scientists are finding evidence that gum chewing _____ be good for your health."
+    },
+    "answer": "may",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_03",
+      "prompt": "Gum chewing _____ even help improve your test scores."
+    },
+    "answer": "may",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_04",
+      "prompt": "Other researchers are finding that gum _____ work better than a pill to deliver medicines."
+    },
+    "answer": "might",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_05",
+      "prompt": "Scientists _____ even create antimicrobial gums that cure bad breath."
+    },
+    "answer": "might",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra trong tương lai?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_06",
+      "prompt": "Those projects _____ take years, but gum scientists have already had success."
+    },
+    "answer": "may",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_07",
+      "prompt": "The manufacturer _____ one day offer Stay Alert gum for sale to the public."
+    },
+    "answer": "may",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra trong tương lai?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_08",
+      "prompt": "People who work at night _____ benefit from a product like Stay Alert."
+    },
+    "answer": "might",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_09",
+      "prompt": "With new research, gum _____ become a common way to deliver medicine."
+    },
+    "answer": "might",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra trong tương lai?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_may_might_10",
+      "prompt": "Chewing gum _____ help you focus better during exams."
+    },
+    "answer": "may",
+    "hint": "Từ nào diễn tả khả năng có thể xảy ra?"
+  }
+]

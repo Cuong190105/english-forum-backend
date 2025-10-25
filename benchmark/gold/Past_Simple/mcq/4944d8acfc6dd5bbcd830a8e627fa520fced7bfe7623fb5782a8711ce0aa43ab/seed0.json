@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "A few days ago, the author's friend _____ to cheer him up with an inspirational quote.",
+      "options": [
+        {
+          "id": "a",
+          "label": "try"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "has tried"
+        },
+        {
+          "id": "d",
+          "label": "tries"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'A few days ago' là dấu hiệu của thì quá khứ đơn. Động từ 'try' ở dạng quá khứ là 'tried'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The author _____ fifty years old on his last birthday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "turn"
+        },
+        {
+          "id": "b",
+          "label": "was turning"
+        },
+        {
+          "id": "c",
+          "label": "has turned"
+        },
+        {
+          "id": "d",
+          "label": "turned"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'On his last birthday' chỉ một thời điểm cụ thể đã qua, vì vậy ta dùng thì quá khứ đơn (V-ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "In the past, the author _____ a six-foot high-jump bar quite easily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cleared"
+        },
+        {
+          "id": "b",
+          "label": "clears"
+        },
+        {
+          "id": "c",
+          "label": "has cleared"
+        },
+        {
+          "id": "d",
+          "label": "is clearing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'In the past' cho biết hành động đã xảy ra và kết thúc trong quá khứ, nên ta dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "The poet Robert Browning _____ that the best part of life was yet to come.",
+      "options": [
+        {
+          "id": "a",
+          "label": "considers"
+        },
+        {
+          "id": "b",
+          "label": "considered"
+        },
+        {
+          "id": "c",
+          "label": "has considered"
+        },
+        {
+          "id": "d",
+          "label": "was considering"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Robert Browning là một nhân vật lịch sử, hành động của ông đã diễn ra trong quá khứ. Ta dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "The author _____ not prepared to have the number fifty 'hung on him'.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "was"
+        },
+        {
+          "id": "d",
+          "label": "has been"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là câu diễn tả trạng thái trong quá khứ. Với chủ ngữ số ít 'The author', ta dùng 'was'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "What _____ the philosopher say about being old, according to the text?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "has"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để đặt câu hỏi cho hành động trong quá khứ (say), ta dùng trợ động từ 'did' và giữ động từ chính ở dạng nguyên mẫu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "The author's friend _____ an inspirational point during their conversation last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "has made"
+        },
+        {
+          "id": "d",
+          "label": "makes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Last week' là mốc thời gian xác định trong quá khứ. 'Make' là động từ bất quy tắc, dạng quá khứ là 'made'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "The author _____ that most of his first fifty years had been golden ones.",
+      "options": [
+        {
+          "id": "a",
+          "label": "find"
+        },
+        {
+          "id": "b",
+          "label": "finds"
+        },
+        {
+          "id": "c",
+          "label": "founded"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động nhận ra (find) đã xảy ra trong quá khứ. 'Found' là dạng quá khứ của 'find', không nhầm với 'founded' (thành lập)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Why _____ the author feel stuck with the number fifty when he was younger?",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't"
+        },
+        {
+          "id": "b",
+          "label": "wasn't"
+        },
+        {
+          "id": "c",
+          "label": "hasn't"
+        },
+        {
+          "id": "d",
+          "label": "doesn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi phủ định ở thì quá khứ đơn với động từ thường (feel) dùng trợ động từ 'didn't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Many years ago, fifty _____ like his father's age, not his own.",
+      "options": [
+        {
+          "id": "a",
+          "label": "seemed"
+        },
+        {
+          "id": "b",
+          "label": "seems"
+        },
+        {
+          "id": "c",
+          "label": "has seemed"
+        },
+        {
+          "id": "d",
+          "label": "was seeming"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Many years ago' là dấu hiệu rõ ràng của thì quá khứ đơn, diễn tả một suy nghĩ hoặc cảm giác trong quá khứ."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_001",
+      "prompt": "Many people enjoy _____ time with family during the holidays."
+    },
+    "answer": "spending",
+    "hint": "Động từ \"enjoy\" (thích thú) luôn theo sau bởi một động từ thêm -ing để chỉ một hoạt động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_002",
+      "prompt": "They decided _____ a new recycling system in their village last year."
+    },
+    "answer": "to implement",
+    "hint": "Động từ \"decide\" (quyết định) thường được theo sau bởi một động từ nguyên mẫu có \"to\" để chỉ một quyết định hoặc kế hoạch."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_003",
+      "prompt": "She is good at _____ creative solutions for reducing waste."
+    },
+    "answer": "finding",
+    "hint": "Sau giới từ (như \"at\", \"in\", \"on\", \"for\", \"about\"), động từ luôn được dùng ở dạng V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_004",
+      "prompt": "The new policy requires all employees _____ their waste properly."
+    },
+    "answer": "to separate",
+    "hint": "Cấu trúc \"require someone to do something\" (yêu cầu ai làm gì) sử dụng động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_005",
+      "prompt": "To reduce plastic use, we should avoid _____ single-use bags."
+    },
+    "answer": "buying",
+    "hint": "Động từ \"avoid\" (tránh) luôn được theo sau bởi một động từ thêm -ing để chỉ hành động cần tránh."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_006",
+      "prompt": "They plan _____ a workshop on composting next month."
+    },
+    "answer": "to organize",
+    "hint": "Động từ \"plan\" (lên kế hoạch) thường được theo sau bởi một động từ nguyên mẫu có \"to\" để chỉ một dự định trong tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_007",
+      "prompt": "Do you mind _____ me with these recycling boxes?"
+    },
+    "answer": "helping",
+    "hint": "Động từ \"mind\" (phiền) luôn theo sau bởi một động từ thêm -ing khi hỏi về sự cho phép hoặc yêu cầu giúp đỡ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_008",
+      "prompt": "Many environmentalists hope _____ a significant change in global waste management."
+    },
+    "answer": "to see",
+    "hint": "Động từ \"hope\" (hy vọng) thường được theo sau bởi một động từ nguyên mẫu có \"to\" để diễn tả mong muốn về tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_009",
+      "prompt": "The expert suggested _____ reusable containers for shopping."
+    },
+    "answer": "using",
+    "hint": "Động từ \"suggest\" (gợi ý) luôn theo sau bởi một động từ thêm -ing khi đưa ra một đề xuất."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_010",
+      "prompt": "People go Zero Waste _____ the environment."
+    },
+    "answer": "to protect",
+    "hint": "Dùng động từ nguyên mẫu có \"to\" để diễn tả mục đích (để làm gì), trả lời cho câu hỏi \"Why?\"."
+  }
+]

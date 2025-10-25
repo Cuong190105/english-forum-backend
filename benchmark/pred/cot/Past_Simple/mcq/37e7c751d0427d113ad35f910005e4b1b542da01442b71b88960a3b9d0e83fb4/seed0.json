@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_001",
+      "prompt": "The discovery of two distinct elephant species _____ by researchers at York and Harvard Universities last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was made"
+        },
+        {
+          "id": "b",
+          "label": "is made"
+        },
+        {
+          "id": "c",
+          "label": "has been made"
+        },
+        {
+          "id": "d",
+          "label": "made"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'discovery' đã hoàn thành trong quá khứ ('last year') và là bị động, nên dùng thì Quá khứ đơn dạng bị động 'was made'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_002",
+      "prompt": "Once they _____ DNA sequences from fossils, the team compared them with DNA from modern elephants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "obtained"
+        },
+        {
+          "id": "b",
+          "label": "obtain"
+        },
+        {
+          "id": "c",
+          "label": "have obtained"
+        },
+        {
+          "id": "d",
+          "label": "were obtaining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'obtained' xảy ra trước và hoàn thành trong quá khứ, dẫn đến hành động 'compared'. Dùng thì Quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_003",
+      "prompt": "To their amazement, scientists _____ that modern forest and savanna elephants are as distinct as Asian elephants and mammoths in their recent study.",
+      "options": [
+        {
+          "id": "a",
+          "label": "found"
+        },
+        {
+          "id": "b",
+          "label": "find"
+        },
+        {
+          "id": "c",
+          "label": "have found"
+        },
+        {
+          "id": "d",
+          "label": "were finding"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'in their recent study' chỉ một hành động đã hoàn thành trong quá khứ. Do đó, động từ 'find' phải ở thì Quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_004",
+      "prompt": "The scientists _____ detailed genetic analysis to prove the species divergence several million years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used"
+        },
+        {
+          "id": "b",
+          "label": "use"
+        },
+        {
+          "id": "c",
+          "label": "have used"
+        },
+        {
+          "id": "d",
+          "label": "are using"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng ngữ 'several million years ago' là dấu hiệu rõ ràng của thì Quá khứ đơn. Chọn dạng quá khứ của động từ 'use'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_005",
+      "prompt": "The divergence of the two species _____ around the time of the divergence of Asian elephants and woolly mammoths.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took place"
+        },
+        {
+          "id": "b",
+          "label": "takes place"
+        },
+        {
+          "id": "c",
+          "label": "has taken place"
+        },
+        {
+          "id": "d",
+          "label": "is taking place"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Ngữ cảnh nói về một sự kiện đã xảy ra trong quá khứ ('around the time of the divergence...'), nên dùng thì Quá khứ đơn 'took place'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_006",
+      "prompt": "This result _____ all the scientists when they first published their findings last month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "amazed"
+        },
+        {
+          "id": "b",
+          "label": "amazes"
+        },
+        {
+          "id": "c",
+          "label": "has amazed"
+        },
+        {
+          "id": "d",
+          "label": "was amazing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'last month' chỉ thời điểm cụ thể trong quá khứ, yêu cầu thì Quá khứ đơn. 'Amazed' là dạng đúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_007",
+      "prompt": "Previously, many naturalists _____ that African savanna elephants and African forest elephants were the same species.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believed"
+        },
+        {
+          "id": "b",
+          "label": "believe"
+        },
+        {
+          "id": "c",
+          "label": "have believed"
+        },
+        {
+          "id": "d",
+          "label": "were believing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ 'Previously' (trước đây) chỉ một niềm tin trong quá khứ đã thay đổi, nên dùng thì Quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_008",
+      "prompt": "Before the recent study, the two elephant populations _____ considered one species for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "have been"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'Before the recent study' chỉ một trạng thái trong quá khứ đã kết thúc. Dùng thì Quá khứ đơn dạng bị động 'were considered'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_009",
+      "prompt": "Alfred Roca, an assistant professor, _____ in his interview last week that they now have to treat the forest and savanna elephants as two different units.",
+      "options": [
+        {
+          "id": "a",
+          "label": "said"
+        },
+        {
+          "id": "b",
+          "label": "says"
+        },
+        {
+          "id": "c",
+          "label": "has said"
+        },
+        {
+          "id": "d",
+          "label": "is saying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'last week' là dấu hiệu của thì Quá khứ đơn. Động từ tường thuật 'say' phải ở dạng quá khứ đơn 'said'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_mcq_010",
+      "prompt": "The research team _____ DNA sequences from two fossils before comparing them with modern elephant DNA.",
+      "options": [
+        {
+          "id": "a",
+          "label": "obtained"
+        },
+        {
+          "id": "b",
+          "label": "obtains"
+        },
+        {
+          "id": "c",
+          "label": "has obtained"
+        },
+        {
+          "id": "d",
+          "label": "was obtaining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'obtained' xảy ra và hoàn thành trước hành động 'comparing' trong quá khứ. Dùng thì Quá khứ đơn."
+  }
+]

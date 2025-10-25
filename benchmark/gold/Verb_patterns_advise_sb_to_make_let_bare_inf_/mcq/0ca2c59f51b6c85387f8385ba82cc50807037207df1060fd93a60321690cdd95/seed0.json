@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_001",
+      "prompt": "The photographer made me ______ at the camera for a long time to get a natural expression.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to look"
+        },
+        {
+          "id": "b",
+          "label": "looking"
+        },
+        {
+          "id": "c",
+          "label": "look"
+        },
+        {
+          "id": "d",
+          "label": "looked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'make somebody do something' (bắt ai làm gì) dùng động từ nguyên thể không có 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_002",
+      "prompt": "The instructions advise students ______ wearing very bright colors for their yearbook photos.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to avoid"
+        },
+        {
+          "id": "b",
+          "label": "avoiding"
+        },
+        {
+          "id": "c",
+          "label": "avoid"
+        },
+        {
+          "id": "d",
+          "label": "avoided"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'advise somebody to do something' (khuyên ai làm gì) dùng động từ nguyên thể có 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_003",
+      "prompt": "My mom won't let me ______ my hair a crazy color right before picture day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "dye"
+        },
+        {
+          "id": "b",
+          "label": "to dye"
+        },
+        {
+          "id": "c",
+          "label": "dyeing"
+        },
+        {
+          "id": "d",
+          "label": "dyed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'let somebody do something' (cho phép ai làm gì) dùng động từ nguyên thể không có 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_004",
+      "prompt": "To ensure your face is the focus, you should avoid ______ clothes with busy patterns.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to wear"
+        },
+        {
+          "id": "b",
+          "label": "wear"
+        },
+        {
+          "id": "c",
+          "label": "worn"
+        },
+        {
+          "id": "d",
+          "label": "wearing"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Sau động từ 'avoid' (tránh), chúng ta dùng động từ ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_005",
+      "prompt": "The article suggests ______ your smile in a mirror to see which one looks most natural.",
+      "options": [
+        {
+          "id": "a",
+          "label": "practicing"
+        },
+        {
+          "id": "b",
+          "label": "to practice"
+        },
+        {
+          "id": "c",
+          "label": "practice"
+        },
+        {
+          "id": "d",
+          "label": "practiced"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau động từ 'suggest' (gợi ý) và 'practice' (luyện tập), chúng ta dùng động từ ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_006",
+      "prompt": "The school wants every student ______ their best in the yearbook photo.",
+      "options": [
+        {
+          "id": "a",
+          "label": "looking"
+        },
+        {
+          "id": "b",
+          "label": "to look"
+        },
+        {
+          "id": "c",
+          "label": "look"
+        },
+        {
+          "id": "d",
+          "label": "looked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'want somebody to do something' (muốn ai đó làm gì) dùng động từ nguyên thể có 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_007",
+      "prompt": "Please remember ______ your photo day clothes out the night before so they are ready.",
+      "options": [
+        {
+          "id": "a",
+          "label": "getting"
+        },
+        {
+          "id": "b",
+          "label": "get"
+        },
+        {
+          "id": "c",
+          "label": "to get"
+        },
+        {
+          "id": "d",
+          "label": "got"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Remember to do something' nghĩa là nhớ phải làm một việc gì đó (chưa xảy ra). 'Remember doing' là nhớ lại một việc đã làm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_008",
+      "prompt": "If your smile feels fake, try ______ of a happy memory from this school year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to think"
+        },
+        {
+          "id": "b",
+          "label": "thinking"
+        },
+        {
+          "id": "c",
+          "label": "think"
+        },
+        {
+          "id": "d",
+          "label": "thought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Try doing something' nghĩa là thử làm gì đó để xem kết quả. 'Try to do' là cố gắng, nỗ lực làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_009",
+      "prompt": "The photographer told me to keep ______ until he found the best angle for the shot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to smile"
+        },
+        {
+          "id": "b",
+          "label": "smiling"
+        },
+        {
+          "id": "c",
+          "label": "smile"
+        },
+        {
+          "id": "d",
+          "label": "smiled"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'keep doing something' có nghĩa là tiếp tục làm một việc gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vp_010",
+      "prompt": "While waiting for my turn, I stopped ______ a message to my friend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to send"
+        },
+        {
+          "id": "b",
+          "label": "sending"
+        },
+        {
+          "id": "c",
+          "label": "send"
+        },
+        {
+          "id": "d",
+          "label": "sent"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Stop to do something' nghĩa là dừng việc đang làm (chờ đợi) để làm một việc khác (gửi tin nhắn)."
+  }
+]

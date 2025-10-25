@@ -149,6 +149,7 @@ def main():
     ap.add_argument('--output', required=True, help='Path to output JSONL with added topic fields')
     ap.add_argument('--topics', default='benchmark/topics_locked.json', help='Path to topics JSON map')
     ap.add_argument('--model', default='gemini-2.5-flash-lite')
+    ap.add_argument('--limit', type=int, default=0, help='If >0, label only the first N rows')
     args = ap.parse_args()
 
     key = os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
@@ -177,6 +178,8 @@ def main():
             rec['topic_category'] = label.get('category')
             fout.write(json.dumps(rec, ensure_ascii=False) + '\n')
             n += 1
+            if args.limit and n >= args.limit:
+                break
     print(f'Done: {n} rows labeled -> {out_path}')
 
 

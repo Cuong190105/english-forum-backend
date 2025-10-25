@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "A rich merchant _____ four wives many years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "is having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Many years ago” là dấu hiệu của thì quá khứ đơn. “Had” là dạng quá khứ của “have”, diễn tả sự sở hữu trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "The merchant _____ his fourth wife the most and always treated her well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "loves"
+        },
+        {
+          "id": "b",
+          "label": "loved"
+        },
+        {
+          "id": "c",
+          "label": "has loved"
+        },
+        {
+          "id": "d",
+          "label": "is loving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu chuyện kể về các sự kiện đã xảy ra và kết thúc trong quá khứ. “Loved” là dạng quá khứ đơn của “love”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "Last year, he _____ great care of his favorite wife.",
+      "options": [
+        {
+          "id": "a",
+          "label": "takes"
+        },
+        {
+          "id": "b",
+          "label": "took"
+        },
+        {
+          "id": "c",
+          "label": "has taken"
+        },
+        {
+          "id": "d",
+          "label": "is taking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Last year” chỉ một thời điểm cụ thể trong quá khứ, yêu cầu thì quá khứ đơn. “Took” là dạng quá khứ của “take”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "One day, the merchant suddenly _____ ill.",
+      "options": [
+        {
+          "id": "a",
+          "label": "falls"
+        },
+        {
+          "id": "b",
+          "label": "fell"
+        },
+        {
+          "id": "c",
+          "label": "has fallen"
+        },
+        {
+          "id": "d",
+          "label": "is falling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“One day” là dấu hiệu của một sự kiện đã xảy ra và kết thúc trong quá khứ. “Fell” là dạng quá khứ của “fall”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "After he fell ill, he soon _____ that his end was near.",
+      "options": [
+        {
+          "id": "a",
+          "label": "knows"
+        },
+        {
+          "id": "b",
+          "label": "knew"
+        },
+        {
+          "id": "c",
+          "label": "has known"
+        },
+        {
+          "id": "d",
+          "label": "is knowing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “biết” xảy ra sau khi “ngã bệnh” trong quá khứ. “Knew” là dạng quá khứ đơn của “know”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "Before his death, the merchant _____ his fourth wife to follow him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "asks"
+        },
+        {
+          "id": "b",
+          "label": "asked"
+        },
+        {
+          "id": "c",
+          "label": "has asked"
+        },
+        {
+          "id": "d",
+          "label": "is asking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Before his death” chỉ một sự kiện đã xảy ra trong quá khứ. “Asked” là dạng quá khứ đơn của “ask”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "The fourth wife _____ “No way!” and immediately _____ away.",
+      "options": [
+        {
+          "id": "a",
+          "label": "replies / turns"
+        },
+        {
+          "id": "b",
+          "label": "replied / turned"
+        },
+        {
+          "id": "c",
+          "label": "has replied / has turned"
+        },
+        {
+          "id": "d",
+          "label": "is replying / is turning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cả hai hành động đều xảy ra và kết thúc trong quá khứ theo trình tự. “Replied” và “turned” là dạng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "When the third wife refused, the merchant's heart _____ and _____ cold.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sinks / turns"
+        },
+        {
+          "id": "b",
+          "label": "sank / turned"
+        },
+        {
+          "id": "c",
+          "label": "has sunk / has turned"
+        },
+        {
+          "id": "d",
+          "label": "is sinking / is turning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động này xảy ra đồng thời trong quá khứ khi người vợ thứ ba từ chối. “Sank” và “turned” là dạng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Suddenly, a voice _____ out from the first wife, offering to follow him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "calls"
+        },
+        {
+          "id": "b",
+          "label": "called"
+        },
+        {
+          "id": "c",
+          "label": "has called"
+        },
+        {
+          "id": "d",
+          "label": "is calling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Suddenly” và ngữ cảnh câu chuyện chỉ một hành động đã xảy ra và kết thúc trong quá khứ. “Called” là dạng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "After hearing the voice, the merchant _____ up and _____ his first wife.",
+      "options": [
+        {
+          "id": "a",
+          "label": "looks / sees"
+        },
+        {
+          "id": "b",
+          "label": "looked / saw"
+        },
+        {
+          "id": "c",
+          "label": "has looked / has seen"
+        },
+        {
+          "id": "d",
+          "label": "is looking / is seeing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động này xảy ra liên tiếp trong quá khứ. “Looked” và “saw” là dạng quá khứ đơn của “look” và “see”."
+  }
+]

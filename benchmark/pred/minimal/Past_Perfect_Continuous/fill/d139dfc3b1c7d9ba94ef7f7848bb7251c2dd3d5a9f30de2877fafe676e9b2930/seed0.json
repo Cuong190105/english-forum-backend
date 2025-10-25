@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_001",
+      "prompt": "Before that special day, Dad _____ (tell) stories to us for many years."
+    },
+    "answer": "had been telling",
+    "hint": "Diễn tả hành động kể chuyện đã diễn ra liên tục trong nhiều năm trước một thời điểm trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_002",
+      "prompt": "For years, the family _____ (celebrate) Dad's birthday on Thanksgiving Day."
+    },
+    "answer": "had been celebrating",
+    "hint": "Hành động kỷ niệm đã diễn ra liên tục trong nhiều năm trước một thời điểm trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_003",
+      "prompt": "Before the big celebration, the family _____ (plan) the surprise for weeks."
+    },
+    "answer": "had been planning",
+    "hint": "Hành động lên kế hoạch đã diễn ra liên tục trong nhiều tuần trước khi buổi lễ diễn ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_004",
+      "prompt": "Before Dad listened, everyone _____ (talk) about him for a while."
+    },
+    "answer": "had been talking",
+    "hint": "Hành động nói chuyện đã diễn ra liên tục trong một khoảng thời gian trước khi bố lắng nghe."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_005",
+      "prompt": "He _____ (work) tirelessly to help others throughout his life."
+    },
+    "answer": "had been working",
+    "hint": "Diễn tả hành động làm việc không ngừng nghỉ đã diễn ra liên tục trong quá khứ cho đến một thời điểm nhất định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_006",
+      "prompt": "Before they knew it was his last, the family _____ (visit) him regularly at the nursing home."
+    },
+    "answer": "had been visiting",
+    "hint": "Hành động thăm nom đã diễn ra đều đặn trong quá khứ cho đến khi họ nhận ra điều đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_007",
+      "prompt": "Before the room became quiet, people _____ (chat) loudly."
+    },
+    "answer": "had been chatting",
+    "hint": "Hành động trò chuyện ồn ào đã diễn ra liên tục trước khi căn phòng trở nên yên tĩnh."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_008",
+      "prompt": "Dad _____ (think) about those stories for days before he passed away."
+    },
+    "answer": "had been thinking",
+    "hint": "Hành động suy nghĩ đã diễn ra liên tục trong nhiều ngày trước khi bố qua đời."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_009",
+      "prompt": "For too long, we _____ (keep) our feelings to ourselves."
+    },
+    "answer": "had been keeping",
+    "hint": "Hành động giữ cảm xúc cho riêng mình đã diễn ra liên tục trong một thời gian dài trước khi họ nhận ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_fill_010",
+      "prompt": "Unlike others, we _____ (share) our love with Dad while he was still alive."
+    },
+    "answer": "had been sharing",
+    "hint": "Hành động chia sẻ tình yêu đã diễn ra liên tục trong khi bố còn sống, khác với cách thông thường."
+  }
+]

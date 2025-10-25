@@ -11,18 +11,13 @@ EN_FUNCTIONS = set(
     "a,an,the,and,or,but,if,so,to,of,in,for,on,at,by,with,from,that,which,who,whom,whose,not,no,do,does,did,be,is,are,was,were,been,being".split(',')
 )
 
-
 def is_vietnamese(s: str) -> bool:
-    return bool(VI_PATTERN.search(s or ""))
-
-
-def is_english_like(s: str) -> bool:
-    # Language enforcement removed; keep stub for potential future use
+    """Heuristic: detect Vietnamese diacritics in the string.
+    We only use this to warn about code mixing, not as a hard validation error.
+    """
     if not s:
         return False
-    tokens = re.findall(r"[A-Za-z']+", s.lower())
-    return len(tokens) >= 1
-
+    return VI_PATTERN.search(s) is not None
 
 def validate_items(
     data: List[Dict[str, Any]],

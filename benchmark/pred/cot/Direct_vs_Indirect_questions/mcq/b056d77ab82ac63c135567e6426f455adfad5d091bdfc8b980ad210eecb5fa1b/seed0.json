@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_001",
+      "prompt": "The experts asked me _____ there always has to be someone to care for the goats.",
+      "options": [
+        {
+          "id": "a",
+          "label": "if do I understand"
+        },
+        {
+          "id": "b",
+          "label": "if I understood"
+        },
+        {
+          "id": "c",
+          "label": "if I understand"
+        },
+        {
+          "id": "d",
+          "label": "if did I understand"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi gián tiếp không dùng trợ động từ 'do/does/did' và thường lùi thì. 'If I understood' là cấu trúc đúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_002",
+      "prompt": "They wanted to know _____ available for raising goats.",
+      "options": [
+        {
+          "id": "a",
+          "label": "how much land did I have"
+        },
+        {
+          "id": "b",
+          "label": "how much land I had"
+        },
+        {
+          "id": "c",
+          "label": "how much land do I have"
+        },
+        {
+          "id": "d",
+          "label": "how much land I have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, trật tự từ là chủ ngữ + động từ, không dùng trợ động từ 'do/does/did' và lùi thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_003",
+      "prompt": "I wondered _____ for raising goats.",
+      "options": [
+        {
+          "id": "a",
+          "label": "how good was it"
+        },
+        {
+          "id": "b",
+          "label": "how good it was"
+        },
+        {
+          "id": "c",
+          "label": "how good is it"
+        },
+        {
+          "id": "d",
+          "label": "how good it is"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi gián tiếp giữ trật tự chủ ngữ + động từ và lùi thì. 'How good it was' là cấu trúc chính xác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_004",
+      "prompt": "She asked _____ buildings for the female goats I planned to keep during winter.",
+      "options": [
+        {
+          "id": "a",
+          "label": "if I had"
+        },
+        {
+          "id": "b",
+          "label": "if did I have"
+        },
+        {
+          "id": "c",
+          "label": "if I have"
+        },
+        {
+          "id": "d",
+          "label": "if do I have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi gián tiếp không dùng trợ động từ 'do/does/did' và lùi thì. 'If I had' là cấu trúc đúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_005",
+      "prompt": "He asked _____ someone else to do it or buy the hay.",
+      "options": [
+        {
+          "id": "a",
+          "label": "whether would I get"
+        },
+        {
+          "id": "b",
+          "label": "whether I would get"
+        },
+        {
+          "id": "c",
+          "label": "whether I will get"
+        },
+        {
+          "id": "d",
+          "label": "whether will I get"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi gián tiếp, 'will' lùi thì thành 'would' và trật tự từ là chủ ngữ + động từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_006",
+      "prompt": "The consultant inquired _____ the equipment to clean barns.",
+      "options": [
+        {
+          "id": "a",
+          "label": "if I had"
+        },
+        {
+          "id": "b",
+          "label": "if did I have"
+        },
+        {
+          "id": "c",
+          "label": "if I have"
+        },
+        {
+          "id": "d",
+          "label": "if do I have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi gián tiếp không dùng trợ động từ 'do/does/did' và lùi thì. 'If I had' là cấu trúc đúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_007",
+      "prompt": "I wanted to know _____ these days.",
+      "options": [
+        {
+          "id": "a",
+          "label": "what kind of goats American farmers are raising"
+        },
+        {
+          "id": "b",
+          "label": "what kind of goats are American farmers raising"
+        },
+        {
+          "id": "c",
+          "label": "what kind of goats American farmers were raising"
+        },
+        {
+          "id": "d",
+          "label": "what kind of goats were American farmers raising"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi gián tiếp lùi thì và giữ trật tự chủ ngữ + động từ. 'What kind of goats American farmers were raising' là cấu trúc đúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_008",
+      "prompt": "She asked _____ high in protein.",
+      "options": [
+        {
+          "id": "a",
+          "label": "if was goat meat"
+        },
+        {
+          "id": "b",
+          "label": "if goat meat is"
+        },
+        {
+          "id": "c",
+          "label": "if goat meat was"
+        },
+        {
+          "id": "d",
+          "label": "if is goat meat"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi gián tiếp lùi thì và giữ trật tự chủ ngữ + động từ. 'If goat meat was' là cấu trúc chính xác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_009",
+      "prompt": "He wondered _____ to establish a profitable business in goat meat.",
+      "options": [
+        {
+          "id": "a",
+          "label": "how long did it take"
+        },
+        {
+          "id": "b",
+          "label": "how long it took"
+        },
+        {
+          "id": "c",
+          "label": "how long does it take"
+        },
+        {
+          "id": "d",
+          "label": "how long it takes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi gián tiếp không dùng trợ động từ 'do/does/did' và lùi thì. 'How long it took' là cấu trúc đúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "diq_010",
+      "prompt": "The manager asked _____ any guarantees in this business.",
+      "options": [
+        {
+          "id": "a",
+          "label": "if were there"
+        },
+        {
+          "id": "b",
+          "label": "if there are"
+        },
+        {
+          "id": "c",
+          "label": "if there were"
+        },
+        {
+          "id": "d",
+          "label": "if are there"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi gián tiếp lùi thì và giữ trật tự chủ ngữ + động từ. 'If there were' là cấu trúc chính xác."
+  }
+]

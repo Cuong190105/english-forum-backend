@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Tommy's father _____ apples very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "is liking"
+        },
+        {
+          "id": "d",
+          "label": "liked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"like\" phải chia theo chủ ngữ số ít \"Tommy's father\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Tommy's mother _____ yellow bananas.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "is liking"
+        },
+        {
+          "id": "d",
+          "label": "liked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ \"Tommy's mother\" là ngôi thứ ba số ít, động từ \"like\" cần thêm \"s\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The bananas _____ green.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"The bananas\" là danh từ số nhiều, nên dùng \"are\" với động từ \"to be\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Tommy's mother _____ strawberries very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "is liking"
+        },
+        {
+          "id": "d",
+          "label": "liked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Tommy's mother\" là chủ ngữ số ít, động từ \"like\" cần chia ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Tommy _____ oranges very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "is liking"
+        },
+        {
+          "id": "d",
+          "label": "liked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ \"Tommy\" là ngôi thứ ba số ít, động từ \"like\" cần thêm \"s\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Tommy and his mother _____ some vegetables.",
+      "options": [
+        {
+          "id": "a",
+          "label": "needs"
+        },
+        {
+          "id": "b",
+          "label": "need"
+        },
+        {
+          "id": "c",
+          "label": "is needing"
+        },
+        {
+          "id": "d",
+          "label": "needed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Tommy and his mother\" là chủ ngữ số nhiều, động từ \"need\" giữ nguyên ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The vegetables in the supermarket _____ very good.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"The vegetables\" là danh từ số nhiều, nên dùng \"are\" với động từ \"to be\" ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Tommy _____ like carrots.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't"
+        },
+        {
+          "id": "b",
+          "label": "doesn't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "aren't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Tommy\" là chủ ngữ số ít, nên dùng trợ động từ \"doesn't\" để phủ định ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Tommy's parents _____ carrots very much.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like"
+        },
+        {
+          "id": "b",
+          "label": "likes"
+        },
+        {
+          "id": "c",
+          "label": "is liking"
+        },
+        {
+          "id": "d",
+          "label": "liked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Tommy's parents\" là chủ ngữ số nhiều, động từ \"like\" giữ nguyên ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Tommy and his mother _____ some red apples for Tommy's father.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buy"
+        },
+        {
+          "id": "b",
+          "label": "buys"
+        },
+        {
+          "id": "c",
+          "label": "is buying"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Tommy and his mother\" là chủ ngữ số nhiều, động từ \"buy\" giữ nguyên ở thì hiện tại đơn."
+  }
+]

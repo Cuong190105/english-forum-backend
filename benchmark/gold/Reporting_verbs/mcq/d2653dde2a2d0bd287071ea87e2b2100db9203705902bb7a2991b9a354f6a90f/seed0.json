@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_001",
+      "prompt": "The new research from India ________ that speaking more than one language may delay dementia.",
+      "options": [
+        {
+          "id": "a",
+          "label": "suggests"
+        },
+        {
+          "id": "b",
+          "label": "tells"
+        },
+        {
+          "id": "c",
+          "label": "promises"
+        },
+        {
+          "id": "d",
+          "label": "advises"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'suggests' (gợi ý, chỉ ra) phù hợp với ngữ cảnh trình bày kết quả nghiên cứu. 'Tells' và 'advises' cần có một tân ngữ chỉ người (e.g., tells us)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_002",
+      "prompt": "Dr. Bak ________ learning a second language at any age, as it is still quite powerful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "recommended"
+        },
+        {
+          "id": "b",
+          "label": "ordered"
+        },
+        {
+          "id": "c",
+          "label": "promised"
+        },
+        {
+          "id": "d",
+          "label": "told"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'recommend + V-ing' (gợi ý làm gì) là chính xác. Các động từ khác yêu cầu cấu trúc khác, ví dụ 'promised to learn' hoặc 'told someone to learn'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_003",
+      "prompt": "The scientists ________ the participants to return for a follow-up study next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "invited"
+        },
+        {
+          "id": "b",
+          "label": "suggested"
+        },
+        {
+          "id": "c",
+          "label": "denied"
+        },
+        {
+          "id": "d",
+          "label": "admitted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'invite someone to do something' (mời ai làm gì) là phù hợp nhất. 'Suggested' không đi với cấu trúc 'object + to-infinitive'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_004",
+      "prompt": "A critic of the study ________ the researchers of ignoring the effects of diet and lifestyle.",
+      "options": [
+        {
+          "id": "a",
+          "label": "accused"
+        },
+        {
+          "id": "b",
+          "label": "blamed"
+        },
+        {
+          "id": "c",
+          "label": "denied"
+        },
+        {
+          "id": "d",
+          "label": "warned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'accuse' đi với giới từ 'of' và V-ing để diễn tả sự buộc tội (accuse someone of doing something)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_005",
+      "prompt": "The lead researcher ________ that the level of education had no effect on the age of dementia onset.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stated"
+        },
+        {
+          "id": "b",
+          "label": "refused"
+        },
+        {
+          "id": "c",
+          "label": "offered"
+        },
+        {
+          "id": "d",
+          "label": "reminded"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'State' (phát biểu, tuyên bố) được dùng để tường thuật lại một thông tin một cách trang trọng, phù hợp với ngữ cảnh khoa học. Các từ khác sai về nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_006",
+      "prompt": "The research team ________ to publish their full findings in a medical journal next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "promised"
+        },
+        {
+          "id": "b",
+          "label": "denied"
+        },
+        {
+          "id": "c",
+          "label": "insisted"
+        },
+        {
+          "id": "d",
+          "label": "suggested"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'promise + to-infinitive' (hứa làm gì) là chính xác. 'Denied' và 'suggested' đi với V-ing, còn 'insisted' đi với 'on + V-ing'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_007",
+      "prompt": "The article ________ readers not to assume that learning a language is a cure for dementia.",
+      "options": [
+        {
+          "id": "a",
+          "label": "warned"
+        },
+        {
+          "id": "b",
+          "label": "admitted"
+        },
+        {
+          "id": "c",
+          "label": "accused"
+        },
+        {
+          "id": "d",
+          "label": "denied"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'warn someone not to do something' (cảnh báo ai không làm gì) phù hợp nhất về cả ngữ pháp và ngữ nghĩa trong câu này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_008",
+      "prompt": "In the interview last week, Dr. Bak ________ that there was no extra gain in speaking more than two languages.",
+      "options": [
+        {
+          "id": "a",
+          "label": "explained"
+        },
+        {
+          "id": "b",
+          "label": "offered"
+        },
+        {
+          "id": "c",
+          "label": "refused"
+        },
+        {
+          "id": "d",
+          "label": "agreed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Explained' (giải thích) là động từ tường thuật phù hợp nhất để truyền đạt một thông tin chi tiết hoặc một lý do. Các động từ khác không hợp nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_009",
+      "prompt": "The patient ________ having memory problems when the doctor first asked him two years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "denied"
+        },
+        {
+          "id": "b",
+          "label": "refused"
+        },
+        {
+          "id": "c",
+          "label": "promised"
+        },
+        {
+          "id": "d",
+          "label": "offered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau 'deny' (phủ nhận) là một danh động từ (V-ing). 'Refuse' (từ chối) thường đi với 'to-infinitive' và mang nghĩa từ chối làm một hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_010",
+      "prompt": "The funding committee ________ to support the research after seeing the positive initial results.",
+      "options": [
+        {
+          "id": "a",
+          "label": "agreed"
+        },
+        {
+          "id": "b",
+          "label": "insisted"
+        },
+        {
+          "id": "c",
+          "label": "suggested"
+        },
+        {
+          "id": "d",
+          "label": "admitted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'agree + to-infinitive' (đồng ý làm gì) là chính xác. Các động từ khác không đi với cấu trúc này ('insisted on supporting', 'suggested supporting')."
+  }
+]

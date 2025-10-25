@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-1",
+      "prompt": "Who _____ be responsible for the old and how to improve their lives?"
+    },
+    "answer": "should",
+    "hint": "Ai nên chịu trách nhiệm?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-2",
+      "prompt": "Employers _____ take the responsibility for their retired employees."
+    },
+    "answer": "should",
+    "hint": "Người sử dụng lao động nên làm gì cho nhân viên đã nghỉ hưu?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-3",
+      "prompt": "To make this possible, a percentage of profits _____ be set aside for this purpose."
+    },
+    "answer": "should",
+    "hint": "Một phần lợi nhuận nên được trích ra để làm gì?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-4",
+      "prompt": "If individuals cannot save enough, the government _____ step in to care for the poor."
+    },
+    "answer": "should",
+    "hint": "Chính phủ nên can thiệp khi người dân gặp khó khăn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-5",
+      "prompt": "The government _____ take the responsibility for the care of the old, but it's often not viable."
+    },
+    "answer": "should",
+    "hint": "Chính phủ nên chịu trách nhiệm chăm sóc người già."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-6",
+      "prompt": "Care for the old _____ be financed through government taxes to increase pensions."
+    },
+    "answer": "should",
+    "hint": "Việc chăm sóc nên được tài trợ bằng cách nào?"
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-7",
+      "prompt": "Some institutions _____ be created for senior citizens to provide a comfortable life."
+    },
+    "answer": "should",
+    "hint": "Các tổ chức nên được thành lập cho người cao tuổi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-8",
+      "prompt": "It is reasonable to expect that we _____ provide care for the old generations."
+    },
+    "answer": "should",
+    "hint": "Chúng ta nên cung cấp sự chăm sóc cho thế hệ già."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-9",
+      "prompt": "Each person _____ save during their working years to pay for retirement."
+    },
+    "answer": "ought to",
+    "hint": "Mỗi người nên tiết kiệm cho tuổi già."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-10",
+      "prompt": "Companies _____ consider the long-term responsibility for their employees, even after retirement."
+    },
+    "answer": "should",
+    "hint": "Các công ty nên xem xét trách nhiệm lâu dài."
+  }
+]

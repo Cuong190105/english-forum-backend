@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "I recently _____ fifty."
+    },
+    "answer": "turned",
+    "hint": "Động từ 'turn' (tròn tuổi) ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "A few days ago, a friend _____ to cheer me up."
+    },
+    "answer": "tried",
+    "hint": "Động từ 'try' (cố gắng) ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "I once easily _____ six feet."
+    },
+    "answer": "cleared",
+    "hint": "Động từ 'clear' (vượt qua) ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "Most of my first fifty years _____ golden ones."
+    },
+    "answer": "were",
+    "hint": "Động từ 'to be' (là) ở thì quá khứ đơn, dạng số nhiều."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "The philosopher _____ right when he said, 'Old is always fifteen years from now.'"
+    },
+    "answer": "was",
+    "hint": "Động từ 'to be' (là) ở thì quá khứ đơn, dạng số ít."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "A poet named Robert Browning _____ it the best change of all."
+    },
+    "answer": "considered",
+    "hint": "Động từ 'consider' (coi là) ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Fifty is not a number that I _____ prepared to have hung on me."
+    },
+    "answer": "was",
+    "hint": "Động từ 'to be' (là) ở thì quá khứ đơn, ngôi thứ nhất số ít."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "Fifty is what forty _____ to be."
+    },
+    "answer": "used",
+    "hint": "Động từ 'use' (từng) ở thì quá khứ đơn, trong cấu trúc 'used to'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "The philosopher was right when he _____."
+    },
+    "answer": "said",
+    "hint": "Động từ 'say' (nói) ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "The author hoped that what _____ by was as good as what was ahead."
+    },
+    "answer": "went",
+    "hint": "Động từ 'go' (trôi qua) ở thì quá khứ đơn."
+  }
+]

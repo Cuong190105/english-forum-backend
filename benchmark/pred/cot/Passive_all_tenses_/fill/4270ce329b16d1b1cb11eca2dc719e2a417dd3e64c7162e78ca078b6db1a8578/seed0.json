@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_001",
+      "prompt": "The first Global Children's Designation event _____ by a Dutch company called Unexpect on November 15th, 2014."
+    },
+    "answer": "was organized",
+    "hint": "Thì quá khứ đơn bị động (was/were + V3) dùng cho hành động đã hoàn thành trong quá khứ với thời gian cụ thể."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_002",
+      "prompt": "The challenges presented to the kids _____ to their particular cities and towns."
+    },
+    "answer": "were related",
+    "hint": "Thì quá khứ đơn bị động (was/were + V3) dùng để mô tả trạng thái hoặc hành động đã xảy ra trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_003",
+      "prompt": "Many amazing ideas _____ by the children on the day of the challenge."
+    },
+    "answer": "were produced",
+    "hint": "Thì quá khứ đơn bị động (was/were + V3) dùng cho hành động đã hoàn thành trong quá khứ, nhấn mạnh kết quả."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_004",
+      "prompt": "According to Emer Beamer, many important skills _____ by children in traditional school classes."
+    },
+    "answer": "are not learned",
+    "hint": "Thì hiện tại đơn bị động (am/is/are + V3) dùng để diễn tả sự thật hoặc hành động thường xuyên xảy ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_005",
+      "prompt": "Free tool kits for the Children's Designation Challenge _____ to any interested school in 2015."
+    },
+    "answer": "will be distributed",
+    "hint": "Thì tương lai đơn bị động (will be + V3) dùng để diễn tả hành động sẽ được thực hiện trong tương lai."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_006",
+      "prompt": "Traffic pressure _____ by smart cars that guide drivers and communicate with traffic lights."
+    },
+    "answer": "can be eased",
+    "hint": "Thể bị động với động từ khuyết thiếu (modal + be + V3) dùng để diễn tả khả năng hoặc sự cho phép."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_007",
+      "prompt": "The purpose of the project _____ by Emer Beamer as introducing children to new skills."
+    },
+    "answer": "has been introduced",
+    "hint": "Thì hiện tại hoàn thành bị động (has/have been + V3) dùng cho hành động bắt đầu trong quá khứ và còn liên quan đến hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_008",
+      "prompt": "Currently, new solutions for global problems _____ by young innovators around the world."
+    },
+    "answer": "are being developed",
+    "hint": "Thì hiện tại tiếp diễn bị động (am/is/are being + V3) dùng để diễn tả hành động đang được thực hiện tại thời điểm nói."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_009",
+      "prompt": "Before the brainstorming session began, the specific challenges for each city _____ to the teams."
+    },
+    "answer": "had been related",
+    "hint": "Thì quá khứ hoàn thành bị động (had been + V3) dùng cho hành động đã hoàn thành trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "passive_fill_010",
+      "prompt": "According to Emer Beamer, creativity and problem-solving skills _____ by children for future success."
+    },
+    "answer": "should be learned",
+    "hint": "Thể bị động với động từ khuyết thiếu (modal + be + V3) dùng để diễn tả lời khuyên hoặc nghĩa vụ."
+  }
+]

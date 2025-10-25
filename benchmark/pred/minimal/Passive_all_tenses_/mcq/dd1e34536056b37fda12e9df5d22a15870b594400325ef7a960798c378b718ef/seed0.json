@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "A cabbage plant is known to send out a gas when its surface _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is cut"
+        },
+        {
+          "id": "b",
+          "label": "cuts"
+        },
+        {
+          "id": "c",
+          "label": "cut"
+        },
+        {
+          "id": "d",
+          "label": "was cutting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì hiện tại đơn để diễn tả hành động bề mặt cây bắp cải bị cắt."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "It is the first time that plants' active life _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been proved"
+        },
+        {
+          "id": "b",
+          "label": "has proved"
+        },
+        {
+          "id": "c",
+          "label": "proved"
+        },
+        {
+          "id": "d",
+          "label": "proves"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì hiện tại hoàn thành để diễn tả việc 'cuộc sống năng động của thực vật' được chứng minh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Plants do not feel pain when they _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are cut"
+        },
+        {
+          "id": "b",
+          "label": "cut"
+        },
+        {
+          "id": "c",
+          "label": "will cut"
+        },
+        {
+          "id": "d",
+          "label": "have cut"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì hiện tại đơn để diễn tả hành động cây bị cắt."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The research team _____ by Professor Nick Smirnoff.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is led"
+        },
+        {
+          "id": "b",
+          "label": "leads"
+        },
+        {
+          "id": "c",
+          "label": "led"
+        },
+        {
+          "id": "d",
+          "label": "has led"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì hiện tại đơn để diễn tả đội nghiên cứu được dẫn dắt."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The cabbage gene _____ by adding the protein luciderase.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was changed"
+        },
+        {
+          "id": "b",
+          "label": "changed"
+        },
+        {
+          "id": "c",
+          "label": "changes"
+        },
+        {
+          "id": "d",
+          "label": "has changed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì quá khứ đơn để diễn tả gen bắp cải đã được thay đổi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "When the changed cabbage plant was in full bloom, a leaf _____ off with a pair of scissors.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was cut"
+        },
+        {
+          "id": "b",
+          "label": "cut"
+        },
+        {
+          "id": "c",
+          "label": "cuts"
+        },
+        {
+          "id": "d",
+          "label": "has cut"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì quá khứ đơn để diễn tả chiếc lá đã bị cắt."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "When danger was sensed, a gas that normally keeps predators away _____ by nearby cabbage plants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was sent out"
+        },
+        {
+          "id": "b",
+          "label": "sent out"
+        },
+        {
+          "id": "c",
+          "label": "sends out"
+        },
+        {
+          "id": "d",
+          "label": "has sent out"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì quá khứ đơn để diễn tả khí đã được gửi đi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Further research _____ to understand the plants' communication.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be required"
+        },
+        {
+          "id": "b",
+          "label": "will require"
+        },
+        {
+          "id": "c",
+          "label": "requires"
+        },
+        {
+          "id": "d",
+          "label": "is requiring"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì tương lai đơn để diễn tả nghiên cứu thêm sẽ được yêu cầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Video evidence of the communication _____ by the scientists.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was obtained"
+        },
+        {
+          "id": "b",
+          "label": "obtained"
+        },
+        {
+          "id": "c",
+          "label": "obtains"
+        },
+        {
+          "id": "d",
+          "label": "has obtained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì quá khứ đơn để diễn tả bằng chứng video đã được thu thập."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "To get video evidence, luciderase _____ to the cabbage gene.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was added"
+        },
+        {
+          "id": "b",
+          "label": "added"
+        },
+        {
+          "id": "c",
+          "label": "adds"
+        },
+        {
+          "id": "d",
+          "label": "has added"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một cấu trúc bị động ở thì quá khứ đơn để diễn tả luciderase đã được thêm vào."
+  }
+]

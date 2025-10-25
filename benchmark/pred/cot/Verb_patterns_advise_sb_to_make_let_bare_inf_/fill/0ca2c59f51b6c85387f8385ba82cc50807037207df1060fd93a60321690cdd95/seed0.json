@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_001",
+      "prompt": "Practicing in front of a mirror can help you _____ a natural smile for the camera."
+    },
+    "answer": "make",
+    "hint": "Sau động từ \"help\", ta dùng động từ nguyên mẫu không \"to\" (bare infinitive) hoặc có \"to\". \"Make\" ở đây là nguyên mẫu không \"to\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_002",
+      "prompt": "The photographer will _____ you know when it's your turn for the yearbook photo."
+    },
+    "answer": "let",
+    "hint": "Cấu trúc \"let + object + bare infinitive\" (động từ nguyên mẫu không \"to\") có nghĩa là cho phép hoặc để ai đó làm gì."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_003",
+      "prompt": "My teacher advised me _____ darker colors for my yearbook photo."
+    },
+    "answer": "to choose",
+    "hint": "Cấu trúc \"advise + object + to-infinitive\" (khuyên ai làm gì) là một mẫu động từ phổ biến."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_004",
+      "prompt": "We want our yearbook photos _____ perfect, so we follow these tips."
+    },
+    "answer": "to look",
+    "hint": "Cấu trúc \"want + object + to-infinitive\" (muốn cái gì/ai đó làm gì) là đúng ngữ pháp."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_005",
+      "prompt": "You should avoid _____ busy patterns in your yearbook photo."
+    },
+    "answer": "wearing",
+    "hint": "Động từ \"avoid\" luôn theo sau bởi một động từ ở dạng V-ing (gerund)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_006",
+      "prompt": "Don't forget _____ your clothes ready the day before the photo shoot."
+    },
+    "answer": "to get",
+    "hint": "\"Forget to do something\" nghĩa là quên làm một việc cần làm trong tương lai. \"Forget doing something\" là quên đã làm gì trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_007",
+      "prompt": "You should practice _____ in a mirror to find your best angle."
+    },
+    "answer": "smiling",
+    "hint": "Động từ \"practice\" luôn theo sau bởi một động từ ở dạng V-ing (gerund)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_008",
+      "prompt": "The school doesn't allow students _____ their phones during the photo session."
+    },
+    "answer": "to use",
+    "hint": "Cấu trúc \"allow + object + to-infinitive\" (cho phép ai làm gì) là đúng ngữ pháp."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_009",
+      "prompt": "The tips encourage us _____ natural and confident in our photos."
+    },
+    "answer": "to look",
+    "hint": "Cấu trúc \"encourage + object + to-infinitive\" (khuyến khích ai làm gì) là đúng ngữ pháp."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "vp_fill_010",
+      "prompt": "These simple tips can help you _____ good in your yearbook photo."
+    },
+    "answer": "look",
+    "hint": "Sau động từ \"help\", ta dùng động từ nguyên mẫu không \"to\" (bare infinitive) hoặc có \"to\". \"Look\" ở đây là nguyên mẫu không \"to\"."
+  }
+]

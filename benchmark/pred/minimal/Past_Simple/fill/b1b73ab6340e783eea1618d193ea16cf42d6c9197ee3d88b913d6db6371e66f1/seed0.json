@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "When he was driving home one evening on a country road,he _____ an old lady,stranded on the side of the road."
+    },
+    "answer": "saw",
+    "hint": "Động từ \"see\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "He _____ in front of her car and got out."
+    },
+    "answer": "stopped",
+    "hint": "Động từ \"stop\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "Even with the smile on his face,she _____ worried."
+    },
+    "answer": "was",
+    "hint": "Dạng quá khứ đơn của động từ \"to be\" cho chủ ngữ \"she\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "He _____ how she felt."
+    },
+    "answer": "knew",
+    "hint": "Động từ \"know\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "She _____ a flat tire."
+    },
+    "answer": "had",
+    "hint": "Động từ \"have\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "Joe crawled under the car,_____ the tire."
+    },
+    "answer": "changed",
+    "hint": "Động từ \"change\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "He _____ her that if she really wanted to pay him back..."
+    },
+    "answer": "told",
+    "hint": "Động từ \"tell\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "She _____ off."
+    },
+    "answer": "drove",
+    "hint": "Động từ \"drive\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "She _____ in."
+    },
+    "answer": "went",
+    "hint": "Động từ \"go\" ở thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "When the waitress came back,she _____ something written on a napkin..."
+    },
+    "answer": "noticed",
+    "hint": "Động từ \"notice\" ở thì quá khứ đơn."
+  }
+]

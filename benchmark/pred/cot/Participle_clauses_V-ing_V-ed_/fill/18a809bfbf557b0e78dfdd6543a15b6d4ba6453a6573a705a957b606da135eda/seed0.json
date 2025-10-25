@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_001",
+      "prompt": "Loren Gladstone, _____ over how to bequeath his digital property, is 58."
+    },
+    "answer": "thinking",
+    "hint": "\"Thinking over\" là một hành động đồng thời với việc ông Loren 58 tuổi, diễn tả hành động chủ động của chủ ngữ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_002",
+      "prompt": "The paperwork _____ after his parents' death was a challenge."
+    },
+    "answer": "done",
+    "hint": "\"Paperwork\" không tự \"làm\" mà được \"làm\", nên dùng phân từ quá khứ \"done\" để diễn tả ý bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_003",
+      "prompt": "Online lives have increasing economic and emotional value, _____ a problem for testamentary laws."
+    },
+    "answer": "reflecting",
+    "hint": "\"Reflecting\" diễn tả kết quả hoặc hệ quả của mệnh đề trước, mang nghĩa chủ động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_004",
+      "prompt": "Digital property may include software, websites, and content _____ online."
+    },
+    "answer": "downloaded",
+    "hint": "\"Content\" không tự \"tải xuống\" mà được \"tải xuống\", nên dùng phân từ quá khứ \"downloaded\" để diễn tả ý bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_005",
+      "prompt": "Nathan Lustig of Entrustet, a company _____ people manage digital property, emphasizes its value."
+    },
+    "answer": "helping",
+    "hint": "\"Helping\" diễn tả hành động chủ động của \"a company\", mô tả chức năng của công ty."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_006",
+      "prompt": "Music _____ via iTunes is held under a license which can be abolished on death."
+    },
+    "answer": "downloaded",
+    "hint": "\"Music\" không tự \"tải xuống\" mà được \"tải xuống\", nên dùng phân từ quá khứ \"downloaded\" để diễn tả ý bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_007",
+      "prompt": "The family of Justin Ellsworth, an army man _____ in Iraq, took Yahoo! to court."
+    },
+    "answer": "killed",
+    "hint": "\"An army man\" không tự \"giết\" mà bị \"giết\", nên dùng phân từ quá khứ \"killed\" để diễn tả ý bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_008",
+      "prompt": "A court in Oregon ruled that another American mother, her son _____ in the past, could use his password."
+    },
+    "answer": "having died",
+    "hint": "\"Having died\" là phân từ hoàn thành, diễn tả hành động \"chết\" xảy ra trước hành động chính trong mệnh đề, mang nghĩa chủ động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_009",
+      "prompt": "Five American states have made laws _____ executors control over social-networking accounts."
+    },
+    "answer": "giving",
+    "hint": "\"Giving\" diễn tả hành động chủ động của \"laws\", mô tả chức năng hoặc kết quả của luật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_fill_010",
+      "prompt": "Access should come only with a clear provision in a will, _____ the subject of privacy."
+    },
+    "answer": "raising",
+    "hint": "\"Raising\" diễn tả kết quả hoặc hệ quả của mệnh đề trước, mang nghĩa chủ động."
+  }
+]

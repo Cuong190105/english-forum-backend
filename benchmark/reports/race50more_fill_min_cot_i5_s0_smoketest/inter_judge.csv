@@ -1,0 +1,2 @@
+run_id,type,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+race50more_fill_min_cot_i5_s0_smoketest,fill,50,0.88,0.7899,0.9701,0.0,0.8647

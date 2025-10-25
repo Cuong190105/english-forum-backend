@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "Mike says, \"I _____ this soup.\""
+    },
+    "answer": "don't like",
+    "hint": "Thì hiện tại đơn, chủ ngữ 'I' dùng 'don't' và động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "Mike says, \"I _____ to have it.\""
+    },
+    "answer": "don't want",
+    "hint": "Thì hiện tại đơn, chủ ngữ 'I' dùng 'don't' và động từ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "Mike's father _____ him a bowl of soup in the evening."
+    },
+    "answer": "gives",
+    "hint": "Thì hiện tại đơn, chủ ngữ số ít (Mike's father) thì động từ thêm 's/es'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "After lunch, Mike and his father _____ on the farm."
+    },
+    "answer": "work",
+    "hint": "Thì hiện tại đơn, chủ ngữ số nhiều (Mike and his father) thì động từ giữ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "They _____ hard."
+    },
+    "answer": "work",
+    "hint": "Thì hiện tại đơn, chủ ngữ số nhiều (They) thì động từ giữ nguyên mẫu."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "\"I don't like this soup,\" _____ Mike."
+    },
+    "answer": "says",
+    "hint": "Thì hiện tại đơn, chủ ngữ số ít (Mike) thì động từ thêm 's/es'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "His mother _____ \"It's the same soup.\""
+    },
+    "answer": "says",
+    "hint": "Thì hiện tại đơn, chủ ngữ số ít (His mother) thì động từ thêm 's/es'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "Mike thinks this soup _____ nice."
+    },
+    "answer": "is",
+    "hint": "Thì hiện tại đơn, chủ ngữ số ít (this soup) dùng 'is'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "Mike's father _____ hard on the farm."
+    },
+    "answer": "works",
+    "hint": "Thì hiện tại đơn, chủ ngữ số ít (Mike's father) thì động từ thêm 's/es'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "Mike and his father always _____ hard."
+    },
+    "answer": "work",
+    "hint": "Thì hiện tại đơn, chủ ngữ số nhiều (Mike and his father) thì động từ giữ nguyên mẫu."
+  }
+]

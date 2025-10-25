@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "What kind of classes does Lincoln College of English offer?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Classes for local students."
+        },
+        {
+          "id": "b",
+          "label": "Classes for foreign students."
+        },
+        {
+          "id": "c",
+          "label": "Classes for advanced students only."
+        },
+        {
+          "id": "d",
+          "label": "Classes for teachers."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trường Cao đẳng Lincoln cung cấp các lớp học cho sinh viên nước ngoài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "What is the maximum number of students in a class at Lincoln College?",
+      "options": [
+        {
+          "id": "a",
+          "label": "10 students."
+        },
+        {
+          "id": "b",
+          "label": "12 students."
+        },
+        {
+          "id": "c",
+          "label": "15 students."
+        },
+        {
+          "id": "d",
+          "label": "20 students."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Số lượng học sinh tối đa trong một lớp là 12."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Which of these facilities does Lincoln College NOT have?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A library."
+        },
+        {
+          "id": "b",
+          "label": "A language lab."
+        },
+        {
+          "id": "c",
+          "label": "A listening center."
+        },
+        {
+          "id": "d",
+          "label": "A swimming pool."
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trường có thư viện, phòng lab ngôn ngữ và trung tâm nghe, không có hồ bơi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Where do students typically live while studying at Lincoln College?",
+      "options": [
+        {
+          "id": "a",
+          "label": "In student dorms."
+        },
+        {
+          "id": "b",
+          "label": "With host families."
+        },
+        {
+          "id": "c",
+          "label": "In private apartments."
+        },
+        {
+          "id": "d",
+          "label": "In hotels."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sinh viên ở với các gia đình được chọn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "How far are the student accommodations located from London?",
+      "options": [
+        {
+          "id": "a",
+          "label": "25 minutes away."
+        },
+        {
+          "id": "b",
+          "label": "25 miles away."
+        },
+        {
+          "id": "c",
+          "label": "In London."
+        },
+        {
+          "id": "d",
+          "label": "Next to the college."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chỗ ở cách London 25 phút."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "What is the standard course fee for one year of English study?",
+      "options": [
+        {
+          "id": "a",
+          "label": "$1280."
+        },
+        {
+          "id": "b",
+          "label": "$1380."
+        },
+        {
+          "id": "c",
+          "label": "$1480."
+        },
+        {
+          "id": "d",
+          "label": "$1580."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Học phí tiêu chuẩn cho một năm học tiếng Anh là $1380."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Lincoln College offers a reduction in fees for students who ________.",
+      "options": [
+        {
+          "id": "a",
+          "label": "study for a longer duration."
+        },
+        {
+          "id": "b",
+          "label": "study for shorter periods."
+        },
+        {
+          "id": "c",
+          "label": "enroll in multiple courses."
+        },
+        {
+          "id": "d",
+          "label": "are residents of Sheffield."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Có giảm giá cho các khóa học ngắn hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "At what proficiency levels does Lincoln College offer classes?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Only beginner and intermediate."
+        },
+        {
+          "id": "b",
+          "label": "Only intermediate and advanced."
+        },
+        {
+          "id": "c",
+          "label": "All levels."
+        },
+        {
+          "id": "d",
+          "label": "Only advanced."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trường cung cấp các lớp học cho mọi trình độ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "There is one course at Lincoln College that ________.",
+      "options": [
+        {
+          "id": "a",
+          "label": "runs for exactly 9 months."
+        },
+        {
+          "id": "b",
+          "label": "is available only in summer."
+        },
+        {
+          "id": "c",
+          "label": "is open throughout the entire year."
+        },
+        {
+          "id": "d",
+          "label": "focuses solely on business English."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Có một khóa học mở cửa quanh năm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The accommodations provided by the college are with ________.",
+      "options": [
+        {
+          "id": "a",
+          "label": "selected families."
+        },
+        {
+          "id": "b",
+          "label": "college staff."
+        },
+        {
+          "id": "c",
+          "label": "other students."
+        },
+        {
+          "id": "d",
+          "label": "private landlords."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chỗ ở được cung cấp là với các gia đình được chọn."
+  }
+]

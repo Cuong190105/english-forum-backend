@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Before the AAP announced its recommendation, many schools _____ (rethink) start times for years."
+    },
+    "answer": "had been rethinking",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn diễn tả hành động kéo dài liên tục đến một thời điểm trong quá khứ (trước khi AAP công bố)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "Dos Santos became worried because school officials _____ (consider) starting school earlier for a while."
+    },
+    "answer": "had been considering",
+    "hint": "Hành động 'consider' diễn ra liên tục trong một khoảng thời gian trước khi Dos Santos 'became worried'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "Before the AAP's new policy, researchers _____ (study) the effects of sleep deprivation on adolescents for decades."
+    },
+    "answer": "had been studying",
+    "hint": "Hành động 'study' kéo dài liên tục trong nhiều thập kỷ trước một thời điểm trong quá khứ (trước chính sách mới)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "Start School Later _____ (advocate) for healthier school hours for years before Dos Santos reached out to them."
+    },
+    "answer": "had been advocating",
+    "hint": "Hành động 'advocate' diễn ra liên tục trong nhiều năm trước khi Dos Santos liên hệ (một hành động trong quá khứ)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Terra Ziporyn Snider explained that the community _____ (resist) changes to school schedules for a long time."
+    },
+    "answer": "had been resisting",
+    "hint": "Hành động 'resist' kéo dài liên tục trong quá khứ, giải thích lý do 'will to change isn't' tại thời điểm Snider giải thích."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "Many students _____ (struggle) with early school start times for years before the AAP made its recommendation."
+    },
+    "answer": "had been struggling",
+    "hint": "Hành động 'struggle' diễn ra liên tục trong nhiều năm trước khi AAP đưa ra khuyến nghị (một hành động trong quá khứ)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "After the school changed its start time, students reported better grades because they _____ (get) enough sleep for several months."
+    },
+    "answer": "had been getting",
+    "hint": "Hành động 'get enough sleep' kéo dài liên tục trong vài tháng trước khi học sinh báo cáo điểm tốt hơn (một hành động trong quá khứ)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "Before the final decision, the school board _____ (debate) the pros and cons of changing start times for weeks."
+    },
+    "answer": "had been debating",
+    "hint": "Hành động 'debate' diễn ra liên tục trong nhiều tuần trước khi hội đồng trường đưa ra quyết định cuối cùng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "Dos Santos had already _____ (work) on her campaign to prevent earlier start times for a month when she gathered other students."
+    },
+    "answer": "been working",
+    "hint": "Hành động 'work' kéo dài liên tục trong một tháng trước khi Dos Santos tập hợp các học sinh khác (một hành động trong quá khứ)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "Before the new policy, many adolescents _____ (experience) chronic sleep loss, which affected their academic performance."
+    },
+    "answer": "had been experiencing",
+    "hint": "Hành động 'experience' kéo dài liên tục trong quá khứ, dẫn đến ảnh hưởng đến kết quả học tập tại một thời điểm trong quá khứ."
+  }
+]

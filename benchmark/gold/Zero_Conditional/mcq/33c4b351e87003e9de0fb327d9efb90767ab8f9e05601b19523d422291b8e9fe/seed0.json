@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_001",
+      "prompt": "If you do not use your muscles for a long time, they _____ weak.",
+      "options": [
+        {
+          "id": "a",
+          "label": "become"
+        },
+        {
+          "id": "b",
+          "label": "will become"
+        },
+        {
+          "id": "c",
+          "label": "became"
+        },
+        {
+          "id": "d",
+          "label": "are becoming"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 0 diễn tả một sự thật hiển nhiên, một quy luật tự nhiên. Cả hai mệnh đề đều dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_002",
+      "prompt": "When someone says his memory is poor, it often _____ that he doesn't practice enough.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will mean"
+        },
+        {
+          "id": "b",
+          "label": "meant"
+        },
+        {
+          "id": "c",
+          "label": "means"
+        },
+        {
+          "id": "d",
+          "label": "is meaning"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là câu diễn tả một sự thật chung. Mệnh đề chính trong câu điều kiện loại 0 dùng thì hiện tại đơn. Chủ ngữ 'it' đi với động từ thêm 's'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_003",
+      "prompt": "Memory works in a specific way; if you _____ it frequently, it gets stronger.",
+      "options": [
+        {
+          "id": "a",
+          "label": "exercised"
+        },
+        {
+          "id": "b",
+          "label": "exercise"
+        },
+        {
+          "id": "c",
+          "label": "will exercise"
+        },
+        {
+          "id": "d",
+          "label": "are exercising"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để diễn tả một quy luật, mệnh đề 'if' trong câu điều kiện loại 0 luôn ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_004",
+      "prompt": "If you heat ice, it _____ into water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will melt"
+        },
+        {
+          "id": "b",
+          "label": "is melting"
+        },
+        {
+          "id": "c",
+          "label": "melted"
+        },
+        {
+          "id": "d",
+          "label": "melts"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Diễn tả một sự thật khoa học không thay đổi, ta dùng câu điều kiện loại 0 với thì hiện tại đơn ở cả hai mệnh đề."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_005",
+      "prompt": "Whenever I _____ too much coffee, I find it hard to sleep at night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drink"
+        },
+        {
+          "id": "b",
+          "label": "drank"
+        },
+        {
+          "id": "c",
+          "label": "will drink"
+        },
+        {
+          "id": "d",
+          "label": "am drinking"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Từ 'Whenever' (bất cứ khi nào) cho thấy đây là một thói quen, một sự thật luôn đúng với người nói. Dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_006",
+      "prompt": "Plants die if they _____ enough sunlight and water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't get"
+        },
+        {
+          "id": "b",
+          "label": "don't get"
+        },
+        {
+          "id": "c",
+          "label": "didn't get"
+        },
+        {
+          "id": "d",
+          "label": "aren't getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 0 (diễn tả quy luật tự nhiên) phải dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_007",
+      "prompt": "If a student _____ attention in class, he usually misses important information.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won't pay"
+        },
+        {
+          "id": "b",
+          "label": "isn't paying"
+        },
+        {
+          "id": "c",
+          "label": "doesn't pay"
+        },
+        {
+          "id": "d",
+          "label": "didn't pay"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Từ 'usually' cho thấy đây là một kết quả thường xuyên xảy ra. Ta dùng thì hiện tại đơn cho cả hai vế của câu điều kiện loại 0."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_008",
+      "prompt": "When you _____ the power button on this laptop, the screen lights up immediately.",
+      "options": [
+        {
+          "id": "a",
+          "label": "press"
+        },
+        {
+          "id": "b",
+          "label": "will press"
+        },
+        {
+          "id": "c",
+          "label": "pressed"
+        },
+        {
+          "id": "d",
+          "label": "are pressing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu này mô tả cách hoạt động của một thiết bị, là một sự thật. Mệnh đề 'When' trong câu điều kiện loại 0 dùng thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_009",
+      "prompt": "If metal gets hot, it _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "expanded"
+        },
+        {
+          "id": "b",
+          "label": "will expand"
+        },
+        {
+          "id": "c",
+          "label": "expands"
+        },
+        {
+          "id": "d",
+          "label": "is expanding"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là một định luật vật lý, một sự thật khoa học. Cả hai mệnh đề của câu điều kiện loại 0 đều phải ở thì hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "zc_010",
+      "prompt": "Babies cry if they _____ hungry or tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will be"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "are being"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu diễn tả một hành vi thông thường, một sự thật về trẻ em. Mệnh đề 'if' trong câu điều kiện loại 0 dùng thì hiện tại đơn."
+  }
+]

@@ -30,7 +30,7 @@ def generate_pred(config: str, topic: str, hw_type: Literal['mcq','fill'], post_
         mode = 'minimal'
 
     effective_text = post_text if _has_english(post_text) else post_text
-    # Context + locked topic to enforce topic-specific item creation
+    # locked topic to enforce topic-specific item creation
     items = generate_with_llm(
         effective_text,
         hw_type,

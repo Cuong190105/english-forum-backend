@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_001",
+      "prompt": "Drew warned that it _____ pretty hot."
+    },
+    "answer": "was",
+    "hint": "Câu trực tiếp dùng thì hiện tại đơn (\"is\"). Khi chuyển sang câu gián tiếp với động từ tường thuật ở quá khứ (\"warned\"), thì hiện tại đơn phải lùi về quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_002",
+      "prompt": "Michi asked if most of the parents _____ there yet."
+    },
+    "answer": "were",
+    "hint": "Câu hỏi trực tiếp ở thì hiện tại đơn (\"Are\"). Khi tường thuật lại, động từ \"are\" phải lùi về quá khứ đơn \"were\", và \"here\" đổi thành \"there\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_003",
+      "prompt": "Kent said yesterday that Ms. Milano and Mr. Hasselbach _____ just finished the garden tour."
+    },
+    "answer": "had",
+    "hint": "Thì hiện tại hoàn thành (\"have finished\") trong câu trực tiếp phải lùi về quá khứ hoàn thành (\"had finished\") khi động từ tường thuật ở quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_004",
+      "prompt": "Ms. Milano explained that a year before, they _____ to her with the plan."
+    },
+    "answer": "had come",
+    "hint": "Thì quá khứ đơn (\"came\") trong câu trực tiếp phải lùi về quá khứ hoàn thành (\"had come\") khi tường thuật lại. \"A year ago\" đổi thành \"a year before\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_005",
+      "prompt": "Ms. Milano stated that about three-quarters of the food they _____ enjoying came from the school garden."
+    },
+    "answer": "would be",
+    "hint": "Mệnh đề quan hệ \"you will be enjoying\" ở thì tương lai tiếp diễn. Khi lùi thì, \"will be enjoying\" chuyển thành \"would be enjoying\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_006",
+      "prompt": "She told them that students for years to come _____ enjoying the garden."
+    },
+    "answer": "would be",
+    "hint": "Thì tương lai đơn (\"will be enjoying\") trong câu trực tiếp phải lùi về thì tương lai trong quá khứ (\"would be enjoying\") khi tường thuật."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_007",
+      "prompt": "Ms. Milano thought that it _____ appropriate for them to have a reminder."
+    },
+    "answer": "was",
+    "hint": "Thì hiện tại đơn (\"is\") trong câu trực tiếp phải lùi về quá khứ đơn (\"was\") khi động từ tường thuật ở quá khứ (\"thought\")."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_008",
+      "prompt": "Ms. Milano announced that dinner _____."
+    },
+    "answer": "was served",
+    "hint": "Câu trực tiếp ở thì hiện tại đơn (\"is served\"). Khi tường thuật lại với động từ tường thuật ở quá khứ (\"announced\"), thì hiện tại đơn phải lùi về quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_009",
+      "prompt": "Michi said that she _____ hungry then."
+    },
+    "answer": "was",
+    "hint": "Thì hiện tại đơn (\"am\") trong câu trực tiếp phải lùi về quá khứ đơn (\"was\") khi tường thuật. \"Now\" cũng phải đổi thành \"then\"."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "bs_fill_010",
+      "prompt": "The students explained that they _____ the entire meal themselves the day before."
+    },
+    "answer": "had prepared",
+    "hint": "Thì quá khứ đơn (\"prepared\") trong câu trực tiếp phải lùi về quá khứ hoàn thành (\"had prepared\") khi tường thuật. \"Yesterday\" đổi thành \"the day before\"."
+  }
+]

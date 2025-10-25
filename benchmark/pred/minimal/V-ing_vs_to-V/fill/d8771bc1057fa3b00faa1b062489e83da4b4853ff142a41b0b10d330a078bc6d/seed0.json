@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-1",
+      "prompt": "After the terrorist attacks, Adam Reed Tucker decided _____ something different."
+    },
+    "answer": "to do",
+    "hint": "“Decide” thường theo sau bởi động từ nguyên mẫu có “to”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-2",
+      "prompt": "Many children enjoy _____ with Lego bricks for hours."
+    },
+    "answer": "playing",
+    "hint": "Động từ “enjoy” thường theo sau bởi danh động từ (V-ing)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-3",
+      "prompt": "After _____ through Tucker's models, visitors can create their own works."
+    },
+    "answer": "walking",
+    "hint": "Sau giới từ (như “after”, “before”, “by”, “without”), động từ thường ở dạng V-ing."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-4",
+      "prompt": "He wanted _____ his feelings for the form of the skyscraper."
+    },
+    "answer": "to express",
+    "hint": "Động từ “want” thường theo sau bởi động từ nguyên mẫu có “to”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-5",
+      "prompt": "It's important to avoid _____ mistakes when building complex Lego structures."
+    },
+    "answer": "making",
+    "hint": "Động từ “avoid” thường theo sau bởi danh động từ (V-ing)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-6",
+      "prompt": "It can be difficult _____ such detailed models without computer aid."
+    },
+    "answer": "to create",
+    "hint": "Sau tính từ (như “difficult”, “easy”, “important”), thường dùng động từ nguyên mẫu có “to”."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-7",
+      "prompt": "Visitors can watch him create the famous building brick by brick; he doesn't stop _____ even when people are watching."
+    },
+    "answer": "working",
+    "hint": "“Stop + V-ing” có nghĩa là ngừng một hành động đang diễn ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-8",
+      "prompt": "He does not use any computers or drawings _____ his buildings."
+    },
+    "answer": "to plan",
+    "hint": "Động từ nguyên mẫu có “to” thường được dùng để chỉ mục đích."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-9",
+      "prompt": "The exhibit is definitely worth _____ if you are an architecture lover."
+    },
+    "answer": "seeing",
+    "hint": "Cụm từ “it's worth” thường theo sau bởi danh động từ (V-ing)."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill-10",
+      "prompt": "Many people consider _____ Lego building a form of art."
+    },
+    "answer": "making",
+    "hint": "Động từ “consider” thường theo sau bởi danh động từ (V-ing)."
+  }
+]

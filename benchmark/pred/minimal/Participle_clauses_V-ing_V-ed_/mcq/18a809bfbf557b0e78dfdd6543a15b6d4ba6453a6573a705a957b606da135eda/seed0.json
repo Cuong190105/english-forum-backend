@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "_____ over how to bequeath his digital property, Loren Gladstone realized the complexity of the task.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Thinking"
+        },
+        {
+          "id": "b",
+          "label": "Thought"
+        },
+        {
+          "id": "c",
+          "label": "To think"
+        },
+        {
+          "id": "d",
+          "label": "Having thought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề phân từ hiện tại (V-ing) được dùng để diễn tả hành động xảy ra đồng thời hoặc nguyên nhân của hành động chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "Music _____ via iTunes is held under a license which can be abolished on death.",
+      "options": [
+        {
+          "id": "a",
+          "label": "downloaded"
+        },
+        {
+          "id": "b",
+          "label": "downloading"
+        },
+        {
+          "id": "c",
+          "label": "downloads"
+        },
+        {
+          "id": "d",
+          "label": "to download"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề phân từ quá khứ (V-ed) được dùng để diễn tả hành động mang nghĩa bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "The paperwork _____ after his parents' death was a challenging task for Loren.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doing"
+        },
+        {
+          "id": "b",
+          "label": "done"
+        },
+        {
+          "id": "c",
+          "label": "to do"
+        },
+        {
+          "id": "d",
+          "label": "having done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Phân từ quá khứ (V-ed) được dùng để bổ nghĩa cho danh từ theo nghĩa bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "_____ to a Chinese local-newspaper survey, a fifth of respondents said they had over 5,000 yuan of digital property.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Responding"
+        },
+        {
+          "id": "b",
+          "label": "Responded"
+        },
+        {
+          "id": "c",
+          "label": "To respond"
+        },
+        {
+          "id": "d",
+          "label": "Having responded"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề phân từ hiện tại (V-ing) được dùng khi chủ ngữ của mệnh đề phụ thực hiện hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "All e-mail and data _____ on its iCloud service are deleted on the death of the owner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "storing"
+        },
+        {
+          "id": "b",
+          "label": "stored"
+        },
+        {
+          "id": "c",
+          "label": "to store"
+        },
+        {
+          "id": "d",
+          "label": "having stored"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Phân từ quá khứ (V-ed) được dùng để bổ nghĩa cho danh từ theo nghĩa bị động, chỉ ra trạng thái hoặc kết quả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "_____ to cases in court in America, the issue of digital property inheritance gained significant attention.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Leading"
+        },
+        {
+          "id": "b",
+          "label": "Led"
+        },
+        {
+          "id": "c",
+          "label": "To lead"
+        },
+        {
+          "id": "d",
+          "label": "Having led"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề phân từ hiện tại (V-ing) có thể diễn tả nguyên nhân hoặc kết quả của hành động chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "With many photos _____ in online galleries, physical prints are becoming less common.",
+      "options": [
+        {
+          "id": "a",
+          "label": "storing"
+        },
+        {
+          "id": "b",
+          "label": "stored"
+        },
+        {
+          "id": "c",
+          "label": "to store"
+        },
+        {
+          "id": "d",
+          "label": "having stored"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc \"with + danh từ/đại từ + phân từ\" được dùng để diễn tả một tình huống hoặc trạng thái đi kèm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "Service providers _____ different rules often cause confusion for users.",
+      "options": [
+        {
+          "id": "a",
+          "label": "having"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "to have"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề phân từ hiện tại (V-ing) có thể rút gọn mệnh đề quan hệ chủ động, bổ nghĩa cho danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "A license _____ on death means that digital music ownership is not always permanent.",
+      "options": [
+        {
+          "id": "a",
+          "label": "abolishing"
+        },
+        {
+          "id": "b",
+          "label": "abolished"
+        },
+        {
+          "id": "c",
+          "label": "to abolish"
+        },
+        {
+          "id": "d",
+          "label": "having abolished"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Phân từ quá khứ (V-ed) được dùng để rút gọn mệnh đề quan hệ bị động, bổ nghĩa cho danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "The lack of clear laws on digital inheritance is a problem, _____ to many legal disputes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leading"
+        },
+        {
+          "id": "b",
+          "label": "led"
+        },
+        {
+          "id": "c",
+          "label": "to lead"
+        },
+        {
+          "id": "d",
+          "label": "having led"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề phân từ hiện tại (V-ing) có thể diễn tả kết quả của hành động trước đó."
+  }
+]

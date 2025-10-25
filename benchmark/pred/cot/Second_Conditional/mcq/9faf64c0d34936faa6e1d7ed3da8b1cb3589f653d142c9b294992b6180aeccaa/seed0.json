@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_001",
+      "prompt": "If I _____ a bird, I would fly around the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 2, động từ 'to be' ở mệnh đề 'if' luôn dùng 'were' cho tất cả các ngôi, kể cả 'I', để diễn tả giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_002",
+      "prompt": "She would be happier if she _____ more free time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 dùng thì quá khứ đơn (had) để diễn tả một tình huống giả định ở hiện tại hoặc tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_003",
+      "prompt": "If he _____ the lottery, he would buy a new house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won"
+        },
+        {
+          "id": "b",
+          "label": "wins"
+        },
+        {
+          "id": "c",
+          "label": "would win"
+        },
+        {
+          "id": "d",
+          "label": "win"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' của câu điều kiện loại 2 dùng thì quá khứ đơn (won) cho hành động giả định, không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_004",
+      "prompt": "What _____ you do if you found a wallet on the street?",
+      "options": [
+        {
+          "id": "a",
+          "label": "would"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề chính trong câu điều kiện loại 2 dùng 'would + động từ nguyên mẫu' để diễn tả kết quả giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_005",
+      "prompt": "If I were you, I _____ that job offer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would accept"
+        },
+        {
+          "id": "b",
+          "label": "will accept"
+        },
+        {
+          "id": "c",
+          "label": "accept"
+        },
+        {
+          "id": "d",
+          "label": "accepted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm 'If I were you' là dấu hiệu của câu điều kiện loại 2, mệnh đề chính dùng 'would + V-inf' để đưa ra lời khuyên giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_006",
+      "prompt": "They _____ to the party if they weren't so tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would go"
+        },
+        {
+          "id": "b",
+          "label": "will go"
+        },
+        {
+          "id": "c",
+          "label": "go"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' dùng quá khứ đơn (weren't), nên mệnh đề chính phải dùng 'would + động từ nguyên mẫu' (would go)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_007",
+      "prompt": "If we _____ a map, we wouldn't be lost.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "had had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' trong câu điều kiện loại 2 dùng thì quá khứ đơn (had) để diễn tả tình huống giả định trái với thực tế hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_008",
+      "prompt": "If it _____ tomorrow, we would cancel the picnic.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rained"
+        },
+        {
+          "id": "b",
+          "label": "rains"
+        },
+        {
+          "id": "c",
+          "label": "will rain"
+        },
+        {
+          "id": "d",
+          "label": "is raining"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dù có 'tomorrow', đây là tình huống giả định, khó xảy ra, nên dùng quá khứ đơn (rained) trong mệnh đề 'if' của câu điều kiện loại 2."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_009",
+      "prompt": "He _____ more friends if he were more outgoing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would have"
+        },
+        {
+          "id": "b",
+          "label": "will have"
+        },
+        {
+          "id": "c",
+          "label": "has"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' dùng 'were', nên mệnh đề chính phải dùng 'would + động từ nguyên mẫu' (would have) để diễn tả kết quả giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "sc_010",
+      "prompt": "If she spoke French, she _____ a job in Paris.",
+      "options": [
+        {
+          "id": "a",
+          "label": "could get"
+        },
+        {
+          "id": "b",
+          "label": "can get"
+        },
+        {
+          "id": "c",
+          "label": "will get"
+        },
+        {
+          "id": "d",
+          "label": "gets"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 2, mệnh đề chính có thể dùng 'could' thay cho 'would' để diễn tả khả năng giả định."
+  }
+]

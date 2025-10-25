@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_001",
+      "prompt": "Don't you find that it _____ increasingly darker every day when you wake up for school?"
+    },
+    "answer": "is getting",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một sự thay đổi hoặc xu hướng đang diễn ra ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_002",
+      "prompt": "As winter comes, the days _____ shorter and the nights longer."
+    },
+    "answer": "are becoming",
+    "hint": "Thì hiện tại tiếp diễn được dùng để mô tả các xu hướng hoặc sự thay đổi đang diễn ra theo thời gian."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_003",
+      "prompt": "In modern times, people _____ more electric light instead of sunlight to continue their normal routines."
+    },
+    "answer": "are using",
+    "hint": "Thì hiện tại tiếp diễn diễn tả một hành động tạm thời hoặc một thói quen đang diễn ra trong giai đoạn hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_004",
+      "prompt": "Scientific research _____ that manhandling of electric light is making us sick."
+    },
+    "answer": "is finding",
+    "hint": "Thì hiện tại tiếp diễn dùng cho các nghiên cứu hoặc khám phá đang được thực hiện và có kết quả ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_005",
+      "prompt": "Scientists say electric light _____ the body's biological clock into releasing awakening hormones at the wrong times."
+    },
+    "answer": "is fooling",
+    "hint": "Thì hiện tại tiếp diễn diễn tả một hành động đang xảy ra và gây ra ảnh hưởng trực tiếp ở thời điểm hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_006",
+      "prompt": "This constant disruption _____ to seasonal fatigue and depression, according to experts."
+    },
+    "answer": "is leading",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một quá trình hoặc kết quả đang phát triển và diễn ra ở hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_007",
+      "prompt": "Researchers _____ the link between night work and breast cancer in women, as more studies emerge."
+    },
+    "answer": "are investigating",
+    "hint": "Thì hiện tại tiếp diễn dùng cho một hành động hoặc dự án đang được tiến hành trong giai đoạn hiện tại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_008",
+      "prompt": "David Avery, a psychiatrist, commented, 'Electric lights are wonderful, but we _____ things up with them.'"
+    },
+    "answer": "are always messing",
+    "hint": "Thì hiện tại tiếp diễn với 'always' dùng để diễn tả sự phàn nàn hoặc chỉ trích về một hành động lặp đi lặp lại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_009",
+      "prompt": "Due to modern lifestyles, many people _____ against their natural biological clock by staying up late."
+    },
+    "answer": "are working",
+    "hint": "Thì hiện tại tiếp diễn dùng để mô tả một hành động tạm thời hoặc một xu hướng đang diễn ra trong cuộc sống hiện đại."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pc_010",
+      "prompt": "Currently, scientists _____ new ways to reset the body's biological clock using bright light therapy."
+    },
+    "answer": "are exploring",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một hoạt động hoặc dự án đang được thực hiện và phát triển ở thời điểm hiện tại."
+  }
+]

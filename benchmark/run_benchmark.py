@@ -13,7 +13,7 @@ from .generate_gold import generate_gold
 from .generate_pred import generate_pred
 from .validate import validate_items
 from .score import mcq_semantics, fill_semantics
-from .judge import judge_mcq, judge_fill
+from .judge import judge_mcq, judge_fill, run_judges_mcq, run_judges_fill
 from .report import (
     write_summary_csv, write_per_item_csv, write_jsonl, write_paired_overall_csv, write_winloss_csv,
     append_summary_rows, append_per_item_rows, append_jsonl
@@ -95,6 +95,10 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
                 judge_scores = []
                 semantic_scores = []
 
+                # Collections for inter-judge reliability (pairs)
+                ij_mcq_pairs: List[tuple] = []
+                ij_fill_pairs: List[tuple] = []
+
                 for i in range(n):
                     pi = pred[i]
                     gi = gold[i]
@@ -104,15 +108,24 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
                     structural_valid = (idx not in invalid_idx_pred)
                     if hw_type == 'mcq':
                         ps, ans, div, item = mcq_semantics(pi, gi)
-                        verdict = judge_mcq(
+                        # Run configured judges (at least gemini)
+                        # Gate context usage via env (default OFF)
+                        _use_ctx = (os.getenv('JUDGE_USE_CONTEXT','0').lower() in {'1','true','yes','y'})
+                        _ctx = post_text if _use_ctx else None
+                        all_j = run_judges_mcq(
                             pi['question']['prompt'],
                             {o['id']: o['label'] for o in pi['question']['options']},
                             pi['correctOptionId'],
                             topic,
+                            context=_ctx,
                         )
                         vmap = {'correct':1.0, 'ambiguous':0.5, 'incorrect':0.0}
-                        jscore = vmap.get(str(verdict.get('verdict','')).lower(), 0.0)
-                        jwhy = verdict.get('why', '')
+                        primary = all_j[0] if all_j else {'verdict':'error','why':'no_judge'}
+                        jscore = vmap.get(str(primary.get('verdict','')).lower(), 0.0)
+                        jwhy = primary.get('why', '')
+                        j2 = all_j[1] if len(all_j) > 1 else None
+                        if j2 and primary.get('verdict') not in {'error', None} and j2.get('verdict') not in {'error', None}:
+                            ij_mcq_pairs.append((str(primary['verdict']).lower(), str(j2['verdict']).lower()))
                         per_item_rows.append({
                             'run_id': run_id,
                             'config': config,
@@ -124,21 +137,30 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
                             'qid_gold': qid_gold,
                             'qid_pred': qid_pred,
                             'structural_valid': 1 if structural_valid else 0,
-                            'prompt_sim': round(ps,4),
+                            'question_sim': round(ps,4),
                             'ans_sim': ('' if ans is None else round(ans,4)),
                             'distractor_diversity': round(div,4),
                             'ans_score': ('' if ans is None else round(ans,4)),  # MCQ: N/A → ''
                             'item_score': round(item,4),
-                            'judge_verdict': verdict.get('verdict',''),
+                            'judge_verdict': primary.get('verdict',''),
                             'judge_score': round(jscore,4),
                             'judge_why': jwhy,
+                            'judge2_verdict': (j2.get('verdict') if j2 else ''),
+                            'judge2_score': (vmap.get(str(j2.get('verdict','')).lower(), 0.0) if j2 else ''),
+                            'judge2_why': (j2.get('why') if j2 else ''),
                         })
                     else:
                         ps, ans, item = fill_semantics(pi, gi)
-                        verdict = judge_fill(pi['question']['prompt'], pi['answer'], topic)
+                        _use_ctx = (os.getenv('JUDGE_USE_CONTEXT','0').lower() in {'1','true','yes','y'})
+                        _ctx = post_text if _use_ctx else None
+                        all_j = run_judges_fill(pi['question']['prompt'], pi['answer'], topic, context=_ctx)
                         vmap = {'acceptable':1.0, 'unacceptable':0.0}
-                        jscore = vmap.get(str(verdict.get('verdict','')).lower(), 0.0)
-                        jwhy = verdict.get('why', '')
+                        primary = all_j[0] if all_j else {'verdict':'error','why':'no_judge'}
+                        jscore = vmap.get(str(primary.get('verdict','')).lower(), 0.0)
+                        jwhy = primary.get('why', '')
+                        j2 = all_j[1] if len(all_j) > 1 else None
+                        if j2 and primary.get('verdict') not in {'error', None} and j2.get('verdict') not in {'error', None}:
+                            ij_fill_pairs.append((str(primary['verdict']).lower(), str(j2['verdict']).lower()))
                         per_item_rows.append({
                             'run_id': run_id,
                             'config': config,
@@ -150,14 +172,17 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
                             'qid_gold': qid_gold,
                             'qid_pred': qid_pred,
                             'structural_valid': 1 if structural_valid else 0,
-                            'prompt_sim': round(ps,4),
+                            'question_sim': round(ps,4),
                             'ans_sim': round(ans,4),  # for FILL, ans_sim = ans_score
                             'distractor_diversity': '',
                             'ans_score': round(ans,4),
                             'item_score': round(item,4),
-                            'judge_verdict': verdict.get('verdict',''),
+                            'judge_verdict': primary.get('verdict',''),
                             'judge_score': round(jscore,4),
                             'judge_why': jwhy,
+                            'judge2_verdict': (j2.get('verdict') if j2 else ''),
+                            'judge2_score': (vmap.get(str(j2.get('verdict','')).lower(), 0.0) if j2 else ''),
+                            'judge2_why': (j2.get('why') if j2 else ''),
                         })
                     judge_scores.append(jscore)
                     semantic_scores.append(item)
@@ -181,6 +206,18 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
                 j_ci_low = clamp01(j_mean - 1.96 * j_se)
                 j_ci_high = clamp01(j_mean + 1.96 * j_se)
 
+                # Optional second judge mean if present in per-item rows
+                j2_scores = []
+                for row in per_item_rows[-n_items:]:
+                    v = row.get('judge2_score')
+                    if isinstance(v, (int, float)):
+                        j2_scores.append(float(v))
+                j2_mean = mean(j2_scores) if j2_scores else ''
+                j2_std = (stdev(j2_scores) if len(j2_scores) > 1 else 0.0) if j2_scores else ''
+                j2_se = ((j2_std / sqrt(n_items)) if n_items > 1 else 0.0) if j2_scores else ''
+                j2_ci_low = (clamp01(j2_mean - 1.96 * j2_se) if j2_scores else '')  # type: ignore[operator]
+                j2_ci_high = (clamp01(j2_mean + 1.96 * j2_se) if j2_scores else '')  # type: ignore[operator]
+
                 sr = {
                     'run_id': run_id,
                     'config': config,
@@ -199,6 +236,11 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
                     'judge_se': round(j_se, 4),
                     'judge_ci95_low': round(j_ci_low, 4),
                     'judge_ci95_high': round(j_ci_high, 4),
+                    'judge2_mean': ('' if j2_scores == [] else round(j2_mean,4)),
+                    'judge2_std': ('' if j2_scores == [] else round(j2_std,4)),
+                    'judge2_se': ('' if j2_scores == [] else round(j2_se,4)),
+                    'judge2_ci95_low': ('' if j2_scores == [] else round(j2_ci_low,4)),
+                    'judge2_ci95_high': ('' if j2_scores == [] else round(j2_ci_high,4)),
                 }
                 summary_rows.append(sr)
                 # Stream append after each config/seed to persist progress
@@ -247,6 +289,9 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
     deltas_j: List[float] = []
     s_w = s_l = s_t = 0
     j_w = j_l = j_t = 0
+    # Always use semantic delta (item_score) to break judge ties in win/loss accounting
+    # Previously gated by env JUDGE_TIEBREAK_BY_SEM; simplified to reduce env toggles
+    tiebreak_by_sem = True
     for key, cfgmap in paired_map.items():
         if 'minimal' in cfgmap and 'cot' in cfgmap:
             d_sem = cfgmap['cot']['semantic_mean'] - cfgmap['minimal']['semantic_mean']
@@ -266,7 +311,18 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
             elif d_j < -eps:
                 j_l += 1
             else:
-                j_t += 1
+                # Tie on judge delta; optionally break tie using semantic delta if sufficiently non-zero
+                if tiebreak_by_sem:
+                    # Use a slightly looser epsilon for tiebreak to avoid rounding ties
+                    eps_sem = 1e-6 
+                    if d_sem > eps_sem:
+                        j_w += 1
+                    elif d_sem < -eps_sem:
+                        j_l += 1
+                    else:
+                        j_t += 1
+                else:
+                    j_t += 1
 
     # Compute Δ ± CI for semantic and judge (use module-level mean, stdev, sqrt)
     def ci_stats(arr: List[float]) -> Dict[str, float]:
@@ -354,6 +410,137 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
 
     write_paired_overall_csv(out_dir / 'paired_overall.csv', paired_rows)
     write_winloss_csv(out_dir / 'winloss.csv', winloss_rows)
+
+    # Inter-judge reliability (if second judge present)
+    def compute_agree_kappa(pairs: List[tuple], classes: List[str]) -> Dict[str, float]:
+        n = len(pairs)
+        if n == 0:
+            return dict(n=0, pa=0.0, pa_low=0.0, pa_high=0.0, kappa=0.0, ac1=0.0)
+        # Observed agreement
+        po = sum(1 for a,b in pairs if a == b) / n
+        # Marginals
+        from collections import Counter
+        a_counts = Counter(a for a,_ in pairs)
+        b_counts = Counter(b for _,b in pairs)
+        pe = 0.0
+        for c in classes:
+            pa_c = a_counts.get(c,0)/n
+            pb_c = b_counts.get(c,0)/n
+            pe += pa_c * pb_c
+        k = 0.0 if (1.0 - pe) == 0 else (po - pe) / (1.0 - pe)
+        # Gwet's AC1 expected agreement using pooled category proportions
+        total_ratings = 2.0 * n
+        pe1 = 0.0
+        if total_ratings > 0:
+            for c in classes:
+                p_c = (a_counts.get(c,0) + b_counts.get(c,0)) / total_ratings
+                pe1 += p_c * (1.0 - p_c)
+        ac1 = 0.0 if (1.0 - pe1) == 0 else (po - pe1) / (1.0 - pe1)
+        # 95% CI for percent agreement (normal approx)
+        import math
+        se = math.sqrt(max(po*(1-po)/n, 0.0))
+        low = max(0.0, po - 1.96*se)
+        high = min(1.0, po + 1.96*se)
+        return dict(n=n, pa=po, pa_low=low, pa_high=high, kappa=k, ac1=ac1)
+
+    inter_rows = []
+    # Collect pairs from all per_item_rows
+    def collect_pairs(hw_type: str) -> List[tuple]:
+        out = []
+        for r in per_item_rows:
+            if r.get('type') != hw_type:
+                continue
+            a = str(r.get('judge_verdict','')).lower()
+            b = str(r.get('judge2_verdict','')).lower()
+            if a and b and a != 'error' and b != 'error':
+                out.append((a,b))
+        return out
+
+    mcq_pairs = collect_pairs('mcq')
+    fill_pairs = collect_pairs('fill')
+    if mcq_pairs:
+        stats = compute_agree_kappa(mcq_pairs, ['correct','ambiguous','incorrect'])
+        inter_rows.append({
+            'run_id': run_id,
+            'type': 'mcq',
+            'n': stats['n'],
+            'percent_agreement': round(stats['pa'],4),
+            'pa_ci95_low': round(stats['pa_low'],4),
+            'pa_ci95_high': round(stats['pa_high'],4),
+            'kappa': round(stats['kappa'],4),
+            'ac1': round(stats['ac1'],4),
+        })
+    if fill_pairs:
+        stats = compute_agree_kappa(fill_pairs, ['acceptable','unacceptable'])
+        inter_rows.append({
+            'run_id': run_id,
+            'type': 'fill',
+            'n': stats['n'],
+            'percent_agreement': round(stats['pa'],4),
+            'pa_ci95_low': round(stats['pa_low'],4),
+            'pa_ci95_high': round(stats['pa_high'],4),
+            'kappa': round(stats['kappa'],4),
+            'ac1': round(stats['ac1'],4),
+        })
+    if inter_rows:
+        from .report import write_inter_judge_csv
+        write_inter_judge_csv(out_dir / 'inter_judge.csv', inter_rows)
+    # Inter-judge by topic
+    try:
+        from .report import write_inter_judge_by_topic_csv
+        # Build (type, topic) -> pairs
+        from collections import defaultdict
+        grouped = defaultdict(list)
+        for r in per_item_rows:
+            hw_type = r.get('type')
+            topic = r.get('topic')
+            a = str(r.get('judge_verdict','')).lower()
+            b = str(r.get('judge2_verdict','')).lower()
+            if hw_type and topic and a and b and a != 'error' and b != 'error':
+                grouped[(hw_type, topic)].append((a,b))
+        rows_by_topic = []
+        from collections import Counter
+        import math
+        for (hw_type, topic), pairs in grouped.items():
+            n = len(pairs)
+            if n == 0:
+                continue
+            po = sum(1 for a,b in pairs if a == b) / n
+            a_counts = Counter(a for a,_ in pairs)
+            b_counts = Counter(b for _,b in pairs)
+            pe = 0.0
+            classes = ['correct','ambiguous','incorrect'] if hw_type == 'mcq' else ['acceptable','unacceptable']
+            for c in classes:
+                pa_c = a_counts.get(c,0)/n
+                pb_c = b_counts.get(c,0)/n
+                pe += pa_c * pb_c
+            k = 0.0 if (1.0 - pe) == 0 else (po - pe) / (1.0 - pe)
+            # AC1 by topic
+            total_ratings = 2.0 * n
+            pe1 = 0.0
+            if total_ratings > 0:
+                for c in classes:
+                    p_c = (a_counts.get(c,0) + b_counts.get(c,0)) / total_ratings
+                    pe1 += p_c * (1.0 - p_c)
+            ac1 = 0.0 if (1.0 - pe1) == 0 else (po - pe1) / (1.0 - pe1)
+            se = math.sqrt(max(po*(1-po)/n, 0.0))
+            low = max(0.0, po - 1.96*se)
+            high = min(1.0, po + 1.96*se)
+            rows_by_topic.append({
+                'run_id': run_id,
+                'type': hw_type,
+                'topic': topic,
+                'n': n,
+                'percent_agreement': round(po,4),
+                'pa_ci95_low': round(low,4),
+                'pa_ci95_high': round(high,4),
+                'kappa': round(k,4),
+                'ac1': round(ac1,4),
+            })
+        if rows_by_topic:
+            write_inter_judge_by_topic_csv(out_dir / 'inter_judge_by_topic.csv', rows_by_topic)
+    except Exception:
+        pass
     print(f"Reports written to: {out_dir}")
 
 

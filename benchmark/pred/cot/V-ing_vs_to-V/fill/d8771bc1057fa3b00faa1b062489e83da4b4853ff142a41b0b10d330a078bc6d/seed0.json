@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_001",
+      "prompt": "After the terrorist attacks, Adam Reed Tucker decided _____ something different."
+    },
+    "answer": "to do",
+    "hint": "Động từ \"decide\" luôn theo sau bởi một động từ nguyên mẫu có \"to\" (to-V) để chỉ một quyết định hoặc ý định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_002",
+      "prompt": "He wanted _____ his feelings for the form of the skyscraper."
+    },
+    "answer": "to express",
+    "hint": "Động từ \"want\" thường được theo sau bởi một động từ nguyên mẫu có \"to\" (to-V) để diễn tả mong muốn hoặc ý định."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_003",
+      "prompt": "Many people enjoy _____ Lego models because it's a creative activity."
+    },
+    "answer": "building",
+    "hint": "Động từ \"enjoy\" luôn theo sau bởi một danh động từ (V-ing) để diễn tả sự yêu thích một hoạt động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_004",
+      "prompt": "Architecture lovers do not have to travel far _____ some of the world's most famous buildings."
+    },
+    "answer": "to see",
+    "hint": "Cụm \"to see\" ở đây chỉ mục đích của việc \"travel\", tức là \"để xem\" các tòa nhà."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_005",
+      "prompt": "Adam Reed Tucker chose _____ something that most people used as children."
+    },
+    "answer": "to use",
+    "hint": "Động từ \"choose\" thường được theo sau bởi một động từ nguyên mẫu có \"to\" (to-V) để chỉ một sự lựa chọn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_006",
+      "prompt": "The exhibit really encourages children _____ their creativity."
+    },
+    "answer": "to develop",
+    "hint": "Cấu trúc \"encourage someone to do something\" có nghĩa là khuyến khích ai đó làm gì."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_007",
+      "prompt": "Tucker does not use any computers or drawings _____ his buildings."
+    },
+    "answer": "to plan",
+    "hint": "Cụm \"to plan\" ở đây chỉ mục đích của việc không dùng máy tính hay bản vẽ, tức là \"để lên kế hoạch\" cho các tòa nhà."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_008",
+      "prompt": "After _____ through Tucker's models, visitors can create their own works."
+    },
+    "answer": "walking",
+    "hint": "Giới từ \"after\" luôn theo sau bởi một danh động từ (V-ing) khi nó đứng trước một hành động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_009",
+      "prompt": "Adam Reed Tucker didn't stop _____ new Lego models even after the exhibit opened."
+    },
+    "answer": "creating",
+    "hint": "\"Stop V-ing\" có nghĩa là ngừng hẳn một hành động. \"Stop to-V\" có nghĩa là dừng lại để làm gì đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "v_ing_to_v_010",
+      "prompt": "Visitors can spend time _____ their own works at the building station."
+    },
+    "answer": "creating",
+    "hint": "Cụm từ \"spend time\" luôn theo sau bởi một danh động từ (V-ing) để diễn tả việc dành thời gian làm gì."
+  }
+]

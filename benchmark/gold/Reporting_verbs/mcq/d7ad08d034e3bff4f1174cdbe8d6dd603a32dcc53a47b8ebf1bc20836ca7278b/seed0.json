@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_001",
+      "prompt": "The African Development Bank's report _____ providing more support for the elderly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "recommends"
+        },
+        {
+          "id": "b",
+          "label": "recommends to"
+        },
+        {
+          "id": "c",
+          "label": "says to"
+        },
+        {
+          "id": "d",
+          "label": "tells"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'recommend' có thể đi trực tiếp với V-ing (gerund) để đưa ra một gợi ý. Cấu trúc 'recommend to provide' là sai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_002",
+      "prompt": "Professor Ncube _____ that African governments had been busy with economic reforms.",
+      "options": [
+        {
+          "id": "a",
+          "label": "said"
+        },
+        {
+          "id": "b",
+          "label": "told"
+        },
+        {
+          "id": "c",
+          "label": "spoke"
+        },
+        {
+          "id": "d",
+          "label": "asked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'say' khi không có tân ngữ chỉ người nghe đi ngay sau. Cấu trúc là 'say that...'. 'Tell' cần có tân ngữ (tell somebody that...)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_003",
+      "prompt": "The chief economist _____ the governments to prepare for the aging population.",
+      "options": [
+        {
+          "id": "a",
+          "label": "advised"
+        },
+        {
+          "id": "b",
+          "label": "suggested"
+        },
+        {
+          "id": "c",
+          "label": "explained"
+        },
+        {
+          "id": "d",
+          "label": "admitted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc đúng là 'advise somebody to do something' (khuyên ai làm gì). 'Suggest' không đi với cấu trúc này, đây là lỗi phổ biến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_004",
+      "prompt": "The report _____ that private companies could also help with the health insurance burden.",
+      "options": [
+        {
+          "id": "a",
+          "label": "mentioned"
+        },
+        {
+          "id": "b",
+          "label": "offered"
+        },
+        {
+          "id": "c",
+          "label": "refused"
+        },
+        {
+          "id": "d",
+          "label": "warned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Mention' (đề cập) là động từ phù hợp để tường thuật lại một điểm trong báo cáo. Các động từ khác không hợp nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_005",
+      "prompt": "Some critics have _____ the governments of failing to act on pensions sooner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "accused"
+        },
+        {
+          "id": "b",
+          "label": "blamed"
+        },
+        {
+          "id": "c",
+          "label": "denied"
+        },
+        {
+          "id": "d",
+          "label": "apologized"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc cố định là 'accuse somebody of doing something' (buộc tội ai đã làm gì). Giới từ đi với 'accuse' là 'of'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_006",
+      "prompt": "The bank _____ that governments consider providing free health services.",
+      "options": [
+        {
+          "id": "a",
+          "label": "suggested"
+        },
+        {
+          "id": "b",
+          "label": "insisted"
+        },
+        {
+          "id": "c",
+          "label": "promised"
+        },
+        {
+          "id": "d",
+          "label": "offered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Suggest' được dùng để đưa ra đề xuất. Theo sau là mệnh đề 'that' với động từ nguyên thể (có 'should' ngầm)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_007",
+      "prompt": "The economist _____ that aging is linked with long-term health conditions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "explained"
+        },
+        {
+          "id": "b",
+          "label": "told to"
+        },
+        {
+          "id": "c",
+          "label": "ordered"
+        },
+        {
+          "id": "d",
+          "label": "advised"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Explain' (giải thích) được dùng để làm rõ một thông tin. Cấu trúc đúng là 'explain that...'. Các lựa chọn khác sai cấu trúc hoặc không hợp nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_008",
+      "prompt": "The official _____ spending less on healthcare, citing economic reforms as the reason.",
+      "options": [
+        {
+          "id": "a",
+          "label": "admitted"
+        },
+        {
+          "id": "b",
+          "label": "denied"
+        },
+        {
+          "id": "c",
+          "label": "promised to"
+        },
+        {
+          "id": "d",
+          "label": "refused"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Admit' (thừa nhận) đi với động từ ở dạng V-ing (gerund). Ngữ cảnh 'citing the reason' cho thấy đây là một sự thừa nhận."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_009",
+      "prompt": "The report _____ everyone about the potential challenges of a growing elderly population.",
+      "options": [
+        {
+          "id": "a",
+          "label": "warned"
+        },
+        {
+          "id": "b",
+          "label": "claimed"
+        },
+        {
+          "id": "c",
+          "label": "announced"
+        },
+        {
+          "id": "d",
+          "label": "persuaded"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Warn' (cảnh báo) là động từ phù hợp nhất với ngữ cảnh về 'thách thức' (challenges). Cấu trúc là 'warn somebody about something'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "rv_mcq_010",
+      "prompt": "The bank strongly _____ African nations to develop their pension industries.",
+      "options": [
+        {
+          "id": "a",
+          "label": "urged"
+        },
+        {
+          "id": "b",
+          "label": "suggested"
+        },
+        {
+          "id": "c",
+          "label": "said"
+        },
+        {
+          "id": "d",
+          "label": "explained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Urge somebody to do something' (thúc giục ai làm gì) là cấu trúc đúng, thể hiện sự khuyến khích mạnh mẽ. 'Suggest' không dùng cấu trúc này."
+  }
+]

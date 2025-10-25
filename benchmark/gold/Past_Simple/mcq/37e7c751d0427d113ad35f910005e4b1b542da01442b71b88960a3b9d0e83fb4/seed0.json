@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "Researchers at York and Harvard Universities _____ this important discovery a few years ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "make"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "have made"
+        },
+        {
+          "id": "d",
+          "label": "makes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'a few years ago' chỉ một thời điểm cụ thể trong quá khứ, do đó ta phải dùng thì quá khứ đơn. 'Make' là động từ bất quy tắc, dạng quá khứ là 'made'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "In their last project, the team _____ DNA from modern elephants with DNA from fossils.",
+      "options": [
+        {
+          "id": "a",
+          "label": "compared"
+        },
+        {
+          "id": "b",
+          "label": "compare"
+        },
+        {
+          "id": "c",
+          "label": "has compared"
+        },
+        {
+          "id": "d",
+          "label": "compares"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'In their last project' cho thấy hành động đã xảy ra và kết thúc trong quá khứ, nên ta dùng thì quá khứ đơn (V-ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "Previously, many naturalists _____ that the two types of elephants were the same species.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believe"
+        },
+        {
+          "id": "b",
+          "label": "believes"
+        },
+        {
+          "id": "c",
+          "label": "have believed"
+        },
+        {
+          "id": "d",
+          "label": "believed"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trạng từ 'Previously' (trước đây) là dấu hiệu của thì quá khứ đơn, diễn tả một niềm tin hoặc tình trạng trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "The unexpected result of the DNA analysis _____ all the scientists yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "amaze"
+        },
+        {
+          "id": "b",
+          "label": "amazes"
+        },
+        {
+          "id": "c",
+          "label": "amazed"
+        },
+        {
+          "id": "d",
+          "label": "has amazed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Yesterday' là mốc thời gian cụ thể trong quá khứ, vì vậy câu phải sử dụng thì quá khứ đơn để diễn tả hành động đã hoàn tất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "The divergence of the two species _____ place around the same time as Asian elephants and mammoths.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took"
+        },
+        {
+          "id": "b",
+          "label": "takes"
+        },
+        {
+          "id": "c",
+          "label": "has taken"
+        },
+        {
+          "id": "d",
+          "label": "take"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sự việc này xảy ra trong quá khứ xa (cùng thời với voi ma mút), nên phải dùng thì quá khứ đơn. 'Take' là động từ bất quy tắc, quá khứ là 'took'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "Professor Alfred Roca _____ his concerns about conservation in an interview last month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "say"
+        },
+        {
+          "id": "b",
+          "label": "said"
+        },
+        {
+          "id": "c",
+          "label": "says"
+        },
+        {
+          "id": "d",
+          "label": "has said"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'last month' chỉ rõ hành động đã xảy ra và kết thúc trong quá khứ. Dạng quá khứ của động từ bất quy tắc 'say' là 'said'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "In their initial analysis, the scientists _____ that the two African elephants were very distinct.",
+      "options": [
+        {
+          "id": "a",
+          "label": "find"
+        },
+        {
+          "id": "b",
+          "label": "finds"
+        },
+        {
+          "id": "c",
+          "label": "found"
+        },
+        {
+          "id": "d",
+          "label": "have found"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'In their initial analysis' ám chỉ một sự kiện đã qua. 'Find' là động từ bất quy tắc, dạng quá khứ của nó là 'found'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "The research team _____ detailed genetic methods to prove their theory in 2020.",
+      "options": [
+        {
+          "id": "a",
+          "label": "use"
+        },
+        {
+          "id": "b",
+          "label": "used"
+        },
+        {
+          "id": "c",
+          "label": "uses"
+        },
+        {
+          "id": "d",
+          "label": "has used"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mốc thời gian 'in 2020' là một thời điểm xác định trong quá khứ, yêu cầu sử dụng thì quá khứ đơn (V-ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "For many years, conservationists _____ all African elephants as a single species.",
+      "options": [
+        {
+          "id": "a",
+          "label": "treat"
+        },
+        {
+          "id": "b",
+          "label": "have treated"
+        },
+        {
+          "id": "c",
+          "label": "treated"
+        },
+        {
+          "id": "d",
+          "label": "treats"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'For many years' trong ngữ cảnh này chỉ một thói quen hoặc tình trạng đã kết thúc trong quá khứ (vì bây giờ họ đã biết khác), nên dùng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "The final proof _____ in the analysis of the DNA which they completed last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lie"
+        },
+        {
+          "id": "b",
+          "label": "lied"
+        },
+        {
+          "id": "c",
+          "label": "has lain"
+        },
+        {
+          "id": "d",
+          "label": "lay"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ 'last year' yêu cầu thì quá khứ đơn. Động từ bất quy tắc 'lie' (nằm ở) có dạng quá khứ là 'lay'. Đừng nhầm với 'lied' (nói dối)."
+  }
+]

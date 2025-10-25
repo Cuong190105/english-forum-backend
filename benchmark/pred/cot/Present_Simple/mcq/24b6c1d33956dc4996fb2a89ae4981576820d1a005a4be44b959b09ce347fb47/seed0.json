@@ -1,0 +1,1352 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "My sister _____ to school every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "goes"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every morning” chỉ thói quen. Chủ ngữ “My sister” (số ít) nên động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "They _____ usually _____ coffee in the evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't drink"
+        },
+        {
+          "id": "b",
+          "label": "doesn't drink"
+        },
+        {
+          "id": "c",
+          "label": "aren't drinking"
+        },
+        {
+          "id": "d",
+          "label": "didn't drink"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” chỉ thói quen. Chủ ngữ “They” (số nhiều) dùng “don't” cho phủ định trong Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "The Earth _____ around the Sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "revolves"
+        },
+        {
+          "id": "b",
+          "label": "revolve"
+        },
+        {
+          "id": "c",
+          "label": "is revolving"
+        },
+        {
+          "id": "d",
+          "label": "revolved"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hiển nhiên. Chủ ngữ “The Earth” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "_____ water _____ at 100 degrees Celsius?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Does...boil"
+        },
+        {
+          "id": "b",
+          "label": "Do...boil"
+        },
+        {
+          "id": "c",
+          "label": "Is...boiling"
+        },
+        {
+          "id": "d",
+          "label": "Did...boil"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu hỏi về sự thật khoa học. “Water” là danh từ không đếm được (số ít) nên dùng “Does”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "The train to Hanoi _____ at 7:00 AM daily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leaves"
+        },
+        {
+          "id": "b",
+          "label": "leave"
+        },
+        {
+          "id": "c",
+          "label": "is leaving"
+        },
+        {
+          "id": "d",
+          "label": "left"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Daily” và lịch trình cố định dùng thì Hiện tại đơn. “The train” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "I _____ that learning English _____ important.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believe...is"
+        },
+        {
+          "id": "b",
+          "label": "believes...is"
+        },
+        {
+          "id": "c",
+          "label": "believe...are"
+        },
+        {
+          "id": "d",
+          "label": "am believing...is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Believe” là động từ chỉ trạng thái, không dùng tiếp diễn. “Learning English” là chủ ngữ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "_____ you often _____ books in your free time?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Do...read"
+        },
+        {
+          "id": "b",
+          "label": "Does...read"
+        },
+        {
+          "id": "c",
+          "label": "Are...reading"
+        },
+        {
+          "id": "d",
+          "label": "Did...read"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Often” chỉ thói quen. Chủ ngữ “you” dùng “Do” cho câu hỏi trong Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "He _____ understand the scientific subject well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "doesn't"
+        },
+        {
+          "id": "b",
+          "label": "don't"
+        },
+        {
+          "id": "c",
+          "label": "isn't"
+        },
+        {
+          "id": "d",
+          "label": "wasn't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ “He” (số ít) dùng “doesn't” cho phủ định trong thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "Students usually _____ questions if they don't understand.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ask"
+        },
+        {
+          "id": "b",
+          "label": "asks"
+        },
+        {
+          "id": "c",
+          "label": "is asking"
+        },
+        {
+          "id": "d",
+          "label": "asked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” chỉ thói quen. Chủ ngữ “Students” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Fish _____ on land.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't live"
+        },
+        {
+          "id": "b",
+          "label": "doesn't live"
+        },
+        {
+          "id": "c",
+          "label": "aren't living"
+        },
+        {
+          "id": "d",
+          "label": "didn't live"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một sự thật hiển nhiên. “Fish” (số nhiều) dùng “don't” cho phủ định trong Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_011",
+      "prompt": "A good teacher always _____ to help students understand.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tries"
+        },
+        {
+          "id": "b",
+          "label": "try"
+        },
+        {
+          "id": "c",
+          "label": "is trying"
+        },
+        {
+          "id": "d",
+          "label": "tried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Always” chỉ thói quen/sự thật chung. Chủ ngữ “A good teacher” (số ít) nên động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_012",
+      "prompt": "If students _____ the lesson, they _____ questions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't follow...ask"
+        },
+        {
+          "id": "b",
+          "label": "doesn't follow...asks"
+        },
+        {
+          "id": "c",
+          "label": "aren't following...ask"
+        },
+        {
+          "id": "d",
+          "label": "didn't follow...asked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu điều kiện loại 0 (sự thật). Cả hai mệnh đề dùng Hiện tại đơn. “Students” (số nhiều) dùng “don't” và “ask”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_013",
+      "prompt": "The school library _____ at 8 AM and _____ at 5 PM every weekday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "opens...closes"
+        },
+        {
+          "id": "b",
+          "label": "open...close"
+        },
+        {
+          "id": "c",
+          "label": "is opening...closing"
+        },
+        {
+          "id": "d",
+          "label": "opened...closed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every weekday” chỉ lịch trình cố định. “The school library” (số ít) nên động từ thêm -s/es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_014",
+      "prompt": "My father _____ the newspaper every morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reads"
+        },
+        {
+          "id": "b",
+          "label": "read"
+        },
+        {
+          "id": "c",
+          "label": "is reading"
+        },
+        {
+          "id": "d",
+          "label": "reading"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every morning” chỉ thói quen. Chủ ngữ “My father” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_015",
+      "prompt": "We usually _____ dinner at 7 PM.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "are having"
+        },
+        {
+          "id": "d",
+          "label": "had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” chỉ thói quen. Chủ ngữ “We” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_016",
+      "prompt": "She _____ not _____ to the gym on weekends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "does...go"
+        },
+        {
+          "id": "b",
+          "label": "do...go"
+        },
+        {
+          "id": "c",
+          "label": "is...going"
+        },
+        {
+          "id": "d",
+          "label": "did...go"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ “She” (số ít) dùng “does not” cho phủ định trong thì Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_017",
+      "prompt": "The sun _____ in the east and _____ in the west.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rises...sets"
+        },
+        {
+          "id": "b",
+          "label": "rise...set"
+        },
+        {
+          "id": "c",
+          "label": "is rising...setting"
+        },
+        {
+          "id": "d",
+          "label": "rose...set"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là sự thật hiển nhiên. “The sun” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_018",
+      "prompt": "How often _____ your brother _____ his car?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does...wash"
+        },
+        {
+          "id": "b",
+          "label": "do...wash"
+        },
+        {
+          "id": "c",
+          "label": "is...washing"
+        },
+        {
+          "id": "d",
+          "label": "did...wash"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“How often” hỏi về tần suất (thói quen). “Your brother” (số ít) dùng “does”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_019",
+      "prompt": "I _____ coffee, but my mother _____ tea.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like...prefers"
+        },
+        {
+          "id": "b",
+          "label": "likes...prefers"
+        },
+        {
+          "id": "c",
+          "label": "like...prefer"
+        },
+        {
+          "id": "d",
+          "label": "am liking...prefers"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Like” và “prefer” là động từ chỉ trạng thái. “I” dùng “like”, “my mother” (số ít) dùng “prefers”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_020",
+      "prompt": "Birds _____ nests in trees.",
+      "options": [
+        {
+          "id": "a",
+          "label": "build"
+        },
+        {
+          "id": "b",
+          "label": "builds"
+        },
+        {
+          "id": "c",
+          "label": "are building"
+        },
+        {
+          "id": "d",
+          "label": "built"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là sự thật chung về loài vật. “Birds” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_021",
+      "prompt": "My English class _____ at 9 AM on Mondays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "starts"
+        },
+        {
+          "id": "b",
+          "label": "start"
+        },
+        {
+          "id": "c",
+          "label": "is starting"
+        },
+        {
+          "id": "d",
+          "label": "started"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lịch trình cố định dùng Hiện tại đơn. “My English class” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_022",
+      "prompt": "He never _____ fast food.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eats"
+        },
+        {
+          "id": "b",
+          "label": "eat"
+        },
+        {
+          "id": "c",
+          "label": "is eating"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Never” chỉ thói quen/tần suất. Chủ ngữ “He” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_023",
+      "prompt": "What time _____ the bank _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does...open"
+        },
+        {
+          "id": "b",
+          "label": "do...open"
+        },
+        {
+          "id": "c",
+          "label": "is...opening"
+        },
+        {
+          "id": "d",
+          "label": "did...open"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hỏi về lịch trình cố định. “The bank” (số ít) dùng “does”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_024",
+      "prompt": "We _____ to the beach every summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "are going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every summer” chỉ thói quen. Chủ ngữ “We” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_025",
+      "prompt": "She _____ a doctor. She _____ in a hospital.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is...works"
+        },
+        {
+          "id": "b",
+          "label": "are...work"
+        },
+        {
+          "id": "c",
+          "label": "is...working"
+        },
+        {
+          "id": "d",
+          "label": "was...worked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Is” là sự thật về nghề nghiệp. “Works” là sự thật về nơi làm việc. Cả hai dùng Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_026",
+      "prompt": "Cats usually _____ mice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "catch"
+        },
+        {
+          "id": "b",
+          "label": "catches"
+        },
+        {
+          "id": "c",
+          "label": "are catching"
+        },
+        {
+          "id": "d",
+          "label": "caught"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” và sự thật chung về loài vật. “Cats” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_027",
+      "prompt": "My parents _____ in a small town.",
+      "options": [
+        {
+          "id": "a",
+          "label": "live"
+        },
+        {
+          "id": "b",
+          "label": "lives"
+        },
+        {
+          "id": "c",
+          "label": "are living"
+        },
+        {
+          "id": "d",
+          "label": "lived"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là sự thật về nơi ở. “My parents” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_028",
+      "prompt": "The movie _____ at 8 PM tonight.",
+      "options": [
+        {
+          "id": "a",
+          "label": "begins"
+        },
+        {
+          "id": "b",
+          "label": "begin"
+        },
+        {
+          "id": "c",
+          "label": "is beginning"
+        },
+        {
+          "id": "d",
+          "label": "began"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lịch trình cố định (phim chiếu) dùng Hiện tại đơn, dù có “tonight”. “The movie” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_029",
+      "prompt": "I often _____ my grandmother on Sundays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "visit"
+        },
+        {
+          "id": "b",
+          "label": "visits"
+        },
+        {
+          "id": "c",
+          "label": "am visiting"
+        },
+        {
+          "id": "d",
+          "label": "visited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Often” chỉ thói quen. Chủ ngữ “I” nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_030",
+      "prompt": "He _____ not _____ meat. He is a vegetarian.",
+      "options": [
+        {
+          "id": "a",
+          "label": "does...eat"
+        },
+        {
+          "id": "b",
+          "label": "do...eat"
+        },
+        {
+          "id": "c",
+          "label": "is...eating"
+        },
+        {
+          "id": "d",
+          "label": "did...eat"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“He is a vegetarian” là sự thật, nên hành động không ăn thịt cũng là sự thật/thói quen. “He” dùng “does not”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_031",
+      "prompt": "Water _____ at 0 degrees Celsius.",
+      "options": [
+        {
+          "id": "a",
+          "label": "freezes"
+        },
+        {
+          "id": "b",
+          "label": "freeze"
+        },
+        {
+          "id": "c",
+          "label": "is freezing"
+        },
+        {
+          "id": "d",
+          "label": "froze"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là sự thật khoa học. “Water” (không đếm được, số ít) nên động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_032",
+      "prompt": "They _____ to the gym three times a week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "go"
+        },
+        {
+          "id": "b",
+          "label": "goes"
+        },
+        {
+          "id": "c",
+          "label": "are going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Three times a week” chỉ thói quen/tần suất. “They” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_033",
+      "prompt": "She always _____ her homework before dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "does"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "is doing"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Always” chỉ thói quen. Chủ ngữ “She” (số ít) nên động từ thêm -es."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_034",
+      "prompt": "My brother _____ a lot of books about science.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reads"
+        },
+        {
+          "id": "b",
+          "label": "read"
+        },
+        {
+          "id": "c",
+          "label": "is reading"
+        },
+        {
+          "id": "d",
+          "label": "reading"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là thói quen/sở thích. “My brother” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_035",
+      "prompt": "We _____ usually _____ late for class.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't arrive"
+        },
+        {
+          "id": "b",
+          "label": "doesn't arrive"
+        },
+        {
+          "id": "c",
+          "label": "aren't arriving"
+        },
+        {
+          "id": "d",
+          "label": "didn't arrive"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” chỉ thói quen. “We” (số nhiều) dùng “don't” cho phủ định trong Hiện tại đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_036",
+      "prompt": "The museum _____ at 10 AM every day except Monday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "opens"
+        },
+        {
+          "id": "b",
+          "label": "open"
+        },
+        {
+          "id": "c",
+          "label": "is opening"
+        },
+        {
+          "id": "d",
+          "label": "opened"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every day” chỉ lịch trình cố định. “The museum” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_037",
+      "prompt": "What _____ you usually _____ on weekends?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do...do"
+        },
+        {
+          "id": "b",
+          "label": "does...do"
+        },
+        {
+          "id": "c",
+          "label": "are...doing"
+        },
+        {
+          "id": "d",
+          "label": "did...do"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Usually” chỉ thói quen. “You” dùng “do” cho câu hỏi và động từ chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_038",
+      "prompt": "He _____ a new language every year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learns"
+        },
+        {
+          "id": "b",
+          "label": "learn"
+        },
+        {
+          "id": "c",
+          "label": "is learning"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every year” chỉ thói quen. Chủ ngữ “He” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_039",
+      "prompt": "My parents _____ not _____ television very often.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do...watch"
+        },
+        {
+          "id": "b",
+          "label": "does...watch"
+        },
+        {
+          "id": "c",
+          "label": "are...watching"
+        },
+        {
+          "id": "d",
+          "label": "did...watch"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Very often” chỉ tần suất. “My parents” (số nhiều) dùng “do not” cho phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_040",
+      "prompt": "The train to Ho Chi Minh City _____ from Platform 3.",
+      "options": [
+        {
+          "id": "a",
+          "label": "departs"
+        },
+        {
+          "id": "b",
+          "label": "depart"
+        },
+        {
+          "id": "c",
+          "label": "is departing"
+        },
+        {
+          "id": "d",
+          "label": "departed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lịch trình cố định dùng Hiện tại đơn. “The train” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_041",
+      "prompt": "She _____ that honesty _____ the best policy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believes...is"
+        },
+        {
+          "id": "b",
+          "label": "believe...is"
+        },
+        {
+          "id": "c",
+          "label": "believes...are"
+        },
+        {
+          "id": "d",
+          "label": "is believing...is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Believe” là động từ chỉ trạng thái. “She” (số ít) dùng “believes”. “Honesty” (số ít) dùng “is”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_042",
+      "prompt": "How often _____ your dog _____ for a walk?",
+      "options": [
+        {
+          "id": "a",
+          "label": "does...go"
+        },
+        {
+          "id": "b",
+          "label": "do...go"
+        },
+        {
+          "id": "c",
+          "label": "is...going"
+        },
+        {
+          "id": "d",
+          "label": "did...go"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“How often” hỏi về tần suất. “Your dog” (số ít) dùng “does”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_043",
+      "prompt": "We _____ our grandparents every Christmas.",
+      "options": [
+        {
+          "id": "a",
+          "label": "visit"
+        },
+        {
+          "id": "b",
+          "label": "visits"
+        },
+        {
+          "id": "c",
+          "label": "are visiting"
+        },
+        {
+          "id": "d",
+          "label": "visited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every Christmas” chỉ thói quen/truyền thống. “We” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_044",
+      "prompt": "The moon _____ around the Earth.",
+      "options": [
+        {
+          "id": "a",
+          "label": "orbits"
+        },
+        {
+          "id": "b",
+          "label": "orbit"
+        },
+        {
+          "id": "c",
+          "label": "is orbiting"
+        },
+        {
+          "id": "d",
+          "label": "orbited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là sự thật khoa học. “The moon” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_045",
+      "prompt": "My brother and I often _____ video games together.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "plays"
+        },
+        {
+          "id": "c",
+          "label": "are playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Often” chỉ thói quen. “My brother and I” (số nhiều) nên động từ giữ nguyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_046",
+      "prompt": "The bus _____ at the corner every 15 minutes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stops"
+        },
+        {
+          "id": "b",
+          "label": "stop"
+        },
+        {
+          "id": "c",
+          "label": "is stopping"
+        },
+        {
+          "id": "d",
+          "label": "stopped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Every 15 minutes” chỉ lịch trình cố định. “The bus” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_047",
+      "prompt": "He never _____ his promises.",
+      "options": [
+        {
+          "id": "a",
+          "label": "breaks"
+        },
+        {
+          "id": "b",
+          "label": "break"
+        },
+        {
+          "id": "c",
+          "label": "is breaking"
+        },
+        {
+          "id": "d",
+          "label": "broke"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Never” chỉ thói quen/tính cách. Chủ ngữ “He” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_048",
+      "prompt": "Where _____ your parents _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do...work"
+        },
+        {
+          "id": "b",
+          "label": "does...work"
+        },
+        {
+          "id": "c",
+          "label": "are...working"
+        },
+        {
+          "id": "d",
+          "label": "did...work"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hỏi về sự thật/nơi làm việc. “Your parents” (số nhiều) dùng “do”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_049",
+      "prompt": "The scientific subject _____ a lot of complex theories.",
+      "options": [
+        {
+          "id": "a",
+          "label": "includes"
+        },
+        {
+          "id": "b",
+          "label": "include"
+        },
+        {
+          "id": "c",
+          "label": "is including"
+        },
+        {
+          "id": "d",
+          "label": "included"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là sự thật về môn học. “The scientific subject” (số ít) nên động từ thêm -s."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_050",
+      "prompt": "If you _____ a lot, you _____ tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "study...get"
+        },
+        {
+          "id": "b",
+          "label": "studies...gets"
+        },
+        {
+          "id": "c",
+          "label": "are studying...get"
+        },
+        {
+          "id": "d",
+          "label": "studied...got"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là câu điều kiện loại 0 (sự thật). Cả hai mệnh đề dùng Hiện tại đơn. “You” dùng “study” và “get”."
+  }
+]

@@ -26,19 +26,48 @@ def safe_topic(topic: str) -> str:
 
 def load_per_item(path: Path) -> List[Dict[str, Any]]:
     rows: List[Dict[str, Any]] = []
-    with path.open('r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
+    with path.open('r', encoding='utf-8', newline='') as f:
+        reader = csv.DictReader(f, skipinitialspace=True)
+        # Normalize header names by trimming whitespace
+        if reader.fieldnames:
+            reader.fieldnames = [(fn or '').strip() for fn in reader.fieldnames]
         for r in reader:
-            rows.append(r)
+            if r is None:
+                continue
+            norm: Dict[str, Any] = {}
+            for k, v in r.items():
+                kk = (k or '').strip()
+                if isinstance(v, str):
+                    vv = v.strip()
+                else:
+                    vv = v
+                norm[kk] = vv
+            if not any(str(v).strip() for v in norm.values()):
+                continue
+            rows.append(norm)
     return rows
 
 
 def load_summary(path: Path) -> List[Dict[str, Any]]:
     rows: List[Dict[str, Any]] = []
-    with path.open('r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
+    with path.open('r', encoding='utf-8', newline='') as f:
+        reader = csv.DictReader(f, skipinitialspace=True)
+        if reader.fieldnames:
+            reader.fieldnames = [(fn or '').strip() for fn in reader.fieldnames]
         for r in reader:
-            rows.append(r)
+            if r is None:
+                continue
+            norm: Dict[str, Any] = {}
+            for k, v in r.items():
+                kk = (k or '').strip()
+                if isinstance(v, str):
+                    vv = v.strip()
+                else:
+                    vv = v
+                norm[kk] = vv
+            if not any(str(v).strip() for v in norm.values()):
+                continue
+            rows.append(norm)
     return rows
 
 
@@ -74,6 +103,8 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
     summary_csv = run_dir / 'summary.csv'
     paired_overall_csv = run_dir / 'paired_overall.csv'
     winloss_csv = run_dir / 'winloss.csv'
+    inter_judge_csv = run_dir / 'inter_judge.csv'
+    inter_judge_by_topic_csv = run_dir / 'inter_judge_by_topic.csv'
     if not per_item_csv.exists() or not summary_csv.exists():
         raise SystemExit(f"Missing per_item or summary CSV in {run_dir}")
 
@@ -123,7 +154,9 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
     sum_cols = [
         'run_id','config','topic','type','seed','n_items','structural_pass_pct',
         'semantic_mean','semantic_std','semantic_se','semantic_ci95_low','semantic_ci95_high',
-        'judge_mean','judge_std','judge_se','judge_ci95_low','judge_ci95_high'
+        'judge_mean','judge_std','judge_se','judge_ci95_low','judge_ci95_high',
+        # Optional judge2 aggregate metrics if present in CSV
+        'judge2_mean','judge2_std','judge2_se','judge2_ci95_low','judge2_ci95_high'
     ]
     ws_sum.append(sum_cols)
     for r in sum_rows:
@@ -133,22 +166,27 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
     cmp_cols = [
         'run_id','config','topic','type','seed','idx',
         'source_text',
-        'gold_prompt','gold_answer_or_correct','gold_options',
-        'pred_prompt','pred_answer_or_correct','pred_options',
-        'structural_valid','prompt_sim','ans_sim','distractor_diversity','ans_score','item_score','judge_verdict','judge_score','judge_why'
+        'gold_question','gold_answer_or_correct','gold_options',
+        'pred_question','pred_answer_or_correct','pred_options',
+        'structural_valid','question_sim','ans_sim','distractor_diversity','ans_score','item_score',
+        'judge_verdict','judge_score','judge_why',
+        # Optional judge2 per-item details
+        'judge2_verdict','judge2_score','judge2_why'
     ]
     ws_cmp.append(cmp_cols)
 
     # Quick preflight for missing gold/pred files (per-source aware)
     missing_gold = set()
     missing_pred = set()
+    def _get(r: Dict[str, Any], k: str) -> str:
+        return str(r.get(k, '')).strip()
     for r in per_rows:
-        topic = r['topic']
-        qtype = r['type']
-        config = r['config']
-        seed = str(r['seed'])
+        topic = _get(r, 'topic')
+        qtype = _get(r, 'type')
+        config = _get(r, 'config')
+        seed = _get(r, 'seed')
         st = safe_topic(topic)
-        sha = r.get('source_text_sha')
+        sha = _get(r, 'source_text_sha') or None
         if sha:
             gp = Path(f"benchmark/gold/{st}/{qtype}/{sha}/seed0.json")
             pp = Path(f"benchmark/pred/{config}/{st}/{qtype}/{sha}/seed{seed}.json")
@@ -165,13 +203,18 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
         print(f"Note: missing pred for {len(missing_pred)} config/seed/topic/type combos — pred columns may be blank.")
 
     for r in per_rows:
-        topic = r['topic']
-        qtype = r['type']
-        config = r['config']
-        seed = str(r['seed'])
-        idx = int(r['idx'])
+        topic = _get(r, 'topic')
+        qtype = _get(r, 'type')
+        config = _get(r, 'config')
+        seed = _get(r, 'seed')
+        idx_s = _get(r, 'idx')
+        try:
+            idx = int(idx_s)
+        except Exception:
+            # Skip rows without a valid idx
+            continue
         source_text = ''
-        sha = r.get('source_text_sha')
+        sha = _get(r, 'source_text_sha') or None
         if sha and sha in text_map:
             source_text = text_map[sha]
 
@@ -194,11 +237,11 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
             p_opts_s = format_mcq_options(p_opts)
 
             row = [
-                r['run_id'], config, topic, qtype, r['seed'], idx,
+                _get(r,'run_id'), config, topic, qtype, _get(r,'seed'), idx,
                 source_text,
                 g_prompt, g_corr, g_opts_s,
                 p_prompt, p_corr, p_opts_s,
-                r.get('structural_valid',''), r.get('prompt_sim',''), r.get('ans_sim',''), r.get('distractor_diversity',''), r.get('ans_score',''), r.get('item_score',''), r.get('judge_verdict',''), r.get('judge_score',''), r.get('judge_why','')
+                _get(r,'structural_valid'), (_get(r,'question_sim') or _get(r,'prompt_sim')), _get(r,'ans_sim'), _get(r,'distractor_diversity'), _get(r,'ans_score'), _get(r,'item_score'), _get(r,'judge_verdict'), _get(r,'judge_score'), _get(r,'judge_why'), _get(r,'judge2_verdict'), _get(r,'judge2_score'), _get(r,'judge2_why')
             ]
         else:
             g_prompt = gi.get('question',{}).get('prompt','')
@@ -208,11 +251,11 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
             p_ans = pi.get('answer','')
 
             row = [
-                r['run_id'], config, topic, qtype, r['seed'], idx,
+                _get(r,'run_id'), config, topic, qtype, _get(r,'seed'), idx,
                 source_text,
                 g_prompt, g_ans, '',
                 p_prompt, p_ans, '',
-                r.get('structural_valid',''), r.get('prompt_sim',''), r.get('ans_sim',''), '', r.get('ans_score',''), r.get('item_score',''), r.get('judge_verdict',''), r.get('judge_score',''), r.get('judge_why','')
+                _get(r,'structural_valid'), (_get(r,'question_sim') or _get(r,'prompt_sim')), _get(r,'ans_sim'), '', _get(r,'ans_score'), _get(r,'item_score'), _get(r,'judge_verdict'), _get(r,'judge_score'), _get(r,'judge_why'), _get(r,'judge2_verdict'), _get(r,'judge2_score'), _get(r,'judge2_why')
             ]
 
         ws_cmp.append(row)
@@ -235,6 +278,8 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
 
     ws_paired = add_sheet_from_csv(paired_overall_csv, 'paired_overall')
     ws_winloss = add_sheet_from_csv(winloss_csv, 'winloss')
+    ws_inter = add_sheet_from_csv(inter_judge_csv, 'inter_judge')
+    ws_inter_topic = add_sheet_from_csv(inter_judge_by_topic_csv, 'inter_judge_by_topic')
 
     # Autosize columns for all sheets we created
     for ws in wb.worksheets:

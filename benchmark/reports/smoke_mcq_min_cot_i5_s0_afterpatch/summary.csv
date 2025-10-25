@@ -1,0 +1,5 @@
+run_id,config,topic,type,seed,n_items,structural_pass_pct,semantic_mean,semantic_std,semantic_se,semantic_ci95_low,semantic_ci95_high,judge_mean,judge_std,judge_se,judge_ci95_low,judge_ci95_high,judge2_mean,judge2_std,judge2_se,judge2_ci95_low,judge2_ci95_high
+smoke_mcq_min_cot_i5_s0_afterpatch,minimal,First Conditional,mcq,0,5,100.0,0.5442,0.086,0.0385,0.4688,0.6196,0.9,0.2236,0.1,0.704,1.0,0.7,0.2739,0.1225,0.46,0.94
+smoke_mcq_min_cot_i5_s0_afterpatch,cot,First Conditional,mcq,0,5,100.0,0.6126,0.0991,0.0443,0.5257,0.6995,0.9,0.2236,0.1,0.704,1.0,0.8,0.4472,0.2,0.408,1.0
+smoke_mcq_min_cot_i5_s0_afterpatch,minimal,First Conditional,mcq,0,5,100.0,0.6325,0.1049,0.0469,0.5405,0.7244,0.6,0.2236,0.1,0.404,0.796,0.9,0.2236,0.1,0.704,1.0
+smoke_mcq_min_cot_i5_s0_afterpatch,cot,First Conditional,mcq,0,5,100.0,0.5756,0.0417,0.0187,0.539,0.6121,0.6,0.2236,0.1,0.404,0.796,0.9,0.2236,0.1,0.704,1.0

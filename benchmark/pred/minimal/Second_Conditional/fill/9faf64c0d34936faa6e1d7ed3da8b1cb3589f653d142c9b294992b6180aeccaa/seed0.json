@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_001",
+      "prompt": "If I _____ a lot of money, I would travel the world."
+    },
+    "answer": "had",
+    "hint": "Đây là câu điều kiện loại 2, diễn tả điều không có thật ở hiện tại. Mệnh đề 'if' dùng thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_002",
+      "prompt": "If she were taller, she _____ reach the top shelf."
+    },
+    "answer": "could",
+    "hint": "Đây là câu điều kiện loại 2, diễn tả khả năng không có thật ở hiện tại. Mệnh đề chính dùng 'would/could/might + V nguyên mẫu'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_003",
+      "prompt": "If he _____ harder, he would pass the exam."
+    },
+    "answer": "studied",
+    "hint": "Câu điều kiện loại 2, diễn tả một giả định không có thật ở hiện tại. Mệnh đề 'if' dùng thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_004",
+      "prompt": "If I knew her address, I _____ visit her."
+    },
+    "answer": "would",
+    "hint": "Đây là câu điều kiện loại 2, diễn tả một hành động giả định không có thật ở hiện tại. Mệnh đề chính dùng 'would + V nguyên mẫu'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_005",
+      "prompt": "If it _____, we would stay home."
+    },
+    "answer": "rained",
+    "hint": "Câu điều kiện loại 2, diễn tả một tình huống không có thật ở hiện tại. Mệnh đề 'if' dùng thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_006",
+      "prompt": "If I _____ you, I would accept the offer."
+    },
+    "answer": "were",
+    "hint": "Trong câu điều kiện loại 2, động từ 'to be' luôn dùng 'were' cho tất cả các ngôi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_007",
+      "prompt": "If they had more time, they _____ learn a new language."
+    },
+    "answer": "might",
+    "hint": "Câu điều kiện loại 2, diễn tả một khả năng không chắc chắn ở hiện tại. Mệnh đề chính có thể dùng 'might + V nguyên mẫu'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_008",
+      "prompt": "What would you do if you _____ the lottery?"
+    },
+    "answer": "won",
+    "hint": "Câu điều kiện loại 2, diễn tả một tình huống giả định không có thật ở hiện tại. Mệnh đề 'if' dùng thì quá khứ đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_009",
+      "prompt": "If she _____ to work, she would go on vacation."
+    },
+    "answer": "didn't have",
+    "hint": "Câu điều kiện loại 2 ở dạng phủ định. Mệnh đề 'if' dùng 'didn't + V nguyên mẫu'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "fill_010",
+      "prompt": "If we lived closer, we _____ see each other more often."
+    },
+    "answer": "could",
+    "hint": "Câu điều kiện loại 2, diễn tả một khả năng không có thật ở hiện tại. Mệnh đề chính dùng 'could + V nguyên mẫu'."
+  }
+]

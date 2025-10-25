@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_001",
+      "prompt": "A few days ago, my friend _____ to cheer me up.",
+      "options": [
+        {
+          "id": "a",
+          "label": "try"
+        },
+        {
+          "id": "b",
+          "label": "tries"
+        },
+        {
+          "id": "c",
+          "label": "tried"
+        },
+        {
+          "id": "d",
+          "label": "trying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng thì quá khứ đơn với động từ có quy tắc khi có mốc thời gian cụ thể trong quá khứ như \"a few days ago\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_002",
+      "prompt": "Fifty _____ my father's age, but now I am stuck with this number.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Fifty\" là chủ ngữ số ít, và hành động xảy ra trong quá khứ (trước khi người viết \"stuck with this number\"), nên dùng \"was\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_003",
+      "prompt": "I _____ prepared to have fifty hung on me, but it happened.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am not"
+        },
+        {
+          "id": "b",
+          "label": "wasn't"
+        },
+        {
+          "id": "c",
+          "label": "didn't be"
+        },
+        {
+          "id": "d",
+          "label": "haven't been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"wasn't\" để diễn tả sự việc không xảy ra trong quá khứ với động từ \"to be\". \"Didn't be\" là sai ngữ pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_004",
+      "prompt": "When _____ you turn fifty?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để hỏi về một hành động đã xảy ra trong quá khứ, chúng ta dùng trợ động từ \"did\" cho thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_005",
+      "prompt": "The high-jump bar _____ from six feet to four feet a long time ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drops"
+        },
+        {
+          "id": "b",
+          "label": "has dropped"
+        },
+        {
+          "id": "c",
+          "label": "dropped"
+        },
+        {
+          "id": "d",
+          "label": "is dropping"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"A long time ago\" là dấu hiệu của thì quá khứ đơn, nên động từ phải ở dạng quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_006",
+      "prompt": "Last year, Robert Browning _____ that growing old is the best change of all.",
+      "options": [
+        {
+          "id": "a",
+          "label": "considers"
+        },
+        {
+          "id": "b",
+          "label": "considered"
+        },
+        {
+          "id": "c",
+          "label": "has considered"
+        },
+        {
+          "id": "d",
+          "label": "is considering"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Last year\" là mốc thời gian cụ thể trong quá khứ, yêu cầu dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_007",
+      "prompt": "In 2005, the philosopher _____ that 'Old is always fifteen years from now'.",
+      "options": [
+        {
+          "id": "a",
+          "label": "says"
+        },
+        {
+          "id": "b",
+          "label": "said"
+        },
+        {
+          "id": "c",
+          "label": "has said"
+        },
+        {
+          "id": "d",
+          "label": "is saying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"In 2005\" là một mốc thời gian cụ thể trong quá khứ, nên động từ phải ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_008",
+      "prompt": "Yesterday, I _____ to share some thoughts on aging with my friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "move"
+        },
+        {
+          "id": "b",
+          "label": "moved"
+        },
+        {
+          "id": "c",
+          "label": "have moved"
+        },
+        {
+          "id": "d",
+          "label": "am moving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Yesterday\" là trạng từ chỉ thời gian trong quá khứ, nên động từ chính phải chia ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_009",
+      "prompt": "I once easily _____ the six feet high-jump bar, but not anymore.",
+      "options": [
+        {
+          "id": "a",
+          "label": "clear"
+        },
+        {
+          "id": "b",
+          "label": "cleared"
+        },
+        {
+          "id": "c",
+          "label": "have cleared"
+        },
+        {
+          "id": "d",
+          "label": "am clearing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Once\" chỉ một hành động đã xảy ra trong quá khứ và không còn tiếp diễn, nên dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ps_010",
+      "prompt": "Most of my first fifty years _____ golden ones before I turned fifty.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "have been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu này nói về một khoảng thời gian đã kết thúc trong quá khứ (\"first fifty years\" trước khi \"turned fifty\"), nên dùng thì quá khứ đơn."
+  }
+]

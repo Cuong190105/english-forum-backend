@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_01",
+      "prompt": "If politicians _____ animal abuse more seriously, many animals would be safer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "take"
+        },
+        {
+          "id": "b",
+          "label": "took"
+        },
+        {
+          "id": "c",
+          "label": "would take"
+        },
+        {
+          "id": "d",
+          "label": "had taken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu điều kiện loại 2 diễn tả giả định ở hiện tại. Mệnh đề 'if' dùng thì quá khứ đơn (V2/V-ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_02",
+      "prompt": "What _____ you do if you saw someone abusing an animal on the street?",
+      "options": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "would"
+        },
+        {
+          "id": "d",
+          "label": "do"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Đây là câu hỏi giả định ở hiện tại. Mệnh đề chính trong câu điều kiện loại 2 dùng 'would + V-nguyên thể'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_03",
+      "prompt": "If I _____ you, I would write to my representatives about this issue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "would be"
+        },
+        {
+          "id": "d",
+          "label": "were"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trong câu điều kiện loại 2, ta dùng 'were' cho tất cả các ngôi (I, he, she, it) để diễn tả giả định trái với sự thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_04",
+      "prompt": "If everyone _____ that one person could make a difference, more animals would be helped.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believed"
+        },
+        {
+          "id": "b",
+          "label": "believes"
+        },
+        {
+          "id": "c",
+          "label": "would believe"
+        },
+        {
+          "id": "d",
+          "label": "has believed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 2 diễn tả một tình huống tưởng tượng, không có thật ở hiện tại. Mệnh đề 'if' chia ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_05",
+      "prompt": "Many stray animals _____ a warm shelter if more people volunteered at animal rescue centers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will find"
+        },
+        {
+          "id": "b",
+          "label": "find"
+        },
+        {
+          "id": "c",
+          "label": "would find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề chính của câu điều kiện loại 2 (diễn tả kết quả của giả định) có cấu trúc 'would + động từ nguyên thể'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_06",
+      "prompt": "If we _____ more money, we would donate it to an organization like the Humane Society.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "had"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "were having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để diễn tả một giả định không có thật ở hiện tại (chúng ta không có nhiều tiền), mệnh đề 'if' phải dùng thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_07",
+      "prompt": "It would be easier to help animals if they _____ talk and tell us what they needed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can"
+        },
+        {
+          "id": "b",
+          "label": "will"
+        },
+        {
+          "id": "c",
+          "label": "could"
+        },
+        {
+          "id": "d",
+          "label": "are able to"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu điều kiện loại 2, mệnh đề 'if' dùng thì quá khứ đơn. 'Could' là dạng quá khứ của 'can', diễn tả khả năng giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_08",
+      "prompt": "The community would be more informed if the local government _____ a campaign about animal rights.",
+      "options": [
+        {
+          "id": "a",
+          "label": "launches"
+        },
+        {
+          "id": "b",
+          "label": "launched"
+        },
+        {
+          "id": "c",
+          "label": "will launch"
+        },
+        {
+          "id": "d",
+          "label": "would launch"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là tình huống giả định ở hiện tại. Mệnh đề 'if' trong câu điều kiện loại 2 luôn chia ở thì quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_09",
+      "prompt": "If people _____ so indifferent, animal abuse wouldn't be such a widespread issue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "aren't"
+        },
+        {
+          "id": "b",
+          "label": "wouldn't be"
+        },
+        {
+          "id": "c",
+          "label": "hadn't been"
+        },
+        {
+          "id": "d",
+          "label": "weren't"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu điều kiện loại 2 dùng 'were' (hoặc 'weren't') cho tất cả các ngôi trong mệnh đề 'if' để diễn tả giả định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "animal_cond_10",
+      "prompt": "If you _____ a stray dog on the street, would you buy it some food?",
+      "options": [
+        {
+          "id": "a",
+          "label": "see"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "would see"
+        },
+        {
+          "id": "d",
+          "label": "have seen"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu hỏi điều kiện loại 2, mệnh đề 'if' vẫn phải tuân theo quy tắc dùng thì quá khứ đơn để nêu giả định."
+  }
+]

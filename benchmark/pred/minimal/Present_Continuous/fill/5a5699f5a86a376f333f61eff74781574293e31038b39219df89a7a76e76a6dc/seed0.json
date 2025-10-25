@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "q1",
+      "prompt": "A horse, a panda and a cat _____."
+    },
+    "answer": "are running",
+    "hint": "Miêu tả hành động của ngựa, gấu trúc và mèo."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q2",
+      "prompt": "A dog and two tigers _____ over there."
+    },
+    "answer": "are jumping",
+    "hint": "Miêu tả hành động của chó và hổ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q3",
+      "prompt": "Two monkeys _____ the trees."
+    },
+    "answer": "are climbing",
+    "hint": "Miêu tả hành động của hai con khỉ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q4",
+      "prompt": "Four birds _____ around and singing."
+    },
+    "answer": "are flying",
+    "hint": "Miêu tả hành động bay của những con chim."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q5",
+      "prompt": "The elephants _____."
+    },
+    "answer": "are standing",
+    "hint": "Miêu tả tư thế của những con voi."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q6",
+      "prompt": "A monkey _____ on an old elephant."
+    },
+    "answer": "is sitting",
+    "hint": "Miêu tả vị trí của con khỉ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q7",
+      "prompt": "Polly _____ in the tree."
+    },
+    "answer": "is sitting",
+    "hint": "Miêu tả vị trí của Polly."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q8",
+      "prompt": "A fox, a baby panda and some small animals _____ under the tree."
+    },
+    "answer": "are sitting",
+    "hint": "Miêu tả vị trí của cáo, gấu trúc con và các con vật nhỏ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q9",
+      "prompt": "Four birds are flying around and _____."
+    },
+    "answer": "singing",
+    "hint": "Miêu tả hành động thứ hai của những con chim."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "q10",
+      "prompt": "All the animals _____ the sports meeting."
+    },
+    "answer": "are watching",
+    "hint": "Miêu tả hành động của tất cả các con vật."
+  }
+]

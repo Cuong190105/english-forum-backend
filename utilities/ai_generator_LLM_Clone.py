@@ -3,6 +3,7 @@ import os
 import json
 import re
 from typing import List, Dict, Any, Optional, Literal
+from pathlib import Path
 
 # --- SDK imports ---
 try:
@@ -35,6 +36,88 @@ def _get_client():
         _GENAI_CLIENT = genai.Client(api_key=key)
         _GENAI_KEY = key
     return _GENAI_CLIENT
+
+# =========================
+# Topics loading and classification
+# =========================
+
+_TOPICS_CACHE: Optional[List[str]] = None
+
+
+def load_all_topic_displays() -> List[str]:
+    """Load the flattened list of topic display names from benchmark/topics_locked.json."""
+    global _TOPICS_CACHE
+    if _TOPICS_CACHE is not None:
+        return _TOPICS_CACHE
+    # Resolve repo root as parent of this file
+    root = Path(__file__).resolve().parents[1]
+    topics_json = root / 'benchmark' / 'topics_locked.json'
+    if not topics_json.exists():
+        # Fallback: minimal default list
+        _TOPICS_CACHE = [
+            'Present Simple', 'Past Simple', 'Present Perfect', 'Passive (all tenses)',
+            'First Conditional', 'Second Conditional', 'Third Conditional', 'V-ing vs to-V',
+            'Question tags'
+        ]
+        return _TOPICS_CACHE
+    data = json.loads(topics_json.read_text(encoding='utf-8'))
+    displays: List[str] = []
+    for _, arr in data.items():
+        if isinstance(arr, list):
+            for rec in arr:
+                disp = rec.get('display') if isinstance(rec, dict) else None
+                if isinstance(disp, str) and disp.strip():
+                    displays.append(disp.strip())
+    # Deduplicate while preserving order
+    seen = set()
+    uniq: List[str] = []
+    for d in displays:
+        if d not in seen:
+            uniq.append(d)
+            seen.add(d)
+    _TOPICS_CACHE = uniq
+    return _TOPICS_CACHE
+
+
+def classify_topic(text: str) -> str:
+    """Classify input text to the single best grammar topic display name.
+
+    Returns a display string guaranteed to be within the allowed list. Falls back to
+    'Present Simple' if the model doesn't return a valid value.
+    """
+    choices = load_all_topic_displays()
+    # Short-circuit trivial cases
+    if not text or not text.strip():
+        return choices[0] if choices else 'Present Simple'
+
+    # Build a tiny JSON-only prompt
+    prompt = (
+        "You are an English grammar topic classifier.\n"
+        "Given the user's context text, choose exactly ONE topic from the allowed list.\n"
+        "Respond with JSON only: {\"topic_display\": \"<one of the allowed list exactly as-is>\"}.\n\n"
+        f"ALLOWED_TOPICS = {json.dumps(choices, ensure_ascii=False)}\n\n"
+        f"CONTEXT:\n{text}\n\n"
+        "NOW OUTPUT ONLY THE JSON WITH THE 'topic_display' FIELD."
+    )
+
+    try:
+        raw = _call_genai(
+            prompt,
+            response_mime_type='application/json',
+            response_schema=None,
+            temperature=0.0,
+            seed=0,
+        )
+        cleaned = _strip_code_fences(raw)
+        data = json.loads(cleaned)
+        cand = str(data.get('topic_display') or '').strip()
+        if cand in choices:
+            return cand
+    except Exception:
+        if DEBUG:
+            print('[ai] classify_topic: fallback triggered')
+    # Fallback
+    return choices[0] if choices else 'Present Simple'
 # =========================
 # Prompt builders (public helper)
 # =========================
@@ -241,8 +324,9 @@ TOPIC-SPECIFIC RULES — Linking/Adverbials
 """,
     # Questions / Tags
     "question tags": """
-TOPIC-SPECIFIC RULES — Question Tags
-- Ép trợ động từ phù hợp thì/chủ ngữ; phủ định-nghi vấn đối xứng; thêm main clause để loại các tag sai.
+        TOPIC-SPECIFIC RULES — Question Tags
+        - Ép trợ động từ phù hợp với thì và chủ ngữ; phủ định/ nghi vấn phải đối xứng.
+        - Thêm main clause (hoặc context clause) để loại các tag sai và tránh ambiguity.
 """,
     }
 
@@ -372,6 +456,15 @@ def build_locked_prompt(hw_type: str, locked_topic: str, post_text: str, num_ite
         minimal_guidance = (
             "ONLY OUTPUT JSON. DO NOT WRITE ANYTHING ELSE.\n"
             "Obey all rules above: locked topic, language policy, and schema.\n"
+            "\n"
+            "ADDITIONAL MINIMAL CHECKLIST (STRICT):\n"
+            "- Enforce topic lock: every item must test only the provided topic and include at least one disambiguating cue.\n"
+            "- For MCQ: exactly 4 options a,b,c,d; exactly one correctOptionId; distractors must reflect common VN-learner errors.\n"
+            "- For FILL: exactly one blank '_____'; answer must be a short canonical string (no surrounding punctuation).\n"
+            "- Include a short Vietnamese hint ≤30 words explaining the typical error.\n"
+            "- Final output must be JSON array only and validate against the schema.\n"
+            "\n"
+            "If you cannot meet these constraints, output an empty JSON list [] rather than free-form text.\n"
         )
         return f"{base_rules}\n{minimal_guidance}\n{user_common}"
 
@@ -611,95 +704,76 @@ def generate_with_llm(
 
     list_model, item_hint = _pick_schema_and_hint(hw_type)
 
-    # If caller provides a full prompt, use it as-is
+    # Choose prompt: either full_prompt or a locked-topic prompt via the shared builders
     if full_prompt is not None:
         prompt_to_use = full_prompt
     else:
-        # Build prompt according to mode and whether a locked topic is provided
-        if locked_topic:
-            if mode == 'cot':
-                # Single source of truth for CoT prompts
-                prompt_to_use = build_locked_prompt_cot(hw_type, locked_topic, post_text, num_items)
-            else:
-                minimal_guidance = (
-                    "ONLY OUTPUT JSON. DO NOT WRITE ANYTHING ELSE.\n"
-                    "Obey all rules above: locked topic, language policy, and schema.\n"
-                )
-                base_rules = (
-                    "You are an expert English-assessment writer for Vietnamese students.\n"
-                    "OUTPUT JSON ONLY per the provided schema — no markdown, no commentary.\n\n"
-                    "LANGUAGE POLICY\n"
-                    "- Stems & options/answers: English.\n"
-                    "- Hints: Vietnamese.\n\n"
-                    "STRICT RULES\n"
-                    "- Type: \"mcq\" or \"fill\" (provided by user).\n"
-                    "- Exactly N items.\n"
-                    "- Topic is LOCKED to the provided topic; every item MUST target that topic only (no topic drift).\n"
-                    "- For \"fill\": prompt contains exactly one \"_____\".\n"
-                    "- For \"mcq\": exactly 4 options with ids \"a\",\"b\",\"c\",\"d\" and exactly one correctOptionId.\n\n"
-                    "QUALITY\n"
-                    "- VN school contexts; common VN-learner errors; unambiguous stems; plausible distractors; concise Vietnamese hints.\n"
-                )
-                user_common = (
-                    f"Type: {hw_type}\n"
-                    f"Topic (LOCKED): \"{locked_topic}\"\n"
-                    f"Count (N): {num_items}\n"
-                    f"Source text (may mix EN+VI):\n\n{post_text}\n\n"
-                    f"Output: JSON according to schema.\n"
-                    f"{item_hint}"
-                )
-                prompt_to_use = f"{base_rules}\n{minimal_guidance}\n{user_common}"
+        if not locked_topic:
+            raise ValueError("locked_topic is required. Use generate_exercises_from_context() to auto-classify a topic.")
+        if mode == 'cot':
+            prompt_to_use = build_locked_prompt_cot(hw_type, locked_topic, post_text, num_items)
         else:
-            # Backward-compatible prompts used by existing four-sets pipeline
-            cot_prompt = f"""You are an expert English teacher specializing in Vietnamese English exams. Follow this step-by-step analysis:
+            prompt_to_use = build_locked_prompt(hw_type, locked_topic, post_text, num_items, mode='minimal')
 
-CONTENT TO ANALYZE:
-{post_text}
+    if temperature is None:
+        temperature = 0.0
 
-**STEP 1: TOPIC & VOCABULARY ANALYSIS**
-Identify grammar topics relevant to Vietnamese exams and key vocabulary.
-
-**STEP 2: QUESTION PRIORITIZATION STRATEGY**
-Plan {num_items} {hw_type} high-quality questions.
-
-**STEP 3: QUESTION CREATION**
-Create the {num_items} questions (VN school context, common VN-learner errors, unambiguous stems, concise Vietnamese hints).
-
-FORMAT REQUIREMENTS:
-{item_hint}
-
-ONLY OUTPUT THE JSON LIST OF ITEMS."""
-            if mode == 'minimal':
-                minimal_prompt = (
-                    f"Create exactly {num_items} {hw_type} questions from the following text. "
-                    f"ONLY OUTPUT JSON following this schema: {item_hint} "
-                    f"Text: {post_text}"
-                )
-                prompt_to_use = minimal_prompt
-            else:
-                prompt_to_use = cot_prompt
-
-    # Ask model to produce structured output as JSON string (no SDK schema to avoid transformer issues)
     raw = _call_genai(
         prompt_to_use,
         model=model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash',
         response_mime_type='application/json',
-        response_schema=list_model,  # enable SDK structured-output with Pydantic schema
+        response_schema=list_model,
         temperature=temperature,
         seed=seed,
     )
     cleaned = _strip_code_fences(raw)
     try:
-        # Prefer fast JSON-validated path
         validated_list = list_model.model_validate_json(cleaned)
     except ValidationError:
-        # If SDK returned parsed-like JSON text, validate the parsed object
         parsed_any = json.loads(cleaned)
         validated_list = list_model.model_validate(parsed_any)
-    # Convert to list[dict] for downstream compatibility
     return [item.model_dump() for item in validated_list.root]
 
 
-def generate_homework(post_text: str, hw_type: str, num_items: int = 5) -> List[Dict[str, Any]]:
-    """Public API mirroring original: pure GenAI, Pydantic-validated."""
-    return generate_with_llm(post_text, hw_type, num_items)
+def generate_exercises_from_context(
+    context_text: str,
+    hw_type: str,
+    num_items: int = 1,
+    *,
+    mode: str = 'cot',
+    temperature: Optional[float] = None,
+    seed: Optional[int] = 0,
+) -> Dict[str, Any]:
+    """High-level helper: classify topic then generate items locked to that topic.
+
+    Returns a dict with keys: { 'topic': <display>, 'items': [ ... ] }
+    """
+    topic_display = classify_topic(context_text)
+    items = generate_with_llm(
+        post_text=context_text,
+        hw_type=hw_type if hw_type in {'mcq','fill'} else 'mcq',
+        num_items=max(1, int(num_items or 1)),
+        mode=mode if mode in {'cot','minimal'} else 'cot',
+        temperature=0.0 if temperature is None else float(temperature),
+        seed=0 if seed is None else int(seed),
+        locked_topic=topic_display,
+    )
+    return {"topic": topic_display, "items": items}
+
+
+def generate_homework(post_text: str, hw_type: str, num_items: int = 1) -> List[Dict[str, Any]]:
+    """Public API mirroring original but with topic-locked generation.
+
+    This now performs topic classification first, then generates items with the
+    locked topic to avoid drift. For direct control, call generate_with_llm with
+    an explicit locked_topic.
+    """
+    res = generate_exercises_from_context(
+        context_text=post_text,
+        hw_type=hw_type,
+        num_items=num_items,
+        mode='cot',
+        temperature=0.0,
+        seed=0,
+    )
+    return res.get('items', [])

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_001",
+      "prompt": "Look! The children _____ in the garden right now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "play"
+        },
+        {
+          "id": "b",
+          "label": "played"
+        },
+        {
+          "id": "c",
+          "label": "are playing"
+        },
+        {
+          "id": "d",
+          "label": "plays"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Right now” là dấu hiệu của thì hiện tại tiếp diễn, diễn tả hành động đang xảy ra ngay lúc nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_002",
+      "prompt": "Sun Yang _____ in Shaoxing these days for swimming practice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stays"
+        },
+        {
+          "id": "b",
+          "label": "is staying"
+        },
+        {
+          "id": "c",
+          "label": "stayed"
+        },
+        {
+          "id": "d",
+          "label": "will stay"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“These days” chỉ một hành động tạm thời đang diễn ra trong khoảng thời gian hiện tại, dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_003",
+      "prompt": "We _____ our new project manager tomorrow morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "meet"
+        },
+        {
+          "id": "b",
+          "label": "met"
+        },
+        {
+          "id": "c",
+          "label": "are meeting"
+        },
+        {
+          "id": "d",
+          "label": "will meet"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn dùng để diễn tả một kế hoạch hoặc sự sắp xếp đã được định trước trong tương lai gần, có thời gian cụ thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_004",
+      "prompt": "My brother _____ always _____ his keys, which is very annoying.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is / losing"
+        },
+        {
+          "id": "b",
+          "label": "loses / is"
+        },
+        {
+          "id": "c",
+          "label": "has / lost"
+        },
+        {
+          "id": "d",
+          "label": "lost / was"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc “be always + V-ing” dùng để diễn tả một thói quen gây khó chịu hoặc lặp đi lặp lại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_005",
+      "prompt": "The global temperature _____ rapidly due to climate change.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rises"
+        },
+        {
+          "id": "b",
+          "label": "rose"
+        },
+        {
+          "id": "c",
+          "label": "is rising"
+        },
+        {
+          "id": "d",
+          "label": "has risen"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn diễn tả xu hướng hoặc sự thay đổi đang diễn ra. “Rapidly” nhấn mạnh sự thay đổi liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_006",
+      "prompt": "At this very moment, I _____ an important email to my boss.",
+      "options": [
+        {
+          "id": "a",
+          "label": "write"
+        },
+        {
+          "id": "b",
+          "label": "wrote"
+        },
+        {
+          "id": "c",
+          "label": "am writing"
+        },
+        {
+          "id": "d",
+          "label": "have written"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“At this very moment” là dấu hiệu rõ ràng của thì hiện tại tiếp diễn, chỉ hành động đang xảy ra ngay lúc nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_007",
+      "prompt": "They _____ on a new software update all this month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "work"
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "are working"
+        },
+        {
+          "id": "d",
+          "label": "have worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“All this month” chỉ một hành động đang diễn ra trong suốt một khoảng thời gian ở hiện tại, dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_008",
+      "prompt": "What _____ you _____ right now? You look very focused.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do / do"
+        },
+        {
+          "id": "b",
+          "label": "are / doing"
+        },
+        {
+          "id": "c",
+          "label": "did / do"
+        },
+        {
+          "id": "d",
+          "label": "have / done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Right now” và “look very focused” là dấu hiệu của hành động đang diễn ra, cần dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_009",
+      "prompt": "Please be quiet! The baby _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sleeps"
+        },
+        {
+          "id": "b",
+          "label": "isn't sleeping"
+        },
+        {
+          "id": "c",
+          "label": "doesn't sleep"
+        },
+        {
+          "id": "d",
+          "label": "isn't sleep"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Please be quiet!” là lời nhắc nhở về một hành động đang diễn ra. Cần dùng thì hiện tại tiếp diễn ở dạng phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_mcq_010",
+      "prompt": "Why _____ you _____ your umbrella? It's not raining.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do / carry"
+        },
+        {
+          "id": "b",
+          "label": "are / carrying"
+        },
+        {
+          "id": "c",
+          "label": "did / carry"
+        },
+        {
+          "id": "d",
+          "label": "have / carried"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi về hành động đang diễn ra (“Why are you carrying...?”) phù hợp với ngữ cảnh “It's not raining.”"
+  }
+]

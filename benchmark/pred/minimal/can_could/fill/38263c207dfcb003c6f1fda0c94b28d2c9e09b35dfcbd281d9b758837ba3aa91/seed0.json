@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q1",
+      "prompt": "The flight of Shenzhou 7 _____ be timed to coincide with the Beijing Olympics."
+    },
+    "answer": "could",
+    "hint": "“Could” diễn tả một khả năng có thể xảy ra trong tương lai hoặc một khả năng ít chắc chắn hơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q2",
+      "prompt": "China _____ use the Beijing Olympics to promote its achievements before the world."
+    },
+    "answer": "can",
+    "hint": "“Can” diễn tả khả năng hoặc năng lực làm gì đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q3",
+      "prompt": "Chinese engineers _____ make best preparations for this complex mission."
+    },
+    "answer": "can",
+    "hint": "“Can” diễn tả khả năng thực hiện một hành động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q4",
+      "prompt": "China _____ intend to carry out the mission of Shenzhou 7 just as media attention is focused on the lead-up to the Olympics."
+    },
+    "answer": "could",
+    "hint": "“Could” diễn tả một khả năng hoặc ý định có thể xảy ra."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q5",
+      "prompt": "The crew of the flight, and possibly China's other flown astronauts, _____ then take part in the opening ceremony."
+    },
+    "answer": "could",
+    "hint": "“Could” diễn tả một khả năng trong tương lai hoặc một gợi ý."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q6",
+      "prompt": "In the past, China _____ celebrate her space travellers with great events, like Yang Liwei singing with Jacky Chan."
+    },
+    "answer": "could",
+    "hint": "“Could” có thể dùng để nói về khả năng trong quá khứ."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q7",
+      "prompt": "China suggested that the spacewalk _____ be carried out by a single astronaut."
+    },
+    "answer": "can",
+    "hint": "“Can” diễn tả khả năng hoặc sự cho phép."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q8",
+      "prompt": "China _____ follow suit in conservative mission planning and safety."
+    },
+    "answer": "can",
+    "hint": "“Can” diễn tả khả năng hoặc khả năng làm gì đó."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q9",
+      "prompt": "Given its achievements, China _____ certainly impress the world with its space program."
+    },
+    "answer": "can",
+    "hint": "“Can” diễn tả khả năng hoặc sự chắc chắn về một khả năng."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "Q10",
+      "prompt": "If more time is needed for the spacesuit, the mission _____ be delayed."
+    },
+    "answer": "could",
+    "hint": "“Could” diễn tả một khả năng có thể xảy ra trong tương lai, thường là có điều kiện."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_01",
+      "prompt": "According to the research, a special gas _____ out by the cabbage plant whenever its surface is damaged.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is sent"
+        },
+        {
+          "id": "b",
+          "label": "sends"
+        },
+        {
+          "id": "c",
+          "label": "was sent"
+        },
+        {
+          "id": "d",
+          "label": "is sending"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chủ ngữ 'a special gas' là vật, không thể tự thực hiện hành động 'send'. Cần dùng bị động ở thì hiện tại đơn (is + V3) để diễn tả sự thật khoa học."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_02",
+      "prompt": "In the experiment conducted last month, the cabbage gene _____ by the scientists to make it glow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "changed"
+        },
+        {
+          "id": "b",
+          "label": "was changed"
+        },
+        {
+          "id": "c",
+          "label": "is changed"
+        },
+        {
+          "id": "d",
+          "label": "has been changed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'last month' chỉ thời gian trong quá khứ. Chủ ngữ 'the cabbage gene' là đối tượng bị tác động, nên dùng bị động quá khứ đơn (was + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_03",
+      "prompt": "This is the first time that such clear evidence of plant communication _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been proved"
+        },
+        {
+          "id": "b",
+          "label": "was proved"
+        },
+        {
+          "id": "c",
+          "label": "proved"
+        },
+        {
+          "id": "d",
+          "label": "is proved"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'This is the first time' thường đi với thì hiện tại hoàn thành. Chủ ngữ 'evidence' không tự 'prove', nên dùng bị động (has been + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_04",
+      "prompt": "Further research _____ by Professor Smirnoff's team to confirm these findings next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will conduct"
+        },
+        {
+          "id": "b",
+          "label": "is conducted"
+        },
+        {
+          "id": "c",
+          "label": "will be conducted"
+        },
+        {
+          "id": "d",
+          "label": "conducted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'next year' chỉ tương lai. Chủ ngữ 'Further research' là đối tượng bị tác động, nên dùng bị động tương lai đơn (will be + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_05",
+      "prompt": "The video evidence showed that a warning signal _____ by other plants when one was in danger.",
+      "options": [
+        {
+          "id": "a",
+          "label": "could sense"
+        },
+        {
+          "id": "b",
+          "label": "could be sensed"
+        },
+        {
+          "id": "c",
+          "label": "was sensing"
+        },
+        {
+          "id": "d",
+          "label": "has been sensed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Chủ ngữ 'a warning signal' không thể tự 'sense'. Cần dùng bị động với động từ khuyết thiếu 'could' để chỉ khả năng trong quá khứ (could be + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_06",
+      "prompt": "Please be quiet. An important experiment on plant communication _____ in the lab right now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is performing"
+        },
+        {
+          "id": "b",
+          "label": "performs"
+        },
+        {
+          "id": "c",
+          "label": "was performed"
+        },
+        {
+          "id": "d",
+          "label": "is being performed"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ 'right now' chỉ hành động đang diễn ra. Chủ ngữ 'An important experiment' là đối tượng bị tác động, nên dùng bị động hiện tại tiếp diễn (is being + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_07",
+      "prompt": "Yesterday at 3 PM, the plants _____ by the research assistant when the alarm went off.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were watering"
+        },
+        {
+          "id": "b",
+          "label": "were being watered"
+        },
+        {
+          "id": "c",
+          "label": "watered"
+        },
+        {
+          "id": "d",
+          "label": "had been watered"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ ('at 3 PM yesterday'). Chủ ngữ 'the plants' bị tác động, nên dùng bị động quá khứ tiếp diễn (were being + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_08",
+      "prompt": "By the time the team arrived yesterday, the special gas _____ by the plant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had already released"
+        },
+        {
+          "id": "b",
+          "label": "was already released"
+        },
+        {
+          "id": "c",
+          "label": "had already been released"
+        },
+        {
+          "id": "d",
+          "label": "already released"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động xảy ra trước một hành động khác trong quá khứ ('arrived'). Chủ ngữ 'the special gas' bị tác động, nên dùng bị động quá khứ hoàn thành (had been + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_09",
+      "prompt": "The final report on the plant communication study _____ by the university press next month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going to publish"
+        },
+        {
+          "id": "b",
+          "label": "is going to be published"
+        },
+        {
+          "id": "c",
+          "label": "will publish"
+        },
+        {
+          "id": "d",
+          "label": "published"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'next month' và cấu trúc 'be going to' chỉ dự định tương lai. Chủ ngữ 'The final report' bị tác động, nên dùng bị động (is going to be + V3)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "passive_tense_10",
+      "prompt": "The scientists did not expect the results _____ so quickly by the international community.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to accept"
+        },
+        {
+          "id": "b",
+          "label": "accepting"
+        },
+        {
+          "id": "c",
+          "label": "to be accepted"
+        },
+        {
+          "id": "d",
+          "label": "accepted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau động từ 'expect' + tân ngữ, ta dùng 'to-infinitive'. Vì 'the results' là đối tượng bị tác động (bị chấp nhận), nên dùng dạng bị động (to be + V3)."
+  }
+]

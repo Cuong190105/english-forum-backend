@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The teacher always makes her students _____ hard for exams.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to study"
+        },
+        {
+          "id": "b",
+          "label": "study"
+        },
+        {
+          "id": "c",
+          "label": "studying"
+        },
+        {
+          "id": "d",
+          "label": "studied"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Make\" (khi mang nghĩa \"bắt buộc/khiến ai đó làm gì\") theo sau là động từ nguyên mẫu không \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "My parents don't let me _____ out late on weekdays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to go"
+        },
+        {
+          "id": "b",
+          "label": "going"
+        },
+        {
+          "id": "c",
+          "label": "go"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Let\" (khi mang nghĩa \"cho phép ai đó làm gì\") theo sau là động từ nguyên mẫu không \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The doctor advised him _____ more vegetables and fruit.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eat"
+        },
+        {
+          "id": "b",
+          "label": "eating"
+        },
+        {
+          "id": "c",
+          "label": "to eat"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Advise someone to do something\" (khuyên ai đó làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "I want my friends _____ happy and successful in life.",
+      "options": [
+        {
+          "id": "a",
+          "label": "be"
+        },
+        {
+          "id": "b",
+          "label": "to be"
+        },
+        {
+          "id": "c",
+          "label": "being"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Want someone to do something\" (muốn ai đó làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The school allows students _____ their phones during break time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "use"
+        },
+        {
+          "id": "b",
+          "label": "using"
+        },
+        {
+          "id": "c",
+          "label": "to use"
+        },
+        {
+          "id": "d",
+          "label": "used"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Allow someone to do something\" (cho phép ai đó làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I need to _____ my little brother _____ his room before our parents come home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get / clean"
+        },
+        {
+          "id": "b",
+          "label": "get / to clean"
+        },
+        {
+          "id": "c",
+          "label": "make / to clean"
+        },
+        {
+          "id": "d",
+          "label": "let / clean"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Get someone to do something\" (nhờ/khiến ai đó làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "My teacher always encourages us _____ our best in everything we do.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "doing"
+        },
+        {
+          "id": "c",
+          "label": "to do"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Encourage someone to do something\" (khuyến khích ai đó làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The heavy rain forced us _____ our outdoor picnic.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cancel"
+        },
+        {
+          "id": "b",
+          "label": "canceling"
+        },
+        {
+          "id": "c",
+          "label": "to cancel"
+        },
+        {
+          "id": "d",
+          "label": "canceled"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Force someone to do something\" (buộc ai đó làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Please remind me _____ the lights off when I leave the office.",
+      "options": [
+        {
+          "id": "a",
+          "label": "turn"
+        },
+        {
+          "id": "b",
+          "label": "turning"
+        },
+        {
+          "id": "c",
+          "label": "to turn"
+        },
+        {
+          "id": "d",
+          "label": "turned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Remind someone to do something\" (nhắc nhở ai đó làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "My parents often help me _____ with my difficult assignments.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to deal"
+        },
+        {
+          "id": "b",
+          "label": "dealing"
+        },
+        {
+          "id": "c",
+          "label": "dealt"
+        },
+        {
+          "id": "d",
+          "label": "deal"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Help someone (to) do something\" (giúp ai đó làm gì). Cả \"to V\" và \"V nguyên mẫu\" đều đúng sau \"help\" khi có tân ngữ."
+  }
+]

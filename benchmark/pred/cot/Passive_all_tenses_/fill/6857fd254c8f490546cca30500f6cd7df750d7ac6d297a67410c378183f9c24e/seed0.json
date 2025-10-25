@@ -1,0 +1,92 @@
+[
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_001",
+      "prompt": "It is often said that English _____ quickly becoming a world language."
+    },
+    "answer": "is",
+    "hint": "Đây là thể bị động thì hiện tại đơn, diễn tả một sự thật hoặc ý kiến chung. 'English' là chủ ngữ số ít nên dùng 'is'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_002",
+      "prompt": "Although English _____ in more and more schools abroad, the process is not always popular."
+    },
+    "answer": "is being taught",
+    "hint": "Diễn tả hành động đang diễn ra (đang được dạy) ở hiện tại. Cấu trúc bị động hiện tại tiếp diễn là 'is/am/are + being + V3'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_003",
+      "prompt": "In France, a new word 'franglais' _____ to describe the results."
+    },
+    "answer": "was invented",
+    "hint": "Hành động 'invent' (phát minh) đã xảy ra trong quá khứ và 'a new word' là chủ ngữ bị động. Dùng thì quá khứ đơn bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_004",
+      "prompt": "Many misunderstandings _____ between people of different countries because of the language barrier."
+    },
+    "answer": "have been caused",
+    "hint": "Diễn tả hậu quả của vấn đề ngôn ngữ kéo dài đến hiện tại. 'Misunderstandings' là số nhiều, dùng 'have been caused' cho bị động hiện tại hoàn thành."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_005",
+      "prompt": "An artificial language, such as Esperanto, has no culture and _____ boring by many learners."
+    },
+    "answer": "will be thought",
+    "hint": "Diễn tả một dự đoán hoặc ý kiến chung về tương lai. 'Will be thought' là thể bị động của thì tương lai đơn."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_006",
+      "prompt": "To solve the problem, one of the main living languages of the world _____ chosen."
+    },
+    "answer": "should be",
+    "hint": "Diễn tả một lời khuyên hoặc sự cần thiết. Cấu trúc bị động với động từ khuyết thiếu là 'modal + be + V3'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_007",
+      "prompt": "Before English became widely used, many other languages _____ for international communication."
+    },
+    "answer": "had been used",
+    "hint": "Diễn tả hành động bị động xảy ra và hoàn thành trước một hành động khác trong quá khứ. Dùng thì quá khứ hoàn thành bị động."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_008",
+      "prompt": "The influence of English words on other languages _____ closely monitored in the coming years."
+    },
+    "answer": "is going to be",
+    "hint": "Diễn tả một dự định hoặc dự đoán trong tương lai. Cấu trúc bị động với 'be going to' là 'be going to be + V3'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_009",
+      "prompt": "Thanks to modern methods of transport, we can travel everywhere more easily, but the language problem still remains and misunderstandings _____ caused."
+    },
+    "answer": "can be",
+    "hint": "Diễn tả khả năng xảy ra. Cấu trúc bị động với động từ khuyết thiếu 'can' là 'can be + V3'."
+  },
+  {
+    "type": "fill",
+    "question": {
+      "id": "pass_fill_010",
+      "prompt": "For political reasons and national pride, the choice of an international language _____ carefully considered."
+    },
+    "answer": "must be",
+    "hint": "Diễn tả sự cần thiết hoặc bắt buộc. Cấu trúc bị động với động từ khuyết thiếu 'must' là 'must be + V3'."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "If Lucien's father _____ alive, he _____ the stars with him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were, would see"
+        },
+        {
+          "id": "b",
+          "label": "was, will see"
+        },
+        {
+          "id": "c",
+          "label": "is, sees"
+        },
+        {
+          "id": "d",
+          "label": "were, will see"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc câu điều kiện loại 2: If + S + V(quá khứ đơn), S + would/could/might + V(nguyên mẫu). 'Were' được dùng cho tất cả các ngôi trong mệnh đề 'if' của câu điều kiện loại 2."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "If the author _____ a professor, his mother _____ him about the children.",
+      "options": [
+        {
+          "id": "a",
+          "label": "became, would remind"
+        },
+        {
+          "id": "b",
+          "label": "becomes, will remind"
+        },
+        {
+          "id": "c",
+          "label": "had become, would have reminded"
+        },
+        {
+          "id": "d",
+          "label": "become, would remind"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 2 diễn tả điều không có thật ở hiện tại hoặc tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "If more parents _____ this in their hearts to be true, there _____ fewer knives on our streets today.",
+      "options": [
+        {
+          "id": "a",
+          "label": "knew, might be"
+        },
+        {
+          "id": "b",
+          "label": "know, will be"
+        },
+        {
+          "id": "c",
+          "label": "had known, would have been"
+        },
+        {
+          "id": "d",
+          "label": "would know, might be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một giả định không có thật ở hiện tại, sử dụng câu điều kiện loại 2."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "If the author _____ as ready as Philip Lawrence to face the aggressors, he _____ his life for those in his care.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were, would lay down"
+        },
+        {
+          "id": "b",
+          "label": "was, will lay down"
+        },
+        {
+          "id": "c",
+          "label": "is, would lay down"
+        },
+        {
+          "id": "d",
+          "label": "had been, would have laid down"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu điều kiện loại 2, 'were' được dùng cho tất cả các ngôi trong mệnh đề 'if' khi diễn tả một giả định không có thật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "If I _____ more time, I _____ to visit my parents more often.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had, would be able"
+        },
+        {
+          "id": "b",
+          "label": "have, will be able"
+        },
+        {
+          "id": "c",
+          "label": "had, will be able"
+        },
+        {
+          "id": "d",
+          "label": "would have, could be able"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 2 dùng để nói về một tình huống giả định, không có thật ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "What _____ you _____ if you _____ a million dollars?",
+      "options": [
+        {
+          "id": "a",
+          "label": "would, do, won"
+        },
+        {
+          "id": "b",
+          "label": "will, do, win"
+        },
+        {
+          "id": "c",
+          "label": "would, do, would win"
+        },
+        {
+          "id": "d",
+          "label": "did, do, won"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc câu hỏi với câu điều kiện loại 2: Wh-word + would + S + V(nguyên mẫu) if S + V(quá khứ đơn)?"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "If I _____ you, I _____ that job offer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were, would accept"
+        },
+        {
+          "id": "b",
+          "label": "was, will accept"
+        },
+        {
+          "id": "c",
+          "label": "am, would accept"
+        },
+        {
+          "id": "d",
+          "label": "were, will accept"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'If I were you' là một cách diễn đạt phổ biến để đưa ra lời khuyên trong câu điều kiện loại 2."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "If he _____ harder, he _____ the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "studied, would pass"
+        },
+        {
+          "id": "b",
+          "label": "studies, will pass"
+        },
+        {
+          "id": "c",
+          "label": "had studied, would have passed"
+        },
+        {
+          "id": "d",
+          "label": "studied, will pass"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 2 dùng để giả định một điều không có thật ở hiện tại hoặc tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "If we _____ a car, we _____ around the country.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had, could travel"
+        },
+        {
+          "id": "b",
+          "label": "have, can travel"
+        },
+        {
+          "id": "c",
+          "label": "had, will travel"
+        },
+        {
+          "id": "d",
+          "label": "would have, could travel"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mệnh đề 'if' sử dụng thì quá khứ đơn, mệnh đề chính sử dụng 'would/could/might + V(nguyên mẫu)'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "If she _____ English, she _____ a job in an international company.",
+      "options": [
+        {
+          "id": "a",
+          "label": "spoke, would get"
+        },
+        {
+          "id": "b",
+          "label": "speaks, will get"
+        },
+        {
+          "id": "c",
+          "label": "had spoken, would have got"
+        },
+        {
+          "id": "d",
+          "label": "spoke, will get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Đây là một giả định về khả năng không có thật ở hiện tại hoặc tương lai, sử dụng câu điều kiện loại 2."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "Look at the sky! It _____ darker and darker as the storm approaches.",
+      "options": [
+        {
+          "id": "a",
+          "label": "gets"
+        },
+        {
+          "id": "b",
+          "label": "is getting"
+        },
+        {
+          "id": "c",
+          "label": "got"
+        },
+        {
+          "id": "d",
+          "label": "has gotten"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'so sánh + and + so sánh' (darker and darker) thường dùng với thì hiện tại tiếp diễn để diễn tả một sự thay đổi đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "Right now, many scientists _____ the long-term effects of artificial light on human health.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are studying"
+        },
+        {
+          "id": "b",
+          "label": "study"
+        },
+        {
+          "id": "c",
+          "label": "studied"
+        },
+        {
+          "id": "d",
+          "label": "have studied"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'Right now' (ngay bây giờ) là dấu hiệu rõ ràng cho một hành động đang diễn ra, đòi hỏi thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "My sister usually works the day shift, but this month she _____ at night to earn extra money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "is working"
+        },
+        {
+          "id": "d",
+          "label": "has worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn được dùng để diễn tả một hành động tạm thời ('this month') khác với thói quen thông thường ('usually works')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "According to recent studies, more and more people _____ from seasonal fatigue due to modern lifestyles.",
+      "options": [
+        {
+          "id": "a",
+          "label": "suffer"
+        },
+        {
+          "id": "b",
+          "label": "suffered"
+        },
+        {
+          "id": "c",
+          "label": "have suffered"
+        },
+        {
+          "id": "d",
+          "label": "are suffering"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ 'more and more' cho thấy một xu hướng đang diễn ra và thay đổi theo thời gian, cần dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "Please be quiet. I _____ to understand what this psychiatrist is saying on the podcast.",
+      "options": [
+        {
+          "id": "a",
+          "label": "try"
+        },
+        {
+          "id": "b",
+          "label": "am trying"
+        },
+        {
+          "id": "c",
+          "label": "tried"
+        },
+        {
+          "id": "d",
+          "label": "have tried"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu mệnh lệnh 'Please be quiet' cho thấy một hành động đang diễn ra tại thời điểm nói. Do đó, ta dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "Why _____ you _____ sunglasses indoors? It's not sunny in here.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do / wear"
+        },
+        {
+          "id": "b",
+          "label": "did / wear"
+        },
+        {
+          "id": "c",
+          "label": "are / wearing"
+        },
+        {
+          "id": "d",
+          "label": "have / worn"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về một hành động đang diễn ra ngay tại thời điểm nói. Cấu trúc câu hỏi là 'Why + am/is/are + S + V-ing?'"
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "My body's biological clock is confused because I _____ a lot for work these days.",
+      "options": [
+        {
+          "id": "a",
+          "label": "travel"
+        },
+        {
+          "id": "b",
+          "label": "am traveling"
+        },
+        {
+          "id": "c",
+          "label": "traveled"
+        },
+        {
+          "id": "d",
+          "label": "was traveling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'these days' (dạo này) chỉ một tình huống tạm thời đang diễn ra xung quanh thời điểm hiện tại, nên dùng thì hiện tại tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "He _____ always _____ his phone late at night, and his parents are worried about his sleep.",
+      "options": [
+        {
+          "id": "a",
+          "label": "uses"
+        },
+        {
+          "id": "b",
+          "label": "used"
+        },
+        {
+          "id": "c",
+          "label": "is / using"
+        },
+        {
+          "id": "d",
+          "label": "does / use"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi 'always' đi với thì hiện tại tiếp diễn, nó thường diễn tả sự phàn nàn hoặc một thói quen lặp đi lặp lại gây khó chịu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "To reset my body clock, I _____ a bright light therapy session next Monday morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "attend"
+        },
+        {
+          "id": "b",
+          "label": "am attending"
+        },
+        {
+          "id": "c",
+          "label": "attended"
+        },
+        {
+          "id": "d",
+          "label": "will be attended"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại tiếp diễn được dùng để diễn tả một kế hoạch hoặc sự sắp đặt đã được lên lịch trình chắc chắn trong tương lai gần ('next Monday')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "The researchers _____ on this project at the moment, so they can't take any calls.",
+      "options": [
+        {
+          "id": "a",
+          "label": "don't work"
+        },
+        {
+          "id": "b",
+          "label": "didn't work"
+        },
+        {
+          "id": "c",
+          "label": "aren't working"
+        },
+        {
+          "id": "d",
+          "label": "haven't worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'at the moment' là dấu hiệu của thì hiện tại tiếp diễn. Dạng phủ định là 'S + am/is/are + not + V-ing'."
+  }
+]
