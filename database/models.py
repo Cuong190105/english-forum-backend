@@ -41,7 +41,6 @@ class User(Base):
     commentvotes = relationship("CommentVote", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
     refresh_tokens = relationship("RefreshToken", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
     email_change_tokens = relationship("EmailChangeRequest", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
-    otps = relationship("OTP", back_populates="user", cascade="all, delete-orphan", passive_deletes=True)
     following_asso = relationship(
         "Following",
         foreign_keys=[Following.follower_id],
@@ -152,7 +151,7 @@ class OTP(Base):
 
     # _________Fields_____________
     otp_id = Column(Integer, primary_key=True)
-    username = Column(String(255), ForeignKey("users.username", ondelete="CASCADE"), nullable=False)
+    username = Column(String(255), nullable=False)
     otp_code = Column(String(6), nullable=False)
     jti = Column(String(36), index=True, unique=True, nullable=False, default=lambda: str(uuid.uuid4()))
     expires_at = Column(DateTime(timezone=True), nullable=False, server_onupdate=None)
@@ -162,7 +161,6 @@ class OTP(Base):
     is_token_used = Column(Boolean, default=False, nullable=False)
 
     # _________Relationship_____________
-    user = relationship("User", single_parent=True, back_populates="otps", uselist=False)
 
 class EmailChangeRequest(Base):
     __tablename__ = "email_change_tokens"

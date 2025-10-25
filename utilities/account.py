@@ -51,7 +51,7 @@ async def createNewAccount(db: Db_dependency, username: str, password: str, emai
         username=username,
         email=email,
         bio=None,
-        avatar_url=None,
+        avatar_filename=None,
         email_verified_at=None,
     )
 
