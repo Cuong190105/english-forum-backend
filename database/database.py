@@ -14,6 +14,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 def create_db_and_tables(drop: bool = False):
+    # Clear all database in dev env
     if drop:
         Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
