@@ -46,14 +46,16 @@ class User(Base):
         "Following",
         foreign_keys=[Following.follower_id],
         back_populates="follower",
-        cascade="all, delete-orphan"
+        cascade="all, delete-orphan",
+        lazy='dynamic'
     )
 
     follower_asso = relationship(
         "Following",
         foreign_keys=[Following.following_user_id],
         back_populates="following",
-        cascade="all, delete-orphan"
+        cascade="all, delete-orphan",
+        lazy='dynamic'
     )
 
     following = relationship(
@@ -61,7 +63,8 @@ class User(Base):
         secondary="following",
         primaryjoin=and_(user_id==Following.follower_id, Following.unfollow==False),
         secondaryjoin=user_id==Following.following_user_id,
-        viewonly=True
+        viewonly=True,
+        lazy='dynamic',
     )
 
     followers = relationship(
@@ -69,7 +72,8 @@ class User(Base):
         secondary="following",
         primaryjoin=user_id==Following.following_user_id,
         secondaryjoin=and_(user_id==Following.follower_id, Following.unfollow==False),
-        viewonly=True
+        viewonly=True,
+        lazy='dynamic',
     )
 
 
