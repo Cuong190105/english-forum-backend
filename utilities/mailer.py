@@ -31,8 +31,8 @@ async def send(subject: str, content: str, target: str):
         #     server.starttls()
         #     server.login(MAIL_USERNAME, MAIL_PASSWORD)
         #     server.sendmail(MAIL_FROM_ADDRESS, target, msg.as_string())
-    except aiosmtplib.SMTPRecipientRefused as e:
-        logging.error(f"Failed to send email to {target}: {e}")
+    except aiosmtplib.SMTPResponseException as e:
+        print(e)
         raise Exception("Failed to send email to " + target)
 
 
