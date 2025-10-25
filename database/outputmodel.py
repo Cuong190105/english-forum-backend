@@ -4,6 +4,7 @@ Output models have modified properties from DB Models that provides enough infor
 The properties are created by adding or removing fields from original models, or merging some tables.\n
 """
 from pydantic import BaseModel
+from typing import Any, List, Optional
 from database.models import User
 from datetime import datetime
 
@@ -58,3 +59,18 @@ class OutputNotification(BaseModel):
     target_type: str
     target_id: int
     is_read: bool
+
+
+# =========================
+# AI Generation Output Models
+# =========================
+
+class OutputAIGeneratedItems(BaseModel):
+    """Response for /ai/generate endpoint: items only."""
+    items: List[Any] = []
+
+
+class OutputAIGeneratedWithTopic(BaseModel):
+    """Response for /ai/generate-from-text endpoint: topic + items."""
+    topic: str
+    items: List[Any] = []
