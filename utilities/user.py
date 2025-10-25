@@ -38,7 +38,9 @@ def getSimpleUser(this_user: User, user: User):
         avatar_filename=user.avatar_filename,
         following=this_user.following.filter(User.user_id == user.user_id).first() is not None,
         follower_count=len(list(user.followers)),
-        following_count=len(list(user.following))
+        following_count=len(list(user.following)),
+        post_count=len(list(user.posts)),
+        comment_count=len(list(user.comments)),
     )
 
 async def changeRelationship(db: Db_dependency, actor: User, target: User, reltype: Relationship):

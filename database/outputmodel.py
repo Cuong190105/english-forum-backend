@@ -14,6 +14,8 @@ class SimpleUser(BaseModel):
     following: bool
     follower_count: int
     following_count: int
+    post_count: int
+    comment_count: int
 
 class SimpleAttachment(BaseModel):
     media_filename: str
