@@ -165,7 +165,11 @@ async def recover_password(username: Annotated[str, Form()], db: Db_dependency):
         raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Too soon to request a new OTP")
 
     # Send recovery email
-    await mailer.sendOtpMail(otp, user.username, user.email, mailer.PASSWORD_RESET)
+    try:
+        await mailer.sendOtpMail(otp.otp_code, user.username, user.email, mailer.PASSWORD_RESET)
+    except:
+        await security.invalidateOtp(db, otp)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to send email to address: " + user.email)
 
     return {"message": "Recovery email sent"}
 

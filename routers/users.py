@@ -75,7 +75,7 @@ async def update_email_address(email: Annotated[EmailStr, Form()], this_user: Us
         raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Too soon to request a new OTP")
     
     try:
-        await mailer.sendOtpMail(otp, this_user.username, email, mailer.EMAIL_CHANGE)
+        await mailer.sendOtpMail(otp.otp_code, this_user.username, email, mailer.EMAIL_CHANGE)
     except:
         await security.invalidateOtp(db, otp)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to send email to address: " + email)
