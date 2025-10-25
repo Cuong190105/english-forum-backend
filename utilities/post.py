@@ -48,7 +48,7 @@ async def queryFeed(db: Db_dependency, cursor: datetime, criteria: FeedCriteria,
     elif criteria != 'latest':
         query = query.filter(Post.tag == criteria)
     
-    posts = query.filter(Post.created_at < cursor).order_by(Post.created_at.desc()).limit(limit).all()
+    posts = query.filter(Post.created_at < cursor, Post.is_deleted == False).order_by(Post.created_at.desc()).limit(limit).all()
     return posts
 
 async def getOutputPost(user: User, post: Post):
