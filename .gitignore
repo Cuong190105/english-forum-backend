@@ -1,3 +1,17 @@
 *.pyc
 *.pyc
 *.pyc
+
+.gitignore
+.env
+Lib/
+Include/
+Scripts/
+
+pyvenv.cfg
+.pytest_cache/
+__pycache__
+
+.vscode/
+storage/avatar/*
+storage/attachment/*
