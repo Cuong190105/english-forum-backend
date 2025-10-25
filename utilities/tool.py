@@ -21,7 +21,7 @@ async def search(db: Db_dependency, user: User, keyword: str):
     users = db.query(User).filter(User.username.ilike(param)).all()
     posts = db.query(Post).filter(Post.content.ilike(param)).all()
 
-    outputUsers = [await getSimpleUser(user, u) for u in users]
+    outputUsers = [getSimpleUser(user, u) for u in users]
     outputPosts = [await getOutputPost(user, p) for p in posts]
 
     return {

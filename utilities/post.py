@@ -52,6 +52,18 @@ async def queryFeed(db: Db_dependency, cursor: datetime, criteria: FeedCriteria,
     return posts
 
 async def getOutputPost(user: User, post: Post):
+    """
+    Format post info for output.
+
+    Params:
+        user: Current session user
+        post: returned post
+
+    Returns:
+        Optional[OutputPost]: OutputPost if post is not None, else None.
+    """
+
+
     if post is None:
         return None
     
