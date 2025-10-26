@@ -5,18 +5,23 @@ from typing import Annotated
 from configs.config_db import *
 import os
 
-DB_URL = DB_CONNECTION + '+' + DB_DRIVER + '://'\
-    + DB_USERNAME + ':' + DB_PASSWORD\
-    + '@' + DB_HOST + ':' + DB_PORT\
-    + '/' + DB_DATABASE
+def createConnection():
+    try:
+        DB_URL = DB_CONNECTION + '+' + DB_DRIVER + '://'\
+            + DB_USERNAME + ':' + DB_PASSWORD\
+            + '@' + DB_HOST + ':' + DB_PORT\
+            + '/' + DB_DATABASE
 
+        ssl = {
+            "ssl_ca": os.path.abspath("certs/DigiCertGlobalRootG2.crt.pem")
+        }
 
+        engine = create_engine(DB_URL, connect_args=ssl)
+        return engine
+    except:
+        return None
 
-ssl = {
-    "ssl_ca": os.path.abspath("certs/DigiCertGlobalRootG2.crt.pem")
-}
-
-engine = create_engine(DB_URL, connect_args=ssl)
+engine = createConnection()
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 

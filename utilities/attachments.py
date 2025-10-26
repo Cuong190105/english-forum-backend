@@ -120,7 +120,8 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
 
         postAtt = sorted(post.attachments, key=lambda x: x.index)
         for att in postAtt:
-            position_taken.append(att.index)
+            if att.is_deleted == False:
+                position_taken.append(att.index)
         newAtts = []
 
         for update in updatelist:
