@@ -2,6 +2,7 @@ from __future__ import annotations
 import os
 import json
 import re
+import traceback
 from typing import List, Dict, Any, Optional, Literal
 from pathlib import Path
 
@@ -117,8 +118,10 @@ def classify_topic(text: str) -> str | bool:
             return False
         if cand in choices:
             return cand
-    except Exception:
+    except Exception as e:
         if DEBUG:
+            print(e)
+            print(traceback.print_tb(e.__traceback__))
             print('[ai] classify_topic: fallback triggered')
     # Fallback: classification failure
     return False
@@ -611,7 +614,7 @@ def _call_genai(
     key = os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
     if not key:
         raise RuntimeError('GOOGLE_API_KEY or GEMINI_API_KEY is not set in environment')
-
+    
     if genai is None or GenerateContentConfig is None:
         raise RuntimeError('Google GenAI SDK not installed. Install: pip install google-genai')
 
