@@ -102,7 +102,7 @@ async def edit_post(
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
 
-    if attachments is not None:
+    if attachments_update is not None:
         st = await attutils.editAttachments(db, post, attachments, attachments_update)
         if st == 1:
             raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_CONTENT, detail="Invalid file upload. Can upload at most 10 files per post. Only accept image with type jpg, png, gif with size < 5MB, and video with type mp4, mkv, mov, avi with size < 100MB")

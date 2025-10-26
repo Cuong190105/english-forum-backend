@@ -56,7 +56,6 @@ async def saveAttachments(db: Db_dependency, attachments: list[UploadFile]):
         return None
     for file in attachments:
         if not await validateFile(file):
-            print(file.filename)
             return None
     
     # Store files
@@ -76,8 +75,6 @@ async def saveAttachments(db: Db_dependency, attachments: list[UploadFile]):
             saved.append(attachment)
         return saved
     except Exception as e:
-        print(file.filename)
-        print(e)
         return None
 
 async def editAttachments(db: Db_dependency, post: Post, attachments: list[UploadFile], updates: str):
@@ -93,19 +90,17 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
         int: Change status. 0 for normal, 1 for invalid file, 2 for not acceptable change, 3 for other errors.
     """
     # Validate files
-    for file in attachments:
-        if not await validateFile(file):
-            print("Not validated")
-            return 1
+    if attachments is not None:
+        for file in attachments:
+            if not await validateFile(file):
+                return 1
         
     updatelist = updates.split(",")
     for update in updatelist:
         parted = update.split(" ")
         if len(parted) < 2 or parted[0] not in typing.get_args(FileChange) or not parted[1].isnumeric() or int(parted[1]) >= FileRule.MAX_FILE_COUNT:
-            print("Wrong command", parted)
             return 1
         elif parted[0] == 'move' and (len(parted) == 2 or int(parted[2]) >= FileRule.MAX_FILE_COUNT):
-            print("Wrong command", parted)
             return 1
 
     # Validate attachment position and modify database
@@ -118,12 +113,15 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
     try:
         position_taken = []
 
-        postAtt = sorted(post.attachments, key=lambda x: x.index)
+        postAtt = []
+        for a in post.attachments:
+            if a.is_deleted == False:
+                postAtt.append(a)
+        postAtt.sort(key=lambda x: x.index)
         for att in postAtt:
             if att.is_deleted == False:
                 position_taken.append(att.index)
         newAtts = []
-
         for update in updatelist:
             parted = update.split(" ")
             idx = int(parted[1])
@@ -161,8 +159,8 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
             if position_taken[i] + 1 != position_taken[i + 1]:
                 db.rollback()
                 return 2
-        
-        if len(newAtts) != len(attachments):
+
+        if len(newAtts) != (len(attachments) if attachments is not None else 0):
             db.rollback()
             return 2
 
@@ -177,8 +175,6 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
         return 0
     except Exception as e:
         db.rollback()
-        print(traceback.format_exc())
-
         return 3
     
 async def getFile(db: Db_dependency, media_filename: str):
