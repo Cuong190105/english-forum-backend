@@ -8,7 +8,7 @@ from database.outputmodel import OutputPost
 from routers.dependencies import User_auth
 from utilities import post as postutils, attachments as attutils
 from utilities.activity import logActivity
-from configs.config_post import FeedCriteria
+from configs.config_post import FeedCriteria, PostTag
 from fastapi.responses import FileResponse
 
 router = APIRouter()
@@ -16,14 +16,14 @@ router = APIRouter()
 class PostTextContent(BaseModel):
     title: str
     content: str
-    tag: str
+    tag: PostTag
 
     @classmethod
     def form(
         cls,
         title: Annotated[str, Form(min_length=1)],
         content: Annotated[str, Form(min_length=1)],
-        tag: Annotated[str, Form(min_length=1)]
+        tag: Annotated[PostTag, Form(min_length=1)]
     ):
         return cls(title=title, content=content, tag=tag)
 
