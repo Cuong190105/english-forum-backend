@@ -3,6 +3,7 @@ from pydantic import BaseModel, Field
 from typing import Optional
 from database.database import Db_dependency
 from database.models import Post
+from routers.dependencies import User_auth
 from database.outputmodel import OutputAIGeneratedItems
 # Use our LLM generator utilities
 from utilities.ai_generator_LLM_Clone import (
@@ -27,7 +28,7 @@ class GenerateFromTextRequest(BaseModel):
 
 
 @router.post('/ai/generate/{post_id}', response_model=OutputAIGeneratedItems, status_code=status.HTTP_200_OK)
-async def generate_homework(post_id: int, req: GenerateRequest, db: Db_dependency):
+async def generate_homework(this_user: User_auth, post_id: int, req: GenerateRequest, db: Db_dependency):
     post = db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
     if not post:
         raise HTTPException(status_code=404, detail='Post not found')
@@ -39,7 +40,7 @@ async def generate_homework(post_id: int, req: GenerateRequest, db: Db_dependenc
 
 
 @router.post('/ai/generate-from-text', response_model=OutputAIGeneratedItems, status_code=status.HTTP_200_OK)
-async def generate_from_text(req: GenerateFromTextRequest):
+async def generate_from_text(this_user: User_auth,req: GenerateFromTextRequest):
     """
     Accept raw context text, classify a single best-fit grammar topic, then generate
     MCQ/FILL items locked to that topic using our LLM prompts.
