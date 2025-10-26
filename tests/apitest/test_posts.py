@@ -65,7 +65,7 @@ class TestPost:
             data = {
                 "title": "Title 1",
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 201
@@ -77,7 +77,7 @@ class TestPost:
             data = {
                 "title": "",
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 422
@@ -88,7 +88,7 @@ class TestPost:
             headers={"Authorization": "Bearer 1"},
             data = {
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 422
@@ -121,7 +121,7 @@ class TestPost:
             data = {
                 "title": "Title 1",
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 202
@@ -133,7 +133,7 @@ class TestPost:
             data = {
                 "title": "",
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 422
@@ -144,7 +144,7 @@ class TestPost:
             headers={"Authorization": "Bearer 1"},
             data = {
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 422
@@ -156,7 +156,7 @@ class TestPost:
             data = {
                 "title": "Title 1",
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 404
@@ -168,7 +168,7 @@ class TestPost:
             data = {
                 "title": "Title 1",
                 "content": "Content 1",
-                "tag": "Tag 1",
+                "tag": "discussion",
             }
         )
         assert response.status_code == 403

@@ -2,6 +2,7 @@ import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database.database import Base
+from database import models
 from database.models import User, Post, Comment, Credentials
 from datetime import datetime, timedelta, timezone
 

@@ -8,6 +8,7 @@ from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.orm import sessionmaker
 from database.database import Base, get_db, Db_dependency
 from database.models import User, Post, Comment, Credentials
+from database import models
 from routers.dependencies import getUserFromToken, oauth2_scheme
 from main import app
 

@@ -54,7 +54,7 @@ class TestComment:
         )
         assert r.status_code == 200
         assert len(r.json()) == 1
-        assert r.json()[0].get("author_id") == 2
+        assert r.json()[0].get("author_username") == "testuser2"
 
         # Test non existed post
         r = client.get(
