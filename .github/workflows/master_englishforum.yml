@@ -72,5 +72,4 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'englishforum'
-          slot-name: 'Production'
           
