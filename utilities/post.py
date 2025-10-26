@@ -73,7 +73,13 @@ async def getOutputPost(user: User, post: Post):
     else:
         vote_value = user_vote.value
 
-    attachments = post.attachments
+    all_attachments = post.attachments
+    attachments = []
+    for a in all_attachments:
+        if a.is_deleted == False:
+            attachments.append(a)
+    
+    attachments.sort(key=lambda att: att.index)
 
     simple_attachments = [
         SimpleAttachment(

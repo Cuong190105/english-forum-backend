@@ -176,6 +176,7 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
         db.commit()
         return 0
     except Exception as e:
+        db.rollback()
         print(traceback.format_exc())
 
         return 3
