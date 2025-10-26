@@ -752,11 +752,13 @@ def generate_exercises_from_context(
 
     Returns a dict with keys: { 'topic': <display>, 'items': [ ... ] }
     """
+    print("classifying topic")
     topic_display = classify_topic(context_text)
     # If classification failed (False), return isAskable=False and no items
     if topic_display is False:
         return {"topic": None, "items": [], "isAskable": False}
 
+    print("generating")
     items = generate_with_llm(
         post_text=context_text,
         hw_type=hw_type if hw_type in {'mcq','fill'} else 'mcq',
