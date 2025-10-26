@@ -3,13 +3,20 @@ from sqlalchemy.orm import sessionmaker, Session, declarative_base
 from fastapi import Depends
 from typing import Annotated
 from configs.config_db import *
+import os
 
 DB_URL = DB_CONNECTION + '+' + DB_DRIVER + '://'\
     + DB_USERNAME + ':' + DB_PASSWORD\
     + '@' + DB_HOST + ':' + DB_PORT\
     + '/' + DB_DATABASE
 
-engine = create_engine(DB_URL)
+
+
+ssl = {
+    "ssl_ca": os.path.abspath("certs/DigiCertGlobalRootG2.crt.pem")
+}
+
+engine = create_engine(DB_URL, connect_args=ssl)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
