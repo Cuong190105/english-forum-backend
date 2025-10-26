@@ -12,11 +12,8 @@ def createConnection():
             + '@' + DB_HOST + ':' + DB_PORT\
             + '/' + DB_DATABASE
 
-        ssl = {
-            "ssl_ca": os.path.abspath("certs/DigiCertGlobalRootG2.crt.pem")
-        }
 
-        engine = create_engine(DB_URL, connect_args=ssl)
+        engine = create_engine(DB_URL)
         return engine
     except:
         return None
