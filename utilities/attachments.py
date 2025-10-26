@@ -1,7 +1,6 @@
 from datetime import datetime, timezone
-import os
 from pathlib import Path
-import sys
+import os
 import traceback
 import typing
 import uuid
@@ -11,9 +10,7 @@ from configs.config_post import FileChange
 from configs.config_validation import FileRule
 from database.database import Db_dependency
 from database.models import Attachment, Post, User
-def getMetadata(file: UploadFile):
-    filename = file.filename
-    ext = filename[filename.rfind(".")]
+from configs.config_storage import MOUNT_PATH
 
 async def validateFile(file: UploadFile):
     """
@@ -183,11 +180,16 @@ async def editAttachments(db: Db_dependency, post: Post, attachments: list[Uploa
         return 3
     
 async def getFile(db: Db_dependency, media_filename: str):
-    storage_path = Path("storage").resolve().as_posix()
+    target_path = Path(MOUNT_PATH)
+    
     if db.query(Attachment).filter(Attachment.media_filename == media_filename, Attachment.is_deleted == False).first() is not None:
-        return f"{storage_path}/attachment/{media_filename}"
+        target_path = target_path / "attachment"
     elif db.query(User).filter(User.avatar_filename == media_filename).first() is not None:
-        return f"{storage_path}/avatar/{media_filename}"
+        target_path = Path(MOUNT_PATH) / "avatar"
+    
+    target_path.mkdir(parents=True, exist_ok=True)
+    if os.path.isfile(target_path / media_filename):
+        return f"{target_path / media_filename}"
     return None
 
 async def saveFile(file: UploadFile, purpose: FilePurpose):
@@ -201,11 +203,13 @@ async def saveFile(file: UploadFile, purpose: FilePurpose):
     Returns:
         str: File name
     """
-    os.makedirs(f"storage/{purpose}", exist_ok=True)
+
+    path = Path(MOUNT_PATH) / purpose
+    path.mkdir(parents=True, exist_ok=True)
     ext = os.path.splitext(file.filename)[1]
     filename = f"{datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")}_{uuid.uuid4().hex}{ext}"
-    path = f"storage/{purpose}/{filename}"
-    with open(path, "wb") as buffer:
+    filepath = path / filename
+    with open(filepath, "wb") as buffer:
         while chunk := await file.read(1024 * 1024):
             buffer.write(chunk)
     return filename
