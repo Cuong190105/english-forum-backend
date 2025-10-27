@@ -35,6 +35,7 @@ async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     
+    target = None
     if reply_comment_id is not None:
         target = await cmtutils.getCommentById(db, reply_comment_id)
         if target is None:
@@ -46,7 +47,10 @@ async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[
     if comment is None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Comment cannot be blank")
      
-    await logActivity(this_user.user_id, db, 'comment', comment.content, comment.comment_id, 'post', post.post_id, post.author_id)
+    if reply_comment_id is not None:
+        await logActivity(this_user.user_id, db, 'reply', comment.content, comment.comment_id, 'comment', target.comment_id, target.author.user_id)
+    else:
+        await logActivity(this_user.user_id, db, 'comment', comment.content, comment.comment_id, 'post', post.post_id, post.author_id)
 
     return {
         "message": "Comment Uploaded",
