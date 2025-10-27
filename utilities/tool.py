@@ -1,3 +1,4 @@
+from sqlmodel import or_
 from database.database import Db_dependency
 from database.models import User, Post
 from utilities.user import getSimpleUser
@@ -19,7 +20,7 @@ async def search(db: Db_dependency, user: User, keyword: str):
     param = "%" + keyword + "%"
 
     users = db.query(User).filter(User.username.ilike(param)).all()
-    posts = db.query(Post).filter(Post.content.ilike(param)).all()
+    posts = db.query(Post).filter(or_(Post.content.ilike(param), Post.title.ilike(param), Post.tag.ilike(param)), Post.is_deleted == False).all()
 
     outputUsers = [getSimpleUser(user, u) for u in users]
     outputPosts = [await getOutputPost(user, p) for p in posts]
