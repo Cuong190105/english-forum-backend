@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_001",
+      "prompt": "Swing to _____ great jazz of Greenwich Village.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "The dùng để chỉ một loại nhạc jazz cụ thể, được xác định bởi cụm \"of Greenwich Village\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_002",
+      "prompt": "_____ Statue of Liberty is a famous landmark in New York City.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "The được dùng với các danh lam thắng cảnh, công trình kiến trúc độc đáo và duy nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_003",
+      "prompt": "Whatever kind of _____ art you like, you will find it in New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Art ở đây là danh từ không đếm được, chỉ khái niệm chung nên không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_004",
+      "prompt": "Spend an evening with Beethoven at _____ Lincoln Centre.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Các địa điểm công cộng như trung tâm, nhà ga, bệnh viện thường không dùng mạo từ khi nói về mục đích sử dụng chính của chúng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_005",
+      "prompt": "Many people enjoy listening to _____ jazz in their free time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Jazz là một thể loại nhạc chung, không xác định cụ thể nên không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_006",
+      "prompt": "_____ New York is a whole world in a city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Tên các thành phố thường không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_007",
+      "prompt": "Whether it's roast Beijing duck in Chinatown, lasagna in Little Italy, or _____ finest French coq au vin found anywhere...",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "The được dùng trước tính từ so sánh nhất (finest) để chỉ sự độc đáo, duy nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_008",
+      "prompt": "It's _____ whole world in a city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "A được dùng trước danh từ số ít đếm được bắt đầu bằng phụ âm, khi nói về một thứ chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_009",
+      "prompt": "And it begins with _____ Broadway.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Tên các đường phố, quảng trường, hoặc khu vực nổi tiếng thường không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q_aath_010",
+      "prompt": "If you're looking for _____ place that has everything, there's only one place to visit, and that is New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "The được dùng để chỉ một danh từ cụ thể, đã được xác định rõ ràng bởi mệnh đề quan hệ \"that has everything\"."
+  }
+]

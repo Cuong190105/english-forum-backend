@@ -1,0 +1,28 @@
+{
+  "total_input_texts": 150,
+  "unique_input_topics": 34,
+  "eligible_topics": 18,
+  "selected_topics": 18,
+  "per_topic": 2,
+  "total_output_texts": 36,
+  "topics": {
+    "Past Simple": 2,
+    "Present Simple": 2,
+    "Past Perfect": 2,
+    "Backshifting tenses": 2,
+    "Passive (all tenses)": 2,
+    "Past Perfect Continuous": 2,
+    "Present Perfect Continuous": 2,
+    "a/an/the/zero": 2,
+    "Present Continuous": 2,
+    "Second Conditional": 2,
+    "First Conditional": 2,
+    "Reporting verbs": 2,
+    "Verb patterns (advise sb to…, make/let + bare inf…)": 2,
+    "Zero Conditional": 2,
+    "V-ing vs to-V": 2,
+    "Present Perfect": 2,
+    "as…as": 2,
+    "Past Continuous": 2
+  }
+}

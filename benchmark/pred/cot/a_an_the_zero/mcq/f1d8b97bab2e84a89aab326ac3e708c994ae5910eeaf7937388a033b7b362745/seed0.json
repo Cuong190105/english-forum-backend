@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_001",
+      "prompt": "Our tours leave directly from _____ Las Vegas Strip.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Las Vegas Strip” là một địa danh cụ thể, duy nhất, nên dùng mạo từ xác định “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_002",
+      "prompt": "Our Grand Canyon Tour is _____ only luxury Motor Coach Tour that stops at Bright Angel Lodge.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ “the only” chỉ sự duy nhất, nên luôn dùng mạo từ xác định “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_003",
+      "prompt": "At Bright Angel Lodge, you can take _____ free shuttle to multiple viewpoints.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Free shuttle” ở đây ám chỉ một dịch vụ cụ thể, đã biết trong ngữ cảnh của tour, nên dùng “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_004",
+      "prompt": "This tour stops at Haulapai Indian Reservation of _____ Grand Canyon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Grand Canyon” là một danh lam thắng cảnh nổi tiếng, duy nhất, luôn đi với mạo từ “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_005",
+      "prompt": "This package not only includes _____ Grand Canyon, but a short photo stop at the Hoover Dam as well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Grand Canyon” là tên riêng của một địa danh nổi tiếng, cụ thể, nên dùng “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_006",
+      "prompt": "The Hoover Dam Mini Tour continues along to include _____ Power Plant Tour, guided by an expert.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Power Plant Tour” là một phần cụ thể, đã được xác định của “Hoover Dam Mini Tour”, nên dùng “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_007",
+      "prompt": "A delicious lunch is included, guided by _____ Hoover Dam expert.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Hoover Dam expert” là một người chuyên gia bất kỳ, không xác định cụ thể, và bắt đầu bằng phụ âm, nên dùng “a”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_008",
+      "prompt": "The Las Vegas to Hollywood tour ends at _____ beautiful Santa Monica Beach & Pier.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "“Santa Monica Beach & Pier” là tên riêng của một địa điểm cụ thể, không cần mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_009",
+      "prompt": "These breath-taking tours take you into _____ skies above the Grand Canyon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Skies” khi nói về bầu trời chung hoặc bầu trời ở một địa điểm cụ thể thường dùng với “the”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "art_010",
+      "prompt": "Airplane Tours offer _____ once-in-a-life-time adventure.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": ""
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Once-in-a-life-time adventure” là một trải nghiệm chung, không xác định cụ thể, và “once” có âm /wʌns/, nên dùng “a”."
+  }
+]

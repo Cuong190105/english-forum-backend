@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "My parents _____ to me every night for the past five years, and I still love it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have read"
+        },
+        {
+          "id": "b",
+          "label": "have been reading"
+        },
+        {
+          "id": "c",
+          "label": "read"
+        },
+        {
+          "id": "d",
+          "label": "are reading"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Have been reading” diễn tả hành động bắt đầu trong quá khứ và tiếp tục đến hiện tại, nhấn mạnh tính liên tục với “for five years”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "The teacher _____ about the importance of reading aloud since the beginning of the semester.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has talked"
+        },
+        {
+          "id": "b",
+          "label": "has been talking"
+        },
+        {
+          "id": "c",
+          "label": "talks"
+        },
+        {
+          "id": "d",
+          "label": "is talking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Has been talking” dùng để chỉ hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn, có mốc thời gian “since the beginning”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "Your child's eyes are red. I think she _____ for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has cried"
+        },
+        {
+          "id": "b",
+          "label": "has been crying"
+        },
+        {
+          "id": "c",
+          "label": "cried"
+        },
+        {
+          "id": "d",
+          "label": "is crying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Has been crying” diễn tả hành động vừa kết thúc hoặc vẫn đang tiếp diễn, có kết quả rõ rệt ở hiện tại (mắt đỏ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "How long _____ you _____ to your child every day?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / read"
+        },
+        {
+          "id": "b",
+          "label": "have / been reading"
+        },
+        {
+          "id": "c",
+          "label": "are / reading"
+        },
+        {
+          "id": "d",
+          "label": "did / read"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“How long” thường đi với thì hiện tại hoàn thành tiếp diễn để hỏi về khoảng thời gian một hành động đã và đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "I _____ to my child about the power of books for many years, and I still do.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have taught"
+        },
+        {
+          "id": "b",
+          "label": "have been teaching"
+        },
+        {
+          "id": "c",
+          "label": "teach"
+        },
+        {
+          "id": "d",
+          "label": "am teaching"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Have been teaching” nhấn mạnh tính liên tục của hành động dạy dỗ kéo dài trong nhiều năm và vẫn tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "We _____ to encourage early reading habits in children for over a decade now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have tried"
+        },
+        {
+          "id": "b",
+          "label": "have been trying"
+        },
+        {
+          "id": "c",
+          "label": "try"
+        },
+        {
+          "id": "d",
+          "label": "are trying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Have been trying” diễn tả một nỗ lực bắt đầu trong quá khứ và vẫn đang tiếp diễn cho đến hiện tại, có kèm thời gian."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "She looks exhausted because she _____ books to her class all morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has read"
+        },
+        {
+          "id": "b",
+          "label": "has been reading"
+        },
+        {
+          "id": "c",
+          "label": "read"
+        },
+        {
+          "id": "d",
+          "label": "is reading"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Has been reading” diễn tả hành động kéo dài trong một khoảng thời gian (all morning) và có kết quả ở hiện tại (looks exhausted)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "The baby _____ with the book as a chew toy, which is completely natural at this age.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has played"
+        },
+        {
+          "id": "b",
+          "label": "has been playing"
+        },
+        {
+          "id": "c",
+          "label": "played"
+        },
+        {
+          "id": "d",
+          "label": "is playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Has been playing” diễn tả hành động đang diễn ra trong một khoảng thời gian gần đây và vẫn tiếp diễn, phù hợp với ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "He _____ to his child every night this week, trying to establish a routine.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reads"
+        },
+        {
+          "id": "b",
+          "label": "has read"
+        },
+        {
+          "id": "c",
+          "label": "has been reading"
+        },
+        {
+          "id": "d",
+          "label": "is reading"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Has been reading” diễn tả hành động đã bắt đầu và đang tiếp diễn trong khoảng thời gian “this week”, chưa phải thói quen cố định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "I'm sorry I'm late. I _____ for you for almost an hour.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have waited"
+        },
+        {
+          "id": "b",
+          "label": "have been waiting"
+        },
+        {
+          "id": "c",
+          "label": "waited"
+        },
+        {
+          "id": "d",
+          "label": "am waiting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Have been waiting” diễn tả hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn cho đến hiện tại, có kèm thời gian."
+  }
+]

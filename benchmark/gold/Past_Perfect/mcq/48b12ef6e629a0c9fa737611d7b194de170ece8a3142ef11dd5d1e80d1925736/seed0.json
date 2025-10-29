@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_001",
+      "prompt": "By the time Anne started community college, she _______ in the army for several years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "served"
+        },
+        {
+          "id": "b",
+          "label": "has served"
+        },
+        {
+          "id": "c",
+          "label": "had served"
+        },
+        {
+          "id": "d",
+          "label": "was serving"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'phục vụ trong quân đội' xảy ra và hoàn tất trước hành động 'bắt đầu học cao đẳng' trong quá khứ. Do đó, dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_002",
+      "prompt": "Before Anne bought the shoes, the narrator _______ anything that expensive in her life.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had never owned"
+        },
+        {
+          "id": "b",
+          "label": "never owned"
+        },
+        {
+          "id": "c",
+          "label": "has never owned"
+        },
+        {
+          "id": "d",
+          "label": "was never owning"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trải nghiệm 'chưa bao giờ sở hữu' là tính đến trước một thời điểm cụ thể trong quá khứ (Anne mua giày). Dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_003",
+      "prompt": "The narrator went to the interview only after her sister _______ her the beautiful new shoes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "bought"
+        },
+        {
+          "id": "b",
+          "label": "has bought"
+        },
+        {
+          "id": "c",
+          "label": "was buying"
+        },
+        {
+          "id": "d",
+          "label": "had bought"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'mua giày' phải xảy ra và hoàn tất trước hành động 'đi phỏng vấn' trong quá khứ. Cấu trúc 'after' thường đi với quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_004",
+      "prompt": "When she told Anne about her problem, she _______ about how to hide the hole in her shoe.",
+      "options": [
+        {
+          "id": "a",
+          "label": "already thought"
+        },
+        {
+          "id": "b",
+          "label": "had already thought"
+        },
+        {
+          "id": "c",
+          "label": "has already thought"
+        },
+        {
+          "id": "d",
+          "label": "was already thinking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc 'suy nghĩ' đã xảy ra trước khi cô ấy 'kể cho Anne nghe' trong quá khứ. Sử dụng quá khứ hoàn thành để nhấn mạnh hành động xảy ra trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_005",
+      "prompt": "The narrator was speechless when Anne offered the shoes because she knew her sister _______ much money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't save"
+        },
+        {
+          "id": "b",
+          "label": "wasn't saving"
+        },
+        {
+          "id": "c",
+          "label": "hadn't saved"
+        },
+        {
+          "id": "d",
+          "label": "hasn't saved"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Việc 'không tiết kiệm được nhiều tiền' là một tình trạng đã có từ trước thời điểm 'Anne đề nghị mua giày' trong quá khứ. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_006",
+      "prompt": "By the time the narrator was seventeen, her family _______ many hard years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "experienced"
+        },
+        {
+          "id": "b",
+          "label": "has experienced"
+        },
+        {
+          "id": "c",
+          "label": "was experiencing"
+        },
+        {
+          "id": "d",
+          "label": "had experienced"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Việc 'trải qua nhiều năm khó khăn' đã xảy ra trước một mốc thời gian cụ thể trong quá khứ (khi cô 17 tuổi). Dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_007",
+      "prompt": "She became a successful engineer years after she _______ that important scholarship.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won"
+        },
+        {
+          "id": "b",
+          "label": "had won"
+        },
+        {
+          "id": "c",
+          "label": "has won"
+        },
+        {
+          "id": "d",
+          "label": "was winning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc 'giành được học bổng' là hành động xảy ra trước và là điều kiện cho hành động 'trở thành kỹ sư' trong quá khứ. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_008",
+      "prompt": "The mother often _______ for her factory job by the time the children came home from school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had already left"
+        },
+        {
+          "id": "b",
+          "label": "already left"
+        },
+        {
+          "id": "c",
+          "label": "has already left"
+        },
+        {
+          "id": "d",
+          "label": "was already leaving"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'mẹ đã đi làm' xảy ra trước hành động 'bọn trẻ về nhà' trong quá khứ. 'By the time' là dấu hiệu rõ ràng để dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_009",
+      "prompt": "After Anne _______ her sister, the narrator felt much more confident for the interview.",
+      "options": [
+        {
+          "id": "a",
+          "label": "helped"
+        },
+        {
+          "id": "b",
+          "label": "was helping"
+        },
+        {
+          "id": "c",
+          "label": "had helped"
+        },
+        {
+          "id": "d",
+          "label": "has helped"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'giúp đỡ' xảy ra trước hành động 'cảm thấy tự tin' trong quá khứ. Mệnh đề bắt đầu bằng 'After' thường dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_mcq_010",
+      "prompt": "The narrator didn't wear the shoes much because her sister _______ so much to buy them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sacrificed"
+        },
+        {
+          "id": "b",
+          "label": "has sacrificed"
+        },
+        {
+          "id": "c",
+          "label": "was sacrificing"
+        },
+        {
+          "id": "d",
+          "label": "had sacrificed"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'hy sinh' của người chị đã xảy ra trước hành động 'không dám mang giày nhiều' của người kể chuyện. Dùng quá khứ hoàn thành để chỉ nguyên nhân xảy ra trước."
+  }
+]

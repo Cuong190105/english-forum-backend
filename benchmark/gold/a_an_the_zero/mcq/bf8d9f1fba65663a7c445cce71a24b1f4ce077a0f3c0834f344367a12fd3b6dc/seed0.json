@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_001",
+      "prompt": "New York is often described as _____ whole world in a city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước một danh từ đếm được, số ít, chưa xác định, bắt đầu bằng một phụ âm ('whole' /hoʊl/). 'An' dùng trước nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_002",
+      "prompt": "What other city in the world has _____ Statue of Liberty?",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' cho các công trình, tượng đài, hoặc địa danh nổi tiếng và duy nhất trên thế giới."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_003",
+      "prompt": "In Greenwich Village, you can listen to _____ great jazz music all night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước tên các thể loại âm nhạc (jazz, rock, pop) khi nói về chúng một cách chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_004",
+      "prompt": "The guide said that _____ world of art can be found in New York's museums.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi danh từ được xác định bởi một cụm từ theo sau, đặc biệt là cấu trúc 'the [noun] of...'. Ở đây là 'the world of art'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_005",
+      "prompt": "My friend wants to spend _____ evening listening to Beethoven at Lincoln Centre.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' để chỉ một buổi tối không xác định. 'Evening' bắt đầu bằng một nguyên âm /'iːvnɪŋ/ nên phải dùng 'an'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_006",
+      "prompt": "New York has some of _____ hottest dance spots in the country.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Luôn dùng mạo từ 'the' trước các tính từ ở dạng so sánh nhất (hottest, best, most beautiful)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_007",
+      "prompt": "Last night, we ate _____ delicious lasagna in a restaurant in Little Italy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước tên các món ăn (lasagna, pho) khi nói chung chung, ngay cả khi có tính từ đi kèm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_008",
+      "prompt": "Broadway is _____ place where you can find many hit shows together.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' để giới thiệu một danh từ (place) chưa được xác định cụ thể. 'The' chỉ được dùng nếu nơi đó đã được nhắc đến trước đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_009",
+      "prompt": "From Egyptian tombs to Indian teepees, you can find all kinds of _____ art in New York.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Art' là danh từ không đếm được. Khi nói về nghệ thuật một cách chung chung, chúng ta không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_010",
+      "prompt": "Rockefeller Centre is _____ famous landmark that many tourists visit every year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (zero article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' để phân loại hoặc định nghĩa một sự vật. Câu này định nghĩa Rockefeller Centre là 'một địa danh nổi tiếng'."
+  }
+]

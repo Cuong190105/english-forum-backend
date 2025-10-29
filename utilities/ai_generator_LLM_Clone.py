@@ -718,20 +718,42 @@ def generate_with_llm(
     if temperature is None:
         temperature = 0.0
 
-    raw = _call_genai(
-        prompt_to_use,
-        model=model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash',
-        response_mime_type='application/json',
-        response_schema=list_model,
-        temperature=temperature,
-        seed=seed,
-    )
+    # Try to use schema, fallback to JSON-only mode if SDK has bugs
+    try:
+        raw = _call_genai(
+            prompt_to_use,
+            model=model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash',
+            response_mime_type='application/json',
+            response_schema=list_model,
+            temperature=temperature,
+            seed=seed,
+        )
+    except (AttributeError, ValueError) as e:
+        # SDK bug with Pydantic Literal - fallback to JSON mode only
+        if DEBUG:
+            print(f'[ai] Schema validation failed ({e}), using JSON mode only')
+        raw = _call_genai(
+            prompt_to_use,
+            model=model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash',
+            response_mime_type='application/json',
+            response_schema=None,
+            temperature=temperature,
+            seed=seed,
+        )
     cleaned = _strip_code_fences(raw)
     try:
         validated_list = list_model.model_validate_json(cleaned)
-    except ValidationError:
-        parsed_any = json.loads(cleaned)
-        validated_list = list_model.model_validate(parsed_any)
+    except ValidationError as e:
+        # Try to parse and see what we got
+        try:
+            parsed_any = json.loads(cleaned)
+            if DEBUG:
+                print(f"[ai] Validation error. Raw JSON structure: {json.dumps(parsed_any, indent=2)[:500]}")
+            validated_list = list_model.model_validate(parsed_any)
+        except Exception as e2:
+            if DEBUG:
+                print(f"[ai] Failed to validate. Raw response: {cleaned[:500]}")
+            raise e  # Re-raise original validation error
     return [item.model_dump() for item in validated_list.root]
 
 

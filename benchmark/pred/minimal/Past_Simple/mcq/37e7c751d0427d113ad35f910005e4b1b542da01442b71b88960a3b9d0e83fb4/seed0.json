@@ -2,271 +2,271 @@
   {
     "type": "mcq",
     "question": {
-      "id": "q1",
-      "prompt": "Who was responsible for the discovery that the African elephant is divided into two distinct species?",
+      "id": "1",
+      "prompt": "The discovery of two distinct African elephant species _____ by researchers at York and Harvard Universities.",
       "options": [
         {
           "id": "a",
-          "label": "Researchers at York and Harvard Universities."
+          "label": "is made"
         },
         {
           "id": "b",
-          "label": "Alfred Roca."
+          "label": "was made"
         },
         {
           "id": "c",
-          "label": "Ancient woolly mammoths."
+          "label": "has made"
         },
         {
           "id": "d",
-          "label": "African savanna elephants."
-        }
-      ]
-    },
-    "correctOptionId": "a",
-    "hint": "Câu hỏi về chủ thể thực hiện hành động trong quá khứ."
-  },
-  {
-    "type": "mcq",
-    "question": {
-      "id": "q2",
-      "prompt": "What did the research team do immediately after obtaining DNA sequences from fossils?",
-      "options": [
-        {
-          "id": "a",
-          "label": "They compared them with DNA from modern elephants."
-        },
-        {
-          "id": "b",
-          "label": "They examined the genetic relationship between ancient and modern elephants."
-        },
-        {
-          "id": "c",
-          "label": "They divided African elephants into two species."
-        },
-        {
-          "id": "d",
-          "label": "They studied the size differences of elephants."
-        }
-      ]
-    },
-    "correctOptionId": "a",
-    "hint": "Tìm hành động tiếp theo sau khi nhóm nghiên cứu thu được chuỗi DNA."
-  },
-  {
-    "type": "mcq",
-    "question": {
-      "id": "q3",
-      "prompt": "What did the scientists find to their amazement regarding modern forest and savanna elephants?",
-      "options": [
-        {
-          "id": "a",
-          "label": "That African elephants are one species."
-        },
-        {
-          "id": "b",
-          "label": "That modern forest and savanna elephants are very distinct from each other."
-        },
-        {
-          "id": "c",
-          "label": "That Asian elephants and mammoths are the same species."
-        },
-        {
-          "id": "d",
-          "label": "That the African elephant is not divided into species."
+          "label": "makes"
         }
       ]
     },
     "correctOptionId": "b",
-    "hint": "Tìm thông tin mà các nhà khoa học đã phát hiện ra một cách ngạc nhiên."
+    "hint": "Dùng thì quá khứ đơn dạng bị động (was/were + V3/ed) để diễn tả hành động đã xảy ra và hoàn thành trong quá khứ, khi chủ ngữ là đối tượng chịu tác động."
   },
   {
     "type": "mcq",
     "question": {
-      "id": "q4",
-      "prompt": "When did the divergence of the two African elephant species take place?",
+      "id": "2",
+      "prompt": "After they _____ DNA sequences from fossils, the team compared them with modern elephant DNA.",
       "options": [
         {
           "id": "a",
-          "label": "Recently."
+          "label": "obtain"
         },
         {
           "id": "b",
-          "label": "Around the time Asian elephants and woolly mammoths diverged."
+          "label": "have obtained"
         },
         {
           "id": "c",
-          "label": "After 1950."
+          "label": "obtained"
         },
         {
           "id": "d",
-          "label": "Several million years in the future."
-        }
-      ]
-    },
-    "correctOptionId": "b",
-    "hint": "Tìm thời điểm diễn ra sự phân tách của hai loài voi châu Phi."
-  },
-  {
-    "type": "mcq",
-    "question": {
-      "id": "q5",
-      "prompt": "How did the scientists react to the result that proved the two African elephant species were distinct?",
-      "options": [
-        {
-          "id": "a",
-          "label": "They were confused."
-        },
-        {
-          "id": "b",
-          "label": "They were amazed."
-        },
-        {
-          "id": "c",
-          "label": "They were indifferent."
-        },
-        {
-          "id": "d",
-          "label": "They were skeptical."
-        }
-      ]
-    },
-    "correctOptionId": "b",
-    "hint": "Tìm từ mô tả cảm xúc của các nhà khoa học khi biết kết quả."
-  },
-  {
-    "type": "mcq",
-    "question": {
-      "id": "q6",
-      "prompt": "What did many naturalists believe about African savanna and forest elephants previously?",
-      "options": [
-        {
-          "id": "a",
-          "label": "They were two distinct species."
-        },
-        {
-          "id": "b",
-          "label": "They were two populations of the same species."
-        },
-        {
-          "id": "c",
-          "label": "They had no genetic relationship."
-        },
-        {
-          "id": "d",
-          "label": "They were not elephants."
-        }
-      ]
-    },
-    "correctOptionId": "b",
-    "hint": "Tìm niềm tin trước đây của các nhà tự nhiên học về voi châu Phi."
-  },
-  {
-    "type": "mcq",
-    "question": {
-      "id": "q7",
-      "prompt": "Before the DNA analysis, what did naturalists consider the significant difference between savanna and forest elephants?",
-      "options": [
-        {
-          "id": "a",
-          "label": "Their genetic makeup."
-        },
-        {
-          "id": "b",
-          "label": "Their habitat."
-        },
-        {
-          "id": "c",
-          "label": "Their size differences."
-        },
-        {
-          "id": "d",
-          "label": "Their diet."
+          "label": "were obtaining"
         }
       ]
     },
     "correctOptionId": "c",
-    "hint": "Tìm điểm khác biệt rõ ràng mà các nhà tự nhiên học đã nhận thấy trước khi có phân tích DNA."
+    "hint": "Thì quá khứ đơn (obtained) dùng để diễn tả một hành động đã hoàn thành trong quá khứ, thường là một phần của chuỗi các sự kiện đã xảy ra."
   },
   {
     "type": "mcq",
     "question": {
-      "id": "q8",
-      "prompt": "Where did the ultimate proof for the distinct species of African elephants lie?",
+      "id": "3",
+      "prompt": "The research team _____ DNA from ancient fossils with DNA from modern elephants.",
       "options": [
         {
           "id": "a",
-          "label": "In their size differences."
+          "label": "compares"
         },
         {
           "id": "b",
-          "label": "In their habitat."
+          "label": "has compared"
         },
         {
           "id": "c",
-          "label": "In the analysis of their DNA."
+          "label": "compared"
         },
         {
           "id": "d",
-          "label": "In the opinions of naturalists."
+          "label": "was comparing"
         }
       ]
     },
     "correctOptionId": "c",
-    "hint": "Tìm nơi chứa bằng chứng cuối cùng về sự khác biệt loài."
+    "hint": "Dùng thì quá khứ đơn (compared) để diễn tả một hành động đã xảy ra và kết thúc hoàn toàn tại một thời điểm xác định trong quá khứ."
   },
   {
     "type": "mcq",
     "question": {
-      "id": "q9",
-      "prompt": "What did Alfred Roca say about how to treat forest and savanna elephants for conservation purposes?",
+      "id": "4",
+      "prompt": "To their surprise, the scientists _____ that modern forest and savanna elephants are very distinct.",
       "options": [
         {
           "id": "a",
-          "label": "They should be treated as one species."
+          "label": "find"
         },
         {
           "id": "b",
-          "label": "They should be treated as two different units."
+          "label": "have found"
         },
         {
           "id": "c",
-          "label": "They should be ignored."
+          "label": "found"
         },
         {
           "id": "d",
-          "label": "They should be studied more."
+          "label": "were finding"
         }
       ]
     },
-    "correctOptionId": "b",
-    "hint": "Tìm lời phát biểu của Alfred Roca về cách đối xử với voi rừng và voi thảo nguyên."
+    "correctOptionId": "c",
+    "hint": "Động từ 'found' là dạng quá khứ đơn của 'find', dùng để diễn tả một sự thật được phát hiện hoặc nhận ra trong quá khứ."
   },
   {
     "type": "mcq",
     "question": {
-      "id": "q10",
-      "prompt": "What method did the scientists use to prove the distinctness of the two African elephant species?",
+      "id": "5",
+      "prompt": "The scientists _____ detailed genetic analysis to prove the species divergence.",
       "options": [
         {
           "id": "a",
-          "label": "Observation of their size."
+          "label": "use"
         },
         {
           "id": "b",
-          "label": "Detailed genetic analysis."
+          "label": "have used"
         },
         {
           "id": "c",
-          "label": "Studying their behavior."
+          "label": "used"
         },
         {
           "id": "d",
-          "label": "Comparing their diets."
+          "label": "are using"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ đơn (used) được dùng để diễn tả một hành động đã hoàn thành trong quá khứ, có thời gian xác định hoặc ngụ ý."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "The divergence of the two species _____ around the time of the divergence of Asian elephants and woolly mammoths.",
+      "options": [
+        {
+          "id": "a",
+          "label": "takes place"
+        },
+        {
+          "id": "b",
+          "label": "has taken place"
+        },
+        {
+          "id": "c",
+          "label": "took place"
+        },
+        {
+          "id": "d",
+          "label": "was taking place"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'took place' là dạng quá khứ đơn, dùng để diễn tả một sự kiện đã xảy ra và kết thúc tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "The unexpected result of the study _____ all the scientists.",
+      "options": [
+        {
+          "id": "a",
+          "label": "amazes"
+        },
+        {
+          "id": "b",
+          "label": "has amazed"
+        },
+        {
+          "id": "c",
+          "label": "amazed"
+        },
+        {
+          "id": "d",
+          "label": "was amazing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'amazed' ở thì quá khứ đơn diễn tả cảm xúc hoặc tác động của một sự việc đã xảy ra và kết thúc trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "Previously, many naturalists _____ that African savanna and forest elephants _____ two populations of the same species.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believe / are"
+        },
+        {
+          "id": "b",
+          "label": "believed / were"
+        },
+        {
+          "id": "c",
+          "label": "have believed / have been"
+        },
+        {
+          "id": "d",
+          "label": "were believing / were"
         }
       ]
     },
     "correctOptionId": "b",
-    "hint": "Tìm phương pháp mà các nhà khoa học đã sử dụng để chứng minh sự khác biệt loài."
+    "hint": "Cả hai động từ đều cần ở thì quá khứ đơn ('believed' và 'were') để diễn tả niềm tin và trạng thái tồn tại trong quá khứ, trước khi có bằng chứng mới."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "Alfred Roca, an assistant professor, _____ that they now have to treat forest and savanna elephants as two different units.",
+      "options": [
+        {
+          "id": "a",
+          "label": "says"
+        },
+        {
+          "id": "b",
+          "label": "has said"
+        },
+        {
+          "id": "c",
+          "label": "said"
+        },
+        {
+          "id": "d",
+          "label": "is saying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ tường thuật 'said' ở thì quá khứ đơn dùng để báo cáo lời nói đã được nói ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Before the recent study, scientists often _____ African savanna and forest elephants as one species.",
+      "options": [
+        {
+          "id": "a",
+          "label": "consider"
+        },
+        {
+          "id": "b",
+          "label": "considered"
+        },
+        {
+          "id": "c",
+          "label": "have considered"
+        },
+        {
+          "id": "d",
+          "label": "were considering"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ đơn (considered) dùng để diễn tả một hành động hoặc quan điểm đã tồn tại và kết thúc trong quá khứ, trước một sự kiện khác."
   }
 ]

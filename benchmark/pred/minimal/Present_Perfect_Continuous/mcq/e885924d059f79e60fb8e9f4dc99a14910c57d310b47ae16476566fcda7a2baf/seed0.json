@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "The Nature Conservancy _____ in China's northwest Yunnan Province since 1998 to protect its natural diversity.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "has been working"
+        },
+        {
+          "id": "d",
+          "label": "has worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn dùng để diễn tả hành động bắt đầu trong quá khứ và tiếp tục đến hiện tại, thường đi với 'since' hoặc 'for'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "For the past few hours, the students _____ about the importance of biodiversity in the workshop.",
+      "options": [
+        {
+          "id": "a",
+          "label": "discuss"
+        },
+        {
+          "id": "b",
+          "label": "discussed"
+        },
+        {
+          "id": "c",
+          "label": "have discussed"
+        },
+        {
+          "id": "d",
+          "label": "have been discussing"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'discussing' đã diễn ra liên tục trong vài giờ và vẫn có thể đang tiếp diễn, nên dùng hiện tại hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "She _____ on the \"Education for Sustainability\" program for five years, and it's still ongoing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "leads"
+        },
+        {
+          "id": "b",
+          "label": "led"
+        },
+        {
+          "id": "c",
+          "label": "has been leading"
+        },
+        {
+          "id": "d",
+          "label": "has led"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'for five years' và 'still ongoing' chỉ ra một hành động kéo dài liên tục từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "My eyes are tired because I _____ this report on eco-tourism all morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "am reading"
+        },
+        {
+          "id": "c",
+          "label": "have read"
+        },
+        {
+          "id": "d",
+          "label": "have been reading"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Kết quả hiện tại ('My eyes are tired') là do một hành động ('reading') đã diễn ra liên tục trong một khoảng thời gian ('all morning') cho đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "How long _____ the local communities _____ with the Conservancy on green tourism strategies?",
+      "options": [
+        {
+          "id": "a",
+          "label": "do...cooperate"
+        },
+        {
+          "id": "b",
+          "label": "did...cooperate"
+        },
+        {
+          "id": "c",
+          "label": "have...cooperated"
+        },
+        {
+          "id": "d",
+          "label": "have...been cooperating"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu hỏi 'How long' thường dùng với thì hiện tại hoàn thành tiếp diễn để hỏi về khoảng thời gian một hành động đã diễn ra liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The government _____ new policies to promote sustainable development for several months now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "implements"
+        },
+        {
+          "id": "b",
+          "label": "implemented"
+        },
+        {
+          "id": "c",
+          "label": "has implemented"
+        },
+        {
+          "id": "d",
+          "label": "has been implementing"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ 'for several months now' nhấn mạnh hành động đã bắt đầu trong quá khứ và vẫn đang tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "It _____ heavily all night, which is why the river levels are so high this morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rained"
+        },
+        {
+          "id": "b",
+          "label": "is raining"
+        },
+        {
+          "id": "c",
+          "label": "has rained"
+        },
+        {
+          "id": "d",
+          "label": "has been raining"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'raining' diễn ra liên tục trong đêm và có kết quả rõ rệt ở hiện tại ('river levels are high')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "We _____ to raise awareness about endangered species in Yunnan for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "try"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "have tried"
+        },
+        {
+          "id": "d",
+          "label": "have been trying"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ 'for a long time' chỉ một khoảng thời gian dài mà hành động đã diễn ra liên tục và vẫn tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Since she joined the project, she _____ tirelessly to protect the local wildlife.",
+      "options": [
+        {
+          "id": "a",
+          "label": "dedicates"
+        },
+        {
+          "id": "b",
+          "label": "dedicated"
+        },
+        {
+          "id": "c",
+          "label": "has dedicated"
+        },
+        {
+          "id": "d",
+          "label": "has been dedicating"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Mốc thời gian 'Since she joined' và trạng từ 'tirelessly' nhấn mạnh sự liên tục của hành động từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Lately, the team _____ new methods to reduce the environmental footprint of tourism.",
+      "options": [
+        {
+          "id": "a",
+          "label": "researches"
+        },
+        {
+          "id": "b",
+          "label": "researched"
+        },
+        {
+          "id": "c",
+          "label": "has researched"
+        },
+        {
+          "id": "d",
+          "label": "has been researching"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trạng từ 'Lately' (gần đây) thường dùng với thì hiện tại hoàn thành tiếp diễn để chỉ hành động diễn ra liên tục trong thời gian gần đây."
+  }
+]

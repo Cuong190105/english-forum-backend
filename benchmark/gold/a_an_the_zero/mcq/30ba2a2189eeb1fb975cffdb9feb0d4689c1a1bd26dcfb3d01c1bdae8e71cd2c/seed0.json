@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_01",
+      "prompt": "The Field Museum is located on Chicago's Museum Campus, just south of _____ Roosevelt Rd.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Tên riêng của đường phố (Roosevelt Rd) thường không dùng mạo từ. Chúng ta chỉ dùng 'the' trong một số trường hợp đặc biệt."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_02",
+      "prompt": "Public transit remains _____ great way to get to the Campus every day of the year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước một danh từ đếm được số ít (way) khi nó được nhắc đến lần đầu, mang tính chung chung. 'Great' bắt đầu bằng phụ âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_03",
+      "prompt": "From Memorial Day to Labor Day, _____ parking lot will only accept cash payment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'parking lot' đã được xác định rõ trong ngữ cảnh của bảo tàng. Người đọc và người viết đều hiểu đang nói về bãi đỗ xe nào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_04",
+      "prompt": "The museum is open every day except _____ Christmas.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Tên các ngày lễ cụ thể như Christmas, New Year's Day, hay Tết thường không đi kèm mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_05",
+      "prompt": "The museum has _____ unusually early last admission time of 4:00 pm.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' trước một từ bắt đầu bằng nguyên âm. 'Unusually' bắt đầu bằng âm /ʌ/, là một nguyên âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_06",
+      "prompt": "The last admission is at 4:00 pm, which is _____ final chance to enter for the day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' trước các từ chỉ thứ tự hoặc sự duy nhất như 'first', 'last', 'only', 'final' để nhấn mạnh tính xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_07",
+      "prompt": "You can get to the museum by _____ car or public transit.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Khi nói về phương tiện đi lại chung chung với giới từ 'by', chúng ta không dùng mạo từ (by car, by bus, by train)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_08",
+      "prompt": "_____ hours of the north garage are from 5:00 am to 5:00 pm on weekdays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi danh từ (hours) được xác định bởi một cụm từ theo sau, đặc biệt là cụm bắt đầu bằng 'of' (of the north garage)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_09",
+      "prompt": "For more information, call _____ Regional Transportation Authority.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' trước tên riêng của các tổ chức, cơ quan (Regional Transportation Authority) vì chúng là duy nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "fm_art_10",
+      "prompt": "During major events, _____ access to the Museum Campus can be challenging.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "--- (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Danh từ không đếm được (access) khi mang ý nghĩa chung chung, khái quát thì không cần dùng mạo từ."
+  }
+]

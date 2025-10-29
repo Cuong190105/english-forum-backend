@@ -8,6 +8,7 @@ from statistics import mean, stdev
 from math import sqrt
 from typing import List, Dict, Any
 import re
+import time
 
 from .generate_gold import generate_gold
 from .generate_pred import generate_pred
@@ -16,7 +17,7 @@ from .score import mcq_semantics, fill_semantics
 from .judge import judge_mcq, judge_fill, run_judges_mcq, run_judges_fill
 from .report import (
     write_summary_csv, write_per_item_csv, write_jsonl, write_paired_overall_csv, write_winloss_csv,
-    append_summary_rows, append_per_item_rows, append_jsonl
+    append_summary_rows, append_per_item_rows, append_jsonl, write_latency_csv
 )
 
 
@@ -32,6 +33,9 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
     # For paired analysis between configs (e.g., minimal vs cot)
     # Keyed by (source_text_sha, topic, type, seed) -> {config: {semantic_mean, judge_mean}}
     paired_map: Dict[tuple, Dict[str, Dict[str, float]]] = {}
+    
+    # Latency tracking: config -> list of latency values in ms
+    latency_map: Dict[str, List[float]] = {}
 
     # Pre-create report directory
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -61,7 +65,14 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
                     # Reuse existing prediction to speed up resuming
                     meta = {'config': config, 'topic': topic, 'type': hw_type, 'seed': seed, 'n': len(json.loads(pred_path.read_text(encoding='utf-8')))}
                 else:
+                    # Measure latency for new predictions
+                    t0 = time.perf_counter()
                     meta = generate_pred(config, topic, hw_type, post_text, seed, pred_path, num_items=num_items)
+                    t1 = time.perf_counter()
+                    latency_ms = (t1 - t0) * 1000.0  # Convert to milliseconds
+                    if config not in latency_map:
+                        latency_map[config] = []
+                    latency_map[config].append(latency_ms)
                 pred = json.loads(pred_path.read_text(encoding='utf-8'))
 
                 # Structural validation (enforce exact bundle count)
@@ -265,6 +276,7 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
     # Write reports
     # Final write ensures files are consistent; may overwrite, but all progress was already streamed
     write_summary_csv(summary_csv, summary_rows)
+    # per_item_rows is the collected list used throughout the run; ensure we pass it correctly
     write_per_item_csv(per_item_csv, per_item_rows)
     write_jsonl(invalid_jsonl, invalid_rows)
 
@@ -410,6 +422,10 @@ def run(topics: List[Dict[str,str]], configs: List[str], seeds: List[int], run_i
 
     write_paired_overall_csv(out_dir / 'paired_overall.csv', paired_rows)
     write_winloss_csv(out_dir / 'winloss.csv', winloss_rows)
+    
+    # Write latency report comparing minimal vs CoT
+    if latency_map:
+        write_latency_csv(out_dir / 'latency.csv', latency_map)
 
     # Inter-judge reliability (if second judge present)
     def compute_agree_kappa(pairs: List[tuple], classes: List[str]) -> Dict[str, float]:

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "Before Anne bought the expensive shoes, neither of them _____ anything that expensive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "owned"
+        },
+        {
+          "id": "b",
+          "label": "had ever owned"
+        },
+        {
+          "id": "c",
+          "label": "have ever owned"
+        },
+        {
+          "id": "d",
+          "label": "were owning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ hoàn thành (had + V3/ed) dùng để diễn tả hành động xảy ra trước một hành động khác trong quá khứ. Ở đây, việc sở hữu xảy ra trước khi Anne mua giày."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "Anne was struggling with a part-time job because she _____ in the army before attending community college.",
+      "options": [
+        {
+          "id": "a",
+          "label": "served"
+        },
+        {
+          "id": "b",
+          "label": "had served"
+        },
+        {
+          "id": "c",
+          "label": "has served"
+        },
+        {
+          "id": "d",
+          "label": "was serving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'phục vụ trong quân đội' xảy ra và hoàn tất trước khi Anne bắt đầu đi học và làm việc bán thời gian. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "The narrator felt that winning the scholarship was her only chance of going to college because she _____ no money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "had had"
+        },
+        {
+          "id": "c",
+          "label": "has had"
+        },
+        {
+          "id": "d",
+          "label": "was having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc không có tiền xảy ra trước và là nguyên nhân dẫn đến suy nghĩ về học bổng. 'Had had' là quá khứ hoàn thành của động từ 'have'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "Before showing Anne her outfit, the narrator _____ to hide the hole in her shoes during the interview.",
+      "options": [
+        {
+          "id": "a",
+          "label": "planned"
+        },
+        {
+          "id": "b",
+          "label": "had planned"
+        },
+        {
+          "id": "c",
+          "label": "has planned"
+        },
+        {
+          "id": "d",
+          "label": "was planning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Kế hoạch được lập ra trước khi hành động 'cho Anne xem trang phục' diễn ra. Dùng quá khứ hoàn thành để chỉ hành động xảy ra trước một mốc thời gian trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "Anne looked after her younger siblings because their mother _____ evenings at a factory for many years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "had worked"
+        },
+        {
+          "id": "c",
+          "label": "has worked"
+        },
+        {
+          "id": "d",
+          "label": "was working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc mẹ làm việc ở nhà máy đã xảy ra và kéo dài trong quá khứ, dẫn đến việc Anne phải chăm sóc các em. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "The narrator won the scholarship after she _____ the important interview.",
+      "options": [
+        {
+          "id": "a",
+          "label": "attended"
+        },
+        {
+          "id": "b",
+          "label": "had attended"
+        },
+        {
+          "id": "c",
+          "label": "has attended"
+        },
+        {
+          "id": "d",
+          "label": "was attending"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'tham dự phỏng vấn' xảy ra trước và hoàn tất trước khi 'giành được học bổng'. 'After' thường đi với quá khứ hoàn thành cho hành động xảy ra trước."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "By the time the narrator told Anne about the interview, Anne _____ for a while to put herself through college.",
+      "options": [
+        {
+          "id": "a",
+          "label": "struggled"
+        },
+        {
+          "id": "b",
+          "label": "had struggled"
+        },
+        {
+          "id": "c",
+          "label": "has struggled"
+        },
+        {
+          "id": "d",
+          "label": "was struggling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc Anne vật lộn đã diễn ra trong một khoảng thời gian và kết thúc (hoặc tiếp diễn) cho đến khi người kể chuyện nói về cuộc phỏng vấn. Dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "The narrator didn't wear the special shoes much even after she _____ the scholarship.",
+      "options": [
+        {
+          "id": "a",
+          "label": "won"
+        },
+        {
+          "id": "b",
+          "label": "had won"
+        },
+        {
+          "id": "c",
+          "label": "has won"
+        },
+        {
+          "id": "d",
+          "label": "was winning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'giành được học bổng' xảy ra trước và là điều kiện để có đôi giày đặc biệt. 'After' chỉ rõ thứ tự các sự kiện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "Anne took on a motherly role because her younger siblings _____ their mother much due to her factory work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't see"
+        },
+        {
+          "id": "b",
+          "label": "hadn't seen"
+        },
+        {
+          "id": "c",
+          "label": "haven't seen"
+        },
+        {
+          "id": "d",
+          "label": "weren't seeing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc không gặp mẹ xảy ra trước và là lý do Anne phải đóng vai trò người mẹ. Dùng quá khứ hoàn thành để chỉ nguyên nhân xảy ra trước kết quả trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "When Anne offered to buy the shoes, the narrator was speechless because she _____ how much money it was for Anne.",
+      "options": [
+        {
+          "id": "a",
+          "label": "knew"
+        },
+        {
+          "id": "b",
+          "label": "had known"
+        },
+        {
+          "id": "c",
+          "label": "has known"
+        },
+        {
+          "id": "d",
+          "label": "was knowing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Việc người kể chuyện biết về tình hình tài chính của Anne đã xảy ra trước và là nguyên nhân khiến cô ấy không nói nên lời. Dùng quá khứ hoàn thành."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_001",
+      "prompt": "This is _____ picture of Kate Green's family.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước danh từ đếm được số ít ('picture') được nhắc đến lần đầu và bắt đầu bằng một phụ âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_002",
+      "prompt": "In _____ picture, we can see her grandparents.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'picture' đã được nhắc đến ở câu trước, nên nó là một đối tượng đã xác định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_003",
+      "prompt": "Mike is standing under _____ window.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi nói về một vật duy nhất trong một ngữ cảnh cụ thể (cái cửa sổ trong căn phòng được chụp ảnh)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_004",
+      "prompt": "What's behind Kate? It's _____ cat.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' để giới thiệu một đối tượng ('cat') lần đầu tiên. 'The cat' sẽ được dùng ở những lần nhắc sau."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_005",
+      "prompt": "Her grandparents are sitting on _____ chair.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì người nói và người nghe đều hiểu đang nói về chiếc ghế cụ thể trong bức ảnh mà ông bà đang ngồi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_006",
+      "prompt": "The picture shows _____ Mr Green and Mrs Green behind the grandparents.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước tên riêng của người (Mr Green, Mrs Green) khi không có ý chỉ một người nào đó mang tên này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_007",
+      "prompt": "Kate is on _____ floor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' với các danh từ chỉ vật duy nhất trong một không gian cụ thể như 'the floor', 'the ceiling', 'the door'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_008",
+      "prompt": "This is _____ unusual family photo because everyone looks very serious.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' trước một từ bắt đầu bằng nguyên âm. 'Unusual' bắt đầu bằng âm /ʌ/."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_009",
+      "prompt": "_____ cat behind Kate is black and white.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì con mèo đã được xác định bởi cụm từ 'behind Kate'. Chúng ta biết rõ đang nói về con mèo nào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_010",
+      "prompt": "In general, _____ families enjoy taking pictures together.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "the"
+        },
+        {
+          "id": "c",
+          "label": "an"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ khi nói về một danh từ số nhiều ('families') theo nghĩa chung chung, khái quát."
+  }
+]

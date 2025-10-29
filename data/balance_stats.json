@@ -1,0 +1,16 @@
+{
+  "total_input_texts": 150,
+  "unique_input_topics": 34,
+  "eligible_topics": 6,
+  "selected_topics": 6,
+  "per_topic": 5,
+  "total_output_texts": 30,
+  "topics": {
+    "Past Simple": 5,
+    "Present Simple": 5,
+    "Past Perfect": 5,
+    "Backshifting tenses": 5,
+    "Passive (all tenses)": 5,
+    "Past Perfect Continuous": 5
+  }
+}

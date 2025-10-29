@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "Anne was struggling to pay for college because she _____ all her savings while serving in the army.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had spent"
+        },
+        {
+          "id": "b",
+          "label": "spent"
+        },
+        {
+          "id": "c",
+          "label": "was spending"
+        },
+        {
+          "id": "d",
+          "label": "has spent"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"had spent\" xảy ra và hoàn tất trước hành động \"was struggling\" trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "Before Anne bought me the new shoes, I _____ anything that expensive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had never owned"
+        },
+        {
+          "id": "b",
+          "label": "never owned"
+        },
+        {
+          "id": "c",
+          "label": "was never owning"
+        },
+        {
+          "id": "d",
+          "label": "have never owned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Had never owned\" diễn tả một kinh nghiệm chưa từng có trước một thời điểm cụ thể trong quá khứ (\"before Anne bought\")."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "I showed Anne my best outfit, which I _____ carefully for the interview.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had chosen"
+        },
+        {
+          "id": "b",
+          "label": "chose"
+        },
+        {
+          "id": "c",
+          "label": "was choosing"
+        },
+        {
+          "id": "d",
+          "label": "have chosen"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc chọn trang phục xảy ra trước khi tôi khoe nó với Anne, nên dùng thì quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "My mother _____ evenings at a factory for years before Anne started looking after me.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had worked"
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "was working"
+        },
+        {
+          "id": "d",
+          "label": "has worked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"had worked\" diễn ra và kéo dài trong quá khứ, kết thúc trước một hành động khác trong quá khứ (\"started looking after\")."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "By the time I became an engineer, I _____ the scholarship.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had won"
+        },
+        {
+          "id": "b",
+          "label": "won"
+        },
+        {
+          "id": "c",
+          "label": "was winning"
+        },
+        {
+          "id": "d",
+          "label": "have won"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"By the time\" thường đi với quá khứ hoàn thành để chỉ một hành động hoàn tất trước một thời điểm hoặc hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "Anne was speechless because she knew she _____ a lot of money for the shoes, which meant she would eat noodles for a month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had just spent"
+        },
+        {
+          "id": "b",
+          "label": "just spent"
+        },
+        {
+          "id": "c",
+          "label": "was just spending"
+        },
+        {
+          "id": "d",
+          "label": "has just spent"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Had just spent\" nhấn mạnh hành động chi tiền vừa mới xảy ra trước khi Anne cảm thấy cạn lời và nhận ra hậu quả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "I sat carefully so that the hole in my shoes, which _____ there for a while, would not be seen during the interview.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lỗ thủng đã tồn tại trong một khoảng thời gian trước sự kiện phỏng vấn trong quá khứ, nên dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "When I was seventeen, I had no money because I _____ all my savings on books.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had spent"
+        },
+        {
+          "id": "b",
+          "label": "spent"
+        },
+        {
+          "id": "c",
+          "label": "was spending"
+        },
+        {
+          "id": "d",
+          "label": "have spent"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc tiêu hết tiền xảy ra trước khi tôi không còn tiền ở tuổi mười bảy, do đó dùng quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "Anne _____ always there for me, not only as a sister but also as a mother, before I fully understood her sacrifices.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"had been\" diễn tả trạng thái kéo dài và hoàn tất trước một thời điểm khác trong quá khứ (\"before I fully understood\")."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "Although the new shoes were nice, I didn't wear them much because I _____ them so special.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had considered"
+        },
+        {
+          "id": "b",
+          "label": "considered"
+        },
+        {
+          "id": "c",
+          "label": "was considering"
+        },
+        {
+          "id": "d",
+          "label": "have considered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc coi đôi giày là đặc biệt đã xảy ra trước khi tôi quyết định không mang chúng thường xuyên trong quá khứ."
+  }
+]

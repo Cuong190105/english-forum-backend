@@ -1,0 +1,22 @@
+{
+  "total_input_texts": 350,
+  "unique_input_topics": 38,
+  "eligible_topics": 12,
+  "selected_topics": 12,
+  "per_topic": 5,
+  "total_output_texts": 60,
+  "topics": {
+    "Past Simple": 5,
+    "Present Simple": 5,
+    "Past Perfect": 5,
+    "a/an/the/zero": 5,
+    "Present Perfect Continuous": 5,
+    "Backshifting tenses": 5,
+    "Past Continuous": 5,
+    "Passive (all tenses)": 5,
+    "Present Perfect": 5,
+    "Past Perfect Continuous": 5,
+    "V-ing vs to-V": 5,
+    "as…as": 5
+  }
+}

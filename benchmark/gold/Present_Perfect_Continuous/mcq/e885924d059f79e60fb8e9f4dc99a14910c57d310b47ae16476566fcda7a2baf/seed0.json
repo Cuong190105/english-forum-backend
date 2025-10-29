@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "The Nature Conservancy ______ in Yunnan Province to protect its unique biodiversity since 1998.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "is working"
+        },
+        {
+          "id": "c",
+          "label": "has been working"
+        },
+        {
+          "id": "d",
+          "label": "works"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng thì Hiện tại Hoàn thành Tiếp diễn để nhấn mạnh hành động bắt đầu trong quá khứ (since 1998) và vẫn đang tiếp tục ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "For the last few years, local communities and government agencies ______ strategies for 'green' tourism.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been developing"
+        },
+        {
+          "id": "b",
+          "label": "developed"
+        },
+        {
+          "id": "c",
+          "label": "are developing"
+        },
+        {
+          "id": "d",
+          "label": "develop"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'for the last few years' chỉ một khoảng thời gian kéo dài đến hiện tại, do đó cần dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "The scientists look exhausted because they ______ endangered species in the Himalayas all month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "study"
+        },
+        {
+          "id": "b",
+          "label": "were studying"
+        },
+        {
+          "id": "c",
+          "label": "have studied"
+        },
+        {
+          "id": "d",
+          "label": "have been studying"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động kéo dài ('all month') và có kết quả ở hiện tại ('look exhausted') nên dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "How long ______ the Conservancy ______ to promote eco-tourism opportunities in this region?",
+      "options": [
+        {
+          "id": "a",
+          "label": "is / working"
+        },
+        {
+          "id": "b",
+          "label": "has / been working"
+        },
+        {
+          "id": "c",
+          "label": "did / work"
+        },
+        {
+          "id": "d",
+          "label": "does / work"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi 'How long' về một hành động bắt đầu trong quá khứ và còn tiếp diễn ở hiện tại thường dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Lately, the Education for Sustainability program ______ local communities about conservation.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been teaching"
+        },
+        {
+          "id": "b",
+          "label": "is teaching"
+        },
+        {
+          "id": "c",
+          "label": "taught"
+        },
+        {
+          "id": "d",
+          "label": "teaches"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ 'Lately' (gần đây) là dấu hiệu của thì Hiện tại Hoàn thành Tiếp diễn, nhấn mạnh một hoạt động liên tục trong thời gian gần đây."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "The project manager is busy. She ______ with tourism enterprises all morning to discuss new strategies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "met"
+        },
+        {
+          "id": "b",
+          "label": "has been meeting"
+        },
+        {
+          "id": "c",
+          "label": "meets"
+        },
+        {
+          "id": "d",
+          "label": "was meeting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'all morning' chỉ một khoảng thời gian chưa kết thúc, nhấn mạnh sự liên tục của hành động dẫn đến tình trạng 'busy' ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "The number of native plant species is increasing because conservationists ______ the local habitat for years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been protecting"
+        },
+        {
+          "id": "b",
+          "label": "protected"
+        },
+        {
+          "id": "c",
+          "label": "are protecting"
+        },
+        {
+          "id": "d",
+          "label": "protect"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Kết quả ở hiện tại ('is increasing') là do một hành động kéo dài từ quá khứ ('for years'). Dùng Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "My hands are dirty because I ______ medicinal herbs in the community garden all afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "planted"
+        },
+        {
+          "id": "b",
+          "label": "plant"
+        },
+        {
+          "id": "c",
+          "label": "have been planting"
+        },
+        {
+          "id": "d",
+          "label": "was planting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Kết quả ở hiện tại ('My hands are dirty') là do một hành động kéo dài ('all afternoon'). Dùng Hiện tại Hoàn thành Tiếp diễn để nhấn mạnh quá trình."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "He ______ Chinese for two years, but he still finds it difficult to talk to the local people in Yunnan.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is learning"
+        },
+        {
+          "id": "b",
+          "label": "learned"
+        },
+        {
+          "id": "c",
+          "label": "learns"
+        },
+        {
+          "id": "d",
+          "label": "has been learning"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ 'for two years' chỉ một khoảng thời gian kéo dài đến hiện tại. Thì Hiện tại Hoàn thành Tiếp diễn được dùng để diễn tả hành động này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "The team ______ on this marketing campaign for very long, but they have already seen great results.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't working"
+        },
+        {
+          "id": "b",
+          "label": "hasn't been working"
+        },
+        {
+          "id": "c",
+          "label": "didn't work"
+        },
+        {
+          "id": "d",
+          "label": "doesn't work"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng dạng phủ định của Hiện tại Hoàn thành Tiếp diễn để nói về một hành động không kéo dài liên tục cho đến hiện tại, đặc biệt với 'for' và 'since'."
+  }
+]

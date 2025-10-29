@@ -280,6 +280,10 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
     ws_winloss = add_sheet_from_csv(winloss_csv, 'winloss')
     ws_inter = add_sheet_from_csv(inter_judge_csv, 'inter_judge')
     ws_inter_topic = add_sheet_from_csv(inter_judge_by_topic_csv, 'inter_judge_by_topic')
+    
+    # Add latency comparison sheet (minimal vs CoT)
+    latency_csv = run_dir / 'latency.csv'
+    ws_latency = add_sheet_from_csv(latency_csv, 'latency')
 
     # Autosize columns for all sheets we created
     for ws in wb.worksheets:

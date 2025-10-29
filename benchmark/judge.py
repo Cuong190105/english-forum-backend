@@ -114,13 +114,16 @@ def _deepseek_client():
     """
     try:
         from openai import OpenAI  # type: ignore
+        import httpx  # type: ignore
     except Exception:
         return None
     key = os.getenv('DEEPSEEK_API_KEY')
     if not key:
         return None
     base = os.getenv('DEEPSEEK_BASE_URL') or 'https://api.deepseek.com'
-    return OpenAI(base_url=base, api_key=key)
+    # Create httpx client with simple timeout config
+    http_client = httpx.Client(timeout=60.0)
+    return OpenAI(base_url=base, api_key=key, http_client=http_client)
 
 
 def _parse_json_loose(text: str) -> Dict[str, Any]:
@@ -183,7 +186,7 @@ def judge_mcq_deepseek(stem: str, options: Dict[str, str], correct_id: str, topi
         'topic': topic,
         **({'context': context} if context else {}),
     }, ensure_ascii=False)
-    model = os.getenv('JUDGE2_MODEL') or 'deepseek-chat'
+    model = os.getenv('JUDGE2_MODEL') or 'deepseek-reasoner'
     try:
         _log_j2(f"CALL mcq model={model} topic={topic} len_stem={len(stem)} n_opts={len(options)} has_ctx={1 if context else 0}")
         resp = client.chat.completions.create(
@@ -219,7 +222,7 @@ def judge_fill_deepseek(prompt: str, answer: str, topic: str, context: str | Non
         'topic': topic,
         **({'context': context} if context else {}),
     }, ensure_ascii=False)
-    model = os.getenv('JUDGE2_MODEL') or 'deepseek-chat'
+    model = os.getenv('JUDGE2_MODEL') or 'deepseek-reasoner'
     try:
         _log_j2(f"CALL fill model={model} topic={topic} len_prompt={len(prompt)} len_answer={len(answer)} has_ctx={1 if context else 0}")
         resp = client.chat.completions.create(

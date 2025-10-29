@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Look at this. It's _____ blue bag.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước danh từ số ít đếm được bắt đầu bằng phụ âm khi nhắc đến lần đầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "_____ bag is my bag.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi danh từ đã được nhắc đến hoặc xác định cụ thể trong ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "This is my _____ English book.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ khi đã có tính từ sở hữu (my, your, his, her, etc.) đứng trước danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "My Chinese book is also in my bag. It is _____ yellow book.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước danh từ số ít đếm được bắt đầu bằng phụ âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "This is my pencil case. It's _____ big and nice pencil case.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước danh từ số ít đếm được bắt đầu bằng phụ âm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I like _____ English and _____ Chinese.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a / a"
+        },
+        {
+          "id": "b",
+          "label": "the / the"
+        },
+        {
+          "id": "c",
+          "label": "zero article / zero article"
+        },
+        {
+          "id": "d",
+          "label": "an / an"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Không dùng mạo từ trước tên các môn học hoặc ngôn ngữ nói chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "My bag is _____ good friend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước danh từ số ít đếm được bắt đầu bằng phụ âm khi miêu tả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "What's in _____ bag?",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi danh từ đã được nhắc đến hoặc xác định cụ thể trong ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "_____ English book is blue, too.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi danh từ đã được nhắc đến hoặc xác định cụ thể trong ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "_____ bags are useful.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ khi nói về danh từ số nhiều theo nghĩa chung chung."
+  }
+]

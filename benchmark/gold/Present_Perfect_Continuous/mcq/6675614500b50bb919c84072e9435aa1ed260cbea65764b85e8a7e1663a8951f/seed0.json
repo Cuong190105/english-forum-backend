@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "My voice is a little hoarse because I _____ aloud to my children for the last hour.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been reading"
+        },
+        {
+          "id": "b",
+          "label": "read"
+        },
+        {
+          "id": "c",
+          "label": "am reading"
+        },
+        {
+          "id": "d",
+          "label": "have read"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì Hiện tại Hoàn thành Tiếp diễn để nhấn mạnh hành động kéo dài (for the last hour) và có kết quả ở hiện tại (my voice is hoarse)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "The baby's hands are sticky. He _____ the cover of that picture book again.",
+      "options": [
+        {
+          "id": "a",
+          "label": "chewed"
+        },
+        {
+          "id": "b",
+          "label": "is chewing"
+        },
+        {
+          "id": "c",
+          "label": "has been chewing"
+        },
+        {
+          "id": "d",
+          "label": "has chewed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động vừa mới kết thúc nhưng kết quả còn rõ ở hiện tại (hands are sticky) là dấu hiệu của thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "How long _____ you _____ a special reading time with your son before bed?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / been setting"
+        },
+        {
+          "id": "b",
+          "label": "did / set"
+        },
+        {
+          "id": "c",
+          "label": "do / set"
+        },
+        {
+          "id": "d",
+          "label": "are / setting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi 'How long' về một thói quen kéo dài từ quá khứ đến hiện tại thường dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "She is learning to listen better because we _____ to her every single day since she was born.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "have been reading"
+        },
+        {
+          "id": "c",
+          "label": "were reading"
+        },
+        {
+          "id": "d",
+          "label": "have read"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì HTHTTD với 'since' để diễn tả hành động bắt đầu trong quá khứ, kéo dài liên tục đến hiện tại và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "He seems distracted. I don't think he _____ attention to the story at all this evening.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hasn't been paying"
+        },
+        {
+          "id": "b",
+          "label": "didn't pay"
+        },
+        {
+          "id": "c",
+          "label": "isn't paying"
+        },
+        {
+          "id": "d",
+          "label": "hasn't paid"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dạng phủ định của HTHTTD (has not been + V-ing) để chỉ một hành động đã không diễn ra liên tục trong một khoảng thời gian chưa kết thúc (this evening)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "Lately, we _____ that reading at bedtime helps our child settle down much faster.",
+      "options": [
+        {
+          "id": "a",
+          "label": "found"
+        },
+        {
+          "id": "b",
+          "label": "find"
+        },
+        {
+          "id": "c",
+          "label": "have been finding"
+        },
+        {
+          "id": "d",
+          "label": "are finding"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng thì HTHTTD với 'lately' để mô tả một xu hướng hoặc một khám phá diễn ra lặp đi lặp lại trong thời gian gần đây."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "My daughter _____ about the pictures in her books more and more since she turned one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "talked"
+        },
+        {
+          "id": "b",
+          "label": "has been talking"
+        },
+        {
+          "id": "c",
+          "label": "is talking"
+        },
+        {
+          "id": "d",
+          "label": "has talked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì HTHTTD diễn tả một hành động phát triển và thay đổi qua một khoảng thời gian kéo dài đến hiện tại, đặc biệt khi có 'since'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "It's no wonder the child is restless; he _____ in that chair for over thirty minutes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sat"
+        },
+        {
+          "id": "b",
+          "label": "is sitting"
+        },
+        {
+          "id": "c",
+          "label": "has sat"
+        },
+        {
+          "id": "d",
+          "label": "has been sitting"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Thì HTHTTD diễn tả nguyên nhân của một tình huống ở hiện tại. Việc 'ngồi' (nguyên nhân) kéo dài 'for over thirty minutes' dẫn đến 'restless' (kết quả)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "For years, educators _____ that reading to children from birth develops their love for words.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been teaching"
+        },
+        {
+          "id": "b",
+          "label": "taught"
+        },
+        {
+          "id": "c",
+          "label": "teach"
+        },
+        {
+          "id": "d",
+          "label": "were teaching"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì HTHTTD với 'for years' để nhấn mạnh một hành động, một thông điệp được lặp đi lặp lại trong một thời gian dài và vẫn còn tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "You look tired. _____ you _____ all day to find the perfect book for your nephew?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did / look"
+        },
+        {
+          "id": "b",
+          "label": "Are / looking"
+        },
+        {
+          "id": "c",
+          "label": "Have / been looking"
+        },
+        {
+          "id": "d",
+          "label": "Have / looked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về một hành động kéo dài ('all day') gây ra kết quả ở hiện tại ('You look tired') nên dùng thì Hiện tại Hoàn thành Tiếp diễn."
+  }
+]

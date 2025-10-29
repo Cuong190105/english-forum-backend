@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_001",
+      "prompt": "Our Grand Canyon Tour is _____ only luxury coach tour that stops at Bright Angel Lodge for a full three hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Luôn dùng 'the' trước các từ chỉ sự duy nhất như 'only', 'first', 'last' và các dạng so sánh nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_002",
+      "prompt": "The West Rim tour package includes a short photo stop at _____ Hoover Dam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' trước tên các công trình kiến trúc, địa danh nổi tiếng và độc nhất như sông, đập, kênh đào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_003",
+      "prompt": "A helicopter tour offers _____ once-in-a-lifetime adventure for the whole family.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước các từ bắt đầu bằng một phụ âm. Mặc dù 'once' bắt đầu bằng 'o', nhưng nó được phát âm là /wʌns/."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_004",
+      "prompt": "The Hoover Dam Mini Tour is guided by _____ Hoover Dam expert.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'an' trước danh từ đếm được số ít bắt đầu bằng một nguyên âm. 'Expert' bắt đầu bằng âm /e/."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_005",
+      "prompt": "Our prices include all fees, so you don't have to worry about paying for _____ fuel separately.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước danh từ không đếm được (fuel) khi nói về nó một cách chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_006",
+      "prompt": "The tour stops at _____ Haulapai Indian Reservation of the Grand Canyon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi danh từ được xác định rõ ràng bởi một cụm từ theo sau, đặc biệt là cụm từ bắt đầu bằng 'of'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_007",
+      "prompt": "The Hollywood tour ends at _____ beautiful Santa Monica Beach.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước tên riêng của hầu hết các địa điểm như bãi biển, công viên, đường phố (Santa Monica Beach, Hollywood Blvd)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_008",
+      "prompt": "A delicious lunch is included in the Hoover Dam tour. _____ lunch is served around noon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' khi nhắc lại một đối tượng đã được đề cập trước đó. 'A delicious lunch' đã được giới thiệu ở câu đầu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_009",
+      "prompt": "Our tours leave directly from _____ Las Vegas Strip, saving you time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' với tên riêng của một số con đường hoặc khu vực cụ thể, đặc biệt là những nơi nổi tiếng như 'the Las Vegas Strip'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_art_010",
+      "prompt": "The free shuttle can take you to _____ multiple viewpoints, including Mather Point.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "— (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ 'a/an/the' trước danh từ số nhiều (viewpoints) khi nói về chúng một cách chung chung, không xác định."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_001",
+      "prompt": "_____ Field Museum is open daily from 9:00 am to 5:00 pm.",
+      "options": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "An"
+        },
+        {
+          "id": "c",
+          "label": "The"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' cho danh từ riêng chỉ một địa điểm cụ thể, duy nhất đã được xác định (Field Museum)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_002",
+      "prompt": "Last admission to the museum is at 4:00 pm, except on _____ Christmas.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước tên các ngày lễ cụ thể như Christmas."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_003",
+      "prompt": "Visitors can get to the museum by car, public transit, or _____ free trolley.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước danh từ số ít đếm được 'trolley' khi nói về một phương tiện vận chuyển chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_004",
+      "prompt": "Visitor parking in all lots on _____ Museum Campus is $15 per day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' cho danh từ riêng chỉ một địa điểm cụ thể, duy nhất đã được xác định (Museum Campus)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_005",
+      "prompt": "Designated handicapped parking is available in _____ every lot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước từ 'every' khi nó đứng trước danh từ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_006",
+      "prompt": "From Memorial Day to Labor Day, _____ parking lot will only accept cash payment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' vì 'parking lot' đã được xác định hoặc ngụ ý là bãi đỗ xe cụ thể của bảo tàng trong ngữ cảnh này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_007",
+      "prompt": "These hours and rates do not apply when _____ special events are scheduled.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước danh từ số nhiều không xác định 'special events' khi nói về chúng một cách chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_008",
+      "prompt": "During Bears home games, no museum visitor parking is available on _____ Museum Campus.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'the' cho danh từ riêng chỉ một địa điểm cụ thể, duy nhất đã được xác định (Museum Campus)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_009",
+      "prompt": "Public transit remains _____ great way to get to the Campus every day of the year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'a' trước tính từ 'great' và danh từ số ít đếm được 'way' khi nói về một cách thức chung chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "article_010",
+      "prompt": "For more _____ information, call the Regional Transportation Authority.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "Zero article"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Không dùng mạo từ trước danh từ không đếm được 'information' khi nói về nó một cách chung chung."
+  }
+]

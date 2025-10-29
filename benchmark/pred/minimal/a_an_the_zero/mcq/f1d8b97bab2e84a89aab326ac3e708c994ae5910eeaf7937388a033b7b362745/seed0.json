@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Our tours leave directly from _____ Las Vegas Strip, no terminals, saving up to 2 hours' time!",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"The Las Vegas Strip\" là một địa danh cụ thể, nổi tiếng, thường dùng mạo từ \"the\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Our Grand Canyon Tour is the only luxury Motor Coach Tour that stops at Bright Angel Lodge for _____ full three hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"A full three hours\" dùng mạo từ \"a\" vì \"full\" bắt đầu bằng phụ âm và cụm từ chỉ một khoảng thời gian không xác định cụ thể."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "You can take _____ free shuttle to multiple viewpoints including Mather Point, Yavapai Point.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"A free shuttle\" dùng mạo từ \"a\" vì \"free\" bắt đầu bằng phụ âm và chỉ một trong số các dịch vụ xe buýt đưa đón."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "There are also extra stops along the way for _____ shopping and _____ smoking.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a / a"
+        },
+        {
+          "id": "b",
+          "label": "the / the"
+        },
+        {
+          "id": "c",
+          "label": "(no article) / (no article)"
+        },
+        {
+          "id": "d",
+          "label": "a / (no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Shopping\" và \"smoking\" là danh từ không đếm được hoặc danh động từ chỉ hoạt động chung chung, không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "This package not only includes _____ Grand Canyon, but a short photo stop at _____ Hoover Dam as well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "the / the"
+        },
+        {
+          "id": "b",
+          "label": "a / a"
+        },
+        {
+          "id": "c",
+          "label": "the / (no article)"
+        },
+        {
+          "id": "d",
+          "label": "(no article) / the"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"The Grand Canyon\" và \"the Hoover Dam\" là các địa danh nổi tiếng, độc nhất vô nhị, luôn dùng mạo từ \"the\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "These breath-taking tours take you into the skies above the Grand Canyon for _____ once-in-a-life-time adventure.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mặc dù \"once\" bắt đầu bằng chữ 'o', nhưng phát âm là /wʌns/ (âm phụ âm), nên dùng \"a\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "This adventure can be shared by _____ whole family or by yourself.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"the whole family\" là cách diễn đạt cố định, dùng \"the\" để chỉ toàn bộ gia đình."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Hoover Dam Mini Tour starts your morning or afternoon with a short drive to _____ Lake Mead.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "\"Lake Mead\" là tên riêng của một hồ nước, không dùng mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The tour continues along to include _____ Power Plant Tour, guided by _____ Hoover Dam expert.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a / a"
+        },
+        {
+          "id": "b",
+          "label": "the / a"
+        },
+        {
+          "id": "c",
+          "label": "the / the"
+        },
+        {
+          "id": "d",
+          "label": "(no article) / a"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"The Power Plant Tour\" là một tour cụ thể được nhắc đến. \"A Hoover Dam expert\" chỉ một chuyên gia bất kỳ trong số nhiều chuyên gia."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "This tour takes you sightseeing down and around Hollywood Blvd/Beverly Hills, home of _____ world-famous Walk of Fame.",
+      "options": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        },
+        {
+          "id": "d",
+          "label": "(no article)"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"The world-famous Walk of Fame\" là một địa danh nổi tiếng, độc nhất vô nhị, dùng mạo từ \"the\"."
+  }
+]

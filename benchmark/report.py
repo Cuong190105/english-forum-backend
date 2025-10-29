@@ -238,3 +238,36 @@ def write_winloss_csv(path: Path, rows: List[Dict[str, Any]]):
         w.writeheader()
         for r in rows:
             w.writerow({k: r.get(k, '') for k in keys})
+
+
+def write_latency_csv(path: Path, latency_map: Dict[str, List[float]]):
+    """Write latency comparison CSV from config -> list of latency values in ms.
+    Computes mean and std for each config.
+    """
+    from statistics import mean, stdev
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not latency_map:
+        return
+    
+    rows = []
+    for config, values in sorted(latency_map.items()):
+        if not values:
+            continue
+        avg_ms = mean(values)
+        std_ms = stdev(values) if len(values) > 1 else 0.0
+        rows.append({
+            'config': config,
+            'n_samples': len(values),
+            'avg_ms': round(avg_ms, 2),
+            'std_ms': round(std_ms, 2),
+        })
+    
+    if not rows:
+        return
+    
+    keys = ['config', 'n_samples', 'avg_ms', 'std_ms']
+    with path.open('w', encoding='utf-8', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=keys)
+        w.writeheader()
+        for r in rows:
+            w.writerow(r)

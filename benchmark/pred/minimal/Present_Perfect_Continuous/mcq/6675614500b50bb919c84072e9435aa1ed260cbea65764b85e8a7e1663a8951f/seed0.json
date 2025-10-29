@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "She _____ for hours, so her eyes are red and tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reads"
+        },
+        {
+          "id": "b",
+          "label": "is reading"
+        },
+        {
+          "id": "c",
+          "label": "has been reading"
+        },
+        {
+          "id": "d",
+          "label": "has read"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn để diễn tả hành động kéo dài liên tục từ quá khứ đến hiện tại và có kết quả rõ rệt ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "They _____ since morning, and they still haven't finished their project.",
+      "options": [
+        {
+          "id": "a",
+          "label": "studied"
+        },
+        {
+          "id": "b",
+          "label": "are studying"
+        },
+        {
+          "id": "c",
+          "label": "have been studying"
+        },
+        {
+          "id": "d",
+          "label": "have studied"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Với 'since' và hành động vẫn tiếp diễn, ta dùng thì hiện tại hoàn thành tiếp diễn để chỉ hành động bắt đầu từ một thời điểm trong quá khứ và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "Your clothes are dirty. What _____?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are you doing"
+        },
+        {
+          "id": "b",
+          "label": "did you do"
+        },
+        {
+          "id": "c",
+          "label": "have you been doing"
+        },
+        {
+          "id": "d",
+          "label": "have you done"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hỏi về hành động vừa mới kết thúc nhưng để lại dấu vết hoặc kết quả rõ ràng ở hiện tại, nhấn mạnh quá trình."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "He _____ all day, and now he's completely exhausted.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "is working"
+        },
+        {
+          "id": "c",
+          "label": "has been working"
+        },
+        {
+          "id": "d",
+          "label": "has worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả hành động kéo dài suốt một khoảng thời gian ('all day') trong quá khứ và vẫn còn ảnh hưởng đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "I _____ this book for two weeks, but I'm still on chapter 3.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have read"
+        },
+        {
+          "id": "b",
+          "label": "read"
+        },
+        {
+          "id": "c",
+          "label": "have been reading"
+        },
+        {
+          "id": "d",
+          "label": "am reading"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động đọc sách vẫn đang tiếp diễn, chưa hoàn thành, nhấn mạnh quá trình và khoảng thời gian kéo dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "She _____ well recently, so she looks very tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "isn't sleeping"
+        },
+        {
+          "id": "b",
+          "label": "didn't sleep"
+        },
+        {
+          "id": "c",
+          "label": "hasn't been sleeping"
+        },
+        {
+          "id": "d",
+          "label": "hasn't slept"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng để nói về một hành động không xảy ra liên tục trong một khoảng thời gian gần đây ('recently'), gây ra kết quả ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "How long _____ for this company?",
+      "options": [
+        {
+          "id": "a",
+          "label": "are you working"
+        },
+        {
+          "id": "b",
+          "label": "do you work"
+        },
+        {
+          "id": "c",
+          "label": "have you been working"
+        },
+        {
+          "id": "d",
+          "label": "have you worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'How long' thường đi với thì hiện tại hoàn thành tiếp diễn để hỏi về khoảng thời gian của một hành động đang tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "The children _____ loudly for an hour, and now I have a headache.",
+      "options": [
+        {
+          "id": "a",
+          "label": "played"
+        },
+        {
+          "id": "b",
+          "label": "are playing"
+        },
+        {
+          "id": "c",
+          "label": "have been playing"
+        },
+        {
+          "id": "d",
+          "label": "have played"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Nhấn mạnh sự kéo dài của hành động ('for an hour') gây ra hậu quả ở hiện tại (đau đầu)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "It _____ all morning, so the ground is still wet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is raining"
+        },
+        {
+          "id": "b",
+          "label": "rains"
+        },
+        {
+          "id": "c",
+          "label": "has been raining"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mưa bắt đầu từ sáng và vẫn tiếp diễn hoặc vừa mới ngừng, để lại kết quả rõ rệt ở hiện tại (mặt đất ướt)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "My brother _____ to learn French for five years, but he still finds it challenging.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has tried"
+        },
+        {
+          "id": "b",
+          "label": "tries"
+        },
+        {
+          "id": "c",
+          "label": "has been trying"
+        },
+        {
+          "id": "d",
+          "label": "is trying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động cố gắng học tiếng Pháp đã kéo dài trong 5 năm ('for five years') và vẫn đang tiếp diễn đến hiện tại."
+  }
+]

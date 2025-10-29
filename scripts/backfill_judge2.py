@@ -266,7 +266,7 @@ def main():
     ap.add_argument('--limit', type=int, default=0, help='Max number of items to process (0 = no limit)')
     ap.add_argument('--sleep', type=float, default=0.0, help='Sleep seconds between API calls to avoid rate limits')
     ap.add_argument('--retries', type=int, default=2, help='Number of retries per item on 429/5xx')
-    ap.add_argument('--model', default=os.getenv('JUDGE2_MODEL') or 'deepseek-chat', help='DeepSeek model id for judge2 (e.g., deepseek-chat)')
+    ap.add_argument('--model', default=os.getenv('JUDGE2_MODEL') or 'deepseek-reasoner', help='DeepSeek model id for judge2 (e.g., deepseek-chat)')
     ap.add_argument('--dotenv', default='.env', help='Path to .env to load')
     ap.add_argument('--dry-run', action='store_true', help='Do not call API; just report how many rows would be processed')
     ap.add_argument('--verbose', action='store_true', help='Print progress and reasons for skips/errors')
