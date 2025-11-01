@@ -179,21 +179,21 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
         # If this action is new, log the action
         is_new = True
     
-    comment.vote_count += value - vote.value
-    vote.value = value
-    comment.votes.append(vote)
-    db.commit()
-    db.refresh(vote)
+    if vote.value != value:
+        comment.vote_count += value - vote.value
+        vote.value = value
+        comment.votes.append(vote)
+        db.commit()
+        db.refresh(vote)
 
-    if is_new:
-        print("logged")
-        await logActivity(user.user_id, db, 'vote_comment', str(value), vote.vote_id, 'comment', comment.comment_id, comment.author_id)
+        if is_new:
+            await logActivity(user.user_id, db, 'vote_comment', str(value), vote.vote_id, 'comment', comment.comment_id, comment.author_id)
 
-    await publishPostEvent(comment.post_id, {
-        "message": f"New vote comment",
-        "comment_id": comment.comment_id,
-        "value": value,
-    })
+        await publishPostEvent(comment.post_id, {
+            "message": f"New vote comment",
+            "comment_id": comment.comment_id,
+            "value": value,
+        })
 
     return True
 

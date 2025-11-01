@@ -206,19 +206,20 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
         # If this action is new, log the action
         is_new = True
     
-    post.vote_count += value - vote.value
-    vote.value = value
-    post.votes.append(vote)
-    db.commit()
-    db.refresh(vote)
+    if value != vote.value:
+        post.vote_count += value - vote.value
+        vote.value = value
+        post.votes.append(vote)
+        db.commit()
+        db.refresh(vote)
     
-    if is_new:
-        await logActivity(user.user_id, db, 'vote_post', str(value), vote.vote_id, 'post', post.post_id, post.author_id)
+        if is_new:
+            await logActivity(user.user_id, db, 'vote_post', str(value), vote.vote_id, 'post', post.post_id, post.author_id)
 
-    await publishPostEvent(post.post_id, {
-        "message": f"New vote post",
-        "value": value,
-    })
+        await publishPostEvent(post.post_id, {
+            "message": f"New vote post",
+            "value": value,
+        })
 
     return True
 
