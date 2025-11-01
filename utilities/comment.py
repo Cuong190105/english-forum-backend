@@ -100,6 +100,8 @@ async def createComment(db: Db_dependency, user: User, post: Post, content: str,
         reply_to_id=reply_to_id
     )
 
+    post.comment_count += 1
+
     post.comments.append(comment)
     db.commit()
     db.refresh(comment)
@@ -144,7 +146,7 @@ async def deleteComment(db: Db_dependency, comment: Comment):
     Returns:
         bool: True if updated, else False
     """
-    
+    comment.post.comment_count -= 1
     comment.is_deleted = True
     db.commit()
 
