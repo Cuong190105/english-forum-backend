@@ -2,7 +2,6 @@ from __future__ import annotations
 import os
 import json
 import re
-import traceback
 from typing import List, Dict, Any, Optional, Literal
 from pathlib import Path
 
@@ -43,6 +42,7 @@ def _get_client():
 # =========================
 
 _TOPICS_CACHE: Optional[List[str]] = None
+_TOPICS_MAP_CACHE: Optional[Dict[str, List[Dict[str, str]]]] = None
 
 
 def load_all_topic_displays() -> List[str]:
@@ -80,52 +80,127 @@ def load_all_topic_displays() -> List[str]:
     return _TOPICS_CACHE
 
 
-def classify_topic(text: str) -> str | bool:
-    """Classify input text to the single best grammar topic display name.
-
-    Returns a display string guaranteed to be within the allowed list. Falls back to
-    'Present Simple' if the model doesn't return a valid value.
+def load_topics_map() -> Dict[str, List[Dict[str, str]]]:
+    """Load topics map identical to scripts/label_topics_for_sources.load_topics_map behavior.
+    Returns: { category: [ {id, display}, ... ] }
     """
-    choices = load_all_topic_displays()
-    # Short-circuit trivial cases
-    if not text or not text.strip():
-        return choices[0] if choices else 'Present Simple'
+    global _TOPICS_MAP_CACHE
+    if _TOPICS_MAP_CACHE is not None:
+        return _TOPICS_MAP_CACHE
+    root = Path(__file__).resolve().parents[1]
+    topics_json = root / 'benchmark' / 'topics_locked.json'
+    if not topics_json.exists():
+        # Minimal fallback: wrap flattened displays into a single category
+        displays = load_all_topic_displays()
+        _TOPICS_MAP_CACHE = { 'General': [ { 'id': d.lower().replace(' ', '_'), 'display': d } for d in displays ] }
+        return _TOPICS_MAP_CACHE
+    raw = json.loads(topics_json.read_text(encoding='utf-8'))
+    norm: Dict[str, List[Dict[str, str]]] = {}
+    for cat, subs in raw.items():
+        norm_list: List[Dict[str, str]] = []
+        if subs and isinstance(subs, list):
+            for s in subs:
+                if isinstance(s, dict):
+                    sid = str(s.get('id') or '').strip()
+                    disp = str(s.get('display') or '').strip()
+                    if not disp and sid:
+                        disp = sid.replace('_', ' ')
+                    if disp:
+                        norm_list.append({'id': sid or disp, 'display': disp})
+                else:
+                    disp = str(s).strip()
+                    sid = disp.lower().replace(' ', '_').replace('/', '_').replace('…', '').replace('—', '-')
+                    norm_list.append({'id': sid, 'display': disp})
+        norm[cat] = norm_list
+    _TOPICS_MAP_CACHE = norm
+    return _TOPICS_MAP_CACHE
 
-    # Build a tiny JSON-only prompt
+
+def _build_label_prompt(context_text: str, topics_map: Dict[str, List[Dict[str, str]]]) -> str:
+    lines: List[str] = []
+    for cat, subs in topics_map.items():
+        for s in subs:
+            disp = s.get('display', '')
+            sid = s.get('id', '')
+            if sid and sid != disp:
+                lines.append(f"- {cat} :: {disp} (id: {sid})")
+            else:
+                lines.append(f"- {cat} :: {disp}")
+    topics_block = "\n".join(lines)
     prompt = (
-        "You are an English grammar topic classifier.\n"
-        "Given the user's context text, choose exactly ONE GRAMMAR topic from the allowed list. If there're more than one, choose the most relevant one.\n"
-        "The topic can be deduced from the grammar of the sentences themselves.\n" 
-        "Respond with JSON only: {\"topic_display\": \"<one of the allowed list exactly as-is>\"}.\n\n"
-        f"ALLOWED_TOPICS = {json.dumps(choices, ensure_ascii=False)}\n\n"
-        f"CONTEXT:\n{text}\n\n"
-        "If you cannot confidently choose exactly one of the ALLOWED_TOPICS, output this exact JSON instead: {\"topic_display\": \"Không tạo được câu hỏi\"}.\n\n"
-        "NOW OUTPUT ONLY THE JSON WITH THE 'topic_display' FIELD."
+        "You are an expert English grammar examiner.\n"
+        "Task: Choose exactly ONE most relevant grammar topic from the list for writing exam questions based on the given context.\n"
+        'Output JSON only with keys: {"category": string, "topic": string}. No extra text.\n\n'
+        "AVAILABLE TOPICS (category :: subtopic)\n"
+        f"{topics_block}\n\n"
+        "CONTEXT:\n"
+        f"{context_text}\n\n"
+        "Rules:\n"
+        "- Pick the single best-fitting subtopic; if multiple are plausible, pick the most specific.\n"
+        "- Ensure the choice strictly matches the grammar focus and is specific.\n"
     )
+    return prompt
 
+
+def classify_topic(text: str) -> str:
+    """Classify input text to a topic using the same schema as scripts/label_topics_for_sources.
+
+    Returns the chosen topic display string (matching topics_locked.json). Falls back deterministically.
+    """
+    topics_map = load_topics_map()
+    # Trivial fallback if empty input
+    if not text or not text.strip():
+        first_cat = next(iter(topics_map.keys()))
+        first_item = topics_map[first_cat][0]
+        return first_item.get('display', first_item.get('id', 'Present Simple'))
+
+    prompt = _build_label_prompt(text, topics_map)
     try:
         raw = _call_genai(
             prompt,
             response_mime_type='application/json',
             response_schema=None,
-            temperature=0.2,
-            # seed=0,
+            temperature=0.0,
+            seed=0,
         )
         cleaned = _strip_code_fences(raw)
         data = json.loads(cleaned)
-        cand = str(data.get('topic_display') or '').strip()
-        # If model explicitly returned the special message, propagate failure
-        if cand == 'Không tạo được câu hỏi':
-            return False
-        if cand in choices:
-            return cand
-    except Exception as e:
+        category = str(data.get('category', '')).strip()
+        topic_raw = str(data.get('topic', '')).strip()
+
+        def find_match(cat: str, needle: str) -> Optional[str]:
+            subs = topics_map.get(cat, [])
+            for obj in subs:
+                disp = obj.get('display', '')
+                sid = obj.get('id', '')
+                if needle == disp or needle == sid:
+                    return disp or sid
+            return None
+
+        display_choice = None
+        if category in topics_map:
+            display_choice = find_match(category, topic_raw)
+        if display_choice is None and topic_raw:
+            # search across categories
+            for cat, subs in topics_map.items():
+                for obj in subs:
+                    disp = obj.get('display', '')
+                    sid = obj.get('id', '')
+                    if topic_raw == disp or topic_raw == sid:
+                        display_choice = disp or sid
+                        break
+                if display_choice:
+                    break
+        if display_choice:
+            return display_choice
+    except Exception:
         if DEBUG:
-            print(e)
-            print(traceback.print_tb(e.__traceback__))
             print('[ai] classify_topic: fallback triggered')
-    # Fallback: classification failure
-    return False
+
+    # Deterministic fallback: first category's first item
+    first_cat = next(iter(topics_map.keys()))
+    first_item = topics_map[first_cat][0]
+    return first_item.get('display', first_item.get('id', 'Present Simple'))
 # =========================
 # Prompt builders (public helper)
 # =========================
@@ -615,7 +690,7 @@ def _call_genai(
     key = os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
     if not key:
         raise RuntimeError('GOOGLE_API_KEY or GEMINI_API_KEY is not set in environment')
-    
+
     if genai is None or GenerateContentConfig is None:
         raise RuntimeError('Google GenAI SDK not installed. Install: pip install google-genai')
 
@@ -726,20 +801,42 @@ def generate_with_llm(
     if temperature is None:
         temperature = 0.0
 
-    raw = _call_genai(
-        prompt_to_use,
-        model=model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash',
-        response_mime_type='application/json',
-        response_schema=list_model,
-        temperature=temperature,
-        seed=seed,
-    )
+    # Try to use schema, fallback to JSON-only mode if SDK has bugs
+    try:
+        raw = _call_genai(
+            prompt_to_use,
+            model=model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash',
+            response_mime_type='application/json',
+            response_schema=list_model,
+            temperature=temperature,
+            seed=seed,
+        )
+    except (AttributeError, ValueError) as e:
+        # SDK bug with Pydantic Literal - fallback to JSON mode only
+        if DEBUG:
+            print(f'[ai] Schema validation failed ({e}), using JSON mode only')
+        raw = _call_genai(
+            prompt_to_use,
+            model=model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash',
+            response_mime_type='application/json',
+            response_schema=None,
+            temperature=temperature,
+            seed=seed,
+        )
     cleaned = _strip_code_fences(raw)
     try:
         validated_list = list_model.model_validate_json(cleaned)
-    except ValidationError:
-        parsed_any = json.loads(cleaned)
-        validated_list = list_model.model_validate(parsed_any)
+    except ValidationError as e:
+        # Try to parse and see what we got
+        try:
+            parsed_any = json.loads(cleaned)
+            if DEBUG:
+                print(f"[ai] Validation error. Raw JSON structure: {json.dumps(parsed_any, indent=2)[:500]}")
+            validated_list = list_model.model_validate(parsed_any)
+        except Exception as e2:
+            if DEBUG:
+                print(f"[ai] Failed to validate. Raw response: {cleaned[:500]}")
+            raise e  # Re-raise original validation error
     return [item.model_dump() for item in validated_list.root]
 
 
@@ -756,13 +853,7 @@ def generate_exercises_from_context(
 
     Returns a dict with keys: { 'topic': <display>, 'items': [ ... ] }
     """
-    print("classifying topic")
     topic_display = classify_topic(context_text)
-    # If classification failed (False), return isAskable=False and no items
-    if topic_display is False:
-        return {"topic": None, "items": [], "isAskable": False}
-
-    print("generating")
     items = generate_with_llm(
         post_text=context_text,
         hw_type=hw_type if hw_type in {'mcq','fill'} else 'mcq',
@@ -772,7 +863,7 @@ def generate_exercises_from_context(
         seed=0 if seed is None else int(seed),
         locked_topic=topic_display,
     )
-    return {"topic": topic_display, "items": items, "isAskable": True}
+    return {"topic": topic_display, "items": items}
 
 
 def generate_homework(post_text: str, hw_type: str, num_items: int = 1) -> List[Dict[str, Any]]:
