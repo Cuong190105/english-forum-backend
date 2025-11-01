@@ -1,5 +1,5 @@
 import asyncio
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import json
 from typing import Literal
 from database.database import Db_dependency
@@ -82,16 +82,18 @@ async def createNotification(user_id: int, action_type: str):
     )
     await redis.publish(f"noti_{user_id}", json.dumps({
         "message": "New notification",
-        "timestamp": now.isoformat(),
+        "timestamp": (now + timedelta(seconds=1)).isoformat(),
     }))
     return noti
 
-async def getNotifications(user: User, db: Db_dependency, cursor: datetime, limit: int):
+async def getNotifications(user: User, db: Db_dependency, cursor: datetime, since_id: int):
+    LIMIT = 30
     noti = db.query(Notification).filter(
         Notification.user_id == user.user_id,
         Notification.is_deleted == False,
         Notification.created_at < cursor,
-    ).order_by(Notification.created_at.desc()).limit(limit).all()
+        Notification.noti_id > since_id,
+    ).order_by(Notification.created_at.desc()).limit(LIMIT).all()
     
     output = []
     for n in noti:
