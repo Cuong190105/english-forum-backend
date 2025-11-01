@@ -147,7 +147,7 @@ async def eventStream(type: Literal['noti', 'post'], target_id: int):
         while True:
             message = await pubsub.get_message(ignore_subscribe_messages=True, timeout=None)
             if message:
-                yield message['data']
+                yield f"data: {message['data']}"
             await asyncio.sleep(0.01)  # small sleep to prevent busy waiting
     finally:
         await pubsub.unsubscribe(channel)
