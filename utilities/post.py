@@ -218,7 +218,7 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
 
         await publishPostEvent(post.post_id, {
             "message": f"New vote post",
-            "value": value,
+            "total_value": post.vote_count,
         })
 
     return True

@@ -192,7 +192,7 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
         await publishPostEvent(comment.post_id, {
             "message": f"New vote comment",
             "comment_id": comment.comment_id,
-            "value": value,
+            "total_value": comment.vote_count,
         })
 
     return True
