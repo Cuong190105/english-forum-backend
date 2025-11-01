@@ -86,13 +86,12 @@ async def createNotification(user_id: int, action_type: str):
     }))
     return noti
 
-async def getNotifications(user: User, db: Db_dependency, cursor: datetime):
-    NOTI_PAGE_LIMIT = 10
+async def getNotifications(user: User, db: Db_dependency, cursor: datetime, limit: int):
     noti = db.query(Notification).filter(
         Notification.user_id == user.user_id,
         Notification.is_deleted == False,
         Notification.created_at < cursor,
-    ).order_by(Notification.created_at.desc()).limit(NOTI_PAGE_LIMIT).all()
+    ).order_by(Notification.created_at.desc()).limit(limit).all()
     
     output = []
     for n in noti:

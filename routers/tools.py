@@ -22,10 +22,10 @@ async def search(this_user: User_auth, keyword: str, db: Db_dependency):
     return result
 
 @router.get("/notifications", status_code=status.HTTP_200_OK, response_model=list[OutputNotification])
-async def get_notifications(this_user: User_auth, db: Db_dependency, cursor: datetime | None = None):
+async def get_notifications(this_user: User_auth, db: Db_dependency, cursor: datetime | None = None, limit: int = 15):
     if cursor == None:
         cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
-    return await getNotifications(this_user, db, cursor)
+    return await getNotifications(this_user, db, cursor, limit)
 
 @router.put("/notifications/{notification_id}", status_code=status.HTTP_200_OK)
 async def mark_as_read(this_user: User_auth, db: Db_dependency, notification_id: int):
