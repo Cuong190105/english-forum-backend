@@ -1,9 +1,12 @@
+import asyncio
 from datetime import datetime, timezone
+import json
 from typing import Literal
 from database.database import Db_dependency
-from database.models import Activity, Following, Notification, User
+from database.models import Activity, Comment, Following, Notification, User
 from database.outputmodel import OutputNotification
 from configs.config_validation import Pattern
+from configs.config_redis import redis
 from utilities.user import getUserByUsername
 import re
 
@@ -43,19 +46,19 @@ async def logActivity(actor_id: int, db: Db_dependency, action: ActionType, cont
         for user_id in mentionList:
             if user_id == actor_id:
                 continue
-            act.notifications.append(createNotification(user_id, "mention"))
+            act.notifications.append(await createNotification(user_id, "mention"))
         
         if action == 'post':
             followers = db.query(Following).filter(Following.following_user_id == actor_id, Following.unfollow == False).all()
             for follower in followers:
                 if follower.follower_id not in mentionList:
-                    act.notifications.append(createNotification(follower.follower_id, "post"))
+                    act.notifications.append(await createNotification(follower.follower_id, "post"))
         elif actor_id != target_noti_id:
-            act.notifications.append(createNotification(target_noti_id, action))
-    
+            act.notifications.append(await createNotification(target_noti_id, action))
+
     # Vote action
     elif actor_id != target_noti_id:
-        act.notifications.append(createNotification(target_noti_id, action))
+        act.notifications.append(await createNotification(target_noti_id, action))
 
     if new_act:
         db.add(act)
@@ -70,11 +73,17 @@ async def getMentionedUser(content: str, db: Db_dependency):
             users.append(u)
     return users
 
-def createNotification(user_id: int, action_type: str):
+async def createNotification(user_id: int, action_type: str):
+    now = datetime.now(timezone.utc)
     noti = Notification(
         user_id=user_id,
         action_type=action_type,
+        created_at=datetime.now(timezone.utc),
     )
+    await redis.publish(f"noti_{user_id}", json.dumps({
+        "message": "New notification",
+        "timestamp": now.isoformat(),
+    }))
     return noti
 
 async def getNotifications(user: User, db: Db_dependency, cursor: datetime):
@@ -116,3 +125,29 @@ async def markAsRead(db: Db_dependency, user: User, notification_id: int):
     noti.is_read = True
     db.commit()
     return noti
+
+async def publishPostEvent(post_id: int, message: dict):
+    """
+    Publish event to Redis channel for real-time post updates.
+    Params:
+        post_id: ID of the post
+        message: Message content to publish
+    """
+    await redis.publish(f"post_{post_id}", json.dumps(message))
+
+async def eventStream(type: Literal['noti', 'post'], target_id: int):
+    """
+    Async generator to yield messages from Redis Pub/Sub channel.
+    """
+    pubsub = redis.pubsub()
+    channel = f"{type}_{target_id}"
+    await pubsub.subscribe(channel)
+    try:
+        while True:
+            message = await pubsub.get_message(ignore_subscribe_messages=True, timeout=None)
+            if message:
+                yield message['data']
+            await asyncio.sleep(0.01)  # small sleep to prevent busy waiting
+    finally:
+        await pubsub.unsubscribe(channel)
+        await pubsub.close()

@@ -2,7 +2,7 @@ from datetime import datetime
 from database.database import Db_dependency
 from database.models import Post, Comment, CommentVote, User
 from database.outputmodel import OutputComment
-from utilities.activity import logActivity
+from utilities.activity import logActivity, publishPostEvent
 
 async def getComments(db: Db_dependency, post: Post, user: User, offset: int, limit: int):
     """
@@ -104,7 +104,11 @@ async def createComment(db: Db_dependency, user: User, post: Post, content: str,
     db.commit()
     db.refresh(comment)
 
-    # TODO: Log activity and notify related user.
+    await publishPostEvent(comment.post_id, {
+        "message": f"New comment",
+        "comment_id": comment.comment_id,
+        "reply_to_id": comment.reply_to_id,
+    })
 
     return comment
 
@@ -182,7 +186,14 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
     db.refresh(vote)
 
     if is_new:
-        await logActivity(user.user_id, db, 'vote_comment', VOTE_TYPE[value], vote.vote_id, 'comment', comment.comment_id,comment.author_id)
+        print("logged")
+        await logActivity(user.user_id, db, 'vote_comment', str(value), vote.vote_id, 'comment', comment.comment_id, comment.author_id)
+
+    await publishPostEvent(comment.post_id, {
+        "message": f"New vote comment",
+        "comment_id": comment.comment_id,
+        "value": value,
+    })
 
     return True
 

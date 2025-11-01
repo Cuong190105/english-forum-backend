@@ -10,7 +10,7 @@ from database.outputmodel import OutputPost, SimpleAttachment
 from utilities import comment as cmtutils
 from configs.config_post import FeedCriteria, FileChange
 from configs.config_validation import FileRule
-from utilities.activity import logActivity
+from utilities.activity import logActivity, publishPostEvent
 
 async def getPost(post_id: int, db: Db_dependency):
     """
@@ -194,8 +194,6 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
         bool: True if updated, else False if invalid value
     """
 
-    VOTE_TYPE = ["novote", "upvote", "downvote"]
-
     # Check if value is valid
     if abs(value) > 1:
         return False
@@ -215,7 +213,12 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
     db.refresh(vote)
     
     if is_new:
-        await logActivity(user.user_id, db, 'vote_post', VOTE_TYPE[value], vote.vote_id, 'post', post.post_id, post.author_id)
+        await logActivity(user.user_id, db, 'vote_post', str(value), vote.vote_id, 'post', post.post_id, post.author_id)
+
+    await publishPostEvent(post.post_id, {
+        "message": f"New vote post",
+        "value": value,
+    })
 
     return True
 

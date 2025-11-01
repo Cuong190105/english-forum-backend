@@ -94,7 +94,8 @@ def classify_topic(text: str) -> str | bool:
     # Build a tiny JSON-only prompt
     prompt = (
         "You are an English grammar topic classifier.\n"
-        "Given the user's context text, choose exactly ONE topic from the allowed list. If there're more than one, choose the most relevant one.\n"
+        "Given the user's context text, choose exactly ONE GRAMMAR topic from the allowed list. If there're more than one, choose the most relevant one.\n"
+        "The topic can be deduced from the grammar of the sentences themselves.\n" 
         "Respond with JSON only: {\"topic_display\": \"<one of the allowed list exactly as-is>\"}.\n\n"
         f"ALLOWED_TOPICS = {json.dumps(choices, ensure_ascii=False)}\n\n"
         f"CONTEXT:\n{text}\n\n"
@@ -107,8 +108,8 @@ def classify_topic(text: str) -> str | bool:
             prompt,
             response_mime_type='application/json',
             response_schema=None,
-            temperature=0.0,
-            seed=0,
+            temperature=0.2,
+            # seed=0,
         )
         cleaned = _strip_code_fences(raw)
         data = json.loads(cleaned)

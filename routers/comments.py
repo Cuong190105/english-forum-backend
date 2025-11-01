@@ -40,6 +40,8 @@ async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[
         target = await cmtutils.getCommentById(db, reply_comment_id)
         if target is None:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Replied to non-existent comment")
+        if target.post_id != post.post_id:
+            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Reply comment does not belong to the same post")
             
     
     # Create comment object
