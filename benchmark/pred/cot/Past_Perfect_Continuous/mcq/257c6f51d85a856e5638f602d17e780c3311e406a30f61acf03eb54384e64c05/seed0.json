@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Before Pete was brought into the rich ladies' house, he _____ on Fifth Avenue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been walking"
+        },
+        {
+          "id": "b",
+          "label": "was walking"
+        },
+        {
+          "id": "c",
+          "label": "walked"
+        },
+        {
+          "id": "d",
+          "label": "had walked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đi bộ diễn ra liên tục trong một khoảng thời gian trước khi Pete được đưa vào nhà, nhấn mạnh quá trình."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "The Old Gentleman _____ to the bench for nine years when he finally saw Pete again this Thanksgiving.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been coming"
+        },
+        {
+          "id": "b",
+          "label": "was coming"
+        },
+        {
+          "id": "c",
+          "label": "came"
+        },
+        {
+          "id": "d",
+          "label": "had come"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đến ghế diễn ra liên tục trong 9 năm cho đến một thời điểm cụ thể trong quá khứ (gặp Pete)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "Pete was so full because he _____ a huge dinner for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been eating"
+        },
+        {
+          "id": "b",
+          "label": "was eating"
+        },
+        {
+          "id": "c",
+          "label": "ate"
+        },
+        {
+          "id": "d",
+          "label": "had eaten"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc ăn diễn ra liên tục trong một khoảng thời gian trước khi Pete cảm thấy no, giải thích nguyên nhân."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "The Old Gentleman _____ alone for many years before he started the Thanksgiving tradition with Pete.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been living"
+        },
+        {
+          "id": "b",
+          "label": "was living"
+        },
+        {
+          "id": "c",
+          "label": "lived"
+        },
+        {
+          "id": "d",
+          "label": "has been living"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động sống một mình kéo dài liên tục trước một sự kiện khác trong quá khứ (bắt đầu truyền thống)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Pete felt terrible pain because he _____ two Thanksgiving dinners in a row.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been eating"
+        },
+        {
+          "id": "b",
+          "label": "was eating"
+        },
+        {
+          "id": "c",
+          "label": "ate"
+        },
+        {
+          "id": "d",
+          "label": "had eaten"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc ăn liên tục hai bữa tối là nguyên nhân dẫn đến cơn đau, nhấn mạnh quá trình diễn ra trước đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "Pete's stomach hurt because he _____ too much food for hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been consuming"
+        },
+        {
+          "id": "b",
+          "label": "was consuming"
+        },
+        {
+          "id": "c",
+          "label": "consumed"
+        },
+        {
+          "id": "d",
+          "label": "had consumed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc tiêu thụ thức ăn diễn ra liên tục trong nhiều giờ trước khi cơn đau xuất hiện, giải thích nguyên nhân."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "By the time the ambulance arrived, Pete _____ on the sidewalk for a while.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been lying"
+        },
+        {
+          "id": "b",
+          "label": "was lying"
+        },
+        {
+          "id": "c",
+          "label": "lay"
+        },
+        {
+          "id": "d",
+          "label": "had lain"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động nằm trên vỉa hè diễn ra liên tục trong một khoảng thời gian trước khi xe cứu thương đến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "The nurse discovered the Old Gentleman's starvation because he _____ anything for three days.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hadn't been eating"
+        },
+        {
+          "id": "b",
+          "label": "wasn't eating"
+        },
+        {
+          "id": "c",
+          "label": "didn't eat"
+        },
+        {
+          "id": "d",
+          "label": "hadn't eaten"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc không ăn gì diễn ra liên tục trong ba ngày trước khi y tá phát hiện ra, nhấn mạnh quá trình."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "Before Pete went to the second restaurant, he _____ a huge meal at the rich ladies' house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been enjoying"
+        },
+        {
+          "id": "b",
+          "label": "was enjoying"
+        },
+        {
+          "id": "c",
+          "label": "enjoyed"
+        },
+        {
+          "id": "d",
+          "label": "had enjoyed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Việc thưởng thức bữa ăn diễn ra liên tục trong một khoảng thời gian trước khi Pete đến nhà hàng thứ hai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "The Old Gentleman's hair was whiter and thinner because he _____ for many years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been aging"
+        },
+        {
+          "id": "b",
+          "label": "was aging"
+        },
+        {
+          "id": "c",
+          "label": "aged"
+        },
+        {
+          "id": "d",
+          "label": "had aged"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Quá trình lão hóa diễn ra liên tục trong nhiều năm, dẫn đến tình trạng tóc bạc và mỏng hơn ở một thời điểm trong quá khứ."
+  }
+]

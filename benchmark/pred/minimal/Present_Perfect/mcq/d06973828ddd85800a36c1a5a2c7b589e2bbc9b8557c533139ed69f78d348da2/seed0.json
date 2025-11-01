@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Have you ever _____ an elephant's ear or its long nose?",
+      "options": [
+        {
+          "id": "a",
+          "label": "touched"
+        },
+        {
+          "id": "b",
+          "label": "touch"
+        },
+        {
+          "id": "c",
+          "label": "touching"
+        },
+        {
+          "id": "d",
+          "label": "to touch"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại hoàn thành dùng để nói về trải nghiệm. Sau \"have/has\" là động từ ở dạng quá khứ phân từ (V3/ed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The Pinnawela Orphanage _____ a home for many baby elephants since 1975.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Since 1975\" chỉ một mốc thời gian trong quá khứ kéo dài đến hiện tại, nên dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The orphanage _____ one of the largest centers of its kind in the world.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has become"
+        },
+        {
+          "id": "b",
+          "label": "became"
+        },
+        {
+          "id": "c",
+          "label": "becomes"
+        },
+        {
+          "id": "d",
+          "label": "is becoming"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động bắt đầu trong quá khứ và kết quả còn liên quan đến hiện tại thì dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The volunteers _____ their morning duties yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "haven't finished"
+        },
+        {
+          "id": "b",
+          "label": "didn't finish"
+        },
+        {
+          "id": "c",
+          "label": "aren't finishing"
+        },
+        {
+          "id": "d",
+          "label": "won't finish"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Yet\" thường dùng trong câu phủ định hoặc nghi vấn của thì hiện tại hoàn thành để chỉ điều gì đó chưa xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Over the years, the orphanage _____ for hundreds of baby elephants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has cared"
+        },
+        {
+          "id": "b",
+          "label": "cared"
+        },
+        {
+          "id": "c",
+          "label": "cares"
+        },
+        {
+          "id": "d",
+          "label": "is caring"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Over the years\" chỉ một khoảng thời gian từ quá khứ đến hiện tại, gợi ý dùng thì hiện tại hoàn thành cho hành động lặp lại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "This programme _____ many visitors the chance to work with elephants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has offered"
+        },
+        {
+          "id": "b",
+          "label": "offered"
+        },
+        {
+          "id": "c",
+          "label": "offers"
+        },
+        {
+          "id": "d",
+          "label": "is offering"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đã xảy ra trong quá khứ nhưng không rõ thời điểm cụ thể và có kết quả liên quan đến hiện tại thì dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Some elephants _____ to a satisfactory level.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have never been tamed"
+        },
+        {
+          "id": "b",
+          "label": "never tamed"
+        },
+        {
+          "id": "c",
+          "label": "are never tamed"
+        },
+        {
+          "id": "d",
+          "label": "had never been tamed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Never\" thường dùng với thì hiện tại hoàn thành để nói về những trải nghiệm chưa từng xảy ra trong đời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The mahouts _____ bathing the larger elephants, so you can relax by the river now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have just finished"
+        },
+        {
+          "id": "b",
+          "label": "just finished"
+        },
+        {
+          "id": "c",
+          "label": "are just finishing"
+        },
+        {
+          "id": "d",
+          "label": "just finish"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Just\" dùng với thì hiện tại hoàn thành để diễn tả một hành động vừa mới xảy ra cách đây không lâu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The orphanage's 24 acres _____ a home for many baby elephants for decades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"For decades\" chỉ một khoảng thời gian kéo dài từ quá khứ đến hiện tại, nên dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "If you _____ us for more information, you should do it soon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "haven't contacted"
+        },
+        {
+          "id": "b",
+          "label": "didn't contact"
+        },
+        {
+          "id": "c",
+          "label": "don't contact"
+        },
+        {
+          "id": "d",
+          "label": "aren't contacting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu điều kiện loại 1 có thể dùng thì hiện tại hoàn thành ở mệnh đề \"if\" để chỉ một hành động chưa xảy ra tính đến hiện tại."
+  }
+]

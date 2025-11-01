@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "She was exhausted because she _____ for hours before the meeting started.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been preparing"
+        },
+        {
+          "id": "b",
+          "label": "had prepared"
+        },
+        {
+          "id": "c",
+          "label": "was preparing"
+        },
+        {
+          "id": "d",
+          "label": "prepared"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn diễn tả hành động kéo dài liên tục trong quá khứ cho đến một thời điểm khác trong quá khứ, thường là nguyên nhân của một sự việc khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "The ground was wet because it _____ all night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been raining"
+        },
+        {
+          "id": "b",
+          "label": "had rained"
+        },
+        {
+          "id": "c",
+          "label": "was raining"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sử dụng quá khứ hoàn thành tiếp diễn để chỉ một hành động kéo dài trong quá khứ và là nguyên nhân của một kết quả thấy được ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "By the time I arrived, they _____ for over an hour.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been waiting"
+        },
+        {
+          "id": "b",
+          "label": "had waited"
+        },
+        {
+          "id": "c",
+          "label": "were waiting"
+        },
+        {
+          "id": "d",
+          "label": "waited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì này dùng để nhấn mạnh khoảng thời gian một hành động đã diễn ra liên tục trước một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "He finally found his lost dog after he _____ for it since morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been searching"
+        },
+        {
+          "id": "b",
+          "label": "had searched"
+        },
+        {
+          "id": "c",
+          "label": "was searching"
+        },
+        {
+          "id": "d",
+          "label": "searched"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'since morning' chỉ rõ hành động tìm kiếm kéo dài liên tục cho đến khi anh ấy tìm thấy con chó trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Her eyes were red because she _____ for a long time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been crying"
+        },
+        {
+          "id": "b",
+          "label": "had cried"
+        },
+        {
+          "id": "c",
+          "label": "was crying"
+        },
+        {
+          "id": "d",
+          "label": "cried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động khóc kéo dài trong quá khứ là nguyên nhân trực tiếp dẫn đến đôi mắt đỏ ở một thời điểm sau đó trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "They _____ for three years when they decided to get married last month.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been dating"
+        },
+        {
+          "id": "b",
+          "label": "had dated"
+        },
+        {
+          "id": "c",
+          "label": "were dating"
+        },
+        {
+          "id": "d",
+          "label": "dated"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn nhấn mạnh khoảng thời gian hành động kéo dài trước một sự kiện khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "I was annoyed because my neighbors _____ loud music all night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been playing"
+        },
+        {
+          "id": "b",
+          "label": "had played"
+        },
+        {
+          "id": "c",
+          "label": "were playing"
+        },
+        {
+          "id": "d",
+          "label": "played"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động chơi nhạc kéo dài liên tục trong quá khứ là nguyên nhân gây ra sự khó chịu của tôi."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "How long _____ before you realized you were going the wrong way?",
+      "options": [
+        {
+          "id": "a",
+          "label": "had you been driving"
+        },
+        {
+          "id": "b",
+          "label": "had you driven"
+        },
+        {
+          "id": "c",
+          "label": "were you driving"
+        },
+        {
+          "id": "d",
+          "label": "did you drive"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi này muốn biết khoảng thời gian hành động lái xe đã diễn ra liên tục trước khi nhận ra lỗi trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "The children were tired because they _____ in the park since early morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been running"
+        },
+        {
+          "id": "b",
+          "label": "had run"
+        },
+        {
+          "id": "c",
+          "label": "were running"
+        },
+        {
+          "id": "d",
+          "label": "ran"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sự mệt mỏi là kết quả của hành động chạy kéo dài liên tục từ sáng sớm cho đến một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "She finally got the promotion she _____ for for five years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been working"
+        },
+        {
+          "id": "b",
+          "label": "had worked"
+        },
+        {
+          "id": "c",
+          "label": "was working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động làm việc kéo dài liên tục trong 5 năm trước khi cô ấy nhận được sự thăng chức trong quá khứ."
+  }
+]

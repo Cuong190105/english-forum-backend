@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Mr. Evens said that he _____ the hot weather there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hates"
+        },
+        {
+          "id": "b",
+          "label": "hated"
+        },
+        {
+          "id": "c",
+          "label": "had hated"
+        },
+        {
+          "id": "d",
+          "label": "would hate"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật lời nói trực tiếp ở thì hiện tại đơn, chúng ta lùi thì về quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Mr. Evens complained that he _____ a cool place in Australia.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can't find"
+        },
+        {
+          "id": "b",
+          "label": "couldn't find"
+        },
+        {
+          "id": "c",
+          "label": "hadn't found"
+        },
+        {
+          "id": "d",
+          "label": "wouldn't find"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ khuyết thiếu \"can\" khi tường thuật sẽ lùi về \"could\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Mr. Evens wondered how he _____ his holiday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will take"
+        },
+        {
+          "id": "b",
+          "label": "would take"
+        },
+        {
+          "id": "c",
+          "label": "had taken"
+        },
+        {
+          "id": "d",
+          "label": "takes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật câu hỏi với \"will\", chúng ta lùi thì về \"would\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Robert advised Mr. Evens that he _____ to Moscow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had better go"
+        },
+        {
+          "id": "b",
+          "label": "would better go"
+        },
+        {
+          "id": "c",
+          "label": "should better go"
+        },
+        {
+          "id": "d",
+          "label": "better went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"had better\" thường không thay đổi khi tường thuật, nhưng cần đảm bảo ngữ cảnh là lời khuyên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Robert mentioned that snow and ice _____ the ground _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are covering / now"
+        },
+        {
+          "id": "b",
+          "label": "were covering / then"
+        },
+        {
+          "id": "c",
+          "label": "had covered / then"
+        },
+        {
+          "id": "d",
+          "label": "covered / now"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại tiếp diễn lùi về quá khứ tiếp diễn, và \"now\" đổi thành \"then\" trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "Mr. Evens exclaimed how strange Russians _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu cảm thán ở hiện tại đơn khi tường thuật sẽ lùi về quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Mr. Evens observed that they _____ their dogs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do not tie"
+        },
+        {
+          "id": "b",
+          "label": "did not tie"
+        },
+        {
+          "id": "c",
+          "label": "had not tied"
+        },
+        {
+          "id": "d",
+          "label": "would not tie"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn phủ định lùi về quá khứ đơn phủ định trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "He also noted that they firmly _____ the ground.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tie"
+        },
+        {
+          "id": "b",
+          "label": "tied"
+        },
+        {
+          "id": "c",
+          "label": "had tied"
+        },
+        {
+          "id": "d",
+          "label": "would tie"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ ở thì hiện tại đơn khi tường thuật sẽ lùi về quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Mr. Evens told Robert that he _____ the hot weather in Sydney.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hates"
+        },
+        {
+          "id": "b",
+          "label": "hated"
+        },
+        {
+          "id": "c",
+          "label": "had hated"
+        },
+        {
+          "id": "d",
+          "label": "is hating"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật một sự thật hoặc cảm xúc ở hiện tại, chúng ta lùi thì về quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Mr. Evens realized that the dog _____ hungry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn khi tường thuật một nhận định sẽ lùi về quá khứ đơn."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My new phone is not _____ my old one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as expensive as"
+        },
+        {
+          "id": "b",
+          "label": "more expensive than"
+        },
+        {
+          "id": "c",
+          "label": "so expensive as"
+        },
+        {
+          "id": "d",
+          "label": "as expensive than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + tính từ/trạng từ + as'. Khi phủ định, có thể dùng 'not as...as' hoặc 'not so...as', nhưng 'as...as' phổ biến hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She sings _____ her sister.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as beautifully as"
+        },
+        {
+          "id": "b",
+          "label": "as beautiful as"
+        },
+        {
+          "id": "c",
+          "label": "more beautiful than"
+        },
+        {
+          "id": "d",
+          "label": "so beautiful as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi so sánh động từ (sings), chúng ta dùng trạng từ (beautifully) trong cấu trúc 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He runs _____ his brother.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as fast as"
+        },
+        {
+          "id": "b",
+          "label": "as fast than"
+        },
+        {
+          "id": "c",
+          "label": "faster than"
+        },
+        {
+          "id": "d",
+          "label": "so fast as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Fast' vừa là tính từ vừa là trạng từ. Cấu trúc so sánh bằng là 'as + tính từ/trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The new car is _____ the old one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as fuel-efficient as"
+        },
+        {
+          "id": "b",
+          "label": "as fuel-efficient than"
+        },
+        {
+          "id": "c",
+          "label": "more fuel-efficient than"
+        },
+        {
+          "id": "d",
+          "label": "so fuel-efficient as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng 'as...as' dùng để chỉ sự ngang bằng về một đặc điểm, ở đây là 'tiết kiệm nhiên liệu'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Learning English is not _____ learning Vietnamese for me.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as difficult as"
+        },
+        {
+          "id": "b",
+          "label": "as difficult than"
+        },
+        {
+          "id": "c",
+          "label": "more difficult than"
+        },
+        {
+          "id": "d",
+          "label": "so difficult as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'As...as' được dùng để so sánh hai thứ có cùng mức độ hoặc không cùng mức độ (với 'not as...as')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "This book is _____ the one I read last week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as interesting as"
+        },
+        {
+          "id": "b",
+          "label": "as interesting than"
+        },
+        {
+          "id": "c",
+          "label": "more interesting than"
+        },
+        {
+          "id": "d",
+          "label": "so interesting as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + tính từ + as' dùng để so sánh hai đối tượng có cùng tính chất hoặc mức độ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "He doesn't earn _____ his wife.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as much money as"
+        },
+        {
+          "id": "b",
+          "label": "as many money as"
+        },
+        {
+          "id": "c",
+          "label": "more money than"
+        },
+        {
+          "id": "d",
+          "label": "so much money as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với danh từ không đếm được như 'money', chúng ta dùng 'much' trong cấu trúc 'as much...as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "There aren't _____ students in this class _____ in the other one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as many ... as"
+        },
+        {
+          "id": "b",
+          "label": "as much ... as"
+        },
+        {
+          "id": "c",
+          "label": "more ... than"
+        },
+        {
+          "id": "d",
+          "label": "so many ... as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với danh từ đếm được số nhiều như 'students', chúng ta dùng 'many' trong cấu trúc 'as many...as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She can speak English _____ a native speaker.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as fluently as"
+        },
+        {
+          "id": "b",
+          "label": "as fluent as"
+        },
+        {
+          "id": "c",
+          "label": "more fluent than"
+        },
+        {
+          "id": "d",
+          "label": "so fluently as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để so sánh cách một người làm gì (speak), chúng ta dùng trạng từ (fluently) trong cấu trúc 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The weather today is _____ it was yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as cold as"
+        },
+        {
+          "id": "b",
+          "label": "as cold than"
+        },
+        {
+          "id": "c",
+          "label": "colder than"
+        },
+        {
+          "id": "d",
+          "label": "so cold as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + tính từ + as' dùng để so sánh sự ngang bằng về tính chất, ví dụ như nhiệt độ."
+  }
+]

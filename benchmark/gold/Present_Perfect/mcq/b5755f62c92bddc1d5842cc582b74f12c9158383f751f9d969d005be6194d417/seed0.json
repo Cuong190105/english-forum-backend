@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "Since 1984, the city of Philadelphia _____ its public spaces with beautiful murals.",
+      "options": [
+        {
+          "id": "a",
+          "label": "improved"
+        },
+        {
+          "id": "b",
+          "label": "has been improving"
+        },
+        {
+          "id": "c",
+          "label": "was improving"
+        },
+        {
+          "id": "d",
+          "label": "improves"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn với 'since + mốc thời gian' để nhấn mạnh hành động bắt đầu trong quá khứ, kéo dài liên tục đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "So far, the Mural Arts Program _____ more than 1,800 murals across the city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "painted"
+        },
+        {
+          "id": "b",
+          "label": "paints"
+        },
+        {
+          "id": "c",
+          "label": "has painted"
+        },
+        {
+          "id": "d",
+          "label": "was painting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'So far' (cho đến nay) là dấu hiệu của thì hiện tại hoàn thành, diễn tả một hành động đã xảy ra tính đến thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "The program _____ as an anti-graffiti network, but it _____ into a major arts initiative since then.",
+      "options": [
+        {
+          "id": "a",
+          "label": "began / has grown"
+        },
+        {
+          "id": "b",
+          "label": "has begun / grew"
+        },
+        {
+          "id": "c",
+          "label": "began / grew"
+        },
+        {
+          "id": "d",
+          "label": "was beginning / has grown"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'began' đã kết thúc trong quá khứ (dùng quá khứ đơn). Hành động 'has grown' kéo dài từ đó đến nay, có 'since then' (dùng hiện tại hoàn thành)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "A tourist might ask a local resident: '_____ you ever _____ one of these murals being painted?'",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did / see"
+        },
+        {
+          "id": "b",
+          "label": "Have / seen"
+        },
+        {
+          "id": "c",
+          "label": "Do / see"
+        },
+        {
+          "id": "d",
+          "label": "Were / seeing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để hỏi về một trải nghiệm trong quá khứ mà không xác định thời gian cụ thể, ta dùng cấu trúc 'Have you ever...?' của thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "The MAP workers painted 140 murals last year, but they _____ even more so far this year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "painted"
+        },
+        {
+          "id": "b",
+          "label": "were painting"
+        },
+        {
+          "id": "c",
+          "label": "have painted"
+        },
+        {
+          "id": "d",
+          "label": "paint"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Last year' dùng với quá khứ đơn. Nhưng 'so far this year' là khoảng thời gian chưa kết thúc, nên phải dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "Many former graffiti writers _____ the chance to use their skills positively since the program started.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "were having"
+        },
+        {
+          "id": "c",
+          "label": "have had"
+        },
+        {
+          "id": "d",
+          "label": "have"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Since the program started' chỉ một điểm thời gian trong quá khứ, hành động sau đó kéo dài đến hiện tại, nên dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "The MAP _____ thousands of requests for murals over the last few decades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "received"
+        },
+        {
+          "id": "b",
+          "label": "has received"
+        },
+        {
+          "id": "c",
+          "label": "was receiving"
+        },
+        {
+          "id": "d",
+          "label": "receives"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Over the last few decades' là một khoảng thời gian kéo dài từ quá khứ đến hiện tại, đây là dấu hiệu của thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "The program is very popular. It _____ a message of hope to many communities already.",
+      "options": [
+        {
+          "id": "a",
+          "label": "brought"
+        },
+        {
+          "id": "b",
+          "label": "was bringing"
+        },
+        {
+          "id": "c",
+          "label": "brings"
+        },
+        {
+          "id": "d",
+          "label": "has brought"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Already' thường được dùng với thì hiện tại hoàn thành để chỉ một hành động đã xảy ra, thường là sớm hơn dự kiến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "I live in Philadelphia, but I _____ a mural with the message 'Peace Walk' yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't see"
+        },
+        {
+          "id": "b",
+          "label": "am not seeing"
+        },
+        {
+          "id": "c",
+          "label": "haven't seen"
+        },
+        {
+          "id": "d",
+          "label": "don't see"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Yet' được dùng trong câu phủ định của thì hiện tại hoàn thành để nói về một điều chưa xảy ra tính đến thời điểm hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "The work of the MAP is not finished. They _____ a new mural in my neighborhood this week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "started"
+        },
+        {
+          "id": "b",
+          "label": "have started"
+        },
+        {
+          "id": "c",
+          "label": "were starting"
+        },
+        {
+          "id": "d",
+          "label": "start"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'This week' là một khoảng thời gian chưa kết thúc. Dùng thì hiện tại hoàn thành để chỉ một hành động xảy ra trong khoảng thời gian này."
+  }
+]

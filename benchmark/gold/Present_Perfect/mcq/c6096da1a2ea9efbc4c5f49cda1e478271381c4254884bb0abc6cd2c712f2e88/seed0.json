@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "So far, the doctors in the HOPE program _____ that video games can reduce pain and worry in young patients.",
+      "options": [
+        {
+          "id": "a",
+          "label": "noticed"
+        },
+        {
+          "id": "b",
+          "label": "have noticed"
+        },
+        {
+          "id": "c",
+          "label": "were noticing"
+        },
+        {
+          "id": "d",
+          "label": "notice"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì Hiện tại Hoàn thành (have noticed) với 'so far' để chỉ một hành động bắt đầu trong quá khứ, kéo dài đến hiện tại và có thể tiếp tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "The test program, HOPE, _____ many children to deal with their hospital visits since it was created.",
+      "options": [
+        {
+          "id": "a",
+          "label": "helped"
+        },
+        {
+          "id": "b",
+          "label": "was helping"
+        },
+        {
+          "id": "c",
+          "label": "has helped"
+        },
+        {
+          "id": "d",
+          "label": "helps"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'since + mốc thời gian' (since it was created) yêu cầu sử dụng thì Hiện tại Hoàn thành để diễn tả hành động kéo dài từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "Many researchers _____ similar video programs recently to help young patients in other hospitals.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have tested"
+        },
+        {
+          "id": "b",
+          "label": "tested"
+        },
+        {
+          "id": "c",
+          "label": "test"
+        },
+        {
+          "id": "d",
+          "label": "were testing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ 'recently' (gần đây) là một dấu hiệu mạnh mẽ để sử dụng thì Hiện tại Hoàn thành, chỉ những hành động xảy ra trong quá khứ gần."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "The kids are less worried because they _____ friends with other patients online.",
+      "options": [
+        {
+          "id": "a",
+          "label": "made"
+        },
+        {
+          "id": "b",
+          "label": "make"
+        },
+        {
+          "id": "c",
+          "label": "were making"
+        },
+        {
+          "id": "d",
+          "label": "have made"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng Hiện tại Hoàn thành để diễn tả một hành động quá khứ (kết bạn) có kết quả rõ ràng ở hiện tại (bọn trẻ bớt lo lắng)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "_____ you ever _____ a video game while waiting at a hospital?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did ... play"
+        },
+        {
+          "id": "b",
+          "label": "Have ... played"
+        },
+        {
+          "id": "c",
+          "label": "Do ... play"
+        },
+        {
+          "id": "d",
+          "label": "Were ... playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi về trải nghiệm trong đời, đặc biệt với 'ever', sử dụng thì Hiện tại Hoàn thành. 'Did you play' dùng cho một thời điểm cụ thể đã qua."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "Dr. Mathews _____ video games since he was a child, which gave him the idea for the program.",
+      "options": [
+        {
+          "id": "a",
+          "label": "loved"
+        },
+        {
+          "id": "b",
+          "label": "was loving"
+        },
+        {
+          "id": "c",
+          "label": "has loved"
+        },
+        {
+          "id": "d",
+          "label": "loves"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng Hiện tại Hoàn thành với 'since' để chỉ một hành động hoặc trạng thái bắt đầu trong quá khứ và vẫn còn đúng ở hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "The hospital _____ a formal report on the success of the HOPE program yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't release"
+        },
+        {
+          "id": "b",
+          "label": "doesn't release"
+        },
+        {
+          "id": "c",
+          "label": "isn't releasing"
+        },
+        {
+          "id": "d",
+          "label": "hasn't released"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Từ 'yet' trong câu phủ định được dùng với thì Hiện tại Hoàn thành để chỉ một việc chưa xảy ra tính đến thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "This month, the number of children participating in the program _____ significantly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has grown"
+        },
+        {
+          "id": "b",
+          "label": "grew"
+        },
+        {
+          "id": "c",
+          "label": "grows"
+        },
+        {
+          "id": "d",
+          "label": "was growing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng Hiện tại Hoàn thành với các khoảng thời gian chưa kết thúc như 'this month' để nói về sự việc đã xảy ra trong khoảng thời gian đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "Ben Duskin designed his game years ago, but many other young patients _____ it since then.",
+      "options": [
+        {
+          "id": "a",
+          "label": "used"
+        },
+        {
+          "id": "b",
+          "label": "have used"
+        },
+        {
+          "id": "c",
+          "label": "were using"
+        },
+        {
+          "id": "d",
+          "label": "use"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Mệnh đề đầu dùng Quá khứ Đơn (designed... years ago), nhưng mệnh đề sau với 'since then' yêu cầu thì Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "The program is a success. It _____ already _____ that technology can improve a patient's experience.",
+      "options": [
+        {
+          "id": "a",
+          "label": "showed"
+        },
+        {
+          "id": "b",
+          "label": "was showing"
+        },
+        {
+          "id": "c",
+          "label": "has ... shown"
+        },
+        {
+          "id": "d",
+          "label": "did ... show"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Already' thường dùng với Hiện tại Hoàn thành để nhấn mạnh một hành động đã xảy ra, có kết quả ảnh hưởng đến hiện tại."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "Magdalena believes that pursuing music is _____ important _____ getting good grades for a student's development.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "more...than"
+        },
+        {
+          "id": "d",
+          "label": "as...than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để so sánh hai sự việc có mức độ quan trọng ngang nhau, ta dùng cấu trúc 'as + tính từ + as'. 'So...as' thường dùng trong câu phủ định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "Simon Harper argues that grades motivate students to work _____ they possibly can.",
+      "options": [
+        {
+          "id": "a",
+          "label": "harder than"
+        },
+        {
+          "id": "b",
+          "label": "as hard as"
+        },
+        {
+          "id": "c",
+          "label": "so hard that"
+        },
+        {
+          "id": "d",
+          "label": "as hardly as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc so sánh bằng với trạng từ là 'as + trạng từ + as'. 'Hard' vừa là tính từ, vừa là trạng từ. 'Hardly' có nghĩa là 'hầu như không'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "In Magdalena's opinion, the current grading system is not _____ beneficial for creativity _____ some educators think.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so...as"
+        },
+        {
+          "id": "b",
+          "label": "more...as"
+        },
+        {
+          "id": "c",
+          "label": "much...than"
+        },
+        {
+          "id": "d",
+          "label": "the same...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, ta có thể dùng cấu trúc 'not so...as' hoặc 'not as...as' để diễn tả sự so sánh không bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "Simon hopes his grades next year will be _____ his grades from last year, which helped him get a job.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as better as"
+        },
+        {
+          "id": "b",
+          "label": "so good than"
+        },
+        {
+          "id": "c",
+          "label": "as good as"
+        },
+        {
+          "id": "d",
+          "label": "more good than"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong cấu trúc so sánh bằng 'as...as', ta phải dùng dạng nguyên thể của tính từ (good), không dùng dạng so sánh hơn (better)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "Magdalena wishes that the school placed _____ emphasis on sports and arts _____ it places on academic grades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as many...as"
+        },
+        {
+          "id": "b",
+          "label": "as much...as"
+        },
+        {
+          "id": "c",
+          "label": "more...as"
+        },
+        {
+          "id": "d",
+          "label": "so much...than"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'as much as' với danh từ không đếm được như 'emphasis'. 'As many as' được dùng với danh từ đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "Simon has spoken with _____ students with jobs _____ he could find to support his argument.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as many...as"
+        },
+        {
+          "id": "b",
+          "label": "as much...as"
+        },
+        {
+          "id": "c",
+          "label": "so many...that"
+        },
+        {
+          "id": "d",
+          "label": "more...than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'as many as' với danh từ đếm được số nhiều như 'students'. 'As much as' dùng cho danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "Forcing an arbitrary standard on everyone is not _____ effective _____ motivating students to learn.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "more...as"
+        },
+        {
+          "id": "c",
+          "label": "so...than"
+        },
+        {
+          "id": "d",
+          "label": "the same...that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh không bằng trong câu phủ định là 'not as + tính từ + as'. 'So...as' cũng có thể được dùng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "Simon believes grades are used _____ a standard to measure student achievement.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as effectively as"
+        },
+        {
+          "id": "b",
+          "label": "as effective as"
+        },
+        {
+          "id": "c",
+          "label": "more effectively as"
+        },
+        {
+          "id": "d",
+          "label": "so effective than"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu này so sánh 'grades' (danh từ) với 'a standard' (danh từ). Cấu trúc là 'as + tính từ + danh từ + as'. Ở đây, 'as effective as a standard' là không hợp lý. Câu này đang kiểm tra 'as' với vai trò là giới từ (với tư cách là). Tuy nhiên, để bám sát chủ đề 'as...as', câu hỏi nên được sửa lại. Let's fix this. Prompt: Simon believes grades measure achievement _____ any other system. Correct options: as effectively as. Hint: Động từ 'measure' cần một trạng từ (effectively) để bổ nghĩa. Cấu trúc là 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "Simon believes grades measure achievement _____ effectively _____ any other system available at school.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "more...than"
+        },
+        {
+          "id": "d",
+          "label": "as...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để bổ nghĩa cho động từ 'measure', ta dùng trạng từ 'effectively'. Cấu trúc so sánh bằng là 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "Magdalena's demand is not _____ extreme _____ the demand of some extremists who want to remove grades immediately.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so...as"
+        },
+        {
+          "id": "b",
+          "label": "more...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "the same...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, cấu trúc so sánh không bằng 'not so...as' là một lựa chọn phổ biến và đúng ngữ pháp, tương tự như 'not as...as'."
+  }
+]

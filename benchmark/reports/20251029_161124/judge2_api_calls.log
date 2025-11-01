@@ -1,0 +1,4 @@
+[2025-11-01 01:26:32] CALL mcq model=deepseek-reasoner topic=Present Perfect Continuous len_stem=83 n_opts=4 has_ctx=0
+[2025-11-01 01:28:07] OK mcq id=ae2c5db2-6724-4eec-b3b0-29bc161a77d8 content_len=438
+[2025-11-01 01:28:08] CALL mcq model=deepseek-reasoner topic=Past Perfect Continuous len_stem=64 n_opts=4 has_ctx=0
+[2025-11-01 01:30:17] OK mcq id=bbc707f1-d7f5-43bb-bafc-e2439fa81f85 content_len=461

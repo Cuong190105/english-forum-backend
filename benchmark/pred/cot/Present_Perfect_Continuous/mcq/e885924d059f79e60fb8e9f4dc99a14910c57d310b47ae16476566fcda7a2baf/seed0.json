@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Since 1998, The Nature Conservancy _____ in China's northwest Yunnan Province to protect its unique diversity.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has worked"
+        },
+        {
+          "id": "b",
+          "label": "has been working"
+        },
+        {
+          "id": "c",
+          "label": "worked"
+        },
+        {
+          "id": "d",
+          "label": "is working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động bắt đầu từ quá khứ (1998) và vẫn tiếp diễn đến hiện tại, nhấn mạnh quá trình. 'Has been working' là phù hợp nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "Local communities _____ strategies for 'green' tourism for several years now, aiming to limit mass tourism's footprint.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have developed"
+        },
+        {
+          "id": "b",
+          "label": "have been developing"
+        },
+        {
+          "id": "c",
+          "label": "developed"
+        },
+        {
+          "id": "d",
+          "label": "are developing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động bắt đầu trong quá khứ và tiếp diễn liên tục đến hiện tại, với cụm từ chỉ thời gian 'for several years now'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "The Conservancy _____ environmental education programs to local communities, and the positive results are becoming evident.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has launched"
+        },
+        {
+          "id": "b",
+          "label": "has been launching"
+        },
+        {
+          "id": "c",
+          "label": "launched"
+        },
+        {
+          "id": "d",
+          "label": "is launching"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn, nhấn mạnh quá trình và kết quả hiện tại. 'Launching' ở đây là một quá trình."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "The research team _____ data on Yunnan's plant species all morning, and they still have more to analyze.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has collected"
+        },
+        {
+          "id": "b",
+          "label": "has been collecting"
+        },
+        {
+          "id": "c",
+          "label": "collected"
+        },
+        {
+          "id": "d",
+          "label": "is collecting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động bắt đầu trong quá khứ ('all morning') và vẫn đang tiếp diễn, chưa hoàn thành, có ảnh hưởng đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Why are you looking so tired? I _____ on the 'Education for Sustainability' project since dawn.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have worked"
+        },
+        {
+          "id": "b",
+          "label": "have been working"
+        },
+        {
+          "id": "c",
+          "label": "worked"
+        },
+        {
+          "id": "d",
+          "label": "am working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn để giải thích nguyên nhân của một trạng thái ở hiện tại ('looking so tired'), nhấn mạnh quá trình."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "For the past few months, experts _____ the potential of eco-tourism in the region.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have studied"
+        },
+        {
+          "id": "b",
+          "label": "have been studying"
+        },
+        {
+          "id": "c",
+          "label": "studied"
+        },
+        {
+          "id": "d",
+          "label": "are studying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động kéo dài liên tục trong một khoảng thời gian ('for the past few months') đến hiện tại, nhấn mạnh quá trình nghiên cứu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "How long _____ the Conservancy _____ with local government agencies on the Yunnan Great Rivers Project?",
+      "options": [
+        {
+          "id": "a",
+          "label": "has / worked"
+        },
+        {
+          "id": "b",
+          "label": "has / been working"
+        },
+        {
+          "id": "c",
+          "label": "did / work"
+        },
+        {
+          "id": "d",
+          "label": "is / working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi về khoảng thời gian một hành động đã và đang tiếp diễn đến hiện tại, sử dụng 'How long' là dấu hiệu của thì hiện tại hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "I _____ much about the new 'Green Tourism' initiatives lately, so I need to catch up.",
+      "options": [
+        {
+          "id": "a",
+          "label": "haven't heard"
+        },
+        {
+          "id": "b",
+          "label": "haven't been hearing"
+        },
+        {
+          "id": "c",
+          "label": "didn't hear"
+        },
+        {
+          "id": "d",
+          "label": "don't hear"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động không xảy ra liên tục trong khoảng thời gian gần đây ('lately'), có ảnh hưởng đến hiện tại. 'Hear' thường dùng ở dạng tiếp diễn khi nói về quá trình nghe thông tin."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "The organization _____ new methods of teaching conservation goals for several months.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has tested"
+        },
+        {
+          "id": "b",
+          "label": "has been testing"
+        },
+        {
+          "id": "c",
+          "label": "tested"
+        },
+        {
+          "id": "d",
+          "label": "is testing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn ('for several months'), nhấn mạnh quá trình thử nghiệm liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "She looks exhausted because she _____ on the regional marketing efforts since early morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has worked"
+        },
+        {
+          "id": "b",
+          "label": "has been working"
+        },
+        {
+          "id": "c",
+          "label": "worked"
+        },
+        {
+          "id": "d",
+          "label": "is working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn để giải thích nguyên nhân của một trạng thái ở hiện tại ('looks exhausted'), nhấn mạnh quá trình làm việc liên tục."
+  }
+]

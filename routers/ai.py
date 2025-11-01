@@ -1,8 +1,9 @@
 from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel, Field
-from typing import Optional, Any, List
+from typing import Optional
 from database.database import Db_dependency
 from database.models import Post
+from database.outputmodel import OutputAIGeneratedItems
 # Use our LLM generator utilities
 from utilities.ai_generator_LLM_Clone import (
     generate_homework as llm_generate_homework,
@@ -18,10 +19,6 @@ class GenerateRequest(BaseModel):
     num_items: Optional[int] = Field(default=1, ge=1, le=10)
 
 
-class GenerateResponse(BaseModel):
-    items: List[Any] = Field(default_factory=list)
-
-
 class GenerateFromTextRequest(BaseModel):
     context_text: str = Field(min_length=1)
     type: Optional[str] = Field(default='mcq', pattern=r'^(mcq|fill)$')
@@ -29,17 +26,11 @@ class GenerateFromTextRequest(BaseModel):
     mode: Optional[str] = Field(default='cot', pattern=r'^(cot|minimal)$')
 
 
-class GenerateFromTextResponse(BaseModel):
-    topic: str
-    items: List[Any] = Field(default_factory=list)
-
-
-@router.post('/ai/generate', response_model=GenerateResponse, status_code=status.HTTP_200_OK)
-async def generate_homework(req: GenerateRequest, db: Db_dependency):
-    post = db.query(Post).filter(Post.post_id == req.post_id, Post.is_deleted == False).first()
+@router.post('/ai/generate/{post_id}', response_model=OutputAIGeneratedItems, status_code=status.HTTP_200_OK)
+async def generate_homework(post_id: int, req: GenerateRequest, db: Db_dependency):
+    post = db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
     if not post:
         raise HTTPException(status_code=404, detail='Post not found')
-
     items = llm_generate_homework(post.content, req.type, req.num_items)
     if not items:
         raise HTTPException(status_code=500, detail='AI generation failed')
@@ -47,7 +38,7 @@ async def generate_homework(req: GenerateRequest, db: Db_dependency):
     return {'items': items}
 
 
-@router.post('/ai/generate-from-text', response_model=GenerateFromTextResponse, status_code=status.HTTP_200_OK)
+@router.post('/ai/generate-from-text', response_model=OutputAIGeneratedItems, status_code=status.HTTP_200_OK)
 async def generate_from_text(req: GenerateFromTextRequest):
     """
     Accept raw context text, classify a single best-fit grammar topic, then generate
@@ -69,4 +60,4 @@ async def generate_from_text(req: GenerateFromTextRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f'LLM generation failed: {e}')
 
-    return {"topic": result.get("topic", ""), "items": result.get("items", [])}
+    return {"items": result.get("items", []), "isAskable": bool(result.get("isAskable", True))}

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "According to the text, vegetables this year became _____ expensive _____ they were last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...than"
+        },
+        {
+          "id": "c",
+          "label": "more...as"
+        },
+        {
+          "id": "d",
+          "label": "as...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng cơ bản là 'as + tính từ + as'. Các lựa chọn khác sai về mặt ngữ pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "The farmers did not receive _____ much extra money _____ the middlemen did from the price increase.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...than"
+        },
+        {
+          "id": "c",
+          "label": "more...as"
+        },
+        {
+          "id": "d",
+          "label": "as...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để so sánh bằng với danh từ không đếm được (money), ta dùng cấu trúc 'as much as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "The government wants to implement policies that work _____ quickly _____ possible to control prices.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "more...than"
+        },
+        {
+          "id": "d",
+          "label": "as...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để so sánh bằng với trạng từ (quickly), ta dùng cấu trúc 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "For many families, life is not _____ easy _____ it was before the prices of farm products increased.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so...as"
+        },
+        {
+          "id": "b",
+          "label": "as...than"
+        },
+        {
+          "id": "c",
+          "label": "more...as"
+        },
+        {
+          "id": "d",
+          "label": "so...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, ta có thể dùng cấu trúc 'not as...as' hoặc 'not so...as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "The problem with housing prices is _____ big a concern _____ the rise in food prices for many citizens.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...than"
+        },
+        {
+          "id": "c",
+          "label": "as...so"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + tính từ + a/an + danh từ + as' được dùng để so sánh hai sự việc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "Some people argue that market forces can't regulate prices _____ effectively _____ government policies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...than"
+        },
+        {
+          "id": "c",
+          "label": "as...so"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng với trạng từ (effectively) là 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "The negative influence on the economy was not _____ small _____ some analysts had initially predicted.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "as...than"
+        },
+        {
+          "id": "c",
+          "label": "more...as"
+        },
+        {
+          "id": "d",
+          "label": "so...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, cấu trúc 'not as...as' được sử dụng để so sánh bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "The text suggests that the interests of farmers are not _____ well protected _____ they should be.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...than"
+        },
+        {
+          "id": "c",
+          "label": "as...so"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ 'well' được dùng trong cấu trúc so sánh bằng 'as well as' để chỉ mức độ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "The government hopes the situation will become stable _____ soon _____ possible.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "more...than"
+        },
+        {
+          "id": "d",
+          "label": "as...so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ cố định 'as soon as possible' có nghĩa là 'sớm nhất có thể'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "Droughts and frost did not cause prices to increase _____ greatly _____ the actions of middlemen.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...than"
+        },
+        {
+          "id": "c",
+          "label": "as...so"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, ta dùng 'not as...as' để so sánh mức độ ảnh hưởng của hai nguyên nhân."
+  }
+]

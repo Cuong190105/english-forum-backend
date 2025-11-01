@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "For three weeks, while Bella was recovering, Tarra ____ outside the sanctuary office.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stood"
+        },
+        {
+          "id": "b",
+          "label": "was standing"
+        },
+        {
+          "id": "c",
+          "label": "stands"
+        },
+        {
+          "id": "d",
+          "label": "had stood"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn diễn tả hành động đang diễn ra trong một khoảng thời gian nhất định trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "When Bella suffered her spinal cord injury, Tarra ____ vigil for her friend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "held"
+        },
+        {
+          "id": "b",
+          "label": "was holding"
+        },
+        {
+          "id": "c",
+          "label": "holds"
+        },
+        {
+          "id": "d",
+          "label": "had held"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả hành động đang diễn ra khi một hành động khác (Bella bị thương) xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "Before she could walk again, Bella ____ motionless up in the sanctuary office for three weeks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lay"
+        },
+        {
+          "id": "b",
+          "label": "was lying"
+        },
+        {
+          "id": "c",
+          "label": "lied"
+        },
+        {
+          "id": "d",
+          "label": "had lain"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Lying\" là dạng tiếp diễn của \"lie\" (nằm). \"Lied\" là quá khứ của \"lie\" (nói dối)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "While Scott Blais ____ Bella onto the balcony, Tarra was waiting patiently outside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "carried"
+        },
+        {
+          "id": "b",
+          "label": "was carrying"
+        },
+        {
+          "id": "c",
+          "label": "carries"
+        },
+        {
+          "id": "d",
+          "label": "had carried"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động đang diễn ra song song trong quá khứ, thường được nối bằng \"while\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "During the time Tarra was standing vigil, the other elephants ____ freely in the 2,700 acres.",
+      "options": [
+        {
+          "id": "a",
+          "label": "roamed"
+        },
+        {
+          "id": "b",
+          "label": "were roaming"
+        },
+        {
+          "id": "c",
+          "label": "roam"
+        },
+        {
+          "id": "d",
+          "label": "had roamed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động đang diễn ra song song với một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Yesterday afternoon, at the exact moment Scott Blais carried Bella out, Tarra ____ right outside the office.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stood"
+        },
+        {
+          "id": "b",
+          "label": "was standing"
+        },
+        {
+          "id": "c",
+          "label": "stands"
+        },
+        {
+          "id": "d",
+          "label": "had stood"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn dùng để diễn tả hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Before Bella's injury, when visitors observed them, Tarra and Bella often ____ together happily.",
+      "options": [
+        {
+          "id": "a",
+          "label": "played"
+        },
+        {
+          "id": "b",
+          "label": "were playing"
+        },
+        {
+          "id": "c",
+          "label": "play"
+        },
+        {
+          "id": "d",
+          "label": "had played"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động thường xuyên xảy ra trong quá khứ, đặc biệt khi có người chứng kiến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "As Bella's tail ____, Scott Blais knew she wanted to see Tarra.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wagged"
+        },
+        {
+          "id": "b",
+          "label": "was wagging"
+        },
+        {
+          "id": "c",
+          "label": "wags"
+        },
+        {
+          "id": "d",
+          "label": "had wagged"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đang diễn ra (đuôi vẫy) là dấu hiệu cho một hành động khác sắp xảy ra hoặc được nhận biết."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "The story describes that for three weeks, Tarra ____ her friend from outside the office, showing deep concern.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watched"
+        },
+        {
+          "id": "b",
+          "label": "was watching"
+        },
+        {
+          "id": "c",
+          "label": "watches"
+        },
+        {
+          "id": "d",
+          "label": "had watched"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả một hành động đang diễn ra liên tục trong một khoảng thời gian trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "While Bella ____ from her spinal cord injury, the sanctuary staff provided constant care.",
+      "options": [
+        {
+          "id": "a",
+          "label": "recovered"
+        },
+        {
+          "id": "b",
+          "label": "was recovering"
+        },
+        {
+          "id": "c",
+          "label": "recovers"
+        },
+        {
+          "id": "d",
+          "label": "had recovered"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một hành động đang diễn ra trong quá khứ, thường là một quá trình kéo dài."
+  }
+]

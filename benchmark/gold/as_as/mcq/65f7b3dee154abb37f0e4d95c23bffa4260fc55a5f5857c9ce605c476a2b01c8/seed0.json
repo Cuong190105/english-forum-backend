@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "The teacher in the story is not _____ a professional bodybuilder.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as strong as"
+        },
+        {
+          "id": "b",
+          "label": "so strong than"
+        },
+        {
+          "id": "c",
+          "label": "as stronger as"
+        },
+        {
+          "id": "d",
+          "label": "more strong as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + adj + as'. Các lựa chọn khác sai cấu trúc ngữ pháp hoặc nhầm lẫn với so sánh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "The student's explanation for calling him 'strong' was not _____ the teacher initially expected.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so clear than"
+        },
+        {
+          "id": "b",
+          "label": "as clear as"
+        },
+        {
+          "id": "c",
+          "label": "clearer as"
+        },
+        {
+          "id": "d",
+          "label": "as clearly as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để so sánh bằng, ta dùng cấu trúc 'as + tính từ + as'. 'Clearly' là trạng từ, không phù hợp trong ngữ cảnh này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "The teacher couldn't participate in the dance because he wasn't _____ the other men.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as muscular as"
+        },
+        {
+          "id": "b",
+          "label": "so muscular than"
+        },
+        {
+          "id": "c",
+          "label": "as more muscular as"
+        },
+        {
+          "id": "d",
+          "label": "muscularer than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng dùng 'as + adj + as', kể cả với tính từ dài như 'muscular'. Các phương án khác sai cấu trúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "Because he was confused, the teacher did not reply _____ he normally would have.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as confident as"
+        },
+        {
+          "id": "b",
+          "label": "so confidently than"
+        },
+        {
+          "id": "c",
+          "label": "as confidently as"
+        },
+        {
+          "id": "d",
+          "label": "more confident as"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cần trạng từ 'confidently' để bổ nghĩa cho động từ 'reply'. Cấu trúc đúng là 'as + adverb + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "The weather in Guangzhou that December morning was not _____ the teacher's short-sleeve shirt suggested.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as warm as"
+        },
+        {
+          "id": "b",
+          "label": "so warm than"
+        },
+        {
+          "id": "c",
+          "label": "as warmer as"
+        },
+        {
+          "id": "d",
+          "label": "more warm as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + adj + as'. Các lựa chọn khác kết hợp sai cấu trúc so sánh bằng và so sánh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "The boy from the back of the class shouted _____ the other students in the room.",
+      "options": [
+        {
+          "id": "a",
+          "label": "loudly as"
+        },
+        {
+          "id": "b",
+          "label": "as loudly as"
+        },
+        {
+          "id": "c",
+          "label": "as loud than"
+        },
+        {
+          "id": "d",
+          "label": "so loudly as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng trạng từ 'loudly' để bổ nghĩa cho động từ 'shouted'. Cấu trúc so sánh bằng đầy đủ là 'as + adv + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "The teacher's real reason for wearing a short-sleeve shirt was not _____ the students imagined.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as complicated as"
+        },
+        {
+          "id": "b",
+          "label": "so complicated than"
+        },
+        {
+          "id": "c",
+          "label": "as more complicated as"
+        },
+        {
+          "id": "d",
+          "label": "more complicated so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng 'as + adj + as' được áp dụng cho cả tính từ dài như 'complicated'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "The author states that things happening in China would not happen in _____ a way in the US.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as same as"
+        },
+        {
+          "id": "b",
+          "label": "the same as"
+        },
+        {
+          "id": "c",
+          "label": "so same as"
+        },
+        {
+          "id": "d",
+          "label": "as the same as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ cố định để diễn tả sự giống nhau là 'the same as'. 'As same as' là một lỗi sai phổ biến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "The student in the gray scarf probably did not speak English _____ a native speaker.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as fluently as"
+        },
+        {
+          "id": "b",
+          "label": "so fluent as"
+        },
+        {
+          "id": "c",
+          "label": "as fluent than"
+        },
+        {
+          "id": "d",
+          "label": "more fluently as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần trạng từ 'fluently' để bổ nghĩa cho động từ 'speak'. Cấu trúc so sánh bằng là 'as + adv + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "The teacher's understanding of the situation became _____ the monitor explained it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "clearer than"
+        },
+        {
+          "id": "b",
+          "label": "as clear as"
+        },
+        {
+          "id": "c",
+          "label": "so clear than"
+        },
+        {
+          "id": "d",
+          "label": "as clearer as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu này diễn tả sự ngang bằng: sự hiểu biết trở nên rõ ràng ngang với lời giải thích. Dùng 'as + adj + as'."
+  }
+]

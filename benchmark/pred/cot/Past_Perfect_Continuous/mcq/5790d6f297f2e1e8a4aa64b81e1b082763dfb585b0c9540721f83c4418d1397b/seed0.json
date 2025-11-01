@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Before the summer, the pet sitting business _____ customers for several months.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been gaining"
+        },
+        {
+          "id": "b",
+          "label": "had gained"
+        },
+        {
+          "id": "c",
+          "label": "was gaining"
+        },
+        {
+          "id": "d",
+          "label": "gained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng Past Perfect Continuous (had been + V-ing) để diễn tả hành động tiếp diễn trong quá khứ cho đến một thời điểm khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "By the time the summer ended, they _____ between visits for months, which made them very tired.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been driving"
+        },
+        {
+          "id": "b",
+          "label": "had driven"
+        },
+        {
+          "id": "c",
+          "label": "were driving"
+        },
+        {
+          "id": "d",
+          "label": "drove"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động lái xe diễn ra liên tục trong một khoảng thời gian dài trước khi mùa hè kết thúc. Dùng Past Perfect Continuous."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "For a long time before the incident, the business _____ new customers to phone two weeks ahead.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been requiring"
+        },
+        {
+          "id": "b",
+          "label": "had required"
+        },
+        {
+          "id": "c",
+          "label": "was requiring"
+        },
+        {
+          "id": "d",
+          "label": "required"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Chính sách yêu cầu khách hàng gọi trước là một hành động tiếp diễn trong quá khứ cho đến một thời điểm khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "Before the bite, Hercules _____ playfully on them for a while, showing his loving nature.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been jumping"
+        },
+        {
+          "id": "b",
+          "label": "had jumped"
+        },
+        {
+          "id": "c",
+          "label": "was jumping"
+        },
+        {
+          "id": "d",
+          "label": "jumped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động nhảy diễn ra liên tục trong một khoảng thời gian trước khi sự việc cắn xảy ra. Dùng Past Perfect Continuous."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "I was taking a picture because Hercules _____ lovely beside me for some time, making me think he was harmless.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been sitting"
+        },
+        {
+          "id": "b",
+          "label": "had sat"
+        },
+        {
+          "id": "c",
+          "label": "was sitting"
+        },
+        {
+          "id": "d",
+          "label": "sat"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động ngồi diễn ra liên tục trong một khoảng thời gian trước khi người nói quyết định chụp ảnh. Dùng Past Perfect Continuous."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "By the time the incident happened, they _____ their pet sitting business for several months.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been running"
+        },
+        {
+          "id": "b",
+          "label": "had run"
+        },
+        {
+          "id": "c",
+          "label": "were running"
+        },
+        {
+          "id": "d",
+          "label": "ran"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động điều hành doanh nghiệp diễn ra liên tục trong một khoảng thời gian trước một sự kiện trong quá khứ. Dùng Past Perfect Continuous."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "The business was thriving because customers _____ steadily for months before the unfortunate event.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been increasing"
+        },
+        {
+          "id": "b",
+          "label": "had increased"
+        },
+        {
+          "id": "c",
+          "label": "were increasing"
+        },
+        {
+          "id": "d",
+          "label": "increased"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sự gia tăng khách hàng là một quá trình liên tục trong quá khứ, dẫn đến tình trạng 'thriving'. Dùng Past Perfect Continuous."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "Before she walked into the hospital, she _____ in pain for some time, which was evident from her appearance.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been suffering"
+        },
+        {
+          "id": "b",
+          "label": "had suffered"
+        },
+        {
+          "id": "c",
+          "label": "was suffering"
+        },
+        {
+          "id": "d",
+          "label": "suffered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động chịu đựng cơn đau diễn ra liên tục trong một khoảng thời gian trước khi cô ấy vào bệnh viện. Dùng Past Perfect Continuous."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "The narrator _____ for her husband for ten minutes before he arrived to help.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been waiting"
+        },
+        {
+          "id": "b",
+          "label": "had waited"
+        },
+        {
+          "id": "c",
+          "label": "was waiting"
+        },
+        {
+          "id": "d",
+          "label": "waited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động chờ đợi diễn ra liên tục trong một khoảng thời gian (10 phút) trước khi chồng cô ấy đến. Dùng Past Perfect Continuous."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "They decided to take on Hercules even though they _____ new customers to book two weeks in advance.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been telling"
+        },
+        {
+          "id": "b",
+          "label": "had told"
+        },
+        {
+          "id": "c",
+          "label": "were telling"
+        },
+        {
+          "id": "d",
+          "label": "told"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'telling' (thông báo chính sách) là một hoạt động liên tục trong quá khứ trước khi họ đưa ra quyết định. Dùng Past Perfect Continuous."
+  }
+]

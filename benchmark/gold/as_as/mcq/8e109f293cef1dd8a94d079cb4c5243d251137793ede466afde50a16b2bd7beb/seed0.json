@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_01",
+      "prompt": "Based on the author's memory, no previous winter in Pennsylvania has been _____ this one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as cold as"
+        },
+        {
+          "id": "b",
+          "label": "so cold than"
+        },
+        {
+          "id": "c",
+          "label": "as colder as"
+        },
+        {
+          "id": "d",
+          "label": "colder as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + tính từ + as'. 'Colder' là dạng so sánh hơn, không dùng trong cấu trúc này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_02",
+      "prompt": "Life would not be _____ it is without the extremes of hot and cold.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as interesting as"
+        },
+        {
+          "id": "b",
+          "label": "as interestingly as"
+        },
+        {
+          "id": "c",
+          "label": "more interesting"
+        },
+        {
+          "id": "d",
+          "label": "so interesting than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau động từ 'be', ta dùng tính từ ('interesting'). Cấu trúc so sánh bằng là 'as + tính từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_03",
+      "prompt": "The author has to push himself to accomplish things, which suggests he is not _____ he would like to be.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as motivated as"
+        },
+        {
+          "id": "b",
+          "label": "so motivated that"
+        },
+        {
+          "id": "c",
+          "label": "as more motivated as"
+        },
+        {
+          "id": "d",
+          "label": "motivated than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để so sánh sự ngang bằng, dùng cấu trúc 'as...as'. Không dùng dạng so sánh hơn 'more' bên trong cấu trúc này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_04",
+      "prompt": "Financial extremes remind us to save _____ money as possible when things are going smoothly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as many"
+        },
+        {
+          "id": "b",
+          "label": "so much"
+        },
+        {
+          "id": "c",
+          "label": "as much"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'as much as' với danh từ không đếm được ('money'). 'As many as' dùng cho danh từ đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_05",
+      "prompt": "The dogs follow their routine _____ every day, no matter the weather.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as exact as"
+        },
+        {
+          "id": "b",
+          "label": "as exactly as"
+        },
+        {
+          "id": "c",
+          "label": "more exactly than"
+        },
+        {
+          "id": "d",
+          "label": "so exact as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'follow' cần một trạng từ ('exactly') để bổ nghĩa, không phải tính từ ('exact'). Cấu trúc là 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_06",
+      "prompt": "The author realized that without health challenges, he might not appreciate good health _____ he does now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as gratefully as"
+        },
+        {
+          "id": "b",
+          "label": "as grateful as"
+        },
+        {
+          "id": "c",
+          "label": "more grateful than"
+        },
+        {
+          "id": "d",
+          "label": "so grateful than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'appreciate' cần được bổ nghĩa bởi một trạng từ ('gratefully'), không phải một tính từ ('grateful')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_07",
+      "prompt": "For the author's dogs, finding the right spot is _____ any discomfort from the cold.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as important as"
+        },
+        {
+          "id": "b",
+          "label": "more important"
+        },
+        {
+          "id": "c",
+          "label": "so important that"
+        },
+        {
+          "id": "d",
+          "label": "as importantly as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh sự quan trọng ngang bằng của hai việc. 'Important' là tính từ sau động từ 'is'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_08",
+      "prompt": "The author concludes he doesn't have _____ happy moments as he could because he always wants things to be different.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as much"
+        },
+        {
+          "id": "b",
+          "label": "so many"
+        },
+        {
+          "id": "c",
+          "label": "as more"
+        },
+        {
+          "id": "d",
+          "label": "fewer"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Moments' là danh từ đếm được, nên dùng 'many'. Trong câu phủ định, 'not so many as' là một cấu trúc đúng và phổ biến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_09",
+      "prompt": "The memory of summer flashed through his mind _____ a scene from a movie.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as vivid as"
+        },
+        {
+          "id": "b",
+          "label": "vivid than"
+        },
+        {
+          "id": "c",
+          "label": "as vividly as"
+        },
+        {
+          "id": "d",
+          "label": "more vividly"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'flashed' cần trạng từ ('vividly') để bổ nghĩa. Cấu trúc so sánh bằng là 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_10",
+      "prompt": "The author's face didn't feel _____ in the summer's heat as it did in the winter's cold.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so frozen than"
+        },
+        {
+          "id": "b",
+          "label": "as frozen as"
+        },
+        {
+          "id": "c",
+          "label": "more frozen as"
+        },
+        {
+          "id": "d",
+          "label": "as more frozen as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc so sánh bằng trong câu phủ định là 'not as...as' hoặc 'not so...as'. Các lựa chọn khác sai ngữ pháp."
+  }
+]

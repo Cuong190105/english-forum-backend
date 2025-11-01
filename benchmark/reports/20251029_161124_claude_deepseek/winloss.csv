@@ -1,0 +1,4 @@
+run_id,metric,wins,losses,ties,n_effective,win_rate,binomial_p
+20251029_161124_claude_deepseek,semantic,34,26,0,60,56.67,0.366294
+20251029_161124_claude_deepseek,judge,27,20,13,47,57.45,0.381693
+20251029_161124_claude_deepseek,judge2,27,20,13,47,57.45,0.381693

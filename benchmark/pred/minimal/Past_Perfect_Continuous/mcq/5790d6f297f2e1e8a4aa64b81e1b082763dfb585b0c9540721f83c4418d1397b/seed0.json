@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q1",
+      "prompt": "Before the hot summer months, the number of customers ____ from three to thirty a month, showing steady growth.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been slowly rising"
+        },
+        {
+          "id": "b",
+          "label": "had slowly risen"
+        },
+        {
+          "id": "c",
+          "label": "was slowly rising"
+        },
+        {
+          "id": "d",
+          "label": "slowly rose"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn (had been + V-ing) diễn tả hành động kéo dài liên tục đến một thời điểm trong quá khứ. \"Showing steady growth\" nhấn mạnh tính liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q2",
+      "prompt": "They ____ between visits for several months before they decided to take on a new customer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been driving"
+        },
+        {
+          "id": "b",
+          "label": "were driving"
+        },
+        {
+          "id": "c",
+          "label": "drove"
+        },
+        {
+          "id": "d",
+          "label": "had driven"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"For several months\" chỉ rõ khoảng thời gian hành động \"driving\" kéo dài liên tục trước khi hành động \"decided\" xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q3",
+      "prompt": "Hercules ____ on them and touching their hands and arms with his tongue for a while before the family laughed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been playfully jumping"
+        },
+        {
+          "id": "b",
+          "label": "was playfully jumping"
+        },
+        {
+          "id": "c",
+          "label": "playfully jumped"
+        },
+        {
+          "id": "d",
+          "label": "had playfully jumped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"jumping\" diễn ra liên tục trong một khoảng thời gian (\"for a while\") trước một hành động khác trong quá khứ (\"the family laughed\")."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q4",
+      "prompt": "I ____ his water bowl and cleaning messes for some time before Hercules rushed at me.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been filling up"
+        },
+        {
+          "id": "b",
+          "label": "was filling up"
+        },
+        {
+          "id": "c",
+          "label": "filled up"
+        },
+        {
+          "id": "d",
+          "label": "had filled up"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"filling up\" kéo dài liên tục trong một khoảng thời gian (\"for some time\") trước khi hành động \"rushed\" xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q5",
+      "prompt": "The couple ____ strictly at the pet owner's home, which was almost too busy for them by that time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been working"
+        },
+        {
+          "id": "b",
+          "label": "were working"
+        },
+        {
+          "id": "c",
+          "label": "worked"
+        },
+        {
+          "id": "d",
+          "label": "had worked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"working\" diễn ra liên tục và kéo dài đến một thời điểm trong quá khứ (\"by that time\"), gây ra kết quả là \"almost too busy\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q6",
+      "prompt": "My husband and I ____ a pet sitting business earlier that year, so we were quite experienced by the time of the incident.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been running"
+        },
+        {
+          "id": "b",
+          "label": "were running"
+        },
+        {
+          "id": "c",
+          "label": "ran"
+        },
+        {
+          "id": "d",
+          "label": "had run"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Earlier that year\" và \"by the time of the incident\" cho thấy hành động \"running\" kéo dài liên tục đến một thời điểm trong quá khứ, dẫn đến kết quả \"experienced\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q7",
+      "prompt": "I must have looked like I was shot because I ____ for a long time before walking into the hospital.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been bleeding"
+        },
+        {
+          "id": "b",
+          "label": "was bleeding"
+        },
+        {
+          "id": "c",
+          "label": "bled"
+        },
+        {
+          "id": "d",
+          "label": "had bled"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"bleeding\" kéo dài liên tục trong một khoảng thời gian (\"for a long time\") trước khi hành động \"walking into the hospital\" xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q8",
+      "prompt": "Hercules ____ lovely beside me for a few minutes before I took the picture.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been sitting"
+        },
+        {
+          "id": "b",
+          "label": "was sitting"
+        },
+        {
+          "id": "c",
+          "label": "sat"
+        },
+        {
+          "id": "d",
+          "label": "had sat"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"For a few minutes\" chỉ rõ khoảng thời gian hành động \"sitting\" kéo dài liên tục trước khi hành động \"took the picture\" xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q9",
+      "prompt": "Pet owners ____ two weeks ahead for a long time, but this new customer didn't follow the rule.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been phoning"
+        },
+        {
+          "id": "b",
+          "label": "were phoning"
+        },
+        {
+          "id": "c",
+          "label": "phoned"
+        },
+        {
+          "id": "d",
+          "label": "had phoned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động \"phoning\" là một thói quen hoặc quy tắc kéo dài liên tục trong quá khứ (\"for a long time\") trước một sự kiện khác (\"didn't follow\")."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q10",
+      "prompt": "They ____ good money for several months before the unfortunate incident with Hercules.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been making"
+        },
+        {
+          "id": "b",
+          "label": "were making"
+        },
+        {
+          "id": "c",
+          "label": "made"
+        },
+        {
+          "id": "d",
+          "label": "had made"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"For several months\" chỉ rõ khoảng thời gian hành động \"making money\" kéo dài liên tục trước khi hành động \"incident\" xảy ra trong quá khứ."
+  }
+]

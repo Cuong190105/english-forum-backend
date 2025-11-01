@@ -127,37 +127,72 @@ def _deepseek_client():
 
 
 def _parse_json_loose(text: str) -> Dict[str, Any]:
-    """Try to parse a JSON object from a possibly noisy LLM output.
-    Finds the first balanced {...} block and json.loads it.
+    """Parse a JSON object from a noisy LLM output.
+    Strategy:
+    - direct json.loads
+    - strip markdown code fences ```...```
+    - extract all balanced JSON objects and pick the one containing a 'verdict' key
+    - heuristic fallback based on keywords
     """
+    # 1) direct
     try:
-        return json.loads(text)
+        j = json.loads(text)
+        if isinstance(j, dict):
+            return j
     except Exception:
         pass
-    # Find the first '{' and last '}' and attempt
-    if '{' in text and '}' in text:
-        start = text.find('{')
-        end = text.rfind('}')
-        if end > start:
-            candidate = text[start:end+1]
-            try:
-                return json.loads(candidate)
-            except Exception:
-                # Try to remove code fences/backticks
-                candidate = re.sub(r"^```[a-zA-Z]*", "", candidate).strip('`\n ')
+
+    s = str(text)
+    # 2) remove code fences while preserving inner content
+    try:
+        s = re.sub(r"```[a-zA-Z]*\n([\s\S]*?)```", r"\1", s)
+    except Exception:
+        pass
+    # quick retry
+    try:
+        j = json.loads(s)
+        if isinstance(j, dict):
+            return j
+    except Exception:
+        pass
+
+    # 3) collect balanced {...} candidates
+    candidates: List[Dict[str, Any]] = []
+    buf = []
+    depth = 0
+    for ch in s:
+        if ch == '{':
+            depth += 1
+        if depth > 0:
+            buf.append(ch)
+        if ch == '}':
+            depth -= 1
+            if depth == 0 and buf:
+                cand_str = ''.join(buf)
+                buf = []
                 try:
-                    return json.loads(candidate)
+                    cand = json.loads(cand_str)
+                    if isinstance(cand, dict):
+                        candidates.append(cand)
                 except Exception:
+                    # ignore
                     pass
-    # As a last resort, map common label words to a verdict
-    low = text.lower()
-    if any(w in low for w in ['correct']):
-        return {"verdict": "correct", "why": text}
+    # prefer one with 'verdict' key
+    for cand in candidates:
+        if 'verdict' in cand:
+            return cand
+    # else return the last parsed dict if any
+    if candidates:
+        return candidates[-1]
+
+    # 4) heuristic keyword fallback
+    low = s.lower()
+    if any(w in low for w in ['"verdict"\s*:\s*"correct', ' verdict": "correct', ' correct"']):
+        return {"verdict": "correct", "why": s}
     if any(w in low for w in ['ambiguous','unclear','both could']):
-        return {"verdict": "ambiguous", "why": text}
+        return {"verdict": "ambiguous", "why": s}
     if any(w in low for w in ['incorrect','wrong','not correct']):
-        return {"verdict": "incorrect", "why": text}
-    # Fallback: raise so caller may retry
+        return {"verdict": "incorrect", "why": s}
     raise ValueError("Could not parse JSON from model output")
 
 

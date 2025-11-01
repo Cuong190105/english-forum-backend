@@ -1,0 +1,4 @@
+run_id,metric,wins,losses,ties,n_effective,win_rate,binomial_p
+20251029_161124_gemini_deepseek,semantic,34,26,0,60,56.67,0.366294
+20251029_161124_gemini_deepseek,judge,29,20,11,49,59.18,0.252870
+20251029_161124_gemini_deepseek,judge2,29,20,11,49,59.18,0.252870

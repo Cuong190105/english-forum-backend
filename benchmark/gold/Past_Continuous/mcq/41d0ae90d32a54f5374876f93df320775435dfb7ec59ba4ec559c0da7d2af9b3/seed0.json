@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_001",
+      "prompt": "While Bella _____ motionless in the sanctuary office, Tarra stood vigil outside for three weeks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was lying"
+        },
+        {
+          "id": "b",
+          "label": "lay"
+        },
+        {
+          "id": "c",
+          "label": "lied"
+        },
+        {
+          "id": "d",
+          "label": "was lain"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì quá khứ tiếp diễn để diễn tả một hành động kéo dài (Bella nằm) làm nền cho một hành động khác trong quá khứ (Tarra đứng canh)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_002",
+      "prompt": "Tarra _____ patiently by the gate when Scott Blais finally carried Bella onto the balcony.",
+      "options": [
+        {
+          "id": "a",
+          "label": "waited"
+        },
+        {
+          "id": "b",
+          "label": "waits"
+        },
+        {
+          "id": "c",
+          "label": "was waiting"
+        },
+        {
+          "id": "d",
+          "label": "has waited"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'chờ đợi' đang diễn ra thì hành động 'bế ra' xen vào. Dùng quá khứ tiếp diễn cho hành động đang diễn ra (hành động nền)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_003",
+      "prompt": "While Tarra _____ about her friend, the other elephants were probably roaming the sanctuary.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worried"
+        },
+        {
+          "id": "b",
+          "label": "was worrying"
+        },
+        {
+          "id": "c",
+          "label": "worries"
+        },
+        {
+          "id": "d",
+          "label": "had worried"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hai hành động kéo dài xảy ra song song trong quá khứ ('lo lắng' và 'đi lang thang'). Cả hai đều dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_004",
+      "prompt": "At 5 p.m. yesterday, before the accident, Tarra and Bella _____ together in the sun.",
+      "options": [
+        {
+          "id": "a",
+          "label": "played"
+        },
+        {
+          "id": "b",
+          "label": "play"
+        },
+        {
+          "id": "c",
+          "label": "have played"
+        },
+        {
+          "id": "d",
+          "label": "were playing"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cụm từ 'At 5 p.m. yesterday' chỉ một thời điểm cụ thể trong quá khứ, yêu cầu dùng thì quá khứ tiếp diễn để mô tả hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_005",
+      "prompt": "The sanctuary staff first noticed Tarra's strange behavior while they _____ their daily tasks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "were doing"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "had done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'làm nhiệm vụ' đang diễn ra thì hành động 'nhận thấy' xen vào. Dùng quá khứ tiếp diễn cho hành động nền đang kéo dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_006",
+      "prompt": "Bella's tail started to wag when she saw Tarra, who _____ for her on the other side of the gate.",
+      "options": [
+        {
+          "id": "a",
+          "label": "waited"
+        },
+        {
+          "id": "b",
+          "label": "had been waiting"
+        },
+        {
+          "id": "c",
+          "label": "was waiting"
+        },
+        {
+          "id": "d",
+          "label": "waits"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'chờ đợi' của Tarra là hành động nền đang diễn ra khi Bella nhìn thấy cô ấy. Dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_007",
+      "prompt": "What _____ when the vet called yesterday with news about Bella's injury?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did you do"
+        },
+        {
+          "id": "b",
+          "label": "were you doing"
+        },
+        {
+          "id": "c",
+          "label": "are you doing"
+        },
+        {
+          "id": "d",
+          "label": "have you done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hỏi về một hành động đang diễn ra ('bạn đang làm gì') tại thời điểm một hành động khác xen vào ('bác sĩ thú y gọi'). Dùng cấu trúc 'What were you doing'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_008",
+      "prompt": "While Tarra and Bella _____ a unique friendship, most other animals at the sanctuary kept to their own kind.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were developing"
+        },
+        {
+          "id": "b",
+          "label": "developed"
+        },
+        {
+          "id": "c",
+          "label": "develop"
+        },
+        {
+          "id": "d",
+          "label": "had developed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hai hành động ('phát triển tình bạn' và 'giữ khoảng cách') xảy ra song song và kéo dài trong quá khứ. Dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_009",
+      "prompt": "Nobody knows exactly what Bella _____ when she suffered her spinal cord injury a few months ago.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "has done"
+        },
+        {
+          "id": "c",
+          "label": "was doing"
+        },
+        {
+          "id": "d",
+          "label": "does"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'bị thương' đã xen vào một hành động khác đang diễn ra. Dùng quá khứ tiếp diễn để mô tả hành động đang diễn ra đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_010",
+      "prompt": "The staff _____ about Tarra's loyalty as they watched her stand by the gate day after day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "thought"
+        },
+        {
+          "id": "b",
+          "label": "think"
+        },
+        {
+          "id": "c",
+          "label": "have thought"
+        },
+        {
+          "id": "d",
+          "label": "were thinking"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'As' ở đây có nghĩa là 'trong khi', diễn tả hai hành động ('suy nghĩ' và 'quan sát') xảy ra song song và kéo dài trong quá khứ."
+  }
+]

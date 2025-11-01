@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My new laptop is _____ as fast as my old one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "more"
+        },
+        {
+          "id": "c",
+          "label": "so"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + tính từ/trạng từ + as'. 'As' đầu tiên đứng trước tính từ/trạng từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She doesn't sing _____ as her sister.",
+      "options": [
+        {
+          "id": "a",
+          "label": "good"
+        },
+        {
+          "id": "b",
+          "label": "better"
+        },
+        {
+          "id": "c",
+          "label": "as good"
+        },
+        {
+          "id": "d",
+          "label": "as well"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Để bổ nghĩa cho động từ 'sing', cần dùng trạng từ 'well' trong cấu trúc so sánh bằng, không phải tính từ 'good'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "He has _____ as many friends as his brother.",
+      "options": [
+        {
+          "id": "a",
+          "label": "much"
+        },
+        {
+          "id": "b",
+          "label": "as"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'as many/much as' để so sánh số lượng. 'Many' dùng với danh từ đếm được số nhiều."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Please try to finish the task _____ as possible.",
+      "options": [
+        {
+          "id": "a",
+          "label": "quick"
+        },
+        {
+          "id": "b",
+          "label": "quickly"
+        },
+        {
+          "id": "c",
+          "label": "quicker"
+        },
+        {
+          "id": "d",
+          "label": "quickest"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'as + trạng từ + as possible' dùng để bổ nghĩa cho động từ 'finish', nên cần dùng trạng từ 'quickly'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The new movie was not _____ interesting as the trailer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so"
+        },
+        {
+          "id": "b",
+          "label": "very"
+        },
+        {
+          "id": "c",
+          "label": "as"
+        },
+        {
+          "id": "d",
+          "label": "much"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong so sánh bằng phủ định, cấu trúc đúng là 'not as...as' hoặc 'not so...as'. Ở đây, 'as' là lựa chọn phù hợp nhất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "He is almost _____ as tall as his older brother.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "more"
+        },
+        {
+          "id": "c",
+          "label": "so"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'almost as...as' được dùng để chỉ sự gần bằng. 'As' đầu tiên là bắt buộc trong cấu trúc này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "You should study _____ as your classmates if you want to pass the exam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hard"
+        },
+        {
+          "id": "b",
+          "label": "harder"
+        },
+        {
+          "id": "c",
+          "label": "as hard"
+        },
+        {
+          "id": "d",
+          "label": "as hardly"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Để so sánh mức độ của hành động 'study', cần dùng trạng từ 'hard' trong cấu trúc 'as hard as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The new building is twice _____ as the old one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "big"
+        },
+        {
+          "id": "b",
+          "label": "bigger"
+        },
+        {
+          "id": "c",
+          "label": "as big"
+        },
+        {
+          "id": "d",
+          "label": "so big"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi dùng các từ chỉ bội số như 'twice', 'three times', cấu trúc so sánh bằng là 'twice as + tính từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "She tried to run _____ as she could to catch the bus.",
+      "options": [
+        {
+          "id": "a",
+          "label": "fast"
+        },
+        {
+          "id": "b",
+          "label": "faster"
+        },
+        {
+          "id": "c",
+          "label": "as fast"
+        },
+        {
+          "id": "d",
+          "label": "fastest"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'as + trạng từ + as + chủ ngữ + can/could' diễn tả mức độ cao nhất có thể của hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The weather today is not _____ warm as it was yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so"
+        },
+        {
+          "id": "b",
+          "label": "very"
+        },
+        {
+          "id": "c",
+          "label": "as"
+        },
+        {
+          "id": "d",
+          "label": "much"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong so sánh bằng phủ định, cả 'not as...as' và 'not so...as' đều đúng. 'As' là lựa chọn phổ biến và chính xác."
+  }
+]

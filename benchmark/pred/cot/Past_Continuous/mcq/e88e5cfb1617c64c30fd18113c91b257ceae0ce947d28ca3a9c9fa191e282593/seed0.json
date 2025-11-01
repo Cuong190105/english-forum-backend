@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "When I arrived, they _____ dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ate"
+        },
+        {
+          "id": "b",
+          "label": "were eating"
+        },
+        {
+          "id": "c",
+          "label": "had eaten"
+        },
+        {
+          "id": "d",
+          "label": "eat"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đang diễn ra (ăn tối) bị hành động khác (tôi đến) cắt ngang. Dùng quá khứ tiếp diễn cho hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "While my dad _____ the news, my mum _____ dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watched / cooked"
+        },
+        {
+          "id": "b",
+          "label": "was watching / was cooking"
+        },
+        {
+          "id": "c",
+          "label": "watched / was cooking"
+        },
+        {
+          "id": "d",
+          "label": "was watching / cooked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động xảy ra đồng thời trong quá khứ. Cả hai đều dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "At 8 PM last night, I _____ my homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "was doing"
+        },
+        {
+          "id": "c",
+          "label": "had done"
+        },
+        {
+          "id": "d",
+          "label": "do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ. Dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "It was a beautiful morning. The birds _____ and the sun _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sang / shone"
+        },
+        {
+          "id": "b",
+          "label": "were singing / was shining"
+        },
+        {
+          "id": "c",
+          "label": "sang / was shining"
+        },
+        {
+          "id": "d",
+          "label": "were singing / shone"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả các hành động đang diễn ra để làm bối cảnh cho một câu chuyện. Dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "She _____ a book while her phone suddenly _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read / rang"
+        },
+        {
+          "id": "b",
+          "label": "was reading / rang"
+        },
+        {
+          "id": "c",
+          "label": "read / was ringing"
+        },
+        {
+          "id": "d",
+          "label": "was reading / was ringing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đọc sách đang diễn ra thì bị tiếng chuông điện thoại cắt ngang. Dùng quá khứ tiếp diễn cho hành động dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "What _____ you _____ at 10 AM yesterday?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / do"
+        },
+        {
+          "id": "b",
+          "label": "were / doing"
+        },
+        {
+          "id": "c",
+          "label": "had / done"
+        },
+        {
+          "id": "d",
+          "label": "are / doing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hỏi về một hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ. Dùng cấu trúc quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "I couldn't answer the phone because I _____ a shower.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took"
+        },
+        {
+          "id": "b",
+          "label": "wasn't taking"
+        },
+        {
+          "id": "c",
+          "label": "was taking"
+        },
+        {
+          "id": "d",
+          "label": "didn't take"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động đang tắm đang diễn ra nên không thể nghe điện thoại. Dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "He _____ TV when his parents came home.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watched"
+        },
+        {
+          "id": "b",
+          "label": "was watching"
+        },
+        {
+          "id": "c",
+          "label": "had watched"
+        },
+        {
+          "id": "d",
+          "label": "watches"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động xem TV đang diễn ra thì bị hành động bố mẹ về nhà cắt ngang. Dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "My sister _____ and I _____ to music all afternoon yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "studied / listened"
+        },
+        {
+          "id": "b",
+          "label": "was studying / was listening"
+        },
+        {
+          "id": "c",
+          "label": "studied / was listening"
+        },
+        {
+          "id": "d",
+          "label": "was studying / listened"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động xảy ra song song, kéo dài suốt buổi chiều hôm qua. Cả hai đều dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "In the story, when Ken was riding his bike, a woman in a white dress _____ him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "followed"
+        },
+        {
+          "id": "b",
+          "label": "was following"
+        },
+        {
+          "id": "c",
+          "label": "had followed"
+        },
+        {
+          "id": "d",
+          "label": "follows"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động người phụ nữ theo sau đang diễn ra cùng lúc với việc Ken đang đạp xe. Dùng quá khứ tiếp diễn."
+  }
+]

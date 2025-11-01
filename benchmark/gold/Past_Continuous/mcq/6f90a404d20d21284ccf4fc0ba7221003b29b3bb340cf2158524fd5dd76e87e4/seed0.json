@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_001",
+      "prompt": "Pamela and Rita _____ at a red light when the white SUV suddenly turned in front of them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were waiting"
+        },
+        {
+          "id": "b",
+          "label": "waited"
+        },
+        {
+          "id": "c",
+          "label": "are waiting"
+        },
+        {
+          "id": "d",
+          "label": "wait"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đang diễn ra (chờ đèn đỏ) thì bị hành động khác xen vào (xe SUV rẽ). Dùng thì quá khứ tiếp diễn cho hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_002",
+      "prompt": "Kenny and his friend Taron _____ home from a job when Rita flagged them down for help.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drove"
+        },
+        {
+          "id": "b",
+          "label": "are driving"
+        },
+        {
+          "id": "c",
+          "label": "were driving"
+        },
+        {
+          "id": "d",
+          "label": "drive"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả một hành động đang xảy ra trong quá khứ (lái xe về) thì có một hành động khác cắt ngang (Rita vẫy họ lại)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_003",
+      "prompt": "The white SUV _____ in the opposite direction just before it turned across traffic.",
+      "options": [
+        {
+          "id": "a",
+          "label": "traveled"
+        },
+        {
+          "id": "b",
+          "label": "was traveling"
+        },
+        {
+          "id": "c",
+          "label": "is traveling"
+        },
+        {
+          "id": "d",
+          "label": "travels"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn dùng để mô tả bối cảnh hoặc một hành động đang diễn ra tại một thời điểm trong quá khứ trước một sự kiện khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_004",
+      "prompt": "When the men looked over the cliff, they saw a woman's leg that _____ out of the driver's side window.",
+      "options": [
+        {
+          "id": "a",
+          "label": "swung"
+        },
+        {
+          "id": "b",
+          "label": "is swinging"
+        },
+        {
+          "id": "c",
+          "label": "swings"
+        },
+        {
+          "id": "d",
+          "label": "was swinging"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'swinging' (đung đưa) đang diễn ra tại thời điểm họ 'looked' (nhìn). Dùng quá khứ tiếp diễn để mô tả hành động nền."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_005",
+      "prompt": "While Taron _____ back to the truck to get a box cutter, Kenny was trying to push the SUV onto its side.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was running"
+        },
+        {
+          "id": "b",
+          "label": "ran"
+        },
+        {
+          "id": "c",
+          "label": "runs"
+        },
+        {
+          "id": "d",
+          "label": "is running"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'While' được dùng để chỉ hai hành động xảy ra đồng thời trong quá khứ. Cả hai vế đều dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_006",
+      "prompt": "The men tried to pull Cheryl out, but she _____ because the seat belt was still trapping her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't come out"
+        },
+        {
+          "id": "b",
+          "label": "wasn't coming out"
+        },
+        {
+          "id": "c",
+          "label": "isn't coming out"
+        },
+        {
+          "id": "d",
+          "label": "doesn't come out"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một hành động kéo dài và không thành công trong quá khứ. 'Wasn't coming out' nhấn mạnh sự bế tắc tại thời điểm đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_007",
+      "prompt": "What _____ at 3 PM on that August afternoon? They were trying to rescue a woman from a car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did they do"
+        },
+        {
+          "id": "b",
+          "label": "do they do"
+        },
+        {
+          "id": "c",
+          "label": "were they doing"
+        },
+        {
+          "id": "d",
+          "label": "are they doing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về một hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ (3 PM) cần dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_008",
+      "prompt": "Kenny _____ to create an air pocket for Cheryl when Marcell Porter, a mechanic, arrived at the scene.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tried"
+        },
+        {
+          "id": "b",
+          "label": "was trying"
+        },
+        {
+          "id": "c",
+          "label": "is trying"
+        },
+        {
+          "id": "d",
+          "label": "tries"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'trying' (cố gắng) đang diễn ra thì hành động 'arrived' (đến) xen vào. Dùng quá khứ tiếp diễn cho hành động dài hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_009",
+      "prompt": "Cheryl assumed she passed out because the summer heat _____ her feel unwell that day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "made"
+        },
+        {
+          "id": "b",
+          "label": "makes"
+        },
+        {
+          "id": "c",
+          "label": "is making"
+        },
+        {
+          "id": "d",
+          "label": "was making"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả một tình huống nền đang diễn ra (cái nóng đang làm cô ấy mệt) dẫn đến một sự việc khác (ngất xỉu)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_010",
+      "prompt": "Over the next few days, while they _____ Cheryl in the hospital, they all became good friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "visited"
+        },
+        {
+          "id": "b",
+          "label": "visit"
+        },
+        {
+          "id": "c",
+          "label": "are visiting"
+        },
+        {
+          "id": "d",
+          "label": "were visiting"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'While' giới thiệu một hành động nền kéo dài ('visiting') trong khi một sự việc khác ('became friends') xảy ra. Dùng quá khứ tiếp diễn."
+  }
+]

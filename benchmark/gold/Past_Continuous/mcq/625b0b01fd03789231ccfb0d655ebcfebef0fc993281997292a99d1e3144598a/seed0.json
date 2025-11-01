@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "He _____ clothes into a suitcase when she came to the door.",
+      "options": [
+        {
+          "id": "a",
+          "label": "pushed"
+        },
+        {
+          "id": "b",
+          "label": "was pushing"
+        },
+        {
+          "id": "c",
+          "label": "is pushing"
+        },
+        {
+          "id": "d",
+          "label": "pushes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng quá khứ tiếp diễn để tả hành động đang xảy ra (xếp đồ) thì một hành động khác xen vào (cô ấy đến)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "Early that day, the snow _____ into dirty water as the weather changed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was melting"
+        },
+        {
+          "id": "b",
+          "label": "melted"
+        },
+        {
+          "id": "c",
+          "label": "melts"
+        },
+        {
+          "id": "d",
+          "label": "is melting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả một bối cảnh, một quá trình đang diễn ra trong quá khứ (tuyết đang tan)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "While the man _____ his suitcase, his wife was shouting at him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "packed"
+        },
+        {
+          "id": "b",
+          "label": "is packing"
+        },
+        {
+          "id": "c",
+          "label": "was packing"
+        },
+        {
+          "id": "d",
+          "label": "packs"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'while' diễn tả hai hành động xảy ra song song trong quá khứ. Cả hai vế đều dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "The baby _____ loudly throughout the entire argument.",
+      "options": [
+        {
+          "id": "a",
+          "label": "screams"
+        },
+        {
+          "id": "b",
+          "label": "screamed"
+        },
+        {
+          "id": "c",
+          "label": "is screaming"
+        },
+        {
+          "id": "d",
+          "label": "was screaming"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Diễn tả hành động kéo dài trong một khoảng thời gian ở quá khứ (suốt cuộc cãi vã). Dùng quá khứ tiếp diễn để nhấn mạnh sự liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "They _____ over the baby when they knocked down the flowerpot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were fighting"
+        },
+        {
+          "id": "b",
+          "label": "fought"
+        },
+        {
+          "id": "c",
+          "label": "fight"
+        },
+        {
+          "id": "d",
+          "label": "are fighting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đang diễn ra (giành đứa bé) bị một hành động khác xen vào (làm rơi chậu hoa). Dùng quá khứ tiếp diễn cho hành động nền."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "Outside on the street, it _____ dark and cars were driving through the slush.",
+      "options": [
+        {
+          "id": "a",
+          "label": "got"
+        },
+        {
+          "id": "b",
+          "label": "gets"
+        },
+        {
+          "id": "c",
+          "label": "was getting"
+        },
+        {
+          "id": "d",
+          "label": "is getting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng để mô tả bối cảnh, một trạng thái đang thay đổi dần dần trong quá khứ (trời đang tối dần)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "What _____ he _____ when she first entered the room?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did ... do"
+        },
+        {
+          "id": "b",
+          "label": "was ... doing"
+        },
+        {
+          "id": "c",
+          "label": "is ... doing"
+        },
+        {
+          "id": "d",
+          "label": "does ... do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hỏi về một hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ (khi cô ấy bước vào phòng)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "He _____ attention to her words; he just kept packing his clothes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't pay"
+        },
+        {
+          "id": "b",
+          "label": "isn't paying"
+        },
+        {
+          "id": "c",
+          "label": "wasn't paying"
+        },
+        {
+          "id": "d",
+          "label": "doesn't pay"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả một hành động không diễn ra liên tục trong một khoảng thời gian ở quá khứ, nhấn mạnh sự phớt lờ của anh ta."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "While he _____ to break her grip, she was screaming for him to get away.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tried"
+        },
+        {
+          "id": "b",
+          "label": "is trying"
+        },
+        {
+          "id": "c",
+          "label": "tries"
+        },
+        {
+          "id": "d",
+          "label": "was trying"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'While' dùng để chỉ hai hành động xảy ra đồng thời trong quá khứ. Cả hai hành động đều đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "The baby started to cry while his mother _____ him tightly in the kitchen.",
+      "options": [
+        {
+          "id": "a",
+          "label": "held"
+        },
+        {
+          "id": "b",
+          "label": "was holding"
+        },
+        {
+          "id": "c",
+          "label": "holds"
+        },
+        {
+          "id": "d",
+          "label": "is holding"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'holding' (ôm) đang diễn ra thì hành động 'started to cry' (bắt đầu khóc) xen vào. Dùng quá khứ tiếp diễn cho hành động nền."
+  }
+]

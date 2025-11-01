@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "While Tarra _____ vigil, Bella _____ motionless in the office.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was holding / was lying"
+        },
+        {
+          "id": "b",
+          "label": "held / lay"
+        },
+        {
+          "id": "c",
+          "label": "was holding / lay"
+        },
+        {
+          "id": "d",
+          "label": "held / was lying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hai hành động xảy ra đồng thời trong quá khứ. Cả hai đều dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "Tarra _____ outside the balcony when Scott Blais carried Bella out.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stood"
+        },
+        {
+          "id": "b",
+          "label": "was standing"
+        },
+        {
+          "id": "c",
+          "label": "stands"
+        },
+        {
+          "id": "d",
+          "label": "had stood"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'was standing' đang diễn ra thì bị hành động 'carried' cắt ngang. Dùng quá khứ tiếp diễn cho hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "At 9 AM yesterday, the elephants _____ around the sanctuary.",
+      "options": [
+        {
+          "id": "a",
+          "label": "roamed"
+        },
+        {
+          "id": "b",
+          "label": "were roaming"
+        },
+        {
+          "id": "c",
+          "label": "roam"
+        },
+        {
+          "id": "d",
+          "label": "had roamed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ (9 AM yesterday). Dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "It was a beautiful afternoon; the sun _____ brightly and the birds _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "shone / sang"
+        },
+        {
+          "id": "b",
+          "label": "was shining / were singing"
+        },
+        {
+          "id": "c",
+          "label": "shines / sing"
+        },
+        {
+          "id": "d",
+          "label": "had shone / had sung"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả bối cảnh, không khí của một sự việc trong quá khứ. Hai hành động xảy ra đồng thời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "I _____ a book when my phone suddenly _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read / rang"
+        },
+        {
+          "id": "b",
+          "label": "was reading / rang"
+        },
+        {
+          "id": "c",
+          "label": "read / was ringing"
+        },
+        {
+          "id": "d",
+          "label": "was reading / was ringing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'was reading' đang diễn ra thì bị hành động 'rang' cắt ngang. Dùng quá khứ tiếp diễn cho hành động dài, quá khứ đơn cho hành động ngắn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "While Bella _____ her legs, Tarra _____ patiently nearby.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wasn't moving / was waiting"
+        },
+        {
+          "id": "b",
+          "label": "didn't move / waited"
+        },
+        {
+          "id": "c",
+          "label": "wasn't moving / waited"
+        },
+        {
+          "id": "d",
+          "label": "didn't move / was waiting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hai hành động xảy ra đồng thời trong quá khứ. Cả hai đều dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "When the sanctuary co-founder arrived, Tarra still _____ outside the office.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stood"
+        },
+        {
+          "id": "b",
+          "label": "was standing"
+        },
+        {
+          "id": "c",
+          "label": "stands"
+        },
+        {
+          "id": "d",
+          "label": "had stood"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'was standing' đang diễn ra khi hành động 'arrived' xảy ra. Dùng quá khứ tiếp diễn cho hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "Last night at 8 PM, I _____ dinner; I _____ a movie.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wasn't eating / was watching"
+        },
+        {
+          "id": "b",
+          "label": "didn't eat / watched"
+        },
+        {
+          "id": "c",
+          "label": "wasn't eating / watched"
+        },
+        {
+          "id": "d",
+          "label": "didn't eat / was watching"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động không xảy ra và hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "What _____ you _____ when the earthquake happened?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / do"
+        },
+        {
+          "id": "b",
+          "label": "were / doing"
+        },
+        {
+          "id": "c",
+          "label": "are / doing"
+        },
+        {
+          "id": "d",
+          "label": "had / done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hỏi về một hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ. Dùng cấu trúc câu hỏi của quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "The elephants _____ peacefully in the field when a loud noise suddenly _____ them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "grazed / disturbed"
+        },
+        {
+          "id": "b",
+          "label": "were grazing / disturbed"
+        },
+        {
+          "id": "c",
+          "label": "grazed / was disturbing"
+        },
+        {
+          "id": "d",
+          "label": "were grazing / was disturbing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'were grazing' đang diễn ra thì bị hành động 'disturbed' cắt ngang. Dùng quá khứ tiếp diễn cho hành động dài, quá khứ đơn cho hành động ngắn."
+  }
+]

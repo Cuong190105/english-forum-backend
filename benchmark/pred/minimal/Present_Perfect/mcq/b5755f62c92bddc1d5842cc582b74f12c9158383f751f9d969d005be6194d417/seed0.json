@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "Since 1984, Philadelphia _____ its act, transforming graffiti-covered walls into art.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cleans up"
+        },
+        {
+          "id": "b",
+          "label": "cleaned up"
+        },
+        {
+          "id": "c",
+          "label": "has cleaned up"
+        },
+        {
+          "id": "d",
+          "label": "is cleaning up"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Since 1984” chỉ một hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nên dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "So far, more than 1,800 murals _____ by the Mural Arts Program.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are painted"
+        },
+        {
+          "id": "b",
+          "label": "were painted"
+        },
+        {
+          "id": "c",
+          "label": "have been painted"
+        },
+        {
+          "id": "d",
+          "label": "had been painted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“So far” (cho đến nay) chỉ một hành động đã xảy ra và có kết quả ở hiện tại, cần dùng thì Hiện tại hoàn thành thể bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "Jane Golden _____ the artistic director of the MAP for many years, leading its transformation efforts.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“For many years” chỉ khoảng thời gian một hành động kéo dài đến hiện tại, nên dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "Thanks to the MAP, schools and public places _____ more attractive and vibrant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "become"
+        },
+        {
+          "id": "b",
+          "label": "became"
+        },
+        {
+          "id": "c",
+          "label": "have become"
+        },
+        {
+          "id": "d",
+          "label": "are becoming"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động đã xảy ra trong quá khứ và có kết quả rõ rệt ở hiện tại (trở nên hấp dẫn hơn), dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "The MAP _____ with local communities to develop meaningful messages for their murals.",
+      "options": [
+        {
+          "id": "a",
+          "label": "works"
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "has worked"
+        },
+        {
+          "id": "d",
+          "label": "is working"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động hợp tác đã diễn ra và kết quả là những thông điệp hiện có, dùng Hiện tại hoàn thành để nhấn mạnh kết quả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Since its inception, the MAP _____ up to 50 requests for murals each week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "receives"
+        },
+        {
+          "id": "b",
+          "label": "received"
+        },
+        {
+          "id": "c",
+          "label": "has received"
+        },
+        {
+          "id": "d",
+          "label": "is receiving"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Since its inception” (kể từ khi thành lập) chỉ một hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "The walls that were once ugly with graffiti _____ with beautiful pictures of historical heroes and modern art.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are covered"
+        },
+        {
+          "id": "b",
+          "label": "were covered"
+        },
+        {
+          "id": "c",
+          "label": "have been covered"
+        },
+        {
+          "id": "d",
+          "label": "had been covered"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sự thay đổi từ xấu xí sang đẹp đẽ là một kết quả ở hiện tại của hành động trong quá khứ, dùng Hiện tại hoàn thành thể bị động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "The Mural Arts Program _____ for many years, significantly contributing to Philadelphia's cultural landscape.",
+      "options": [
+        {
+          "id": "a",
+          "label": "exists"
+        },
+        {
+          "id": "b",
+          "label": "existed"
+        },
+        {
+          "id": "c",
+          "label": "has existed"
+        },
+        {
+          "id": "d",
+          "label": "is existing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“For many years” chỉ khoảng thời gian chương trình đã hoạt động đến hiện tại, nên dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "Some one-time graffiti writers even _____ to paint MAP murals, showing their positive transformation.",
+      "options": [
+        {
+          "id": "a",
+          "label": "help"
+        },
+        {
+          "id": "b",
+          "label": "helped"
+        },
+        {
+          "id": "c",
+          "label": "have helped"
+        },
+        {
+          "id": "d",
+          "label": "are helping"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động giúp đỡ đã diễn ra và có thể vẫn tiếp diễn hoặc có kết quả ở hiện tại, dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "Thanks to the Mural Arts Program, Philadelphia _____ to have more murals than any other American city.",
+      "options": [
+        {
+          "id": "a",
+          "label": "comes"
+        },
+        {
+          "id": "b",
+          "label": "came"
+        },
+        {
+          "id": "c",
+          "label": "has come"
+        },
+        {
+          "id": "d",
+          "label": "is coming"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Has come to have” nhấn mạnh quá trình đạt được trạng thái hiện tại, phù hợp với thì Hiện tại hoàn thành."
+  }
+]

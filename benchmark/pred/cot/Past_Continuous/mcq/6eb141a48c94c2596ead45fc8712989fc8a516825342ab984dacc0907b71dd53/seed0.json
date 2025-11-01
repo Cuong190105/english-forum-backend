@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_001",
+      "prompt": "One afternoon, I _____ an art museum while _____ for my husband to finish a business meeting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "toured / was waiting"
+        },
+        {
+          "id": "b",
+          "label": "was touring / waited"
+        },
+        {
+          "id": "c",
+          "label": "was touring / was waiting"
+        },
+        {
+          "id": "d",
+          "label": "toured / waited"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cả hai hành động đều đang diễn ra song song trong quá khứ. \"While\" thường dùng với thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_002",
+      "prompt": "I _____ at the counter of the museum gift shop when the couple came near to the exit.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stood"
+        },
+        {
+          "id": "b",
+          "label": "was standing"
+        },
+        {
+          "id": "c",
+          "label": "stand"
+        },
+        {
+          "id": "d",
+          "label": "am standing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'was standing' đang diễn ra thì bị hành động 'came' ngắn hơn cắt ngang."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_003",
+      "prompt": "At 7 PM last night, my husband _____ a business meeting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finished"
+        },
+        {
+          "id": "b",
+          "label": "was finishing"
+        },
+        {
+          "id": "c",
+          "label": "finishes"
+        },
+        {
+          "id": "d",
+          "label": "has finished"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"At 7 PM last night\" chỉ một thời điểm cụ thể trong quá khứ, diễn tả hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_004",
+      "prompt": "While the wife _____ each painting, her husband _____ carefully.",
+      "options": [
+        {
+          "id": "a",
+          "label": "described / listened"
+        },
+        {
+          "id": "b",
+          "label": "was describing / was listening"
+        },
+        {
+          "id": "c",
+          "label": "described / was listening"
+        },
+        {
+          "id": "d",
+          "label": "was describing / listened"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động 'describing' và 'listening' diễn ra đồng thời trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_005",
+      "prompt": "The young couple _____ nonstop between themselves when I first saw them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "chatted"
+        },
+        {
+          "id": "b",
+          "label": "were chatting"
+        },
+        {
+          "id": "c",
+          "label": "chat"
+        },
+        {
+          "id": "d",
+          "label": "have chatted"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'were chatting' đang diễn ra khi người kể chuyện nhìn thấy họ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_006",
+      "prompt": "I knew he _____ not _____ the art because he was blind.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was / seeing"
+        },
+        {
+          "id": "b",
+          "label": "were / seeing"
+        },
+        {
+          "id": "c",
+          "label": "did / see"
+        },
+        {
+          "id": "d",
+          "label": "had / seen"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động không thể diễn ra liên tục trong quá khứ do tình trạng mù lòa. Chủ ngữ \"he\" dùng \"was\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_007",
+      "prompt": "What _____ you _____ when you met the couple in the different rooms of art?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / do"
+        },
+        {
+          "id": "b",
+          "label": "were / doing"
+        },
+        {
+          "id": "c",
+          "label": "are / doing"
+        },
+        {
+          "id": "d",
+          "label": "had / done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hỏi về hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_008",
+      "prompt": "I _____ the husband's patience for putting up with her continuous talk while I _____ them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "admired / watched"
+        },
+        {
+          "id": "b",
+          "label": "was admiring / was watching"
+        },
+        {
+          "id": "c",
+          "label": "admired / was watching"
+        },
+        {
+          "id": "d",
+          "label": "was admiring / watched"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Admired\" là hành động hoàn tất, còn \"was watching\" là hành động đang diễn ra làm nền."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_009",
+      "prompt": "She _____ always _____ about something, which annoyed everyone around her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was / complaining"
+        },
+        {
+          "id": "b",
+          "label": "is / complaining"
+        },
+        {
+          "id": "c",
+          "label": "complained"
+        },
+        {
+          "id": "d",
+          "label": "had / complained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Was always complaining\" diễn tả một thói quen gây khó chịu lặp đi lặp lại trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ex_pc_010",
+      "prompt": "While the man _____ into his pocket, his wife _____ near the exit.",
+      "options": [
+        {
+          "id": "a",
+          "label": "reached / stood"
+        },
+        {
+          "id": "b",
+          "label": "was reaching / was standing"
+        },
+        {
+          "id": "c",
+          "label": "reached / was standing"
+        },
+        {
+          "id": "d",
+          "label": "was reaching / stood"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động 'was reaching' và 'was standing' diễn ra đồng thời trong quá khứ."
+  }
+]

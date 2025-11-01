@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_001",
+      "prompt": "Mr. Evens said he _____ the hot weather there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hates"
+        },
+        {
+          "id": "b",
+          "label": "hated"
+        },
+        {
+          "id": "c",
+          "label": "had hated"
+        },
+        {
+          "id": "d",
+          "label": "was hating"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Lùi thì từ hiện tại đơn 'hate' sang quá khứ đơn 'hated' và đổi 'here' thành 'there' khi tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_002",
+      "prompt": "He complained that he _____ a cool place in Australia.",
+      "options": [
+        {
+          "id": "a",
+          "label": "couldn't find"
+        },
+        {
+          "id": "b",
+          "label": "can't find"
+        },
+        {
+          "id": "c",
+          "label": "hadn't found"
+        },
+        {
+          "id": "d",
+          "label": "wasn't finding"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi động từ tường thuật ở quá khứ, 'can't find' (hiện tại) phải lùi thì thành 'couldn't find' (quá khứ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_003",
+      "prompt": "He asked how he _____ his holiday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would take"
+        },
+        {
+          "id": "b",
+          "label": "will take"
+        },
+        {
+          "id": "c",
+          "label": "takes"
+        },
+        {
+          "id": "d",
+          "label": "had taken"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lùi thì từ tương lai đơn 'will take' sang 'would take' trong câu tường thuật. Đây là quy tắc cơ bản của lùi thì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_004",
+      "prompt": "Robert mentioned that snow and ice _____ the ground then.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were covering"
+        },
+        {
+          "id": "b",
+          "label": "are covering"
+        },
+        {
+          "id": "c",
+          "label": "had covered"
+        },
+        {
+          "id": "d",
+          "label": "covered"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lùi thì từ hiện tại tiếp diễn 'are covering' sang quá khứ tiếp diễn 'were covering' và đổi 'now' thành 'then'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_005",
+      "prompt": "Mr. Evens wondered how strange Russians _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi tường thuật một câu cảm thán với động từ tường thuật ở quá khứ, 'are' (hiện tại đơn) phải lùi thì thành 'were' (quá khứ đơn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_006",
+      "prompt": "He thought that they _____ their dogs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did not tie"
+        },
+        {
+          "id": "b",
+          "label": "do not tie"
+        },
+        {
+          "id": "c",
+          "label": "had not tied"
+        },
+        {
+          "id": "d",
+          "label": "were not tying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lùi thì từ hiện tại đơn 'do not tie' sang quá khứ đơn 'did not tie' khi động từ tường thuật ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_007",
+      "prompt": "The dog seemed to say that it _____ hungry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi tường thuật, động từ 'am' (hiện tại đơn) phải lùi thì thành 'was' (quá khứ đơn) vì động từ tường thuật ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_008",
+      "prompt": "Mr. Evens told his friend that he _____ a happy journey there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had made"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "makes"
+        },
+        {
+          "id": "d",
+          "label": "was making"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lùi thì từ quá khứ đơn 'made' sang quá khứ hoàn thành 'had made' và đổi 'here' thành 'there' trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_009",
+      "prompt": "He said he _____ anything the day before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hadn't been able to find"
+        },
+        {
+          "id": "b",
+          "label": "couldn't find"
+        },
+        {
+          "id": "c",
+          "label": "wasn't finding"
+        },
+        {
+          "id": "d",
+          "label": "didn't find"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi tường thuật, 'couldn't find' (quá khứ đơn) lùi thì thành 'hadn't been able to find' (quá khứ hoàn thành) và 'yesterday' thành 'the day before'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_010",
+      "prompt": "Mr. Evens said that he _____ an air ticket the next day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "would buy"
+        },
+        {
+          "id": "b",
+          "label": "will buy"
+        },
+        {
+          "id": "c",
+          "label": "bought"
+        },
+        {
+          "id": "d",
+          "label": "had bought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Lùi thì từ tương lai đơn 'will buy' sang 'would buy' và đổi 'tomorrow' thành 'the next day' trong câu tường thuật."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_001",
+      "prompt": "Many teenagers consider _____ part-time jobs during the summer to earn extra money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to work"
+        },
+        {
+          "id": "b",
+          "label": "working"
+        },
+        {
+          "id": "c",
+          "label": "work"
+        },
+        {
+          "id": "d",
+          "label": "to be working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"consider\" (cân nhắc) luôn theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_002",
+      "prompt": "After much thought, she decided _____ a babysitting job for the holidays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "taking"
+        },
+        {
+          "id": "b",
+          "label": "to take"
+        },
+        {
+          "id": "c",
+          "label": "take"
+        },
+        {
+          "id": "d",
+          "label": "takes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"decide\" (quyết định) thường theo sau bởi một động từ nguyên mẫu có \"to\" (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_003",
+      "prompt": "Parents often worry about their children _____ enough money for their needs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to earn"
+        },
+        {
+          "id": "b",
+          "label": "earn"
+        },
+        {
+          "id": "c",
+          "label": "earning"
+        },
+        {
+          "id": "d",
+          "label": "earned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ \"about\" (về việc gì đó), chúng ta dùng danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_004",
+      "prompt": "He visited the website _____ more ideas for summer work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finding"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng \"to + V\" để diễn tả mục đích của hành động (để làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_005",
+      "prompt": "It's important _____ a fair price for your services.",
+      "options": [
+        {
+          "id": "a",
+          "label": "setting"
+        },
+        {
+          "id": "b",
+          "label": "to set"
+        },
+        {
+          "id": "c",
+          "label": "set"
+        },
+        {
+          "id": "d",
+          "label": "sets"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc \"It's + tính từ + to-V\" dùng để diễn tả sự cần thiết hoặc quan trọng của việc gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_006",
+      "prompt": "Many parents try to avoid _____ their children work with strangers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "letting"
+        },
+        {
+          "id": "b",
+          "label": "to let"
+        },
+        {
+          "id": "c",
+          "label": "let"
+        },
+        {
+          "id": "d",
+          "label": "lets"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ \"avoid\" (tránh) luôn theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_007",
+      "prompt": "Finding summer jobs for teenagers has not always been easy _____ .",
+      "options": [
+        {
+          "id": "a",
+          "label": "doing"
+        },
+        {
+          "id": "b",
+          "label": "to do"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau tính từ như \"easy\", \"difficult\", \"important\", chúng ta thường dùng động từ nguyên mẫu có \"to\" (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_008",
+      "prompt": "You would want _____ your child working with people you know and trust.",
+      "options": [
+        {
+          "id": "a",
+          "label": "having"
+        },
+        {
+          "id": "b",
+          "label": "to have"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "has"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"want\" (muốn) thường theo sau bởi một động từ nguyên mẫu có \"to\" (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_009",
+      "prompt": "The article suggests _____ about others' inconveniences to find job ideas.",
+      "options": [
+        {
+          "id": "a",
+          "label": "thinking"
+        },
+        {
+          "id": "b",
+          "label": "to think"
+        },
+        {
+          "id": "c",
+          "label": "think"
+        },
+        {
+          "id": "d",
+          "label": "thought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ \"suggest\" (gợi ý) luôn theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_010",
+      "prompt": "The easiest way _____ for your child to make money is to think about others' inconveniences.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finding"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm danh từ \"the way\" (cách thức) thường được theo sau bởi động từ nguyên mẫu có \"to\" (to-V) để chỉ cách làm gì."
+  }
+]

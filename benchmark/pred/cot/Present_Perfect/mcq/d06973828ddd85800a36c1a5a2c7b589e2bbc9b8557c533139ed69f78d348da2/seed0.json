@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "You _____ an elephant's ear before, have you?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have touched"
+        },
+        {
+          "id": "b",
+          "label": "touched"
+        },
+        {
+          "id": "c",
+          "label": "are touching"
+        },
+        {
+          "id": "d",
+          "label": "will touch"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì Hiện tại hoàn thành với 'ever' hoặc 'before' để nói về trải nghiệm đã từng làm trong đời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "The orphanage was established in 1975. It _____ many baby elephants since then.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cared for"
+        },
+        {
+          "id": "b",
+          "label": "has cared for"
+        },
+        {
+          "id": "c",
+          "label": "is caring for"
+        },
+        {
+          "id": "d",
+          "label": "will care for"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Since 1975' chỉ hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "Volunteers _____ at the Pinnawela orphanage for several months now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "are working"
+        },
+        {
+          "id": "c",
+          "label": "have worked"
+        },
+        {
+          "id": "d",
+          "label": "will work"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'For several months now' chỉ khoảng thời gian hành động đã diễn ra và vẫn tiếp diễn, dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "Some elephants are overly large or _____ to a satisfactory level yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "haven't been tamed"
+        },
+        {
+          "id": "b",
+          "label": "weren't tamed"
+        },
+        {
+          "id": "c",
+          "label": "aren't tamed"
+        },
+        {
+          "id": "d",
+          "label": "didn't tame"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Yet' thường dùng với thì Hiện tại hoàn thành trong câu phủ định để diễn tả điều gì đó chưa xảy ra cho đến bây giờ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "The mahouts _____ the larger elephants, so you can relax by the river.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have just bathed"
+        },
+        {
+          "id": "b",
+          "label": "just bathed"
+        },
+        {
+          "id": "c",
+          "label": "are just bathing"
+        },
+        {
+          "id": "d",
+          "label": "will just bathe"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Just' thường đi với Hiện tại hoàn thành để chỉ một hành động vừa mới xảy ra và có liên quan đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "I _____ to Sri Lanka, but I hope to visit the orphanage next year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "never went"
+        },
+        {
+          "id": "b",
+          "label": "have never gone"
+        },
+        {
+          "id": "c",
+          "label": "am never going"
+        },
+        {
+          "id": "d",
+          "label": "will never go"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Never' dùng với Hiện tại hoàn thành để nói về trải nghiệm chưa từng có trong đời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "This program _____ many visitors and volunteers to work with elephants this year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "attracted"
+        },
+        {
+          "id": "b",
+          "label": "has attracted"
+        },
+        {
+          "id": "c",
+          "label": "is attracting"
+        },
+        {
+          "id": "d",
+          "label": "will attract"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'This year' là khoảng thời gian chưa kết thúc, nên dùng Hiện tại hoàn thành để diễn tả hành động trong khoảng thời gian đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "The orphanage _____ one of the most successful breeding programmes for Asian elephants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "has had"
+        },
+        {
+          "id": "c",
+          "label": "is having"
+        },
+        {
+          "id": "d",
+          "label": "will have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một trạng thái hoặc thành tựu kéo dài từ quá khứ đến hiện tại, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "How long _____ you _____ as a volunteer at the elephant orphanage?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / work"
+        },
+        {
+          "id": "b",
+          "label": "have / worked"
+        },
+        {
+          "id": "c",
+          "label": "are / working"
+        },
+        {
+          "id": "d",
+          "label": "will / work"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'How long' dùng để hỏi về khoảng thời gian của một hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "The volunteers _____ the elephant homes in the morning, so they are quite tired now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cleaned"
+        },
+        {
+          "id": "b",
+          "label": "have cleaned"
+        },
+        {
+          "id": "c",
+          "label": "are cleaning"
+        },
+        {
+          "id": "d",
+          "label": "will clean"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động dọn dẹp đã hoàn thành nhưng có kết quả rõ ràng ở hiện tại ('tired now'), nên dùng Hiện tại hoàn thành."
+  }
+]

@@ -1,0 +1,13 @@
+run_id,type,topic,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+20251029_161124_claude_deepseek,mcq,Past Simple,100,0.66,0.5672,0.7528,0.1707,0.5796
+20251029_161124_claude_deepseek,mcq,Present Simple,100,0.69,0.5994,0.7806,0.4308,0.5829
+20251029_161124_claude_deepseek,mcq,Past Perfect,100,0.64,0.5459,0.7341,0.0674,0.5637
+20251029_161124_claude_deepseek,mcq,a/an/the/zero,100,0.53,0.4322,0.6278,-0.0394,0.4033
+20251029_161124_claude_deepseek,mcq,Present Perfect Continuous,100,0.58,0.4833,0.6767,0.2652,0.428
+20251029_161124_claude_deepseek,mcq,Backshifting tenses,100,0.52,0.4221,0.6179,0.0406,0.3775
+20251029_161124_claude_deepseek,mcq,Past Continuous,100,0.62,0.5249,0.7151,0.3048,0.4914
+20251029_161124_claude_deepseek,mcq,Passive (all tenses),100,0.8,0.7216,0.8784,0.2151,0.7715
+20251029_161124_claude_deepseek,mcq,Present Perfect,100,0.72,0.632,0.808,0.205,0.665
+20251029_161124_claude_deepseek,mcq,Past Perfect Continuous,100,0.69,0.5994,0.7806,0.26,0.6127
+20251029_161124_claude_deepseek,mcq,V-ing vs to-V,100,0.84,0.7681,0.9119,0.1583,0.8237
+20251029_161124_claude_deepseek,mcq,as…as,100,0.66,0.5672,0.7528,0.1233,0.5835

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_001",
+      "prompt": "Most kids won't enjoy _____ in class if things aren't going well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to be"
+        },
+        {
+          "id": "b",
+          "label": "being"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "to being"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"enjoy\" luôn theo sau bởi một danh động từ (V-ing) để diễn tả việc thích làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_002",
+      "prompt": "It's good _____ along with your teacher because it makes classroom time more pleasant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "getting"
+        },
+        {
+          "id": "b",
+          "label": "get"
+        },
+        {
+          "id": "c",
+          "label": "to get"
+        },
+        {
+          "id": "d",
+          "label": "got"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc \"It's + adjective + to-V\" được dùng để diễn tả một điều gì đó là tốt, quan trọng, dễ dàng, v.v."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_003",
+      "prompt": "In general, it's smart _____ how to relate to different types of people.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learning"
+        },
+        {
+          "id": "b",
+          "label": "to learn"
+        },
+        {
+          "id": "c",
+          "label": "learn"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tương tự cấu trúc \"It's + adjective + to-V\", \"smart\" là tính từ nên theo sau là động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_004",
+      "prompt": "Kids who get along with their teachers are more comfortable _____ questions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to ask"
+        },
+        {
+          "id": "b",
+          "label": "ask"
+        },
+        {
+          "id": "c",
+          "label": "asking"
+        },
+        {
+          "id": "d",
+          "label": "asked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Tính từ \"comfortable\" thường được theo sau bởi một danh động từ (V-ing) khi nói về việc cảm thấy thoải mái khi làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_005",
+      "prompt": "Teachers wanted _____ teachers in the first place.",
+      "options": [
+        {
+          "id": "a",
+          "label": "being"
+        },
+        {
+          "id": "b",
+          "label": "to be"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "to being"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"want\" luôn theo sau bởi một động từ nguyên mẫu có \"to\" (to-V) để diễn tả mong muốn làm gì."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_006",
+      "prompt": "They wanted to be teachers _____ all that material.",
+      "options": [
+        {
+          "id": "a",
+          "label": "teaching"
+        },
+        {
+          "id": "b",
+          "label": "to teach"
+        },
+        {
+          "id": "c",
+          "label": "teach"
+        },
+        {
+          "id": "d",
+          "label": "for teaching"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ nguyên mẫu có \"to\" (to-V) được dùng để diễn tả mục đích của hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_007",
+      "prompt": "As a kid, you're able _____ in lots of new information.",
+      "options": [
+        {
+          "id": "a",
+          "label": "taking"
+        },
+        {
+          "id": "b",
+          "label": "to take"
+        },
+        {
+          "id": "c",
+          "label": "take"
+        },
+        {
+          "id": "d",
+          "label": "taken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ \"be able to\" có nghĩa là có khả năng làm gì đó, luôn theo sau bởi động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_008",
+      "prompt": "Your teacher is thrilled _____ the person who's giving you material.",
+      "options": [
+        {
+          "id": "a",
+          "label": "being"
+        },
+        {
+          "id": "b",
+          "label": "to be"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "to being"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Tính từ \"thrilled\" (vui mừng, phấn khởi) thường được theo sau bởi động từ nguyên mẫu có \"to\" (to-V) để diễn tả lý do của cảm xúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_009",
+      "prompt": "Many students try to avoid _____ difficult subjects.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to study"
+        },
+        {
+          "id": "b",
+          "label": "study"
+        },
+        {
+          "id": "c",
+          "label": "studying"
+        },
+        {
+          "id": "d",
+          "label": "to studying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"avoid\" luôn theo sau bởi một danh động từ (V-ing) để diễn tả việc tránh làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_010",
+      "prompt": "She decided _____ extra help from her teacher.",
+      "options": [
+        {
+          "id": "a",
+          "label": "getting"
+        },
+        {
+          "id": "b",
+          "label": "to get"
+        },
+        {
+          "id": "c",
+          "label": "get"
+        },
+        {
+          "id": "d",
+          "label": "got"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"decide\" luôn theo sau bởi một động từ nguyên mẫu có \"to\" (to-V) để diễn tả quyết định làm gì."
+  }
+]

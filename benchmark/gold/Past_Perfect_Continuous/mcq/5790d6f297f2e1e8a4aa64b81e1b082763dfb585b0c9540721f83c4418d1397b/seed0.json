@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "By the time the hot summer months arrived last year, they _____ hard on their pet sitting business for several months.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been working"
+        },
+        {
+          "id": "b",
+          "label": "were working"
+        },
+        {
+          "id": "c",
+          "label": "had worked"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động kéo dài liên tục (working for months) trước một hành động khác trong quá khứ (summer arrived). Cần dùng thì Quá khứ hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "They felt exhausted when they got home yesterday because they _____ between pet visits all day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drove"
+        },
+        {
+          "id": "b",
+          "label": "were driving"
+        },
+        {
+          "id": "c",
+          "label": "had driven"
+        },
+        {
+          "id": "d",
+          "label": "had been driving"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Nhấn mạnh sự liên tục và kéo dài của hành động (driving all day) gây ra một kết quả trong quá khứ (felt exhausted)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "The attack was unexpected because just moments before it happened, Hercules _____ beside me very calmly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sat"
+        },
+        {
+          "id": "b",
+          "label": "was sitting"
+        },
+        {
+          "id": "c",
+          "label": "had been sitting"
+        },
+        {
+          "id": "d",
+          "label": "had sat"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả một hành động đang diễn ra liên tục (sitting calmly) ngay trước một hành động đột ngột khác trong quá khứ (the attack)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "Until the dog rushed at me, I _____ that this would be an easy and pleasant pet-sitting job.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was thinking"
+        },
+        {
+          "id": "b",
+          "label": "had been thinking"
+        },
+        {
+          "id": "c",
+          "label": "thought"
+        },
+        {
+          "id": "d",
+          "label": "had thought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một trạng thái suy nghĩ kéo dài cho đến khi một sự kiện khác trong quá khứ (the dog rushed) xảy ra và làm thay đổi nó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "By the time my husband arrived, I _____ for his help for ten minutes, feeling terrified.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been waiting"
+        },
+        {
+          "id": "b",
+          "label": "was waiting"
+        },
+        {
+          "id": "c",
+          "label": "waited"
+        },
+        {
+          "id": "d",
+          "label": "had waited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'By the time + QKĐ'. Cụm từ 'for ten minutes' nhấn mạnh khoảng thời gian của hành động xảy ra trước đó, nên dùng thì tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "When I walked into the hospital, the nurses quickly helped me because my arm _____ since the attack.",
+      "options": [
+        {
+          "id": "a",
+          "label": "bled"
+        },
+        {
+          "id": "b",
+          "label": "was bleeding"
+        },
+        {
+          "id": "c",
+          "label": "had been bleeding"
+        },
+        {
+          "id": "d",
+          "label": "had bled"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'chảy máu' bắt đầu từ lúc bị tấn công và kéo dài liên tục cho đến một thời điểm khác trong quá khứ (walked into the hospital)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "Before the incident with Hercules last month, their new business _____ good money all summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "made"
+        },
+        {
+          "id": "b",
+          "label": "had been making"
+        },
+        {
+          "id": "c",
+          "label": "was making"
+        },
+        {
+          "id": "d",
+          "label": "had made"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'all summer' nhấn mạnh sự kéo dài của hành động (making money) trước một sự kiện khác trong quá khứ (the incident)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "We later learned that the owners _____ the dog's strange behavior for weeks before they called us.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were noticing"
+        },
+        {
+          "id": "b",
+          "label": "had noticed"
+        },
+        {
+          "id": "c",
+          "label": "noticed"
+        },
+        {
+          "id": "d",
+          "label": "had been noticing"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'For weeks' cho thấy hành động 'nhận thấy' kéo dài liên tục trước một thời điểm trong quá khứ (before they called us)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "Before I took the photo that triggered the dog, I _____ his bowl and cleaning his pen for about 15 minutes.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been filling"
+        },
+        {
+          "id": "b",
+          "label": "was filling"
+        },
+        {
+          "id": "c",
+          "label": "filled"
+        },
+        {
+          "id": "d",
+          "label": "had filled"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'For about 15 minutes' nhấn mạnh khoảng thời gian của hành động kéo dài trước một hành động khác trong quá khứ (took the photo)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "She looked pale when she arrived at the hospital. She _____ about the dog attack the whole way there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worried"
+        },
+        {
+          "id": "b",
+          "label": "was worrying"
+        },
+        {
+          "id": "c",
+          "label": "had been worrying"
+        },
+        {
+          "id": "d",
+          "label": "had worried"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'lo lắng' kéo dài liên tục (the whole way) và là nguyên nhân cho một kết quả trong quá khứ (looked pale)."
+  }
+]

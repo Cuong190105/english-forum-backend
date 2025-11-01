@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "The student was not _____ strong _____ the teacher thought, but rather ignorant of the cold.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + tính từ/trạng từ + as'. Trong câu phủ định, cả 'not as...as' và 'not so...as' đều đúng, nhưng 'as...as' phổ biến hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "The weather in Guangzhou was not _____ cold _____ the student expected, as the teacher was only wearing a short-sleeve shirt.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, cả 'not as...as' và 'not so...as' đều đúng. 'As...as' là dạng phổ biến hơn cho so sánh bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "The teacher didn't have _____ much muscle _____ a bodybuilder, despite the student's initial impression.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as much/many + danh từ + as' dùng để so sánh số lượng hoặc khối lượng bằng nhau."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "He tried to explain the cultural misunderstanding _____ clearly _____ he could.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + trạng từ + as' dùng để so sánh hành động. 'Clearly' là trạng từ bổ nghĩa cho 'explain'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "The student tried to wave hello _____ enthusiastically _____ possible to get the teacher's attention.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'as + tính từ/trạng từ + as possible' có nghĩa là 'càng...càng tốt'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "The teacher's surprise was _____ great _____ the students' admiration when they called him \"strong\".",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + tính từ + as' dùng để so sánh mức độ của hai sự vật, sự việc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "His ignorance of the cold was _____ much a surprise _____ his actual physical strength.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as much a/an + danh từ + as' dùng để so sánh hai danh từ hoặc cụm danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "The teacher was _____ skinny _____ a model, so the student's comment about him being \"strong\" was confusing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng 'as + tính từ + as' được dùng để chỉ sự tương đồng về đặc điểm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "The teacher's visible rib cage was _____ frightening _____ a horror movie character to the audience, according to the teacher in charge.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "as...than"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + tính từ + as' dùng để so sánh mức độ của hai sự vật, sự việc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "He didn't understand the compliment _____ quickly _____ his students expected.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "like...as"
+        },
+        {
+          "id": "d",
+          "label": "more...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'as...as' để so sánh hành động hoặc tính chất. 'Like' thường dùng để so sánh danh từ hoặc cụm danh từ."
+  }
+]

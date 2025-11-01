@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Environmental groups _____ to raise awareness about rainforest depletion for decades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been trying"
+        },
+        {
+          "id": "b",
+          "label": "are trying"
+        },
+        {
+          "id": "c",
+          "label": "tried"
+        },
+        {
+          "id": "d",
+          "label": "have tried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì Hiện tại hoàn thành tiếp diễn để nhấn mạnh hành động kéo dài liên tục từ quá khứ đến hiện tại, được chỉ rõ bởi 'for decades'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "They _____ down trees in the Amazon all year, and the problem is getting worse.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cut"
+        },
+        {
+          "id": "b",
+          "label": "have been cutting"
+        },
+        {
+          "id": "c",
+          "label": "are cutting"
+        },
+        {
+          "id": "d",
+          "label": "have cut"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'All year' cho thấy hành động kéo dài liên tục đến hiện tại và vẫn đang tiếp diễn. Dùng Hiện tại hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "The world's population _____ rapidly since the last century, putting more pressure on natural resources.",
+      "options": [
+        {
+          "id": "a",
+          "label": "grew"
+        },
+        {
+          "id": "b",
+          "label": "is growing"
+        },
+        {
+          "id": "c",
+          "label": "has been growing"
+        },
+        {
+          "id": "d",
+          "label": "has grown"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Since the last century' chỉ một khoảng thời gian dài kéo dài đến hiện tại. Dùng Hiện tại hoàn thành tiếp diễn để nhấn mạnh sự liên tục của hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "How long _____ scientists _____ the effects of deforestation on the climate?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / study"
+        },
+        {
+          "id": "b",
+          "label": "are / studying"
+        },
+        {
+          "id": "c",
+          "label": "have / studied"
+        },
+        {
+          "id": "d",
+          "label": "have / been studying"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Câu hỏi 'How long' thường đi với thì Hiện tại hoàn thành tiếp diễn để hỏi về khoảng thời gian của một hành động bắt đầu trong quá khứ và vẫn tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Look at that haze! Smoke from the forest fires _____ the air quality for weeks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "damaged"
+        },
+        {
+          "id": "b",
+          "label": "has been damaging"
+        },
+        {
+          "id": "c",
+          "label": "is damaging"
+        },
+        {
+          "id": "d",
+          "label": "damages"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'For weeks' và kết quả có thể thấy ở hiện tại ('Look at that haze!') cho thấy cần dùng thì Hiện tại hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "Since the UN published its report, the media _____ the issue of rain forest depletion more closely.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been covering"
+        },
+        {
+          "id": "b",
+          "label": "covered"
+        },
+        {
+          "id": "c",
+          "label": "is covering"
+        },
+        {
+          "id": "d",
+          "label": "covers"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Since' + mốc thời gian trong quá khứ là dấu hiệu của thì hoàn thành. Dùng dạng tiếp diễn để nhấn mạnh hành động liên tục, kéo dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "I _____ about the destruction of rain forests all morning; it's a very serious problem.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "am reading"
+        },
+        {
+          "id": "c",
+          "label": "have been reading"
+        },
+        {
+          "id": "d",
+          "label": "have read"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'All morning' nhấn mạnh sự kéo dài liên tục của hành động trong một khoảng thời gian chưa kết thúc. Dùng thì Hiện tại hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "Despite public opposition, some companies _____ forests in that region for years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are destroying"
+        },
+        {
+          "id": "b",
+          "label": "destroyed"
+        },
+        {
+          "id": "c",
+          "label": "have destroyed"
+        },
+        {
+          "id": "d",
+          "label": "have been destroying"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'For years' là một khoảng thời gian dài, cho thấy hành động bắt đầu trong quá khứ và vẫn tiếp diễn. Dùng Hiện tại hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "She looks exhausted because she _____ on a project about limiting population growth all night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "has been working"
+        },
+        {
+          "id": "c",
+          "label": "is working"
+        },
+        {
+          "id": "d",
+          "label": "works"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Kết quả ở hiện tại ('She looks exhausted') là do một hành động kéo dài ('all night'). Dùng Hiện tại hoàn thành tiếp diễn để diễn tả mối quan hệ này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "The ground is wet and muddy. It _____ heavily since yesterday afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "rained"
+        },
+        {
+          "id": "b",
+          "label": "is raining"
+        },
+        {
+          "id": "c",
+          "label": "has been raining"
+        },
+        {
+          "id": "d",
+          "label": "rains"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Kết quả ở hiện tại ('The ground is wet') và mốc thời gian 'since yesterday afternoon' cho thấy cần dùng thì Hiện tại hoàn thành tiếp diễn."
+  }
+]

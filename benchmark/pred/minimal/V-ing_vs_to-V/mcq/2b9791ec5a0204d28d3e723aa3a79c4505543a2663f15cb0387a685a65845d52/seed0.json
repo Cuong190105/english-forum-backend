@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Many students decide _____ hard for their upcoming exams.",
+      "options": [
+        {
+          "id": "a",
+          "label": "study"
+        },
+        {
+          "id": "b",
+          "label": "studying"
+        },
+        {
+          "id": "c",
+          "label": "to study"
+        },
+        {
+          "id": "d",
+          "label": "studied"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"decide\" thường đi kèm với động từ nguyên mẫu có \"to\" (to-V) để chỉ một quyết định hoặc mục đích."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She enjoys _____ new things from her teachers every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "to learn"
+        },
+        {
+          "id": "c",
+          "label": "learning"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau động từ \"enjoy\", chúng ta thường sử dụng dạng V-ing của động từ để diễn tả hành động thích thú."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "It's important for students _____ questions when they don't understand the lesson.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ask"
+        },
+        {
+          "id": "b",
+          "label": "asking"
+        },
+        {
+          "id": "c",
+          "label": "to ask"
+        },
+        {
+          "id": "d",
+          "label": "asked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc \"It's + adjective + for someone + to-V\" được dùng để chỉ sự cần thiết hoặc quan trọng của một hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "_____ along with your teachers makes classroom time more pleasant and productive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Get"
+        },
+        {
+          "id": "b",
+          "label": "To get"
+        },
+        {
+          "id": "c",
+          "label": "Getting"
+        },
+        {
+          "id": "d",
+          "label": "Got"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi một hành động đóng vai trò là chủ ngữ của câu, chúng ta thường sử dụng dạng V-ing của động từ (danh động từ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Teachers often encourage students _____ their best in all subjects.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "doing"
+        },
+        {
+          "id": "c",
+          "label": "to do"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"encourage\" thường theo sau bởi tân ngữ và động từ nguyên mẫu có \"to\" (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "He stopped _____ a question to his teacher about the homework.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ask"
+        },
+        {
+          "id": "b",
+          "label": "asking"
+        },
+        {
+          "id": "c",
+          "label": "to ask"
+        },
+        {
+          "id": "d",
+          "label": "asked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Stop to-V\" có nghĩa là dừng một hành động đang làm để bắt đầu một hành động khác (chỉ mục đích)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "She is interested in _____ more about the history of Vietnam.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learn"
+        },
+        {
+          "id": "b",
+          "label": "to learn"
+        },
+        {
+          "id": "c",
+          "label": "learning"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ (như \"in\", \"on\", \"at\", \"about\"), động từ luôn ở dạng V-ing (danh động từ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Don't forget _____ your homework before class tomorrow.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do"
+        },
+        {
+          "id": "b",
+          "label": "doing"
+        },
+        {
+          "id": "c",
+          "label": "to do"
+        },
+        {
+          "id": "d",
+          "label": "did"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "\"Forget to-V\" nghĩa là quên làm một việc cần làm trong tương lai. \"Forget V-ing\" là quên một việc đã làm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "It's no use _____ about past mistakes; focus on improving for the future.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worry"
+        },
+        {
+          "id": "b",
+          "label": "to worry"
+        },
+        {
+          "id": "c",
+          "label": "worrying"
+        },
+        {
+          "id": "d",
+          "label": "worried"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ cố định \"It's no use\" (vô ích) luôn đi kèm với động từ ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Would you mind _____ me with this difficult math problem?",
+      "options": [
+        {
+          "id": "a",
+          "label": "help"
+        },
+        {
+          "id": "b",
+          "label": "to help"
+        },
+        {
+          "id": "c",
+          "label": "helping"
+        },
+        {
+          "id": "d",
+          "label": "helped"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"Would you mind\" (bạn có phiền không) luôn theo sau bởi động từ ở dạng V-ing khi đưa ra lời đề nghị hoặc yêu cầu."
+  }
+]

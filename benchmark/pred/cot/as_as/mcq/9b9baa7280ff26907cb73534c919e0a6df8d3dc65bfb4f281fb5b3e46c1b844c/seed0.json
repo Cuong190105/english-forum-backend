@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "Simon believes grades are _____ important _____ Magdalena does.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... as"
+        },
+        {
+          "id": "c",
+          "label": "more ... than"
+        },
+        {
+          "id": "d",
+          "label": "less ... than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng 'as...as' dùng để diễn tả hai đối tượng có mức độ tương đương về một tính chất."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "Not all students are _____ talented _____ others in every subject, as educators are becoming aware.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "much ... than"
+        },
+        {
+          "id": "d",
+          "label": "more ... as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as...as' dùng để so sánh sự bằng nhau hoặc không bằng nhau về một tính chất, phù hợp với ngữ cảnh 'not all students'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "Magdalena argues that grades can limit opportunities, making them not _____ accessible _____ they should be.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "very ... as"
+        },
+        {
+          "id": "d",
+          "label": "too ... than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'As...as' được dùng để so sánh mức độ, ở đây là mức độ dễ tiếp cận của cơ hội so với mức độ lý tưởng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "Simon thinks grades motivate students to work _____ hard _____ possible to achieve their highest level of competence.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "very ... as"
+        },
+        {
+          "id": "d",
+          "label": "too ... than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm 'as...as possible' là cách diễn đạt phổ biến cho mức độ cao nhất có thể, phù hợp với ngữ cảnh động lực học tập."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "Some argue that grades are not _____ beneficial for creativity _____ they are for discipline.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "much ... than"
+        },
+        {
+          "id": "d",
+          "label": "more ... as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'As...as' dùng để so sánh hai khía cạnh (lợi ích cho sáng tạo và kỷ luật) có bằng nhau hay không, đặc biệt với 'not'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "According to Simon, grades perform three basic functions, which is _____ many _____ he listed.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "too ... for"
+        },
+        {
+          "id": "d",
+          "label": "very ... as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'As many as' được dùng để nhấn mạnh số lượng, ở đây là số chức năng mà Simon đã liệt kê, phù hợp với 'three basic functions'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "Magdalena does not demand that grades be removed _____ immediately _____ some extremists do.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "very ... as"
+        },
+        {
+          "id": "d",
+          "label": "too ... than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as...as' dùng để so sánh mức độ nhanh chóng của hành động, đặc biệt khi có 'not' để diễn tả sự không bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "Simon implies that good grades are _____ valuable for getting a job _____ they are for getting into university.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "much ... than"
+        },
+        {
+          "id": "d",
+          "label": "more ... as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'As...as' dùng để so sánh giá trị tương đương của điểm số trong hai tình huống khác nhau (việc làm và đại học)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "Magdalena's view on grades is not _____ positive _____ Simon's.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "much ... than"
+        },
+        {
+          "id": "d",
+          "label": "more ... as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Not as...as' là cấu trúc so sánh không bằng, diễn tả một bên không bằng bên kia về tính chất (quan điểm tích cực)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "Fortunately, most educators are becoming _____ aware of student differences _____ they should be.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as ... as"
+        },
+        {
+          "id": "b",
+          "label": "so ... that"
+        },
+        {
+          "id": "c",
+          "label": "very ... as"
+        },
+        {
+          "id": "d",
+          "label": "too ... than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'As...as' dùng để so sánh mức độ nhận thức hiện tại với mức độ lý tưởng hoặc mong muốn, phù hợp với ngữ cảnh 'should be'."
+  }
+]

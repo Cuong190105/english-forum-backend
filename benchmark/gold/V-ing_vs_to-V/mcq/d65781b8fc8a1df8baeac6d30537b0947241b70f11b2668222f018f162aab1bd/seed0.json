@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_01",
+      "prompt": "To save money for school supplies, my parents stopped _____ lunch at expensive restaurants every weekend.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to eat"
+        },
+        {
+          "id": "b",
+          "label": "eating"
+        },
+        {
+          "id": "c",
+          "label": "eat"
+        },
+        {
+          "id": "d",
+          "label": "for eating"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc 'stop + V-ing' có nghĩa là dừng hẳn một hành động. 'Stop to eat' có nghĩa là dừng lại để ăn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_02",
+      "prompt": "After comparing prices on several websites, she decided _____ the customized kit from schoolpak.com.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buying"
+        },
+        {
+          "id": "b",
+          "label": "to buy"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'decide' (quyết định) luôn đi với 'to-V' để chỉ một quyết định sẽ làm gì đó trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_03",
+      "prompt": "Teachers e-mailed their school's supply list to the company _____ a price on customized kits.",
+      "options": [
+        {
+          "id": "a",
+          "label": "getting"
+        },
+        {
+          "id": "b",
+          "label": "for get"
+        },
+        {
+          "id": "c",
+          "label": "to get"
+        },
+        {
+          "id": "d",
+          "label": "get"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'to-V' để chỉ mục đích của hành động. Ở đây, mục đích của việc gửi email là 'để nhận được' báo giá."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_04",
+      "prompt": "You can support your favorite school by _____ at the participating shops on Goodshop.com.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to shop"
+        },
+        {
+          "id": "b",
+          "label": "shop"
+        },
+        {
+          "id": "c",
+          "label": "shopped"
+        },
+        {
+          "id": "d",
+          "label": "shopping"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Sau giới từ (ví dụ: by, in, on, for, before, after), động từ luôn ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_05",
+      "prompt": "I was very excited _____ a website that helps me sell old sports equipment from my garage.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finding"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau các tính từ chỉ cảm xúc như 'excited', 'happy', 'sad', ta thường dùng 'to-V' để giải thích lý do."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_06",
+      "prompt": "The website playitagainsports.com helps parents _____ their children's used sporting equipment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "selling"
+        },
+        {
+          "id": "b",
+          "label": "to selling"
+        },
+        {
+          "id": "c",
+          "label": "sell"
+        },
+        {
+          "id": "d",
+          "label": "for selling"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'help someone do something' hoặc 'help someone to do something' đều đúng. 'Sell' là dạng nguyên thể không 'to'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_07",
+      "prompt": "To save more money for their children's education, many parents try to avoid _____ unnecessary items.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to purchase"
+        },
+        {
+          "id": "b",
+          "label": "purchasing"
+        },
+        {
+          "id": "c",
+          "label": "purchase"
+        },
+        {
+          "id": "d",
+          "label": "for purchasing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'avoid' (tránh) yêu cầu một động từ theo sau ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_08",
+      "prompt": "The article gives parents advice on what kind of lunch box _____ for their first graders.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buying"
+        },
+        {
+          "id": "b",
+          "label": "to buy"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "for buying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau các từ để hỏi như 'what', 'where', 'how' khi chúng không bắt đầu một câu hỏi, ta dùng cấu trúc 'to-V'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_09",
+      "prompt": "My son is getting ready _____ first grade next month, so we need to buy a lot of school supplies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "starting"
+        },
+        {
+          "id": "b",
+          "label": "for starting"
+        },
+        {
+          "id": "c",
+          "label": "to start"
+        },
+        {
+          "id": "d",
+          "label": "start"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'get ready' (chuẩn bị) thường đi với 'to-V' để chỉ hành động sắp được thực hiện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_to_v_10",
+      "prompt": "Before _____ to the store for the tax-free shopping day, you should check which items are included.",
+      "options": [
+        {
+          "id": "a",
+          "label": "going"
+        },
+        {
+          "id": "b",
+          "label": "to go"
+        },
+        {
+          "id": "c",
+          "label": "go"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Giống như 'by', 'before' là một giới từ. Động từ theo sau giới từ phải ở dạng V-ing."
+  }
+]

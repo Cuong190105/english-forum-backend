@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "She _____ in this city for ten years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has lived"
+        },
+        {
+          "id": "b",
+          "label": "lived"
+        },
+        {
+          "id": "c",
+          "label": "lives"
+        },
+        {
+          "id": "d",
+          "label": "is living"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì hiện tại hoàn thành với 'for + khoảng thời gian' để diễn tả hành động bắt đầu trong quá khứ và kéo dài đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Have you ever _____ sushi?",
+      "options": [
+        {
+          "id": "a",
+          "label": "eaten"
+        },
+        {
+          "id": "b",
+          "label": "ate"
+        },
+        {
+          "id": "c",
+          "label": "eat"
+        },
+        {
+          "id": "d",
+          "label": "eating"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với 'ever' trong câu hỏi về kinh nghiệm, ta dùng thì hiện tại hoàn thành và động từ ở dạng quá khứ phân từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I can't find my keys. I think I _____ them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have lost"
+        },
+        {
+          "id": "b",
+          "label": "lost"
+        },
+        {
+          "id": "c",
+          "label": "lose"
+        },
+        {
+          "id": "d",
+          "label": "am losing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hiện tại hoàn thành diễn tả hành động vừa xảy ra hoặc có kết quả rõ ràng ở hiện tại. 'I can't find my keys' là kết quả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "They _____ their homework yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "haven't finished"
+        },
+        {
+          "id": "b",
+          "label": "didn't finish"
+        },
+        {
+          "id": "c",
+          "label": "don't finish"
+        },
+        {
+          "id": "d",
+          "label": "aren't finishing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'yet' với thì hiện tại hoàn thành trong câu phủ định hoặc nghi vấn để nói về điều chưa xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He _____ sick since last Monday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Với 'since + mốc thời gian', ta dùng thì hiện tại hoàn thành để diễn tả trạng thái hoặc hành động kéo dài từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "This is the first time I _____ such a beautiful sunset.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have seen"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "see"
+        },
+        {
+          "id": "d",
+          "label": "am seeing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'This is the first/second/etc. time...' luôn đi với thì hiện tại hoàn thành để nói về trải nghiệm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The train _____ arrived at the station.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has just"
+        },
+        {
+          "id": "b",
+          "label": "just"
+        },
+        {
+          "id": "c",
+          "label": "is just"
+        },
+        {
+          "id": "d",
+          "label": "had just"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trạng từ 'just' thường đi với thì hiện tại hoàn thành để diễn tả hành động vừa mới xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "I _____ to London before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have never been"
+        },
+        {
+          "id": "b",
+          "label": "never went"
+        },
+        {
+          "id": "c",
+          "label": "never go"
+        },
+        {
+          "id": "d",
+          "label": "am never going"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'never' với thì hiện tại hoàn thành để nói về trải nghiệm chưa từng có trong đời tính đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "How long _____ you _____ English?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have...studied"
+        },
+        {
+          "id": "b",
+          "label": "did...study"
+        },
+        {
+          "id": "c",
+          "label": "do...study"
+        },
+        {
+          "id": "d",
+          "label": "are...studying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Câu hỏi 'How long' thường dùng với thì hiện tại hoàn thành để hỏi về khoảng thời gian của một hành động kéo dài đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Someone _____ my wallet! I can't find it anywhere.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has stolen"
+        },
+        {
+          "id": "b",
+          "label": "stole"
+        },
+        {
+          "id": "c",
+          "label": "steals"
+        },
+        {
+          "id": "d",
+          "label": "is stealing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hiện tại hoàn thành được dùng khi hành động xảy ra trong quá khứ nhưng thời gian không quan trọng, mà kết quả ở hiện tại mới quan trọng."
+  }
+]

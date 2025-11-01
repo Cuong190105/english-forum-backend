@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_001",
+      "prompt": "Mr. Evens said to his friend, \"I hate the hot weather here.\" This means Mr. Evens said that he _____ the hot weather there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hates"
+        },
+        {
+          "id": "b",
+          "label": "hated"
+        },
+        {
+          "id": "c",
+          "label": "was hating"
+        },
+        {
+          "id": "d",
+          "label": "had hated"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật 'said' ở quá khứ, nên thì hiện tại đơn (hate) phải lùi về quá khứ đơn (hated)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_002",
+      "prompt": "He also said, \"I can't find a cool place in Australia.\" He explained that he _____ a cool place in Australia.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can't find"
+        },
+        {
+          "id": "b",
+          "label": "won't find"
+        },
+        {
+          "id": "c",
+          "label": "couldn't find"
+        },
+        {
+          "id": "d",
+          "label": "hadn't found"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Trong câu tường thuật, động từ khuyết thiếu 'can't' phải được lùi thì thành 'couldn't'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_003",
+      "prompt": "Mr. Evens asked, \"How will I take my holiday?\" He asked his friend how he _____ his holiday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will take"
+        },
+        {
+          "id": "b",
+          "label": "took"
+        },
+        {
+          "id": "c",
+          "label": "was taking"
+        },
+        {
+          "id": "d",
+          "label": "would take"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Khi tường thuật một câu hỏi cho tương lai, 'will' phải được lùi thì thành 'would'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_004",
+      "prompt": "Robert said, \"Snow and ice are covering the ground now.\" Robert told him that snow and ice _____ the ground then.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are covering"
+        },
+        {
+          "id": "b",
+          "label": "were covering"
+        },
+        {
+          "id": "c",
+          "label": "covered"
+        },
+        {
+          "id": "d",
+          "label": "had been covering"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại tiếp diễn (are covering) lùi thành quá khứ tiếp diễn (were covering), và 'now' đổi thành 'then'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_005",
+      "prompt": "Mr. Evens said to himself, \"How strange Russians are!\" He thought to himself how strange Russians _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "had been"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'are' (hiện tại đơn) phải được lùi về quá khứ đơn ('were') trong câu cảm thán được tường thuật lại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_006",
+      "prompt": "He also thought, \"They do not tie their dogs.\" He thought that they _____ their dogs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "do not tie"
+        },
+        {
+          "id": "b",
+          "label": "did not tie"
+        },
+        {
+          "id": "c",
+          "label": "had not tied"
+        },
+        {
+          "id": "d",
+          "label": "were not tying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trợ động từ ở hiện tại đơn (do not) phải lùi thì thành quá khứ đơn (did not) trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_007",
+      "prompt": "The next day, Mr. Evens told his friend, \"I saw a hungry dog yesterday.\" He told his friend that he _____ a hungry dog the day before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "saw"
+        },
+        {
+          "id": "b",
+          "label": "sees"
+        },
+        {
+          "id": "c",
+          "label": "was seeing"
+        },
+        {
+          "id": "d",
+          "label": "had seen"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Khi tường thuật, thì quá khứ đơn (saw) phải lùi về quá khứ hoàn thành (had seen), và 'yesterday' đổi thành 'the day before'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_008",
+      "prompt": "He said, \"I am leaving for Moscow tomorrow.\" He said that he _____ for Moscow the next day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is leaving"
+        },
+        {
+          "id": "b",
+          "label": "was leaving"
+        },
+        {
+          "id": "c",
+          "label": "left"
+        },
+        {
+          "id": "d",
+          "label": "had left"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại tiếp diễn (am leaving) chỉ tương lai gần sẽ lùi về quá khứ tiếp diễn (was leaving)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_009",
+      "prompt": "Robert asked him, \"Have you bought your ticket yet?\" Robert asked him if he _____ his ticket yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has bought"
+        },
+        {
+          "id": "b",
+          "label": "bought"
+        },
+        {
+          "id": "c",
+          "label": "had bought"
+        },
+        {
+          "id": "d",
+          "label": "have bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi ở thì hiện tại hoàn thành (Have you bought) phải lùi về quá khứ hoàn thành (had bought)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_010",
+      "prompt": "Mr. Evens replied, \"I had already bought it before you called.\" He replied that he _____ it before Robert called.",
+      "options": [
+        {
+          "id": "a",
+          "label": "bought"
+        },
+        {
+          "id": "b",
+          "label": "had already bought"
+        },
+        {
+          "id": "c",
+          "label": "was buying"
+        },
+        {
+          "id": "d",
+          "label": "has already bought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ hoàn thành (had bought) là thì xa nhất trong quá khứ nên không cần lùi thì nữa, giữ nguyên."
+  }
+]

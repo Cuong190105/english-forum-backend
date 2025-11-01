@@ -105,6 +105,7 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
     winloss_csv = run_dir / 'winloss.csv'
     inter_judge_csv = run_dir / 'inter_judge.csv'
     inter_judge_by_topic_csv = run_dir / 'inter_judge_by_topic.csv'
+    latency_csv = run_dir / 'latency.csv'
     if not per_item_csv.exists() or not summary_csv.exists():
         raise SystemExit(f"Missing per_item or summary CSV in {run_dir}")
 
@@ -282,7 +283,6 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
     ws_inter_topic = add_sheet_from_csv(inter_judge_by_topic_csv, 'inter_judge_by_topic')
     
     # Add latency comparison sheet (minimal vs CoT)
-    latency_csv = run_dir / 'latency.csv'
     ws_latency = add_sheet_from_csv(latency_csv, 'latency')
 
     # Autosize columns for all sheets we created
@@ -305,7 +305,21 @@ def build_excel(run_dir: Path, input_jsonl: Optional[Path] = None) -> Path:
             pass
 
     out_path = run_dir / 'report.xlsx'
-    wb.save(out_path)
+    # If file exists and might be locked, try to save with a timestamped name
+    if out_path.exists():
+        try:
+            # Try to save to the same file first
+            wb.save(out_path)
+        except PermissionError:
+            # If locked, save with timestamp
+            from datetime import datetime
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            backup_path = run_dir / f'report_{timestamp}.xlsx'
+            print(f"Warning: {out_path} is locked. Saving to {backup_path} instead.")
+            wb.save(backup_path)
+            out_path = backup_path
+    else:
+        wb.save(out_path)
     return out_path
 
 

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "Many young people feel pressure because they _____ their own place in society yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't find"
+        },
+        {
+          "id": "b",
+          "label": "don't find"
+        },
+        {
+          "id": "c",
+          "label": "haven't found"
+        },
+        {
+          "id": "d",
+          "label": "weren't finding"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng thì Hiện tại Hoàn thành với 'yet' trong câu phủ định để diễn tả một hành động chưa xảy ra tính đến thời điểm nói."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "According to recent studies, the number of teenagers who _____ smoking _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tried / increased"
+        },
+        {
+          "id": "b",
+          "label": "have tried / has increased"
+        },
+        {
+          "id": "c",
+          "label": "try / increases"
+        },
+        {
+          "id": "d",
+          "label": "were trying / was increasing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'recent studies' (các nghiên cứu gần đây) gợi ý hành động có kết quả ảnh hưởng đến hiện tại, nên dùng Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "_____ you ever _____ about the important decisions that will influence your future?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did / think"
+        },
+        {
+          "id": "b",
+          "label": "Have / thought"
+        },
+        {
+          "id": "c",
+          "label": "Do / think"
+        },
+        {
+          "id": "d",
+          "label": "Were / thinking"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Để hỏi về một trải nghiệm trong đời mà không có thời gian cụ thể, ta dùng Hiện tại Hoàn thành với 'ever'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "My parents treated me like a child when I was 13, but they _____ to respect my opinions recently.",
+      "options": [
+        {
+          "id": "a",
+          "label": "started"
+        },
+        {
+          "id": "b",
+          "label": "start"
+        },
+        {
+          "id": "c",
+          "label": "were starting"
+        },
+        {
+          "id": "d",
+          "label": "have started"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'Recently' (gần đây) là dấu hiệu của thì Hiện tại Hoàn thành, diễn tả một hành động bắt đầu trong quá khứ gần và còn liên quan đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "Things _____ difficult for teenagers for many years, and the problems are still relevant today.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "have been"
+        },
+        {
+          "id": "d",
+          "label": "was"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng Hiện tại Hoàn thành với 'for' + khoảng thời gian để diễn tả một trạng thái bắt đầu trong quá khứ, kéo dài đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "She is worried because she _____ a good job since she graduated last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't get"
+        },
+        {
+          "id": "b",
+          "label": "hasn't gotten"
+        },
+        {
+          "id": "c",
+          "label": "doesn't get"
+        },
+        {
+          "id": "d",
+          "label": "wasn't getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng Hiện tại Hoàn thành với 'since' + mốc thời gian trong quá khứ ('last year') để chỉ một hành động chưa xảy ra từ đó đến nay."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "He looks much more mature now. He _____ a lot this year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "grew"
+        },
+        {
+          "id": "b",
+          "label": "was growing"
+        },
+        {
+          "id": "c",
+          "label": "has grown"
+        },
+        {
+          "id": "d",
+          "label": "grows"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ 'this year' chỉ một khoảng thời gian chưa kết thúc. Hành động có kết quả ở hiện tại ('looks mature'), nên dùng Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "Many students in the survey admitted that they _____ drugs at least once.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have tried"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "try"
+        },
+        {
+          "id": "d",
+          "label": "were trying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'at least once' nói về kinh nghiệm hoặc trải nghiệm sống mà không có thời gian cụ thể, nên dùng thì Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "I can't give you advice because I _____ that kind of emotional problem before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "never faced"
+        },
+        {
+          "id": "b",
+          "label": "was never facing"
+        },
+        {
+          "id": "c",
+          "label": "am never facing"
+        },
+        {
+          "id": "d",
+          "label": "have never faced"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng Hiện tại Hoàn thành với 'never' hoặc 'before' để nói về một việc chưa từng xảy ra trong suốt cuộc đời của người nói cho đến nay."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "My teacher _____ us to think about our future, but I didn't take it seriously last semester.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always told"
+        },
+        {
+          "id": "b",
+          "label": "has always told"
+        },
+        {
+          "id": "c",
+          "label": "was always telling"
+        },
+        {
+          "id": "d",
+          "label": "tells"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Always' với Hiện tại Hoàn thành diễn tả một hành động lặp đi lặp lại trong một khoảng thời gian kéo dài đến hiện tại."
+  }
+]

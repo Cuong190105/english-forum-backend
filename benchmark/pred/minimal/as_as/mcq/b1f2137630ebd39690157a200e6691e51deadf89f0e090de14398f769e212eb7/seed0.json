@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "One bolster is more than three times _____ expensive _____ in China.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / as"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là \"as + tính từ/trạng từ + as\". Trong trường hợp này, \"expensive\" là tính từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The updated emoji is not _____ popular _____ the original one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / than"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, chúng ta có thể dùng \"not as...as\" hoặc \"not so...as\" để diễn tả so sánh bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Many locals do not know Yao Ming but are familiar with his emoji, which is _____ famous _____ the emoji itself.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / than"
+        },
+        {
+          "id": "c",
+          "label": "as / like"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng luôn là \"as + tính từ/trạng từ + as\". Tránh nhầm lẫn với \"like\" hoặc \"than\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The \"funny\" emoji has received _____ much attention _____ its release in 2013.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / than"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để so sánh số lượng không đếm được, chúng ta dùng \"as much + danh từ không đếm được + as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Emojis help people express their views _____ vividly _____ possible.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / as"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + trạng từ + as\" được dùng để so sánh bằng về cách thức hoặc mức độ của hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The \"funny\" emoji is _____ popular _____ any other emoji in China.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / than"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để diễn tả sự ngang bằng, chúng ta cần cả hai từ \"as\" trong cấu trúc \"as + tính từ + as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The updated version of the emoji is not _____ different _____ the original one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "so / as"
+        },
+        {
+          "id": "b",
+          "label": "as / than"
+        },
+        {
+          "id": "c",
+          "label": "so / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, \"not so...as\" là một cách dùng đúng để so sánh bằng, tương tự \"not as...as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The emoji implies very complicated meanings, _____ my dad will send it when he doesn't agree.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "like"
+        },
+        {
+          "id": "d",
+          "label": "than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong ngữ cảnh này, \"as\" được dùng như một liên từ mang nghĩa \"bởi vì\" hoặc \"như là\" để giải thích."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The \"funny\" emoji is _____ a cultural expansion _____ an emoji.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as much / as"
+        },
+        {
+          "id": "b",
+          "label": "so much / as"
+        },
+        {
+          "id": "c",
+          "label": "as many / as"
+        },
+        {
+          "id": "d",
+          "label": "more / than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as much as\" có thể dùng để so sánh hai điều không đếm được hoặc hai khái niệm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The emoji has spread _____ quickly _____ the news of its popularity.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / than"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Để so sánh bằng về trạng thái hoặc cách thức, chúng ta dùng cấu trúc \"as + trạng từ + as\"."
+  }
+]

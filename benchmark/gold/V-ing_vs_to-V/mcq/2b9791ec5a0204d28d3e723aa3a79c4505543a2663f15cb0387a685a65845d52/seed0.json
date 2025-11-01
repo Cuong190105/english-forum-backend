@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_01",
+      "prompt": "Most kids won't enjoy _____ in class if they don't get along well with the teacher.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to be"
+        },
+        {
+          "id": "b",
+          "label": "being"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'enjoy' (thích thú) luôn đi kèm với một danh động từ (V-ing) để chỉ một hoạt động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_02",
+      "prompt": "The text suggests that many teachers decided _____ this profession because they love helping students.",
+      "options": [
+        {
+          "id": "a",
+          "label": "choosing"
+        },
+        {
+          "id": "b",
+          "label": "choose"
+        },
+        {
+          "id": "c",
+          "label": "to choose"
+        },
+        {
+          "id": "d",
+          "label": "chose"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'decide' (quyết định) luôn được theo sau bởi một động từ nguyên mẫu có 'to' (to-V) để chỉ một kế hoạch."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_03",
+      "prompt": "A good relationship with a teacher makes it easier _____ for extra help when you need it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to ask"
+        },
+        {
+          "id": "b",
+          "label": "asking"
+        },
+        {
+          "id": "c",
+          "label": "ask"
+        },
+        {
+          "id": "d",
+          "label": "asked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'make it + adj + to-V' được dùng để diễn tả việc làm cho một hành động nào đó trở nên dễ dàng hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_04",
+      "prompt": "To avoid _____ problems with new material, you should feel comfortable asking questions.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to have"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "having"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Động từ 'avoid' (tránh) luôn đi với một danh động từ (V-ing) để chỉ hành động mà người nói muốn né tránh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_05",
+      "prompt": "In general, it's smart to learn how _____ to the different types of people you'll meet in life.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to relate"
+        },
+        {
+          "id": "b",
+          "label": "relating"
+        },
+        {
+          "id": "c",
+          "label": "relate"
+        },
+        {
+          "id": "d",
+          "label": "related"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'learn how' (học cách) luôn được theo sau bởi một động từ nguyên mẫu có 'to' (to-V) để chỉ kỹ năng được học."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_06",
+      "prompt": "_____ along with your teacher is important because it helps you learn more effectively.",
+      "options": [
+        {
+          "id": "a",
+          "label": "Get"
+        },
+        {
+          "id": "b",
+          "label": "To get"
+        },
+        {
+          "id": "c",
+          "label": "Getting"
+        },
+        {
+          "id": "d",
+          "label": "Got"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Một danh động từ (V-ing) có thể đứng đầu câu để làm chủ ngữ, chỉ một hành động hoặc một khái niệm chung."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_07",
+      "prompt": "The text explains that many people wanted _____ teachers because they enjoy sharing knowledge.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to be"
+        },
+        {
+          "id": "b",
+          "label": "being"
+        },
+        {
+          "id": "c",
+          "label": "be"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ 'want' (muốn) luôn đi với một động từ nguyên mẫu có 'to' (to-V) để diễn tả một mong muốn hoặc ý định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_08",
+      "prompt": "A teacher is usually thrilled _____ a student put new information together in new ways.",
+      "options": [
+        {
+          "id": "a",
+          "label": "seeing"
+        },
+        {
+          "id": "b",
+          "label": "to see"
+        },
+        {
+          "id": "c",
+          "label": "see"
+        },
+        {
+          "id": "d",
+          "label": "saw"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau các tính từ chỉ cảm xúc như 'thrilled', 'happy', ta thường dùng 'to-V' để giải thích nguyên nhân gây ra cảm xúc đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_09",
+      "prompt": "Students spend a lot of time _____ new things in the classroom every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to learn"
+        },
+        {
+          "id": "b",
+          "label": "learn"
+        },
+        {
+          "id": "c",
+          "label": "learning"
+        },
+        {
+          "id": "d",
+          "label": "learnt"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc 'spend time + V-ing' được dùng để diễn tả việc dành thời gian vào một hoạt động nào đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "vg_tv_10",
+      "prompt": "Some kids might refuse _____ for help even when they don't understand the lesson.",
+      "options": [
+        {
+          "id": "a",
+          "label": "asking"
+        },
+        {
+          "id": "b",
+          "label": "ask"
+        },
+        {
+          "id": "c",
+          "label": "to ask"
+        },
+        {
+          "id": "d",
+          "label": "asked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'refuse' (từ chối) luôn được theo sau bởi một động từ nguyên mẫu có 'to' (to-V)."
+  }
+]

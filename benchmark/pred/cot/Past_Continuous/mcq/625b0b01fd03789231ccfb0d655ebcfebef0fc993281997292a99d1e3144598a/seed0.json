@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "Early that day, the snow _____ into dirty water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "melted"
+        },
+        {
+          "id": "b",
+          "label": "was melting"
+        },
+        {
+          "id": "c",
+          "label": "melts"
+        },
+        {
+          "id": "d",
+          "label": "is melting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Early that day” và ngữ cảnh cho thấy hành động đang diễn ra trong quá khứ. Quá khứ tiếp diễn (was melting) là phù hợp để diễn tả hành động này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "He _____ clothes into a suitcase when she came to the door.",
+      "options": [
+        {
+          "id": "a",
+          "label": "pushed"
+        },
+        {
+          "id": "b",
+          "label": "was pushing"
+        },
+        {
+          "id": "c",
+          "label": "pushes"
+        },
+        {
+          "id": "d",
+          "label": "is pushing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “was pushing” đang diễn ra trong quá khứ thì bị hành động “came” (quá khứ đơn) xen vào. Đây là cách dùng điển hình của quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "Outside on the street, it _____ dark when the cars slushed by.",
+      "options": [
+        {
+          "id": "a",
+          "label": "got"
+        },
+        {
+          "id": "b",
+          "label": "was getting"
+        },
+        {
+          "id": "c",
+          "label": "gets"
+        },
+        {
+          "id": "d",
+          "label": "is getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Was getting dark” diễn tả một quá trình đang diễn ra trong quá khứ, được mô tả cùng với một hành động khác xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "She _____ the baby in the doorway of the kitchen when he said, \"I want the baby.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "held"
+        },
+        {
+          "id": "b",
+          "label": "was holding"
+        },
+        {
+          "id": "c",
+          "label": "holds"
+        },
+        {
+          "id": "d",
+          "label": "is holding"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “was holding” đang diễn ra trong quá khứ tại thời điểm anh ta nói. Quá khứ tiếp diễn mô tả bối cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "The baby _____ loudly when they knocked down a flowerpot.",
+      "options": [
+        {
+          "id": "a",
+          "label": "screamed"
+        },
+        {
+          "id": "b",
+          "label": "was screaming"
+        },
+        {
+          "id": "c",
+          "label": "screams"
+        },
+        {
+          "id": "d",
+          "label": "is screaming"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Was screaming” diễn tả hành động đang diễn ra trong quá khứ, bị một hành động khác (knocked down) xen vào. Đây là cách dùng phổ biến."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "In the near-dark, he _____ on her fisted fingers with one hand.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "was working"
+        },
+        {
+          "id": "c",
+          "label": "works"
+        },
+        {
+          "id": "d",
+          "label": "is working"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Was working” diễn tả hành động đang diễn ra trong một khoảng thời gian ở quá khứ, mô tả chi tiết một sự việc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "She felt the baby _____ out of her hands as he pulled back very hard.",
+      "options": [
+        {
+          "id": "a",
+          "label": "slipped"
+        },
+        {
+          "id": "b",
+          "label": "slipping"
+        },
+        {
+          "id": "c",
+          "label": "slips"
+        },
+        {
+          "id": "d",
+          "label": "is slipping"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau động từ tri giác “felt”, dùng hiện tại phân từ (V-ing) “slipping” để diễn tả hành động đang diễn ra mà chủ thể cảm nhận được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "While she _____ to hold the baby over in a corner, he came up.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tried"
+        },
+        {
+          "id": "b",
+          "label": "was trying"
+        },
+        {
+          "id": "c",
+          "label": "tries"
+        },
+        {
+          "id": "d",
+          "label": "is trying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“While” thường dùng với quá khứ tiếp diễn để chỉ hai hành động song song hoặc một hành động đang diễn ra bị hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "Just as her hands _____, she screamed, \"No!\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "came loose"
+        },
+        {
+          "id": "b",
+          "label": "were coming loose"
+        },
+        {
+          "id": "c",
+          "label": "come loose"
+        },
+        {
+          "id": "d",
+          "label": "are coming loose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Were coming loose” diễn tả một quá trình đang diễn ra ngay tại thời điểm cô ấy hét lên. Quá khứ tiếp diễn nhấn mạnh sự liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "The kitchen window gave no light, and it _____ dark on the inside too.",
+      "options": [
+        {
+          "id": "a",
+          "label": "got"
+        },
+        {
+          "id": "b",
+          "label": "was getting"
+        },
+        {
+          "id": "c",
+          "label": "gets"
+        },
+        {
+          "id": "d",
+          "label": "is getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Was getting dark” diễn tả một quá trình đang diễn ra trong quá khứ, mô tả bối cảnh hoặc tình trạng tại thời điểm đó."
+  }
+]

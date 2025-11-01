@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_001",
+      "prompt": "Many teenagers enjoy _____ their own money during the summer holidays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to earn"
+        },
+        {
+          "id": "b",
+          "label": "earning"
+        },
+        {
+          "id": "c",
+          "label": "earn"
+        },
+        {
+          "id": "d",
+          "label": "earned"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'enjoy' (thích thú) luôn được theo sau bởi động từ ở dạng V-ing để chỉ một hoạt động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_002",
+      "prompt": "Last summer, my sister decided _____ part-time at a day care center.",
+      "options": [
+        {
+          "id": "a",
+          "label": "working"
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "to work"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'decide' (quyết định) luôn đi với 'to-V' để diễn tả một quyết định hoặc kế hoạch đã được đưa ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_003",
+      "prompt": "You can visit the website _____ more information about summer jobs.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finding"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "for find"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'to-V' để chỉ mục đích của hành động. Trong câu này, mục đích của việc 'visit the website' là 'to find more information'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_004",
+      "prompt": "Parents should avoid _____ their children work with people they don't trust.",
+      "options": [
+        {
+          "id": "a",
+          "label": "letting"
+        },
+        {
+          "id": "b",
+          "label": "to let"
+        },
+        {
+          "id": "c",
+          "label": "let"
+        },
+        {
+          "id": "d",
+          "label": "for letting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau động từ 'avoid' (tránh), chúng ta dùng V-ing để chỉ hành động mà người nói muốn tránh làm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_005",
+      "prompt": "The article is about _____ ideas for teenagers to make money.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to come up with"
+        },
+        {
+          "id": "b",
+          "label": "come up with"
+        },
+        {
+          "id": "c",
+          "label": "coming up with"
+        },
+        {
+          "id": "d",
+          "label": "came up with"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ (ví dụ: in, on, at, about), động từ phải ở dạng V-ing. Ở đây, 'about' là một giới từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_006",
+      "prompt": "He stopped _____ video games for an hour to help his neighbor wash their car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "playing"
+        },
+        {
+          "id": "b",
+          "label": "to play"
+        },
+        {
+          "id": "c",
+          "label": "play"
+        },
+        {
+          "id": "d",
+          "label": "for playing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Stop V-ing' có nghĩa là dừng hẳn một hành động đang làm. 'Stop to-V' là dừng lại để làm một việc khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_007",
+      "prompt": "Would you mind _____ me with my babysitting job this Saturday?",
+      "options": [
+        {
+          "id": "a",
+          "label": "to help"
+        },
+        {
+          "id": "b",
+          "label": "help"
+        },
+        {
+          "id": "c",
+          "label": "helped"
+        },
+        {
+          "id": "d",
+          "label": "helping"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cấu trúc 'Would you mind...?' được theo sau bởi V-ing để đưa ra một yêu cầu một cách lịch sự."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_008",
+      "prompt": "It's a good idea _____ with your child about what jobs they are interested in.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to talk"
+        },
+        {
+          "id": "b",
+          "label": "talking"
+        },
+        {
+          "id": "c",
+          "label": "talk"
+        },
+        {
+          "id": "d",
+          "label": "for talking"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'It is + adjective + to-V' được dùng để đưa ra nhận xét hoặc đánh giá về một hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_009",
+      "prompt": "My parents promised _____ me find a summer job if I got good grades last semester.",
+      "options": [
+        {
+          "id": "a",
+          "label": "helping"
+        },
+        {
+          "id": "b",
+          "label": "help"
+        },
+        {
+          "id": "c",
+          "label": "to help"
+        },
+        {
+          "id": "d",
+          "label": "for help"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ 'promise' (hứa) thường đi với 'to-V' để diễn tả một lời hứa sẽ làm gì đó trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_vi_ving_to_v_010",
+      "prompt": "Thinking about others' inconveniences is a good way _____ job ideas.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "getting"
+        },
+        {
+          "id": "c",
+          "label": "for getting"
+        },
+        {
+          "id": "d",
+          "label": "to get"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Sau danh từ như 'way', 'opportunity', 'chance', chúng ta thường dùng 'to-V' để mô tả mục đích hoặc chức năng của danh từ đó."
+  }
+]

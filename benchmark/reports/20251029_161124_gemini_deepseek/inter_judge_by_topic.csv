@@ -1,0 +1,13 @@
+run_id,type,topic,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+20251029_161124_gemini_deepseek,mcq,Past Simple,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Present Simple,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Past Perfect,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,a/an/the/zero,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Present Perfect Continuous,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Backshifting tenses,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Past Continuous,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Passive (all tenses),100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Present Perfect,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,Past Perfect Continuous,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,V-ing vs to-V,100,1.0,1.0,1.0,1.0,1.0
+20251029_161124_gemini_deepseek,mcq,as…as,100,1.0,1.0,1.0,1.0,1.0

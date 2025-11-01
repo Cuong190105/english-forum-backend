@@ -42,6 +42,7 @@ def _get_client():
 # =========================
 
 _TOPICS_CACHE: Optional[List[str]] = None
+_TOPICS_MAP_CACHE: Optional[Dict[str, List[Dict[str, str]]]] = None
 
 
 def load_all_topic_displays() -> List[str]:
@@ -79,27 +80,81 @@ def load_all_topic_displays() -> List[str]:
     return _TOPICS_CACHE
 
 
-def classify_topic(text: str) -> str:
-    """Classify input text to the single best grammar topic display name.
-
-    Returns a display string guaranteed to be within the allowed list. Falls back to
-    'Present Simple' if the model doesn't return a valid value.
+def load_topics_map() -> Dict[str, List[Dict[str, str]]]:
+    """Load topics map identical to scripts/label_topics_for_sources.load_topics_map behavior.
+    Returns: { category: [ {id, display}, ... ] }
     """
-    choices = load_all_topic_displays()
-    # Short-circuit trivial cases
-    if not text or not text.strip():
-        return choices[0] if choices else 'Present Simple'
+    global _TOPICS_MAP_CACHE
+    if _TOPICS_MAP_CACHE is not None:
+        return _TOPICS_MAP_CACHE
+    root = Path(__file__).resolve().parents[1]
+    topics_json = root / 'benchmark' / 'topics_locked.json'
+    if not topics_json.exists():
+        # Minimal fallback: wrap flattened displays into a single category
+        displays = load_all_topic_displays()
+        _TOPICS_MAP_CACHE = { 'General': [ { 'id': d.lower().replace(' ', '_'), 'display': d } for d in displays ] }
+        return _TOPICS_MAP_CACHE
+    raw = json.loads(topics_json.read_text(encoding='utf-8'))
+    norm: Dict[str, List[Dict[str, str]]] = {}
+    for cat, subs in raw.items():
+        norm_list: List[Dict[str, str]] = []
+        if subs and isinstance(subs, list):
+            for s in subs:
+                if isinstance(s, dict):
+                    sid = str(s.get('id') or '').strip()
+                    disp = str(s.get('display') or '').strip()
+                    if not disp and sid:
+                        disp = sid.replace('_', ' ')
+                    if disp:
+                        norm_list.append({'id': sid or disp, 'display': disp})
+                else:
+                    disp = str(s).strip()
+                    sid = disp.lower().replace(' ', '_').replace('/', '_').replace('…', '').replace('—', '-')
+                    norm_list.append({'id': sid, 'display': disp})
+        norm[cat] = norm_list
+    _TOPICS_MAP_CACHE = norm
+    return _TOPICS_MAP_CACHE
 
-    # Build a tiny JSON-only prompt
+
+def _build_label_prompt(context_text: str, topics_map: Dict[str, List[Dict[str, str]]]) -> str:
+    lines: List[str] = []
+    for cat, subs in topics_map.items():
+        for s in subs:
+            disp = s.get('display', '')
+            sid = s.get('id', '')
+            if sid and sid != disp:
+                lines.append(f"- {cat} :: {disp} (id: {sid})")
+            else:
+                lines.append(f"- {cat} :: {disp}")
+    topics_block = "\n".join(lines)
     prompt = (
-        "You are an English grammar topic classifier.\n"
-        "Given the user's context text, choose exactly ONE topic from the allowed list.\n"
-        "Respond with JSON only: {\"topic_display\": \"<one of the allowed list exactly as-is>\"}.\n\n"
-        f"ALLOWED_TOPICS = {json.dumps(choices, ensure_ascii=False)}\n\n"
-        f"CONTEXT:\n{text}\n\n"
-        "NOW OUTPUT ONLY THE JSON WITH THE 'topic_display' FIELD."
+        "You are an expert English grammar examiner.\n"
+        "Task: Choose exactly ONE most relevant grammar topic from the list for writing exam questions based on the given context.\n"
+        'Output JSON only with keys: {"category": string, "topic": string}. No extra text.\n\n'
+        "AVAILABLE TOPICS (category :: subtopic)\n"
+        f"{topics_block}\n\n"
+        "CONTEXT:\n"
+        f"{context_text}\n\n"
+        "Rules:\n"
+        "- Pick the single best-fitting subtopic; if multiple are plausible, pick the most specific.\n"
+        "- Ensure the choice strictly matches the grammar focus and is specific.\n"
     )
+    return prompt
 
+
+def classify_topic(text: str) -> str:
+    """Classify input text to a topic using the same schema as scripts/label_topics_for_sources.
+
+    Returns the chosen topic display string (matching topics_locked.json). Falls back deterministically.
+    """
+    topics_map = load_topics_map()
+    # Trivial fallback if empty input
+    if not text or not text.strip():
+        first_cat = next(iter(topics_map.keys()))
+        first_item = topics_map[first_cat][0]
+        return first_item.get('display', first_item.get('id', 'Present Simple'))
+
+    prompt = _build_label_prompt(text, topics_map)
     try:
         raw = _call_genai(
             prompt,
@@ -110,14 +165,42 @@ def classify_topic(text: str) -> str:
         )
         cleaned = _strip_code_fences(raw)
         data = json.loads(cleaned)
-        cand = str(data.get('topic_display') or '').strip()
-        if cand in choices:
-            return cand
+        category = str(data.get('category', '')).strip()
+        topic_raw = str(data.get('topic', '')).strip()
+
+        def find_match(cat: str, needle: str) -> Optional[str]:
+            subs = topics_map.get(cat, [])
+            for obj in subs:
+                disp = obj.get('display', '')
+                sid = obj.get('id', '')
+                if needle == disp or needle == sid:
+                    return disp or sid
+            return None
+
+        display_choice = None
+        if category in topics_map:
+            display_choice = find_match(category, topic_raw)
+        if display_choice is None and topic_raw:
+            # search across categories
+            for cat, subs in topics_map.items():
+                for obj in subs:
+                    disp = obj.get('display', '')
+                    sid = obj.get('id', '')
+                    if topic_raw == disp or topic_raw == sid:
+                        display_choice = disp or sid
+                        break
+                if display_choice:
+                    break
+        if display_choice:
+            return display_choice
     except Exception:
         if DEBUG:
             print('[ai] classify_topic: fallback triggered')
-    # Fallback
-    return choices[0] if choices else 'Present Simple'
+
+    # Deterministic fallback: first category's first item
+    first_cat = next(iter(topics_map.keys()))
+    first_item = topics_map[first_cat][0]
+    return first_item.get('display', first_item.get('id', 'Present Simple'))
 # =========================
 # Prompt builders (public helper)
 # =========================

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "The increase in housing prices is _____ concerning _____ the rise in agricultural product prices for many citizens.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "more...than"
+        },
+        {
+          "id": "c",
+          "label": "so...that"
+        },
+        {
+          "id": "d",
+          "label": "such...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + tính từ/trạng từ + as'. Các lựa chọn khác không phù hợp ngữ pháp hoặc ngữ cảnh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "The government reacted _____ quickly _____ it could to implement new policies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "more...than"
+        },
+        {
+          "id": "c",
+          "label": "so...that"
+        },
+        {
+          "id": "d",
+          "label": "too...to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'as + trạng từ + as' để diễn tả hành động được thực hiện ở mức độ bằng nhau. 'More...than' là so sánh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "Some people believe that the current economic situation is not _____ bad _____ it was during the last crisis.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "more...than"
+        },
+        {
+          "id": "d",
+          "label": "less...than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, cả 'as...as' và 'so...as' đều đúng cho so sánh bằng. 'As...as' là dạng phổ biến hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "Farmers didn't benefit _____ much _____ the middlemen from the price increase.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...as"
+        },
+        {
+          "id": "c",
+          "label": "more...than"
+        },
+        {
+          "id": "d",
+          "label": "less...than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'as much as' để so sánh mức độ hoặc số lượng không đếm được. 'More...than' là so sánh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "The new policy aims to stabilize prices _____ effectively _____ the previous one did.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "more...than"
+        },
+        {
+          "id": "c",
+          "label": "so...that"
+        },
+        {
+          "id": "d",
+          "label": "such...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + trạng từ + as' dùng để so sánh mức độ hiệu quả của hai hành động. Các lựa chọn khác không đúng ngữ pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "We need to make the market _____ transparent _____ possible to prevent abnormal phenomena.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "more...than"
+        },
+        {
+          "id": "c",
+          "label": "so...that"
+        },
+        {
+          "id": "d",
+          "label": "too...to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc 'as + tính từ/trạng từ + as possible' diễn tả mức độ cao nhất có thể. Các lựa chọn khác không phù hợp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "The impact of the drought was not _____ severe _____ that of the spring frost last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "more...than"
+        },
+        {
+          "id": "c",
+          "label": "so...that"
+        },
+        {
+          "id": "d",
+          "label": "such...as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'as + tính từ + as' để so sánh mức độ nghiêm trọng. 'That' thay thế cho 'impact' để tránh lặp từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "The government will continue to intervene in the market _____ long _____ prices remain unstable.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "so...that"
+        },
+        {
+          "id": "c",
+          "label": "in order that"
+        },
+        {
+          "id": "d",
+          "label": "provided that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm 'as long as' có nghĩa là 'miễn là', chỉ điều kiện. Các lựa chọn khác không đúng ngữ cảnh hoặc ngữ pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "The new regulations will be implemented _____ soon _____ the official announcement is made.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "no sooner...than"
+        },
+        {
+          "id": "c",
+          "label": "hardly...when"
+        },
+        {
+          "id": "d",
+          "label": "immediately"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm 'as soon as' có nghĩa là 'ngay khi', chỉ thời điểm xảy ra hành động. Các lựa chọn khác không phù hợp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "The cost of living in the city is _____ high _____ in the countryside.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as...as"
+        },
+        {
+          "id": "b",
+          "label": "higher...than"
+        },
+        {
+          "id": "c",
+          "label": "the highest"
+        },
+        {
+          "id": "d",
+          "label": "so...that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng 'as + tính từ + as' để so sánh bằng giữa hai đối tượng. 'Higher...than' là so sánh hơn."
+  }
+]

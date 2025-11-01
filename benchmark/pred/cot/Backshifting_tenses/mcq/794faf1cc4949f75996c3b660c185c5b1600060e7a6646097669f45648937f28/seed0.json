@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_001",
+      "prompt": "Mrs. Perry told Jack that there _____ a meeting of their ladies' club at Mrs. Young's house at lunch time that day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi động từ tường thuật ở quá khứ ('told'), thì hiện tại đơn ('is') phải lùi về quá khứ đơn ('was')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_002",
+      "prompt": "Mrs. Perry also said that she _____ to go to it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "wants"
+        },
+        {
+          "id": "b",
+          "label": "wanted"
+        },
+        {
+          "id": "c",
+          "label": "had wanted"
+        },
+        {
+          "id": "d",
+          "label": "would want"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ tường thuật ở quá khứ ('said'), nên động từ trong câu tường thuật phải lùi thì từ hiện tại đơn ('wants') sang quá khứ đơn ('wanted')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_003",
+      "prompt": "She promised that she _____ him some food for his lunch.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will leave"
+        },
+        {
+          "id": "b",
+          "label": "leaves"
+        },
+        {
+          "id": "c",
+          "label": "would leave"
+        },
+        {
+          "id": "d",
+          "label": "had left"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Will' trong câu trực tiếp khi tường thuật lại với động từ tường thuật quá khứ ('promised') sẽ lùi thành 'would'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_004",
+      "prompt": "Mr. Perry answered that _____ quite all right.",
+      "options": [
+        {
+          "id": "a",
+          "label": "that is"
+        },
+        {
+          "id": "b",
+          "label": "that was"
+        },
+        {
+          "id": "c",
+          "label": "that had been"
+        },
+        {
+          "id": "d",
+          "label": "that would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'That's' (that is) khi tường thuật lại với động từ tường thuật quá khứ ('answered') phải lùi thì thành 'that was'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_005",
+      "prompt": "He asked what she _____ to leave for his lunch.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is going"
+        },
+        {
+          "id": "b",
+          "label": "was going"
+        },
+        {
+          "id": "c",
+          "label": "had been going"
+        },
+        {
+          "id": "d",
+          "label": "would be going"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi trực tiếp 'What are you going to leave?' khi tường thuật lại với động từ tường thuật quá khứ ('asked') sẽ lùi thì thành 'was going'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_006",
+      "prompt": "Mrs. Perry mentioned that there _____ some cold boiled potatoes and some beans _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are / here"
+        },
+        {
+          "id": "b",
+          "label": "were / here"
+        },
+        {
+          "id": "c",
+          "label": "are / there"
+        },
+        {
+          "id": "d",
+          "label": "were / there"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Khi tường thuật, 'are' lùi thành 'were' và trạng từ chỉ nơi chốn 'here' phải đổi thành 'there'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_007",
+      "prompt": "Mr. Perry said that he _____ a good lunch.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "would have"
+        },
+        {
+          "id": "d",
+          "label": "had had"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Will have' trong câu trực tiếp khi tường thuật lại với động từ tường thuật quá khứ ('said') sẽ lùi thành 'would have'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_008",
+      "prompt": "After she came home, Mrs. Perry asked if his fish _____ nice.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "had been"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi trực tiếp ở thì quá khứ đơn ('Was your fish nice?') khi tường thuật lại phải lùi thì thành quá khứ hoàn thành ('had been')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_009",
+      "prompt": "Mr. Perry answered that his feet _____ hurting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Are hurting' trong câu trực tiếp khi tường thuật lại với động từ tường thuật quá khứ ('answered') sẽ lùi thành 'were hurting'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_010",
+      "prompt": "She asked why they _____ hurting.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "were"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi trực tiếp 'Why are they hurting?' khi tường thuật lại với động từ tường thuật quá khứ ('asked') sẽ lùi thì thành 'were hurting'."
+  }
+]

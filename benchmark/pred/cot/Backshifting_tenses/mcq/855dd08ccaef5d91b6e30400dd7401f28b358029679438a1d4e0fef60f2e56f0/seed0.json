@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Jodie said, \"I am always traveling for work.\" She told me that she _____ always traveling for work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'told' ở quá khứ, nên 'am traveling' (hiện tại tiếp diễn) lùi thì thành 'was traveling' (quá khứ tiếp diễn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "The designers explained, \"We need to go to a lot of shows.\" They explained that they _____ to go to a lot of shows.",
+      "options": [
+        {
+          "id": "a",
+          "label": "needed"
+        },
+        {
+          "id": "b",
+          "label": "need"
+        },
+        {
+          "id": "c",
+          "label": "had needed"
+        },
+        {
+          "id": "d",
+          "label": "would need"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Khi động từ tường thuật 'explained' ở quá khứ, thì hiện tại đơn 'need' phải lùi thành quá khứ đơn 'needed'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "They mentioned, \"Our jewelry sets off the alarms.\" The designers mentioned that their jewelry _____ off the alarms.",
+      "options": [
+        {
+          "id": "a",
+          "label": "set"
+        },
+        {
+          "id": "b",
+          "label": "sets"
+        },
+        {
+          "id": "c",
+          "label": "had set"
+        },
+        {
+          "id": "d",
+          "label": "would set"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'mentioned' ở quá khứ, nên 'sets' (hiện tại đơn) lùi thì thành 'set' (quá khứ đơn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The sisters stated, \"We've become accustomed to arriving early.\" They stated that they _____ accustomed to arriving early.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had become"
+        },
+        {
+          "id": "b",
+          "label": "have become"
+        },
+        {
+          "id": "c",
+          "label": "became"
+        },
+        {
+          "id": "d",
+          "label": "would become"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Stated' là động từ tường thuật ở quá khứ, nên thì hiện tại hoàn thành 'have become' phải lùi thành quá khứ hoàn thành 'had become'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "The agent said, \"We were carrying a very dangerous object.\" The agent said that they _____ a very dangerous object.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been carrying"
+        },
+        {
+          "id": "b",
+          "label": "were carrying"
+        },
+        {
+          "id": "c",
+          "label": "are carrying"
+        },
+        {
+          "id": "d",
+          "label": "carried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'said' ở quá khứ, nên thì quá khứ tiếp diễn 'were carrying' phải lùi thành quá khứ hoàn thành tiếp diễn 'had been carrying'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "My sister and I said, \"Someone put something dangerous in one of our bags.\" We were concerned, thinking that someone _____ something dangerous in one of our bags.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had put"
+        },
+        {
+          "id": "b",
+          "label": "put"
+        },
+        {
+          "id": "c",
+          "label": "has put"
+        },
+        {
+          "id": "d",
+          "label": "would put"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'thinking' (trong ngữ cảnh quá khứ) và hành động 'put' xảy ra trước đó, nên quá khứ đơn 'put' lùi thành quá khứ hoàn thành 'had put'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "I kept asking, \"What are you looking for?\" I kept asking what he _____ for.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was looking"
+        },
+        {
+          "id": "b",
+          "label": "is looking"
+        },
+        {
+          "id": "c",
+          "label": "had looked"
+        },
+        {
+          "id": "d",
+          "label": "looked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'kept asking' ở quá khứ, nên 'are looking' (hiện tại tiếp diễn) lùi thì thành 'was looking' (quá khứ tiếp diễn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "She explained, \"It is our Cosima necklace.\" She explained that it _____ their Cosima necklace.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'explained' ở quá khứ, nên 'is' (hiện tại đơn) lùi thì thành 'was' (quá khứ đơn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "I tried to explain, \"We are jewelry designers.\" I tried to explain that we _____ jewelry designers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "would be"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'tried to explain' ở quá khứ, nên 'are' (hiện tại đơn) lùi thì thành 'were' (quá khứ đơn)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The women guards said, \"We liked your stuff.\" Apparently, they said they _____ their stuff.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had liked"
+        },
+        {
+          "id": "b",
+          "label": "liked"
+        },
+        {
+          "id": "c",
+          "label": "like"
+        },
+        {
+          "id": "d",
+          "label": "would like"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ tường thuật 'said' ở quá khứ, nên 'liked' (quá khứ đơn) phải lùi thì thành 'had liked' (quá khứ hoàn thành)."
+  }
+]

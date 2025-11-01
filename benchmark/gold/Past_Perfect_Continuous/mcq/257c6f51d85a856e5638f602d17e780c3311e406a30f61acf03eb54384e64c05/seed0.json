@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Before the Old Gentleman arrived that day, Pete ______ on that same bench every Thanksgiving for nine years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sat"
+        },
+        {
+          "id": "b",
+          "label": "was sitting"
+        },
+        {
+          "id": "c",
+          "label": "had been sitting"
+        },
+        {
+          "id": "d",
+          "label": "had sat"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng thì quá khứ hoàn thành tiếp diễn để nhấn mạnh hành động (ngồi) kéo dài liên tục (for nine years) trước một hành động khác trong quá khứ (arrived)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "The nurse was shocked because the Old Gentleman ______ anything for three days before he was brought to the hospital.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was not eating"
+        },
+        {
+          "id": "b",
+          "label": "had not been eating"
+        },
+        {
+          "id": "c",
+          "label": "did not eat"
+        },
+        {
+          "id": "d",
+          "label": "had not eaten"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một hành động (không ăn) kéo dài liên tục trong một khoảng thời gian (for three days) cho đến một thời điểm khác trong quá khứ (was brought)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "Pete's coat was dusty when the servant saw him because he ______ around the city all morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been walking"
+        },
+        {
+          "id": "b",
+          "label": "walked"
+        },
+        {
+          "id": "c",
+          "label": "was walking"
+        },
+        {
+          "id": "d",
+          "label": "had walked"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'đi bộ' (walking) kéo dài (all morning) và là nguyên nhân của kết quả (was dusty) tại một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "The two rich ladies ______ the first hungry person a Thanksgiving dinner for many years before Pete passed by their house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "gave"
+        },
+        {
+          "id": "b",
+          "label": "had given"
+        },
+        {
+          "id": "c",
+          "label": "were giving"
+        },
+        {
+          "id": "d",
+          "label": "had been giving"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Nhấn mạnh tính liên tục và lặp đi lặp lại của một thói quen (for many years) trước một sự kiện cụ thể trong quá khứ (Pete passed by)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Pete felt sick at the second restaurant because he ______ a huge meal for the last hour at the ladies' house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ate"
+        },
+        {
+          "id": "b",
+          "label": "had been eating"
+        },
+        {
+          "id": "c",
+          "label": "was eating"
+        },
+        {
+          "id": "d",
+          "label": "had eaten"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Nhấn mạnh hành động 'ăn' kéo dài trong một khoảng thời gian (for the last hour) và vừa mới kết thúc trước một hành động khác trong quá khứ (felt sick)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "The Old Gentleman, who lived alone, ______ to continue his tradition with Pete for nine years before that fateful day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "tried"
+        },
+        {
+          "id": "b",
+          "label": "was trying"
+        },
+        {
+          "id": "c",
+          "label": "had been trying"
+        },
+        {
+          "id": "d",
+          "label": "had tried"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Nhấn mạnh sự nỗ lực kéo dài (for nine years) để duy trì một việc gì đó, tính đến một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "Pete noticed the Old Gentleman looked weaker because he ______ more heavily on his cane over the past year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been leaning"
+        },
+        {
+          "id": "b",
+          "label": "leaned"
+        },
+        {
+          "id": "c",
+          "label": "was leaning"
+        },
+        {
+          "id": "d",
+          "label": "had leaned"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả một hành động hoặc tình trạng kéo dài và phát triển (leaning more heavily) trong một khoảng thời gian (over the past year) trước thời điểm kể chuyện."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "Before the servant invited him in, Pete ______ about where he would find his Thanksgiving dinner.",
+      "options": [
+        {
+          "id": "a",
+          "label": "thought"
+        },
+        {
+          "id": "b",
+          "label": "had thought"
+        },
+        {
+          "id": "c",
+          "label": "was thinking"
+        },
+        {
+          "id": "d",
+          "label": "had been thinking"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Diễn tả một hành động (suy nghĩ) đang diễn ra và kéo dài cho đến khi một hành động khác xen vào trong quá khứ (the servant invited him in)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "The Old Gentleman ______ the same greeting for years, and it had become part of their tradition.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been using"
+        },
+        {
+          "id": "b",
+          "label": "used"
+        },
+        {
+          "id": "c",
+          "label": "was using"
+        },
+        {
+          "id": "d",
+          "label": "had used"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Nhấn mạnh hành động lặp đi lặp lại (dùng cùng một lời chào) trong một thời gian dài (for years) và nó vẫn tiếp diễn cho đến thời điểm đó trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "On that particular day, Pete wasn't actually hungry; he ______ to the bench out of habit for so long.",
+      "options": [
+        {
+          "id": "a",
+          "label": "came"
+        },
+        {
+          "id": "b",
+          "label": "was coming"
+        },
+        {
+          "id": "c",
+          "label": "had come"
+        },
+        {
+          "id": "d",
+          "label": "had been coming"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Diễn tả một hành động lặp đi lặp lại thành thói quen trong một thời gian dài (for so long) trước thời điểm được đề cập trong câu chuyện."
+  }
+]

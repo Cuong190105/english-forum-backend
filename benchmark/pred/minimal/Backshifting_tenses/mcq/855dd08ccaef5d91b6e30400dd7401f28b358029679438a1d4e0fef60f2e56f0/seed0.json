@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My sister and I just said, \"Huh?\" Later, when reporting this, the narrator said that they _____ \"Huh?\".",
+      "options": [
+        {
+          "id": "a",
+          "label": "just said"
+        },
+        {
+          "id": "b",
+          "label": "had just said"
+        },
+        {
+          "id": "c",
+          "label": "were just saying"
+        },
+        {
+          "id": "d",
+          "label": "have just said"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật lại hành động đã xảy ra trong quá khứ (simple past), chúng ta lùi thì về quá khứ hoàn thành (past perfect)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "One of the agents told them that they _____ a very dangerous object.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are carrying"
+        },
+        {
+          "id": "b",
+          "label": "were carrying"
+        },
+        {
+          "id": "c",
+          "label": "had carried"
+        },
+        {
+          "id": "d",
+          "label": "carried"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại tiếp diễn (present continuous) trong lời nói trực tiếp lùi về quá khứ tiếp diễn (past continuous) khi tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "I kept asking what he _____ for.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is looking"
+        },
+        {
+          "id": "b",
+          "label": "was looking"
+        },
+        {
+          "id": "c",
+          "label": "had looked"
+        },
+        {
+          "id": "d",
+          "label": "looked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi trực tiếp ở hiện tại tiếp diễn (What are you looking for?) khi tường thuật sẽ lùi thì về quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "One agent kept repeating that he believed it _____ a weapon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn (present simple) trong lời nói trực tiếp lùi về quá khứ đơn (past simple) khi tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "I tried to explain that they _____ jewelry designers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "have been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì hiện tại đơn (present simple) khi tường thuật lùi về quá khứ đơn (past simple)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I tried to explain that that _____ simply a piece from their collection.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"This\" đổi thành \"that\" và thì hiện tại đơn (is) lùi về quá khứ đơn (was) trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "The narrator thought that the male guards also _____ tired of listening to a bunch of women talk about jewelry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "get"
+        },
+        {
+          "id": "b",
+          "label": "got"
+        },
+        {
+          "id": "c",
+          "label": "had gotten"
+        },
+        {
+          "id": "d",
+          "label": "were getting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động \"got tired\" xảy ra trước hành động \"thought\", nên khi tường thuật cần lùi về quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The narrator mentioned that they _____ the names of the women agents and _____ them a piece of jewelry.",
+      "options": [
+        {
+          "id": "a",
+          "label": "took / sent"
+        },
+        {
+          "id": "b",
+          "label": "had taken / had sent"
+        },
+        {
+          "id": "c",
+          "label": "take / send"
+        },
+        {
+          "id": "d",
+          "label": "were taking / were sending"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Các hành động \"took\" và \"sent\" xảy ra trước thời điểm tường thuật, nên cần lùi về quá khứ hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "The narrator stated that most of the time, it _____ not troublesome.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "had been"
+        },
+        {
+          "id": "d",
+          "label": "will be"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật một sự thật chung trong quá khứ, thì hiện tại đơn thường lùi về quá khứ đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The narrator explained that they _____ to go to a lot of shows, so they _____ pack lightly.",
+      "options": [
+        {
+          "id": "a",
+          "label": "need / can't"
+        },
+        {
+          "id": "b",
+          "label": "needed / couldn't"
+        },
+        {
+          "id": "c",
+          "label": "had needed / couldn't"
+        },
+        {
+          "id": "d",
+          "label": "needed / can't"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Need\" lùi về \"needed\" và \"can't\" lùi về \"couldn't\" trong câu tường thuật."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "Before she got the promotion, Sarah _____ for that company for ten years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had worked"
+        },
+        {
+          "id": "b",
+          "label": "had been working"
+        },
+        {
+          "id": "c",
+          "label": "was working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn (had been working) diễn tả hành động kéo dài liên tục đến một thời điểm trong quá khứ (got the promotion)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "His eyes were red because he _____ at the computer all night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been staring"
+        },
+        {
+          "id": "b",
+          "label": "had stared"
+        },
+        {
+          "id": "c",
+          "label": "was staring"
+        },
+        {
+          "id": "d",
+          "label": "stared"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Quá khứ hoàn thành tiếp diễn (had been staring) dùng để chỉ nguyên nhân của một kết quả thấy rõ trong quá khứ (eyes were red)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "When the police arrived, the protestors _____ peacefully for three hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had demonstrated"
+        },
+        {
+          "id": "b",
+          "label": "had been demonstrating"
+        },
+        {
+          "id": "c",
+          "label": "were demonstrating"
+        },
+        {
+          "id": "d",
+          "label": "demonstrated"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn (had been demonstrating) nhấn mạnh hành động kéo dài liên tục (for three hours) trước một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "By the time he retired last year, Mr. Johnson _____ as a teacher for over 40 years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had taught"
+        },
+        {
+          "id": "b",
+          "label": "had been teaching"
+        },
+        {
+          "id": "c",
+          "label": "was teaching"
+        },
+        {
+          "id": "d",
+          "label": "taught"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Quá khứ hoàn thành tiếp diễn (had been teaching) diễn tả hành động kéo dài liên tục (for over 40 years) cho đến một thời điểm cụ thể trong quá khứ (retired last year)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "They were exhausted because they _____ enough sleep for weeks.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hadn't been getting"
+        },
+        {
+          "id": "b",
+          "label": "hadn't got"
+        },
+        {
+          "id": "c",
+          "label": "weren't getting"
+        },
+        {
+          "id": "d",
+          "label": "didn't get"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn (hadn't been getting) chỉ một hành động kéo dài liên tục trong quá khứ là nguyên nhân của một trạng thái khác (were exhausted)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "How long _____ before you finally decided to quit your job?",
+      "options": [
+        {
+          "id": "a",
+          "label": "had you been thinking"
+        },
+        {
+          "id": "b",
+          "label": "had you thought"
+        },
+        {
+          "id": "c",
+          "label": "were you thinking"
+        },
+        {
+          "id": "d",
+          "label": "did you think"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ 'How long' và hành động kéo dài đến một thời điểm trong quá khứ (decided to quit) yêu cầu thì quá khứ hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "The team was very proud of their success, as they _____ on the project for months.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had worked"
+        },
+        {
+          "id": "b",
+          "label": "had been working"
+        },
+        {
+          "id": "c",
+          "label": "were working"
+        },
+        {
+          "id": "d",
+          "label": "worked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn (had been working) nhấn mạnh quá trình làm việc liên tục (for months) dẫn đến kết quả trong quá khứ (proud of their success)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "She failed the exam because she _____ seriously for the past few months.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hadn't been studying"
+        },
+        {
+          "id": "b",
+          "label": "hadn't studied"
+        },
+        {
+          "id": "c",
+          "label": "wasn't studying"
+        },
+        {
+          "id": "d",
+          "label": "didn't study"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động không học hành nghiêm túc kéo dài (for the past few months) là nguyên nhân dẫn đến kết quả trượt thi trong quá khứ, dùng quá khứ hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "When I met him, he looked tired because he _____ all day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been traveling"
+        },
+        {
+          "id": "b",
+          "label": "had traveled"
+        },
+        {
+          "id": "c",
+          "label": "was traveling"
+        },
+        {
+          "id": "d",
+          "label": "traveled"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đi lại liên tục (all day) là nguyên nhân khiến anh ấy trông mệt mỏi khi tôi gặp, dùng quá khứ hoàn thành tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "When the storm finally stopped, it _____ heavily for over six hours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been raining"
+        },
+        {
+          "id": "b",
+          "label": "had rained"
+        },
+        {
+          "id": "c",
+          "label": "was raining"
+        },
+        {
+          "id": "d",
+          "label": "rained"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động mưa kéo dài liên tục (for over six hours) cho đến khi cơn bão dừng lại trong quá khứ, dùng quá khứ hoàn thành tiếp diễn."
+  }
+]

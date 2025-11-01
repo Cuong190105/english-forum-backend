@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "Many parents decide _____ school supplies online for convenience.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to buy"
+        },
+        {
+          "id": "b",
+          "label": "buying"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ \"decide\" (quyết định) thường đi với động từ nguyên mẫu có \"to\" (to-V) để chỉ mục đích hoặc hành động dự định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "My son enjoys _____ new school supplies for the upcoming year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to choose"
+        },
+        {
+          "id": "b",
+          "label": "choosing"
+        },
+        {
+          "id": "c",
+          "label": "choose"
+        },
+        {
+          "id": "d",
+          "label": "chose"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"enjoy\" (thích thú) luôn theo sau bởi một danh động từ (V-ing) để diễn tả sự yêu thích."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "She is good at _____ the best deals on school supplies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "find"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "finding"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ (như \"at\", \"for\", \"of\"), động từ luôn ở dạng V-ing (danh động từ)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "It's important _____ the quality of school items before buying them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "check"
+        },
+        {
+          "id": "b",
+          "label": "checking"
+        },
+        {
+          "id": "c",
+          "label": "to check"
+        },
+        {
+          "id": "d",
+          "label": "checked"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau các tính từ chỉ sự cần thiết, quan trọng hoặc cảm xúc, chúng ta thường dùng động từ nguyên mẫu có \"to\" (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "I remember _____ my first school-pak when I was a child.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to receive"
+        },
+        {
+          "id": "b",
+          "label": "receiving"
+        },
+        {
+          "id": "c",
+          "label": "receive"
+        },
+        {
+          "id": "d",
+          "label": "received"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Remember + V-ing\" dùng để nói về một ký ức trong quá khứ. \"Remember + to-V\" dùng để nhắc nhở làm gì đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Parents often hope _____ good deals on school supplies during sales.",
+      "options": [
+        {
+          "id": "a",
+          "label": "find"
+        },
+        {
+          "id": "b",
+          "label": "finding"
+        },
+        {
+          "id": "c",
+          "label": "to find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"hope\" (hy vọng) thường được theo sau bởi động từ nguyên mẫu có \"to\" (to-V) để diễn tả mong muốn trong tương lai."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Many students consider _____ their old sports equipment at playitagainsports.com.",
+      "options": [
+        {
+          "id": "a",
+          "label": "sell"
+        },
+        {
+          "id": "b",
+          "label": "to sell"
+        },
+        {
+          "id": "c",
+          "label": "selling"
+        },
+        {
+          "id": "d",
+          "label": "sold"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"consider\" (cân nhắc) luôn theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "The website encourages parents _____ their favorite school by shopping there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "support"
+        },
+        {
+          "id": "b",
+          "label": "supporting"
+        },
+        {
+          "id": "c",
+          "label": "to support"
+        },
+        {
+          "id": "d",
+          "label": "supported"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc \"encourage someone to do something\" (khuyến khích ai làm gì) yêu cầu động từ nguyên mẫu có \"to\" sau tân ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "It's no use _____ about high prices if you don't compare shops.",
+      "options": [
+        {
+          "id": "a",
+          "label": "complain"
+        },
+        {
+          "id": "b",
+          "label": "to complain"
+        },
+        {
+          "id": "c",
+          "label": "complaining"
+        },
+        {
+          "id": "d",
+          "label": "complained"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"It's no use/good\" (vô ích khi làm gì) luôn được theo sau bởi một danh động từ (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "My mother is busy _____ for my younger sister's school supplies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "shop"
+        },
+        {
+          "id": "b",
+          "label": "to shop"
+        },
+        {
+          "id": "c",
+          "label": "shopping"
+        },
+        {
+          "id": "d",
+          "label": "shopped"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"be busy\" (bận rộn làm gì) luôn được theo sau bởi một danh động từ (V-ing)."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "The researchers were tired because they ______ the effects of parental influence on children for over five years before they published the study.",
+      "options": [
+        {
+          "id": "a",
+          "label": "studied"
+        },
+        {
+          "id": "b",
+          "label": "were studying"
+        },
+        {
+          "id": "c",
+          "label": "had been studying"
+        },
+        {
+          "id": "d",
+          "label": "have been studying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng thì Quá khứ hoàn thành tiếp diễn để nhấn mạnh một hành động kéo dài (for over five years) trước một hành động khác trong quá khứ (published the study)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "By the time the child entered school last year, his parents ______ him basic reading skills at home for months.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been teaching"
+        },
+        {
+          "id": "b",
+          "label": "taught"
+        },
+        {
+          "id": "c",
+          "label": "were teaching"
+        },
+        {
+          "id": "d",
+          "label": "had taught"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'teaching' kéo dài liên tục (for months) và xảy ra trước một mốc thời gian cụ thể trong quá khứ (By the time the child entered school)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "The educators changed their advice because they realized parents ______ a positive role all along.",
+      "options": [
+        {
+          "id": "a",
+          "label": "played"
+        },
+        {
+          "id": "b",
+          "label": "had been playing"
+        },
+        {
+          "id": "c",
+          "label": "were playing"
+        },
+        {
+          "id": "d",
+          "label": "have been playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'playing a positive role' là một quá trình kéo dài dẫn đến một kết quả hoặc nhận thức trong quá khứ (they realized)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "She could compose single words on her own because her older sister ______ with her using letter blocks all afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been practicing"
+        },
+        {
+          "id": "b",
+          "label": "practiced"
+        },
+        {
+          "id": "c",
+          "label": "was practicing"
+        },
+        {
+          "id": "d",
+          "label": "has been practicing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'practicing' kéo dài (all afternoon) là nguyên nhân của một khả năng hay kết quả trong quá khứ (She could compose)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Until recently, many parents ______ afraid to teach reading at home because educators had advised against it for years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were feeling"
+        },
+        {
+          "id": "b",
+          "label": "felt"
+        },
+        {
+          "id": "c",
+          "label": "have been feeling"
+        },
+        {
+          "id": "d",
+          "label": "had been feeling"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Diễn tả một trạng thái cảm xúc (feeling afraid) kéo dài liên tục cho đến một thời điểm trong quá khứ (Until recently)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "The child's curiosity was high because he ______ his father fix things around the house all morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watched"
+        },
+        {
+          "id": "b",
+          "label": "had been watching"
+        },
+        {
+          "id": "c",
+          "label": "was watching"
+        },
+        {
+          "id": "d",
+          "label": "had watched"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động 'watching' kéo dài (all morning) và là nguyên nhân trực tiếp của một tình trạng trong quá khứ (curiosity was high)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "When the teacher praised his language skills, she didn't know his mother ______ stories to him every night since he was a baby.",
+      "options": [
+        {
+          "id": "a",
+          "label": "read"
+        },
+        {
+          "id": "b",
+          "label": "was reading"
+        },
+        {
+          "id": "c",
+          "label": "has been reading"
+        },
+        {
+          "id": "d",
+          "label": "had been reading"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'reading' bắt đầu trong quá khứ và kéo dài liên tục cho đến một thời điểm khác trong quá khứ (When the teacher praised)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "The school finally acknowledged the parents' role after studies showed they ______ a huge influence on achievement for decades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been having"
+        },
+        {
+          "id": "b",
+          "label": "were having"
+        },
+        {
+          "id": "c",
+          "label": "had"
+        },
+        {
+          "id": "d",
+          "label": "have had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả một sự ảnh hưởng kéo dài (for decades) đã diễn ra trước khi một sự kiện khác trong quá khứ xảy ra (the school acknowledged)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "He understood science concepts well in his first grade class because his parents ______ simple experiments with him for the past two years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "were doing"
+        },
+        {
+          "id": "c",
+          "label": "had been doing"
+        },
+        {
+          "id": "d",
+          "label": "have been doing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'doing experiments' kéo dài (for the past two years) và là nguyên nhân cho một kết quả trong quá khứ (He understood...)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "Before the new educational policy was introduced last month, teachers ______ that only schools could properly educate children.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believed"
+        },
+        {
+          "id": "b",
+          "label": "were believing"
+        },
+        {
+          "id": "c",
+          "label": "had been believing"
+        },
+        {
+          "id": "d",
+          "label": "have believed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng để nhấn mạnh một niềm tin hoặc quan điểm đã tồn tại trong một thời gian dài trước khi một sự kiện quá khứ làm thay đổi nó (policy was introduced)."
+  }
+]

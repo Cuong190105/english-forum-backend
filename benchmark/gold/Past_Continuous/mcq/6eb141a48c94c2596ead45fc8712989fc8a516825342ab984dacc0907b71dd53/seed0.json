@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "The narrator _____ the museum while she was waiting for her husband's meeting to end.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was touring"
+        },
+        {
+          "id": "b",
+          "label": "toured"
+        },
+        {
+          "id": "c",
+          "label": "tours"
+        },
+        {
+          "id": "d",
+          "label": "is touring"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Từ 'while' được dùng để diễn tả hai hành động xảy ra song song trong quá khứ. Cả hai hành động đều dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "The young couple _____ nonstop when the narrator first saw them in the gallery.",
+      "options": [
+        {
+          "id": "a",
+          "label": "chatted"
+        },
+        {
+          "id": "b",
+          "label": "chat"
+        },
+        {
+          "id": "c",
+          "label": "were chatting"
+        },
+        {
+          "id": "d",
+          "label": "have chatted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'trò chuyện' (dài) đang diễn ra thì hành động 'nhìn thấy' (ngắn) xen vào. Dùng quá khứ tiếp diễn cho hành động dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "I _____ at the gift shop counter when the blind man took out his white stick.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stood"
+        },
+        {
+          "id": "b",
+          "label": "was standing"
+        },
+        {
+          "id": "c",
+          "label": "am standing"
+        },
+        {
+          "id": "d",
+          "label": "stand"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một hành động đang diễn ra (đứng ở quầy) thì một hành động khác xen vào (người đàn ông lấy gậy ra). Dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "At the beginning of the story, the narrator _____ forward to a quiet afternoon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "looked"
+        },
+        {
+          "id": "b",
+          "label": "looks"
+        },
+        {
+          "id": "c",
+          "label": "has looked"
+        },
+        {
+          "id": "d",
+          "label": "was looking"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Thì quá khứ tiếp diễn được dùng để mô tả bối cảnh hoặc một trạng thái đang diễn ra tại một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "What _____ the wife _____ while her husband listened intently?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / do"
+        },
+        {
+          "id": "b",
+          "label": "was / doing"
+        },
+        {
+          "id": "c",
+          "label": "is / doing"
+        },
+        {
+          "id": "d",
+          "label": "does / do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Câu hỏi về hai hành động xảy ra đồng thời trong quá khứ (vợ đang làm gì trong khi chồng đang lắng nghe). Dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "The narrator decided the wife _____ all the talking because she spoke without stopping.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "was doing"
+        },
+        {
+          "id": "d",
+          "label": "has done"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả một hành động đang diễn ra liên tục tại một thời điểm trong quá khứ khi người kể chuyện quan sát họ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "While the clerk _____ the man's story, the narrator was learning a lesson about courage.",
+      "options": [
+        {
+          "id": "a",
+          "label": "told"
+        },
+        {
+          "id": "b",
+          "label": "was telling"
+        },
+        {
+          "id": "c",
+          "label": "tells"
+        },
+        {
+          "id": "d",
+          "label": "is telling"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Từ 'while' nối hai hành động kéo dài, xảy ra song song trong quá khứ. Cả hai vế đều nên dùng thì quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "The narrator _____ through the different rooms when she kept meeting the same couple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "moved"
+        },
+        {
+          "id": "b",
+          "label": "moves"
+        },
+        {
+          "id": "c",
+          "label": "was moving"
+        },
+        {
+          "id": "d",
+          "label": "has moved"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'di chuyển' là hành động nền, đang diễn ra thì bị hành động 'liên tục gặp' xen vào. Dùng quá khứ tiếp diễn cho hành động nền."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "At 4 o'clock yesterday afternoon, the couple _____ away from the museum hand in hand.",
+      "options": [
+        {
+          "id": "a",
+          "label": "walked"
+        },
+        {
+          "id": "b",
+          "label": "were walking"
+        },
+        {
+          "id": "c",
+          "label": "walk"
+        },
+        {
+          "id": "d",
+          "label": "have walked"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ (At 4 o'clock yesterday afternoon)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "The husband _____ at the paintings; he was seeing them through his wife's words.",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't look"
+        },
+        {
+          "id": "b",
+          "label": "doesn't look"
+        },
+        {
+          "id": "c",
+          "label": "isn't looking"
+        },
+        {
+          "id": "d",
+          "label": "wasn't looking"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Diễn tả hai hành động song song trong quá khứ: anh ấy không đang nhìn tranh mà đang 'thấy' chúng qua lời vợ. Dùng quá khứ tiếp diễn."
+  }
+]

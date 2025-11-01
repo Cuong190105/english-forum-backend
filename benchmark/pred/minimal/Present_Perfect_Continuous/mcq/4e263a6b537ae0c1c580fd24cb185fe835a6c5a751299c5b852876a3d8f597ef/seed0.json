@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "For many years, the global population _____ rapidly, putting immense pressure on natural resources.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has grown"
+        },
+        {
+          "id": "b",
+          "label": "is growing"
+        },
+        {
+          "id": "c",
+          "label": "has been growing"
+        },
+        {
+          "id": "d",
+          "label": "grew"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (has been + V-ing) dùng để diễn tả hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nhấn mạnh tính liên tục của hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "Environmentalists _____ the rapid destruction of rainforests for decades, but the problem persists.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have observed"
+        },
+        {
+          "id": "b",
+          "label": "are observing"
+        },
+        {
+          "id": "c",
+          "label": "have been observing"
+        },
+        {
+          "id": "d",
+          "label": "observed"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been + V-ing) diễn tả hành động quan sát đã bắt đầu từ lâu và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "Despite numerous warnings, people _____ down rainforests at an alarming rate for economic gain.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cut"
+        },
+        {
+          "id": "b",
+          "label": "have cut"
+        },
+        {
+          "id": "c",
+          "label": "have been cutting"
+        },
+        {
+          "id": "d",
+          "label": "are cutting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been + V-ing) nhấn mạnh hành động chặt phá rừng đã diễn ra liên tục từ quá khứ đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "For a long time, Brazil _____ vast areas of its rainforests, leading to significant environmental concerns.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has chopped down"
+        },
+        {
+          "id": "b",
+          "label": "is chopping down"
+        },
+        {
+          "id": "c",
+          "label": "has been chopping down"
+        },
+        {
+          "id": "d",
+          "label": "chopped down"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (has been + V-ing) dùng để chỉ hành động chặt phá rừng đã và đang diễn ra liên tục trong một khoảng thời gian dài."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "In many countries, local communities _____ their traditional ways of life as deforestation continues to threaten their habitats.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lose"
+        },
+        {
+          "id": "b",
+          "label": "have lost"
+        },
+        {
+          "id": "c",
+          "label": "have been losing"
+        },
+        {
+          "id": "d",
+          "label": "are losing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been + V-ing) diễn tả sự mất mát đang diễn ra liên tục và chưa kết thúc."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "Researchers _____ the rate of rainforest destruction for years, but the exact figures still vary among organizations.",
+      "options": [
+        {
+          "id": "a",
+          "label": "estimate"
+        },
+        {
+          "id": "b",
+          "label": "have estimated"
+        },
+        {
+          "id": "c",
+          "label": "have been estimating"
+        },
+        {
+          "id": "d",
+          "label": "are estimating"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been + V-ing) nhấn mạnh quá trình ước tính đã diễn ra liên tục trong nhiều năm và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "Since the industrial revolution, humanity _____ natural resources at an unsustainable pace, causing widespread environmental damage.",
+      "options": [
+        {
+          "id": "a",
+          "label": "depletes"
+        },
+        {
+          "id": "b",
+          "label": "has depleted"
+        },
+        {
+          "id": "c",
+          "label": "has been depleting"
+        },
+        {
+          "id": "d",
+          "label": "is depleting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (has been + V-ing) diễn tả hành động khai thác tài nguyên đã bắt đầu từ quá khứ và vẫn đang tiếp diễn mạnh mẽ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "Scientists _____ the increasing levels of pollution in the atmosphere and oceans for decades, warning about its long-term effects.",
+      "options": [
+        {
+          "id": "a",
+          "label": "monitor"
+        },
+        {
+          "id": "b",
+          "label": "have monitored"
+        },
+        {
+          "id": "c",
+          "label": "have been monitoring"
+        },
+        {
+          "id": "d",
+          "label": "are monitoring"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been + V-ing) nhấn mạnh hành động theo dõi đã diễn ra liên tục trong nhiều thập kỷ và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "For years, environmental organizations _____ for stricter policies to protect rainforests and limit population growth.",
+      "options": [
+        {
+          "id": "a",
+          "label": "advocate"
+        },
+        {
+          "id": "b",
+          "label": "have advocated"
+        },
+        {
+          "id": "c",
+          "label": "have been advocating"
+        },
+        {
+          "id": "d",
+          "label": "are advocating"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been + V-ing) diễn tả hành động vận động đã bắt đầu từ quá khứ và vẫn đang tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "The continuous demand for land and wood products means that humans _____ rainforests for centuries.",
+      "options": [
+        {
+          "id": "a",
+          "label": "destroy"
+        },
+        {
+          "id": "b",
+          "label": "have destroyed"
+        },
+        {
+          "id": "c",
+          "label": "have been destroying"
+        },
+        {
+          "id": "d",
+          "label": "are destroying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại hoàn thành tiếp diễn (have been + V-ing) nhấn mạnh hành động phá hủy rừng đã diễn ra liên tục trong nhiều thế kỷ và vẫn còn tiếp diễn."
+  }
+]

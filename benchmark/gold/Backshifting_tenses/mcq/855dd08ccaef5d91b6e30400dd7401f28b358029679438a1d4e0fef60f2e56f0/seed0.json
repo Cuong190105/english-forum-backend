@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_001",
+      "prompt": "The designer said, \"We are always traveling for work.\" She explained that they _______ always traveling for work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "were"
+        },
+        {
+          "id": "c",
+          "label": "have been"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi động từ tường thuật ở quá khứ (explained), thì hiện tại đơn (are) phải lùi về quá khứ đơn (were)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_002",
+      "prompt": "The agent said, \"It seems you are carrying a dangerous object now.\" He told them it seemed they _______ a dangerous object then.",
+      "options": [
+        {
+          "id": "a",
+          "label": "are carrying"
+        },
+        {
+          "id": "b",
+          "label": "carried"
+        },
+        {
+          "id": "c",
+          "label": "were carrying"
+        },
+        {
+          "id": "d",
+          "label": "had been carrying"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì hiện tại tiếp diễn (are carrying) lùi về quá khứ tiếp diễn (were carrying) trong câu tường thuật. 'Now' cũng được đổi thành 'then'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_003",
+      "prompt": "She said, \"We've become accustomed to arriving early.\" She mentioned that they _______ accustomed to arriving early.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have become"
+        },
+        {
+          "id": "b",
+          "label": "became"
+        },
+        {
+          "id": "c",
+          "label": "were becoming"
+        },
+        {
+          "id": "d",
+          "label": "had become"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Thì hiện tại hoàn thành (have become) phải lùi về quá khứ hoàn thành (had become) khi động từ tường thuật ở quá khứ (mentioned)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_004",
+      "prompt": "She thought, \"Maybe someone put something in our bags yesterday.\" She was concerned that someone _______ something in their bags the day before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "put"
+        },
+        {
+          "id": "b",
+          "label": "has put"
+        },
+        {
+          "id": "c",
+          "label": "had put"
+        },
+        {
+          "id": "d",
+          "label": "was putting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ đơn (put) lùi về quá khứ hoàn thành (had put) trong câu tường thuật. 'Yesterday' đổi thành 'the day before'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_005",
+      "prompt": "They said, \"We will send the agents a thank-you gift.\" They promised that they _______ the agents a thank-you gift.",
+      "options": [
+        {
+          "id": "a",
+          "label": "will send"
+        },
+        {
+          "id": "b",
+          "label": "would send"
+        },
+        {
+          "id": "c",
+          "label": "sent"
+        },
+        {
+          "id": "d",
+          "label": "had sent"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong lời nói gián tiếp, 'will' phải được lùi thì thành 'would' khi động từ tường thuật ở quá khứ (promised)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_006",
+      "prompt": "The designer said, \"We can't pack lightly for our trips.\" She explained that they _______ pack lightly for their trips.",
+      "options": [
+        {
+          "id": "a",
+          "label": "can't"
+        },
+        {
+          "id": "b",
+          "label": "won't"
+        },
+        {
+          "id": "c",
+          "label": "couldn't"
+        },
+        {
+          "id": "d",
+          "label": "mustn't"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ khuyết thiếu 'can't' phải được lùi về quá khứ thành 'couldn't' trong câu tường thuật."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_007",
+      "prompt": "She told the agent, \"This is just a necklace from our collection.\" She explained that that _______ just a necklace from their collection.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi tường thuật, 'this' đổi thành 'that', và động từ 'is' phải lùi thì thành 'was'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_008",
+      "prompt": "She asked the agent, \"What are you looking for?\" She kept asking the agent what he _______ for.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is he looking"
+        },
+        {
+          "id": "b",
+          "label": "was he looking"
+        },
+        {
+          "id": "c",
+          "label": "is looking"
+        },
+        {
+          "id": "d",
+          "label": "was looking"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Trong câu hỏi tường thuật, thì hiện tại tiếp diễn (are looking) lùi về quá khứ tiếp diễn (was looking) và không đảo ngữ (he was looking)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_009",
+      "prompt": "The agent repeated, \"I believe it is a weapon.\" The agent kept repeating that he _______ it was a weapon.",
+      "options": [
+        {
+          "id": "a",
+          "label": "believes"
+        },
+        {
+          "id": "b",
+          "label": "believed"
+        },
+        {
+          "id": "c",
+          "label": "has believed"
+        },
+        {
+          "id": "d",
+          "label": "was believing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Khi động từ tường thuật ở quá khứ (repeated), thì hiện tại đơn (believe) phải lùi về quá khứ đơn (believed)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "bs_010",
+      "prompt": "She said, \"We got back from Paris last month.\" She told her friend that they _______ back from Paris the month before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "got"
+        },
+        {
+          "id": "b",
+          "label": "have gotten"
+        },
+        {
+          "id": "c",
+          "label": "had gotten"
+        },
+        {
+          "id": "d",
+          "label": "were getting"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ đơn (got) phải lùi về quá khứ hoàn thành (had gotten). 'Last month' cũng được đổi thành 'the month before'."
+  }
+]

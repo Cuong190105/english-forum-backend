@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My brother decided _____ a summer job at the local supermarket.",
+      "options": [
+        {
+          "id": "a",
+          "label": "taking"
+        },
+        {
+          "id": "b",
+          "label": "to take"
+        },
+        {
+          "id": "c",
+          "label": "take"
+        },
+        {
+          "id": "d",
+          "label": "taken"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"decide\" thường theo sau bởi động từ nguyên mẫu có \"to\" (to-V) để chỉ mục đích hoặc hành động được quyết định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Many teenagers enjoy _____ outdoor activities during their summer break.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to do"
+        },
+        {
+          "id": "b",
+          "label": "doing"
+        },
+        {
+          "id": "c",
+          "label": "do"
+        },
+        {
+          "id": "d",
+          "label": "done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ \"enjoy\" luôn được theo sau bởi một động từ ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "Instead of _____ money, some kids prefer to volunteer their time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to earn"
+        },
+        {
+          "id": "b",
+          "label": "earn"
+        },
+        {
+          "id": "c",
+          "label": "earning"
+        },
+        {
+          "id": "d",
+          "label": "earned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ (như \"instead of\"), động từ luôn ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Parents often want their children _____ new skills during the holidays.",
+      "options": [
+        {
+          "id": "a",
+          "label": "learning"
+        },
+        {
+          "id": "b",
+          "label": "learn"
+        },
+        {
+          "id": "c",
+          "label": "to learn"
+        },
+        {
+          "id": "d",
+          "label": "learned"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc \"want someone to do something\" (muốn ai đó làm gì) yêu cầu động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "He tried to avoid _____ his parents about his low grades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "telling"
+        },
+        {
+          "id": "b",
+          "label": "to tell"
+        },
+        {
+          "id": "c",
+          "label": "tell"
+        },
+        {
+          "id": "d",
+          "label": "told"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Động từ \"avoid\" luôn được theo sau bởi một động từ ở dạng V-ing."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "It's not always easy _____ a suitable summer job.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finding"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau các tính từ chỉ đặc điểm (như \"easy\"), chúng ta thường dùng động từ nguyên mẫu có \"to\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "She stopped _____ a quick snack before continuing her work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "eating"
+        },
+        {
+          "id": "b",
+          "label": "to eat"
+        },
+        {
+          "id": "c",
+          "label": "eat"
+        },
+        {
+          "id": "d",
+          "label": "eaten"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Stop to-V\" nghĩa là dừng lại để làm gì đó, còn \"stop V-ing\" nghĩa là ngừng hẳn việc đang làm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Don't forget _____ your application form by Friday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "submitting"
+        },
+        {
+          "id": "b",
+          "label": "to submit"
+        },
+        {
+          "id": "c",
+          "label": "submit"
+        },
+        {
+          "id": "d",
+          "label": "submitted"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "\"Forget to-V\" nghĩa là quên làm một việc cần làm, còn \"forget V-ing\" nghĩa là quên một việc đã làm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "I'm really looking forward to _____ my friends again this summer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "see"
+        },
+        {
+          "id": "b",
+          "label": "to see"
+        },
+        {
+          "id": "c",
+          "label": "seeing"
+        },
+        {
+          "id": "d",
+          "label": "seen"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cụm từ \"look forward to\" luôn được theo sau bởi một động từ ở dạng V-ing, vì \"to\" ở đây là giới từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The career counselor suggested _____ a part-time job to gain experience.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to get"
+        },
+        {
+          "id": "b",
+          "label": "get"
+        },
+        {
+          "id": "c",
+          "label": "getting"
+        },
+        {
+          "id": "d",
+          "label": "got"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Động từ \"suggest\" luôn được theo sau bởi một động từ ở dạng V-ing."
+  }
+]

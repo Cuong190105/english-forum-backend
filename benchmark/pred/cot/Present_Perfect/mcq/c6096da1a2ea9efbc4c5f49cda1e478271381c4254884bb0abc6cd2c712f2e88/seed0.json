@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "_____ you ever played video games at a hospital?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did"
+        },
+        {
+          "id": "b",
+          "label": "Have"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Ever” thường dùng với thì Hiện tại hoàn thành để hỏi về trải nghiệm đã từng xảy ra trong đời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "Dr. Mathews _____ video games since he was a child.",
+      "options": [
+        {
+          "id": "a",
+          "label": "loved"
+        },
+        {
+          "id": "b",
+          "label": "has loved"
+        },
+        {
+          "id": "c",
+          "label": "loves"
+        },
+        {
+          "id": "d",
+          "label": "is loving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since” chỉ một hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nên dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "I _____ just _____ the news about the HOPE program. It sounds amazing!",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / heard"
+        },
+        {
+          "id": "b",
+          "label": "did / hear"
+        },
+        {
+          "id": "c",
+          "label": "am / hearing"
+        },
+        {
+          "id": "d",
+          "label": "had / heard"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Just” thường đi với thì Hiện tại hoàn thành để diễn tả hành động vừa mới xảy ra và có liên quan đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "The children _____ their dialysis treatment three times this week.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "have had"
+        },
+        {
+          "id": "c",
+          "label": "are having"
+        },
+        {
+          "id": "d",
+          "label": "will have"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“This week” là khoảng thời gian chưa kết thúc, nên dùng thì Hiện tại hoàn thành để chỉ hành động đã xảy ra trong khoảng thời gian đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "Many doctors _____ already _____ that reducing pain helps patients heal faster.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / known"
+        },
+        {
+          "id": "b",
+          "label": "had / known"
+        },
+        {
+          "id": "c",
+          "label": "knew"
+        },
+        {
+          "id": "d",
+          "label": "know"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Already” thường dùng với thì Hiện tại hoàn thành để diễn tả một hành động đã xảy ra trước thời điểm hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "Since his recovery, Ben Duskin _____ a video game to help other cancer patients.",
+      "options": [
+        {
+          "id": "a",
+          "label": "designed"
+        },
+        {
+          "id": "b",
+          "label": "has designed"
+        },
+        {
+          "id": "c",
+          "label": "designs"
+        },
+        {
+          "id": "d",
+          "label": "is designing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since his recovery” chỉ một hành động bắt đầu trong quá khứ và có kết quả đến hiện tại, dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "The HOPE program _____ for several months, helping many young patients.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ran"
+        },
+        {
+          "id": "b",
+          "label": "has run"
+        },
+        {
+          "id": "c",
+          "label": "is running"
+        },
+        {
+          "id": "d",
+          "label": "runs"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“For several months” chỉ khoảng thời gian hành động đã diễn ra và vẫn còn tiếp diễn hoặc có liên quan đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "I _____ never _____ such a helpful program for sick children before.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / seen"
+        },
+        {
+          "id": "b",
+          "label": "did / see"
+        },
+        {
+          "id": "c",
+          "label": "am / seeing"
+        },
+        {
+          "id": "d",
+          "label": "had / seen"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Never” thường dùng với thì Hiện tại hoàn thành để diễn tả trải nghiệm chưa từng có cho đến thời điểm hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "Researchers _____ recently _____ new ways to use video games in therapy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / explored"
+        },
+        {
+          "id": "b",
+          "label": "explored"
+        },
+        {
+          "id": "c",
+          "label": "are exploring"
+        },
+        {
+          "id": "d",
+          "label": "had / explored"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Recently” là dấu hiệu của thì Hiện tại hoàn thành, chỉ hành động xảy ra gần đây và có liên quan đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "The doctors at the children's center _____ that kids with game players are less worried.",
+      "options": [
+        {
+          "id": "a",
+          "label": "noticed"
+        },
+        {
+          "id": "b",
+          "label": "have noticed"
+        },
+        {
+          "id": "c",
+          "label": "notice"
+        },
+        {
+          "id": "d",
+          "label": "are noticing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “noticed” xảy ra trong quá khứ nhưng kết quả vẫn còn đúng và có ảnh hưởng đến hiện tại, nên dùng Hiện tại hoàn thành."
+  }
+]

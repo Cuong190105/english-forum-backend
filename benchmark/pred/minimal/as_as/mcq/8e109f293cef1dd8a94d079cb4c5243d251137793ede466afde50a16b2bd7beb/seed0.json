@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "My new phone is _____ fast as yours.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "like"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là \"as + tính từ/trạng từ + as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "She sings _____ beautifully as a professional singer.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "than"
+        },
+        {
+          "id": "c",
+          "label": "like"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là \"as + tính từ/trạng từ + as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The new movie was not _____ interesting as the previous one.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "more"
+        },
+        {
+          "id": "c",
+          "label": "like"
+        },
+        {
+          "id": "d",
+          "label": "than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, chúng ta dùng \"not as...as\" hoặc \"not so...as\" để so sánh bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "He can run _____ fast as a cheetah.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "like"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + trạng từ + as\" dùng để so sánh hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "She drives _____ carefully as her instructor.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "most"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Sau \"as\" đầu tiên là trạng từ \"carefully\" vì nó bổ nghĩa cho động từ \"drives\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "I have _____ many books as you do.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "too"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"as many as\" hoặc \"as much as\" để so sánh số lượng hoặc khối lượng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Please finish the report _____ soon as possible.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "much"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"as soon as possible\" có nghĩa là \"càng sớm càng tốt\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "It's not _____ good a day as yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "very"
+        },
+        {
+          "id": "d",
+          "label": "too"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + tính từ + a/an + danh từ + as\" là cách dùng đúng khi có mạo từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "He looks _____ his father, but he isn't _____ tall as him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like / as"
+        },
+        {
+          "id": "b",
+          "label": "as / like"
+        },
+        {
+          "id": "c",
+          "label": "like / like"
+        },
+        {
+          "id": "d",
+          "label": "as / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Look like\" nghĩa là trông giống ai đó, còn \"as tall as\" là so sánh chiều cao."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "This task is _____ difficult as the previous one, but not _____ difficult than that.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / more"
+        },
+        {
+          "id": "b",
+          "label": "more / as"
+        },
+        {
+          "id": "c",
+          "label": "as / as"
+        },
+        {
+          "id": "d",
+          "label": "more / more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"As difficult as\" dùng để so sánh bằng, còn \"more difficult than\" dùng để so sánh hơn."
+  }
+]

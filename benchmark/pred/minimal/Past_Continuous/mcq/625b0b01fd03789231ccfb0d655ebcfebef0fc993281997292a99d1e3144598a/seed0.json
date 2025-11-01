@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_001",
+      "prompt": "Early that day, the weather turned and the snow ____ into dirty water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "melted"
+        },
+        {
+          "id": "b",
+          "label": "was melting"
+        },
+        {
+          "id": "c",
+          "label": "had melted"
+        },
+        {
+          "id": "d",
+          "label": "melts"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn diễn tả hành động đang xảy ra tại một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_002",
+      "prompt": "Cars slushed by on the street outside, where it ____ dark.",
+      "options": [
+        {
+          "id": "a",
+          "label": "got"
+        },
+        {
+          "id": "b",
+          "label": "was getting"
+        },
+        {
+          "id": "c",
+          "label": "had gotten"
+        },
+        {
+          "id": "d",
+          "label": "is getting"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả một hành động đang diễn ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_003",
+      "prompt": "He ____ clothes into a suitcase when she came to the door.",
+      "options": [
+        {
+          "id": "a",
+          "label": "pushed"
+        },
+        {
+          "id": "b",
+          "label": "was pushing"
+        },
+        {
+          "id": "c",
+          "label": "had pushed"
+        },
+        {
+          "id": "d",
+          "label": "pushes"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động đang diễn ra (quá khứ tiếp diễn) bị một hành động khác (quá khứ đơn) cắt ngang."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_004",
+      "prompt": "While he ____ his things into the suitcase, she ____ at the door.",
+      "options": [
+        {
+          "id": "a",
+          "label": "put / stood"
+        },
+        {
+          "id": "b",
+          "label": "was putting / was standing"
+        },
+        {
+          "id": "c",
+          "label": "put / was standing"
+        },
+        {
+          "id": "d",
+          "label": "was putting / stood"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động đang diễn ra song song trong quá khứ đều dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_005",
+      "prompt": "At that moment, the baby ____ and she uncovered the blanket.",
+      "options": [
+        {
+          "id": "a",
+          "label": "began to cry"
+        },
+        {
+          "id": "b",
+          "label": "was beginning to cry"
+        },
+        {
+          "id": "c",
+          "label": "had begun to cry"
+        },
+        {
+          "id": "d",
+          "label": "begins to cry"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động đang bắt đầu xảy ra tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_006",
+      "prompt": "While she ____ in the doorway of the kitchen, he ____ for the baby.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stood / asked"
+        },
+        {
+          "id": "b",
+          "label": "was standing / was asking"
+        },
+        {
+          "id": "c",
+          "label": "stood / was asking"
+        },
+        {
+          "id": "d",
+          "label": "was standing / asked"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động đang diễn ra (quá khứ tiếp diễn) bị một hành động khác (quá khứ đơn) cắt ngang."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_007",
+      "prompt": "The baby ____ red-faced and ____ loudly during the scuffle.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was / screamed"
+        },
+        {
+          "id": "b",
+          "label": "was / was screaming"
+        },
+        {
+          "id": "c",
+          "label": "is / screaming"
+        },
+        {
+          "id": "d",
+          "label": "had been / screamed"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động đang diễn ra song song trong quá khứ đều dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_008",
+      "prompt": "In the near-dark, he ____ on her fisted fingers with one hand while he ____ the screaming baby with the other.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked / gripped"
+        },
+        {
+          "id": "b",
+          "label": "was working / was gripping"
+        },
+        {
+          "id": "c",
+          "label": "worked / was gripping"
+        },
+        {
+          "id": "d",
+          "label": "was working / gripped"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hai hành động đang diễn ra đồng thời trong quá khứ đều dùng quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_009",
+      "prompt": "She ____ for the baby's other arm when he ____ the baby slipping.",
+      "options": [
+        {
+          "id": "a",
+          "label": "grabbed / felt"
+        },
+        {
+          "id": "b",
+          "label": "was grabbing / was feeling"
+        },
+        {
+          "id": "c",
+          "label": "grabbed / was feeling"
+        },
+        {
+          "id": "d",
+          "label": "was grabbing / felt"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động đang diễn ra (quá khứ tiếp diễn) bị một hành động khác (quá khứ đơn) cắt ngang."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "past_cont_010",
+      "prompt": "Before turning off the light, he ____ around the bedroom.",
+      "options": [
+        {
+          "id": "a",
+          "label": "looked"
+        },
+        {
+          "id": "b",
+          "label": "was looking"
+        },
+        {
+          "id": "c",
+          "label": "had looked"
+        },
+        {
+          "id": "d",
+          "label": "looks"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả một hành động đang diễn ra trong quá khứ tại một thời điểm cụ thể hoặc trước một hành động khác."
+  }
+]

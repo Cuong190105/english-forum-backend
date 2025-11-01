@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "The \"Funny\" emoji is now _____ popular _____ it was when first released in 2013.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "more / than"
+        },
+        {
+          "id": "c",
+          "label": "so / that"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là \"as + tính từ/trạng từ + as\". Các lựa chọn khác không phù hợp với ngữ cảnh so sánh ngang bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "The original emoji was not _____ widely recognized _____ the updated \"Funny\" version is today.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / that"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh không bằng là \"not as/so + tính từ/trạng từ + as\". \"So...that\" dùng cho kết quả, không phải so sánh."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "Japanese customers are willing to pay three times _____ much for a bolster in Japan _____ it costs in China.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / that"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"số lần + as much/many as\" dùng để so sánh số lượng hoặc giá cả. \"More...than\" dùng cho so sánh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "In Egypt, Yao Ming's emoji appeared on traffic signs _____ many times _____ the \"Funny\" emoji has appeared in Chinese social media comments.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / that"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"as many as\" để so sánh số lượng danh từ đếm được. \"So...that\" diễn tả nguyên nhân-kết quả."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "Emojis help people express their views _____ vividly _____ words alone can.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "more / than"
+        },
+        {
+          "id": "c",
+          "label": "so / that"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + trạng từ + as\" dùng để so sánh mức độ của hành động. \"More...than\" là so sánh hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "To make the emoji campaign successful, we need to reach _____ many users _____ possible.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / that"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"as...as possible\" có nghĩa là \"càng...càng tốt\", diễn tả mức độ tối đa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "The \"Funny\" emoji is not exactly _____ same _____ its original version; it has a smiley mouth and eyebrows.",
+      "options": [
+        {
+          "id": "a",
+          "label": "the / as"
+        },
+        {
+          "id": "b",
+          "label": "as / as"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "so / that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"the same as\" dùng để chỉ sự giống nhau. \"As...as\" dùng cho so sánh bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "The \"Funny\" emoji is considered _____ popular an emoji _____ any other released in 2013.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / that"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + tính từ + a/an + danh từ + as\" dùng để so sánh bằng với danh từ số ít."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "Emojis can help foreigners learn about Chinese culture _____ well _____ express their views.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / that"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"as well as\" có nghĩa là \"cũng như\", dùng để bổ sung thông tin hoặc liệt kê."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "We should address the issue of proper emoji usage _____ soon _____ possible to avoid hurting others.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / that"
+        },
+        {
+          "id": "c",
+          "label": "more / than"
+        },
+        {
+          "id": "d",
+          "label": "too / to"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"as soon as possible\" có nghĩa là \"càng sớm càng tốt\", diễn tả sự khẩn cấp về thời gian."
+  }
+]

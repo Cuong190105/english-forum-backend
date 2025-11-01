@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Kenny and Taron _____ home from a job when Rita flagged them down.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was driving"
+        },
+        {
+          "id": "b",
+          "label": "were driving"
+        },
+        {
+          "id": "c",
+          "label": "drove"
+        },
+        {
+          "id": "d",
+          "label": "had driven"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì quá khứ tiếp diễn (were driving) để diễn tả hành động đang xảy ra trong quá khứ thì một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Pamela and Rita _____ at a red light on Cobb's Creek Parkway when the SUV turned across traffic.",
+      "options": [
+        {
+          "id": "a",
+          "label": "stopped"
+        },
+        {
+          "id": "b",
+          "label": "were stopping"
+        },
+        {
+          "id": "c",
+          "label": "were stopped"
+        },
+        {
+          "id": "d",
+          "label": "had stopped"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Diễn tả trạng thái đang diễn ra trong quá khứ (đang dừng) thì một hành động khác xen vào. Đây là thể bị động của quá khứ tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "While the SUV _____ down the embankment, Pamela quickly pulled over and dialed 911.",
+      "options": [
+        {
+          "id": "a",
+          "label": "plunged"
+        },
+        {
+          "id": "b",
+          "label": "was plunging"
+        },
+        {
+          "id": "c",
+          "label": "had plunged"
+        },
+        {
+          "id": "d",
+          "label": "is plunging"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì quá khứ tiếp diễn (was plunging) để diễn tả hành động đang xảy ra song song với hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Before they saw the SUV, Kenny and Taron _____ home from work.",
+      "options": [
+        {
+          "id": "a",
+          "label": "drove"
+        },
+        {
+          "id": "b",
+          "label": "were driving"
+        },
+        {
+          "id": "c",
+          "label": "had driven"
+        },
+        {
+          "id": "d",
+          "label": "drive"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động đang diễn ra trong quá khứ (were driving) trước khi một sự kiện khác xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Cheryl _____ partially in water when Kenny broke the window to rescue her.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was lying"
+        },
+        {
+          "id": "b",
+          "label": "lay"
+        },
+        {
+          "id": "c",
+          "label": "had lain"
+        },
+        {
+          "id": "d",
+          "label": "is lying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả trạng thái đang diễn ra trong quá khứ (was lying) khi một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "While Taron _____ back to the truck for a box cutter, Kenny tried in vain to push the car.",
+      "options": [
+        {
+          "id": "a",
+          "label": "ran"
+        },
+        {
+          "id": "b",
+          "label": "was running"
+        },
+        {
+          "id": "c",
+          "label": "had run"
+        },
+        {
+          "id": "d",
+          "label": "is running"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì quá khứ tiếp diễn (was running) để diễn tả hai hành động đang xảy ra song song trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Marcell Porter _____ to the site when he saw the accident.",
+      "options": [
+        {
+          "id": "a",
+          "label": "walked"
+        },
+        {
+          "id": "b",
+          "label": "was walking"
+        },
+        {
+          "id": "c",
+          "label": "had walked"
+        },
+        {
+          "id": "d",
+          "label": "walks"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động đang diễn ra trong quá khứ (was walking) thì một sự kiện bất ngờ xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The men _____ to pull Cheryl out of the car when Pamela yelled, \"Give her CPR!\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "tried"
+        },
+        {
+          "id": "b",
+          "label": "were trying"
+        },
+        {
+          "id": "c",
+          "label": "had tried"
+        },
+        {
+          "id": "d",
+          "label": "try"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động đang diễn ra trong quá khứ (were trying) thì một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "A woman's leg _____ out the driver's side window when Kenny and Taron looked over the cliff.",
+      "options": [
+        {
+          "id": "a",
+          "label": "swung"
+        },
+        {
+          "id": "b",
+          "label": "was swinging"
+        },
+        {
+          "id": "c",
+          "label": "had swung"
+        },
+        {
+          "id": "d",
+          "label": "swings"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Diễn tả hành động đang diễn ra trong quá khứ (was swinging) tại thời điểm một hành động khác xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "That summer, the heat _____ intensely, which Cheryl believed contributed to her passing out.",
+      "options": [
+        {
+          "id": "a",
+          "label": "burned"
+        },
+        {
+          "id": "b",
+          "label": "was burning"
+        },
+        {
+          "id": "c",
+          "label": "had burned"
+        },
+        {
+          "id": "d",
+          "label": "is burning"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng thì quá khứ tiếp diễn (was burning) để diễn tả một tình trạng kéo dài hoặc một hành động đang diễn ra trong một khoảng thời gian cụ thể trong quá khứ."
+  }
+]

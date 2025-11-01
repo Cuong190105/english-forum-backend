@@ -1,0 +1,4 @@
+run_id,metric,n_pairs,delta_mean,delta_std,delta_se,delta_ci95_low,delta_ci95_high,delta_binomial_p
+20251029_161124_claude_deepseek,semantic,60,0.0154,0.0561,0.0072,0.0012,0.0296,0.366294
+20251029_161124_claude_deepseek,judge,60,0.0458,0.2022,0.0261,-0.0053,0.0970,0.381693
+20251029_161124_claude_deepseek,judge2,60,0.0458,0.2022,0.0261,-0.0053,0.0970,0.381693

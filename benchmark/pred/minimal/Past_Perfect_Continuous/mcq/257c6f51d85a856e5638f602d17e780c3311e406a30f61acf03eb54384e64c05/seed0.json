@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Before the Old Gentleman arrived, Pete _____ on the bench for a while, expecting his usual Thanksgiving tradition.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been sitting"
+        },
+        {
+          "id": "b",
+          "label": "had sat"
+        },
+        {
+          "id": "c",
+          "label": "was sitting"
+        },
+        {
+          "id": "d",
+          "label": "sat"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ hoàn thành tiếp diễn nhấn mạnh hành động ngồi kéo dài trong một khoảng thời gian trước một sự kiện khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "For nine years, the Old Gentleman _____ to Union Square every Thanksgiving, looking for Pete.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been coming"
+        },
+        {
+          "id": "b",
+          "label": "had come"
+        },
+        {
+          "id": "c",
+          "label": "was coming"
+        },
+        {
+          "id": "d",
+          "label": "came"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động lặp đi lặp lại kéo dài trong quá khứ cho đến một thời điểm khác trong quá khứ, nhấn mạnh sự liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The servant _____ at the entrance for some time before Pete passed by.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been waiting"
+        },
+        {
+          "id": "b",
+          "label": "had waited"
+        },
+        {
+          "id": "c",
+          "label": "was waiting"
+        },
+        {
+          "id": "d",
+          "label": "waited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động chờ đợi diễn ra liên tục trong một khoảng thời gian trước khi một sự kiện khác xảy ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "The nurse discovered that the Old Gentleman _____ for three days, which explained his condition.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hadn't been eating"
+        },
+        {
+          "id": "b",
+          "label": "hadn't eaten"
+        },
+        {
+          "id": "c",
+          "label": "wasn't eating"
+        },
+        {
+          "id": "d",
+          "label": "didn't eat"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động không ăn kéo dài trong ba ngày cho đến khi được phát hiện trong quá khứ, nhấn mạnh thời gian."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "Pete's stomach hurt because he _____ too much food at the rich ladies' house.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been eating"
+        },
+        {
+          "id": "b",
+          "label": "had eaten"
+        },
+        {
+          "id": "c",
+          "label": "was eating"
+        },
+        {
+          "id": "d",
+          "label": "ate"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động ăn quá nhiều diễn ra liên tục và là nguyên nhân trực tiếp dẫn đến cơn đau bụng trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The Old Gentleman's appearance showed he _____ weaker and thinner over the past year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been getting"
+        },
+        {
+          "id": "b",
+          "label": "had gotten"
+        },
+        {
+          "id": "c",
+          "label": "was getting"
+        },
+        {
+          "id": "d",
+          "label": "got"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mô tả một quá trình thay đổi diễn ra liên tục trong một khoảng thời gian trước một điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "For nine years, Pete _____ to Union Square every Thanksgiving, following his tradition.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been going"
+        },
+        {
+          "id": "b",
+          "label": "had gone"
+        },
+        {
+          "id": "c",
+          "label": "was going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Nhấn mạnh hành động đi lại lặp đi lặp lại trong một khoảng thời gian dài trước một sự kiện trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "The Old Gentleman _____ to maintain the Thanksgiving tradition for years because he had no family.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been trying"
+        },
+        {
+          "id": "b",
+          "label": "had tried"
+        },
+        {
+          "id": "c",
+          "label": "was trying"
+        },
+        {
+          "id": "d",
+          "label": "tried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả nỗ lực liên tục kéo dài trong quá khứ cho đến một thời điểm khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Pete felt guilty because he _____ to hide the fact that he had already eaten.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been trying"
+        },
+        {
+          "id": "b",
+          "label": "had tried"
+        },
+        {
+          "id": "c",
+          "label": "was trying"
+        },
+        {
+          "id": "d",
+          "label": "tried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Mô tả một hành động cố gắng diễn ra liên tục trong tâm trí Pete trước khi anh ta quyết định đi ăn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The rich ladies _____ this custom for many Thanksgivings before Pete was brought in.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had been practicing"
+        },
+        {
+          "id": "b",
+          "label": "had practiced"
+        },
+        {
+          "id": "c",
+          "label": "were practicing"
+        },
+        {
+          "id": "d",
+          "label": "practiced"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động duy trì một phong tục diễn ra liên tục trong nhiều năm trước một sự kiện cụ thể trong quá khứ."
+  }
+]

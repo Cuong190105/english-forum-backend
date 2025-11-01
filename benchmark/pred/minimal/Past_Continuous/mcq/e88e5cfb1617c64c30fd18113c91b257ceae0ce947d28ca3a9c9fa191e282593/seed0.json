@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "What was the woman doing when Ken first saw her?",
+      "options": [
+        {
+          "id": "a",
+          "label": "She was standing still."
+        },
+        {
+          "id": "b",
+          "label": "She was riding a motorcycle after him."
+        },
+        {
+          "id": "c",
+          "label": "She was talking on the phone."
+        },
+        {
+          "id": "d",
+          "label": "She was waiting for him."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn dùng để diễn tả hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ, thường bị một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "While the woman was following him, what was Ken doing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He was walking slowly."
+        },
+        {
+          "id": "b",
+          "label": "He was riding very fast."
+        },
+        {
+          "id": "c",
+          "label": "He was calling his dad."
+        },
+        {
+          "id": "d",
+          "label": "He was hiding in a shop."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn thường được dùng để mô tả hai hành động song song đang diễn ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "How was Ken feeling while the woman was riding after him?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He was feeling excited."
+        },
+        {
+          "id": "b",
+          "label": "He was feeling calm."
+        },
+        {
+          "id": "c",
+          "label": "He was feeling very scared."
+        },
+        {
+          "id": "d",
+          "label": "He was feeling annoyed."
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Thì quá khứ tiếp diễn có thể mô tả trạng thái cảm xúc đang diễn ra trong một khoảng thời gian ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "What did Ken's mother ask him about his riding?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Why did he ride so fast?"
+        },
+        {
+          "id": "b",
+          "label": "Why was he riding so fast?"
+        },
+        {
+          "id": "c",
+          "label": "Why he rode so fast?"
+        },
+        {
+          "id": "d",
+          "label": "Why he was riding so fast?"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Đây là câu hỏi trực tiếp ở thì quá khứ tiếp diễn, dùng để hỏi về hành động đang diễn ra tại thời điểm đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "What was the weather like when Ken was riding his bike home?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It was sunny and warm."
+        },
+        {
+          "id": "b",
+          "label": "It was dark and cold."
+        },
+        {
+          "id": "c",
+          "label": "It was raining heavily."
+        },
+        {
+          "id": "d",
+          "label": "It was foggy and windy."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ đơn 'was' mô tả trạng thái hoặc điều kiện đang diễn ra trong quá khứ, làm bối cảnh cho hành động chính."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "What was Ken trying to do while he was riding fast?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He was trying to sing a song."
+        },
+        {
+          "id": "b",
+          "label": "He was trying to cry for help."
+        },
+        {
+          "id": "c",
+          "label": "He was trying to call the police."
+        },
+        {
+          "id": "d",
+          "label": "He was trying to find a shortcut."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn diễn tả một hành động đang diễn ra trong quá khứ, thường bị một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "What was the woman wearing when Ken saw her riding the motorcycle?",
+      "options": [
+        {
+          "id": "a",
+          "label": "She was wearing a black jacket."
+        },
+        {
+          "id": "b",
+          "label": "She was wearing a white dress."
+        },
+        {
+          "id": "c",
+          "label": "She was wearing a blue uniform."
+        },
+        {
+          "id": "d",
+          "label": "She was wearing a red scarf."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn có thể dùng để mô tả trang phục đang mặc tại thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "What was happening to the light outside when Ken left the shop?",
+      "options": [
+        {
+          "id": "a",
+          "label": "It was getting brighter."
+        },
+        {
+          "id": "b",
+          "label": "It was getting even darker."
+        },
+        {
+          "id": "c",
+          "label": "It was staying the same."
+        },
+        {
+          "id": "d",
+          "label": "It was starting to rain."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn 'was getting' diễn tả một quá trình đang diễn ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "Before Ken gave up, what was he doing?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He was riding slowly."
+        },
+        {
+          "id": "b",
+          "label": "He was riding very fast."
+        },
+        {
+          "id": "c",
+          "label": "He was talking to the woman."
+        },
+        {
+          "id": "d",
+          "label": "He was looking for his phone."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn mô tả hành động đang diễn ra liên tục trước một sự kiện khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "What was Ken doing on his way home from the shop?",
+      "options": [
+        {
+          "id": "a",
+          "label": "He was walking with his dad."
+        },
+        {
+          "id": "b",
+          "label": "He was riding his bike."
+        },
+        {
+          "id": "c",
+          "label": "He was driving a car."
+        },
+        {
+          "id": "d",
+          "label": "He was waiting for a bus."
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Thì quá khứ tiếp diễn dùng để diễn tả một hành động đang diễn ra trong một khoảng thời gian ở quá khứ."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_01",
+      "prompt": "According to the text, the emoji bolster in Japan is more than three times _____ it is in China.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as expensive as"
+        },
+        {
+          "id": "b",
+          "label": "as expensive than"
+        },
+        {
+          "id": "c",
+          "label": "more expensive as"
+        },
+        {
+          "id": "d",
+          "label": "so expensive that"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là 'as + tính từ + as'. 'Than' dùng cho so sánh hơn, không dùng trong cấu trúc này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_02",
+      "prompt": "Emojis help people express their views _____ words can.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as vivid as"
+        },
+        {
+          "id": "b",
+          "label": "vividly as"
+        },
+        {
+          "id": "c",
+          "label": "as vividly as"
+        },
+        {
+          "id": "d",
+          "label": "as more vivid as"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cần một trạng từ (vividly) để bổ nghĩa cho động từ 'express'. Cấu trúc đúng là 'as + trạng từ + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_03",
+      "prompt": "In Egypt, many locals are not _____ Yao Ming as they are with his emoji.",
+      "options": [
+        {
+          "id": "a",
+          "label": "familiar so"
+        },
+        {
+          "id": "b",
+          "label": "as familiar as"
+        },
+        {
+          "id": "c",
+          "label": "as familiar than"
+        },
+        {
+          "id": "d",
+          "label": "more familiar as"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Trong câu phủ định, ta dùng cấu trúc 'not as...as' hoặc 'not so...as' để diễn tả sự so sánh không bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_04",
+      "prompt": "The original emoji did not receive _____ attention as the updated version did.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as many"
+        },
+        {
+          "id": "b",
+          "label": "so many"
+        },
+        {
+          "id": "c",
+          "label": "as much"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Dùng 'as much as' với danh từ không đếm được (attention). 'As many as' dùng cho danh từ đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_05",
+      "prompt": "Kiro Kara's dad tries to behave _____ he can, even when he disagrees with someone.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as politely as"
+        },
+        {
+          "id": "b",
+          "label": "as polite as"
+        },
+        {
+          "id": "c",
+          "label": "politely as"
+        },
+        {
+          "id": "d",
+          "label": "more polite than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần trạng từ 'politely' để bổ nghĩa cho động từ 'behave'. Cấu trúc so sánh bằng với trạng từ là 'as + adv + as'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_06",
+      "prompt": "The meaning of the 'funny' emoji is not _____ some people might think.",
+      "options": [
+        {
+          "id": "a",
+          "label": "simple as"
+        },
+        {
+          "id": "b",
+          "label": "as simple than"
+        },
+        {
+          "id": "c",
+          "label": "so simple that"
+        },
+        {
+          "id": "d",
+          "label": "as simple as"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Cấu trúc so sánh không bằng là 'not as + tính từ + as'. Các lựa chọn khác sai về cấu trúc ngữ pháp."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_07",
+      "prompt": "Miki feels her mood brightens _____ she sees the emoji bolsters.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as soon as"
+        },
+        {
+          "id": "b",
+          "label": "so soon as"
+        },
+        {
+          "id": "c",
+          "label": "as soon than"
+        },
+        {
+          "id": "d",
+          "label": "soon as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'As soon as' là một cụm từ cố định có nghĩa là 'ngay khi', dùng để nối hai mệnh đề về thời gian."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_08",
+      "prompt": "The company hopes to sell _____ emoji bolsters this year as they did last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as much"
+        },
+        {
+          "id": "b",
+          "label": "as many"
+        },
+        {
+          "id": "c",
+          "label": "so much"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'as many as' với danh từ đếm được số nhiều (bolsters). 'As much as' dùng cho danh từ không đếm được."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_09",
+      "prompt": "Using emojis properly without hurting others is not _____ it seems.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as easy as"
+        },
+        {
+          "id": "b",
+          "label": "as easily as"
+        },
+        {
+          "id": "c",
+          "label": "so easy than"
+        },
+        {
+          "id": "d",
+          "label": "as ease as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cần một tính từ (easy) sau động từ 'to be' (is) để mô tả chủ ngữ. 'Easily' là trạng từ, 'ease' là danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "eng_as_as_10",
+      "prompt": "For some Chinese netizens, receiving the 'funny' emoji is not _____ receiving a compliment.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as pleasant as"
+        },
+        {
+          "id": "b",
+          "label": "as pleasant than"
+        },
+        {
+          "id": "c",
+          "label": "more pleasant as"
+        },
+        {
+          "id": "d",
+          "label": "so pleasant"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh không bằng là 'not as + tính từ + as'. Các lựa chọn khác sai cấu trúc so sánh."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Have you _____ tried smoking, as mentioned in the text about teenagers?",
+      "options": [
+        {
+          "id": "a",
+          "label": "ever"
+        },
+        {
+          "id": "b",
+          "label": "never"
+        },
+        {
+          "id": "c",
+          "label": "yet"
+        },
+        {
+          "id": "d",
+          "label": "already"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Ever” thường dùng trong câu hỏi để hỏi về kinh nghiệm đã từng xảy ra trong thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "According to the text, many teenagers _____ already tried smoking by the age of 16.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "did"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Have” đi với chủ ngữ số nhiều (many teenagers) trong thì hiện tại hoàn thành. “Already” là dấu hiệu của thì này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "The problem of drug use among students _____ a serious concern for many years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“For many years” chỉ một khoảng thời gian kéo dài từ quá khứ đến hiện tại, dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "I _____ my homework, so now I can relax and read the article.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have finished"
+        },
+        {
+          "id": "b",
+          "label": "finished"
+        },
+        {
+          "id": "c",
+          "label": "finish"
+        },
+        {
+          "id": "d",
+          "label": "am finishing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động hoàn thành trong quá khứ nhưng có kết quả rõ ràng ở hiện tại (“so now I can relax”) dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "My friend _____ to Russia last year, but I _____ never been there.",
+      "options": [
+        {
+          "id": "a",
+          "label": "went / have"
+        },
+        {
+          "id": "b",
+          "label": "has gone / have"
+        },
+        {
+          "id": "c",
+          "label": "went / had"
+        },
+        {
+          "id": "d",
+          "label": "has gone / had"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Last year” chỉ thời điểm cụ thể trong quá khứ dùng quá khứ đơn. “Never” chỉ kinh nghiệm dùng hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The teacher _____ just explained why youth is a difficult time.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has"
+        },
+        {
+          "id": "b",
+          "label": "have"
+        },
+        {
+          "id": "c",
+          "label": "did"
+        },
+        {
+          "id": "d",
+          "label": "is"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Just” thường đi với thì hiện tại hoàn thành, và “the teacher” là chủ ngữ số ít nên dùng “has”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Many young people _____ not found their place in society yet.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "did"
+        },
+        {
+          "id": "d",
+          "label": "are"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Yet” thường dùng trong câu phủ định hoặc nghi vấn của thì hiện tại hoàn thành. “Many young people” dùng “have”."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Since I started university, I _____ many new friends.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have made"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "make"
+        },
+        {
+          "id": "d",
+          "label": "am making"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“Since” chỉ mốc thời gian bắt đầu hành động kéo dài đến hiện tại, dùng thì hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "This year, the government _____ several campaigns to raise awareness about drug abuse.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has launched"
+        },
+        {
+          "id": "b",
+          "label": "launched"
+        },
+        {
+          "id": "c",
+          "label": "launches"
+        },
+        {
+          "id": "d",
+          "label": "is launching"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“This year” là khoảng thời gian chưa kết thúc, nên dùng thì hiện tại hoàn thành để chỉ hành động đã xảy ra trong đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "The text mentions that 32% of students _____ drugs at least once, which is a worrying statistic.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have tried"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "try"
+        },
+        {
+          "id": "d",
+          "label": "are trying"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“At least once” chỉ kinh nghiệm hoặc hành động đã xảy ra ít nhất một lần tính đến hiện tại, dùng thì hiện tại hoàn thành."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_001",
+      "prompt": "Many parents enjoy _____ for school supplies online because of the convenience.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to shop"
+        },
+        {
+          "id": "b",
+          "label": "shopping"
+        },
+        {
+          "id": "c",
+          "label": "shop"
+        },
+        {
+          "id": "d",
+          "label": "shopped"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'enjoy' luôn được theo sau bởi một gerund (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_002",
+      "prompt": "The school decided _____ customized kits for students this year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "offering"
+        },
+        {
+          "id": "b",
+          "label": "to offer"
+        },
+        {
+          "id": "c",
+          "label": "offer"
+        },
+        {
+          "id": "d",
+          "label": "offered"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'decide' thường theo sau bởi một động từ nguyên mẫu có 'to' (to-V) để chỉ một quyết định."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_003",
+      "prompt": "Before _____ to the store, check what's included in the tax-free shopping day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to go"
+        },
+        {
+          "id": "b",
+          "label": "go"
+        },
+        {
+          "id": "c",
+          "label": "going"
+        },
+        {
+          "id": "d",
+          "label": "went"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Sau giới từ (như 'before', 'after', 'by'), động từ luôn ở dạng gerund (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_004",
+      "prompt": "Teachers use educationalwarehouse.com _____ learning tools and games.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finding"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'to-V' để diễn tả mục đích của hành động (để tìm kiếm)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_005",
+      "prompt": "We encourage students _____ their old sports equipment at playitagainsports.com.",
+      "options": [
+        {
+          "id": "a",
+          "label": "selling"
+        },
+        {
+          "id": "b",
+          "label": "to sell"
+        },
+        {
+          "id": "c",
+          "label": "sell"
+        },
+        {
+          "id": "d",
+          "label": "sold"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cấu trúc đúng là 'encourage someone to do something' (khuyến khích ai làm gì)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_006",
+      "prompt": "_____ lunch out every day can be expensive.",
+      "options": [
+        {
+          "id": "a",
+          "label": "To buy"
+        },
+        {
+          "id": "b",
+          "label": "Buy"
+        },
+        {
+          "id": "c",
+          "label": "Buying"
+        },
+        {
+          "id": "d",
+          "label": "Bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Khi một hành động làm chủ ngữ của câu, nó thường ở dạng gerund (V-ing)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_007",
+      "prompt": "Think about the savings if your kids stopped _____ lunch out every day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to buy"
+        },
+        {
+          "id": "b",
+          "label": "buy"
+        },
+        {
+          "id": "c",
+          "label": "buying"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'Stop + V-ing' nghĩa là ngừng hẳn một hành động. 'Stop + to-V' là dừng lại để làm việc khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_008",
+      "prompt": "The second-most-difficult decision is what kind of lunch box _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "buying"
+        },
+        {
+          "id": "b",
+          "label": "to buy"
+        },
+        {
+          "id": "c",
+          "label": "buy"
+        },
+        {
+          "id": "d",
+          "label": "bought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Sau tính từ (như 'difficult', 'easy', 'happy'), thường dùng 'to-V' để bổ nghĩa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_009",
+      "prompt": "Many parents hope _____ good deals and coupons on school supplies.",
+      "options": [
+        {
+          "id": "a",
+          "label": "finding"
+        },
+        {
+          "id": "b",
+          "label": "to find"
+        },
+        {
+          "id": "c",
+          "label": "find"
+        },
+        {
+          "id": "d",
+          "label": "found"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'hope' luôn được theo sau bởi một động từ nguyên mẫu có 'to' (to-V)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ving_tov_010",
+      "prompt": "To save time, I try to avoid _____ in crowded stores.",
+      "options": [
+        {
+          "id": "a",
+          "label": "to shop"
+        },
+        {
+          "id": "b",
+          "label": "shopping"
+        },
+        {
+          "id": "c",
+          "label": "shop"
+        },
+        {
+          "id": "d",
+          "label": "shopped"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Động từ 'avoid' luôn được theo sau bởi một gerund (V-ing)."
+  }
+]

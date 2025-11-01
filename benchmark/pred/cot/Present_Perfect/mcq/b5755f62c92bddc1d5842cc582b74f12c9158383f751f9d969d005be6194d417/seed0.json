@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "Since 1984, Philadelphia _____ its act, transforming graffiti-covered walls into art.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been cleaning up"
+        },
+        {
+          "id": "b",
+          "label": "cleaned up"
+        },
+        {
+          "id": "c",
+          "label": "is cleaning up"
+        },
+        {
+          "id": "d",
+          "label": "cleans up"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì hiện tại hoàn thành tiếp diễn với 'since 1984' để diễn tả hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "So far, more than 1,800 murals _____ in Philadelphia, making it unique.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been painted"
+        },
+        {
+          "id": "b",
+          "label": "were painted"
+        },
+        {
+          "id": "c",
+          "label": "are painted"
+        },
+        {
+          "id": "d",
+          "label": "painted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'So far' là dấu hiệu của thì hiện tại hoàn thành, diễn tả hành động đã xảy ra tính đến thời điểm hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "Jane Golden _____ many beautiful murals throughout her career as an artistic director.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has painted"
+        },
+        {
+          "id": "b",
+          "label": "painted"
+        },
+        {
+          "id": "c",
+          "label": "paints"
+        },
+        {
+          "id": "d",
+          "label": "is painting"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì hiện tại hoàn thành dùng để nói về kinh nghiệm hoặc hành động đã hoàn thành mà không có thời gian cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "Last year, the MAP workers _____ 140 murals, a significant number for the program.",
+      "options": [
+        {
+          "id": "a",
+          "label": "painted"
+        },
+        {
+          "id": "b",
+          "label": "have painted"
+        },
+        {
+          "id": "c",
+          "label": "had painted"
+        },
+        {
+          "id": "d",
+          "label": "paint"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Last year' là mốc thời gian cụ thể trong quá khứ, nên dùng thì quá khứ đơn. Không dùng hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "I _____ such beautiful street art before visiting Philadelphia's Mural Arts Program.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have never seen"
+        },
+        {
+          "id": "b",
+          "label": "never saw"
+        },
+        {
+          "id": "c",
+          "label": "didn't see"
+        },
+        {
+          "id": "d",
+          "label": "am never seeing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Never' thường dùng với thì hiện tại hoàn thành để diễn tả kinh nghiệm chưa từng xảy ra tính đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "The Mural Arts Program _____ for many years, making the city more beautiful and vibrant.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has existed"
+        },
+        {
+          "id": "b",
+          "label": "existed"
+        },
+        {
+          "id": "c",
+          "label": "is existing"
+        },
+        {
+          "id": "d",
+          "label": "exists"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng thì hiện tại hoàn thành với 'for many years' để chỉ một trạng thái hoặc hành động bắt đầu trong quá khứ và kéo dài đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "The new mural project for the community center _____ finished yet, but it's progressing well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hasn't"
+        },
+        {
+          "id": "b",
+          "label": "isn't"
+        },
+        {
+          "id": "c",
+          "label": "didn't"
+        },
+        {
+          "id": "d",
+          "label": "won't"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Yet' thường dùng trong câu phủ định hoặc nghi vấn của thì hiện tại hoàn thành để chỉ một hành động chưa xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "The artists _____ finished painting the new mural; it looks absolutely amazing!",
+      "options": [
+        {
+          "id": "a",
+          "label": "have just"
+        },
+        {
+          "id": "b",
+          "label": "just"
+        },
+        {
+          "id": "c",
+          "label": "are just"
+        },
+        {
+          "id": "d",
+          "label": "had just"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Just' dùng với thì hiện tại hoàn thành để diễn tả một hành động vừa mới xảy ra cách đây không lâu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "How many requests for murals _____ the MAP _____ this week?",
+      "options": [
+        {
+          "id": "a",
+          "label": "has...received"
+        },
+        {
+          "id": "b",
+          "label": "did...receive"
+        },
+        {
+          "id": "c",
+          "label": "is...receiving"
+        },
+        {
+          "id": "d",
+          "label": "does...receive"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'This week' là khoảng thời gian chưa kết thúc, nên dùng thì hiện tại hoàn thành để hỏi về số lượng đã nhận được tính đến hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "_____ you ever _____ a mural being painted live by the MAP artists?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Have...seen"
+        },
+        {
+          "id": "b",
+          "label": "Did...see"
+        },
+        {
+          "id": "c",
+          "label": "Are...seeing"
+        },
+        {
+          "id": "d",
+          "label": "Do...see"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'Ever' thường dùng trong câu hỏi của thì hiện tại hoàn thành để hỏi về kinh nghiệm đã từng xảy ra trong đời."
+  }
+]

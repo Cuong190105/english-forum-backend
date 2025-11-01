@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q1",
+      "prompt": "The student thought the teacher was strong, but he was actually _____ a very skinny guy.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as strong as"
+        },
+        {
+          "id": "b",
+          "label": "as skinny as"
+        },
+        {
+          "id": "c",
+          "label": "not as strong as"
+        },
+        {
+          "id": "d",
+          "label": "as weak as"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Cấu trúc \"not as...as\" dùng để so sánh không bằng, diễn tả sự khác biệt giữa nhận định và thực tế về thể trạng của giáo viên."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q2",
+      "prompt": "In China, the weather can be _____ cold _____ in the US, especially if you're not used to it.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / as"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng \"as + tính từ/trạng từ + as\" được dùng để diễn tả hai sự vật có cùng mức độ hoặc mức độ tương đương."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q3",
+      "prompt": "The teacher's understanding of \"strong\" was _____ clear _____ the students' initial meaning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "not as / as"
+        },
+        {
+          "id": "b",
+          "label": "not so / than"
+        },
+        {
+          "id": "c",
+          "label": "as / as"
+        },
+        {
+          "id": "d",
+          "label": "less / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong câu phủ định, \"not as...as\" là cấu trúc phổ biến để so sánh không bằng, thể hiện sự khác biệt trong cách hiểu."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q4",
+      "prompt": "The teacher didn't have _____ muscle _____ a bodybuilder, despite the students' comments.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as much / as"
+        },
+        {
+          "id": "b",
+          "label": "as many / as"
+        },
+        {
+          "id": "c",
+          "label": "so much / than"
+        },
+        {
+          "id": "d",
+          "label": "as much / than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng \"as much as\" cho danh từ không đếm được (muscle) và \"as many as\" cho danh từ đếm được trong cấu trúc so sánh bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q5",
+      "prompt": "_____ the teacher understood the real meaning of \"strong,\" he felt relieved.",
+      "options": [
+        {
+          "id": "a",
+          "label": "As soon as"
+        },
+        {
+          "id": "b",
+          "label": "As long as"
+        },
+        {
+          "id": "c",
+          "label": "As well as"
+        },
+        {
+          "id": "d",
+          "label": "As much as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cụm từ \"as soon as\" có nghĩa là \"ngay khi\", dùng để chỉ thời điểm một hành động xảy ra ngay sau một hành động khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q6",
+      "prompt": "He didn't react _____ quickly _____ the student expected when she called him \"strong.\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / as"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + trạng từ + as\" dùng để so sánh mức độ của hành động, thể hiện sự không bằng trong phản ứng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q7",
+      "prompt": "The teacher was _____ surprised _____ the students were when they saw him in a short-sleeve shirt.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "more / as"
+        },
+        {
+          "id": "c",
+          "label": "so / as"
+        },
+        {
+          "id": "d",
+          "label": "as / than"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Không dùng \"more\" hoặc \"most\" cùng với cấu trúc \"as...as\" vì \"as...as\" đã là so sánh bằng."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q8",
+      "prompt": "He didn't look _____ a bodybuilder, but he tried to curl his arm _____ a bodybuilder would.",
+      "options": [
+        {
+          "id": "a",
+          "label": "like / as"
+        },
+        {
+          "id": "b",
+          "label": "as / like"
+        },
+        {
+          "id": "c",
+          "label": "like / like"
+        },
+        {
+          "id": "d",
+          "label": "as / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Like\" thường dùng để so sánh sự tương đồng về ngoại hình. \"As\" dùng để so sánh vai trò, chức năng hoặc cách thức thực hiện hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q9",
+      "prompt": "The teacher didn't understand the cultural context _____ easily _____ the students might have hoped.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / than"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"not as + trạng từ + as\" dùng để diễn tả một hành động không đạt đến mức độ tương đương với hành động khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "Q10",
+      "prompt": "The student's compliment was _____ unexpected _____ it was confusing for the teacher.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as / as"
+        },
+        {
+          "id": "b",
+          "label": "so / as"
+        },
+        {
+          "id": "c",
+          "label": "as / than"
+        },
+        {
+          "id": "d",
+          "label": "more / as"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as...as\" có thể dùng để so sánh hai tính chất hoặc trạng thái của cùng một sự vật/sự việc, nhấn mạnh sự tương đồng về mức độ."
+  }
+]

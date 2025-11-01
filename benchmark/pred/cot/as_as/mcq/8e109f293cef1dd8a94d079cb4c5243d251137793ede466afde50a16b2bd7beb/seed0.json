@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_001",
+      "prompt": "This winter is _____ cold as the one I remember from last year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "too"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc so sánh bằng là \"as + tính từ/trạng từ + as\". \"So\", \"too\", \"very\" không dùng trong cấu trúc này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_002",
+      "prompt": "The new project isn't _____ successful as the previous one, but it's still doing well.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "much"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Trong so sánh không bằng, cả \"not as...as\" và \"not so...as\" đều đúng, nhưng \"as\" là lựa chọn phổ biến và trực tiếp nhất cho cấu trúc \"as...as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_003",
+      "prompt": "He doesn't earn _____ money as his older brother, so he needs to save more.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as much"
+        },
+        {
+          "id": "b",
+          "label": "as many"
+        },
+        {
+          "id": "c",
+          "label": "so much"
+        },
+        {
+          "id": "d",
+          "label": "too much"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Money\" là danh từ không đếm được, nên dùng \"much\". Cấu trúc so sánh bằng với danh từ là \"as much/many + danh từ + as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_004",
+      "prompt": "Please finish the report _____ as you can, because the deadline is approaching.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as quickly"
+        },
+        {
+          "id": "b",
+          "label": "so quickly"
+        },
+        {
+          "id": "c",
+          "label": "more quickly"
+        },
+        {
+          "id": "d",
+          "label": "too quickly"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + trạng từ + as + S + can\" hoặc \"as + trạng từ + as possible\" diễn tả mức độ tối đa."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_005",
+      "prompt": "She sings _____ beautifully as a professional opera singer, captivating the audience.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Beautifully\" là trạng từ. Cấu trúc so sánh bằng yêu cầu \"as + trạng từ + as\" để so sánh mức độ của hành động."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_006",
+      "prompt": "Her new car is exactly _____ expensive as mine, they cost the same.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "the same"
+        },
+        {
+          "id": "c",
+          "label": "like"
+        },
+        {
+          "id": "d",
+          "label": "so"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Exactly as expensive as\" là cách diễn đạt so sánh bằng chính xác về tính từ. \"The same as\" thường dùng với danh từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_007",
+      "prompt": "The speaker's presentation was not _____ engaging as we had expected, which was a bit disappointing.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "much"
+        },
+        {
+          "id": "d",
+          "label": "more"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"not as + tính từ + as\" được dùng để so sánh không bằng. \"Engaging\" là tính từ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_008",
+      "prompt": "He has _____ patience as a saint when dealing with difficult customers, which is admirable.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as much"
+        },
+        {
+          "id": "b",
+          "label": "as many"
+        },
+        {
+          "id": "c",
+          "label": "so much"
+        },
+        {
+          "id": "d",
+          "label": "too much"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Patience\" là danh từ không đếm được, nên dùng \"as much\". Cấu trúc \"as much + N (không đếm được) + as\"."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_009",
+      "prompt": "Living in the city is _____ exciting as living in the countryside, but in different ways.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc \"as + tính từ + as\" dùng để diễn tả sự ngang bằng hoặc tương đương về một đặc điểm."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "as_as_010",
+      "prompt": "The new software runs _____ smoothly as the old version, if not better, after the update.",
+      "options": [
+        {
+          "id": "a",
+          "label": "as"
+        },
+        {
+          "id": "b",
+          "label": "so"
+        },
+        {
+          "id": "c",
+          "label": "more"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "\"Smoothly\" là trạng từ. Cấu trúc \"as + trạng từ + as\" dùng để so sánh mức độ của hành động."
+  }
+]

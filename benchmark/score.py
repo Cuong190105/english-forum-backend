@@ -11,9 +11,9 @@ import unicodedata
 MCQ_USE_ANS_SIM = (os.getenv('MCQ_USE_ANS_SIM', '0').lower() in {'1','true','yes','y'})
 
 # Weights for item score when MCQ_USE_ANS_SIM is False
-# Default: item_score = 0.70 * prompt_sim + 0.30 * distractor_diversity
-MCQ_W_PROMPT_NOANS = float(os.getenv('MCQ_W_PROMPT_NOANS', '0.70'))
-MCQ_W_DIV_NOANS = float(os.getenv('MCQ_W_DIV_NOANS', '0.30'))
+# Default: item_score = 0.75 * prompt_sim + 0.25 * distractor_diversity
+MCQ_W_PROMPT_NOANS = float(os.getenv('MCQ_W_PROMPT_NOANS', '0.75'))
+MCQ_W_DIV_NOANS = float(os.getenv('MCQ_W_DIV_NOANS', '0.25'))
 
 # Weights for item score when MCQ_USE_ANS_SIM=True
 # Defaults chosen to emphasize stem and answer correctness while keeping some diversity signal.

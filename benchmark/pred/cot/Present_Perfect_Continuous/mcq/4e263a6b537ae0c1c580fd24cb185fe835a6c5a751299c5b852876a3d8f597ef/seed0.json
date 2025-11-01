@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_001",
+      "prompt": "The scientists _____ the effects of climate change on rainforests for years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have studied"
+        },
+        {
+          "id": "b",
+          "label": "are studying"
+        },
+        {
+          "id": "c",
+          "label": "have been studying"
+        },
+        {
+          "id": "d",
+          "label": "studied"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“For years” nhấn mạnh hành động nghiên cứu diễn ra liên tục từ quá khứ đến hiện tại. “Have studied” là Hiện tại hoàn thành đơn, không nhấn mạnh tính liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_002",
+      "prompt": "The local community _____ against deforestation since the early 2000s.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has fought"
+        },
+        {
+          "id": "b",
+          "label": "has been fighting"
+        },
+        {
+          "id": "c",
+          "label": "is fighting"
+        },
+        {
+          "id": "d",
+          "label": "fought"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since the early 2000s” chỉ một quá trình đấu tranh liên tục từ quá khứ đến hiện tại. “Has fought” là Hiện tại hoàn thành đơn, không nhấn mạnh tính liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_003",
+      "prompt": "Environmental activists _____ to raise awareness about rainforest depletion for over a decade.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have tried"
+        },
+        {
+          "id": "b",
+          "label": "are trying"
+        },
+        {
+          "id": "c",
+          "label": "have been trying"
+        },
+        {
+          "id": "d",
+          "label": "tried"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“For over a decade” chỉ một quá trình nỗ lực liên tục từ quá khứ đến hiện tại. “Have tried” là Hiện tại hoàn thành đơn, không nhấn mạnh tính liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_004",
+      "prompt": "The air quality is terrible because the nearby factory _____ harmful chemicals into the river all morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has been releasing"
+        },
+        {
+          "id": "b",
+          "label": "has released"
+        },
+        {
+          "id": "c",
+          "label": "is releasing"
+        },
+        {
+          "id": "d",
+          "label": "released"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động xả thải diễn ra liên tục trong buổi sáng và có hậu quả rõ rệt ở hiện tại. “Has released” là Hiện tại hoàn thành đơn, không nhấn mạnh tính liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_005",
+      "prompt": "Many species _____ their habitats due to deforestation for several years now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have been losing"
+        },
+        {
+          "id": "b",
+          "label": "have lost"
+        },
+        {
+          "id": "c",
+          "label": "are losing"
+        },
+        {
+          "id": "d",
+          "label": "lost"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "“For several years now” chỉ một quá trình mất môi trường sống liên tục từ quá khứ đến hiện tại. “Have lost” là Hiện tại hoàn thành đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_006",
+      "prompt": "What _____ to protect the remaining rainforests since the UN report was published?",
+      "options": [
+        {
+          "id": "a",
+          "label": "have they done"
+        },
+        {
+          "id": "b",
+          "label": "have they been doing"
+        },
+        {
+          "id": "c",
+          "label": "are they doing"
+        },
+        {
+          "id": "d",
+          "label": "did they do"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since the UN report was published” chỉ một khoảng thời gian từ quá khứ đến hiện tại, nhấn mạnh hành động liên tục. “Have done” là Hiện tại hoàn thành đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_007",
+      "prompt": "The government _____ enough to stop illegal logging, despite repeated warnings.",
+      "options": [
+        {
+          "id": "a",
+          "label": "hasn't done"
+        },
+        {
+          "id": "b",
+          "label": "isn't doing"
+        },
+        {
+          "id": "c",
+          "label": "hasn't been doing"
+        },
+        {
+          "id": "d",
+          "label": "didn't do"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“Despite repeated warnings” ngụ ý sự thiếu hành động liên tục trong một khoảng thời gian từ quá khứ đến hiện tại. “Hasn't done” là Hiện tại hoàn thành đơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_008",
+      "prompt": "I'm exhausted because I _____ on this environmental project all day.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have worked"
+        },
+        {
+          "id": "b",
+          "label": "has been working"
+        },
+        {
+          "id": "c",
+          "label": "have been working"
+        },
+        {
+          "id": "d",
+          "label": "am working"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“All day” chỉ một hành động kéo dài liên tục trong suốt cả ngày, dẫn đến kết quả ở hiện tại. Lựa chọn B sai chủ ngữ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_009",
+      "prompt": "For the past few months, the local villagers _____ new sustainable farming methods to avoid further deforestation.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have adopted"
+        },
+        {
+          "id": "b",
+          "label": "are adopting"
+        },
+        {
+          "id": "c",
+          "label": "have been adopting"
+        },
+        {
+          "id": "d",
+          "label": "adopted"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "“For the past few months” chỉ một quá trình liên tục từ quá khứ đến hiện tại. “Have adopted” là Hiện tại hoàn thành đơn, không nhấn mạnh tính liên tục."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "ppc_010",
+      "prompt": "The government _____ new policies to protect the Amazon since the beginning of the year.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has introduced"
+        },
+        {
+          "id": "b",
+          "label": "has been introducing"
+        },
+        {
+          "id": "c",
+          "label": "is introducing"
+        },
+        {
+          "id": "d",
+          "label": "introduced"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since the beginning of the year” chỉ một quá trình liên tục từ quá khứ đến hiện tại. “Has introduced” là Hiện tại hoàn thành đơn, không nhấn mạnh tính liên tục."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "1",
+      "prompt": "What was the narrator doing when she entered the museum?",
+      "options": [
+        {
+          "id": "a",
+          "label": "She was looking forward to seeing the art."
+        },
+        {
+          "id": "b",
+          "label": "She looked forward to seeing the art."
+        },
+        {
+          "id": "c",
+          "label": "She is looking forward to seeing the art."
+        },
+        {
+          "id": "d",
+          "label": "She had looked forward to seeing the art."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ tiếp diễn diễn tả hành động đang diễn ra tại một thời điểm trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "2",
+      "prompt": "The narrator noticed that the wife _____ all the talking.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was doing"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "has done"
+        },
+        {
+          "id": "d",
+          "label": "is doing"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả một hành động đang diễn ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "3",
+      "prompt": "What was the narrator doing when the couple approached the exit?",
+      "options": [
+        {
+          "id": "a",
+          "label": "She was standing at the gift shop counter."
+        },
+        {
+          "id": "b",
+          "label": "She stood at the gift shop counter."
+        },
+        {
+          "id": "c",
+          "label": "She stands at the gift shop counter."
+        },
+        {
+          "id": "d",
+          "label": "She had stood at the gift shop counter."
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Quá khứ tiếp diễn dùng để diễn tả hành động đang xảy ra thì một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "4",
+      "prompt": "While the narrator was touring the museum, a young couple _____ nonstop.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was chatting"
+        },
+        {
+          "id": "b",
+          "label": "chatted"
+        },
+        {
+          "id": "c",
+          "label": "chats"
+        },
+        {
+          "id": "d",
+          "label": "had chatted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ tiếp diễn mô tả hành động đang diễn ra song song với một hành động khác trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "5",
+      "prompt": "The narrator _____ a purchase at the gift shop when the couple came near.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was making"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "makes"
+        },
+        {
+          "id": "d",
+          "label": "had made"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn cho hành động đang diễn ra khi một hành động khác ngắn hơn xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "6",
+      "prompt": "The narrator _____ through different rooms of art when she repeatedly met the couple.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was moving"
+        },
+        {
+          "id": "b",
+          "label": "moved"
+        },
+        {
+          "id": "c",
+          "label": "moves"
+        },
+        {
+          "id": "d",
+          "label": "had moved"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Quá khứ tiếp diễn diễn tả hành động đang diễn ra trong một khoảng thời gian ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "7",
+      "prompt": "According to the clerk, when the couple visited the art shows, the wife _____ each painting to her husband.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was describing"
+        },
+        {
+          "id": "b",
+          "label": "described"
+        },
+        {
+          "id": "c",
+          "label": "describes"
+        },
+        {
+          "id": "d",
+          "label": "had described"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả hành động lặp đi lặp lại hoặc đang diễn ra trong một giai đoạn ở quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "8",
+      "prompt": "While the man _____ his way into the coatroom for his wife's jacket, the narrator was observing him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was tapping"
+        },
+        {
+          "id": "b",
+          "label": "tapped"
+        },
+        {
+          "id": "c",
+          "label": "taps"
+        },
+        {
+          "id": "d",
+          "label": "had tapped"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Quá khứ tiếp diễn diễn tả hành động đang diễn ra thì một hành động khác xen vào hoặc song song."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "9",
+      "prompt": "The narrator hoped for a quiet visit, but the couple _____ a lot of noise.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was making"
+        },
+        {
+          "id": "b",
+          "label": "made"
+        },
+        {
+          "id": "c",
+          "label": "makes"
+        },
+        {
+          "id": "d",
+          "label": "had made"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả hành động gây gián đoạn hoặc đang diễn ra trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "10",
+      "prompt": "The narrator _____ for her husband to finish a meeting when she toured the museum.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was waiting"
+        },
+        {
+          "id": "b",
+          "label": "waited"
+        },
+        {
+          "id": "c",
+          "label": "waits"
+        },
+        {
+          "id": "d",
+          "label": "had waited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ tiếp diễn diễn tả hai hành động đang diễn ra song song trong quá khứ."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q1",
+      "prompt": "Pamela and Rita _____ at a red light on Cobb's Creek Parkway when a white SUV turned across traffic in front of them.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were waiting"
+        },
+        {
+          "id": "b",
+          "label": "waited"
+        },
+        {
+          "id": "c",
+          "label": "wait"
+        },
+        {
+          "id": "d",
+          "label": "had waited"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ tiếp diễn dùng để diễn tả một hành động đang xảy ra trong quá khứ thì một hành động khác xen vào, như việc chờ đèn đỏ bị gián đoạn bởi chiếc SUV."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q2",
+      "prompt": "Kenny Gibson and Taron Green _____ home from a job when Rita flagged them down.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were driving"
+        },
+        {
+          "id": "b",
+          "label": "drove"
+        },
+        {
+          "id": "c",
+          "label": "are driving"
+        },
+        {
+          "id": "d",
+          "label": "had driven"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ tiếp diễn diễn tả hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ, thường bị gián đoạn bởi một hành động khác."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q3",
+      "prompt": "When Kenny and Taron looked over the cliff, a woman's leg _____ out the driver's side window.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was swinging"
+        },
+        {
+          "id": "b",
+          "label": "swung"
+        },
+        {
+          "id": "c",
+          "label": "swings"
+        },
+        {
+          "id": "d",
+          "label": "had swung"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả một hành động đang diễn ra trong quá khứ tại thời điểm quan sát hoặc một hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q4",
+      "prompt": "Kenny _____ unsuccessfully to open the car door when he decided to break the window.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was trying"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "tries"
+        },
+        {
+          "id": "d",
+          "label": "had tried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'was trying' đang diễn ra thì hành động 'decided to break' xen vào, làm gián đoạn hoặc kết thúc hành động trước đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q5",
+      "prompt": "While Kenny _____ to push the car onto its side, Marcell Porter approached the site.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was trying"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "tries"
+        },
+        {
+          "id": "d",
+          "label": "had tried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "'While' thường đi với thì quá khứ tiếp diễn để chỉ hai hành động song song hoặc một hành động đang diễn ra thì hành động khác xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q6",
+      "prompt": "The men _____ out to the car when they saw that the woman was partially in water.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were wading"
+        },
+        {
+          "id": "b",
+          "label": "waded"
+        },
+        {
+          "id": "c",
+          "label": "wade"
+        },
+        {
+          "id": "d",
+          "label": "had waded"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'wading' đang diễn ra trong quá khứ thì hành động 'saw' xen vào, mô tả một sự kiện bất ngờ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q7",
+      "prompt": "Kenny and Marcell _____ to pull Cheryl out when they realized she was still strapped in by her shoulder belt.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were trying"
+        },
+        {
+          "id": "b",
+          "label": "tried"
+        },
+        {
+          "id": "c",
+          "label": "try"
+        },
+        {
+          "id": "d",
+          "label": "had tried"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn để diễn tả một hành động đang diễn ra trong quá khứ thì một hành động khác (realized) xen vào."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q8",
+      "prompt": "Pamela _____ instructions to the men from above when Cheryl finally started moving her fingers.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was shouting"
+        },
+        {
+          "id": "b",
+          "label": "shouted"
+        },
+        {
+          "id": "c",
+          "label": "shouts"
+        },
+        {
+          "id": "d",
+          "label": "had shouted"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'shouting' đang diễn ra liên tục trong quá khứ cho đến khi một sự kiện khác (Cheryl started moving) xảy ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q9",
+      "prompt": "Over the next few days, they _____ turns visiting Cheryl in the hospital, where they shared hugs and tears.",
+      "options": [
+        {
+          "id": "a",
+          "label": "were taking"
+        },
+        {
+          "id": "b",
+          "label": "took"
+        },
+        {
+          "id": "c",
+          "label": "take"
+        },
+        {
+          "id": "d",
+          "label": "had taken"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Thì quá khứ tiếp diễn có thể diễn tả một hành động lặp đi lặp lại hoặc kéo dài trong một khoảng thời gian trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "q10",
+      "prompt": "Cheryl _____ in touch with her 'angels' via frequent phone calls after the rescue.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was staying"
+        },
+        {
+          "id": "b",
+          "label": "stayed"
+        },
+        {
+          "id": "c",
+          "label": "stays"
+        },
+        {
+          "id": "d",
+          "label": "had stayed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Dùng quá khứ tiếp diễn để mô tả một hành động kéo dài hoặc thói quen trong một giai đoạn cụ thể trong quá khứ."
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_001",
+      "prompt": "_____ you ever tried to make a very important decision that influenced your future life?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did"
+        },
+        {
+          "id": "b",
+          "label": "Have"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        },
+        {
+          "id": "d",
+          "label": "Are"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Ever” thường dùng với thì Hiện tại hoàn thành để hỏi về trải nghiệm đã từng xảy ra trong cuộc đời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_002",
+      "prompt": "I _____ a lot of new discoveries this week, which has made me feel very excited.",
+      "options": [
+        {
+          "id": "a",
+          "label": "made"
+        },
+        {
+          "id": "b",
+          "label": "have made"
+        },
+        {
+          "id": "c",
+          "label": "make"
+        },
+        {
+          "id": "d",
+          "label": "am making"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“This week” là khoảng thời gian chưa kết thúc, nên dùng Hiện tại hoàn thành để diễn tả hành động đã xảy ra trong khoảng đó."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_003",
+      "prompt": "Oh no! I _____ my phone. I can't find it anywhere now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "lost"
+        },
+        {
+          "id": "b",
+          "label": "have lost"
+        },
+        {
+          "id": "c",
+          "label": "lose"
+        },
+        {
+          "id": "d",
+          "label": "am losing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động mất điện thoại đã xảy ra và có kết quả rõ ràng ở hiện tại (không tìm thấy), nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_004",
+      "prompt": "Many young people _____ emotional problems since they started considering themselves adults.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "have had"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "are having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Since” chỉ một hành động bắt đầu trong quá khứ và tiếp diễn đến hiện tại, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_005",
+      "prompt": "According to studies, almost 72% of all boys in Russia _____ already tried smoking by the age of 16.",
+      "options": [
+        {
+          "id": "a",
+          "label": "already tried"
+        },
+        {
+          "id": "b",
+          "label": "have already tried"
+        },
+        {
+          "id": "c",
+          "label": "had already tried"
+        },
+        {
+          "id": "d",
+          "label": "are already trying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Already” thường dùng với Hiện tại hoàn thành để diễn tả hành động đã xảy ra trước thời điểm hiện tại."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_006",
+      "prompt": "My parents _____ always treated me as a little child, even though I'm an adult now.",
+      "options": [
+        {
+          "id": "a",
+          "label": "always treated"
+        },
+        {
+          "id": "b",
+          "label": "have always treated"
+        },
+        {
+          "id": "c",
+          "label": "treat"
+        },
+        {
+          "id": "d",
+          "label": "are always treating"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“Always” ở đây chỉ một thói quen kéo dài từ quá khứ đến hiện tại, không có mốc thời gian cụ thể trong quá khứ, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_007",
+      "prompt": "How long _____ you _____ to adapt to society and find your own place?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did / try"
+        },
+        {
+          "id": "b",
+          "label": "have / tried"
+        },
+        {
+          "id": "c",
+          "label": "do / try"
+        },
+        {
+          "id": "d",
+          "label": "are / trying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“How long” thường dùng với Hiện tại hoàn thành để hỏi về khoảng thời gian một hành động đã diễn ra và còn tiếp diễn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_008",
+      "prompt": "I _____ three different jobs since I graduated, trying to find a good career.",
+      "options": [
+        {
+          "id": "a",
+          "label": "had"
+        },
+        {
+          "id": "b",
+          "label": "have had"
+        },
+        {
+          "id": "c",
+          "label": "have"
+        },
+        {
+          "id": "d",
+          "label": "am having"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hành động “có ba công việc” là trải nghiệm lặp lại từ khi tốt nghiệp đến hiện tại, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_009",
+      "prompt": "The problems young people face _____ significantly in recent years.",
+      "options": [
+        {
+          "id": "a",
+          "label": "changed"
+        },
+        {
+          "id": "b",
+          "label": "have changed"
+        },
+        {
+          "id": "c",
+          "label": "change"
+        },
+        {
+          "id": "d",
+          "label": "are changing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "“In recent years” là khoảng thời gian chưa kết thúc, chỉ sự thay đổi kéo dài đến hiện tại, nên dùng Hiện tại hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_010",
+      "prompt": "This is the most difficult decision I _____ ever _____.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have / made"
+        },
+        {
+          "id": "b",
+          "label": "ever / made"
+        },
+        {
+          "id": "c",
+          "label": "did / make"
+        },
+        {
+          "id": "d",
+          "label": "am / making"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Cấu trúc “This is the + superlative + (that) + S + have/has ever + V3” dùng Hiện tại hoàn thành để nói về trải nghiệm tốt nhất/tồi tệ nhất."
+  }
+]

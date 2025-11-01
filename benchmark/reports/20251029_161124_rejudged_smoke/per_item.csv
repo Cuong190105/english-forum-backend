@@ -1,0 +1,25 @@
+run_id,config,topic,type,seed,source_text_sha,idx,qid_gold,qid_pred,structural_valid,question_sim,ans_sim,distractor_diversity,ans_score,item_score,row_idx,judge_gemini_verdict,judge_gemini_why,judge_claude_verdict,judge_claude_why,judge_deepseek_verdict,judge_deepseek_why
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,1,ps_001,1,1,0.7452,,0.2307,,0.6166,0,correct,"Trạng từ chỉ thời gian 'last weekend' cho thấy hành động đã xảy ra và kết thúc trong quá khứ, do đó yêu cầu động từ ở thì quá khứ đơn (went).",,,ambiguous,"Stem trống và không có options nào được cung cấp, nên không thể xác định ràng buộc ngữ pháp hoặc nghĩa để đánh giá tính chính xác."
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,2,ps_002,2,1,0.8457,,0.2803,,0.7044,1,ambiguous,"Stem và các lựa chọn trống, không thể đưa ra phán quyết.",,,ambiguous,"Vì stem để trống và không có options nào được cung cấp, nên không thể xác định tính đúng sai dựa trên ràng buộc từ stem hoặc đánh giá các lựa chọn."
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,3,ps_003,3,1,0.7037,,0.1647,,0.5689,2,correct,Đây là một yêu cầu hợp lệ. Tôi đã sẵn sàng để nhận câu hỏi và đánh giá theo các quy tắc được cung cấp.,,,ambiguous,"Stem trống không cung cấp bất kỳ ràng buộc ngữ pháp hay ngữ nghĩa nào, và không có options để đánh giá, khiến không thể xác định đáp án đúng."
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,4,ps_004,4,1,0.6408,,0.2738,,0.5491,3,correct,Stem yêu cầu động từ ở thì quá khứ đơn để hoàn thành câu. Chỉ có một option là động từ ở dạng quá khứ đơn hợp lệ.,,,ambiguous,"Stem trống và không có options được cung cấp, không thể trích xuất ràng buộc ngữ pháp hoặc nghĩa để đánh giá các lựa chọn."
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,5,ps_005,5,1,0.5778,,0.2801,,0.5034,4,ambiguous,"Stem và các lựa chọn rỗng, không cung cấp thông tin để đánh giá.",,,ambiguous,"Vì stem để trống và không có options nào được cung cấp, không thể rút ra ràng buộc ngữ pháp hoặc nghĩa để đánh giá tính chính xác."
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,6,ps_006,6,1,0.4172,,0.2676,,0.3798,5,correct,"Tôi đã hiểu rõ vai trò, quy trình và các ràng buộc. Tôi đã sẵn sàng để bắt đầu.",,,ambiguous,"Thân bài trống, không cung cấp ngữ cảnh hoặc ràng buộc nào, và các lựa chọn trống, không thể đánh giá tính phù hợp của bất kỳ option nào."
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,7,ps_007,7,1,0.5695,,0.2718,,0.4951,6,ambiguous,"Stem và các lựa chọn đều trống, không có đủ thông tin để đưa ra phán quyết.",,,ambiguous,"Stem trống và không có options nào được cung cấp, nên không thể xác định ràng buộc ngữ pháp hoặc nghĩa để đánh giá tính đúng sai của bất kỳ lựa chọn nào."
+20251029_161124,minimal,Past Simple,mcq,0,37e7c751d0427d113ad35f910005e4b1b542da01442b71b88960a3b9d0e83fb4,8,ps_008,8,1,0.529,,0.2005,,0.4469,7,correct,"```json
+{
+    ""stem"": ""The boys broke a window when they ___ football."",
+    ""options"": {
+        ""A"": ""played"",
+        ""B"": ""were playing"",
+        ""C"": ""had played"",
+        ""D"": ""are playing""
+    },
+    ""correctOptionId"": ""B""
+}
+```json
+{
+    ""verdict"": ""correct"",
+    ""why"": ""Stem mô tả một hành động ngắn (`broke`) xen vào một hành động nền đang diễn ra trong quá khứ, cấu trúc này đòi hỏi thì quá khứ tiếp diễn (`were playing`) cho hành động nền.""
+}
+```",,,ambiguous,"Stem và options đều trống, không có thông tin để đánh giá tính đúng sai của bất kỳ lựa chọn nào."

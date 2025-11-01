@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_001",
+      "prompt": "The Pinnawela Orphanage _____ a home for many baby elephants since it was established in 1975.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was"
+        },
+        {
+          "id": "b",
+          "label": "has been"
+        },
+        {
+          "id": "c",
+          "label": "is being"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Dùng 'since' để chỉ một khoảng thời gian từ quá khứ đến hiện tại, nên phải dùng thì Hiện tại Hoàn thành (has been). 'Was' chỉ dùng cho một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_002",
+      "prompt": "The Sri Lanka Wildlife Department _____ the orphanage in 1975 to care for baby elephants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has established"
+        },
+        {
+          "id": "b",
+          "label": "established"
+        },
+        {
+          "id": "c",
+          "label": "establishes"
+        },
+        {
+          "id": "d",
+          "label": "was establishing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Cụm từ 'in 1975' chỉ một thời điểm cụ thể đã kết thúc trong quá khứ, vì vậy phải dùng thì Quá khứ Đơn (established)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_003",
+      "prompt": "_____ you ever _____ side by side with an elephant before?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Did ... stand"
+        },
+        {
+          "id": "b",
+          "label": "Were ... standing"
+        },
+        {
+          "id": "c",
+          "label": "Have ... stood"
+        },
+        {
+          "id": "d",
+          "label": "Do ... stand"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Từ 'ever' và 'before' được dùng để hỏi về trải nghiệm trong đời (từ trước đến nay), là dấu hiệu của thì Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_004",
+      "prompt": "Many volunteers _____ at the orphanage this year, and they all loved the experience.",
+      "options": [
+        {
+          "id": "a",
+          "label": "worked"
+        },
+        {
+          "id": "b",
+          "label": "were working"
+        },
+        {
+          "id": "c",
+          "label": "work"
+        },
+        {
+          "id": "d",
+          "label": "have worked"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "'This year' là một khoảng thời gian chưa kết thúc. Ta dùng thì Hiện tại Hoàn thành để nói về các hành động đã xảy ra trong khoảng thời gian này."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_005",
+      "prompt": "I can't find my camera. I think I _____ it by the river while watching the elephants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "have left"
+        },
+        {
+          "id": "b",
+          "label": "left"
+        },
+        {
+          "id": "c",
+          "label": "was leaving"
+        },
+        {
+          "id": "d",
+          "label": "leave"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động trong quá khứ (để quên máy ảnh) có kết quả ở hiện tại (không tìm thấy nó). Đây là cách dùng của thì Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_006",
+      "prompt": "The captive breeding programme _____ very successful for over two decades.",
+      "options": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "was"
+        },
+        {
+          "id": "c",
+          "label": "has been"
+        },
+        {
+          "id": "d",
+          "label": "had been"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "'For over two decades' chỉ một khoảng thời gian kéo dài từ quá khứ đến hiện tại, nên ta phải dùng thì Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_007",
+      "prompt": "My sister _____ to Sri Lanka last year and she visited the elephant orphanage.",
+      "options": [
+        {
+          "id": "a",
+          "label": "has gone"
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "goes"
+        },
+        {
+          "id": "d",
+          "label": "had gone"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'Last year' là một mốc thời gian cụ thể đã kết thúc trong quá khứ. Do đó, chúng ta phải sử dụng thì Quá khứ Đơn (went)."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_008",
+      "prompt": "The volunteers are tired but happy. They _____ the elephant homes all morning.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cleaned"
+        },
+        {
+          "id": "b",
+          "label": "clean"
+        },
+        {
+          "id": "c",
+          "label": "were cleaning"
+        },
+        {
+          "id": "d",
+          "label": "have cleaned"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Kết quả ở hiện tại (tired but happy) là do một hành động vừa mới kết thúc trong một khoảng thời gian chưa kết thúc (all morning). Dùng Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_009",
+      "prompt": "I _____ the information about volunteering yet. Could you send it to me?",
+      "options": [
+        {
+          "id": "a",
+          "label": "didn't receive"
+        },
+        {
+          "id": "b",
+          "label": "haven't received"
+        },
+        {
+          "id": "c",
+          "label": "don't receive"
+        },
+        {
+          "id": "d",
+          "label": "am not receiving"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Từ 'yet' trong câu phủ định diễn tả một hành động chưa xảy ra tính đến thời điểm nói, nên phải dùng thì Hiện tại Hoàn thành."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pp_vs_sp_010",
+      "prompt": "Since the orphanage opened, it _____ thousands of elephants.",
+      "options": [
+        {
+          "id": "a",
+          "label": "saved"
+        },
+        {
+          "id": "b",
+          "label": "was saving"
+        },
+        {
+          "id": "c",
+          "label": "has saved"
+        },
+        {
+          "id": "d",
+          "label": "saves"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Mệnh đề bắt đầu bằng 'Since' chỉ một điểm thời gian trong quá khứ, hành động kéo dài đến hiện tại. Do đó, mệnh đề chính phải ở thì Hiện tại Hoàn thành."
+  }
+]

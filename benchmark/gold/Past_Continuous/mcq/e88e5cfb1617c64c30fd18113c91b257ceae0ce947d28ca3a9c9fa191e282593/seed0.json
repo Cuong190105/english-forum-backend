@@ -1,0 +1,272 @@
+[
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_001",
+      "prompt": "Ken _____ his bike home from the shop when he noticed a woman on a motorcycle behind him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was riding"
+        },
+        {
+          "id": "b",
+          "label": "rode"
+        },
+        {
+          "id": "c",
+          "label": "is riding"
+        },
+        {
+          "id": "d",
+          "label": "rides"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động đang diễn ra (đạp xe) thì bị một hành động khác xen vào (nhận thấy). Dùng thì quá khứ tiếp diễn cho hành động dài hơn."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_002",
+      "prompt": "His mother asked him, \"Why _____ so fast when I saw you a moment ago?\"",
+      "options": [
+        {
+          "id": "a",
+          "label": "did you ride"
+        },
+        {
+          "id": "b",
+          "label": "are you riding"
+        },
+        {
+          "id": "c",
+          "label": "were you riding"
+        },
+        {
+          "id": "d",
+          "label": "you were riding"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Câu hỏi về một hành động đang diễn ra tại một thời điểm trong quá khứ. Cấu trúc câu hỏi là 'Why + was/were + S + V-ing?'."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_003",
+      "prompt": "While Ken _____ for help, nobody was on the street to hear him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "cried"
+        },
+        {
+          "id": "b",
+          "label": "was crying"
+        },
+        {
+          "id": "c",
+          "label": "cries"
+        },
+        {
+          "id": "d",
+          "label": "is crying"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'While' diễn tả một hành động kéo dài song song với một tình huống khác trong quá khứ. Hành động 'kêu cứu' đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_004",
+      "prompt": "At 7 PM yesterday, it was dark and a cold wind _____ through the trees.",
+      "options": [
+        {
+          "id": "a",
+          "label": "blew"
+        },
+        {
+          "id": "b",
+          "label": "is blowing"
+        },
+        {
+          "id": "c",
+          "label": "blows"
+        },
+        {
+          "id": "d",
+          "label": "was blowing"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Dùng quá khứ tiếp diễn để miêu tả bối cảnh, không khí của một câu chuyện tại một thời điểm cụ thể trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_005",
+      "prompt": "Ken was very scared because he thought a stranger _____ him.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was following"
+        },
+        {
+          "id": "b",
+          "label": "followed"
+        },
+        {
+          "id": "c",
+          "label": "follows"
+        },
+        {
+          "id": "d",
+          "label": "has followed"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Diễn tả hành động nền (bị theo dõi) đang diễn ra và gây ra một cảm xúc (sợ hãi) trong quá khứ."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_006",
+      "prompt": "What _____ at this time last night?",
+      "options": [
+        {
+          "id": "a",
+          "label": "did you do"
+        },
+        {
+          "id": "b",
+          "label": "were you doing"
+        },
+        {
+          "id": "c",
+          "label": "are you doing"
+        },
+        {
+          "id": "d",
+          "label": "have you done"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "Hỏi về một hành động đang diễn ra tại một thời điểm cụ thể trong quá khứ ('at this time last night')."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_007",
+      "prompt": "I _____ my homework when my dad called me for dinner yesterday.",
+      "options": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "do"
+        },
+        {
+          "id": "c",
+          "label": "was doing"
+        },
+        {
+          "id": "d",
+          "label": "am doing"
+        }
+      ]
+    },
+    "correctOptionId": "c",
+    "hint": "Hành động 'làm bài tập' đang diễn ra thì bị hành động 'bố gọi' xen vào. Dùng quá khứ tiếp diễn cho hành động nền."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_008",
+      "prompt": "He couldn't answer the phone because he _____ a shower when it rang.",
+      "options": [
+        {
+          "id": "a",
+          "label": "was taking"
+        },
+        {
+          "id": "b",
+          "label": "took"
+        },
+        {
+          "id": "c",
+          "label": "takes"
+        },
+        {
+          "id": "d",
+          "label": "has taken"
+        }
+      ]
+    },
+    "correctOptionId": "a",
+    "hint": "Hành động 'tắm' đang diễn ra thì bị hành động 'điện thoại reo' xen vào. Đây là lý do tại sao anh ấy không thể trả lời."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_009",
+      "prompt": "My parents _____ TV in the living room when I got home last night.",
+      "options": [
+        {
+          "id": "a",
+          "label": "watched"
+        },
+        {
+          "id": "b",
+          "label": "watch"
+        },
+        {
+          "id": "c",
+          "label": "are watching"
+        },
+        {
+          "id": "d",
+          "label": "were watching"
+        }
+      ]
+    },
+    "correctOptionId": "d",
+    "hint": "Hành động 'xem TV' đang diễn ra thì bị hành động 'tôi về nhà' xen vào. Dùng quá khứ tiếp diễn cho hành động đang diễn ra."
+  },
+  {
+    "type": "mcq",
+    "question": {
+      "id": "pc_010",
+      "prompt": "While my brother _____ video games, I was reading a book in my room.",
+      "options": [
+        {
+          "id": "a",
+          "label": "played"
+        },
+        {
+          "id": "b",
+          "label": "was playing"
+        },
+        {
+          "id": "c",
+          "label": "plays"
+        },
+        {
+          "id": "d",
+          "label": "is playing"
+        }
+      ]
+    },
+    "correctOptionId": "b",
+    "hint": "'While' dùng để diễn tả hai hành động xảy ra song song cùng một lúc trong quá khứ."
+  }
+]
