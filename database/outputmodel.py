@@ -60,6 +60,7 @@ class OutputNotification(BaseModel):
     target_type: str
     target_id: int
     is_read: bool
+    created_at: datetime
 
 
 # =========================

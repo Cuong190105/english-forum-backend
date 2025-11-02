@@ -109,6 +109,7 @@ async def getNotifications(user: User, db: Db_dependency, cursor: datetime, sinc
             target_id=activity.target_id,
             target_type=activity.target_type,
             is_read=n.is_read,
+            created_at=n.created_at,
         ))
     return output
 
