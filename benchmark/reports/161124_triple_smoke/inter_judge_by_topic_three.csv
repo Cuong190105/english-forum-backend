@@ -1,0 +1,4 @@
+run_id,type,topic,judge_pair,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+161124_triple_smoke,mcq,Past Simple,gc,10,0.5,0.1901,0.8099,0.1667,0.3311
+161124_triple_smoke,mcq,Past Simple,gd,10,0.7,0.416,0.984,0.4,0.6117
+161124_triple_smoke,mcq,Past Simple,cd,10,0.5,0.1901,0.8099,0.3333,0.2727

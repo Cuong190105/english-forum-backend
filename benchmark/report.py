@@ -70,10 +70,21 @@ def write_inter_judge_csv(path: Path, rows: List[Dict[str, Any]]):
 
 
 def compute_inter_judge_by_topic(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Compute inter-judge reliability grouped by (type, topic).
+    """MCQ-only: compute inter-judge reliability grouped by (type, topic).
     Returns rows with: run_id, type, topic, n, percent_agreement, pa_ci95_low, pa_ci95_high, kappa, ac1
     """
     from collections import Counter, defaultdict
+
+    def _wilson_ci(p_hat: float, n: int, z: float = 1.96) -> Tuple[float, float]:
+        if n <= 0:
+            return (0.0, 0.0)
+        denom = 1.0 + (z*z)/n
+        center = (p_hat + (z*z)/(2.0*n)) / denom
+        import math
+        half = z * math.sqrt(max(p_hat*(1.0 - p_hat)/n + (z*z)/(4.0*n*n), 0.0)) / denom
+        low = max(0.0, center - half)
+        high = min(1.0, center + half)
+        return (low, high)
 
     def stats_for(pairs: List[Tuple[str, str]], classes: List[str]):
         n = len(pairs)
@@ -104,11 +115,8 @@ def compute_inter_judge_by_topic(rows: List[Dict[str, Any]]) -> List[Dict[str, A
         denom = max(1, Q - 1)
         pe1 = pe1 / denom
         ac1 = 0.0 if (1.0 - pe1) == 0 else (po - pe1) / (1.0 - pe1)
-        # 95% CI normal approx
-        import math
-        se = math.sqrt(max(po*(1-po)/n, 0.0))
-        low = max(0.0, po - 1.96*se)
-        high = min(1.0, po + 1.96*se)
+        # 95% CI (Wilson)
+        low, high = _wilson_ci(po, n)
         return dict(n=n, pa=po, pa_low=low, pa_high=high, kappa=k, ac1=ac1)
 
     grouped = defaultdict(list)  # (type, topic) -> list of pairs
@@ -119,6 +127,8 @@ def compute_inter_judge_by_topic(rows: List[Dict[str, Any]]) -> List[Dict[str, A
         topic = r.get('topic')
         if not hw_type or not topic:
             continue
+        if hw_type != 'mcq':
+            continue
         if a and b and a != 'error' and b != 'error':
             grouped[(hw_type, topic)].append((a,b))
 
@@ -126,7 +136,7 @@ def compute_inter_judge_by_topic(rows: List[Dict[str, Any]]) -> List[Dict[str, A
     for (hw_type, topic), pairs in grouped.items():
         if not pairs:
             continue
-        classes = ['correct','ambiguous','incorrect'] if hw_type == 'mcq' else ['acceptable','unacceptable']
+        classes = ['correct','ambiguous','incorrect']
         st = stats_for(pairs, classes)
         out.append({
             'run_id': rows[0].get('run_id',''),
@@ -201,11 +211,22 @@ def append_per_item_rows(path: Path, rows: List[Dict[str, Any]]):
 
 # ===== 3-judge inter-reliability (pairwise) =====
 def compute_inter_judge_by_topic_three(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Compute inter-judge reliability grouped by (type, topic) for three judges.
+    """MCQ-only: compute inter-judge reliability grouped by (type, topic) for three judges.
     Produces pairwise stats for (gemini, claude), (gemini, deepseek), (claude, deepseek).
     Returns rows with: run_id, type, topic, judge_pair, n, percent_agreement, pa_ci95_low, pa_ci95_high, kappa, ac1
     """
     from collections import Counter, defaultdict
+
+    def _wilson_ci(p_hat: float, n: int, z: float = 1.96) -> Tuple[float, float]:
+        if n <= 0:
+            return (0.0, 0.0)
+        denom = 1.0 + (z*z)/n
+        center = (p_hat + (z*z)/(2.0*n)) / denom
+        import math
+        half = z * math.sqrt(max(p_hat*(1.0 - p_hat)/n + (z*z)/(4.0*n*n), 0.0)) / denom
+        low = max(0.0, center - half)
+        high = min(1.0, center + half)
+        return (low, high)
 
     def stats_for(pairs: List[Tuple[str, str]], classes: List[str]):
         n = len(pairs)
@@ -231,11 +252,8 @@ def compute_inter_judge_by_topic_three(rows: List[Dict[str, Any]]) -> List[Dict[
         denom = max(1, Q - 1)
         pe1 = pe1 / denom
         ac1 = 0.0 if (1.0 - pe1) == 0 else (po - pe1) / (1.0 - pe1)
-        # 95% CI (normal approx)
-        import math
-        se = math.sqrt(max(po*(1-po)/n, 0.0))
-        low = max(0.0, po - 1.96*se)
-        high = min(1.0, po + 1.96*se)
+        # 95% CI (Wilson)
+        low, high = _wilson_ci(po, n)
         return dict(n=n, pa=po, pa_low=low, pa_high=high, kappa=k, ac1=ac1)
 
     # Group rows by (type, topic) and accumulate verdict pairs for each judge pair
@@ -244,6 +262,8 @@ def compute_inter_judge_by_topic_three(rows: List[Dict[str, Any]]) -> List[Dict[
         hw_type = r.get('type')
         topic = r.get('topic')
         if not hw_type or not topic:
+            continue
+        if hw_type != 'mcq':
             continue
         key = (hw_type, topic)
         if key not in grouped:
@@ -262,7 +282,7 @@ def compute_inter_judge_by_topic_three(rows: List[Dict[str, Any]]) -> List[Dict[
 
     out: List[Dict[str, Any]] = []
     for (hw_type, topic), pairs_map in grouped.items():
-        classes = ['correct','ambiguous','incorrect'] if hw_type == 'mcq' else ['acceptable','unacceptable']
+        classes = ['correct','ambiguous','incorrect']
         for pair_name, pairs in pairs_map.items():
             if not pairs:
                 continue
@@ -288,6 +308,121 @@ def write_inter_judge_by_topic_csv_three(path: Path, rows: List[Dict[str, Any]])
     if not rows:
         return
     keys = ['run_id','type','topic','judge_pair','n','percent_agreement','pa_ci95_low','pa_ci95_high','kappa','ac1']
+    with path.open('w', encoding='utf-8', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=keys)
+        w.writeheader()
+        for r in rows:
+            w.writerow({k: r.get(k, '') for k in keys})
+
+
+# ===== 3-judge inter-reliability (multi-rater AC1/Kappa) =====
+def compute_inter_judge_by_topic_three_multi(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """MCQ-only: compute multi-rater (3-judge) reliability per (type, topic): Fleiss' Kappa and Gwet's AC1.
+    Only includes items where all three verdicts are present and not 'error'.
+    Returns rows with: run_id, type, topic, n, percent_agreement, pa_ci95_low, pa_ci95_high, kappa, ac1
+    """
+    from collections import defaultdict, Counter
+    import math
+
+    def classes_for(hw_type: str) -> List[str]:
+        return ['correct','ambiguous','incorrect']
+
+    grouped = defaultdict(list)  # (type, topic) -> list of subject category lists
+
+    for r in rows:
+        hw_type = str(r.get('type','')).strip()
+        topic = str(r.get('topic','')).strip()
+        if not hw_type or not topic:
+            continue
+        if hw_type != 'mcq':
+            continue
+        g = (str(r.get('judge_gemini_verdict','')) or '').strip().lower()
+        c = (str(r.get('judge_claude_verdict','')) or '').strip().lower()
+        d = (str(r.get('judge_deepseek_verdict','')) or '').strip().lower()
+        if not g or not c or not d:
+            continue
+        if g == 'error' or c == 'error' or d == 'error':
+            continue
+        grouped[(hw_type, topic)].append([g,c,d])
+
+    out: List[Dict[str, Any]] = []
+    for (hw_type, topic), subj_labels in grouped.items():
+        if not subj_labels:
+            continue
+        classes = classes_for(hw_type)
+        Q = len(classes)
+        cls_index = {cls:i for i,cls in enumerate(classes)}
+        R = 3  # number of raters
+        N = 0
+        # For Po: average of per-subject agreement across all pairs
+        Po_sum = 0.0
+        # For category proportions p_c
+        total_counts = [0]*Q
+
+        for labels in subj_labels:
+            # Build n_ic per category
+            n_ic = [0]*Q
+            valid = True
+            for lab in labels:
+                if lab not in cls_index:
+                    valid = False
+                    break
+                n_ic[cls_index[lab]] += 1
+            if not valid:
+                continue
+            if sum(n_ic) != R:
+                continue
+            N += 1
+            for i in range(Q):
+                total_counts[i] += n_ic[i]
+            # Per-subject agreement P_i = sum_c n_ic*(n_ic-1) / (R*(R-1))
+            num = sum(n*(n-1) for n in n_ic)
+            P_i = num / (R*(R-1))
+            Po_sum += P_i
+
+        if N == 0:
+            continue
+
+        Po = Po_sum / N
+        # Fleiss expected agreement: Pe = sum_c p_c^2
+        total_ratings = N * R
+        p_c = [tc/total_ratings for tc in total_counts]
+        Pe_f = sum(pc*pc for pc in p_c)
+        kappa = 0.0 if (1.0 - Pe_f) == 0 else (Po - Pe_f) / (1.0 - Pe_f)
+
+        # Gwet AC1 multi-rater (nominal): Ae = sum_c p_c*(1-p_c)/(Q-1)
+        Ae = 0.0
+        for pc in p_c:
+            Ae += pc*(1.0 - pc)
+        denom = max(1, Q - 1)
+        Ae = Ae / denom
+        ac1 = 0.0 if (1.0 - Ae) == 0 else (Po - Ae) / (1.0 - Ae)
+
+        # 95% CI for Po (normal approx)
+        se = math.sqrt(max(Po*(1.0 - Po)/N, 0.0))
+        low = max(0.0, Po - 1.96*se)
+        high = min(1.0, Po + 1.96*se)
+
+        out.append({
+            'run_id': rows[0].get('run_id','') if rows else '',
+            'type': hw_type,
+            'topic': topic,
+            'n': N,
+            'percent_agreement': round(Po,4),
+            'pa_ci95_low': round(low,4),
+            'pa_ci95_high': round(high,4),
+            'kappa': round(kappa,4),
+            'ac1': round(ac1,4),
+        })
+    return out
+
+
+def write_inter_judge_by_topic_csv_three_multi(path: Path, rows: List[Dict[str, Any]]):
+    """Write multi-rater (3-judge) inter-judge reliability with Kappa and AC1."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not rows:
+        return
+    keys = ['run_id','type','topic','n','percent_agreement','pa_ci95_low','pa_ci95_high','kappa','ac1']
     with path.open('w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=keys)
         w.writeheader()
@@ -337,6 +472,28 @@ def write_winloss_csv(path: Path, rows: List[Dict[str, Any]]):
         'run_id',
         'semantic_wins','semantic_losses','semantic_ties','semantic_n_effective','semantic_win_rate','semantic_binomial_p',
         'judge_wins','judge_losses','judge_ties','judge_n_effective','judge_win_rate','judge_binomial_p'
+    ]
+    with path.open('w', encoding='utf-8', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=keys)
+        w.writeheader()
+        for r in rows:
+            w.writerow({k: r.get(k, '') for k in keys})
+
+
+def write_winloss_consensus_csv(path: Path, rows: List[Dict[str, Any]]):
+    """Write consensus-only win/loss summary for two-judge fusion.
+    Fields: run_id, n_pairs, n_effective, drop_rate,
+            cot_wins, minimal_wins, ties_abstain,
+            win_rate, win_ci95_low, win_ci95_high, binomial_p
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not rows:
+        return
+    keys = [
+        'run_id',
+        'n_pairs','n_effective','drop_rate',
+        'cot_wins','minimal_wins','ties_abstain',
+        'win_rate','win_ci95_low','win_ci95_high','binomial_p',
     ]
     with path.open('w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, fieldnames=keys)

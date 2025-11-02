@@ -1,0 +1,2 @@
+run_id,type,topic,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
+161124_triple_smoke,mcq,Past Simple,10,0.5667,0.2595,0.8738,0.2231,0.3991

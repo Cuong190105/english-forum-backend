@@ -107,6 +107,17 @@ def compute_group_stats(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 def compute_inter_judge(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     from collections import Counter
+    def _wilson_ci(p_hat: float, n: int, z: float = 1.96) -> Tuple[float, float]:
+        if n <= 0:
+            return (0.0, 0.0)
+        denom = 1.0 + (z*z)/n
+        center = (p_hat + (z*z)/(2.0*n)) / denom
+        import math
+        half = z * math.sqrt(max(p_hat*(1.0 - p_hat)/n + (z*z)/(4.0*n*n), 0.0)) / denom
+        low = max(0.0, center - half)
+        high = min(1.0, center + half)
+        return (low, high)
+
     def stats_for(pairs: List[Tuple[str, str]], classes: List[str]):
         n = len(pairs)
         if n == 0:
@@ -132,10 +143,7 @@ def compute_inter_judge(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         denom = max(1, Q - 1)
         pe1 = pe1 / denom
         ac1 = 0.0 if (1.0 - pe1) == 0 else (po - pe1) / (1.0 - pe1)
-        import math
-        se = math.sqrt(max(po*(1-po)/n, 0.0))
-        low = max(0.0, po - 1.96*se)
-        high = min(1.0, po + 1.96*se)
+        low, high = _wilson_ci(po, n)
         return dict(n=n, pa=po, pa_low=low, pa_high=high, kappa=k, ac1=ac1)
 
     out: List[Dict[str, Any]] = []

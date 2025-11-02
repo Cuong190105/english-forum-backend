@@ -185,10 +185,18 @@ def _parse_json_loose(text: str) -> Dict[str, Any]:
     if candidates:
         return candidates[-1]
 
-    # 4) heuristic keyword fallback
+    # 4) heuristic keyword fallback (avoid invalid escape sequences; use regex for verdict pattern)
     low = s.lower()
-    if any(w in low for w in ['"verdict"\s*:\s*"correct', ' verdict": "correct', ' correct"']):
-        return {"verdict": "correct", "why": s}
+    try:
+        import re as _re
+        if _re.search(r'"verdict"\s*:\s*"correct"', s):
+            return {"verdict": "correct", "why": s}
+        if _re.search(r'"verdict"\s*:\s*"ambiguous"', s):
+            return {"verdict": "ambiguous", "why": s}
+        if _re.search(r'"verdict"\s*:\s*"incorrect"', s):
+            return {"verdict": "incorrect", "why": s}
+    except Exception:
+        pass
     if any(w in low for w in ['ambiguous','unclear','both could']):
         return {"verdict": "ambiguous", "why": s}
     if any(w in low for w in ['incorrect','wrong','not correct']):

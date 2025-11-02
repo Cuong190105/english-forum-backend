@@ -4,6 +4,8 @@ import csv
 import json
 import time
 from pathlib import Path
+import inspect
+import tempfile
 from typing import List, Dict, Any, Optional, Set, Tuple
 import sys
 
@@ -30,116 +32,6 @@ def load_per_item(run_id: str) -> List[Dict[str, Any]]:
         for r in rdr:
             out.append(dict(r))
     return out
-
-
-# ---- Utilities to reconstruct question data (stem/options/answer) from gold files ----
-_GOLD_CACHE: Dict[Tuple[str, str, str, int], List[Dict[str, Any]]] = {}
-
-
-def _topic_to_dir(topic: str) -> str:
-    # Map display topic to folder (spaces -> '_')
-    return (topic or '').strip().replace(' ', '_')
-
-
-def _gold_load(topic: str, typ: str, sha: str, seed: int) -> List[Dict[str, Any]]:
-    key = (_topic_to_dir(topic), typ, sha, seed)
-    if key in _GOLD_CACHE:
-        return _GOLD_CACHE[key]
-    base = ROOT / 'benchmark' / 'gold' / _topic_to_dir(topic) / (typ or 'mcq') / (sha or '') / f'seed{seed}.json'
-    try:
-        with open(base, 'r', encoding='utf-8') as f:
-            arr = json.load(f)
-            if isinstance(arr, list):
-                _GOLD_CACHE[key] = arr
-                return arr
-    except Exception:
-        pass
-    _GOLD_CACHE[key] = []
-    return []
-
-
-def _reconstruct_mcq(r: Dict[str, Any]) -> Tuple[str, Dict[str, str], str]:
-    topic = r.get('topic') or ''
-    sha = r.get('source_text_sha') or ''
-    typ = 'mcq'
-    try:
-        seed = int(r.get('seed') or 0)
-    except Exception:
-        seed = 0
-    items = _gold_load(topic, typ, sha, seed)
-    stem = ''
-    opts: Dict[str, str] = {}
-    cid = ''
-    # Prefer by qid_gold if present
-    qid = r.get('qid_gold') or r.get('qid_pred') or ''
-    found = None
-    if qid:
-        for it in items:
-            try:
-                q = it.get('question') or {}
-                if (q.get('id') or '') == qid:
-                    found = it
-                    break
-            except Exception:
-                continue
-    # Else by 1-based idx
-    if found is None:
-        try:
-            idx = int(r.get('idx') or 1)
-            if 1 <= idx <= len(items):
-                found = items[idx - 1]
-        except Exception:
-            found = None
-    if isinstance(found, dict):
-        q = found.get('question') or {}
-        stem = q.get('prompt') or ''
-        cid = (found.get('correctOptionId') or '').upper()
-        try:
-            letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-            arr = q.get('options') or []
-            if isinstance(arr, list):
-                for i, o in enumerate(arr):
-                    oid = (o.get('id') or '').upper() or (letters[i] if i < len(letters) else str(i+1))
-                    opts[oid] = o.get('label') or ''
-        except Exception:
-            opts = {}
-    return stem, opts, cid
-
-
-def _reconstruct_fill(r: Dict[str, Any]) -> Tuple[str, str]:
-    topic = r.get('topic') or ''
-    sha = r.get('source_text_sha') or ''
-    typ = 'fill'
-    try:
-        seed = int(r.get('seed') or 0)
-    except Exception:
-        seed = 0
-    items = _gold_load(topic, typ, sha, seed)
-    prompt = ''
-    ans = ''
-    qid = r.get('qid_gold') or r.get('qid_pred') or ''
-    found = None
-    if qid:
-        for it in items:
-            try:
-                q = it.get('question') or {}
-                if (q.get('id') or '') == qid:
-                    found = it
-                    break
-            except Exception:
-                continue
-    if found is None:
-        try:
-            idx = int(r.get('idx') or 1)
-            if 1 <= idx <= len(items):
-                found = items[idx - 1]
-        except Exception:
-            found = None
-    if isinstance(found, dict):
-        q = found.get('question') or {}
-        prompt = q.get('prompt') or ''
-        ans = found.get('answer') or ''
-    return prompt, ans
 
 
 def _read_existing_row_idx(out_p: Path) -> Set[int]:
@@ -234,255 +126,519 @@ def _gemini_build_user_contents(prompt: str) -> List[Dict[str, Any]]:
     }]
 
 
+def _normalize_model_name(model: Any) -> str:
+    if isinstance(model, (list, tuple)):
+        model = model[0] if model else ''
+    s = (str(model or '')).strip()
+    if not s:
+        s = 'gemini-2.5-pro'
+    if not s.startswith('models/'):
+        s = f'models/{s}'
+    return s
+
+
+def _files_upload_bytes(client: Any, name: str, mime_type: str, data: bytes):
+    """Upload bytes to the provider, trying multiple possible SDK shapes.
+    Detect files object under: client.files, client.upload_files, client.uploadFiles.
+    Only include kwargs that the target method actually supports (no unconditional name=).
+    """
+    fobj = (
+        getattr(client, "files", None)
+        or getattr(client, "upload_files", None)
+        or getattr(client, "uploadFiles", None)
+    )
+    if fobj is None:
+        raise RuntimeError("client.files/upload_files/uploadFiles not available")
+
+    tried: List[str] = []
+    upload_fn = getattr(fobj, "upload", None)
+    create_fn = getattr(fobj, "create", None)
+
+    def _sig_info(fn) -> Tuple[Optional[set], bool]:
+        try:
+            sig = inspect.signature(fn)
+            params = set(sig.parameters.keys())
+            accepts_var_kw = any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig.parameters.values())
+            return params, accepts_var_kw
+        except Exception:
+            return None, True  # assume permissive when unknown
+
+    def _try(fn, kwargs: Dict[str, Any]):
+        try:
+            return fn(**kwargs)
+        except TypeError as e:
+            tried.append(f"{getattr(fn, '__name__', 'upload')} {e}; kwargs={list(kwargs.keys())}")
+            return None
+        except Exception as e:
+            tried.append(f"{getattr(fn, '__name__', 'upload')} {e}; kwargs={list(kwargs.keys())}")
+            return None
+
+    def _maybe_add(d: Dict[str, Any], key: str, val: Any, params: Optional[set], accepts_var_kw: bool):
+        if params is None or key in params or accepts_var_kw:
+            d[key] = val
+
+    # Prefer upload(...)
+    if upload_fn:
+        params, accepts_any = _sig_info(upload_fn)
+
+        # bytes params (contents | content | data | file)
+        for key in ("contents", "content", "data", "file"):
+            if params is None or key in params or accepts_any:
+                kw: Dict[str, Any] = {}
+                _maybe_add(kw, key, data, params, accepts_any)
+                # include mime_type if accepted as either mime_type or mimeType
+                if params is None or "mime_type" in params or accepts_any:
+                    kw["mime_type"] = mime_type
+                elif "mimeType" in (params or set()):
+                    kw["mimeType"] = mime_type
+                # include name only if accepted
+                if params is None or "name" in params or accepts_any:
+                    kw["name"] = name
+                obj = _try(upload_fn, kw)
+                if obj is not None:
+                    return obj
+
+        # path-ish params: try path=, then file= with path, then file= with file object
+        with tempfile.TemporaryDirectory() as td:
+            p = Path(td) / name
+            p.write_bytes(data)
+            # Also create a .json copy to help SDKs infer mime when mime_type kw not supported
+            p_json = Path(td) / (Path(name).stem + ".json")
+            try:
+                p_json.write_bytes(data)
+            except Exception:
+                p_json = p
+
+            if params is None or "path" in params or accepts_any:
+                kw2: Dict[str, Any] = {"path": str(p)}
+                if params is None or "mime_type" in params or accepts_any:
+                    kw2["mime_type"] = mime_type
+                elif "mimeType" in (params or set()):
+                    kw2["mimeType"] = mime_type
+                if params is None or "name" in params or accepts_any:
+                    kw2["name"] = name
+                obj = _try(upload_fn, kw2)
+                if obj is not None:
+                    return obj
+                # Try .json copy for mime inference
+                kw2b = dict(kw2)
+                kw2b["path"] = str(p_json)
+                obj = _try(upload_fn, kw2b)
+                if obj is not None:
+                    return obj
+
+            if params is None or "file" in params or accepts_any:
+                # Try multiple combinations: with mime_type, with mimeType, with/without name
+                attempts: List[Dict[str, Any]] = []
+                attempts.append({"file": str(p), "mime_type": mime_type, "name": name})
+                attempts.append({"file": str(p), "mimeType": mime_type, "name": name})
+                attempts.append({"file": str(p), "mime_type": mime_type})
+                attempts.append({"file": str(p), "mimeType": mime_type})
+                attempts.append({"file": str(p)})
+                # Try .json copy
+                attempts.append({"file": str(p_json), "mime_type": mime_type, "name": name})
+                attempts.append({"file": str(p_json), "mimeType": mime_type, "name": name})
+                attempts.append({"file": str(p_json), "mime_type": mime_type})
+                attempts.append({"file": str(p_json), "mimeType": mime_type})
+                attempts.append({"file": str(p_json)})
+                for kw3 in attempts:
+                    obj = _try(upload_fn, kw3)
+                    if obj is not None:
+                        return obj
+
+                # file as file object with same combinations
+                try:
+                    with p.open('rb') as fh:
+                        attempts2: List[Dict[str, Any]] = []
+                        attempts2.append({"file": fh, "mime_type": mime_type, "name": name})
+                        attempts2.append({"file": fh, "mimeType": mime_type, "name": name})
+                        attempts2.append({"file": fh, "mime_type": mime_type})
+                        attempts2.append({"file": fh, "mimeType": mime_type})
+                        attempts2.append({"file": fh})
+                        for kw4 in attempts2:
+                            obj = _try(upload_fn, kw4)
+                            if obj is not None:
+                                return obj
+                except Exception:
+                    pass
+
+    # Fallback create(...)
+    if create_fn:
+        params_c, accepts_any_c = _sig_info(create_fn)
+        for key in ("contents", "content", "data", "file"):
+            if params_c is None or key in params_c or accepts_any_c:
+                kw3: Dict[str, Any] = {}
+                _maybe_add(kw3, key, data, params_c, accepts_any_c)
+                if params_c is None or "mime_type" in params_c or accepts_any_c:
+                    kw3["mime_type"] = mime_type
+                elif "mimeType" in (params_c or set()):
+                    kw3["mimeType"] = mime_type
+                if params_c is None or "name" in params_c or accepts_any_c:
+                    kw3["name"] = name
+                obj = _try(create_fn, kw3)
+                if obj is not None:
+                    return obj
+
+    raise RuntimeError("Files upload failed; tried:\n" + "\n".join(tried))
+
+
+def _files_download(client: Any, file_name: str) -> bytes:
+    fobj = (
+        getattr(client, "files", None)
+        or getattr(client, "upload_files", None)
+        or getattr(client, "uploadFiles", None)
+    )
+    if fobj is None:
+        raise RuntimeError("client.files/upload_files/uploadFiles not available")
+    dl = getattr(fobj, "download", None)
+    if not dl:
+        raise RuntimeError("client.files.download not available")
+    try:
+        return dl(file=file_name)          # variant A
+    except TypeError:
+        return dl(name=file_name)          # variant B
+
+
 def call_gemini_batch_api(
     prompts: List[str],
     model: str,
     display_name: Optional[str] = None,
-    response_schema: Optional[Dict[str, Any]] = None,
     poll_interval_s: float = 5.0,
-    timeout_s: float = 60 * 60 * 6,
+    timeout_s: float = 60*60,
+    response_schema: Optional[Any] = None,
+    **_: Any,
 ) -> Tuple[List[str], Optional[Dict[str, Any]]]:
-    """
-    Use the official Gemini Batch API: enqueue -> poll -> download.
-    Returns (texts, meta) where texts length == len(prompts).
-    No fallback paths are used.
-    """
-    if genai is None:
-        raise RuntimeError('google-genai not installed or GEMINI API key missing')
+    from google import genai  # dùng đúng SDK đã cài
     key = os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
     if not key:
-        raise RuntimeError('GEMINI API key not set')
+        raise RuntimeError('GEMINI/GOOGLE API key not set')
     client = genai.Client(api_key=key)
 
-    if not (hasattr(client, 'batches') and hasattr(client.batches, 'create')):
-        raise RuntimeError('Installed google-genai SDK does not expose Batch API (client.batches.create)')
+    model = _normalize_model_name(model)
 
-    # Build inline requests per official SDK example
-    requests_payload: List[Dict[str, Any]] = []
-    for p in prompts:
-        requests_payload.append({'contents': _gemini_build_user_contents(p)})
+    # Build requests payload (messages style)
+    reqs = [{"contents": [{"role": "user", "parts": [{"text": p}]}]} for p in prompts]
 
-    # Normalize model name to the form 'models/...' expected by official docs
-    if not model.startswith('models/'):
-        model = f'models/{model}'
     print(f"[Gemini] Submitting batch of {len(prompts)} prompts to model '{model}'...", flush=True)
-
-    # Create batch job
+    # Try requests=
+    batch = None
+    create_fn = getattr(client.batches, 'create')
+    # Inspect signature to include only supported kwargs
     try:
-        if display_name:
-            batch = client.batches.create(model=model, src=requests_payload, config={'display_name': display_name})
-        else:
-            batch = client.batches.create(model=model, src=requests_payload)
-    except TypeError:
-        # Alternate signature may accept display_name directly
-        if display_name:
-            batch = client.batches.create(model=model, src=requests_payload, display_name=display_name)
-        else:
-            batch = client.batches.create(model=model, src=requests_payload)
+        sig_b = inspect.signature(create_fn)
+        params_b = set(sig_b.parameters.keys())
+        accepts_any_b = any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig_b.parameters.values())
+    except Exception:
+        params_b, accepts_any_b = None, True
+    try:
+        kw_batch = {"model": model, "requests": reqs}
+        if display_name and (params_b is None or 'display_name' in params_b or accepts_any_b):
+            kw_batch["display_name"] = display_name
+        batch = create_fn(**kw_batch)
+    except TypeError as e_req:
+        # Fallback: upload JSONL + src=
+        print("[Gemini] requests= path failed. Falling back to JSONL upload + src=.", flush=True)
+        gen_cfg = {
+            "responseMimeType": "application/json",
+            "temperature": 0,
+            "topP": 0,
+        }
+        lines = []
+        for p in prompts:
+            req = {
+                "contents": [{"role": "user", "parts": [{"text": p}]}],
+                "generationConfig": gen_cfg,
+            }
+            lines.append(json.dumps({"request": req}, ensure_ascii=False))
+        jsonl_bytes = ("\n".join(lines)).encode("utf-8")
+        up = None
+        last_err = None
+        for mime in ("application/jsonl", "application/x-ndjson"):
+            try:
+                up = _files_upload_bytes(client, name=f"batch_{int(time.time())}.jsonl", mime_type=mime, data=jsonl_bytes)
+                break
+            except Exception as e_up:
+                last_err = e_up
+        if up is None:
+            raise RuntimeError(f"Gemini files.upload failed: {last_err}")
+        src_name = getattr(up, "name", None) or getattr(up, "id", None)
+        if not src_name:
+            raise RuntimeError("Upload returned no file name/id")
+        try:
+            kw_src = {"model": model, "src": src_name}
+            if display_name and (params_b is None or 'display_name' in params_b or accepts_any_b):
+                kw_src["display_name"] = display_name
+            batch = create_fn(**kw_src)
+        except Exception as e_src:
+            raise RuntimeError(f"Gemini batches.create failed for model {model}: {e_src}") from e_req
 
-    name = _extract_batch_name(batch)
-    print(f"[Gemini] Batch submitted. name={name}", flush=True)
-
-    # Poll for completion
-    started = time.time()
-    last_log = started
-    while True:
-        state = (_extract_batch_state(batch) or '').upper()
-        now = time.time()
-        if now - last_log >= max(poll_interval_s, 5.0):
-            waited = int(now - started)
-            name_dbg = name or _extract_batch_name(batch) or 'UNKNOWN'
-            print(f"[Gemini] Polling: state={state or 'UNKNOWN'} waited={waited}s name={name_dbg}", flush=True)
-            last_log = now
-        # Handle both simple and enum-like states (e.g., JOB_STATE_SUCCEEDED)
-        if state in ('SUCCEEDED', 'COMPLETED') or state.endswith('_SUCCEEDED') or state.endswith('_COMPLETED'):
-            break
-        if state in ('FAILED', 'CANCELLED', 'CANCELED') or state.endswith('_FAILED') or state.endswith('_CANCELLED') or state.endswith('_CANCELED'):
-            raise RuntimeError(f'Gemini Batch state={state}')
-        if (now - started) > timeout_s:
-            raise TimeoutError(f'Gemini Batch timeout after {timeout_s}s')
-        time.sleep(poll_interval_s)
-        # Refresh with retry/backoff
-        if name:
-            attempts = 0
-            while True:
-                try:
-                    batch = client.batches.get(name=name)
-                    break
-                except Exception as ge:
-                    attempts += 1
-                    if attempts > 3:
-                        raise RuntimeError(f"[Gemini] batches.get failed after retries: {ge}")
-                    backoff = min(10.0, poll_interval_s * (attempts + 1))
-                    print(f"[Gemini] batches.get retry {attempts} in {backoff:.1f}s due to: {ge}", flush=True)
-                    time.sleep(backoff)
-        else:
-            print('[Gemini] Warning: cannot refresh batch status (no name).', flush=True)
-            break
-
-    # Retrieve results: file download or inline responses
+    name = getattr(batch, "name", None) or getattr(batch, "id", None)
     if not name:
-        raise RuntimeError('Gemini Batch API: missing batch name for result retrieval')
+        raise RuntimeError("Gemini Batch missing name/id")
+
+    # Poll
+    t0 = time.time()
+    while True:
+        # some SDKs expose state/status/metadata.state
+        state = getattr(batch, "state", None) or getattr(batch, "status", None)
+        if not isinstance(state, str):
+            meta = getattr(batch, "metadata", None)
+            state = getattr(meta, "state", None) or getattr(meta, "status", None) if meta else None
+        state_u = (state or "").upper()
+        waited = int(time.time() - t0)
+        if waited == 0 or waited % max(5, int(poll_interval_s)) == 0:
+            print(f"[Gemini] Polling: state={state_u or 'UNKNOWN'} waited={waited}s name={name}", flush=True)
+        if state_u in ("SUCCEEDED", "COMPLETED") or state_u.endswith("_SUCCEEDED") or state_u.endswith("_COMPLETED"):
+            break
+        if state_u in ("FAILED", "CANCELLED", "CANCELED") or state_u.endswith("_FAILED") or state_u.endswith("_CANCELLED") or state_u.endswith("_CANCELED"):
+            raise RuntimeError(f"Gemini Batch state={state_u}")
+        if (time.time() - t0) > timeout_s:
+            raise TimeoutError("Gemini Batch timeout")
+        time.sleep(poll_interval_s)
+        # refresh
+        try:
+            batch = client.batches.get(name=name)
+        except Exception:
+            pass
+
+    # Retrieve
     try:
         batch = client.batches.get(name=name)
     except Exception:
         pass
 
-    dest = getattr(batch, 'dest', None)
-    dest_d = None
-    if dest is None and hasattr(batch, 'to_dict'):
-        try:
-            bd = batch.to_dict()
-            if isinstance(bd, dict):
-                dest_d = bd.get('dest') if isinstance(bd.get('dest'), dict) else None
-        except Exception:
-            dest_d = None
-    file_name = getattr(dest, 'file_name', None) if dest is not None else None
-    inlined_responses = getattr(dest, 'inlined_responses', None) if dest is not None else None
-    if (file_name is None and inlined_responses is None) and dest_d is not None:
-        file_name = dest_d.get('file_name')
-        inlined_responses = dest_d.get('inlined_responses')
-
+    # inline_output (newer) or dest.file_name/inlined_responses (older)
+    inline_output = getattr(batch, "inline_output", None) or getattr(batch, "inlineOutput", None)
     lines: List[str] = []
-    result_source = 'unknown'
-    if file_name:
-        print(f"[Gemini] Results are in file: {file_name}. Downloading via files API...", flush=True)
-        dl_attempts = 0
-        content_bytes = None
-        while True:
-            try:
-                content_bytes = client.files.download(file=file_name)
-                break
-            except Exception as de:
-                dl_attempts += 1
-                if dl_attempts > 10:
-                    raise RuntimeError(f"[Gemini] files.download failed after retries: {de}")
-                backoff = min(60.0, 2.0 * dl_attempts)
-                print(f"[Gemini] files.download retry {dl_attempts} in {backoff:.1f}s due to: {de}", flush=True)
-                time.sleep(backoff)
-        text = content_bytes.decode('utf-8', errors='ignore') if isinstance(content_bytes, (bytes, bytearray)) else str(content_bytes)
-        lines = text.splitlines()
-        result_source = 'file'
-    elif inlined_responses is not None:
-        print("[Gemini] Results are inline (dest.inlined_responses).", flush=True)
-        result_source = 'inline'
-        try:
-            for idx, ir in enumerate(inlined_responses):
-                resp = getattr(ir, 'response', None)
-                err = getattr(ir, 'error', None)
-                item: Dict[str, Any] = {'index': idx}
+    result_source = "unknown"
+
+    if inline_output is not None:
+        inline_res = getattr(inline_output, "inline_responses", None) or getattr(inline_output, "inlineResponses", None)
+        if inline_res is not None:
+            for idx, ir in enumerate(inline_res):
+                resp = getattr(ir, "response", None)
+                err = getattr(ir, "error", None)
+                item = {"index": idx}
                 if resp is not None:
-                    txt = None
-                    try:
-                        txt = getattr(resp, 'text', None)
-                    except Exception:
-                        txt = None
-                    if txt is None:
-                        if hasattr(resp, 'to_dict'):
-                            try:
-                                item['response'] = resp.to_dict()
-                            except Exception:
-                                item['response'] = str(resp)
-                        else:
-                            item['response'] = str(resp)
+                    txt = getattr(resp, "text", None)
+                    if txt is None and hasattr(resp, "to_dict"):
+                        item["response"] = resp.to_dict()
                     else:
-                        item['response'] = {'text': txt}
+                        item["response"] = {"text": (txt or "")}
                 elif err is not None:
-                    try:
-                        if hasattr(err, 'to_dict'):
-                            item['error'] = err.to_dict()  # type: ignore[attr-defined]
-                        else:
-                            item['error'] = str(err)
-                    except Exception:
-                        item['error'] = str(err)
-                else:
-                    item['response'] = {'text': ''}
+                    if hasattr(err, "to_dict"):
+                        item["error"] = err.to_dict()
+                    else:
+                        item["error"] = str(err)
                 lines.append(json.dumps(item, ensure_ascii=False))
-        except Exception:
-            for idx, ir in enumerate(inlined_responses):
-                lines.append(json.dumps({'index': idx, 'response': str(ir)}, ensure_ascii=False))
+            result_source = "inline"
     else:
-        print("[Gemini] No results found in dest (neither file_name nor inlined_responses).", flush=True)
-        lines = []
+        dest = getattr(batch, "dest", None)
+        file_name = getattr(dest, "file_name", None) if dest is not None else None
+        inlined = getattr(dest, "inlined_responses", None) if dest is not None else None
+        if file_name:
+            data_bytes = _files_download(client, file_name)
+            text = data_bytes.decode("utf-8", errors="ignore") if isinstance(data_bytes, (bytes, bytearray)) else str(data_bytes)
+            lines = text.splitlines()
+            result_source = "file"
+        elif inlined is not None:
+            for idx, ir in enumerate(inlined):
+                resp = getattr(ir, "response", None)
+                err = getattr(ir, "error", None)
+                item = {"index": idx}
+                if resp is not None:
+                    txt = getattr(resp, "text", None)
+                    if txt is None and hasattr(resp, "to_dict"):
+                        item["response"] = resp.to_dict()
+                    else:
+                        item["response"] = {"text": (txt or "")}
+                elif err is not None:
+                    if hasattr(err, "to_dict"):
+                        item["error"] = err.to_dict()
+                    else:
+                        item["error"] = str(err)
+                lines.append(json.dumps(item, ensure_ascii=False))
+            result_source = "dest.inline"
+
     print(f"[Gemini] Retrieved {len(lines)} result lines from {result_source}.", flush=True)
 
-    # Parse lines into plain texts, preserving original request order via index metadata
-    results_text: List[str] = []
-    tmp_by_index: Dict[int, str] = {}
-    error_count = 0
-    for line in lines:
-        line = line.strip()
-        if not line:
-            continue
+    # Parse -> list[str] aligned by index
+    out_by_idx: Dict[int, str] = {}
+    errs = 0
+    for i, line in enumerate(lines):
         try:
             j = json.loads(line)
-            txt = ''
-            # Prefer explicit error payloads (service-level error per item)
-            if isinstance(j, dict) and j.get('error') is not None:
-                try:
-                    txt = json.dumps(j['error'], ensure_ascii=False)
-                except Exception:
-                    txt = str(j['error'])
-                error_count += 1
-            # Extract index to maintain request order
-            idx_val = None
-            if isinstance(j, dict):
-                for k in ('index', 'requestIndex', 'input_index', 'request_index'):
-                    if k in j:
-                        idx_val = j.get(k)
-                        break
-            # Extract response text if not error
-            if isinstance(j, dict):
-                # Primary: response.candidates[0].content.parts[*].text
-                resp = j.get('response') if isinstance(j.get('response'), dict) else None
-                if resp:
-                    cand = resp.get('candidates')
-                    if isinstance(cand, list) and cand:
-                        content = cand[0].get('content') or {}
-                        parts = content.get('parts') or []
-                        if isinstance(parts, list):
-                            for part in parts:
-                                if isinstance(part, dict) and 'text' in part:
-                                    txt = part['text']
-                                    break
-                    if not txt:
-                        txt = resp.get('text') or ''
-                if not txt:
-                    txt = j.get('text') or j.get('output') or ''
-            # Place into map or append if no index
-            out_txt = txt if isinstance(txt, str) else json.dumps(txt, ensure_ascii=False)
-            if idx_val is not None:
-                try:
-                    tmp_by_index[int(idx_val)] = out_txt
-                except Exception:
-                    results_text.append(out_txt)
-            else:
-                results_text.append(out_txt)
         except Exception:
-            results_text.append(line)
+            out_by_idx[i] = line
+            continue
+        txt = ""
+        if isinstance(j, dict) and j.get("error") is not None:
+            try:
+                txt = json.dumps(j["error"], ensure_ascii=False)
+            except Exception:
+                txt = str(j["error"])
+            errs += 1
+        resp = j.get("response") if isinstance(j, dict) else None
+        if isinstance(resp, dict) and not txt:
+            cand = resp.get("candidates")
+            if isinstance(cand, list) and cand:
+                content = cand[0].get("content") or {}
+                parts = content.get("parts") or []
+                if isinstance(parts, list):
+                    for part in parts:
+                        if isinstance(part, dict) and "text" in part:
+                            txt = part["text"]; break
+            if not txt:
+                txt = resp.get("text") or ""
+        if not txt:
+            txt = j.get("text") or j.get("output") or ""
+        idx_val = j.get("index") or j.get("requestIndex") or j.get("input_index") or j.get("request_index")
+        try:
+            out_by_idx[int(idx_val)] = txt
+        except Exception:
+            out_by_idx[i] = txt
 
-    # Reconstruct results by original prompt order if indices were available
-    if tmp_by_index:
-        ordered = [tmp_by_index.get(i, '') for i in range(len(prompts))]
-        results_text = ordered
-
-    meta = {
-        'batch_name': name,
-        'state': _extract_batch_state(batch),
-        'response_count': len(results_text),
-        'error_count': error_count,
-        'result_source': result_source,
-    }
-    # Align length with prompts
-    if len(results_text) < len(prompts):
-        results_text += [''] * (len(prompts) - len(results_text))
-    elif len(results_text) > len(prompts):
-        results_text = results_text[:len(prompts)]
-    print(f"[Gemini] Parsed {len(results_text)} responses.", flush=True)
-    return results_text, meta
+    out = [out_by_idx.get(i, "") for i in range(len(prompts))]
+    meta = {"batch_name": name, "result_source": result_source, "error_count": errs, "response_count": len(out)}
+    return out, meta
 
 
 # Note: No async fallback for Gemini; Batch API is mandatory per requirements.
+def _upload_jsonl_for_batch(client: Any, prompts: List[str]) -> str:
+    """Build a JSONL with one request per line including generation_config, upload via files API, and
+    return the uploaded file name/id suitable for batches.create(src=...)."""
+    # Build JSONL lines
+    lines: List[str] = []
+    gen_cfg = {
+        'response_mime_type': 'application/json',
+        'temperature': 0,
+        'top_p': 0,
+    }
+    for p in prompts:
+        obj = {
+            'contents': _gemini_build_user_contents(p),
+            'generation_config': gen_cfg,
+        }
+        lines.append(json.dumps(obj, ensure_ascii=False))
+    data = ("\n".join(lines)).encode('utf-8')
+
+    # Write to a temp .jsonl file
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.jsonl') as tmp:
+        tmp_path = tmp.name
+        tmp.write(data)
+    uploaded_name: Optional[str] = None
+    last_err: Optional[Exception] = None
+    try:
+        # Try with explicit mime_type first (ndjson preferred for JSONL)
+        mime_candidates = ['application/x-ndjson', 'application/jsonl', 'application/json', 'text/plain']
+        res = None
+        upload_fn = getattr(client.files, 'upload', None)
+        if upload_fn is None:
+            raise RuntimeError('client.files.upload not available')
+        try:
+            sig = inspect.signature(upload_fn)
+            params = set(sig.parameters.keys())
+        except Exception:
+            params = set()
+
+        # Helper to extract name/id from upload response
+        def _extract_name(obj: Any) -> Optional[str]:
+            n = getattr(obj, 'name', None) or getattr(obj, 'id', None)
+            if n:
+                return str(n)
+            if hasattr(obj, 'to_dict'):
+                try:
+                    rd = obj.to_dict()
+                    if isinstance(rd, dict):
+                        return rd.get('name') or rd.get('id') or rd.get('file')
+                except Exception:
+                    pass
+            return None
+
+        # Strategy matrix based on accepted parameters
+        # A) path + mime_type
+        if res is None and ('path' in params or not params):
+            for mt in mime_candidates:
+                try:
+                    res = upload_fn(path=tmp_path, mime_type=mt)  # type: ignore[call-arg]
+                    uploaded_name = _extract_name(res)
+                    if uploaded_name:
+                        break
+                except Exception as e:
+                    last_err = e
+                    res = None
+
+        # B) file + mime_type (file can be path or file object)
+        if res is None and 'file' in params:
+            for mt in mime_candidates:
+                try:
+                    res = upload_fn(file=tmp_path, mime_type=mt)  # type: ignore[call-arg]
+                    uploaded_name = _extract_name(res)
+                    if uploaded_name:
+                        break
+                except Exception as e:
+                    last_err = e
+                    res = None
+            if res is None:
+                with open(tmp_path, 'rb') as f:
+                    for mt in mime_candidates:
+                        try:
+                            res = upload_fn(file=f, mime_type=mt)  # type: ignore[call-arg]
+                            uploaded_name = _extract_name(res)
+                            if uploaded_name:
+                                break
+                        except Exception as e:
+                            last_err = e
+                            res = None
+                            f.seek(0)
+
+        # C) contents (+ optional name) + mime_type
+        if res is None and 'contents' in params:
+            base = os.path.basename(tmp_path)
+            for mt in mime_candidates:
+                try:
+                    kwargs = {'contents': data, 'mime_type': mt}
+                    # Only pass 'name' if accepted
+                    if 'name' in params:
+                        kwargs['name'] = base  # type: ignore[assignment]
+                    res = upload_fn(**kwargs)  # type: ignore[misc]
+                    uploaded_name = _extract_name(res)
+                    if uploaded_name:
+                        break
+                except Exception as e:
+                    last_err = e
+                    res = None
+
+        # D) Last ditch: positional upload with path or contents
+        if res is None:
+            try:
+                res = upload_fn(tmp_path)  # type: ignore[misc]
+                uploaded_name = _extract_name(res)
+            except Exception as e:
+                last_err = e
+                res = None
+        if res is None:
+            try:
+                res = upload_fn(data)  # type: ignore[misc]
+                uploaded_name = _extract_name(res)
+            except Exception as e:
+                last_err = e
+                res = None
+
+        if res is None:
+            raise last_err or RuntimeError('files.upload returned None')
+        uploaded_name = _extract_name(res)
+    except Exception as e:
+        last_err = e
+    finally:
+        try:
+            os.remove(tmp_path)
+        except Exception:
+            pass
+    if not uploaded_name:
+        raise RuntimeError(f"[Gemini] files.upload failed: {last_err}")
+    print(f"[Gemini] Uploaded JSONL for batch: {uploaded_name}", flush=True)
+    return uploaded_name
 
 
 def call_claude_batch(payloads: List[Dict[str, Any]]) -> List[str]:
@@ -622,32 +778,18 @@ def rejudge_run(
                         opts_obj = tmp
                 except Exception:
                     opts_obj = {}
-                stem_val = r.get('stem') or r.get('question_prompt') or r.get('question.prompt') or r.get('question', '')
-                cid_val = r.get('correctOptionId') or r.get('correct_option_id') or ''
-                # If missing critical pieces, try reconstruct from gold
-                if (not stem_val) or (not opts_obj) or (not cid_val):
-                    rs, ropts, rcid = _reconstruct_mcq(r)
-                    stem_val = stem_val or rs
-                    if not opts_obj:
-                        opts_obj = ropts
-                    cid_val = cid_val or rcid
+
                 user = json.dumps({
-                    'stem': stem_val,
+                    'stem': r.get('stem') or r.get('question_prompt') or r.get('question.prompt') or r.get('question', ''),
                     'options': opts_obj,
-                    'correctOptionId': cid_val,
+                    'correctOptionId': r.get('correctOptionId') or r.get('correct_option_id') or '',
                     'topic': r.get('topic') or ''
                 }, ensure_ascii=False)
                 prompt = f"{MCQ_SYS}\n{user}"
             else:
-                pr_val = r.get('question_prompt') or r.get('question.prompt') or r.get('prompt') or r.get('question', '')
-                ans_val = r.get('answer') or r.get('gold_answer') or ''
-                if (not pr_val) or (not ans_val):
-                    rp, ra = _reconstruct_fill(r)
-                    pr_val = pr_val or rp
-                    ans_val = ans_val or ra
                 user = json.dumps({
-                    'prompt': pr_val,
-                    'answer': ans_val,
+                    'prompt': r.get('question_prompt') or r.get('question.prompt') or r.get('prompt') or r.get('question', ''),
+                    'answer': r.get('answer') or r.get('gold_answer') or '',
                     'topic': r.get('topic') or ''
                 }, ensure_ascii=False)
                 prompt = f"{FILL_SYS}\n{user}"
@@ -750,7 +892,7 @@ def rejudge_run(
             try:
                 t0 = time.perf_counter()
                 if hw_type == 'mcq':
-                    # Reuse normalization + reconstruction
+                    # Reuse the same normalization logic for DeepSeek
                     stem_val = r.get('stem') or r.get('question_prompt') or r.get('question.prompt') or r.get('question', '')
                     raw_opts = r.get('options_json') if r.get('options_json') is not None else r.get('options')
                     opts_obj: Dict[str, Any] = {}
@@ -766,22 +908,9 @@ def rejudge_run(
                             opts_obj = tmp
                     except Exception:
                         opts_obj = {}
-                    cid_val = r.get('correctOptionId') or r.get('correct_option_id') or ''
-                    if (not stem_val) or (not opts_obj) or (not cid_val):
-                        rs, ropts, rcid = _reconstruct_mcq(r)
-                        stem_val = stem_val or rs
-                        if not opts_obj:
-                            opts_obj = ropts
-                        cid_val = cid_val or rcid
-                    ds = judge_mcq_deepseek(stem_val, opts_obj, cid_val, r.get('topic') or '', context=None)
+                    ds = judge_mcq_deepseek(stem_val, opts_obj, r.get('correctOptionId') or r.get('correct_option_id') or '', r.get('topic') or '', context=None)
                 else:
-                    pr_val = r.get('question_prompt') or r.get('question.prompt') or r.get('prompt') or r.get('question', '')
-                    ans_val = r.get('answer') or r.get('gold_answer') or ''
-                    if (not pr_val) or (not ans_val):
-                        rp, ra = _reconstruct_fill(r)
-                        pr_val = pr_val or rp
-                        ans_val = ans_val or ra
-                    ds = judge_fill_deepseek(pr_val, ans_val, r.get('topic') or '', context=None)
+                    ds = judge_fill_deepseek(r.get('question_prompt') or r.get('question.prompt') or r.get('prompt') or r.get('question', ''), r.get('answer') or r.get('gold_answer') or '', r.get('topic') or '', context=None)
                 dt = (time.perf_counter() - t0) * 1000.0
                 ds_ver = ds.get('verdict') if isinstance(ds, dict) else ''
                 ds_why = ds.get('why') if isinstance(ds, dict) else ''

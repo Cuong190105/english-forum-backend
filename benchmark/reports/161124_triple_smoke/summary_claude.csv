@@ -1,0 +1,2 @@
+run_id,config,topic,type,seed,n_items,structural_pass_pct,semantic_mean,semantic_std,semantic_se,semantic_ci95_low,semantic_ci95_high,judge_mean,judge_std,judge_se,judge_ci95_low,judge_ci95_high,judge2_mean,judge2_std,judge2_se,judge2_ci95_low,judge2_ci95_high
+161124_triple_smoke,minimal,Past Simple,mcq,0,10,,,,,,,0.5,0.527,0.1667,0.1733,0.8267,,,,,

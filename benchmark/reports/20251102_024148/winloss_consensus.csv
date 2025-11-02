@@ -1,0 +1,2 @@
+run_id,n_pairs,n_effective,drop_rate,cot_wins,minimal_wins,ties_abstain,win_rate,win_ci95_low,win_ci95_high,binomial_p
+20251102_024148,60,25,0.5833,18,7,35,0.72,0.5242,0.8572,0.043285

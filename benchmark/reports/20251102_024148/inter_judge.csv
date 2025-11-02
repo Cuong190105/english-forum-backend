@@ -1,2 +1,2 @@
 run_id,type,n,percent_agreement,pa_ci95_low,pa_ci95_high,kappa,ac1
-smoke_fill_min_cot_i5_s0_afterpatch,fill,20,1.0,1.0,1.0,0.0,1.0
+20251102_024148,mcq,1200,0.7375,0.7119,0.7616,0.2277,0.6849
