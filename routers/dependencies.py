@@ -2,13 +2,18 @@ from configs.config_auth import Encryption
 from database.database import Db_dependency
 from database.models import User
 from typing import Annotated
-
+from dotenv import load_dotenv
+import os
 from fastapi import Depends, HTTPException, Request, status
 from fastapi.security import OAuth2PasswordBearer
 
 from utilities.security import validateToken
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login", refreshUrl="/refresh")
+
+load_dotenv()
+env = os.getenv("APP_ENV", "development")
+loadtestToken = os.getenv("LOADTEST_TOKEN", "")
 
 async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency, request: Request):
     """
@@ -23,10 +28,13 @@ async def getUserFromToken(token: Annotated[str, Depends(oauth2_scheme)], db: Db
         Optional[models.User]: user info.
     """
     # Decode the JWT token and extract the user ID
-    payload = validateToken(token, Encryption.SECRET_ACCESS_KEY)
-    if payload is None:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
-    user_id = payload.get("sub")
+    if env == "loadtest" and token == loadtestToken:
+        user_id = 1
+    else:
+        payload = validateToken(token, Encryption.SECRET_ACCESS_KEY)
+        if payload is None:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
+        user_id = payload.get("sub")
     
     # Fetch the user from the database
     user = db.query(User).filter(User.user_id == user_id).first()
