@@ -148,6 +148,12 @@ async def deleteComment(db: Db_dependency, comment: Comment):
     """
     comment.post.comment_count -= 1
     comment.is_deleted = True
+    while True:
+        reply = db.query(Comment).filter(Comment.reply_to_id == comment.comment_id, Comment.is_deleted == False).all()
+        if not reply:
+            break
+        for r in reply:
+            await deleteComment(db, r)
     db.commit()
 
     return True
