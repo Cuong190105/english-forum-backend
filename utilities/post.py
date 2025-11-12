@@ -227,7 +227,7 @@ async def getUserPosts(this_user: User, user: User, cursor: datetime):
     """
     Get user's posts
 
-    Parans:
+    Params:
         this_user: User requesting
         user: Target user
         cursor: Get all posts up to this timestamp
@@ -236,5 +236,5 @@ async def getUserPosts(this_user: User, user: User, cursor: datetime):
         list[OutputPost]: All processed posts.
     """
     LIMIT = 10
-    posts = user.posts.filter(Post.is_deleted == False, Post.created_at < cursor).limit(LIMIT).all()
+    posts = user.posts.filter(Post.is_deleted == False, Post.created_at < cursor).order_by(Post.created_at.desc()).limit(LIMIT).all()
     return [await getOutputPost(this_user, p) for p in posts]

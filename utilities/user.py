@@ -1,7 +1,7 @@
 from configs.config_user import Relationship
 from database.database import Db_dependency
 from database.outputmodel import SimpleUser
-from database.models import User, Following, PostVote, CommentVote
+from database.models import Comment, Post, User, Following, PostVote, CommentVote
 from sqlalchemy import or_
 
 async def getUserByUsername(username: str, db: Db_dependency):
@@ -58,8 +58,8 @@ def getSimpleUser(this_user: User, user: User):
         following=this_user.following.filter(User.user_id == user.user_id).first() is not None,
         follower_count=len(list(user.followers)),
         following_count=len(list(user.following)),
-        post_count=len(list(user.posts)),
-        comment_count=len(list(user.comments)),
+        post_count=len(list(user.posts.filter(Post.is_deleted == False))),
+        comment_count=len(list(user.comments.filter(Comment.is_deleted == False))),
         upvote_count=getUpvoteCount(user),
     )
 
