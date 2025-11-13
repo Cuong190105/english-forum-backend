@@ -11,7 +11,7 @@ async def getComments(db: Db_dependency, post: Post, user: User, offset: int, li
     Params:
         db: Database session object.
         post: Post.
-        offset: Skip top `offset` comments.
+        offset: Skip comments with `comment_id` greater than `offset`. Set to 0 to disable offset.
         limit: Number of comments to get.
 
     Returns:
@@ -21,15 +21,18 @@ async def getComments(db: Db_dependency, post: Post, user: User, offset: int, li
     # Query comments as requested
     comments = db.query(Comment).filter(
         Comment.post_id == post.post_id,
-        Comment.is_deleted == False
-    ).offset(offset).limit(limit).all()
+        Comment.is_deleted == False,
+    )
+    
+    if offset != 0:
+        comments = comments.filter(Comment.comment_id < offset)
+
+    comments = comments.order_by(Comment.comment_id.desc()).limit(limit).all()
 
 
     # Simplify output data.
     output = [await getOutputComment(user, c) for c in comments]
 
-    # Sort the comments according to the votes
-    output.sort(key=lambda x: x.vote_count, reverse=True)
     return output
 
 async def getOutputComment(user: User, comment: Comment):

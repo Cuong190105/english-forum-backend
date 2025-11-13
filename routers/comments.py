@@ -13,6 +13,9 @@ router = APIRouter()
 async def get_post_comments(db: Db_dependency, this_user: User_auth, post_id: int, offset: int = 0, limit: int = 100):
     """
     Get all comments of a post.
+    Params:
+        offset: Skip comments with `comment_id` greater than `offset`. Set to 0 or leave this blank to disable offset.
+        limit: Number of comments to get. Default is 100.
     """
 
     # Get the post
