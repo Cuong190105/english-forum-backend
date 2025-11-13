@@ -21,7 +21,7 @@ class PostTextContent(BaseModel):
     @classmethod
     def form(
         cls,
-        title: Annotated[str, Form(min_length=1)],
+        title: Annotated[str, Form(min_length=1, max_length=255)],
         content: Annotated[str, Form(min_length=1)],
         tag: Annotated[PostTag, Form(min_length=1)]
     ):

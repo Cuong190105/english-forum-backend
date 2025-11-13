@@ -218,5 +218,5 @@ async def getUserComments(this_user: User, user: User, cursor: datetime):
         list[OutputComment]: All processed comments.
     """
     LIMIT = 10
-    comments = user.comments.filter(Comment.is_deleted == False, Comment.created_at < cursor).limit(LIMIT).all()
+    comments = user.comments.filter(Comment.is_deleted == False, Comment.created_at < cursor).order_by(Comment.created_at.desc()).limit(LIMIT).all()
     return [await getOutputComment(this_user, c) for c in comments]
