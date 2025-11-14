@@ -1,9 +1,11 @@
+from io import BytesIO
+from fastapi import UploadFile
 import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database.database import Base
 from database import models
-from database.models import User, Post, Comment, Credentials
+from database.models import Attachment, User, Post, Comment, Credentials
 from datetime import datetime, timedelta, timezone
 
 @pytest.fixture(scope="package", autouse=True)
@@ -29,6 +31,77 @@ def mock_db(connection):
     finally:
         db.close()
 
+class MockUploadFile(UploadFile):
+    def __init__(self, filename, file, content_type):
+        super().__init__(filename=filename, file=file)
+        self._mock_content_type = content_type
+
+    @property
+    def content_type(self):
+        return self._mock_content_type
+
+@pytest.fixture(scope="function")
+def mock_file():
+    list_files = {
+        "normal_jpg": MockUploadFile(
+            "virus.jpg",
+            BytesIO(b"fake jpg content"),
+            "image/jpg"
+        ),
+        "normal_jpeg": MockUploadFile(
+            "virus.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "too_big_png": MockUploadFile(
+            "image.png",
+            BytesIO(b"x" * (6 * 1024 * 1024)),
+            "image/png"
+        ),
+        "normal_mp4": MockUploadFile(
+            "video.mp4",
+            BytesIO(b"x" * (19 * 1024 * 1024)),
+            "video/mp4"
+        ),
+        "too_big_mp4": MockUploadFile(
+            "fatvideo.mp4",
+            BytesIO(b"x" * (101 * 1024 * 1024)),
+            "video/mp4"
+        ),
+        "wrong_type_txt": MockUploadFile(
+            "document.txt",
+            BytesIO(b"fake txt content"),
+            "text/plain"
+        ),
+        "file7": MockUploadFile(
+            "virus1.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file8": MockUploadFile(
+            "virus2.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file9": MockUploadFile(
+            "virus3.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file10": MockUploadFile(
+            "virus4.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file11": MockUploadFile(
+            "virus5.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+    }
+    return list_files
+
+
 @pytest.fixture(scope="class")
 def seed_data(mock_db):
 # Create users
@@ -36,6 +109,7 @@ def seed_data(mock_db):
         username="username1",
         email="username1@example.com",
         email_verified_at=datetime.now(timezone.utc),
+        avatar_filename="virus.jpg",
     )
     creds1 = Credentials(
         password_hash="$2b$12$pmpN3J/zSxS6L3EwetcT1enO7uxRrfe6zIcVvr8ZfgK2pxT0FbYly",
@@ -163,6 +237,36 @@ def seed_data(mock_db):
     post1.comments.append(cmt2)
     post2.comments.append(cmt3)
 
+    at1 = Attachment(
+        media_type="image/jpeg",
+        media_metadata="",
+        media_filename="sample1.jpeg",
+        index=0,
+    )
+    at2 = Attachment(
+        media_type="video/mp4",
+        media_metadata="",
+        media_filename="sample.mp4",
+        index=1,
+    )
+    act = models.Activity(
+        actor_id = 1,
+        target_type = "post",
+        target_id = 1,
+        action_type = "comment",
+        action_id = 1,
+    )
+
+    noti1 = models.Notification(
+        user_id=1,
+        activity_id=1,
+        action_type="comment",
+    )
+
+    post2.attachments.append(at1)
+    post2.attachments.append(at2)
     mock_db.add(user1)
     mock_db.add(user2)
+    mock_db.add(act)
+    mock_db.add(noti1)
     mock_db.commit()

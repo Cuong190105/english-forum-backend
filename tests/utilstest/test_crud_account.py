@@ -1,9 +1,6 @@
 import pytest
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 from utilities import account, security, user as userutils
-from database.database import Base
-from database.models import User, Credentials, OTP, EmailChangeRequest
+from database.models import User, OTP, EmailChangeRequest
 from configs.config_auth import OTP_Purpose, Encryption, Duration
 from datetime import datetime, timedelta, timezone
 

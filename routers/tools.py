@@ -15,7 +15,7 @@ router = APIRouter()
 @router.get("/search", status_code=status.HTTP_200_OK)
 async def search(this_user: User_auth, keyword: str, db: Db_dependency):
     if keyword is None or keyword == "":
-        raise HTTPException("Keyword must not be null")
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Keyword must not be null")
     
     result = await tool.search(db, this_user, keyword)
 
@@ -35,14 +35,6 @@ async def mark_as_read(this_user: User_auth, db: Db_dependency, notification_id:
     return {
         "message": "Done"
     }
-
-@router.get("/posts/{post_id}/exercise", status_code=status.HTTP_200_OK)
-async def get_exercises(this_user: User_auth, post_id: int, db: Db_dependency):
-    """
-    Get exercises for practice based on post content using ✨AI
-    """
-
-    pass
 
 @router.get("/download/{media_filename}")
 async def download(db: Db_dependency, this_user: User_auth, media_filename: str):

@@ -1,0 +1,8 @@
+[run]
+# Loại trừ file/thư mục khỏi đo coverage
+omit =
+    tests/*
+    venv/*
+    scripts/*
+    */__init__.py
+    database/testdata.py

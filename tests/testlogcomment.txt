@@ -1,0 +1,193 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-8.4.2, pluggy-1.6.0
+rootdir: D:\Study\Web\english-forum
+plugins: anyio-4.10.0, asyncio-1.2.0, cov-7.0.0, timeout-2.4.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 5 items
+
+tests\apitest\test_comments.py ....F                                     [100%]
+
+================================== FAILURES ===================================
+________________________ TestComment.test_voteComment _________________________
+
+self = <redis.asyncio.connection.Connection(host=localhost,port=6379,db=0)>
+command = [b'*3\r\n$7\r\nPUBLISH\r\n$6\r\nnoti_2\r\n$80\r\n{"message": "New notification", "timestamp": "2025-11-14T03:19:32.094280+00:00"}\r\n']
+check_health = True
+
+    async def send_packed_command(
+        self, command: Union[bytes, str, Iterable[bytes]], check_health: bool = True
+    ) -> None:
+        if not self.is_connected:
+            await self.connect_check_health(check_health=False)
+        if check_health:
+            await self.check_health()
+    
+        try:
+            if isinstance(command, str):
+                command = command.encode()
+            if isinstance(command, bytes):
+                command = [command]
+            if self.socket_timeout:
+                await asyncio.wait_for(
+                    self._send_packed_command(command), self.socket_timeout
+                )
+            else:
+>               self._writer.writelines(command)
+
+venv\Lib\site-packages\redis\asyncio\connection.py:542: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:349: in writelines
+    self._transport.writelines(data)
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\transports.py:123: in writelines
+    self.write(data)
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py:366: in write
+    self._loop_writing(data=bytes(data))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <_ProactorSocketTransport closing fd=1608 read=<_OverlappedFuture cancelled>>
+f = None
+data = b'*3\r\n$7\r\nPUBLISH\r\n$6\r\nnoti_2\r\n$80\r\n{"message": "New notification", "timestamp": "2025-11-14T03:19:32.094280+00:00"}\r\n'
+
+    def _loop_writing(self, f=None, data=None):
+        try:
+            if f is not None and self._write_fut is None and self._closing:
+                # XXX most likely self._force_close() has been called, and
+                # it has set self._write_fut to None.
+                return
+            assert f is self._write_fut
+            self._write_fut = None
+            self._pending_write = 0
+            if f:
+                f.result()
+            if data is None:
+                data = self._buffer
+                self._buffer = None
+            if not data:
+                if self._closing:
+                    self._loop.call_soon(self._call_connection_lost, None)
+                if self._eof_written:
+                    self._sock.shutdown(socket.SHUT_WR)
+                # Now that we've reduced the buffer size, tell the
+                # protocol to resume writing if it was paused.  Note that
+                # we do this last since the callback is called immediately
+                # and it may add more data to the buffer (even causing the
+                # protocol to be paused again).
+                self._maybe_resume_protocol()
+            else:
+>               self._write_fut = self._loop._proactor.send(self._sock, data)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+E               AttributeError: 'NoneType' object has no attribute 'send'
+
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py:402: AttributeError
+
+During handling of the above exception, another exception occurred:
+
+self = <tests.apitest.test_comments.TestComment object at 0x0000020EF70D6210>
+async_client = <httpx.AsyncClient object at 0x0000020EF6DA5E80>
+
+    @pytest.mark.asyncio
+    async def test_voteComment(self, async_client):
+       # Test normal vote
+>       r = await async_client.post(
+            "/comments/2/vote",
+            headers={"Authorization": "Bearer 1"},
+            params={"vote_type": 1}
+        )
+
+tests\apitest\test_comments.py:137: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+venv\Lib\site-packages\httpx\_client.py:1859: in post
+    return await self.request(
+venv\Lib\site-packages\httpx\_client.py:1540: in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\httpx\_client.py:1629: in send
+    response = await self._send_handling_auth(
+venv\Lib\site-packages\httpx\_client.py:1657: in _send_handling_auth
+    response = await self._send_handling_redirects(
+venv\Lib\site-packages\httpx\_client.py:1694: in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\httpx\_client.py:1730: in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\httpx\_transports\asgi.py:170: in handle_async_request
+    await self.app(scope, receive, send)
+venv\Lib\site-packages\fastapi\applications.py:1082: in __call__
+    await super().__call__(scope, receive, send)
+venv\Lib\site-packages\starlette\applications.py:113: in __call__
+    await self.middleware_stack(scope, receive, send)
+venv\Lib\site-packages\starlette\middleware\errors.py:186: in __call__
+    raise exc
+venv\Lib\site-packages\starlette\middleware\errors.py:164: in __call__
+    await self.app(scope, receive, _send)
+venv\Lib\site-packages\starlette\middleware\exceptions.py:63: in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+venv\Lib\site-packages\starlette\_exception_handler.py:53: in wrapped_app
+    raise exc
+venv\Lib\site-packages\starlette\_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+venv\Lib\site-packages\starlette\routing.py:716: in __call__
+    await self.middleware_stack(scope, receive, send)
+venv\Lib\site-packages\starlette\routing.py:736: in app
+    await route.handle(scope, receive, send)
+venv\Lib\site-packages\starlette\routing.py:290: in handle
+    await self.app(scope, receive, send)
+venv\Lib\site-packages\starlette\routing.py:78: in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+venv\Lib\site-packages\starlette\_exception_handler.py:53: in wrapped_app
+    raise exc
+venv\Lib\site-packages\starlette\_exception_handler.py:42: in wrapped_app
+    await app(scope, receive, sender)
+venv\Lib\site-packages\starlette\routing.py:75: in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+venv\Lib\site-packages\fastapi\routing.py:308: in app
+    raw_response = await run_endpoint_function(
+venv\Lib\site-packages\fastapi\routing.py:219: in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+routers\comments.py:120: in vote_comment
+    if not await cmtutils.voteComment(db, this_user, cmt, vote_type):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utilities\comment.py:201: in voteComment
+    await logActivity(user.user_id, db, 'vote_comment', str(value), vote.vote_id, 'comment', comment.comment_id, comment.author_id)
+utilities\activity.py:61: in logActivity
+    act.notifications.append(await createNotification(target_noti_id, action))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utilities\activity.py:83: in createNotification
+    await redis.publish(f"noti_{user_id}", json.dumps({
+venv\Lib\site-packages\redis\asyncio\client.py:725: in execute_command
+    return await conn.retry.call_with_retry(
+venv\Lib\site-packages\redis\asyncio\retry.py:50: in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+venv\Lib\site-packages\redis\asyncio\client.py:699: in _send_command_parse_response
+    await conn.send_command(*args)
+venv\Lib\site-packages\redis\asyncio\connection.py:567: in send_command
+    await self.send_packed_command(
+venv\Lib\site-packages\redis\asyncio\connection.py:562: in send_packed_command
+    await self.disconnect(nowait=True)
+venv\Lib\site-packages\redis\asyncio\connection.py:487: in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py:358: in close
+    return self._transport.close()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py:109: in close
+    self._loop.call_soon(self._call_connection_lost, None)
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:799: in call_soon
+    self._check_closed()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <ProactorEventLoop running=False closed=True debug=False>
+
+    def _check_closed(self):
+        if self._closed:
+>           raise RuntimeError('Event loop is closed')
+E           RuntimeError: Event loop is closed
+
+C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:545: RuntimeError
+=========================== short test summary info ===========================
+FAILED tests/apitest/test_comments.py::TestComment::test_voteComment - Runtim...
+========================= 1 failed, 4 passed in 2.41s =========================

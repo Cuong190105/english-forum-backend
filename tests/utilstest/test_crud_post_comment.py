@@ -126,7 +126,7 @@ class TestComment:
         assert await comment.getCommentById(mock_db, 1) is None
 
     @pytest.mark.asyncio
-    async def test_votePost(self, mock_db):
+    async def test_voteComment(self, mock_db):
         user1 = mock_db.query(User).filter(User.username == "username1").first()
         user2 = mock_db.query(User).filter(User.username == "username2").first()
         cmt1 = mock_db.query(Comment).filter(Comment.post_id == 1).first()

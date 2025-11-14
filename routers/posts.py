@@ -61,7 +61,6 @@ async def upload_post(
     """
     Upload a post
     """
-
     # Validate and store attachments
     if attachments is not None:
         ats = await attutils.saveAttachments(db, attachments)
@@ -98,10 +97,10 @@ async def edit_post(
     Don't need to provide <new_position> if change_type doesn't require.
     If there are multiple changes, separate them with commas only (without following space): <change1>,<change2>,...
     """
+
     post = await postutils.getPost(post_id, db)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
-
     if attachments_update is not None:
         st = await attutils.editAttachments(db, post, attachments, attachments_update)
         if st == 1:

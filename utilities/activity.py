@@ -65,7 +65,7 @@ async def logActivity(actor_id: int, db: Db_dependency, action: ActionType, cont
     db.commit()
 
 async def getMentionedUser(content: str, db: Db_dependency):
-    username = re.findall(r"@" + Pattern.USERNAME_PATTERN, content)
+    username = re.findall(r"\@" + Pattern.USERNAME_PATTERN[1:-1], content)
     users = []
     for n in username:
         u = await getUserByUsername(n[1:], db)
@@ -135,6 +135,7 @@ async def publishPostEvent(post_id: int, message: dict):
         post_id: ID of the post
         message: Message content to publish
     """
+    pass
     await redis.publish(f"post_{post_id}", json.dumps(message))
 
 async def eventStream(type: Literal['noti', 'post'], target_id: int):

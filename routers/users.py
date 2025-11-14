@@ -166,7 +166,7 @@ async def get_followers_list(this_user: User_auth, db: Db_dependency, username: 
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    return user.followers
+    return list(user.followers)
 
 @router.get("/user/{username}/following", status_code=status.HTTP_200_OK)
 async def get_following_list(this_user: User_auth, db: Db_dependency, username: str):
@@ -177,7 +177,7 @@ async def get_following_list(this_user: User_auth, db: Db_dependency, username: 
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    return user.following
+    return list(user.following)
 
 @router.get("/user/{username}/posts", status_code=status.HTTP_200_OK)
 async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):

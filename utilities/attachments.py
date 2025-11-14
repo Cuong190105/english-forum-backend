@@ -186,6 +186,7 @@ async def getFile(db: Db_dependency, media_filename: str):
         target_path = Path(MOUNT_PATH) / "avatar"
     
     target_path.mkdir(parents=True, exist_ok=True)
+    print(f"File found: {target_path / media_filename}")
     if os.path.isfile(target_path / media_filename):
         return f"{target_path / media_filename}"
     return None

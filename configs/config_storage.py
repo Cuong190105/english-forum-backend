@@ -6,4 +6,4 @@
 # connection_string = os.getenv('AZURE_STORAGEFILE_CONNECTIONSTRING')
 # service_client = ShareServiceClient.from_connection_string(connection_string)
 
-MOUNT_PATH = '/storage'
+MOUNT_PATH = 'D:/Study/Web/english-forum/storage'

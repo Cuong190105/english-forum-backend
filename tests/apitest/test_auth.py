@@ -11,8 +11,9 @@ async def mock_send_email(subject: str, content: str, target: str):
 class TestAuth:
 
     @pytest.mark.usefixtures("check")
-    def test_login(self, client):
-        response = client.post(
+    @pytest.mark.asyncio
+    async def test_login(self, async_client):
+        response = await async_client.post(
             "/login",
             data={
                 "username": "testuser1",
@@ -23,7 +24,7 @@ class TestAuth:
         assert "access_token" in response.json()
 
         # Test not existed username
-        response = client.post(
+        response = await async_client.post(
             "/login",
             data={
                 "username": "randomuser",
@@ -33,7 +34,7 @@ class TestAuth:
         assert response.status_code == 404
 
         # Test wrong password
-        response = client.post(
+        response = await async_client.post(
             "/login",
             data={
                 "username": "testuser1",
@@ -43,9 +44,10 @@ class TestAuth:
         assert response.status_code == 406
 
     @pytest.mark.usefixtures("check")
-    def test_register(self, client, monkeypatch):
+    @pytest.mark.asyncio
+    async def test_register(self, async_client, monkeypatch):
         monkeypatch.setattr("utilities.mailer.send", mock_send_email)
-        response = client.post(
+        response = await async_client.post(
             "/register",
             data={
                 "username": "testuser3",
@@ -57,7 +59,7 @@ class TestAuth:
         assert "access_token" in response.json()
 
         # Test duplicate username
-        response = client.post(
+        response = await async_client.post(
             "/register",
             data={
                 "username": "testuser1",
@@ -68,7 +70,7 @@ class TestAuth:
         assert response.status_code == 400
 
         # Test duplicate email
-        response = client.post(
+        response = await async_client.post(
             "/register",
             data={
                 "username": "testuser4",
@@ -78,7 +80,7 @@ class TestAuth:
         assert response.status_code == 400
 
         # Test invalid email
-        response = client.post(
+        response = await async_client.post(
             "/register",
             data={
                 "username": "testuser4",
@@ -88,7 +90,7 @@ class TestAuth:
         assert response.status_code == 422
 
         # Test email sending failure
-        response = client.post(
+        response = await async_client.post(
             "/register",
             data={
                 "username": "testuser4",
@@ -98,13 +100,14 @@ class TestAuth:
         assert response.status_code == 500
 
     @pytest.mark.usefixtures("check")
-    def test_verify_account(self, client, monkeypatch, mock_db):
+    @pytest.mark.asyncio
+    async def test_verify_account(self, async_client, monkeypatch, mock_db):
         otp = mock_db.query(OTP).filter(OTP.username == "testuser3").first()
         monkeypatch.setattr("utilities.mailer.send", mock_send_email)
         # Test wrong code
-        wrong_response = client.post(
+        wrong_response = await async_client.post(
             "/register/verify",
-            headers = {"Authorization": f"Bearer 3"},
+            headers = {"Authorization": f"Bearer 4"},
             data={
                 "otp": '000000',
             })
@@ -112,69 +115,71 @@ class TestAuth:
         assert wrong_response.json().get("detail") == "Invalid OTP"
 
         # Test invalid code
-        wrong_response = client.post(
+        wrong_response = await async_client.post(
             "/register/verify",
-            headers = {"Authorization": f"Bearer 3"},
+            headers = {"Authorization": f"Bearer 4"},
             data={
                 "otp": '00000',
             })
         assert wrong_response.status_code == 422
 
-        wrong_response = client.post(
+        wrong_response = await async_client.post(
             "/register/verify",
-            headers = {"Authorization": f"Bearer 3"},
+            headers = {"Authorization": f"Bearer 4"},
             data={
                 "otp": '0000000',
             })
         assert wrong_response.status_code == 422
 
         # Test correct code
-        response = client.post(
+        response = await async_client.post(
             "/register/verify",
-            headers = {"Authorization": f"Bearer 3"},
+            headers = {"Authorization": f"Bearer 4"},
             data={
                 "otp": otp.otp_code,
             })
         assert response.status_code == 200
 
         # Test already verified
-        wrong_response = client.post(
+        wrong_response = await async_client.post(
             "/register/verify",
-            headers = {"Authorization": f"Bearer 3"},
+            headers = {"Authorization": f"Bearer 4"},
             data={
                 "otp": otp.otp_code,
             })
         assert wrong_response.json().get("detail") == "Email verified before"
 
     @pytest.mark.usefixtures("check")
-    def test_resend(self, client, monkeypatch, mock_db):
+    @pytest.mark.asyncio
+    async def test_resend(self, async_client, monkeypatch, mock_db):
         monkeypatch.setattr("utilities.mailer.send", mock_send_email)
         user = mock_db.query(User).filter(User.user_id == 1).first()
         user.email_verified_at = None
         # Test send normal
-        r = client.post(
+        r = await async_client.post(
             "/register/resend",
             headers = {"Authorization": f"Bearer 1"}
         )
         assert r.status_code == 200
 
         # Test send too fast
-        r = client.post(
+        r = await async_client.post(
             "/register/resend",
             headers = {"Authorization": f"Bearer 1"}
         )
         assert r.status_code == 429
 
         # Test already verified
-        r = client.post(
+        r = await async_client.post(
             "/register/resend",
             headers = {"Authorization": f"Bearer 3"}
         )
         assert r.status_code == 400
 
     @pytest.mark.usefixtures("check")
-    def test_refresh(self, client):
-        r = client.post(
+    @pytest.mark.asyncio
+    async def test_refresh(self, async_client):
+        r = await async_client.post(
             "/login",
             data = {
                 "username": "testuser1",
@@ -184,7 +189,7 @@ class TestAuth:
         rft = r.json().get("refresh_token")
 
         # Test correct token
-        r = client.post(
+        r = await async_client.post(
             "/refresh",
             data = {
                 "refresh_token": rft
@@ -194,7 +199,7 @@ class TestAuth:
         assert r.json().get("access_token") is not None
 
         # Test invalid token
-        r = client.post(
+        r = await async_client.post(
             "/refresh",
             data = {
                 "refresh_token": "7T8MPw03lnFQzf4T0j4uHPZYvyNpNxdZHU2HMh3gfI0GIBH+63FtkJ0QZD8hsTwq"
@@ -203,8 +208,9 @@ class TestAuth:
         assert r.status_code == 401
 
     @pytest.mark.usefixtures("check")
-    def test_logout(self, client):
-        r = client.post(
+    @pytest.mark.asyncio
+    async def test_logout(self, async_client):
+        r = await async_client.post(
             "/login",
             data = {
                 "username": "testuser1",
@@ -214,25 +220,26 @@ class TestAuth:
         acs = r.json().get("access_token")
 
         # Test invalid token
-        r = client.post(
+        r = await async_client.post(
             "/logout",
             headers={"Authorization": "Bearer 7T8MPw03lnFQzf4T0j4uHPZYvyNpNxdZHU2HMh3gfI0GIBH+63FtkJ0QZD8hsTwq"}
         )
         assert r.status_code == 400
 
         # Test valid token
-        r = client.post(
+        r = await async_client.post(
             "/logout",
             headers={"Authorization": f"Bearer {acs}"}
         )
         assert r.status_code == 200
 
     @pytest.mark.usefixtures("check")
-    def test_recover_password(self, client, monkeypatch):
+    @pytest.mark.asyncio
+    async def test_recover_password(self, async_client, monkeypatch):
         monkeypatch.setattr("utilities.mailer.send", mock_send_email)
 
         # Test normal request
-        r = client.post(
+        r = await async_client.post(
             "/recover",
             data = {
                 "username": "testuser1",
@@ -241,7 +248,7 @@ class TestAuth:
         assert r.status_code == 200
         
         # Test request too fast
-        r = client.post(
+        r = await async_client.post(
             "/recover",
             data = {
                 "username": "testuser1",
@@ -250,7 +257,7 @@ class TestAuth:
         assert r.status_code == 429
         
         # Test user not found
-        r = client.post(
+        r = await async_client.post(
             "/recover",
             data = {
                 "username": "testuser999",
@@ -259,10 +266,11 @@ class TestAuth:
         assert r.status_code == 404
 
     @pytest.mark.usefixtures("check")
-    def test_recoverVerify_andReset(self, client, mock_db):
+    @pytest.mark.asyncio
+    async def test_recoverVerify_andReset(self, async_client, mock_db):
         otp = mock_db.query(OTP).filter(OTP.username == "testuser1", OTP.purpose == OTP_Purpose.OTP_PASSWORD_RESET).first()
         # Test invalid username
-        r = client.post(
+        r = await async_client.post(
             "/recover/verify",
             data = {
                 "username": "testuser2",
@@ -272,7 +280,7 @@ class TestAuth:
         assert r.status_code == 400
 
         # Test invalid otp
-        r = client.post(
+        r = await async_client.post(
             "/recover/verify",
             data = {
                 "username": "testuser1",
@@ -280,7 +288,7 @@ class TestAuth:
             }
         )
         assert r.status_code == 400
-        r = client.post(
+        r = await async_client.post(
             "/recover/verify",
             data = {
                 "username": "testuser1",
@@ -290,7 +298,7 @@ class TestAuth:
         assert r.status_code == 422
 
         # Test valid otp
-        r = client.post(
+        r = await async_client.post(
             "/recover/verify",
             data = {
                 "username": "testuser1",
@@ -302,7 +310,7 @@ class TestAuth:
         assert rst is not None
 
         # Test invalid reset token
-        r = client.post(
+        r = await async_client.post(
             "/reset",
             data = {
                 "reset_token": "7T8MPw03lnFQzf4T0j4uHPZYvyNpNxdZHU2HMh3gfI0GIBH+63FtkJ0QZD8hsTwq",
@@ -312,7 +320,7 @@ class TestAuth:
         assert r.status_code == 401
 
         # Test invalid password
-        r = client.post(
+        r = await async_client.post(
             "/reset",
             data = {
                 "reset_token": rst,
@@ -322,7 +330,7 @@ class TestAuth:
         assert r.status_code == 422
 
         # Test valid reset token
-        r = client.post(
+        r = await async_client.post(
             "/reset",
             data = {
                 "reset_token": rst,

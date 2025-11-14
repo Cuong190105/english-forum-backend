@@ -1,16 +1,25 @@
 from datetime import datetime, timezone
+from io import BytesIO
 from typing import Annotated
 import bcrypt
-from fastapi import Depends, HTTPException, Request, status
+from fastapi import Depends, HTTPException, Request, UploadFile, status
 from fastapi.testclient import TestClient
+import redis.asyncio as aioredis
+from httpx import ASGITransport, AsyncClient
 import pytest
+import pytest_asyncio
 from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.orm import sessionmaker
 from database.database import Base, get_db, Db_dependency
-from database.models import User, Post, Comment, Credentials
+from database.models import Activity, Notification, User, Post, Comment, Credentials, Following
 from database import models
 from routers.dependencies import getUserFromToken, oauth2_scheme
 from main import app
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+REDIS_CONNECTIONSTRING = os.getenv("REDIS_CONNECTIONSTRING")
 
 @pytest.fixture(scope="package")
 def connection(tmp_path_factory):
@@ -32,6 +41,67 @@ def check():
     # print("Tables in DB:", inspect(engine).get_table_names())
 
 
+@pytest.fixture(scope="function")
+def mock_file():
+    list_files = {
+        "normal_jpg": (
+            "virus.jpg",
+            BytesIO(b"fake jpg content"),
+            "image/jpg"
+        ),
+        "normal_jpeg": (
+            "virus.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "too_big_png": (
+            "image.png",
+            BytesIO(b"x" * (6 * 1024 * 1024)),
+            "image/png"
+        ),
+        "normal_mp4": (
+            "video.mp4",
+            BytesIO(b"x" * (19 * 1024 * 1024)),
+            "video/mp4"
+        ),
+        "too_big_mp4": (
+            "fatvideo.mp4",
+            BytesIO(b"x" * (101 * 1024 * 1024)),
+            "video/mp4"
+        ),
+        "wrong_type_txt": (
+            "document.txt",
+            BytesIO(b"fake txt content"),
+            "text/plain"
+        ),
+        "file7": (
+            "virus1.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file8": (
+            "virus2.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file9": (
+            "virus3.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file10": (
+            "virus4.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+        "file11": (
+            "virus5.jpeg",
+            BytesIO(b"fake jpeg content"),
+            "image/jpeg"
+        ),
+    }
+    return list_files
+
 @pytest.fixture(scope="class")
 def seed_data(mock_db):
     # Create users
@@ -44,6 +114,15 @@ def seed_data(mock_db):
         username="testuser2",
         email="email2@example.com",
         email_verified_at=datetime.now(timezone.utc),
+    ))
+    mock_db.add(User(
+        username="companion",
+        email="emailcompanion@example.com",
+        email_verified_at=datetime.now(timezone.utc),
+    ))
+    mock_db.add(Following(
+        follower_id=3,
+        following_user_id=1,
     ))
 
     password1 = bcrypt.hashpw("testuser1password".encode('utf-8'), bcrypt.gensalt())
@@ -82,6 +161,19 @@ def seed_data(mock_db):
         post_id=1, 
         content="content2",
     ))
+    mock_db.add(Activity(
+        actor_id = 1,
+        target_type = "comment",
+        target_id = 1,
+        action_type = "like",
+        action_id = 1,
+        created_at = datetime.now(timezone.utc),
+    ))
+    mock_db.add(Notification(
+        user_id=1,
+        activity_id=1,
+        action_type="like",
+    ))
     mock_db.commit()
 
 async def getFakeUser(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency, request: Request):
@@ -104,12 +196,17 @@ def mock_db(connection):
     finally:
         db.close()
 
+@pytest_asyncio.fixture(scope="function")
+async def redis_client():
+    client = await aioredis.from_url(REDIS_CONNECTIONSTRING, decode_responses=True)
+    yield client
+    await client.aclose()
 
-@pytest.fixture(scope="package")
-def client(mock_db):
+@pytest_asyncio.fixture(scope="package")
+async def async_client(mock_db):
     def override_get_db():
         yield mock_db
     app.dependency_overrides[getUserFromToken] = getFakeUser
     app.dependency_overrides[get_db] = override_get_db
-    client = TestClient(app)
-    yield client
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        yield client
