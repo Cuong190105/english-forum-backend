@@ -4,8 +4,8 @@ import pytest
 from types import SimpleNamespace
 
 # Relative import per package layout (test file lives in same package 'utilities')
-from . import ai_generator_LLM_Clone as ai_mod
-from .ai_generator_LLM_Clone import _call_genai
+from utilities import ai_generator_LLM_Clone as ai_mod
+from utilities.ai_generator_LLM_Clone import _call_genai
 
 
 def _make_client_with_response(resp_obj):

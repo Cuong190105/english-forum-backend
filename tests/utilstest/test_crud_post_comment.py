@@ -1,11 +1,12 @@
-from fastapi import HTTPException
 import pytest
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 from utilities import post, user as userutils, comment
-from database.database import Base
 from database.models import User, Post, Comment
 from datetime import datetime, timedelta, timezone
+
+def fake_redis_publish(channel, message):
+    """A fake redis publish function for testing."""
+    if channel == "wrong_channel":
+        raise Exception("Failed to publish")
 
 @pytest.mark.usefixtures("setup_database", "seed_data")
 class TestPostComment:
@@ -55,7 +56,8 @@ class TestPostComment:
         assert await post.getPost(3, mock_db) is None
 
     @pytest.mark.asyncio
-    async def test_votePost(self, mock_db):
+    async def test_votePost(self, mock_db, monkeypatch):
+        monkeypatch.setattr("redis.publish", fake_redis_publish)
         user1 = mock_db.query(User).filter(User.username == "username1").first()
         user2 = mock_db.query(User).filter(User.username == "username2").first()
         post11 = mock_db.query(Post).filter(Post.post_id == 11).first()
@@ -93,7 +95,7 @@ class TestComment:
         assert len(await comment.getComments(mock_db, post2, user1, 0, 10)) == 1
 
     @pytest.mark.asyncio
-    async def test_createComment(self, mock_db):
+    async def test_createComment(self, mock_db, redisdb):
         user1 = mock_db.query(User).filter(User.username == "username1").first()
         user2 = mock_db.query(User).filter(User.username == "username2").first()
         post1 = mock_db.query(Post).filter(Post.post_id == 1).first()

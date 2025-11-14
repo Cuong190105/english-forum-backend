@@ -135,8 +135,10 @@ async def publishPostEvent(post_id: int, message: dict):
         post_id: ID of the post
         message: Message content to publish
     """
-    pass
-    await redis.publish(f"post_{post_id}", json.dumps(message))
+    try:
+        await redis.publish(f"post_{post_id}", json.dumps(message))
+    except Exception as e:
+        print(f"Error publishing post event: {e}")
 
 async def eventStream(type: Literal['noti', 'post'], target_id: int):
     """

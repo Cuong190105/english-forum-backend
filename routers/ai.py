@@ -26,19 +26,6 @@ class GenerateFromTextRequest(BaseModel):
     num_items: Optional[int] = Field(default=1, ge=1, le=10)
     mode: Optional[str] = Field(default='cot', pattern=r'^(cot|minimal)$')
 
-
-@router.post('/ai/generate/{post_id}', response_model=OutputAIGeneratedItems, status_code=status.HTTP_200_OK)
-async def generate_homework(this_user: User_auth, post_id: int, req: GenerateRequest, db: Db_dependency):
-    post = db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
-    if not post:
-        raise HTTPException(status_code=404, detail='Post not found')
-    items = llm_generate_homework(post.content, req.type, req.num_items)
-    if not items:
-        raise HTTPException(status_code=500, detail='AI generation failed')
-    # return the strict JSON items directly
-    return {'items': items}
-
-
 @router.post('/ai/generate-from-text', response_model=OutputAIGeneratedItems, status_code=status.HTTP_200_OK)
 async def generate_from_text(this_user: User_auth,req: GenerateFromTextRequest):
     """

@@ -1,9 +1,9 @@
 # from azure.storage.fileshare import ShareServiceClient
-# from dotenv import load_dotenv
-# import os
-# load_dotenv()
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # connection_string = os.getenv('AZURE_STORAGEFILE_CONNECTIONSTRING')
 # service_client = ShareServiceClient.from_connection_string(connection_string)
 
-MOUNT_PATH = 'D:/Study/Web/english-forum/storage'
+MOUNT_PATH = os.getenv('MOUNT_PATH')
