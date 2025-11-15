@@ -8,6 +8,7 @@ from configs.config_redis import Redis_dep
 from database.database import Db_dependency
 from database.models import Post, Attachment, PostVote, User
 from database.outputmodel import OutputPost, SimpleAttachment
+from utilities import comment as cmtutils
 from configs.config_post import FeedCriteria, FileChange
 from configs.config_validation import FileRule
 from utilities.activity import logActivity, publishPostEvent
@@ -23,8 +24,7 @@ async def getPost(post_id: int, db: Db_dependency):
     Returns:
         Optional[models.Post]: The requested post if found, else None
     """
-    post = db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
-    return post
+    return db.query(Post).filter(Post.post_id == post_id, Post.is_deleted == False).first()
 
 async def queryFeed(db: Db_dependency, cursor: datetime, criteria: FeedCriteria, limit: int):
     """
@@ -39,7 +39,6 @@ async def queryFeed(db: Db_dependency, cursor: datetime, criteria: FeedCriteria,
     Returns:
         Optional[list[models.Post]]: The requested posts. If criteria is invalid, return None
     """
-
     if criteria not in typing.get_args(FeedCriteria) or limit < 1:
         return None
     query = db.query(Post)

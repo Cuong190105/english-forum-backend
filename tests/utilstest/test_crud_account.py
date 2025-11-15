@@ -8,11 +8,11 @@ from datetime import datetime, timedelta, timezone
 class TestAccount:
 
     @pytest.mark.asyncio
-    async def test_getUserByUsername(self, mock_db, mock_redis):
+    async def test_getUserByUsername(self, mock_db):
         print(mock_db.query(User).all())
-        user1 = await userutils.getUserByUsername("username1", mock_db, mock_redis)
-        user2 = await userutils.getUserByUsername("username2", mock_db, mock_redis)
-        user3 = await userutils.getUserByUsername("username3", mock_db, mock_redis)
+        user1 = await userutils.getUserByUsername("username1", mock_db)
+        user2 = await userutils.getUserByUsername("username2", mock_db)
+        user3 = await userutils.getUserByUsername("username3", mock_db)
 
         # Check if user can be queried
         assert user1 is not None
@@ -29,7 +29,7 @@ class TestAccount:
     #     pass
 
     @pytest.mark.asyncio
-    async def test_createNewAccount(self, mock_db, mock_redis):
+    async def test_createNewAccount(self, mock_db):
         user3 = await account.createNewAccount(mock_db, "username3", "username3", "username3@example.com")
         user2 = await account.createNewAccount(mock_db, "username2", "username2", "username3@example.com")
         user1 = await account.createNewAccount(mock_db, "username4", "username2", "username1@example.com")
@@ -41,15 +41,15 @@ class TestAccount:
         assert user3.username == "username3"
 
         # Check if user info is written to db
-        assert await userutils.getUserByUsername("username3", mock_db, mock_redis) is not None
+        assert await userutils.getUserByUsername("username3", mock_db) is not None
 
         # Check if function returns None on exception
         assert user2 is None
         assert user1 is None
 
     @pytest.mark.asyncio
-    async def test_updateBasicInfo(self, mock_db, mock_redis):
-        user1 = await userutils.getUserByUsername("username1", mock_db, mock_redis)
+    async def test_updateBasicInfo(self, mock_db):
+        user1 = await userutils.getUserByUsername("username1", mock_db)
         await account.updateBio(mock_db, user1, "new bio")
         await account.updateUsername(mock_db, user1, "username11")
 
@@ -57,9 +57,9 @@ class TestAccount:
         assert user1.bio == "new bio"
         assert user1.username == "username11"
 
-        user12 = await userutils.getUserByUsername("username1", mock_db, mock_redis)
+        user12 = await userutils.getUserByUsername("username1", mock_db)
         assert user12 is None
-        user11 = await userutils.getUserByUsername("username11", mock_db, mock_redis)
+        user11 = await userutils.getUserByUsername("username11", mock_db)
         assert user11 is not None
         assert user11.user_id == user1.user_id
         assert user11.bio == "new bio"
@@ -111,8 +111,8 @@ class TestAccount:
 
 
     @pytest.mark.asyncio
-    async def test_updateEmail(self, mock_db, mock_redis):
-        user = await userutils.getUserByUsername("username2", mock_db, mock_redis)
+    async def test_updateEmail(self, mock_db):
+        user = await userutils.getUserByUsername("username2", mock_db)
         otp = await security.generateOtp("username2", OTP_Purpose.OTP_EMAIL_CHANGE, mock_db)
         await account.createEmailChangeRequest(mock_db, otp, user, "user2@example.com", True)
 
@@ -143,7 +143,7 @@ class TestAccount:
         assert request.is_revoked is True
 
         otp = await security.generateOtp("username3", OTP_Purpose.OTP_EMAIL_CHANGE, mock_db)
-        user3 = await userutils.getUserByUsername("username3", mock_db, mock_redis)
+        user3 = await userutils.getUserByUsername("username3", mock_db)
         await account.createEmailChangeRequest(mock_db, otp, user3, "user3@example.com", True)
 
         jwt = security.createToken(
@@ -180,8 +180,8 @@ class TestAccount:
         assert await security.cancelEmailChangeRequest(mock_db, wrong_jwt3) is False
 
     @pytest.mark.asyncio
-    async def test_updatePassword(self, mock_db, mock_redis):
-        user = await userutils.getUserByUsername("username11", mock_db, mock_redis)
+    async def test_updatePassword(self, mock_db):
+        user = await userutils.getUserByUsername("username11", mock_db)
         await account.updatePassword(mock_db, user, "newpassword") is False
 
         # Check if password is updated correctly

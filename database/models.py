@@ -1,4 +1,3 @@
-import json
 import uuid
 from sqlalchemy import Boolean, Column, Integer, String, Text, DateTime, ForeignKey, and_, func
 from sqlalchemy.orm import relationship
@@ -250,22 +249,3 @@ class CommentVote(Base):
     # _________Relationship_____________
     user = relationship("User", back_populates="commentvotes", single_parent=True)
     comment = relationship("Comment", back_populates="votes", single_parent=True)
-
-def jsonify(instance):
-    """Convert SQLAlchemy model instance to JSON."""
-    res = {}
-    for c in instance.__table__.columns:
-        res[c.name] = getattr(instance, c.name)
-        if isinstance(res[c.name], datetime):
-            res[c.name] = res[c.name].isoformat()
-    return json.dumps(res)
-
-def dejsonify(model, json_str):
-    """Convert JSON string to SQLAlchemy model instance."""
-    data = json.loads(json_str)
-    for key, value in data.items():
-        if hasattr(model, key):
-            column_type = getattr(model, key).property.columns[0].type
-            if isinstance(column_type, DateTime):
-                data[key] = datetime.fromisoformat(value)
-    return model(**data)

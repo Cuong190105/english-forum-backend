@@ -1,4 +1,3 @@
-from configs.config_redis import Redis_dep
 from database.database import Db_dependency
 from datetime import datetime, timedelta, timezone
 from database import models
@@ -73,7 +72,7 @@ async def createNewAccount(db: Db_dependency, username: str, password: str, emai
         return None
     return new_user
 
-async def resetPassword(db: Db_dependency, token: str, new_password: str, redis: Redis_dep):
+async def resetPassword(db: Db_dependency, token: str, new_password: str):
     """
     Reset user password on forget request.
 
@@ -98,7 +97,7 @@ async def resetPassword(db: Db_dependency, token: str, new_password: str, redis:
     if record is None or record.is_token_used:
         return False
     
-    user = await userutils.getUserByUsername(payload.get("sub"), db, redis)
+    user = await userutils.getUserByUsername(payload.get("sub"), db)
     await updatePassword(db, user, new_password)
     record.is_token_used = True
     db.commit()

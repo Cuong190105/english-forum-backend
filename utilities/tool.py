@@ -1,11 +1,10 @@
 from sqlmodel import or_
-from configs.config_redis import Redis_dep
 from database.database import Db_dependency
 from database.models import User, Post
 from utilities.user import getSimpleUser
 from utilities.post import getOutputPost
 
-async def search(redis: Redis_dep, db: Db_dependency, user: User, keyword: str):
+async def search(db: Db_dependency, user: User, keyword: str):
     """
     Search for users and posts that contain given keyword.
 
@@ -23,7 +22,7 @@ async def search(redis: Redis_dep, db: Db_dependency, user: User, keyword: str):
     users = db.query(User).filter(User.username.ilike(param)).all()
     posts = db.query(Post).filter(or_(Post.content.ilike(param), Post.title.ilike(param), Post.tag.ilike(param)), Post.is_deleted == False).all()
 
-    outputUsers = [getSimpleUser(user, u, redis) for u in users]
+    outputUsers = [getSimpleUser(user, u) for u in users]
     outputPosts = [await getOutputPost(user, p) for p in posts]
 
     return {

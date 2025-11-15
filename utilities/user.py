@@ -1,11 +1,10 @@
-from configs.config_redis import Redis_dep
 from configs.config_user import Relationship
 from database.database import Db_dependency
 from database.outputmodel import SimpleUser
-from database.models import Comment, Post, User, Following, PostVote, CommentVote, jsonify, dejsonify
+from database.models import Comment, Post, User, Following, PostVote, CommentVote
 from sqlalchemy import or_
 
-async def getUserByUsername(username: str, db: Db_dependency, redis: Redis_dep):
+async def getUserByUsername(username: str, db: Db_dependency):
     """
     Get user by username.
 
@@ -16,16 +15,10 @@ async def getUserByUsername(username: str, db: Db_dependency, redis: Redis_dep):
     Returns:
         Optional[models.User]: user if found, else None.
     """
-
-    cached = await redis.get(f"User_{username}")
-    if cached is not None:
-        return dejsonify(User, cached)
     user = db.query(User).filter(or_(User.username == username, User.email == username)).first()
-    if user is not None:
-        await redis.set(f"User_{username}", jsonify(user), ex=30)
     return user
 
-async def getUpvoteCount(user: User, redis: Redis_dep):
+def getUpvoteCount(user: User):
     """
     Count all upvotes this user get on their posts and comments.
 
@@ -36,19 +29,15 @@ async def getUpvoteCount(user: User, redis: Redis_dep):
         int: Upvote count
     """
 
-    cached = await redis.get(f"User_{user.username}_upvotes")
-    if cached is not None:
-        return cached
     voteCount = 0
+
     for p in user.posts:
         voteCount += p.votes.filter(PostVote.value == 1).count()
     for c in user.comments:
         voteCount += c.votes.filter(CommentVote.value == 1).count()
-    await redis.set(f"User_{user.username}_upvotes", voteCount, ex=30)
-
     return voteCount
 
-async def getSimpleUser(this_user: User, user: User, redis: Redis_dep):
+def getSimpleUser(this_user: User, user: User):
     """
     Create `SimpleUser` object from `User` data for output.
 
@@ -69,7 +58,7 @@ async def getSimpleUser(this_user: User, user: User, redis: Redis_dep):
         following_count=len(list(user.following)),
         post_count=len(list(user.posts.filter(Post.is_deleted == False))),
         comment_count=len(list(user.comments.filter(Comment.is_deleted == False))),
-        upvote_count=await getUpvoteCount(user, redis),
+        upvote_count=getUpvoteCount(user),
     )
 
 async def changeRelationship(db: Db_dependency, actor: User, target: User, reltype: Relationship):
