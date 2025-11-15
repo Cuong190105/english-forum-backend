@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+import json
 from typing import Annotated, Optional
 from zoneinfo import ZoneInfo
 from fastapi import APIRouter, File, Form,  HTTPException, status, Depends, UploadFile
@@ -28,26 +29,36 @@ class PostTextContent(BaseModel):
         return cls(title=title, content=content, tag=tag)
 
 @router.get("/", status_code=status.HTTP_200_OK)
-async def get_newsfeed(this_user: User_auth, db: Db_dependency, criteria: FeedCriteria = 'latest', cursor: datetime | None = None, limit: PositiveInt = 15):
+async def get_newsfeed(this_user: User_auth, db: Db_dependency, redis: Redis_dep, criteria: FeedCriteria = 'latest', cursor: datetime | None = None, limit: PositiveInt = 15):
     """
     Get latest posts for user's feed.\n
     Return a list of post.
     """
     if cursor == None:
         cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
+    cached = await redis.get(f"NewsFeed_{criteria}_{cursor.year}_{cursor.month}_{cursor.day}_{cursor.hour}_{cursor.minute}_{limit}")
+    if cached is not None:
+        posts = [OutputPost.model_validate_json(p) for p in json.loads(cached)]
+        return posts
     feed = await postutils.queryFeed(db, cursor, criteria, limit)
     if feed is None:
         raise HTTPException(status.HTTP_400_BAD_REQUEST, detail="Query parameter invalid")
     
     output = [await postutils.getOutputPost(this_user, p) for p in feed]
+    string_data = json.dumps([p.model_dump_json() for p in output])
+    await redis.set(f"NewsFeed_{criteria}_{cursor.year}_{cursor.month}_{cursor.day}_{cursor.hour}_{cursor.minute}_{limit}", string_data, ex=30)
     return output
 
 @router.get("/posts/{post_id}", status_code=status.HTTP_200_OK, response_model=OutputPost)
-async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
+async def get_post(redis: Redis_dep, post_id: int, this_user: User_auth, db: Db_dependency):
     """
     Get the post by post_id
     """
+    cached = await redis.get(f"Post_{post_id}")
+    if cached is not None:
+        return OutputPost.model_validate_json(cached)
     post = await postutils.getPost(post_id, db)
+    await redis.set(f"Post_{post_id}", post.model_dump_json(), ex=60)
     if post is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     return await postutils.getOutputPost(this_user, post)

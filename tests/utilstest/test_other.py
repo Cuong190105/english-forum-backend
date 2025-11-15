@@ -14,9 +14,9 @@ from utilities import activity, mailer
 class TestOther:
 
     @pytest.mark.asyncio
-    async def test_getMentionedUser(self, mock_db):
+    async def test_getMentionedUser(self, mock_db, mock_redis):
         post = "@username1 @username2 check this out!"
-        assert len(await activity.getMentionedUser(post, mock_db)) == 2
+        assert len(await activity.getMentionedUser(post, mock_db, mock_redis)) == 2
 
     @pytest.mark.asyncio
     async def test_getNotification(self, mock_db):

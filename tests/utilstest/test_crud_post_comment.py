@@ -30,7 +30,7 @@ class TestPostComment:
 
     @pytest.mark.asyncio
     async def test_createPost(self, mock_redis, mock_db):
-        user = await userutils.getUserByUsername("username1", mock_db)
+        user = await userutils.getUserByUsername("username1", mock_db, mock_redis)
         new_post = await post.createPost(mock_redis, mock_db, user, "New Post", "New Content", "question")
         assert new_post.post_id is not None
         assert new_post.title == "New Post"

@@ -44,7 +44,7 @@ async def logActivity(actor_id: int, redis: Redis_dep, db: Db_dependency, action
 
     # Non-vote action: Post, comment
     if not action.startswith('vote') :
-        mentionList = {user.user_id for user in await getMentionedUser(content, db)}
+        mentionList = {user.user_id for user in await getMentionedUser(content, db, redis)}
         for user_id in mentionList:
             if user_id == actor_id:
                 continue
@@ -66,11 +66,11 @@ async def logActivity(actor_id: int, redis: Redis_dep, db: Db_dependency, action
         db.add(act)
     db.commit()
 
-async def getMentionedUser(content: str, db: Db_dependency):
+async def getMentionedUser(content: str, db: Db_dependency, redis: Redis_dep):
     username = re.findall(r"\@" + Pattern.USERNAME_PATTERN[1:-1], content)
     users = []
     for n in username:
-        u = await getUserByUsername(n[1:], db)
+        u = await getUserByUsername(n[1:], db, redis)
         if u is not None:
             users.append(u)
     return users

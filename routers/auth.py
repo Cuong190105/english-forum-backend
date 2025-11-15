@@ -1,4 +1,5 @@
 from configs.config_auth import *
+from configs.config_redis import Redis_dep
 from configs.config_validation import Pattern
 from database.database import Db_dependency
 from database import models
@@ -18,7 +19,7 @@ class RegisterRequest(BaseModel):
 router = APIRouter()
 
 @router.post("/login", status_code=status.HTTP_200_OK)
-async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db_dependency):
+async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db_dependency, redis: Redis_dep):
     """
     Handle login requests.
 
@@ -31,7 +32,7 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
         On failure, return status code with detail.
     """
     
-    user = await userutils.getUserByUsername(request.username, db)
+    user = await userutils.getUserByUsername(request.username, db, redis)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Username not found")
     if not security.verifyPassword(request.password, user.credential.password_hash):
@@ -50,7 +51,7 @@ async def login(request: Annotated[OAuth2PasswordRequestForm, Depends()], db: Db
     }
 
 @router.post("/register", status_code=status.HTTP_201_CREATED)
-async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependency):
+async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependency, redis: Redis_dep):
     """
     Handle user registration requests.
 
@@ -64,8 +65,8 @@ async def register(request: Annotated[RegisterRequest, Form()], db: Db_dependenc
     """
 
     # Check if username or email already exists
-    check_username = await userutils.getUserByUsername(request.username, db)
-    check_email = await userutils.getUserByUsername(request.email, db)
+    check_username = await userutils.getUserByUsername(request.username, db, redis)
+    check_email = await userutils.getUserByUsername(request.email, db, redis)
     if check_username is not None or check_email is not None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username or email already exists")
 
@@ -149,14 +150,14 @@ async def logout(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependenc
     return {"message": "Logout successful"}
     
 @router.post("/recover", status_code=status.HTTP_200_OK)
-async def recover_password(username: Annotated[str, Form()], db: Db_dependency):
+async def recover_password(username: Annotated[str, Form()], db: Db_dependency, redis: Redis_dep):
     """
     Handle password recovery requests.\n
     If the username or email exists, send a recovery email.
     """
     
     # Check if user exists by username or email and then get user ID
-    user = await userutils.getUserByUsername(username, db)
+    user = await userutils.getUserByUsername(username, db, redis)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     

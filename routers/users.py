@@ -1,11 +1,12 @@
 from datetime import datetime
+import json
 from typing import Annotated
 from zoneinfo import ZoneInfo
 from fastapi import APIRouter, File, Form,  HTTPException, Query, UploadFile, status, Depends
 from pydantic import EmailStr
+from configs.config_redis import Redis_dep
 from database.database import Db_dependency
-from database.models import Following
-from database.outputmodel import SimpleUser
+from database.outputmodel import OutputComment, OutputPost, SimpleUser
 from routers.dependencies import User_auth
 from utilities import account, mailer, security, user as userutils, attachments, post, comment
 from configs.config_auth import OTP_Purpose
@@ -14,21 +15,27 @@ from configs.config_validation import Pattern
 router = APIRouter()
 
 @router.get("/user", status_code=status.HTTP_200_OK, response_model=SimpleUser)
-async def get_current_user(this_user: User_auth):
+async def get_current_user(this_user: User_auth, redis: Redis_dep):
     """
     Get current user info
     """
-    return userutils.getSimpleUser(this_user, this_user)
+    
+    return userutils.getSimpleUser(this_user, this_user, redis)
 
 @router.get("/user/{username}", status_code=status.HTTP_200_OK, response_model=SimpleUser)
-async def get_user(this_user: User_auth, username: str, db: Db_dependency):
+async def get_user(this_user: User_auth, username: str, db: Db_dependency, redis: Redis_dep):
     """
     Get user info by username
     """
-    requested_user = await userutils.getUserByUsername(username, db)
+    cached = await redis.get(f"SimpleUser_{username}")
+    if cached is not None:
+        return SimpleUser.model_validate_json(cached)
+    requested_user = await userutils.getUserByUsername(username, db, redis)
     if requested_user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
-    return userutils.getSimpleUser(this_user, requested_user)
+    user = await userutils.getSimpleUser(this_user, requested_user, redis)
+    await redis.set(f"SimpleUser_{username}", user.model_dump_json(), ex=30)
+    return user
 
 @router.put("/user/bio", status_code=status.HTTP_200_OK)
 async def update_bio(bio: Annotated[str, Form(min_length=1)], this_user: User_auth, db: Db_dependency):
@@ -41,13 +48,13 @@ async def update_bio(bio: Annotated[str, Form(min_length=1)], this_user: User_au
     }
 
 @router.put("/user/username", status_code=status.HTTP_200_OK)
-async def update_username(username: Annotated[str, Form(pattern=Pattern.USERNAME_PATTERN)], this_user: User_auth, db: Db_dependency):
+async def update_username(username: Annotated[str, Form(pattern=Pattern.USERNAME_PATTERN)], this_user: User_auth, db: Db_dependency, redis: Redis_dep):
     """
     Update user username.
     """
 
     # Check if username is unique
-    record = await userutils.getUserByUsername(username, db)
+    record = await userutils.getUserByUsername(username, db, redis)
     if record is not None:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Username already exists")
     
@@ -59,13 +66,13 @@ async def update_username(username: Annotated[str, Form(pattern=Pattern.USERNAME
     }
 
 @router.put("/user/email", status_code=status.HTTP_200_OK)
-async def update_email_address(email: Annotated[EmailStr, Form()], this_user: User_auth, db: Db_dependency):
+async def update_email_address(email: Annotated[EmailStr, Form()], this_user: User_auth, db: Db_dependency, redis: Redis_dep):
     """
     Update user email address
     """
 
     # Check if email is unique
-    record = await userutils.getUserByUsername(email, db)
+    record = await userutils.getUserByUsername(email, db, redis)
     if record is not None:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="Email already exists")
 
@@ -141,14 +148,14 @@ async def update_avatar(db: Db_dependency, this_user: User_auth, new_avatar: Upl
     }
 
 @router.post("/user/{username}/{reltype}", status_code=status.HTTP_200_OK)
-async def change_relationship(this_user: User_auth, username: str, reltype: Relationship, db: Db_dependency):
+async def change_relationship(this_user: User_auth, username: str, reltype: Relationship, db: Db_dependency, redis: Redis_dep):
     """
     Change user's relationship with another user.
     Relationship can be: follow, unfollow (block and unblock added later)
     """
     if this_user.username == username:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Self following not allowed")
-    target = await userutils.getUserByUsername(username, db)
+    target = await userutils.getUserByUsername(username, db, redis)
     if target is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     if not await userutils.changeRelationship(db, this_user, target, reltype):
@@ -158,43 +165,57 @@ async def change_relationship(this_user: User_auth, username: str, reltype: Rela
     }
 
 @router.get("/user/{username}/followers", status_code=status.HTTP_200_OK)
-async def get_followers_list(this_user: User_auth, db: Db_dependency, username: str):
+async def get_followers_list(this_user: User_auth, db: Db_dependency, username: str, redis: Redis_dep):
     """
     Get a list of user's followers
     """
-    user = await userutils.getUserByUsername(username, db)
+    user = await userutils.getUserByUsername(username, db, redis)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
     return list(user.followers)
 
 @router.get("/user/{username}/following", status_code=status.HTTP_200_OK)
-async def get_following_list(this_user: User_auth, db: Db_dependency, username: str):
+async def get_following_list(this_user: User_auth, db: Db_dependency, username: str, redis: Redis_dep):
     """
     Get a list of user's following.
     """
-    user = await userutils.getUserByUsername(username, db)
+    user = await userutils.getUserByUsername(username, db, redis)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
     return list(user.following)
 
 @router.get("/user/{username}/posts", status_code=status.HTTP_200_OK)
-async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):
+async def get_user_posts(redis: Redis_dep, db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):
     if cursor is None:
         cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
-    user = await userutils.getUserByUsername(username, db)
+    cached = await redis.get(f"UserPosts_{username}_{cursor.year}_{cursor.month}_{cursor.day}_{cursor.hour}_{cursor.minute}")
+    if cached is not None:
+        posts = [OutputPost.model_validate_json(p) for p in json.loads(cached)]
+        return posts
+    user = await userutils.getUserByUsername(username, db, redis)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    return await post.getUserPosts(this_user, user, cursor)
+    posts = await post.getUserPosts(this_user, user, cursor)
+    data_string = json.dumps([p.model_dump_json() for p in posts])
+    await redis.set(f"UserPosts_{username}_{cursor.year}_{cursor.month}_{cursor.day}_{cursor.hour}_{cursor.minute}", data_string, ex=30)
+    return posts
 
 @router.get("/user/{username}/comments", status_code=status.HTTP_200_OK)
-async def get_user_posts(db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):
+async def get_user_comments(redis: Redis_dep, db: Db_dependency, this_user: User_auth, username: str, cursor: datetime | None= None):
     if cursor is None:
         cursor = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
-    user = await userutils.getUserByUsername(username, db)
+    cached = await redis.get(f"UserComments_{username}_{cursor.year}_{cursor.month}_{cursor.day}_{cursor.hour}_{cursor.minute}")
+    if cached is not None:
+        comments = [OutputComment.model_validate_json(c) for c in json.loads(cached)]
+        return comments
+    user = await userutils.getUserByUsername(username, db, redis)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     
-    return await comment.getUserComments(this_user, user, cursor)
+    comments = await comment.getUserComments(this_user, user, cursor)
+    data_string = json.dumps([c.model_dump_json() for c in comments])
+    await redis.set(f"UserComments_{username}_{cursor.year}_{cursor.month}_{cursor.day}_{cursor.hour}_{cursor.minute}", data_string, ex=30)
+    return comments
