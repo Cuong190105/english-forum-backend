@@ -2,18 +2,20 @@ import asyncio
 from datetime import datetime, timedelta, timezone
 import json
 from typing import Literal
+
+from fastapi import Request
 from database.database import Db_dependency
 from database.models import Activity, Comment, Following, Notification, User
 from database.outputmodel import OutputNotification
 from configs.config_validation import Pattern
-from configs.config_redis import redis
+from configs.config_redis import Redis_dep, get_redis
 from utilities.user import getUserByUsername
 import re
 
 ActionType = Literal['post', 'comment', 'reply', 'vote_post', 'vote_comment', 'follow']
 ActionTarget = Literal['user', 'comment', 'post']
 
-async def logActivity(actor_id: int, db: Db_dependency, action: ActionType, content: str, action_id: int, target_type: ActionTarget, target_id: int, target_noti_id: int = None):
+async def logActivity(actor_id: int, redis: Redis_dep, db: Db_dependency, action: ActionType, content: str, action_id: int, target_type: ActionTarget, target_id: int, target_noti_id: int = None):
     """
     Log user activities for traceback and generate notifications.
 
@@ -46,19 +48,19 @@ async def logActivity(actor_id: int, db: Db_dependency, action: ActionType, cont
         for user_id in mentionList:
             if user_id == actor_id:
                 continue
-            act.notifications.append(await createNotification(user_id, "mention"))
+            act.notifications.append(await createNotification(redis, user_id, "mention"))
         
         if action == 'post':
             followers = db.query(Following).filter(Following.following_user_id == actor_id, Following.unfollow == False).all()
             for follower in followers:
                 if follower.follower_id not in mentionList:
-                    act.notifications.append(await createNotification(follower.follower_id, "post"))
+                    act.notifications.append(await createNotification(redis, follower.follower_id, "post"))
         elif actor_id != target_noti_id:
-            act.notifications.append(await createNotification(target_noti_id, action))
+            act.notifications.append(await createNotification(redis, target_noti_id, action))
 
     # Vote action
     elif actor_id != target_noti_id:
-        act.notifications.append(await createNotification(target_noti_id, action))
+        act.notifications.append(await createNotification(redis, target_noti_id, action))
 
     if new_act:
         db.add(act)
@@ -73,17 +75,17 @@ async def getMentionedUser(content: str, db: Db_dependency):
             users.append(u)
     return users
 
-async def createNotification(user_id: int, action_type: str):
+async def createNotification(redis: Redis_dep, user_id: int, action_type: str):
     now = datetime.now(timezone.utc)
     noti = Notification(
         user_id=user_id,
         action_type=action_type,
         created_at=datetime.now(timezone.utc),
     )
-    await redis.publish(f"noti_{user_id}", json.dumps({
+    await publishEvent(redis, f"noti_{user_id}", {
         "message": "New notification",
         "timestamp": (now + timedelta(seconds=1)).isoformat(),
-    }))
+    })
     return noti
 
 async def getNotifications(user: User, db: Db_dependency, cursor: datetime, since_id: int):
@@ -128,19 +130,32 @@ async def markAsRead(db: Db_dependency, user: User, notification_id: int):
     db.commit()
     return noti
 
-async def publishPostEvent(post_id: int, message: dict):
+async def publishPostEvent(redis: Redis_dep, post_id: int, message: dict):
     """
     Publish event to Redis channel for real-time post updates.
     Params:
+        redis: Redis client dependency
         post_id: ID of the post
         message: Message content to publish
     """
-    try:
-        await redis.publish(f"post_{post_id}", json.dumps(message))
-    except Exception as e:
-        print(f"Error publishing post event: {e}")
+    await publishEvent(redis, f"post_{post_id}", message)
 
-async def eventStream(type: Literal['noti', 'post'], target_id: int):
+async def publishEvent(redis: Redis_dep, channel: str, message: dict):
+    """
+    Publish event to Redis channel.
+    Params:
+        redis: Redis client dependency
+        channel: Channel name
+        message: Message content to publish
+    """
+    try:
+        if redis is not None:
+            await redis.publish(channel, json.dumps(message))
+    except Exception as e:
+        redis = None
+        print(f"Error publishing event to {channel}: {e}. Redis stopped.")
+
+async def eventStream(redis: Redis_dep, type: Literal['noti', 'post'], target_id: int, request: Request):
     """
     Async generator to yield messages from Redis Pub/Sub channel.
     """
@@ -148,13 +163,27 @@ async def eventStream(type: Literal['noti', 'post'], target_id: int):
     channel = f"{type}_{target_id}"
     await pubsub.subscribe(channel)
     try:
+        MESSAGE_TIMEOUT = 15
+        if request.app.state.is_testing:
+            MESSAGE_TIMEOUT = 0.1
+            lap = 3
+
         while True:
-            message = await pubsub.get_message(ignore_subscribe_messages=True, timeout=15)
+            # For SSE connection testing
+            if request.app.state.is_testing:
+                lap -= 1
+                if lap == 0:
+                    await publishEvent(redis, channel, {"message": "test message"})
+                elif lap < 0:
+                    break
+
+            message = await pubsub.get_message(ignore_subscribe_messages=True, timeout=MESSAGE_TIMEOUT)
             if message:
                 yield f"data: {message['data']}\n\n"
             else:
                 yield "data: {\"message\":\"keep-alive\"}\n\n"
+
             await asyncio.sleep(0.01)  # small sleep to prevent busy waiting
     finally:
         await pubsub.unsubscribe(channel)
-        await pubsub.close()
+        await pubsub.aclose()

@@ -3,6 +3,7 @@ from database.database import Db_dependency
 from database.outputmodel import OutputComment
 from typing import Annotated
 from routers.dependencies import User_auth
+from configs.config_redis import Redis_dep
 from utilities.activity import logActivity
 from utilities.post import getPost
 from utilities import comment as cmtutils
@@ -28,7 +29,7 @@ async def get_post_comments(db: Db_dependency, this_user: User_auth, post_id: in
     return comments
 
 @router.post("/posts/{post_id}/comments", status_code=status.HTTP_201_CREATED)
-async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[str, Form(min_length=1)], db: Db_dependency, reply_comment_id: int | None = None):
+async def upload_comment(redis: Redis_dep, this_user: User_auth, post_id: int, content: Annotated[str, Form(min_length=1)], db: Db_dependency, reply_comment_id: int | None = None):
     """
     Upload a comment for a post
     """
@@ -49,14 +50,14 @@ async def upload_comment(this_user: User_auth, post_id: int, content: Annotated[
             
     
     # Create comment object
-    comment = await cmtutils.createComment(db, this_user, post, content, reply_comment_id)
+    comment = await cmtutils.createComment(redis, db, this_user, post, content, reply_comment_id)
     if comment is None:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Comment cannot be blank")
      
     if reply_comment_id is not None:
-        await logActivity(this_user.user_id, db, 'reply', comment.content, comment.comment_id, 'comment', target.comment_id, target.author.user_id)
+        await logActivity(this_user.user_id, redis, db, 'reply', comment.content, comment.comment_id, 'comment', target.comment_id, target.author.user_id)
     else:
-        await logActivity(this_user.user_id, db, 'comment', comment.content, comment.comment_id, 'post', post.post_id, post.author_id)
+        await logActivity(this_user.user_id, redis, db, 'comment', comment.content, comment.comment_id, 'post', post.post_id, post.author_id)
 
     return {
         "message": "Comment Uploaded",
@@ -103,7 +104,7 @@ async def delete_comment(this_user: User_auth, comment_id: int, db: Db_dependenc
     }
 
 @router.post("/comments/{comment_id}/vote", status_code=status.HTTP_200_OK)
-async def vote_comment(this_user: User_auth, comment_id: int, vote_type: int, db: Db_dependency):
+async def vote_comment(this_user: User_auth, comment_id: int, vote_type: int, db: Db_dependency, redis: Redis_dep):
     """
     Change user's vote of a comment
     Vote type can be -1, 0, 1 for downvote, no vote or upvote
@@ -115,7 +116,7 @@ async def vote_comment(this_user: User_auth, comment_id: int, vote_type: int, db
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Comment not found")
     
     # Update vote count
-    if not await cmtutils.voteComment(db, this_user, cmt, vote_type):
+    if not await cmtutils.voteComment(redis, db, this_user, cmt, vote_type):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid value")
 
     return {"message": "Voted"}

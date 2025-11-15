@@ -2,6 +2,7 @@ from __future__ import annotations
 import os
 import json
 import re
+import traceback
 from typing import List, Dict, Any, Optional, Literal
 from pathlib import Path
 
@@ -193,8 +194,10 @@ def classify_topic(text: str) -> str:
                     break
         if display_choice:
             return display_choice
-    except Exception:
+    except Exception as e:
         if DEBUG:
+            print(e)
+            traceback.print_tb(e.__traceback__)
             print('[ai] classify_topic: fallback triggered')
 
     # Deterministic fallback: first category's first item
@@ -551,67 +554,6 @@ def build_locked_prompt(hw_type: str, locked_topic: str, post_text: str, num_ite
         )
         return f"{base_rules}\n{minimal_guidance}\n{user_common}"
 
-
-# =========================
-# Batch caller (best-effort)
-# =========================
-def _call_genai_batch(
-    prompts: List[str],
-    *,
-    model: Optional[str] = None,
-    response_mime_type: Optional[str] = 'application/json',
-    response_schema: Any | None = None,
-    temperature: Optional[float] = None,
-    seed: Optional[int] = None,
-) -> List[str]:
-    key = os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
-    if not key:
-        raise RuntimeError('GOOGLE_API_KEY or GEMINI_API_KEY is not set in environment')
-    if genai is None or GenerateContentConfig is None:
-        raise RuntimeError('Google GenAI SDK not installed. Install: pip install google-genai')
-    model = model or os.getenv('GEMINI_MODEL') or 'gemini-2.5-flash'
-    client = _get_client()
-    cfg_kwargs = {
-        'response_mime_type': response_mime_type,
-        # Do not pass response_schema due to SDK transformer issues
-    }
-    if temperature is not None:
-        cfg_kwargs['temperature'] = float(temperature)
-    if seed is not None:
-        cfg_kwargs['seed'] = int(seed)
-    cfg = GenerateContentConfig(**cfg_kwargs)
-
-    # Try batch API if present
-    if hasattr(client.models, 'batch_generate_content'):
-        resp = client.models.batch_generate_content(model=model, contents=prompts, config=cfg)
-        texts: List[str] = []
-        for r in resp:
-            if getattr(r, 'parsed', None) is not None:
-                try:
-                    if hasattr(r.parsed, 'model_dump'):
-                        texts.append(json.dumps(r.parsed.model_dump(), ensure_ascii=False))
-                    elif hasattr(r.parsed, 'dict'):
-                        texts.append(json.dumps(r.parsed.dict(), ensure_ascii=False))
-                    else:
-                        texts.append(json.dumps(r.parsed, ensure_ascii=False))
-                    continue
-                except Exception:
-                    pass
-            if getattr(r, 'text', None):
-                texts.append(r.text)
-            else:
-                texts.append('')
-        return texts
-
-    # Fallback to serial calls
-    return [
-        _call_genai(p, model=model, response_mime_type=response_mime_type, response_schema=None,
-                    temperature=temperature, seed=seed)
-        for p in prompts
-    ]
-
-
-
 # =========================
 # Utils
 # =========================
@@ -715,8 +657,8 @@ def _call_genai(
             cfg_kwargs['seed'] = int(seed)
         cfg = GenerateContentConfig(**cfg_kwargs)
 
-    if DEBUG:
-        print('[ai] sending prompt (first 600 chars):\n', prompt[:600])
+    # if DEBUG:
+    #     print('[ai] sending prompt (first 600 chars):\n', prompt[:600])
 
     resp = client.models.generate_content(model=model, contents=prompt, config=cfg)
 
@@ -853,6 +795,7 @@ def generate_exercises_from_context(
 
     Returns a dict with keys: { 'topic': <display>, 'items': [ ... ] }
     """
+    print("REAL")
     topic_display = classify_topic(context_text)
     items = generate_with_llm(
         post_text=context_text,
@@ -864,21 +807,3 @@ def generate_exercises_from_context(
         locked_topic=topic_display,
     )
     return {"topic": topic_display, "items": items}
-
-
-def generate_homework(post_text: str, hw_type: str, num_items: int = 1) -> List[Dict[str, Any]]:
-    """Public API mirroring original but with topic-locked generation.
-
-    This now performs topic classification first, then generates items with the
-    locked topic to avoid drift. For direct control, call generate_with_llm with
-    an explicit locked_topic.
-    """
-    res = generate_exercises_from_context(
-        context_text=post_text,
-        hw_type=hw_type,
-        num_items=num_items,
-        mode='cot',
-        temperature=0.0,
-        seed=0,
-    )
-    return res.get('items', [])

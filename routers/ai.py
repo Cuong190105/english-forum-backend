@@ -6,8 +6,7 @@ from database.models import Post
 from routers.dependencies import User_auth
 from database.outputmodel import OutputAIGeneratedItems
 # Use our LLM generator utilities
-from utilities.ai_generator_LLM_Clone import (
-    generate_homework as llm_generate_homework,
+from utilities.ai import (
     generate_exercises_from_context,
 )
 

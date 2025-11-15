@@ -280,7 +280,7 @@ class TestPost:
 
 
     @pytest.mark.asyncio
-    async def test_votePost(self, redis_client, async_client, mock_db):
+    async def test_votePost(self, async_client, mock_db):
         mock_db.query(Post).filter(Post.post_id == 1).first().is_deleted = False
         mock_db.commit()
         # Test normal vote

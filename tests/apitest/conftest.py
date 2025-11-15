@@ -1,17 +1,19 @@
 from datetime import datetime, timezone
 from io import BytesIO
 from typing import Annotated
+from unittest import mock
 import bcrypt
+import fakeredis
 from fastapi import Depends, HTTPException, Request, UploadFile, status
 from fastapi.testclient import TestClient
-import redis.asyncio as aioredis
 from httpx import ASGITransport, AsyncClient
 import pytest
+from configs.config_redis import get_redis
 import pytest_asyncio
 from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.orm import sessionmaker
 from database.database import Base, get_db, Db_dependency
-from database.models import Activity, Notification, User, Post, Comment, Credentials, Following
+from database.models import Activity, Attachment, Notification, User, Post, Comment, Credentials, Following
 from database import models
 from routers.dependencies import getUserFromToken, oauth2_scheme
 from main import app
@@ -169,13 +171,20 @@ def seed_data(mock_db):
         action_id = 1,
         created_at = datetime.now(timezone.utc),
     ))
+    mock_db.add(Attachment(
+        post_id=2,
+        media_filename="name.png",
+        media_type="image/png",
+        media_metadata="",
+        index=0
+    ))
     mock_db.add(Notification(
         user_id=1,
         activity_id=1,
         action_type="like",
     ))
     mock_db.commit()
-
+    
 async def getFakeUser(token: Annotated[str, Depends(oauth2_scheme)], db: Db_dependency, request: Request):
     user = db.query(User).filter(User.user_id == int(token)).first()
     if user is None:
@@ -196,17 +205,21 @@ def mock_db(connection):
     finally:
         db.close()
 
-@pytest_asyncio.fixture(scope="function")
-async def redis_client():
-    client = await aioredis.from_url(REDIS_CONNECTIONSTRING, decode_responses=True)
-    yield client
-    await client.aclose()
-
 @pytest_asyncio.fixture(scope="package")
-async def async_client(mock_db):
+async def async_client(mock_db, fake_redis):
     def override_get_db():
         yield mock_db
+    async def override_get_redis():
+        yield fake_redis
+
     app.dependency_overrides[getUserFromToken] = getFakeUser
     app.dependency_overrides[get_db] = override_get_db
+    app.dependency_overrides[get_redis] = override_get_redis
+    app.state.is_testing = True
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        yield client
+
+@pytest_asyncio.fixture(scope="package")
+async def fake_redis():
+    async with fakeredis.FakeAsyncRedis(decode_responses=True) as client:
         yield client

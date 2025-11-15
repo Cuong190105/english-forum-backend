@@ -3,11 +3,11 @@ from typing import Annotated, Optional
 from zoneinfo import ZoneInfo
 from fastapi import APIRouter, File, Form,  HTTPException, status, Depends, UploadFile
 from pydantic import BaseModel, PositiveInt
+from configs.config_redis import Redis_dep
 from database.database import Db_dependency
 from database.outputmodel import OutputPost
 from routers.dependencies import User_auth
 from utilities import post as postutils, attachments as attutils
-from utilities.activity import logActivity
 from configs.config_post import FeedCriteria, PostTag
 from fastapi.responses import FileResponse
 
@@ -54,7 +54,7 @@ async def get_post(post_id: int, this_user: User_auth, db: Db_dependency):
 
 @router.post("/posts/upload", status_code=status.HTTP_201_CREATED)
 async def upload_post(
-    this_user: User_auth, db: Db_dependency,
+    this_user: User_auth, db: Db_dependency, redis: Redis_dep,
     text_content: Annotated[PostTextContent, Depends(PostTextContent.form)],
     attachments: Optional[list[UploadFile]] = File(None)
 ):
@@ -70,7 +70,7 @@ async def upload_post(
         ats = None
 
     # Create a post object and get its post_id
-    new_post = await postutils.createPost(db, this_user, text_content.title, text_content.content, text_content.tag, ats)
+    new_post = await postutils.createPost(redis, db, this_user, text_content.title, text_content.content, text_content.tag, ats)
 
     return {
         "message": "Post created",
@@ -140,7 +140,7 @@ async def delete_post(this_user: User_auth, post_id: int, db: Db_dependency):
     }
 
 @router.post("/posts/{post_id}/vote", status_code=status.HTTP_200_OK)
-async def vote_post(this_user: User_auth, post_id: int, vote_type: Annotated[int, Form()], db: Db_dependency):
+async def vote_post(this_user: User_auth, post_id: int, vote_type: Annotated[int, Form()], db: Db_dependency, redis: Redis_dep):
     """
     Change user's vote of a post
     Vote type can be -1, 0, 1 for downvote, no vote or upvote
@@ -152,7 +152,7 @@ async def vote_post(this_user: User_auth, post_id: int, vote_type: Annotated[int
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Post not found")
     
     # Update vote count
-    if not await postutils.votePost(db, this_user, post, vote_type):
+    if not await postutils.votePost(redis, db, this_user, post, vote_type):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid value")
 
     return {"message": "Voted"}

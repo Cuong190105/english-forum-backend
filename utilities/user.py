@@ -46,10 +46,8 @@ def getSimpleUser(this_user: User, user: User):
         user: User object need simplified.
 
     Returns:
-        Optional[SimpleUser]: Output simple user data, if `user` is `None`, return `None`.
+        SimpleUser: Output simple user data.
     """
-    if user is None:
-        return None
 
     return SimpleUser(
         username=user.username,

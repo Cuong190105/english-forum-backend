@@ -1,4 +1,5 @@
 from datetime import datetime
+from configs.config_redis import Redis_dep
 from database.database import Db_dependency
 from database.models import Post, Comment, CommentVote, User
 from database.outputmodel import OutputComment
@@ -80,7 +81,7 @@ async def getCommentById(db: Db_dependency, comment_id: int):
 
     return db.query(Comment).filter(Comment.comment_id == comment_id, Comment.is_deleted == False).first()
 
-async def createComment(db: Db_dependency, user: User, post: Post, content: str, reply_to_id: int | None):
+async def createComment(redis: Redis_dep, db: Db_dependency, user: User, post: Post, content: str, reply_to_id: int | None):
     """
     Create a comment on a post. Also trigger notification on target user: Post Author on normal comment, Target comment Author on reply.
 
@@ -109,7 +110,7 @@ async def createComment(db: Db_dependency, user: User, post: Post, content: str,
     db.commit()
     db.refresh(comment)
 
-    await publishPostEvent(comment.post_id, {
+    await publishPostEvent(redis, comment.post_id, {
         "message": f"New comment",
         "comment_id": comment.comment_id,
         "reply_to_id": comment.reply_to_id,
@@ -161,7 +162,7 @@ async def deleteComment(db: Db_dependency, comment: Comment):
 
     return True
 
-async def voteComment(db: Db_dependency, user: User, comment: Comment, value: int):
+async def voteComment(redis: Redis_dep, db: Db_dependency, user: User, comment: Comment, value: int):
     """
     Change user vote on a comment.
     Vote type can be -1, 0, 1 for downvote, no vote or upvote
@@ -198,9 +199,9 @@ async def voteComment(db: Db_dependency, user: User, comment: Comment, value: in
         db.refresh(vote)
 
         if is_new:
-            await logActivity(user.user_id, db, 'vote_comment', str(value), vote.vote_id, 'comment', comment.comment_id, comment.author_id)
+            await logActivity(user.user_id, redis, db, 'vote_comment', str(value), vote.vote_id, 'comment', comment.comment_id, comment.author_id)
 
-        await publishPostEvent(comment.post_id, {
+        await publishPostEvent(redis, comment.post_id, {
             "message": f"New vote comment",
             "comment_id": comment.comment_id,
             "total_value": comment.vote_count,

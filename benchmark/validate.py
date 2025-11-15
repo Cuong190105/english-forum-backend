@@ -3,7 +3,7 @@ from typing import List, Dict, Any, Tuple, Optional
 import re
 from pydantic import ValidationError
 
-from utilities.ai_generator_LLM_Clone import MCQList, FillList
+from utilities.ai import MCQList, FillList
 
 
 VI_PATTERN = re.compile(r"[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđĐ]")

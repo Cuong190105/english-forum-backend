@@ -4,6 +4,7 @@ import typing
 import uuid
 from fastapi import UploadFile
 from sqlalchemy import func
+from configs.config_redis import Redis_dep
 from database.database import Db_dependency
 from database.models import Post, Attachment, PostVote, User
 from database.outputmodel import OutputPost, SimpleAttachment
@@ -60,12 +61,8 @@ async def getOutputPost(user: User, post: Post):
         post: returned post
 
     Returns:
-        Optional[OutputPost]: OutputPost if post is not None, else None.
+        OutputPost: Post reformatted for output use.
     """
-
-
-    if post is None:
-        return None
     
     user_vote = post.votes.filter(PostVote.user_id == user.user_id).first()
     if user_vote is None:
@@ -105,7 +102,7 @@ async def getOutputPost(user: User, post: Post):
     )
     return output
 
-async def createPost(db: Db_dependency, author: User, title: str, content: str, tag: str, ats: list[Attachment] = None):
+async def createPost(redis: Redis_dep, db: Db_dependency, author: User, title: str, content: str, tag: str, ats: list[Attachment] = None):
     """
     Create a post.
     Params:
@@ -137,7 +134,7 @@ async def createPost(db: Db_dependency, author: User, title: str, content: str, 
     db.commit()
     db.refresh(post)
 
-    await logActivity(author.user_id, db, 'post', content, post.post_id, 'post', post.post_id, author.user_id)
+    await logActivity(author.user_id, redis, db, 'post', content, post.post_id, 'post', post.post_id, author.user_id)
 
 
     return post
@@ -179,7 +176,7 @@ async def deletePost(db: Db_dependency, post: Post):
         att.is_deleted = True
     db.commit()
 
-async def votePost(db: Db_dependency, user: User, post: Post, value: int):
+async def votePost(redis: Redis_dep, db: Db_dependency, user: User, post: Post, value: int):
     """
     Change user vote on a post.
     Vote type can be -1, 0, 1 for downvote, no vote or upvote
@@ -214,9 +211,9 @@ async def votePost(db: Db_dependency, user: User, post: Post, value: int):
         db.refresh(vote)
     
         if is_new:
-            await logActivity(user.user_id, db, 'vote_post', str(value), vote.vote_id, 'post', post.post_id, post.author_id)
+            await logActivity(user.user_id, redis, db, 'vote_post', str(value), vote.vote_id, 'post', post.post_id, post.author_id)
 
-        await publishPostEvent(post.post_id, {
+        await publishPostEvent(redis, post.post_id, {
             "message": f"New vote post",
             "total_value": post.vote_count,
         })

@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.mark.usefixtures("setup_database", "seed_data")
 class TestComment:
     

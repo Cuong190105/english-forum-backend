@@ -245,6 +245,18 @@ class TestUser:
             headers={"Authorization": "Bearer 1"})
         assert r.status_code == 200
 
+        # Test unfollow
+        r = await async_client.post(
+            "/user/companion/unfollow",
+            headers={"Authorization": "Bearer 1"})
+        assert r.status_code == 200
+
+        # Test refollow
+        r = await async_client.post(
+            "/user/companion/follow",
+            headers={"Authorization": "Bearer 1"})
+        assert r.status_code == 200
+
         # Test self follow
         r = await async_client.post(
             "/user/testuser1/follow",

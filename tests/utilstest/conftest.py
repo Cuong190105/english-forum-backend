@@ -1,6 +1,7 @@
 from io import BytesIO
 from fastapi import UploadFile
 import pytest
+import pytest_asyncio
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from database.database import Base
@@ -30,6 +31,14 @@ def mock_db(connection):
         yield db
     finally:
         db.close()
+
+@pytest_asyncio.fixture(scope="package", autouse=True)
+async def mock_redis():
+    # Setup redis
+    import fakeredis
+    async with fakeredis.FakeAsyncRedis() as client:
+        yield client
+
 
 class MockUploadFile(UploadFile):
     def __init__(self, filename, file, content_type):

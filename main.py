@@ -21,8 +21,8 @@ async def lifespan(app: FastAPI):
             from database import testdata
             testdata.prepareForTest()
     yield
-
 app = FastAPI(lifespan=lifespan,  debug= env != 'production')
+app.state.is_testing = False
 
 app.include_router(auth.router)
 app.include_router(users.router)

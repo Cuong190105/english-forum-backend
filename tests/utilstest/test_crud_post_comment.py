@@ -3,7 +3,7 @@ from utilities import post, user as userutils, comment
 from database.models import User, Post, Comment
 from datetime import datetime, timedelta, timezone
 
-def fake_redis_publish(channel, message):
+async def fake_redis_publish(channel, message):
     """A fake redis publish function for testing."""
     if channel == "wrong_channel":
         raise Exception("Failed to publish")
@@ -29,9 +29,9 @@ class TestPostComment:
         assert await post.queryFeed(mock_db, cursor=datetime.now(timezone.utc), criteria='trending', limit=-1) is None
 
     @pytest.mark.asyncio
-    async def test_createPost(self, mock_db):
+    async def test_createPost(self, mock_redis, mock_db):
         user = await userutils.getUserByUsername("username1", mock_db)
-        new_post = await post.createPost(mock_db, user, "New Post", "New Content", "question")
+        new_post = await post.createPost(mock_redis, mock_db, user, "New Post", "New Content", "question")
         assert new_post.post_id is not None
         assert new_post.title == "New Post"
 
@@ -56,30 +56,29 @@ class TestPostComment:
         assert await post.getPost(3, mock_db) is None
 
     @pytest.mark.asyncio
-    async def test_votePost(self, mock_db, monkeypatch):
-        monkeypatch.setattr("redis.publish", fake_redis_publish)
+    async def test_votePost(self, mock_redis, mock_db, monkeypatch):
         user1 = mock_db.query(User).filter(User.username == "username1").first()
         user2 = mock_db.query(User).filter(User.username == "username2").first()
         post11 = mock_db.query(Post).filter(Post.post_id == 11).first()
 
         # Upvote
-        await post.votePost(mock_db, user1, post11, 1)
+        await post.votePost(mock_redis, mock_db, user1, post11, 1)
         assert post11.vote_count == 1
-        await post.votePost(mock_db, user2, post11, 1)
+        await post.votePost(mock_redis, mock_db, user2, post11, 1)
         assert post11.vote_count == 2
 
         # Change to downvote
-        await post.votePost(mock_db, user1, post11, -1)
+        await post.votePost(mock_redis, mock_db, user1, post11, -1)
         assert post11.vote_count == 0
-        await post.votePost(mock_db, user1, post11, -1)
+        await post.votePost(mock_redis, mock_db, user1, post11, -1)
         assert post11.vote_count == 0
 
         # Remove vote
-        await post.votePost(mock_db, user1, post11, 0)
+        await post.votePost(mock_redis, mock_db, user1, post11, 0)
         assert post11.vote_count == 1
 
         # Invalid vote value
-        result = await post.votePost(mock_db, user1, post11, 2)
+        result = await post.votePost(mock_redis, mock_db, user1, post11, 2)
         assert result is False
         assert post11.vote_count == 1
 
@@ -95,17 +94,17 @@ class TestComment:
         assert len(await comment.getComments(mock_db, post2, user1, 0, 10)) == 1
 
     @pytest.mark.asyncio
-    async def test_createComment(self, mock_db, redisdb):
+    async def test_createComment(self, mock_redis, mock_db, monkeypatch):
         user1 = mock_db.query(User).filter(User.username == "username1").first()
         user2 = mock_db.query(User).filter(User.username == "username2").first()
         post1 = mock_db.query(Post).filter(Post.post_id == 1).first()
 
         # Test normal comment
-        await comment.createComment(mock_db, user1, post1, "New Comment 4", None)
+        await comment.createComment(mock_redis, mock_db, user1, post1, "New Comment 4", None)
         assert mock_db.query(Comment).filter(Comment.comment_id == 4).first() is not None
 
         # Test reply
-        reply1 = await comment.createComment(mock_db, user2, post1, "New Comment 5", 1)
+        reply1 = await comment.createComment(mock_redis, mock_db, user2, post1, "New Comment 5", 1)
         assert mock_db.query(Comment).filter(Comment.comment_id == 5).first().reply_to_id == 1
         assert reply1.reply_to.comment_id == 1
 
@@ -128,28 +127,28 @@ class TestComment:
         assert await comment.getCommentById(mock_db, 1) is None
 
     @pytest.mark.asyncio
-    async def test_voteComment(self, mock_db):
+    async def test_voteComment(self, mock_redis, mock_db):
         user1 = mock_db.query(User).filter(User.username == "username1").first()
         user2 = mock_db.query(User).filter(User.username == "username2").first()
         cmt1 = mock_db.query(Comment).filter(Comment.post_id == 1).first()
 
         # Upvote
-        await comment.voteComment(mock_db, user1, cmt1, 1)
+        await comment.voteComment(mock_redis, mock_db, user1, cmt1, 1)
         assert cmt1.vote_count == 1
-        await comment.voteComment(mock_db, user2, cmt1, 1)
+        await comment.voteComment(mock_redis, mock_db, user2, cmt1, 1)
         assert cmt1.vote_count == 2
 
         # Change to downvote
-        await comment.voteComment(mock_db, user1, cmt1, -1)
+        await comment.voteComment(mock_redis, mock_db, user1, cmt1, -1)
         assert cmt1.vote_count == 0
-        await comment.voteComment(mock_db, user1, cmt1, -1)
+        await comment.voteComment(mock_redis, mock_db, user1, cmt1, -1)
         assert cmt1.vote_count == 0
 
         # Remove vote
-        await comment.voteComment(mock_db, user1, cmt1, 0)
+        await comment.voteComment(mock_redis, mock_db, user1, cmt1, 0)
         assert cmt1.vote_count == 1
 
         # Invalid vote value
-        result = await comment.voteComment(mock_db, user1, cmt1, 2)
+        result = await comment.voteComment(mock_redis, mock_db, user1, cmt1, 2)
         assert result is False
         assert cmt1.vote_count == 1
